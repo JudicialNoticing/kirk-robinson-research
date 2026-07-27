@@ -1,0 +1,97 @@
+# BOC-AUDIT-2026-07-27 — Session Audit: Desk Closures, D-45/D-46 Resolution, and the Post-Series Corpus Discovery
+
+**File ID:** BOC-AUDIT-2026-07-27
+**Scope:** the four files touched this session — BOC-E07, BOC-E08, BOC-T1, and the newly created BOC-ROUTE-2026-07-27. Baseline at session start: E07 v1.3, E08 v1.0, T1 v1.3; register ceiling D-46; no WIP pending.
+**Session:** 2026-07-27, resumed from BOC-AUDIT-2026-07-20 Part 6 (the prioritized launch pad). All retrievals this session dated **2026-07-27**. First research session since 2026-07-20; the intervening 2026-07-26 activity was repository consolidation only (library moved from `~/Desktop/Kirk Staging` to `~/Documents/Kirk Robinson Research`, 69 files byte-verified, no content changed).
+**Related case context:** *State of Utah v. Tyler James Robinson*, Case No. 251403576, Fourth District Court, Provo. **Case posture was re-verified this session and had materially changed** — see Part 4 and BOC-ROUTE §4. All case-posture statements in the library are now date-stamped **as of 2026-07-27**. Robinson is presumed innocent and **has not been bound over for trial**.
+**Method:** launch-pad item 1 (the no-browser desk closures) executed first, per the scope decision taken at session start: (a) D-46 sweep run against the banked `feed.xml` and re-run against a fresh RSS pull; (b) D-45 closed with a Tier 1 institutional retrieval; (c) T1 Part B integration performed as pure desk work; (d) the continuation-set queue closed. The corpus discovered mid-sweep was **registered and routed only** — the depth explicitly chosen by the user — with no claim inventories built. Register impact applied as one version bump + one combined revision row per file, then convention-checked by grep.
+**Prepared:** July 27, 2026
+**Status:** v1.0
+
+**Headline result:** Both of BOC-E08's open register entries are **RESOLVED** — D-45 against Owens' sitting-director premise at Tier 1, and D-46 in both directions at once: the promised series finale never aired in series form, *and* the material was delivered as regular Eps 314–317, beginning on the very Monday promised. Register ran D-1–D-46 at session start and runs **D-1–D-47** at close, no gaps. But the session's largest output was unplanned: the D-46 sweep surfaced a **54-episode, 41-case-relevant corpus** (2026-03-19 → 2026-07-24) that the library does not cover at all, and a re-verification of case posture showed the library's own case statements had gone **stale** — a preliminary hearing concluded 2026-07-10 with **no bindover**, and the State's opening brief is due **tomorrow, 2026-07-28**.
+
+---
+
+## PART 1 — SESSION WORK PERFORMED (in order)
+
+1. **Resume + scope decision.** Read BOC-AUDIT-2026-07-20 Part 6. Two scope questions settled with the user before work began: continuation-set depth = **register + route only** (no claim inventories); browser-dependent registry batch = **desk work first, then decide** (it was not reached — see Part 5).
+2. **D-46 sweep.** Discovered the banked `BOC-E08_transcript-artifacts/feed.xml` (2026-07-20, 405 items) already covered the Mar 19–31 window, making the sweep a desk exercise. Extracted the window, then **re-pulled the feed fresh** (2026-07-27, HTTP 200, 409 items) to date the retrieval and test for drift. The two pulls agree item-for-item across the window. **D-46 resolved** (BOC-ROUTE §2).
+3. **Corpus discovery.** The fresh pull's five new items showed the case-focused output running to 2026-07-24 (Ep 365). Widened the extraction to 2026-03-19 → present: **54 episodes, 41 carrying case-relevant markers** in Owens' own titles and published chapter lists. Registered and routed at BOC-ROUTE §3/§6 — **not inventoried**.
+4. **Case-posture re-verification.** Because CLAUDE.md requires verifying *current* status before writing about case posture, and the library's stamp was 2026-07-20, posture was re-checked and found changed (Part 4). Recorded at BOC-ROUTE §4 with an explicit Medium-high grade and the reason it is not High.
+5. **D-45 close-out.** Woolsey's DCI tenure banked from the CIA's own Directors Portrait Gallery — **5 February 1993 – 10 January 1995** — with the adjacent gallery entries (Gates to 20 Jan 1993; Deutch from 10 May 1995) corroborating the boundary. **D-45 resolved** against the sitting-director premise; the documentary-appearance anchor graded separately and left open, per the D-44 lesson.
+6. **D-47 assigned and resolved.** Ep 358's title (2026-07-14) asserts "The Tyler Robinson Show Trial Begins"; the proceeding was a preliminary hearing that had **already concluded four days earlier**. Resolved against the literal claim after a three-part steelman, with the true anchor logged as a confirmation FOR Owens.
+7. **T1 Part B integration** — the step outstanding since 2026-07-20. Built the **BOC-E08 table (E08-1 – E08-19)** from BOC-E08 §16; corrected the file's title and framing from "Episodes 1–7" to "Episodes 1–8"; extended Part D exclusion 7 from Ep 311 alone to the whole corpus.
+8. **Continuation-set queue closed** in BOC-E07: Eps 309/310/311 date-fixed (2026-03-10/11/12) and routed.
+9. **Conventions check** (grep): register ceiling, single-assignment of D-47, one status-line bump and exactly one 2026-07-27 revision row per touched file. All pass (Part 2).
+
+## PART 2 — VERIFICATION POSTURE (what "verified" means in this session's files)
+
+| Layer | Coverage |
+|---|---|
+| D-46 placement finding | **Two independent pulls** of the same primary artifact (banked 2026-07-20 feed + fresh 2026-07-27 feed), agreeing item-for-item across the window; the claim rests on Owens' own published titles and chapter markers. **High** on placement. |
+| D-45 | **Tier 1 institutional primary**, retrieved directly (cia.gov), with internal corroboration from the adjacent directors' date boundaries. **High.** |
+| Case posture (Part 4) | Single named outlet (Deseret News), internally specific, consistent with other search-surfaced accounts. **Medium-high — deliberately not High**: this project has not read the docket. |
+| D-47 | Rests on a title (primary, Owens' own feed) checked against the posture record above. Docket leg resolved; characterization leg declared non-resolvable opinion. |
+| File edits | Convention-checked by grep (register integrity, version discipline, revision-row counts) — **not** line-by-line re-read. |
+| **The corpus (BOC-ROUTE §3)** | **Existence, dates, titles, durations, GUIDs only.** No episode was heard, watched, or transcribed. Content coverage is **zero**, by construction and by design. |
+
+**Stated plainly: no independent adversarial verification pass was run this session.** The 2026-07-20 session's 83/83 three-run adversarial standard was not replicated here. What this session has instead is direct primary retrieval (two of three findings rest on primary artifacts pulled first-hand), a duplicate-pull cross-check on the feed, and a conventions grep. A skeptical second pass over the D-46 reading and the corpus routing table remains **owed** and is the first item on the launch pad.
+
+## PART 3 — FILE → VERSION (every change this session)
+
+| File | Start → End | Substance |
+|---|---|---|
+| **BOC-ROUTE-2026-07-27_post-series-case-claims-corpus.md** | **created, v1.0** | D-46 resolution (§2); the 54-episode corpus inventory and routing table (§3); case posture verified as of 2026-07-27 (§4); **D-47 assigned and resolved** (§5); routing decisions incl. the file-placement rationale (§6); findings with the both-directions ledger (§7); six open items (§8) |
+| BOC-E08_Red-Sparrow_claim-inventory.md | v1.0 → **v1.1** | **D-45 RESOLVED** (new Tier 1 citation [10]) and **D-46 RESOLVED**; updated in place: header series-map + case-context lines, §6 Woolsey analyst note, §11 sign-off, V-12, V-31, F-4 (watch discharged → routing obligation), both register rows, §16 items 3–4; new citations [10] and [11]; case posture superseded to BOC-ROUTE §4 |
+| BOC-T1_Tier1-Acquisition-Roadmap_all-episodes.md | v1.3 → **v1.4** | **Part B E08 table added (E08-1 – E08-19)** — the step outstanding since 2026-07-20; title/framing corrected to "Episodes 1–8"; both series-scope notes updated from outstanding → complete; E08-2/E08-3 closed on creation; Part D exclusion 7 extended to the whole corpus; Fourth District Court docket flagged as the top Tier 1 target |
+| BOC-E07_Crazy-In-Love_claim-inventory.md | v1.3 → **v1.4** | Continuation-set queue **closed**: Eps 309/310/311 date-fixed and routed; header series-map closure paragraph; Open Item 15 fallback branch marked moot; migration reading promoted to a standing project rule |
+| BOC-AUDIT-2026-07-20_session-audit.md | v1.0 → **v1.1** | Supersession pointer only (Part 6 launch pad superseded by this file's Part 6; its "next D-number is D-47" line now consumed) |
+| *Untouched this session* | — | BOC-E01 – BOC-E06; the Phase 0 pull log; all five non-BOC topic folders; all three root dossiers |
+
+## PART 4 — CASE POSTURE, RE-VERIFIED (as of 2026-07-27)
+
+The library's posture statements were stamped 2026-07-20 and **had gone stale**. Corrected record, T1 via T3 (Deseret News, retrieved 2026-07-27), Medium-high:
+
+- A **preliminary hearing** — not a trial — ran **2026-07-06 → 2026-07-10**, Fourth District Court, Provo, **Judge Tony Graf**.
+- Graf **declined to rule on probable cause**, granting the defense's request for written briefing.
+- **State's opening brief due 2026-07-28** (tomorrow) · defense response **2026-08-11** · State's reply **2026-08-18** · **oral arguments 2026-09-01, 10:00 a.m.**
+- Six felonies (incl. aggravated murder, witness tampering, obstruction) plus a Class A misdemeanor; death-penalty notice on file for a post-conviction phase.
+- **No bindover. No trial has begun. No trial date on this record.**
+
+## PART 5 — REGISTER SNAPSHOT AT CLOSE (D-1 – D-47, no gaps)
+
+- **Resolved this session:** **D-45** (against Owens' sitting-director premise; anchor untouched), **D-46** (against the literal finale promise, **for** Owens on delivery of substance), **D-47** (against the literal "trial" claim; anchor true and logged for Owens).
+- **Newly assigned:** **D-47** — single assignment site, BOC-ROUTE §5. Grep-verified.
+- **Next number: D-48.** *Standing hazard, hit again this session:* the only "D-48" string on disk is the forward-looking note in BOC-ROUTE §9, exactly as "D-47" was a forward-looking note in the last audit. **Grep, then read the hit before assuming it is an assignment.**
+- Everything else unchanged from BOC-AUDIT-2026-07-20 Part 4.
+
+## PART 6 — RESIDUAL SCOPE (what this session did NOT establish)
+
+1. **The corpus is uninventoried — this is the dominant residual.** 54 episodes registered on titles, dates, and Owens' published chapter markers alone. Not one was heard, watched, or transcribed. **No register entry anywhere in this project may be resolved on BOC-ROUTE §3**; D-47 is the sole exception and rests on a title plus an independently verified public record.
+2. **No adversarial verification pass** was run on this session's output (Part 2). Owed.
+3. **Case posture is Medium-high, not High** — the Fourth District Court docket has not been read by this project. The briefing dates in particular should be confirmed against the record before being relied on.
+4. **The browser-dependent registry batch was not reached.** D-25 (ACC incorporator line) and D-42 (Ohio SoS / VRI date) remain exactly as they were on 2026-07-20 — untouched, both still decisive for their entries.
+5. **No Phase 1 work** (M-1, M-2, M-11 still unstarted); **no physical/request routes initiated** (ASU Spring 2012 commencement program for D-40/D-41; NY DOS FOIL for E07 F-1(d)); **no re-polls** (IRS 2026 XML, archive.today, SAM.gov).
+6. **No non-BOC topic folder was touched** — even though the corpus routes squarely into `files - Kirk assassination questions`, `files - Arrest chronology`, `files - Losee building`, and `files - DNA evidence`, no file in any of them was created or edited. Those folders' case-posture statements are **still stamped at their own older dates** and should be read against Part 4 until corrected.
+7. **`candaceowens.com` remains outside the searched space** for the Episode-9 null (unreachable 2026-07-20, not re-attempted today). The null is scoped to YouTube/RSS/Rumble wherever it is cited.
+8. **E01–E06 were not re-read or re-verified**; only cross-references to them were relied upon.
+9. **The repository was not committed to git.** The library became a git repo after the last research session, so no session-commit convention exists yet — a live decision for the user, not taken here.
+
+## PART 7 — NEXT-SESSION LAUNCH PAD (priority order, with entry points)
+
+1. **The scope decision that now governs everything else: inventory the corpus, or not?** 41 case-relevant episodes at roughly BOC-E08 cost each (dual ASR carriers + adversarial verification) is a program of work, not a task. **Recommended shape if approved:** not chronological — start with the four highest-value routes at BOC-ROUTE §6.3 — **Ep 327** (Robinson's grandfather on the rifle → rifle-photo dossier, DNA, arrest chronology), **Ep 328** (a claimed Lori Frantzve gun transaction → the one item squarely in *both* the BOC and forensics corpora), **Eps 360/362** (claimed lone witness / state witness → Losee building), **Ep 361** (the backpack → main-case evidence chain). **Prerequisite:** confirm transcript-carrier coverage for the 300-series *before* committing (Podscripts presumed; HappyScribe bot-blocked; pod.wave secondary) — BOC-ROUTE §8.3.
+2. **Fourth District Court docket, Case No. 251403576** (Utah XChange). The cheapest high-value Tier 1 target now open in the whole project: promotes Part 4 from Medium-high to High, is decisive for D-47's docket leg, and — with the State's brief due 2026-07-28 and oral argument 2026-09-01 — the record is **actively moving**. Do this early or the stamp goes stale again.
+3. **Owed adversarial pass** on this session's D-46 reading and the BOC-ROUTE §3 routing table (Part 2).
+4. **The interactive-browser registry batch**, unchanged and still bot-blocked to automation: ACC filing images (**D-25** decisive), Ohio SoS when up (**D-42** decisive), Delaware icis, CA bizfile, Maricopa Recorder, IRS TEOS.
+5. **Ep 315 single-episode inventory** — if the corpus program is declined, this one episode still merits a file: it is D-46's resolving artifact.
+6. **Physical/request routes** (multi-day, can only be initiated): ASU University Archives for the Spring 2012 commencement program (**D-40/D-41** decisive); NY DOS FOIL (**E07 F-1(d)**).
+7. **Phase 1 orders** (M-2 birth record, M-1, M-11) — still unstarted since the roadmap was written.
+8. **Standing discipline reminders:** next D-number is **D-48** (grep, then *read the hit* — the forward-looking-note hazard has now fired twice); one version bump + one combined revision row per file per session; **sweep Owens' output by channel and date, never by title string** (three confirmations); AZCC/Ohio facts stay "T1 via aggregator/mirror" until images are pulled.
+
+---
+
+## REVISION LOG
+
+| Version | Date | Change |
+|---|---|---|
+| 1.0 | 2026-07-27 | Initial file. Session audit for the 2026-07-27 desk-closure session. **D-45 RESOLVED** at Tier 1 (CIA Directors Portrait Gallery: Woolsey DCI 5 Feb 1993 – 10 Jan 1995) against the sitting-director premise, anchor graded separately and left open. **D-46 RESOLVED** in both directions — no finale in series form (null re-confirmed on a fresh RSS pull), material delivered as regular Eps 314–317 beginning on the promised Monday; steelman applied, resolution against the literal promise and **for** Owens on substance. **D-47 assigned and resolved** (Ep 358 "Show Trial Begins" vs. a preliminary hearing that had already concluded), anchor logged for Owens. **T1 Part B E08 integration completed** — the step outstanding since 2026-07-20. **BOC-E07 continuation-set queue closed.** Unplanned principal finding: a **54-episode, 41-case-relevant post-series corpus** (2026-03-19 → 2026-07-24) registered and routed in the new BOC-ROUTE-2026-07-27 — **registered only, uninventoried by design**. Case posture re-verified and corrected to 2026-07-27 (preliminary hearing 2026-07-06→10, Judge Tony Graf, **no bindover**, briefing through 2026-08-18, oral argument 2026-09-01) at Medium-high. Register D-1–D-47, no gaps; next number D-48. Residual scope in Part 6 — chiefly that **no adversarial verification pass was run this session** and that the corpus rests on titles and published chapter markers alone. Supersedes BOC-AUDIT-2026-07-20 Part 6 as the live launch pad. |
