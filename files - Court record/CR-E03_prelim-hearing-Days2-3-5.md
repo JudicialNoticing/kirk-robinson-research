@@ -7,7 +7,7 @@
 **Prepared:** July 27, 2026
 **Status:** v1.0
 
-**Headline result — a date correction the whole library was carrying wrong.** Rev's transcript pages date **Day 2 = 2026-07-08, Day 3 = 07-09, Day 4 = 07-10, Day 5 = 2026-07-13.** **The preliminary hearing did not conclude on July 10.** CR-ACQ §4, BOC-ROUTE §4 and both audits recorded "Monday 2026-07-06 through Friday 2026-07-10" from a single news report. It ran at least into **Monday 13 July**. → **D-51**.
+**Headline result — ⚠ WITHDRAWN 2026-07-28; see the D-51 box at §7.** *(As written 2026-07-27:)* **A date correction the whole library was carrying wrong.** Rev's transcript pages date **Day 2 = 2026-07-08, Day 3 = 07-09, Day 4 = 07-10, Day 5 = 2026-07-13.** **The preliminary hearing did not conclude on July 10.** CR-ACQ §4, BOC-ROUTE §4 and both audits recorded "Monday 2026-07-06 through Friday 2026-07-10" from a single news report. It ran at least into **Monday 13 July**. → **D-51**.
 
 **Second:** the DNA evidence is far more qualified than CR-E02 recorded — the **ATF's own analyst**, called by the defense, testified that none of her testing can speak to **how or when** DNA was deposited, that all evidence samples were **mixtures** of up to five people, that **several samples were entirely consumed**, that **elimination samples requested from investigating agents were never received**, and that the "one trillion" figure is a **reporting cap**, not a measurement. She also confirmed **support for inclusion of Lance Twiggs on the Dremel's buttons** and of **Matthew Robinson on the rifle's bolt and barrel**.
 
@@ -133,7 +133,24 @@ CR-E02 §5.4b (v1.2) recorded the Dremel chain — the toolmark identification a
 
 | # | Subject | Record | Sources | Status |
 |---|---|---|---|---|
-| **D-51** | Preliminary-hearing date range | This library recorded, from Deseret News, a hearing "held Monday 2026-07-06 through Friday 2026-07-10." Rev's transcript pages date **Day 2 = 07-08, Day 3 = 07-09, Day 4 = 07-10, Day 5 = 2026-07-13** | CR-ACQ §4 / BOC-ROUTE §4 vs. Day 2/3/5 transcript headers | **RESOLVED against the recorded range.** The hearing **extended to at least 2026-07-13**. Day 1's date is unfixed — Rev has no Day 1 — so the **start** date is not independently confirmed and the "07-06" element is unverified rather than refuted. Decisive artifact: the docket |
+> ### ⚠ D-51 WAS WRONGLY RESOLVED — REVERSED 2026-07-28
+> **Day 1 has been located** (`rev.com/transcripts/ut-v-tyler-robinson---day-1`, a slug that abandons the "preliminary-hearing" pattern entirely) and its page is dated **July 7, 2026**. The five pages therefore run **Jul 7, 8, 9, 10, 13** — five consecutive *business* days with a weekend gap before the last. That is the signature of **publication dates lagging each proceeding by one business day**, not of proceeding dates:
+>
+> | Proceeding | Rev page dated |
+> |---|---|
+> | Mon **Jul 6** | Tue Jul 7 |
+> | Tue **Jul 7** | Wed Jul 8 |
+> | Wed **Jul 8** | Thu Jul 9 |
+> | Thu **Jul 9** | Fri Jul 10 |
+> | Fri **Jul 10** | Mon Jul 13 (weekend) |
+>
+> Independently corroborated: a Daily Herald report **dated 2026-07-10** is headlined "Tyler Robinson's **five-day preliminary hearing concludes**; final arguments set for Sept. 1."
+>
+> **The original record was right.** The hearing ran **Monday 2026-07-06 through Friday 2026-07-10**, exactly as Deseret reported and as CR-ACQ §4 first stated. **D-51 is resolved FOR the secondary source and AGAINST this project's correction of it.**
+>
+> **The lesson, and it is sharper than the one D-51 originally drew.** D-51's stated rule was *"where the project holds a primary artifact, no secondary source may set a fact the artifact can settle."* The rule is sound; **its application was not**. A transcript service's **page date is metadata about a document, not the document's record of itself** — no different in kind from the selective-quotation and provenance failures at CR-ACQ §0 and CR-AUDIT §4. **Always ask what a datum is a fact *about*.** Here the date was a fact about Rev's publishing schedule, and it was read as a fact about a courtroom.
+
+| **D-51** | Preliminary-hearing date range | This library recorded, from Deseret News, a hearing "held Monday 2026-07-06 through Friday 2026-07-10." Rev's transcript pages date **Day 2 = 07-08, Day 3 = 07-09, Day 4 = 07-10, Day 5 = 2026-07-13** | CR-ACQ §4 / BOC-ROUTE §4 vs. Day 2/3/5 transcript headers | ⚠ **REVERSED 2026-07-28 — see the box above.** The Rev dates are **publication** dates lagging each proceeding by one business day. The hearing ran **2026-07-06 → 2026-07-10** as originally recorded. **Resolved FOR the secondary source.** |
 
 **Why it matters beyond tidiness.** Case posture is the one thing in this library that must be right and current; it is stamped, propagated and cited. A single news summary was allowed to set a date range that the project's own banked primary artifacts contradict — and those artifacts were sitting in the repository, unread, when the range was recorded. **The general rule this earns: where the project holds a primary artifact, no secondary source may set a fact the artifact can settle.**
 
