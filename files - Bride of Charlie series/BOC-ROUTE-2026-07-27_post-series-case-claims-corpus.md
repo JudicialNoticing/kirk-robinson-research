@@ -131,7 +131,7 @@ The library's case-posture statements were last date-stamped 2026-07-20. **They 
 
 Verified today from named journalistic reporting (Deseret News, Utah-based, retrieved 2026-07-27) — **T1 via T3**, since the underlying artifacts are court filings and a docket this project has not read directly:
 
-- A **preliminary hearing** — *not* a trial — was held **Monday 2026-07-06 through Friday 2026-07-10** in the **Fourth District Court, Provo**, before **Judge Tony Graf**.
+- A **preliminary hearing** — *not* a trial — was held in the **Fourth District Court, Provo**, before **Judge Tony Graf**. ⚠ **DATE CORRECTED (D-51, CR-E03 §7):** recorded here as "07-06 through 07-10" from one news report; the banked transcripts show **Day 5 sat 2026-07-13**, so the hearing ran at least to that date.
 - Prosecutors introduced forensic, video, and written evidence across roughly 30 hours.
 - **Judge Graf declined to rule on probable cause at the close of the hearing**, granting the defense's request for written briefing.
 - Briefing schedule: **State's opening brief due 2026-07-28** (tomorrow); **defense response 2026-08-11**; **State's reply 2026-08-18**; **oral arguments 2026-09-01 at 10:00 a.m.**
