@@ -22,3 +22,10 @@ This folder is both a git repository and an Obsidian vault. It was consolidated 
 ## Tools
 
 - `migrate-files.sh` — non-destructive verified copy of a research folder (used for all bulk file moves per CLAUDE.md operational rules)
+
+## Autonomous operation
+
+- **[QUEUE.md](QUEUE.md)** — the work graph. Every open item across the library, with its decisive artifact, blockers, cost and gate. This is what a loop dispatches from.
+- **[LOOP.md](LOOP.md)** — the execution protocol. Cycle definition, the provisional-findings rule, three gates with an always-human list, and hard stops. Written out of four real failures on 2026-07-27.
+- **[DOCKET-WATCH.md](DOCKET-WATCH.md)** — the calendar-driven half. Court deadlines through the bindover ruling; may acquire, may never touch case posture.
+- **`./queue-check.sh`** — integrity check for the queue and register. Run before and after any cycle.
