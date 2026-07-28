@@ -4,11 +4,10 @@
 **Generated:** 2026-07-28 · **Register ceiling:** D-51 · **Next number:** D-52
 **Protocol:** see [LOOP.md](LOOP.md). **Validator:** `./queue-check.sh`
 
-> **Loop is ARMED.** Cron job `28cde284`, hourly at **:23**, created 2026-07-28.
-> **Session-only** — it dies when the Claude session ends — and **auto-expires after 7 days**. It fires only while the session is idle.
-> Each firing runs **one** cycle per LOOP.md and commits with the Q-ID in the subject line.
-> **Stop it:** `CronDelete 28cde284`, or say so. **Audit it:** `git log --oneline --grep='Q-[0-9]'`.
-> This does **not** cover the docket (DOCKET-WATCH.md) — that needs a durable cloud routine via `/schedule`.
+> **Loop is DISARMED.** Cron `28cde284` was created 2026-07-28 and **cancelled the same day at session close**, before it ever fired. **Zero cycles have run; every Q item below is in its authored state.**
+> **To arm it:** create a recurring `CronCreate` job whose prompt is the cycle spec — validate with `./queue-check.sh`, take the top `ready` item, honour its gate per LOOP.md §3, execute to files, update this queue, log to the session audit, re-validate, commit with the Q-ID in the subject, push. Session-only; expires in 7 days; fires only while idle.
+> **Audit any cycles:** `git log --oneline --grep='Q-[0-9]'`.
+> This never covered the docket (DOCKET-WATCH.md) — that needs a durable cloud routine via `/schedule`, and it is the half with real deadlines.
 
 ## How to read this
 
@@ -94,6 +93,7 @@
 |---|---|---|---|
 | Q-31 | **Utah XChange subscription** — $10 one-time or $25 + $40/mo. Would open the docket directly | costs money | **human** |
 | Q-32 | **DocumentCloud project 224251** — bot-gated (403 / JS). Needs an interactive browser session | needs a live browser | **human** |
+| Q-41 | **Integrate the claude.ai project material** — files and ~3 chats from the claude.ai project "Kirk Robinson Research," last 24h as of 2026-07-28. **Not reachable from this environment**: no claude.ai Projects connector; Artifact list, Google Drive and local disk all checked and clear. Needs the user to export to disk, paste, or supply artifact URLs (those *are* fetchable). **Integration is not a copy** — each item needs a sourcing tier, a register check against D-1–D-51 so no duplicate numbers are assigned, and a dedup pass against the eight BOC files and five court-record files. Any findings enter `[PROVISIONAL]` per LOOP.md §2 | blocked | user must supply the content | the exported files / pasted text / artifact URLs | M | **human** |
 | Q-40 | **`files - George Zinn`** — CR-E04 §5.4 records an early detention expressly **not** treated as a suspect. **Whether this concerns that matter is NOT established and must not be assumed** | living person; unestablished identity | **human** |
 
 ---
