@@ -4,7 +4,7 @@
 **Scope:** the **sworn testimony of Samantha E.A. Karner**, ATF Firearm and Toolmark Examiner and author of the laboratory report of 2025-09-17, given on **Day 4** of the preliminary hearing in *State of Utah v. Tyler James Robinson*. This is the project's first file built on **Tier 1 sworn testimony**. It covers Karner's testimony from her swearing-in (06:23:51 on the transcript clock) to approximately 07:21. **It does not cover Day 4 as a whole** — see §1 for exactly what was and was not read.
 **Case context:** Case No. 251403576, Fourth Judicial District Court, Provo — Hon. **Tony F. Graf, Jr.** **Tyler Robinson is presumed innocent**; as of **2026-07-27** he has **not been bound over for trial** (probable-cause ruling reserved; oral argument 2026-09-01). A preliminary hearing tests probable cause only. Judge Graf twice reminded counsel of that limit during this testimony. Nothing below is a finding of fact by any court, and nothing is adopted by this project.
 **Prepared:** July 27, 2026
-**Status:** v1.0
+**Status:** v1.1 — **§3.6 added**, closing v1.0's largest declared gap: the State's cross-examination of Karner has now been read, and it substantially rehabilitates the methodology while producing an answer that bears directly on the defense's own bullet-fragment motion.
 
 **Headline result:** Karner's sworn testimony **confirms the report** read at CR-ACQ §3.1 and adds four things the report alone could not give:
 
@@ -103,6 +103,35 @@ Recorded as **the defense's line of attack**, not as established defect:
 
 **Confidence: High** as to the exchanges; **no view taken** on whether they undermine the conclusions. Judge Graf twice redirected this line toward probable cause.
 
+### 3.6 THE STATE'S CROSS-EXAMINATION — added v1.1, and it changes the balance
+
+v1.0 flagged the State's examination as the largest gap in this file. It has now been read (Mr. McBride, 82 turns, from ≈07:36). **It substantially rehabilitates the methodology**, and one answer bears directly on the defense's own motion.
+
+**The three comparison photographs — context that reverses their force.** Burt closed his direct by showing Karner three bullet comparisons (Exhibit 19, pp. 26–28), drawing agreement that individual characteristics and areas of agreement were visible, then asking: *"Would it surprise you if I told you that all three of those were fired from different weapons?"* She declined to conclude from photographs alone. On cross, McBride established what those images were: an **AFTE proficiency-test compilation, published around 2024, of photographs volunteered by examiners who had given an *incorrect* answer.** McBride then established the disanalogy:
+
+> **McBride:** "…when you do an examination or a comparison, are you limited to one photograph?" — **Karner:** "No."
+> **McBride:** "You actually have the item in front of you… you can manipulate it, you can turn it, you can look at every angle…" — **Karner:** "Yes, that's correct."
+> **McBride:** "Would it be responsible for you to reach a conclusion based on a single photograph of a very limited area of two bullets?" — **Karner:** "I would not feel comfortable doing that, no."
+
+**Analyst layer.** The defense demonstration showed that *photographs* of known-different bullets can display apparent agreement. It did **not** show that Karner's *examination* was unreliable, because her method is holistic across every land and groove impression with the item in hand. **Recorded in both directions:** the demonstration is a real illustration of examiner error existing in the discipline; it is not evidence of error here.
+
+**Qualifications (T1, sworn).** Six and a half years at ATF FSL–Washington; previously a latent fingerprint technician recovering prints from improvised explosive devices, and a crime scene investigator in Winston-Salem, NC and Anne Arundel County, MD (~5–6 years total). **B.S. Forensic and Investigative Science, West Virginia University**; graduate of the year-long **National Firearms Examiner Academy**, where she now **teaches** (test firing; mini moot court; comparison of bullets and cartridge cases). Completed supervised casework ~2022–23. **AFTE** member; attends NIST-involved research seminars.
+
+**Accreditation and proficiency.** The laboratory is **ANAB**-accredited — "an international standard of reporting, testimony, training and proficiency," audited every four years externally plus internal annual audits. She is **required to take proficiency tests** in every discipline within her scope.
+
+**On PCAST.** Asked about published criticism of the field, Karner testified that AFTE "takes those recommendations very seriously. If the PCAST asked for more specific design test studies, they said, 'Yes, we will do that.'" **Recorded as her testimony, not as an assessment of whether PCAST's concerns are in fact resolved** — a contested question this project does not adjudicate. Judge Graf permitted limited recross on the point, finding the State had opened the door.
+
+**Test-fire method.** Ammunition matched to caliber, fired into a **water recovery tank** to slow the bullet and cause minimal damage, so that comparison surfaces are preserved. The rifle is confirmed **bolt action**.
+
+**The answer that matters most — and it cuts toward the State on the defense's own motion:**
+
+> **McBride:** "Could further testing be done to try and see if… you come to a conclusion on this round?"
+> **Karner:** "There was no further testing that I could do, no."
+> **McBride:** "Is there further testing that could be done in the field?"
+> **Karner:** "**There is the possibility of using a 3D system to visualize the individual characteristics on the bullet.**"
+
+**Analyst layer — cross-file significance.** The "3D system" is the **Virtual Comparison Microscopy** the FBI proposed and the defense moved to block or condition (CR-ACQ §3.2). So the State elicited from the defense's own witness that **the contested testing is the one technique that might resolve the inconclusive result.** That reframes the motion: it is not a dispute about whether to destroy useless evidence, but about the terms on which the one potentially dispositive test proceeds. **Neither side's position is endorsed here** — the ruling remains unobtained.
+
 ## 4. THE FRAGMENT-COUNT DISCREPANCY
 
 > **Burt:** "Were you informed at some point that there was a discrepancy between what you were examining and what had been documented by the medical examiner, in terms of the number of bullet fragments?"
@@ -149,3 +178,4 @@ She also testified the evidence arrived **sealed**, in "a small individual manil
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-07-27 | Initial file. First Tier 1 **sworn testimony** inventory in this library. Covers Samantha Karner (ATF Firearm and Toolmark Examiner, author of the 2025-09-17 report) on Day 4 of the preliminary hearing, swearing-in through ≈07:21, on **direct examination by the defense** — which called the State's own examiner. Four substantive additions beyond the report: (a) **Karner confirms she used pliers** to peel back the jacket fragment's petals, resolving CR-ACQ §3.2's "may have already folded back" hedge to fact; (b) **the inconclusive result rests on data insufficiency, not dissimilarity** — marks of value were present, areas of agreement observed, damage described as "missing data points," with defense counsel himself conceding "missing is not the same thing as dissimilar," while the countervailing "may or may not have originated from the same source" formulation is recorded per the both-directions rule; (c) **the `source identification` on the cartridge case is reaffirmed under oath** and simultaneously bounded by the DOJ limiting language the defense walked her through, both halves recorded; (d) **new Register D-49** — a medical examiner's photograph reportedly showing seven fragments against five items received at ATF, logged as an open question with innocent readings stated and **no inference of loss or misconduct**. Method details recorded: six test fires in three sets, 6-right rifling, 0.286–0.301 in. diameter range, GRC hit list spanning several .30-caliber-class firearm types, no apparent subclass influence, dust in the barrel. Defense methodology challenges recorded as the defense's line, not as established defect. **Scope stated plainly in §1:** the State's examination of Karner, Faumuina, Agent Davis, the rest of Day 4, and Days 2/3/5 are all unread; Day 1 was never located; the transcript is a commercial service's rendering, not the certified record. No existing library file is treated as refreshed by this one. |
+| 1.1 | 2026-07-27 | **§3.6 added — the State's cross-examination**, which v1.0 named as its largest gap. Read (McBride, 82 turns from ≈07:36) and it changes the balance. The three bullet-comparison photographs the defense used were established on cross to be an **AFTE proficiency-test compilation of images volunteered by examiners who gave *incorrect* answers** — a demonstration that photographs can mislead, not that this examination did, since Karner's method is holistic with the item in hand ("Would it be responsible for you to reach a conclusion based on a single photograph…?" — "I would not feel comfortable doing that"). Qualifications, ANAB accreditation, mandatory proficiency testing, NFEA instruction, and the water-recovery-tank test-fire method recorded. Her PCAST answer recorded as testimony, not as a resolution of that debate. **Most consequential:** asked whether further testing could resolve the inconclusive result, she identified "the possibility of using a **3D system**" — i.e. the **Virtual Comparison Microscopy the defense moved to block or condition**, which reframes that motion as a dispute over the terms of the one potentially dispositive test. Verified unchanged on adversarial re-read (CR-AUDIT-2026-07-27 §3). |
