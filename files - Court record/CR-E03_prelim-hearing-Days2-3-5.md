@@ -25,11 +25,11 @@ Source: `prelim-hearing-transcripts/day{2,3,5}.txt`, banked 2026-07-27 from Rev.
 
 | Day | Size | Witnesses | **What was read** |
 |---|---|---|---|
-| **Day 2** (2026-07-08) | 295k condensed | **SA Dave Hull** (SBI, 347 turns, State/Sturgill); **Amanda Bakker** (FBI DNA, 391 turns, **defense**/Burt); Faumuina (58 turns) | ⚠ **Bakker's opening ~7k characters ONLY. Agent Hull was NOT READ AT ALL. Faumuina's Day 2 testimony NOT read.** This day is ~95% uncovered |
+| **Day 2** (2026-07-08) | 295k condensed | **SA Dave Hull** (SBI, 347 turns, State/Sturgill); **Amanda Bakker** (FBI DNA, 391 turns, **defense**/Burt); Faumuina (58 turns) | ⚠ **Bakker's opening ~7k characters ONLY. Faumuina's Day 2 testimony NOT read.** **Hull was subsequently read in CR-E04 (2026-07-28)** — direct in full, cross in substantial part |
 | **Day 3** (2026-07-09) | 127k | **Agent Brian Davis** (SBI, 174 turns, State/Hunt); Novak cross | Substantive core of the direct examination. **Novak's cross NOT read**; procedural argument skimmed |
 | **Day 5** (2026-07-13) | 102k | **Caitlin Oliver** (ATF DNA Section Chief, 184 turns, **defense**/Burt) | Direct examination read through the NGS/isoallele objections. **The remainder, including any State cross, NOT read** |
 
-**This file therefore covers roughly one third of the three days.** The single largest gap in the library is now **Agent Dave Hull's 347 turns on Day 2**, which on the Day-4 cross-reference concerns **State's Exhibit 12.1, the UVU surveillance video** — the artifact on which the rooftop-to-wooded-area movement rests.
+**This file therefore covers roughly one third of the three days.** ⚠ **Updated 2026-07-28:** Hull — named here as the largest gap — **has since been read and inventoried at CR-E04**. The largest remaining gaps are **Bakker past her opening (~384 turns)** and **Hull's unlocated Day 1 tranche**.
 
 **Method warning carried forward from CR-E02 §1:** keyword sampling of sworn testimony finds topics and misses conclusions. Nothing below was found by sampling; but what is *absent* below may well have been missed for exactly that reason.
 
@@ -90,7 +90,9 @@ Elimination samples were obtained from **Amber Robinson, Matthew Robinson and La
 - **"There was not a line of sight from there to where the tent was, where Mr. Kirk was."**
 - Davis did **not** observe it personally; his knowledge is from Snyder's report — **testimony about a report, not read by this project.**
 
-**Analyst layer.** Recorded neutrally and prominently because it is exactly the sort of item that acquires meaning in retellings. What is established: a live .223 round was recovered from a different rooftop with no sightline to the victim. What is **not** established: who left it, when, or whether it relates to this case at all. The rifle in evidence is **.30-06**, a different calibre — a distinction the State drew explicitly with Faumuina on Day 4. **No inference is drawn.**
+⚠ **EXPLAINED 2026-07-28 (CR-E04 §5.2):** Agent Hull testified the round found on another building "was accounted for as an **ejected cartridge from an officer who had cycled his rifle**" — an unfired round ejected while readying a weapon. The two accounts are consistent and the item is **innocuously resolved at Medium confidence** (Hull did not recall the building or calibre). **Recorded here so it does not circulate as an unexplained anomaly.**
+
+**Analyst layer (as written 2026-07-27).** Recorded neutrally and prominently because it is exactly the sort of item that acquires meaning in retellings. What is established: a live .223 round was recovered from a different rooftop with no sightline to the victim. What is **not** established: who left it, when, or whether it relates to this case at all. The rifle in evidence is **.30-06**, a different calibre — a distinction the State drew explicitly with Faumuina on Day 4. **No inference is drawn.**
 
 ### 4.2 The surrender, and Mike Mitchell
 
