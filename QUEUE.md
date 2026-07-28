@@ -4,6 +4,12 @@
 **Generated:** 2026-07-28 · **Register ceiling:** D-51 · **Next number:** D-52
 **Protocol:** see [LOOP.md](LOOP.md). **Validator:** `./queue-check.sh`
 
+> **Loop is ARMED.** Cron job `28cde284`, hourly at **:23**, created 2026-07-28.
+> **Session-only** — it dies when the Claude session ends — and **auto-expires after 7 days**. It fires only while the session is idle.
+> Each firing runs **one** cycle per LOOP.md and commits with the Q-ID in the subject line.
+> **Stop it:** `CronDelete 28cde284`, or say so. **Audit it:** `git log --oneline --grep='Q-[0-9]'`.
+> This does **not** cover the docket (DOCKET-WATCH.md) — that needs a durable cloud routine via `/schedule`.
+
 ## How to read this
 
 | Column | Meaning |
