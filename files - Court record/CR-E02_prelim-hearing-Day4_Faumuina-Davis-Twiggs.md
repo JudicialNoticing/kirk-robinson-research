@@ -5,9 +5,9 @@
 **Case context:** Case No. 251403576, Fourth Judicial District Court, Provo — Hon. **Tony F. Graf, Jr.** **Tyler Robinson is presumed innocent**; as of **2026-07-27** he has **not been bound over for trial**. A preliminary hearing tests probable cause only — no court has found any fact below to be true. Everything here is **what a witness said under oath**, recorded faithfully and adopted by no one.
 **Living persons:** Lance Twiggs testified under **federal and state immunity agreements** and is not accused of any offense in this record. His statement is recorded only where it bears on the public questions this library investigates. No private contact or location detail beyond what was stated in open court is reproduced.
 **Prepared:** July 27, 2026
-**Status:** v1.1 — corrected on adversarial re-read the same day (CR-AUDIT-2026-07-27). Three fixes: the perch-to-tent distance restated as a **registered discrepancy (D-50)** rather than a flat "410 feet"; the **engraved ammunition** (§5.2b) added, having been omitted entirely from v1.0; and §4's cross-file inference re-graded and its analytical consequence carried through to **D-48**.
+**Status:** v1.2 — **Faumuina's testimony now read END TO END** (v1.0–1.1 were keyword-sampled). The full read changed or completed six findings, including two reversals: **D-50 dissolved** (415/410/68 are slope/horizontal/vertical, not a conflict — the geometry checks by Pythagoras), and **the Dremel thread is an IDENTIFICATION, not class-level** (Exhibit 34: the Dremel bit was identified as having made the engravings; the home casings were identified to the rifle). The §3 fingerprint exclusion is **materially down-weighted** — the FBI's re-examination was inconclusive and investigators concluded the suspect never touched the window.
 
-**Headline result:** Day 4's remaining testimony delivers the library's **first Tier 1 facts about the Losee Center rooftop, the rifle recovery, and the DNA** — the three questions its thinnest files were built around. It also produces a **three-way convergence on a Dremel tool** and, in the other direction, a **stipulated fingerprint exclusion**: Robinson was **excluded** as the source of the three comparable latent prints on the window near where the person landed.
+**Headline result:** Day 4's remaining testimony delivers the library's **first Tier 1 facts about the Losee Center rooftop, the rifle recovery, and the DNA** — the three questions its thinnest files were built around. It also produces the strongest evidentiary chain the library has recorded — **an ATF toolmark identification of the Dremel bit from Robinson's closet to the engravings on the ammunition inside the rifle**, plus identification of five cartridge cases from his home to that rifle (§5.4b) — and, in the other direction, a **stipulated fingerprint exclusion** whose weight is **materially reduced** by the FBI's inconclusive re-examination and by investigators' conclusion that the suspect never touched the window (§3).
 
 ---
 
@@ -21,11 +21,13 @@ Sworn testimony is **Tier 1 as to what the witness said**, never automatically a
 
 **Source:** `prelim-hearing-transcripts/day4.txt`, banked 2026-07-27, retrieved free from Rev. **A commercial transcription service's rendering, not the certified court transcript** — which remains unobtained and is the authority. Speaker labels and spellings are the service's; the transcript renders "a right rifle" where "a rifle" is plainly meant, and similar artifacts should be expected.
 
-**Method note — this file is keyword-led, not a full read.** Faumuina's 82,000-character block was surveyed by targeted keyword extraction (roof, Losee, rifle, towel, DNA, Dremel, prints, shoe, screwdriver, surveillance, backpack, scope, trigger), and the passages returned were read in context. **This is a sampling method, not a complete reading**, and it will have missed material that uses none of those terms. The Twiggs playback and Agent Davis's framing testimony were read directly.
+**Method note — v1.0 was keyword-sampled; v1.2 is a full read.** v1.0 surveyed Faumuina's 82,000-character block by targeted keyword extraction and **declared that as sampling**. That declaration was warranted: the full read, performed for v1.2, **changed or completed six substantive findings** — the fingerprint exclusion's weight, the D-50 "discrepancy" (which dissolved), the Dremel thread (which turned out to be an *identification*), the DNA quotations (now complete with both hypotheses), the engravings (four items, not one), and the entire cross-examination. **Faumuina's testimony is now read end to end**, direct and cross. The Twiggs playback and Agent Davis's framing testimony were read directly in v1.0.
 
-**NOT COVERED:** Days 1, 2, 3, 5. Faumuina's testimony outside the sampled passages, including most of Burt's 85-turn cross. The exhibits themselves — the surveillance video, photographs, maps, the ATF DNA report (Exhibit 30), the fingerprint report — none has been viewed; all are known only through testimony describing them.
+**The lesson, recorded because it cost real accuracy:** keyword sampling of sworn testimony reliably finds *topics* and reliably misses *conclusions* — the answer to "was the tool compared?" sat three questions past every keyword that located the tool.
 
-**Partial quotations flagged.** Two DNA likelihood-ratio quotations below were captured mid-sentence by the extraction and are **incomplete as recorded**. They are reproduced only as far as they were captured, marked, and must be re-read in full before any use. **No conclusion in this file rests on their unread remainder.**
+**NOT COVERED:** Days 1, 2, 3, 5. *(Faumuina is now fully read, direct and cross.)* The exhibits themselves — the surveillance video, photographs, maps, the ATF DNA report (Exhibit 30), the fingerprint report — none has been viewed; all are known only through testimony describing them.
+
+**Partial quotations — RESOLVED v1.2.** v1.0 flagged two DNA likelihood ratios as captured mid-sentence and unusable. All six read calculations now appear complete with **both hypotheses** (§5.1). Calculation 7 of Exhibit 30 was never read into the record and remains unknown.
 
 ## 2. THE CRIME SCENES AND THE ROOFTOP
 
@@ -35,11 +37,11 @@ Faumuina was assigned on **2025-09-10 at approximately 1:30 PM**. She identified
 |---|---|---|
 | Who processed the rooftop | **Utah Bureau of Forensic Services** — the state crime lab | **High** |
 | Rooftop evidence | A **screwdriver**; **shoe impressions**; and what investigators "believe was the shooter's perch," identified at night **using oblique lighting** showing "disturbances in the gravel on the rear rooftop" | **High** as testimony; "believe" is the witness's own hedge and is preserved |
-| **Geometry** | ⚠ **TWO FIGURES IN THE RECORD — see D-50.** Faumuina, asked the distance directly: "approximately **415 feet**." Moments later McBride restated it as "**410 feet** from the perch to the tent with a 68-foot vertical drop. Is that right?" — "Yes." A **68-foot** vertical figure also appears | **High** that both figures were stated; **the true measurement is NOT established** |
+| **Geometry** | **415 ft direct (slope) distance · 410 ft horizontal · 68 ft vertical drop**, on a downward angle from perch to tent. The three are one consistent survey, not competing figures — see D-50, resolved | **High**; geometry independently checks (√(410²+68²)≈415.6) |
 | The drop point | The northeast corner of the Losee Center — "the area where we see in a video an individual drop from the roof" | **High** |
 | Faumuina's personal knowledge | She **did not personally observe** the screwdriver's seizure; the state crime lab did that processing | **High** — elicited on cross |
 
-**Analyst layer.** `files - Losee building` has stood at 62 lines with no primary sourcing. These are its first Tier 1 anchors: a named processing agency, a described perch-identification method, and **two hard numbers (410 ft / 68 ft)**. The perch attribution remains an investigative *belief* on this record; the distances are measurements. **Grade them separately.** This file does **not** update the Losee file — that is a separate act of work (§6).
+**Analyst layer.** `files - Losee building` has stood at 62 lines with no primary sourcing. These are its first Tier 1 anchors: a named processing agency, a described perch-identification method, and a **consistent three-figure geometry (415 ft slope / 410 ft horizontal / 68 ft drop)**. The perch attribution remains an investigative *belief* on this record; the distances are measurements. **Grade them separately.** This file does **not** update the Losee file — that is a separate act of work (§6).
 
 ## 3. THE STIPULATED FINGERPRINT EXCLUSION
 
@@ -47,9 +49,20 @@ Read into the record by Mr. McBride as **language agreed by both parties**:
 
 > The parties stipulate that investigators at the crime scene observed latent fingerprints and a palm print on a glass window near the area where the individual landed when the individual jumped from the rooftop of the Losee Center at UVU. SBI… fingerprint examiner, Elisa Farmer, examined images of these latent fingerprints and the palm print and determined that only three of the latent prints, 11B, 11C and 11D, were of comparable or of poor comparable value. **She excluded Tyler Robinson as the source of any of these three latent prints.**
 
-**Analyst layer.** This is a **stipulation** — agreed by the State and the defense, so it is as close to settled as anything at this stage. **Robinson was excluded as the source of the three comparable latent prints** on the window near the landing point. **Confidence: High.**
+**The remainder, now read (v1.2) — and it changes the weight considerably.** The stipulation continues:
 
-**What it does not establish.** Only three of the observed prints were of comparable value; the rest, and the palm print, are not addressed by the excerpt captured. Exclusion from three prints on a public window is not exclusion from the scene — an unknown number of people may touch such a window. **This is a genuine data point in the defendant's favour and is recorded as such**, without inflation. The stipulation's remainder ("Ms. Farmer reviewed other prints on the wi…") was truncated in extraction and **must be read in full** (§6).
+> Ms. Farmer reviewed other prints on the window and found that they did not have adequate value for comparison. **Subsequent examinations of these three latent prints by the FBI were inconclusive.**
+
+**And the surveillance video answers the question the prints were taken to answer.** On direct, Faumuina testified that the command post's initial footage was "pretty grainy," but once investigators obtained the footage **directly from UVU** they could zoom in — and:
+
+> **McBride:** "…were you able to determine at that time where the suspect touched the window?"
+> **Faumuina:** "**We determined that he was not — or he did not touch it.**"
+
+She confirmed on cross that the windows were processed **on September 11**, the day after, and that the purpose was precisely "to rule out whether the suspect had touched that window."
+
+**Analyst layer — v1.0's assessment is materially revised.** v1.0 recorded the exclusion as "a genuine data point in the defendant's favour." **That now looks substantially weaker**, for two independent reasons: the **FBI's own re-examination of the same three prints was inconclusive**, so Farmer's exclusion is not the last word on them; and investigators concluded from better footage that **the person never touched the window at all**, which means nobody's prints there — Robinson's or anyone's — were expected. **An exclusion from prints the suspect is not believed to have left proves very little.**
+
+**Stated fairly in the other direction:** the exclusion is still a real stipulated fact, agreed by both parties, and the "did not touch it" determination is an **investigative conclusion from video review**, not a forensic finding — it rests on the quality of footage this project has not seen. **Confidence: High** that all three things were testified to; **Medium** that the exclusion carries little weight, since that assessment depends on the video determination being sound. **Net: v1.0 over-weighted this in the defendant's favour, and the correction is recorded rather than quietly dropped.**
 
 ## 4. THE RIFLE RECOVERY
 
@@ -73,14 +86,19 @@ Shortly before **6:00 PM on 2025-09-10**, Faumuina received a call from the Utah
 
 Faumuina identified **Plaintiff's Exhibit 30** as "the ATF report that I received regarding the DNA testing on the gun and cartridge… cartridge case and cartridges," and read likelihood-ratio paragraphs aloud:
 
-| Item | As captured (INCOMPLETE — see §1) |
-|---|---|
-| **Exhibit 1.3** — swabs of the **trigger and trigger guard**, possible ridge detail/smudging | "The DNA profile is **at least one trillion times more likely** if it originated from T…" *(truncated)* |
-| **Exhibit 1.9** — swabs of the **optical accessory (scope)** | "The DNA profile is **6.28 billion times more likely** if it originated from Tyler Robinson as a contributor to the majo…" *(truncated)* |
+**COMPLETED v1.2 — both hypotheses now captured.** v1.0's quotations were truncated and expressly marked unusable; the full read supplies the alternative hypothesis in every case, and Exhibit 30's calculations run as follows (Faumuina reading Paragraph D of each):
 
-**Analyst layer — handle with care.** These are **likelihood ratios**, not probabilities of guilt, and the comparison hypothesis (the "…than if it originated from…" clause) was **cut off in both quotations**. A likelihood ratio is meaningless without both hypotheses. **Confidence: the figures were read into the record — High. What they mean — NOT ESTABLISHED HERE.** One captured fragment elsewhere ("…if it originated from five unrelated, unknown individuals") indicates the alternative hypotheses are stated in the report, unread.
+| Calc | Swab location(s) | Likelihood ratio, verbatim |
+|---|---|---|
+| 1 | **1.1** stock and grips + **1.4** bolt | "at least one trillion times more likely if they originated from **Tyler Robinson, Exhibit 7.1**, as a contributor to the major components **and three unrelated, unknown individuals than if they originated from four unrelated, unknown individuals**" |
+| 2 | **1.2** butt plate | "at least one trillion times more likely… as a major component and four unrelated, unknown individuals **than if it originated from five unrelated, unknown individuals**" |
+| 3 | **1.3** trigger and trigger guard | "at least one trillion times more likely… as a major component and three unrelated, unknown individuals **than if it originated from four unrelated, unknown individuals**" |
+| 4 | **1.5** fore-end + **5.1** a .30-06 cartridge **from the firearm** | "at least one trillion times more likely… as the major components and two unrelated, unknown individuals **than if they originated from three unrelated, unknown individuals**" |
+| 5 | **1.6** barrel + **3.1** a .30-06 cartridge **from the firearm** | "at least one trillion times more likely… as a contributor to the major components and two unrelated, unknown individuals **than if they originated from three unrelated, unknown individuals**" |
+| 6 | **1.9** optical accessory (**scope**) | "**6.28 billion** times more likely… as a contributor to the major component and three unrelated, unknown individuals **than if it originated from four unrelated, unknown individuals**" |
+| 7 | not read into the record | — |
 
-**Tiering:** this is **T1 testimony about a T1 document not read by this project**. It does **not** promote to a DNA finding. `files - DNA evidence` is **not updated** by this file. Reading Exhibit 30 is the single highest-value follow-up (§6).
+**Analyst layer.** These are **likelihood ratios comparing two specified hypotheses**, not probabilities of guilt, and every one of them describes a **mixture** — Robinson as a major contributor *alongside* two to four unrelated unknown individuals. That is normal for a handled object and is not a caveat against them; it is what the numbers say. **Confidence: High** that these were read into the record with both hypotheses. **Exhibit 30 itself remains unread by this project**, so this is still **T1 testimony about a T1 document** — but it is no longer unusable, and `files - DNA evidence` can now be fed from it with that tiering stated (§7).
 
 Robinson's fingerprints and DNA were taken at the **Utah County Sheriff's Office Jail** after transport.
 
@@ -94,8 +112,19 @@ Items Faumuina described as collected from Robinson's home: **a Dremel tool and 
 
 Two exhibits carry engraved markings, and v1.0 of this file missed both. They are the evidentiary bridge between the Dremel and the ammunition:
 
-- **Exhibit 20 — the cartridges found *in the gun*.** Page one shows the headstamp: "According to the head stamp, it is a **Remington 30 odd 6 Springfield**." Asked to read the markings on page two, Faumuina answered: "**A fascist**." *(Recorded exactly as the transcript renders it. Whether this is the complete inscription, and its exact wording and orientation, is **not established** — the exhibit has not been viewed and the commercial transcript may be truncating or mis-rendering. Flagged, §6.)*
-- **Exhibit 23 — five cartridge casings found on top of a safe at the residence.** All .30-06 Springfield; "**one of them had an engraving that said test shot on it.**"
+**COMPLETED v1.2 — all four inscriptions now read in full.** v1.0 captured a single page of a single exhibit ("A fascist") and correctly flagged it as possibly incomplete. It was: **all four items recovered from the rifle bore engravings**, read page by page into the record.
+
+| Exhibit | Item | Inscription, page by page, as read aloud |
+|---|---|---|
+| **19** | the **fired** cartridge case, from the chamber | "Notices bulge" · "OWO whats" · "This" + question mark |
+| **20** | unfired cartridge (Remington .30-06 headstamp) | "A fascist" · "Catch" · "Up arrow, right arrow, down arrow, down arrow, down arrow" |
+| **21** | unfired cartridge | "O Bella Ciao" · "Ciao, ciao" |
+| **22** | unfired cartridge | "If you read" · "This, you are" · "Gay" · "LMAO" |
+| **23** | five .30-06 cases atop a safe, **spare bedroom** | one engraved "**test shot**" |
+
+**Recording-layer discipline.** These are rendered **exactly as the transcript reports Faumuina reading them**, including apparent artifacts of reading engraved text aloud page by page. **This project has not viewed the exhibits**, so the wording, punctuation, orientation, and page order are as-testified, not as-inscribed. The Exhibit 20 sequence in particular reads as a directional-input notation, and the phrases in 19 and 22 have the register of internet idiom — **but this file draws no inference about meaning, reference, or motive from any of them.** Interpretation of these inscriptions is precisely the kind of thing that should rest on the exhibits themselves and on evidence of authorship, neither of which this project holds.
+
+- **Exhibit 23 provenance:** the five casings were found "in what we would consider the spare bedroom right next to Tyler's bedroom, on top of a safe." Bedroom attribution was made from mail addressed to him and school documents; Twiggs' bedroom was on the north end of the second floor.
 
 **Analyst layer.** These convert the Dremel thread from an implement-level convergence into an **implement-plus-product** one: a rotary tool in the home, ammunition bearing engravings both in the weapon and at the residence, and a casing marked "test shot." Combined with the ATF's finding of scribe marks "of value for comparison **if a suspect tool is located**," the comparison this invites is obvious and, on the record read, **not yet reported as performed** (§6 item 4). **Confidence: High** that the markings were described in testimony; **the content and completeness of the inscriptions are not established**, and no toolmark comparison result is known.
 
@@ -125,7 +154,57 @@ Agent Davis testified Twiggs was shown, during the interview, **text messages be
 
 **Analyst layer.** Three strands from independent origins — a federal laboratory's toolmark characterization, a witness statement, and a residential search — converge on the same implement. **This is a genuine convergence and the strongest evidentiary pattern the library has yet recorded from primary sources.** Confidence that the three strands exist and align: **High**.
 
-**What it does not establish, stated plainly.** The ATF finding is a **class-level** characterization: rotary-tool cutting tips of a kind "commonly found" in handheld rotary tools. Karner's own report says the marks "contain marks of value for comparison **if a suspect tool is located**" — i.e. **no tool-to-toolmark identification had been made as of that report**, and none is established here. Whether the seized Dremel was compared to the marks, and with what result, is **unknown on the portion of the record read** — and is the obvious next question (§6). A convergence of three class-level strands is meaningful; it is not an identification. **Per the both-directions rule this cuts toward the State, and is recorded as plainly as the §3 exclusion that cuts the other way.**
+### 5.4b ⚠ NOT CLASS-LEVEL — THE TOOL WAS IDENTIFIED (added v1.2, correcting v1.0)
+
+**v1.0 stated that this convergence "is not an identification," and asked as an open item whether the seized Dremel had ever been compared to the marks. Full reading answers it: it was compared, and it matched.** The class-level framing above is superseded by what follows.
+
+**State's Exhibit 34 — an ATF toolmark comparison report**, admitted and published at all three levels, read into the record by Faumuina:
+
+> **"The Exhibit 15A engraving cutter was identified as having made tool marks located on the Exhibit 2 cartridge case, Exhibit 3 through five cartridges, and Exhibit 18A cartridge case."**
+
+**Exhibit 15A is the longest metal bit of the Dremel** recovered from the closet in Robinson's home. **Exhibits 2 and 3–5** are the fired cartridge case and three cartridges **found inside the rifle**. **Exhibit 18A** is the "test shot" cartridge case from atop the safe in the spare bedroom.
+
+**The same report links the home casings to the rifle:**
+
+> "The Exhibit 16 and Exhibit 18A through 18E cartridge cases were identified as having been fired in the Exhibit 1 rifle."
+
+**18A–18E are the five .30-06 cartridge cases found on the safe** in the bedroom beside Robinson's. *(Exhibit 18 also comprised 15 unfired .45 auto cartridges, 18F–18T; Faumuina could not identify "Exhibit 16" in this report from memory.)*
+
+**Exhibit 33 — ATF forensic biology on the Dremel and the home casings:**
+
+| Swab | Likelihood ratio (verbatim) |
+|---|---|
+| **15.1 — buttons of the Dremel tool** | "at least one trillion times more likely if it originated from Tyler Robinson as a contributor to the major component and two unrelated, unknown individuals than if it originated from three unrelated, unknown individuals." Paragraph E: the probability of an unrelated non-contributor "yielding this level of support is **less than one in one trillion**" |
+| 15.3 cord · 15.5 longest metal bit · 15.6 shortest metal bit | swab locations identified; ratios not read aloud |
+| **18.1 — the "test shot" etched cartridge case** | "at least one trillion times more likely if it originated from Tyler Robinson as a major component and two unrelated, unknown individuals than if it originated from three unrelated, unknown individuals" |
+
+**Analyst layer — the correction, stated plainly.** On the record now read there are **three separate identifications**: a **specific Dremel bit** to the engravings on the ammunition inside the rifle *and* on a casing in Robinson's home; **five cartridge cases from Robinson's home** to the recovered rifle; and **Robinson's DNA at better than one-in-a-trillion** on the Dremel's buttons and on the "test shot" casing. **This is the strongest evidentiary chain in anything this project has read.** v1.0 understated it because it was working from a keyword sample — an error in the **State's** favour this time, logged as squarely as the errors that ran the other way.
+
+**What still bounds it.** These are **examiner opinions**, subject to the same DOJ limiting language Karner was walked through (CR-E01 §3.4) — no uniqueness, no individualization, no zero error rate. This project **has not read Exhibits 33 or 34**; both are known only through a witness reading paragraphs aloud, and the underlying comparison images have not been seen. **Faumuina is not the examiner who performed these comparisons**, and that examiner was not identified in the portion read. Those limits bound the **weight**, not the **direction**.
+
+## 5.6 THE CROSS-EXAMINATION, AND OTHER MATERIAL FROM THE FULL READ (added v1.2)
+
+**Faumuina's role and the investigative record.** She agreed with Burt's characterization of her role as "the traffic manager of the whole operation" — overseeing crime scenes and physical evidence across multiple agencies, coordinating rather than personally seizing. Her agency is the **SBI**; the rooftop was processed by the **state crime lab's crime scene response team**, and the **courtyard by the FBI**. The compiled investigative report runs **229 pages**; she authored **nine** of its component reports and read most of the rest.
+
+**Several investigative threads produced nothing** — recorded because negative results are findings:
+
+| Thread | Outcome |
+|---|---|
+| **Fulton Library bus-stop items** — a backpack, a jacket, gloves, seized as suspicious unattended property and sent to the FBI lab | Faumuina agreed it "would be fair" that these were **eventually determined not related to this case**; testing was not pursued |
+| **NIBIN** (National Integrated Ballistics Information Network) search for matching cartridge cases | "**Nothing of value came from that**" |
+| A firearm trace and a firearm seized at **River Street** | "**Nothing of value**" |
+| **Monitoring of Robinson's mail and communications at the jail**, ongoing as of the hearing | Faumuina had not kept abreast; aware of nothing of value developed |
+| Investigation interviewing associates to develop a profile of animosity toward Kirk | She was **not involved** and not familiar with it |
+
+**Chain-of-custody detail elicited on cross.** The FBI Evidence Response Team lead is **Special Agent Michelle Cammack** *(rendered "Camack" earlier in the transcript)*. **Cammack physically removed the towel and rifle together** — "she grabbed not only the towel, but also the gun," which "remained basically intact" and were placed on a cardboard box, photographed as found, and only then unwrapped. Faumuina observed rather than performed this. Photography was the FBI's, and "that's all we got"; she believes **one officer on scene had a body camera running** but **has not seen that footage** — an identifiable, unreviewed record of the recovery. She did **not** personally observe the rooftop processing or the screwdriver seizure.
+
+**Other facts from the full read:**
+- **Two pairs of Converse shoes** collected from the home — grey with white laces, believed size 10½; and grey with grey laces, a different size.
+- **Shooting targets** from the first-floor closet (Exhibit 25) show perforations Faumuina testified were consistent with bullet holes, mostly **outside the bullseye** (7/6/8 ring on one; left of centre at 9/8 on another; one in the bullseye on the third). The foundation objection to "consistent with bullet holes" was **sustained** before being laid properly.
+- **A burnt note** was recovered from the **kitchen trash can**, with handwriting still visible along one edge (Exhibit 24), and sent to the FBI for analysis. It was displayed **side-by-side with Exhibit 16.3 — a note recovered from Lance Twiggs' phone** — but by court order that comparison was **published to the courtroom only and not to the media camera**. What the comparison showed is **not established** on this record.
+- **Robinson's vehicle**, a **grey Dodge Challenger**, was collected from his parents' home.
+- **Clothing seized from his person** at arrest: a top Faumuina recalled as **maroon**, plus pants, underwear, shoes and pocket contents.
+- **The Dremel and bits were photographed in place, packaged and sent to the ATF** — which is how Exhibits 33 and 34 came to exist.
 
 ## 5.5 NEW REGISTER ENTRY — D-50
 
@@ -133,9 +212,17 @@ Agent Davis testified Twiggs was shown, during the interview, **text messages be
 
 | # | Subject | The two figures | Sources | Status |
 |---|---|---|---|---|
-| **D-50** | Perch-to-tent distance | Faumuina, answering directly: "the distance from the perch area directly to the tent where Mr. Kirk was sitting was **approximately 415 feet**." Moments later McBride restated it as "**410 feet** from the perch to the tent with a 68-foot vertical drop. Is that right?" — "Yes." | Day 4 transcript ≈04:37–04:38 (T1 sworn testimony) | **OPEN.** A 5-foot spread on an approximate figure, most likely counsel's rounding or a transcription artifact, but **this library will not silently pick one.** Decisive artifacts: the certified transcript, and the survey/measurement exhibit itself |
+| **D-50** | Perch-to-tent distance | v1.0 recorded "410 feet"; the adversarial pass found the witness had said "**approximately 415 feet**" and registered the 5-foot spread as an open discrepancy | Day 4 transcript ≈04:37–04:38 | **RESOLVED v1.2 — NOT A DISCREPANCY.** See below |
 
-**Why this is registered rather than smoothed over.** The figure is a load-bearing physical measurement for the Losee-building questions, and it is the kind of number that propagates — once written into a file as "410 feet" it would be re-cited indefinitely. **v1.0 of this file did exactly that**, recording 410 flatly and omitting the 415 the witness actually gave. Caught on adversarial re-read (CR-AUDIT-2026-07-27 §2).
+**RESOLVED on full reading — there was never a conflict.** The keyword-sampled extract cut off mid-answer. Faumuina's complete testimony gives **three distinct measurements of one geometry**:
+
+> "…the distance, the perch to the tent was **approximately 415 feet**. If you think about it… **without taking into account the elevation drop, it was actually 410 feet**. So just horizontal straight across. And then **the elevation difference between that is approximately 68 feet**."
+
+So: **415 ft = direct line-of-sight (slope) distance; 410 ft = horizontal distance; 68 ft = vertical drop.** She also described, and counsel put on the record, a downward angle from perch to tent.
+
+**Independent check — the geometry is internally consistent.** √(410² + 68²) = √172,724 ≈ **415.6 ft**. The three figures agree to within rounding. **This is a confirmation, not a conflict**, and it slightly *raises* confidence in the measurements: a witness reciting numbers that satisfy Pythagoras is reciting a real survey, not an approximation.
+
+**Two lessons, both recorded rather than buried.** First, **D-50 should never have been assigned** — it was an artifact of reading a fragment, and the adversarial pass that created it was itself working from the truncated extract. Second, and more useful: **the pass was still right to flag it.** Given only the fragment, refusing to silently pick 410 over 415 was correct; the error was in the underlying sampling, not in the skepticism. **The register entry is retained, resolved, rather than deleted** — a resolved non-discrepancy is a cheaper record than a number nobody can later re-check.
 
 ## 6. OPEN ITEMS
 
@@ -164,4 +251,5 @@ Recorded so the gap is not mistaken for coverage. **None of these files was edit
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-07-27 | Initial file. Covers Day 4's remaining witnesses: **Sgt. Jennifer Faumuina** (keyword-sampled, not fully read — method declared in §1) and **FBI Agent Davis**, including courtroom playback of **State's Exhibit 16**, the recorded sworn statement of **Lance Twiggs** taken under **federal and state immunity agreements**. First Tier 1 facts in this library on the **Losee rooftop** (processed by the Utah Bureau of Forensic Services; screwdriver, shoe impressions, gravel-disturbance "perch" identified by oblique lighting; **410 ft to the tent, 68 ft vertical drop**), the **rifle recovery** (wrapped in a dark towel in the wooded area, before 6 PM on 2025-09-10, prompted by UVU surveillance footage of a person leaving the roof's NE corner), and **DNA** (Exhibit 30 likelihood ratios read aloud — **captured incomplete and expressly unusable until re-read**, tiered as testimony about an unread document). Two findings recorded in opposite directions per the both-directions rule: a **stipulated fingerprint exclusion** — Robinson excluded as the source of the three comparable latent prints on the window near the landing point (**High**, agreed by both parties) — and a **three-way Dremel convergence** across the ATF toolmark characterization, Twiggs' "to inscribe bullets" statement, and a Dremel recovered from Robinson's home, expressly bounded as **class-level, not an identification**. Cross-file caution added at §4: the source-identified cartridge case was **recovered from the rifle's chamber**, which materially limits what that identification links. Scope declared: Days 1/2/3/5 unread, no exhibit viewed, certified transcript unobtained, and §7 lists five library files this material should feed but which were **not** edited. |
+| **1.2** | **2026-07-27** | **Faumuina's testimony read END TO END**, replacing v1.0–1.1's declared keyword sampling. The full read **changed or completed six findings, including two reversals.** **(a) D-50 DISSOLVED — not a discrepancy:** the sampled extract cut off mid-answer; 415 ft is the direct/slope distance, 410 ft the horizontal, 68 ft the vertical drop, and √(410²+68²)≈415.6 confirms the geometry is internally consistent. Entry retained as resolved rather than deleted. **(b) The Dremel thread is an IDENTIFICATION, not class-level** (new §5.4b): Exhibit 34 records that the **Exhibit 15A engraving cutter — the Dremel bit from Robinson's closet — was identified as having made the tool marks** on the cartridge case and cartridges inside the rifle and on the "test shot" casing from his home; the **five home casings (18A–18E) were identified as having been fired in the recovered rifle**; and Exhibit 33 puts Robinson's DNA on the Dremel's buttons and the "test shot" casing at better than one in a trillion. v1.0's bounding statement that this "is not an identification" is **withdrawn** — an error in the State's favour, logged as squarely as those running the other way. **(c) The §3 fingerprint exclusion is materially down-weighted:** the stipulation's unread remainder records that **the FBI's re-examination of the same three prints was inconclusive**, and Faumuina testified that from better UVU footage investigators **determined the suspect "did not touch" the window** — so an exclusion from prints nobody is believed to have left proves little. **(d) DNA completed** (§5.1): all six read calculations now carry **both hypotheses**, so the figures are no longer unusable. **(e) Engravings completed** (§5.2b): **all four items from the rifle** bore inscriptions, read page by page, plus the "test shot" casing — recorded strictly at the recording layer with **no inference drawn as to meaning, reference or motive**. **(f) Cross-examination and full-read material added** (new §5.6): Faumuina as "traffic manager" over a **229-page** compiled report of which she authored nine parts; the **Fulton Library backpack/jacket/gloves determined not related to the case**; **NIBIN and the River Street firearm trace produced nothing of value**; jail mail monitoring ongoing with nothing of value known to her; **FBI ERT lead Special Agent Michelle Cammack** removed towel and rifle together; an **unreviewed body-camera recording** of the recovery may exist; the burnt kitchen-trash note (Ex. 24) was compared side-by-side with **a note from Twiggs' phone (Ex. 16.3)** under an order barring media capture, result not established; grey Dodge Challenger; two pairs of Converse; targets mostly outside the bullseye. **Method lesson recorded in §1:** keyword sampling of sworn testimony finds topics and misses conclusions — the answer to "was the tool compared?" sat three questions past every keyword that located the tool. |
 | 1.1 | 2026-07-27 | **Corrected on same-day adversarial re-read (CR-AUDIT-2026-07-27).** Three fixes. (a) **D-50 assigned**: v1.0 recorded the perch-to-tent distance as a flat "410 feet," which was **counsel's restatement**; the witness answered "**approximately 415 feet**." Both figures preserved, neither adopted. (b) **§5.2b added** — the **engraved ammunition** omitted from v1.0: markings read into the record as "A fascist" on the cartridges recovered from the gun (Exhibit 20), and a casing engraved "**test shot**" among five found on a safe at the residence (Exhibit 23); the content and completeness of the inscriptions are expressly **not** established. Also added: no .30-06 weapon was found in the house, and the FBI→ATF chain of custody. (c) **§4 re-graded** — the identity of the chamber case with the ATF's source-identified Exhibit 2 is an **inference (Medium-high)**, not a stated fact, and its analytical consequence is now carried through: because the identified case came from the rifle's own chamber and no case was recovered at the scene on the record read, **ATF ballistics did not link the rifle to the shooting**, which forced **D-48's third resolution** (CR-ACQ §6.1). |
