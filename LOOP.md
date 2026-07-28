@@ -80,7 +80,7 @@ The loop stops itself and waits for a human when:
 Two different clocks, and they should not be confused:
 
 - **Research work** (Q-01, Q-02, Q-06…) is not time-sensitive. Pace it by *work available*, not by wall clock. Long intervals are correct; there is no reason to wake up hourly to read a transcript that will still be there.
-- **The docket is time-sensitive.** Defense response **2026-08-11**, State's reply **08-18**, oral argument **09-01**, bindover ruling thereafter. That belongs on a **calendar trigger**, not on the research loop. See `.claude/` cron config.
+- **The docket is time-sensitive.** Defense response **2026-08-11**, State's reply **08-18**, oral argument **09-01**, bindover ruling thereafter — **Tier 1, canonical at CR-ACQ §5.1** (upgraded 2026-07-28, Q-43; a **defence continuance risk against 09-01 is on the record** — see DOCKET-WATCH.md). That belongs on a **calendar trigger**, not on the research loop. See `.claude/` cron config.
 
 ## 6. What "done" means
 
