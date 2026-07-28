@@ -30,7 +30,8 @@
 | ID | Item | Status | Blocked by | Decisive artifact | Cost | Gate |
 |---|---|---|---|---|---|---|
 | Q-01 | **Read hearing Day 1** — banked, unread, 327k chars / 2,684 turns. Contains **Hull's first tranche** (he "resumed" direct on Day 2) | ready | — | `prelim-hearing-transcripts/day1.txt` | M | verify |
-| Q-02 | **Independent adversarial pass** on all 2026-07-27/28 output. **Both prior passes were self-audits by the analyst who produced the work** | ready | — | a genuinely independent read of CR-E01–E04, CR-ACQ, BOC-ROUTE | M | verify |
+| ~~Q-02~~ | ~~**Independent adversarial pass** on all 2026-07-27/28 output~~ | **done 2026-07-28** | — | **[CR-AUDIT-2026-07-28](files%20-%20Court%20record/CR-AUDIT-2026-07-28_independent-pass.md)** — six defects, three material; nothing in the forensic record misquoted; D-51 confirmed on two new tests. Spawned **Q-42, Q-43, Q-44**; re-ranked Q-14. **Residual: same model, different session — a human or differently-built reader is still owed** | M | verify |
+| **Q-43** | **Promote the briefing schedule to Tier 1, read directly.** BOC-ROUTE §4 / CR-ACQ §5 §8 / DOCKET-WATCH carry it at Medium-high from one news report; **the whole colloquy is in banked `day4.txt` 08:16:28–08:21:05 in the judge's own words.** The D-51 rule, unapplied to the half of the record with deadlines. Adds: **35/35/18 page limits**; in-person, two hours per side; **Nester's declined request to move 09-01** (a continuance precursor DOCKET-WATCH is watching for and does not know about); **Jeffrey Neiman** as victim's counsel, absent from CR-ACQ §5 | ready | — | the edits themselves — the artifact is already banked and read | S | **human** (case posture) |
 | Q-03 | **Docket pull** — Fourth District, Case 251403576. Settles D-51's underlying facts, the bullet-fragment motion ruling, and the briefing status | blocked | XChange paywalled (Q-31); DocumentCloud bot-gated (Q-32) | the docket itself | S | human |
 | Q-04 | **Briefing set as filed** — State's opening was due **2026-07-28**; defense response **08-11**; State's reply **08-18**; oral argument **09-01**. Both sides' evidence theory in their own words | ready | — | the filed briefs | S | verify |
 | Q-05 | **Inventory Ep 319** ("Tyler Robinson Is A Patsy") — **decisive for D-48**, which has moved four times. A Tier 1 record now exists to grade it against | ready | Q-20 (carrier check) | episode transcript | M | verify |
@@ -47,7 +48,8 @@
 | Q-11 | **Oliver's testimony after the isoallele objections**, incl. any State cross | ready | — | day5.txt | S | verify |
 | Q-12 | **Novak's cross of Davis** (Day 3) | ready | — | day3.txt | S | verify |
 | Q-13 | **Hull's later cross** (from the Ty Phillips video line) + any redirect | ready | — | day2.txt | S | verify |
-| Q-14 | **Faumuina's Day 2 turns** (58) — she testified across two days | ready | — | day2.txt | S | verify |
+| **Q-14** | **Faumuina's Day 2 turns** (58) — ⚠ **re-ranked 2026-07-28: bigger than the turn count suggests.** At day2 05:10:57 she **reads FBI DNA results into the record** over an overruled 403 objection, immediately before Bakker — **this is the towel-and-screwdriver material CR-E03 §5 flags as having unknown likelihood ratios.** Cheapest route to it that does not require Exhibit 31 | ready | — | day2.txt | S | verify |
+| **Q-42** | **Re-grade the chamber-case identity: it is sworn testimony, not an inference.** CR-E02 §4 holds it at "well-supported inference, Medium-high" and CR-AUDIT-2026-07-27 §2.4 graded it *down*, but Faumuina mapped ATF Exhibits 2, 3–5 and 18A to provenance outright at day4 05:39:52. Relaxes CR-ACQ §6.2's dependent caveat. **Direction of D-48 unaffected** | ready | — | the re-grade; the passage is already read and quoted in CR-E02 §4 | S | **human** (touches D-48, which has moved 4× — past LOOP §4's third-movement stop) |
 | Q-15 | **D-49 — the fragment count.** ME photo reportedly shows seven; ATF received five | ready | — | **the medical examiner's report + photograph**; chain-of-custody records | M | human |
 
 ## P3 — exhibits and records, known to exist
@@ -62,6 +64,7 @@
 | Q-34 | **Sgt. Bricker's timeline** and **Hull's 2025-09-14 report** | ready | the reports | S | verify |
 | Q-35 | **The bullet-fragment motion ruling** and the **State's response** to it — the exculpatory-characterization dispute is open only because neither is held | blocked | Q-03 | docket | S | verify |
 | Q-36 | **Certified court transcript**, replacing the commercial rendering, before any register entry resolves on transcript quotation | ready | the certified transcript | M | human |
+| **Q-44** | **Two ATF documents disagree on which cartridges bore scribe marks.** The 2025-09-17 report says "Exhibit 2 … **and Exhibit 3 cartridges**"; **Exhibit 34** says "Exhibit 2 … **Exhibit 3 through five** … and Exhibit 18A." Probably a typo in the earlier one; unresolvable without the exhibits. **No D-number** — only one of the two documents has been read directly | blocked | Q-16 / Q-17 (the exhibits) | Exhibits 32 and 34 | S | verify |
 
 ## P3 — the Owens corpus
 
@@ -106,9 +109,12 @@
 4. **Metadata vs. content** — a page date is a fact about a publishing schedule, not about a courtroom. **Always ask what a datum is a fact *about*.** (D-51 reversal, CR-E03 §7)
 5. **Search nulls** — a null from a text search is a claim about the search until the method is validated against a known positive. (BOC-AUDIT-2026-07-27B §4)
 6. **Register numbering** — grep, then **read the hit**. Forward-looking "next is D-nn" notes have matched the pattern five times without yet causing an error.
+7. **Exhibit numbers are not unique** — the State and the defence each have an "Exhibit 19" on Day 4, and the transcript renders both bare. **Always write "State's" or "the defence's."** Merging them would put the chamber cartridge case inside the AFTE proficiency-test demonstration. (CR-AUDIT-2026-07-28 §2.1)
+8. **Over-hedging is a defect too.** Two of this project's corrections have now run *toward* the State — the Dremel identification (CR-E02 v1.2) and the chamber-case identity (Q-42) — both because a summary graded down what the record states outright. **A caveat that the evidence does not support is as much an error as a claim it does not support.** (CR-AUDIT-2026-07-28 §2.2)
 
 ## Revision log
 
 | Version | Date | Change |
 |---|---|---|
+| 1.1 | 2026-07-28 | **Q-02 executed and closed** → `CR-AUDIT-2026-07-28`. Six defects, three material; every forensic quotation tested came back verbatim. Three items spawned, each queued rather than executed because its gate binds the pass that found it: **Q-43** (briefing schedule held at second hand while the banked Day 4 transcript settles it — `human`, case posture, **and the only new P1**), **Q-42** (chamber-case identity is testimony, not inference — `human`, touches D-48 past its third movement), **Q-44** (inter-document scribe-mark tension — blocked on the exhibits). **Q-14 re-ranked** — Faumuina's Day 2 turns carry FBI DNA results read into the record. **Two standing hazards added** (7: exhibit numbers are not unique across parties; 8: over-hedging is a defect, and two corrections have now run toward the State). **No register entry assigned or moved; ceiling stays D-51.** |
 | 1.0 | 2026-07-28 | Initial queue. 40 items harvested from the §Open Items and launch pads of CR-ACQ, CR-E01–E04, CR-AUDIT, BOC-AUDIT-2026-07-27/B, BOC-ROUTE, BOC-T1 and the BOC episode files. Gates assigned per LOOP.md §3; the five standing hazards carried forward from the files that earned them. |
