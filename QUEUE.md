@@ -1,7 +1,7 @@
 # QUEUE — Machine-Readable Work Graph
 
 **Purpose:** the project's open items, already scattered across every file's §Open Items and every audit's launch pad, gathered into **one dispatchable list**. This is the artifact an autonomous loop reads to decide what to do next. It is also just a good index for a human.
-**Generated:** 2026-07-28 · **Register ceiling:** D-51 · **Next number:** D-52
+**Generated:** 2026-07-28 · **Register ceiling:** **D-52** *(assigned 2026-07-28, CR-E05 §5 — Exhibit 12.1's Day 1 exclusion; **OPEN**)* · **Next number:** **D-53**
 **Protocol:** see [LOOP.md](LOOP.md). **Validator:** `./queue-check.sh`
 
 > **Loop is DISARMED.** Cron `28cde284` was created 2026-07-28 and **cancelled the same day at session close**, before it ever fired. **Zero cycles have run; every Q item below is in its authored state.**
@@ -29,7 +29,11 @@
 
 | ID | Item | Status | Blocked by | Decisive artifact | Cost | Gate |
 |---|---|---|---|---|---|---|
-| Q-01 | **Read hearing Day 1** — banked, unread, 327k chars / 2,684 turns. Contains **Hull's first tranche** (he "resumed" direct on Day 2) | ready | — | `prelim-hearing-transcripts/day1.txt` | M | verify |
+| ~~Q-01~~ | ~~**Read hearing Day 1**~~ | **done 2026-07-28** | — | **[CR-E05](files%20-%20Court%20record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md)** v1.0, `[PROVISIONAL]`. Read end to end, full coverage. **Exhibit 12.1 was OFFERED AND EXCLUDED on Day 1** (→ **D-52**); **Officer Chris Bagley** enters the library — first officer on the Losee roof, **searched for a casing and found none**; **Exhibit 11 is the 9-page ME report, ADMITTED** (→ Q-15/D-49); the whole **Rule 1102 architecture** with all five video sources absent. ⚠ **Rev's Day 1 speaker labels are broken** → hazard 9. Spawned **Q-51…Q-54** | M | verify |
+| **Q-54** | **Independent verification cycle on CR-E05** — the file is `[PROVISIONAL]` and **no cycle has run on it**. The Q-14 cycles found 6 defects and 14 omissions in a section one-tenth its size; **assume both until checked.** Both passes needed: proposition-testing **and** completeness | ready | — | the cycle, worked from `day1.txt` | M | verify |
+| **Q-51** | **State's Exhibit 11 — the Utah ME report of examination** (9 pp., Dr. Guajardo). **Admitted 2026-07-06, publication denied.** **Decisive for Q-15 / D-49** — the fragment count. The library did not know it was in evidence | ready | — | Exhibit 11 | S | human *(Q-15 is human-gated; this inherits)* |
+| **Q-52** | **The Day 2 re-offer of Exhibit 12.1** — what foundation was supplied after Day 1's exclusion, and whether Exhibit 12.3 was **amended or replaced**. **Resolves D-52.** Sits alongside Q-11 and CR-ACQ §8 item 12 | ready | — | `day2.txt`, the 12.1 re-offer passage | S | verify |
+| **Q-53** | **Bagley's body-camera recording** (27 min 35 s — his only footage; **shows the unidentified armed man in civilian clothes**) and **his police report** ("Bagley 1", shown to the witness only, never offered) | ready | — | the recording + the report | M | verify |
 | ~~Q-02~~ | ~~**Independent adversarial pass** on all 2026-07-27/28 output~~ | **done 2026-07-28** | — | **[CR-AUDIT-2026-07-28](files%20-%20Court%20record/CR-AUDIT-2026-07-28_independent-pass.md)** — six defects, three material; nothing in the forensic record misquoted; D-51 confirmed on two new tests. Spawned **Q-42, Q-43, Q-44**; re-ranked Q-14. **Residual: same model, different session — a human or differently-built reader is still owed** | M | verify |
 | ~~Q-43~~ | ~~**Promote the briefing schedule to Tier 1, read directly**~~ | **done 2026-07-28** (user-authorised) | — | **[CR-ACQ §5.1](files%20-%20Court%20record/CR-ACQ-2026-07-27_court-record-acquisition.md)** — now the library's canonical statement of the briefing order. BOC-ROUTE v1.2, DOCKET-WATCH v1.1, CR-E04 v1.1, LOOP repointed. **D-47 not re-resolved.** Full read added: the **07-28 date is conditional** on transcript delivery; the order's procedural history; **a reserved Exhibit 12.1 ruling nobody was tracking** (→ CR-ACQ §8 item 12) | S | **human** — gate satisfied |
 | Q-03 | **Docket pull** — Fourth District, Case 251403576. Settles D-51's underlying facts, the bullet-fragment motion ruling, and the briefing status | blocked | XChange paywalled (Q-31); DocumentCloud bot-gated (Q-32) | the docket itself | S | human |
