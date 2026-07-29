@@ -1,7 +1,7 @@
 # START HERE — next session
 
-**Written:** 2026-07-28 at session close. **Read this first, then [QUEUE.md](QUEUE.md).**
-This is a snapshot with dates in it. **If you are reading this well after 2026-09-01, it is stale** — the docket section below will have resolved one way or the other, and the work order should be re-derived from QUEUE.md.
+**Written:** 2026-07-28 at session close (second session that day). **Read this first, then [QUEUE.md](QUEUE.md).**
+This is a snapshot with dates in it. **If you are reading this well after 2026-09-01, it is stale** — the docket section will have resolved one way or the other, and the work order should be re-derived from QUEUE.md.
 
 ---
 
@@ -14,73 +14,72 @@ git pull                 # nothing else has been writing here, but check
 ./tsearch.py --validate  # transcript search method still works
 ```
 
-Then read **[QUEUE.md](QUEUE.md)** — the dispatchable work graph — and the **standing hazards** at the bottom of it. There are eight; two were added on 2026-07-28 and are new to you (§5 below).
+Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of it. **There are now ten; hazards 9 and 10 are new and hazard 9 is the most dangerous one this project has found** (§5 below).
 
-**The loop is DISARMED.** Cron `28cde284` was cancelled on 2026-07-28 before it ever fired. **Zero cycles have run**; every queue item is in its authored state. Re-arming spec is inline at the top of QUEUE.md.
+**Expect `queue-check.sh` to report two files with `[PROVISIONAL]` findings** — CR-E03 and CR-E05. That is correct, not a fault. **Neither may be cited elsewhere until a verification cycle clears it.**
 
-## 2. TIME-CRITICAL — do the docket check before anything else
+## 2. The docket — the State's brief LANDED, and the watch has run once
 
-This is the only part of the project with real deadlines, and **nothing is watching it**. `DOCKET-WATCH.md` is a written spec with no runner attached — session crons expire in 7 days and cannot reach September.
+**`DOCKET-WATCH.md` was executed for the first time on 2026-07-28.** It had been a spec with no runner attached since it was written. **Run 1 is logged at [`files - Court record/CR-WATCH-log.md`](files%20-%20Court%20record/CR-WATCH-log.md).**
 
-| Date | Event | What to check |
+| Date | Event | Status as of 2026-07-28 |
 |---|---|---|
-| **2026-07-28** | **State's opening probable-cause brief was due** — the day this file was written | **Did it land?** ⚠ The date was **expressly conditional** on the court reporter delivering the transcript by 2026-07-13 (CR-ACQ §5.1). **A slip may mean the reporter, not the case** — do not read anything into it without evidence |
-| **2026-08-11** | Defense response due, 35 pages | filed? |
-| **2026-08-18** | State's reply due, 18 pages | filed? |
-| **2026-09-01, 10:00 a.m.** | **Oral argument** — in person, ~2 hrs/side | ⚠ **Check specifically for a defence motion to continue.** Ms. Nester told the court she is in trial that week and asked to move it; Graf declined. **A named continuance risk is on the record** |
-| after 09-01 | Bindover ruling | escalate immediately if it issues |
+| 2026-07-06 → 07-10 | Preliminary hearing, five days | **held** |
+| **2026-07-28** | State's opening probable-cause brief, 35 pp. | ✅ **REPORTED FILED** — T1 via T3, **one** independent source (Fox News, pub. 20:38 EDT). **The document is NOT held and its contents are deliberately unrecorded** → **Q-45.** The court-reporter conditional did not bite |
+| **2026-08-11** | Defense response, 35 pp. | pending — **the next checkpoint, and the likeliest vehicle for a continuance motion** |
+| **2026-08-18** | State's reply, 18 pp. | pending |
+| **2026-09-01, 10:00** | **Oral argument**, in person | pending. **Still standing as of Run 1**; no continuance motion found. ⚠ **Nester's trial-week conflict remains an open, named risk** |
+| after 09-01 | Bindover ruling | pending. **Robinson has NOT been bound over** |
 
-**Also still unobtained and still wanted:** the ruling on the bullet-fragment / VCM motion (CR-ACQ §8 item 4). It has been open since the first acquisition pass.
+**Run 1 also turned up a proceeding the library did not know existed:** a **contempt hearing c. 2026-06-22** (Rev page dated 06-23) → **Q-46**. And a **Kirk-family motion of 2026-07-10** asking for a probable-cause determination by Sept. 1 → **Q-47**.
 
-**Read `DOCKET-WATCH.md` for what a run may and may not do.** The hard rule: acquire and bank freely; **never change a case-posture statement** — that is a `human` gate in every mode, and D-51 is why.
+**Route changes:** `legacy.utcourts.gov` **now retrieved** and holds nothing after 07-06; **abc4.com is newly 403 bot-blocked**; DocumentCloud 224251 still bot-gated.
 
-## 3. Three things only you can decide
-
-These are `human`-gated. They will sit here forever until you rule on them.
+## 3. Still only you can decide these
 
 | | What | What it needs from you |
 |---|---|---|
-| **Q-42** | The chamber-case identity is **sworn testimony**, not the "Medium-high inference" CR-E02 §4 records — Faumuina mapped ATF Exhibits 2, 3–5 and 18A to provenance outright (day4 05:39:52). Re-grading would relax a caveat on **D-48** | A yes/no. It is gated because **D-48 has already moved four times**, past LOOP.md §4's hard stop. **The direction of D-48 does not change either way** — only the strength of a caveat |
-| **Q-41** | The claude.ai project material — files and ~3 chats, last seen 2026-07-28 | **Not reachable from this environment.** Export to disk, paste the text, or give artifact URLs (those *are* fetchable) |
-| **Q-26** | Inventory the Owens post-series corpus — **~35 case-relevant episodes** at roughly BOC-E08 cost each | This is **a programme, not a task**. If yes, start with the Q-20 carrier check, then Eps 319/320/327/328/360/361/362 — not chronologically |
+| **The durable docket routine** | `DOCKET-WATCH.md` now has a log and a proven method, but **still no scheduler**. Session crons expire in 7 days and cannot reach September | **A `/schedule` cloud routine** — weekly to 08-11, then twice-weekly to 09-01. **This is the one failure that cannot be caught up later.** I did not create it: it is durable and outward-facing, and wanted your explicit go |
+| **Q-42** | Re-grade the chamber-case identity from "Medium-high inference" to sworn testimony | A yes/no. **D-48's direction is unaffected either way** |
+| **Q-51** | **State's Exhibit 11 — the nine-page ME report — has been in evidence since 2026-07-06.** It is **Q-15 / D-49's decisive artifact** (the fragment count) and the library did not know | Q-15 is `human`-gated; this inherits |
+| **Q-50** | Does Oliver's household-transfer explanation reach the towel and screwdriver, which were **not** in the household? | Bears on a living person under use immunity who is not accused |
+| **Q-41** | The claude.ai project material | Export, paste, or artifact URLs |
+| **Q-26** | The ~35-episode Owens programme | A programme, not a task |
+| **Q-31 / Q-32** | Utah XChange ($10) · DocumentCloud (needs a browser you drive) | Money · a live session |
 
-Two smaller ones: **Q-31** (Utah XChange — $10 one-time or $25 + $40/mo, would open the docket directly) and **Q-32** (DocumentCloud project 224251, bot-gated, needs a live browser session you drive).
+## 4. Recommended work order
 
-## 4. Recommended work order, and why
+**The two files written on 2026-07-28 are `[PROVISIONAL]` and one of them is large and unchecked.** That, not new reading, is the top of the queue.
 
-The last two sessions built a **court-record corpus** — five files on primary filings and sworn testimony. **None of it has been fed into the topic folders it was gathered for.** That gap is now the most valuable thing in the queue, because CLAUDE.md is unambiguous that *the deliverable is the files*, and five topic folders are still thin or unsourced.
+1. **Q-54 — verify CR-E05.** The Day 1 file is ~10× the size of the CR-E03 section whose verification found **6 defects and 14 omissions**. **Assume it contains both.** Run **two** passes — proposition-testing *and* completeness. The session that wrote it learned the hard way that the first cannot find what the file never said.
+2. **Q-52 — resolve D-52.** Read the Day 2 re-offer of Exhibit 12.1: what foundation was supplied after Day 1's exclusion, and whether Exhibit 12.3 was amended or replaced. **Cheap, and it closes a register entry opened today.** Deliberately left for an independent reader.
+3. **Q-06 — Bakker past her opening** (~384 turns). Now more valuable than before: her cross already yielded the DOJ verbal-scale answer and a clean restatement of the 7.1 figure.
+4. **Q-11 — the rest of Oliver (Day 5)**, which also settles CR-ACQ §8 item 12.
+5. **Then feed the topic folders — Q-07 to Q-10.** Losee, DNA, Twiggs, arrest chronology. **CR-E05 has just made Q-07 much richer** — Bagley is a first-officer-on-the-roof account the Losee file has nothing like.
 
-**Suggested sequence:**
+## 5. Traps — hazard 9 is new and it is the worst one yet
 
-1. **Docket check** (§2) — minutes, time-critical, do it first regardless.
-2. **Q-01 — read Day 1.** The only hearing day never read; 327k chars. Contains **Hull's first tranche** — he "resumed" direct on Day 2, so an earlier block of the surveillance-video testimony exists that the library has never seen. Highest single unknown left in the transcripts.
-3. **Q-14 — Faumuina's Day 2 turns.** Cheap (58 turns) and **re-ranked upward on 2026-07-28**: she reads FBI DNA results into the record at 05:10:57, including the towel-and-screwdriver material CR-E03 §5 flags as having unknown likelihood ratios. Best value-per-minute in the queue.
-4. **Q-11 — the rest of Oliver (Day 5).** Short, and it also settles **whether the full Exhibit 12.1 was ever played in open court** — a ruling Graf reserved at the close of Day 4 that nobody has tracked.
-5. **Q-06 — Bakker past her opening + Exhibit 31.** ~384 turns; the likelihood ratios behind the towel and screwdriver inclusions.
-6. **Then feed the topic folders — Q-07 to Q-10.** Losee building (62 lines, still no primary sourcing), DNA evidence, the Twiggs profile, arrest chronology. **This is where the reading turns into the library.** Q-09 is `human`-gated (living person; must record the use immunity from both offices).
+1. ⚠ **REV'S SPEAKER LABELS ARE NOT EVIDENCE.** *(New 2026-07-28.)* On **Day 1**, **Officer Bagley's sworn answers carry defence counsel Richard Novak's label** — Rev merged witness and cross-examiner into one label. **There is no "Sturgill" label at all**, though he conducts Hull's direct. The **oath is administered under defence counsel's name** on Days 1 and 2, and on Day 5 under **the witness's own name**, which is impossible. One **ruling** is labelled as a prosecutor. **Infer every speaker from content. Where a label and the content disagree, the content wins.**
+2. ⚠ **Timestamps are recording-stream time, not time of day** *(new 2026-07-28)* — the clock jumps across every recess. They are identifiers. **Never convert one to a clock time or measure a duration across a recess.** Part-seams can also fall mid-question with words duplicated either side.
+3. **Exhibit numbers are not unique across parties.** Always write "State's" or "the defence's."
+4. **Over-hedging is a defect too** — three corrections have now run *toward* the State.
+5. **Rev page dates are publication dates**, lagging one business day. The hearing ran **2026-07-06 → 07-10**.
+6. **Selective quotation** — reliable as to the words, never as to the document.
+7. **Provenance is a separate verification act.**
+8. **Keyword sampling finds topics and misses conclusions.**
+9. **A search null is a claim about the search.** ⚠ **This bit again today**: CR-E03 said two likelihood ratios were "unknown" when they were sitting in a banked transcript the file had declared unread.
+10. **Grep, then read the hit** — and note this cost something today too: `queue-check.sh` reports a "highest string" that counts forward-looking "next is D-nn" notes, and CR-AUDIT-2026-07-28 had copied that number into its own register-integrity finding.
 
-**If you only have one short session:** do §2, then Q-14. **If you have a long one:** Q-01.
+## 6. Where things stand as of 2026-07-28 (end of second session)
 
-## 5. Traps — two of these are new since you last worked here
+- **Register: D-1 – D-52, no gaps. Next is D-53.** **D-52 was assigned today and is OPEN** — Exhibit 12.1's Day 1 exclusion (CR-E05 §5).
+- **Transcripts: ALL FIVE HEARING DAYS ARE NOW READ AT LEAST IN PART, AND DAY 1 IS READ IN FULL.** Day 4 end to end; Day 1 end to end; Days 2/3/5 in substantial part. **The largest remaining unread body is Bakker's ~384 turns (Q-06).**
+- **Files: seven in `files - Court record`** — CR-ACQ, CR-E01…**CR-E05**, two audits, and **CR-WATCH-log**.
+- **Exhibits: still none obtained.** But two acquisition targets sharpened today: **Exhibit 11** (the ME report, in evidence) and **Exhibit 31** (published to the broadcast camera in a known 6-minute window, so Day 2 courtroom video may show its pages).
+- **Audits: three passes, plus two verification cycles run today** on the Q-14 section. **A human read is still owed** — every pass has been the same model checking itself.
+- **The loop is still DISARMED.** Zero cycles have run. **`DOCKET-WATCH` has now run once, by hand.**
+- **Working tree clean, pushed to `origin/main`.**
 
-1. **Exhibit numbers are not unique across parties.** The State and the defence each have an "**Exhibit 19**" on Day 4 and the transcript renders both bare. State's 19 = the fired cartridge case from the chamber. The defence's 19 = three bullet-comparison photographs, **unadmitted** when shown. **Always write "State's" or "the defence's."** *(New 2026-07-28.)*
-2. **Over-hedging is a defect too.** Two corrections have now run *toward* the State — the Dremel identification and the chamber-case identity — both because a summary graded down what the record states outright. **A caveat the evidence does not support is as much an error as a claim it does not support.** *(New 2026-07-28.)*
-3. **Rev page dates are publication dates**, lagging each proceeding by one business day. The hearing ran **2026-07-06 → 07-10**. This has been wrong once (D-51) and is now confirmed three ways.
-4. **Selective quotation** — a quotation by an interested party is reliable as to the words, never as to the document.
-5. **Provenance is a separate verification act** — a forensic report is silent about where its exhibits came from.
-6. **Keyword sampling finds topics and misses conclusions.** It has cost this project real accuracy twice; the answer usually sits a few questions past the keyword that located the subject.
-7. **A search null is a claim about the search** until validated against a known positive. Use `./tsearch.py`, which does that automatically before every query.
-8. **Grep, then read the hit** — forward-looking "next is D-nn" notes have matched the pattern five times without yet causing an error.
+## 7. What today actually changed, in one paragraph
 
-## 6. Where things stand as of 2026-07-28
-
-- **Register:** D-1 – D-51, no gaps, next number **D-52**. Nothing was assigned or moved on 2026-07-28.
-- **Transcripts:** Days 2–5 banked; Day 4 read end to end; Days 2/3/5 read in part; **Day 1 banked and entirely unread**.
-- **Exhibits:** none obtained. 30, 31, 32, 33, 34, the surveillance compilations and Karner's case file are all known only through witnesses describing them.
-- **Certified transcript:** not obtained (Q-36). Every quotation in the library is against Rev's commercial rendering.
-- **Audits:** three passes done. CR-AUDIT-2026-07-27 and BOC-AUDIT-2026-07-27B were **self-audits**; **CR-AUDIT-2026-07-28 (Q-02)** was run independently and found six defects, three material. **A human read is still owed** — every pass so far has been the same model checking itself.
-- **Last two commits:** `ebf3345` (Q-02, the independent pass) and `a12377a` (Q-43, briefing schedule promoted to Tier 1). Working tree clean, pushed to `origin/main`.
-
-## 7. One thing worth doing that is not in the queue
-
-**Set up a durable docket routine.** `DOCKET-WATCH.md` is a good spec with nothing running it. A cloud routine via `/schedule` — weekly until 2026-08-11, then twice-weekly through 2026-09-01 — would cover the whole briefing window. **This is a user action; it cannot be done from inside a session**, and it is the one failure in this project that cannot be caught up later.
+The docket half of this project stopped being theoretical: the watch ran, and the State's brief landed. The evidence half gained **the last unread hearing day**, which turned out to hold **a witness nobody knew about**, **the medical examiner's report in evidence**, and **an exclusion of the central surveillance exhibit that the library's account of that exhibit did not contain**. And the method half learned that **verifying what a file says cannot find what it never said** — the completeness pass found more than the quotation pass, and the transcripts' speaker labels turned out to be unsafe at any speed.
