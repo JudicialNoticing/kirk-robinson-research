@@ -1,7 +1,7 @@
 # DOCKET WATCH — *State of Utah v. Robinson*, Case No. 251403576
 
 **Why this is separate from [LOOP.md](LOOP.md):** the research queue is paced by work available. **This is paced by a court calendar** (LOOP.md §5). Missing a filing window is the one failure here that cannot be caught up later.
-**Prepared:** 2026-07-28 · **Runs until:** the bindover ruling, then re-scope. · **Status:** v1.1
+**Prepared:** 2026-07-28 · **Runs until:** the bindover ruling, then re-scope. · **Status:** v1.2 — **Run 1 executed 2026-07-28**; log at [CR-WATCH-log.md](files%20-%20Court%20record/CR-WATCH-log.md)
 
 ## The calendar
 
@@ -10,10 +10,10 @@
 | Date | Event | Status |
 |---|---|---|
 | 2026-07-06 → 07-10 | Preliminary hearing, five days | **held** (D-51, as reversed) |
-| **2026-07-28** | **State's opening probable-cause brief due**, 35-page limit | **due today — unverified.** ⚠ **Conditional**: Grunander offered this date "assuming that they can get the transcript by Monday" (2026-07-13). A slip may reflect the court reporter, not the case |
+| **2026-07-28** | **State's opening probable-cause brief due**, 35-page limit | ✅ **REPORTED FILED 2026-07-28** — observed status, Run 1. **T1 via T3, one independent source** (Fox News, pub. 20:38 EDT that day); **the document is not held** and its contents are unrecorded (→ Q-45). The conditional on the court reporter did not bite |
 | **2026-08-11** | Defense response due, 35-page limit | pending |
 | **2026-08-18** | State's reply due, **18**-page limit | pending |
-| **2026-09-01, 10:00 a.m.** | **Oral argument** — **in person**, "up to two hours per side" | pending. ⚠ **Known conflict — see below** |
+| **2026-09-01, 10:00 a.m.** | **Oral argument** — **in person**, "up to two hours per side" | pending. ⚠ **Known conflict — see below.** **Still standing as of Run 1 (2026-07-28)**; no continuance motion found, but see the run's scope caveat |
 | after 09-01 | Bindover ruling; death-penalty posture | pending |
 
 ⚠ **A continuance precursor is already on the record.** When Graf set 09-01, **Ms. Nester asked to move it** — "I'm going to be in trial that week and I'd really like to be here for this argument. Is there any way we could just do it the next week?" The court declined ("This is a fortunate opening") and she accepted. **The date is firm as set, but lead defence counsel has a stated trial conflict with it.** Treat any defence filing between now and 09-01 as a possible motion to continue, and check for one specifically. *(Day 4, 08:19:13–08:19:31.)*
@@ -49,7 +49,9 @@ Append to `files - Court record/CR-WATCH-log.md` — one row per run: date, what
 | Outlet-mirrored filings | open; how both banked motions were obtained |
 | Rev transcripts | open; mind the slug trap |
 | DocumentCloud project 224251 | bot-gated (403/JS); needs an interactive browser (Q-32) |
-| Utah Courts press notices | `legacy.utcourts.gov` — Tier 2, unretrieved (Q-?) |
+| Utah Courts press notices | `legacy.utcourts.gov/utc/news/` — **Tier 2, RETRIEVED 2026-07-28 (Run 1); route works.** One Robinson entry only (2026-07-06, hearing-week logistics); nothing after 07-10 |
+| abc4.com | ⚠ **NEWLY BOT-BLOCKED (403)** as of Run 1 — article text and the case timeline both unretrievable |
+| Utah County Attorney media page | `atty.utahcounty.gov/media` — **open, retrieved 2026-07-28.** Latest Robinson item 2026-06-26; briefs not posted there |
 
 ## Scheduling note
 
@@ -59,5 +61,6 @@ Append to `files - Court record/CR-WATCH-log.md` — one row per run: date, what
 
 | Version | Date | Change |
 |---|---|---|
+| **1.2** | **2026-07-28** | **Run 1 executed — the spec has a log for the first time** (`files - Court record/CR-WATCH-log.md`). Calendar table updated with two **observed statuses**, which is what §"What each run may and may not do" expressly permits: the **State's opening brief is reported filed 2026-07-28** (T1 via T3, single independent source, document not held, contents deliberately unrecorded → **Q-45**), and the **09-01 argument still stands** with no continuance motion found. Access-route table updated on three counts: **`legacy.utcourts.gov` retrieved for the first time** (route works; nothing after 2026-07-06), **abc4.com newly 403 bot-blocked**, and the **Utah County Attorney media page** added as an open route that does not carry the briefs. **A previously unknown proceeding surfaced** — a contempt hearing c. 2026-06-22, absent from the library's five-day inventory (→ Q-46). **No case-posture statement in any topic file was altered and no register entry moved.** |
 | **1.1** | **2026-07-28** | **Q-43 — the calendar is now sourced from a Tier 1 artifact instead of a news report.** v1.0 carried these dates at Medium-high from Deseret while the transcript that set them sat banked and unread in this repository. **This file's own prohibition — "Must NOT, ever: change a case-posture statement in any topic file" — was written on the strength of D-51, and the same file's calendar was itself second-hand.** Canonical source is now **CR-ACQ §5.1**. Added to the table: **page limits (35 / 35 / 18)**; oral argument **in person, "up to two hours per side"**; and the fact that **the State's 07-28 date was expressly conditional** on the court reporter delivering by 2026-07-13, so a slip there may signify nothing. ⚠ **Most operationally significant:** **Ms. Nester asked to move the 09-01 argument** — she is in trial that week — **and the court declined.** §"What each run checks" item 3 was watching for "anything moving the 09-01 date" while not knowing a named precursor already existed; it now instructs a specific check for a defence motion to continue. Also flagged: the reserved Exhibit 12.1 publication request, unresolved on the portion of Day 5 read. |
 | 1.0 | 2026-07-28 | Initial spec. Calendar through the bindover ruling; per-run checks with the Rev slug trap called out; hard prohibition on touching case posture, written directly out of the D-51 failure; escalation triggers; logging rule that a null run still writes a row. |
