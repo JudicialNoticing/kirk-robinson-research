@@ -16,7 +16,9 @@ git pull                 # nothing else has been writing here, but check
 
 Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of it. **There are now ten; hazards 9 and 10 are new and hazard 9 is the most dangerous one this project has found** (§5 below).
 
-**Expect `queue-check.sh` to report two files with `[PROVISIONAL]` findings** — CR-E03 and CR-E05. That is correct, not a fault. **Neither may be cited elsewhere until a verification cycle clears it.**
+**Expect `queue-check.sh` to report three files under "Provisional findings outstanding" — and only two of them are real.**
+- **CR-E03 and CR-E05 genuinely carry `[PROVISIONAL]` findings.** **Neither may be cited elsewhere until a verification cycle clears it** (LOOP.md §2). **CR-E05 is the urgent one — see §4.1.**
+- **This file is a false positive.** `queue-check.sh` **pattern-matches the token rather than reading the hit**, so it fires on any file that merely *discusses* the marker. CR-AUDIT-2026-07-28 §7 recorded this bug — "standing hazard 6 living inside the validator that enforces the other hazards" — and it is **still unfixed, deliberately**: a smarter matcher risks a false *negative*, which would let an unverified finding escape unnoticed. **A noisy validator is the safe failure direction here.**
 
 ## 2. The docket — the State's brief LANDED, and the watch has run once
 
