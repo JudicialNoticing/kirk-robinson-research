@@ -33,6 +33,10 @@ Source: `prelim-hearing-transcripts/day{2,3,5}.txt`, banked 2026-07-27 from Rev.
 
 **Method warning carried forward from CR-E02 §1:** keyword sampling of sworn testimony finds topics and misses conclusions. Nothing below was found by sampling; but what is *absent* below may well have been missed for exactly that reason.
 
+⚠ **ACCESS-PATH CAVEAT — THE TIMESTAMPS ARE RECORDING-STREAM TIME, NOT TIME OF DAY.** *(Established 2026-07-28 on the Q-14 completeness cycle; applies to **every** transcript in this corpus and to every file that cites one.)* Rev's timestamps count elapsed recording time, and **the clock jumps across each recess** — on Day 2 a recess called at stream-time 03:45:31 "until 1:45" is followed by a roughly one-hour discontinuity. **So "day2 05:10:57" is not 5:10 p.m.; it is an identifier, not a clock reading.** The library's practice of citing them as locators is sound and unaffected. **What would be wrong is converting any of them to a time of day, or computing a duration across a recess.** No existing file is known to do either — but none of them said so, and this caveat now stands for all of them.
+
+⚠ **Part-seams can fall mid-question.** The banked files are assembled from numbered parts ("PART 8 OF 14 ENDS [05:06:04]"), and a seam may sit **inside** a question with counsel's words **duplicated** either side of it. Quoting across a seam risks rendering one question as two.
+
 ## 2. CORRECTIONS TO EXISTING FILES
 
 | Correction | Was | Is |
