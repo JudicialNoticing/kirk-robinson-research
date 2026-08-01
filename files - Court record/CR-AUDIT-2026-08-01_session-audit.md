@@ -4,7 +4,7 @@
 **Scope:** the whole of the 2026-08-01 session — **Q-54, Q-52, Q-11, Q-06, DOCKET-WATCH Run 2**, and the integration of all of them into the topic files. Covers what changed, what was verified, what was **not** verified, and what a later reader must not assume.
 **Case context:** Case No. 251403576, Fourth Judicial District Court, Provo. **Tyler Robinson is presumed innocent and, as of 2026-08-01, has NOT been bound over for trial.** **No case-posture statement in any topic file was altered in this session.**
 **Prepared:** August 1, 2026
-**Status:** **v1.1 — Part 8 added: a second round of 45 agents was launched and STOPPED at 15 returned.** Only **Q-58** completed; it found **six confirmed defects in CR-E06**, two of them places where the file asserted something the record contradicts, and **CR-E06's `[PROVISIONAL]` marking was deliberately NOT cleared.**
+**Status:** **v1.2 — Part 9 added: Q-58 COMPLETED.** 68 of 69 material candidates tested — **59 CONFIRMED · 3 REFUTED · 6 MOOT**. ⚠ **The findings passed; the account did not.** Seven core corrections applied at CR-E06 v1.2, including **a D-53 register cell left stale by v1.1's own scope correction.** **`[PROVISIONAL]` NOT cleared — 46 confirmed items remain unintegrated (Q-59).** *(v1.1: Part 8, the 45-agent round stopped at 15 returned.)*
 
 ---
 
@@ -119,9 +119,40 @@ The other four: the LR-of-1 run covered **item 7-1 only** (a scope the file had 
 
 ---
 
+## Part 9 — Q-58 COMPLETED (added v1.2)
+
+**68 of 69 material candidates adversarially tested** (31 agents over the remaining 60; the 69th a dedup duplicate). **Final: 59 CONFIRMED · 3 REFUTED · 6 MOOT · 0 UNCERTAIN**, against **139 logged confirmations**.
+
+### 9.1 The findings passed; the account did not
+
+⚠ **Not one confirmation defeated a headline result, a §5 finding, or a register entry.** The core-touching confirmations **narrowed scope**. On LOOP.md §2's own test — *do the findings harden when a separate cycle works from the primary artifact?* — **they hardened.**
+
+⚠ **But `[PROVISIONAL]` was NOT cleared, and the reason CHANGED.** At v1.1 it stayed because candidates were **untested**. They are now tested, and **46 confirmed material items remain UNINTEGRATED** (→ **Q-59**). **The cycle established that CR-E06 is a sound account, not a complete one** — and a marking whose function is to stop other files citing an incomplete account must stay while 46 confirmed omissions sit outside it. **This is a distinction worth keeping: "its findings are verified" and "it may be cited as an account" are different questions, and this file currently answers them differently.**
+
+### 9.2 The error the cycle caught that matters most
+
+⚠ **A REGISTER CELL WENT STALE UNDER A CORRECTION.** At v1.1 the "item 7-1 only" scope was applied to headline 2 and §5.2 — **and not propagated to the D-53 register cell**, which is precisely the cell written to be carried by other files. **Four independent verifiers caught it.** So a correction made *to reduce* an overclaim left the overclaim standing in the one place most likely to be quoted downstream.
+
+> **The generalisable rule: when a scope is narrowed, the register row is the FIRST place to check, not the last.** A register entry is the file's export surface. **A correction that does not reach it has not really been made.**
+
+Two further core corrections are worth carrying: **§5.3's null was a claim about the laboratory** ("no unconditioned ratio was ever computed") when the record can only support a claim about the transcript — **hazard 5 committed from the inside, again**; and **§5.2's "only ratio of 1" is true of Bakker's FBI work only** — ATF reported support-for-inclusion conclusions involving Mr. Twiggs on Dremel samples, so **the sentence would be false if written across both laboratories.**
+
+⚠ **Three of the seven corrections cut TOWARD the State or the witness** — the restored affirmative-observation clause, the internal-review origin of the additional statistic, and the explained report-language asymmetry. **The both-directions rule is doing real work here, not decorating.**
+
+### 9.3 ⚠ A signal about the verification method itself
+
+**Refutal rates across this session: Q-54 refuted 6 of 16 (38%) · Q-58 batch 1, 2 of 8 (25%) · Q-58 batch 2, 1 of 60 (1.7%).**
+
+**The collapse is explained by candidate TYPE, not by weaker verifiers.** Batch 2 was almost entirely **omissions**, where the question reduces to "is this in the file?" — close to mechanical. Their reasoning was in fact strong: hazard checks run, finder framing corrected, several returning PARTLY-MOOT/PARTLY-LIVE distinctions.
+
+**But a pass that refutes 1 in 60 is not exerting much adversarial pressure.** ⚠ **The fix for the next omission-heavy cycle is a MATERIALITY gate, not an EXISTENCE gate:** require the verifier to state what a reader of the file alone would get *wrong* without the item, and refute where the answer is "nothing." **Recorded in QUEUE.md so the next cycle inherits it.**
+
+---
+
 ## REVISION LOG
 
 | Version | Date | Change |
 |---|---|---|
+| **1.2** | **2026-08-01** | **Part 9 added — Q-58 COMPLETED.** 68 of 69 material candidates adversarially tested: **59 CONFIRMED · 3 REFUTED · 6 MOOT · 0 UNCERTAIN** against 139 logged confirmations. ⚠ **The findings PASSED — not one confirmation defeated a headline result, §5 finding or register entry, and the core-touching ones narrowed scope.** **Seven core corrections applied at CR-E06 v1.2.** ⚠ **`[PROVISIONAL]` NOT cleared, and the reason changed: 46 confirmed material items remain UNINTEGRATED (→ Q-59).** **The distinction is worth keeping — "its findings are verified" and "it may be cited as an account" are different questions, and CR-E06 currently answers them differently.** ⚠ **The catch that matters most: a REGISTER CELL WENT STALE UNDER A CORRECTION** — v1.1's "item 7-1 only" scope reached headline 2 and §5.2 but never the D-53 cell, the one written to be carried by other files; four verifiers caught it independently. **Rule recorded: when a scope is narrowed, the register row is the FIRST place to check, not the last — a correction that does not reach the export surface has not really been made.** Also logged: **§5.3's null was hazard 5 committed from the inside** (a claim about the laboratory where the record supports only a claim about the transcript), and **§5.2's "only ratio of 1" is true of Bakker's FBI work alone** — it would be false across both laboratories. **Three of the seven corrections cut toward the State or the witness.** ⚠ **A method signal recorded at §9.3: refutal rates fell 38% → 25% → 1.7% across the session, explained by candidate TYPE (omissions, not defects) rather than weaker verifiers — but the next omission-heavy cycle needs a MATERIALITY gate, not an existence gate.** |
 | **1.1** | **2026-08-01** | **Part 8 added — round 2, stopped part-way.** A 45-agent workflow was launched after the integration and **stopped at 17 started / 15 returned** on session close. **Only Q-58 completed**: 6 readers → **126 candidates (69 material), 139 confirmations; 8 tested, 6 CONFIRMED** and corrected into CR-E06 v1.1. ⚠ **CR-E06's `[PROVISIONAL]` marking was DELIBERATELY NOT CLEARED — a 6-of-8 hit rate against 61 untested material candidates is evidence the file has more, not evidence it is sound. Clearing is a judgement about the untested remainder, not a tally of the tested part.** **Two of the six were assertions the record contradicts** — a scoped null that was simply wrong (§2.5), and a characterisation of the defence's attack that was wrong in a way that had made the over-hedge guard look cleaner than it was (§5.3, now corrected and surviving). **Q-07 produced a complete but UNREVIEWED draft, banked and marked DO-NOT-PUBLISH**; its reviewer was in flight when the run stopped. ✅ **Logged as the rule working: the drafter excluded CR-E06 entirely under LOOP.md §2 and enumerated every exclusion.** **Q-08, Q-10, Q-55, Q-56 and Q-46/47/48/57 did not run.** Also records that **the rebuilt Q-55 dedup proved the original defect** — Jaccard clustering collapsed 20 duplicates the prefix key had missed, where the old key collapsed zero. |
 | 1.0 | 2026-08-01 | **Session audit created.** Records a 39-agent, four-phase session and its integration into eight files. **Q-54 cleared CR-E05's `[PROVISIONAL]` marking** on the strength of 16 adversarially verified findings — **10 confirmed, 6 refuted, every refutal a case where the file was right** — while **213 candidates remain untested and are expressly not findings.** **The session's most consequential result is about method, not about Day 1: a caveat this library had propagated library-wide was itself never verified, and was wrong.** Also records **D-52 resolved against CR-E05's own hypothesis**, **CR-ACQ §8 item 12 closed**, **CR-E06 created** with **D-53–D-58 opened**, **DOCKET-WATCH Run 2 logged** and the durable routine recorded with its report-only limitation. **Residual scope stated at Part 5, including a defect in this session's own orchestration.** **No case-posture statement altered; no register entry resolved against any named person; a human read still owed.** |
