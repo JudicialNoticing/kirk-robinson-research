@@ -16,7 +16,7 @@ git pull                 # nothing else has been writing here, but check
 
 Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of it. ⚠ **Two of them changed on 2026-08-01 — hazard 10 was CORRECTED because it was wrong, and hazard 9 was WIDENED.** See §5.
 
-**Expect `queue-check.sh` to list FIVE files under "Provisional findings outstanding." Only TWO are real.**
+**Expect `queue-check.sh` to list SIX files under "Provisional findings outstanding." THREE are real.**
 
 | File | Real? |
 |---|---|
@@ -25,6 +25,7 @@ Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of
 | **CR-E05** (Day 1) | ❌ **FALSE POSITIVE — this file is now VERIFIED (v1.1).** Q-54 ran on 2026-08-01 and the marking was cleared; the validator matches the token in the historical revision log and in §9.4's *statement that it was cleared* |
 | **START-HERE.md** | ❌ **FALSE POSITIVE** — this file merely discusses the marker |
 | **CR-AUDIT-2026-08-01** | ❌ **FALSE POSITIVE** — same reason |
+| **`2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md`** | ✅ **REAL, and stronger than provisional — it is UNREVIEWED.** A complete Losee draft whose adversarial review never ran. **Do not publish it, do not cite it, do not copy it into the topic folder. Run the review** (work order item 2) |
 
 **The validator pattern-matches the token rather than reading the hit. That bug is still unfixed, deliberately:** a smarter matcher risks a false *negative*, which would let an unverified finding escape. **A noisy validator is the safe failure direction.**
 
