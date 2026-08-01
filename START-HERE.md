@@ -1,6 +1,19 @@
 # START HERE — next session
 
-**Written:** 2026-07-28 at session close (second session that day). **Read this first, then [QUEUE.md](QUEUE.md).**
+> ## ⏸ A SESSION IS PAUSED MID-WRITE-BACK. READ THAT FILE FIRST.
+>
+> **On 2026-08-01, five workstreams were EXECUTED and NONE was integrated into the topic files.**
+> **→ [`files - Court record/CR-2026-08-01_WIP-state.md`](files%20-%20Court%20record/CR-2026-08-01_WIP-state.md) — resume by executing its §9, NEXT STEPS.**
+>
+> **Everything below this banner is the 2026-07-28 snapshot and is now PARTLY SUPERSEDED.** In particular: **Q-54, Q-52, Q-11 and Q-06 have all been worked** (§4's recommended order is spent), and **DOCKET-WATCH Run 2 has run**. The register, QUEUE.md and every topic file are **unchanged** — which is exactly why the WIP file has to be read before anything else is trusted.
+>
+> **Two things from 2026-08-01 that change how you read the rest of this file:**
+> 1. ⚠ **Hazard 2 below is WRONG as written.** "The clock jumps across every recess" **does not hold on Day 1**, and the error originates upstream in **CR-E03 §1**. Timestamps remain identifiers — do not convert them to clock times — but do not repeat the recess claim until it is corrected.
+> 2. ⚠ **Hazard 9 is NARROWER than the truth.** Day 5 supplies a previously unrecorded failure type: **a party's advocate's argument carried under the OPPOSING party's counsel label.** The hazard is not only about witness answers.
+>
+> **The durable docket routine now EXISTS** (`trig_016faLfbQWCz72M463Dy8HsL`, Wed/Sat 09:00 ET, first run 2026-08-05), so §3's first row is discharged — **but it is report-only**: the cloud environment was refused access to the private repo, so its findings must be pasted into `CR-WATCH-log.md` by hand until that grant is made.
+
+**Written:** 2026-07-28 at session close (second session that day). **Banner added 2026-08-01.** **Read the WIP file first, then this, then [QUEUE.md](QUEUE.md).**
 This is a snapshot with dates in it. **If you are reading this well after 2026-09-01, it is stale** — the docket section will have resolved one way or the other, and the work order should be re-derived from QUEUE.md.
 
 ---
