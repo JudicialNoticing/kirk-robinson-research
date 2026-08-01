@@ -4,7 +4,7 @@
 **Scope:** the whole of the 2026-08-01 session — **Q-54, Q-52, Q-11, Q-06, DOCKET-WATCH Run 2**, and the integration of all of them into the topic files. Covers what changed, what was verified, what was **not** verified, and what a later reader must not assume.
 **Case context:** Case No. 251403576, Fourth Judicial District Court, Provo. **Tyler Robinson is presumed innocent and, as of 2026-08-01, has NOT been bound over for trial.** **No case-posture statement in any topic file was altered in this session.**
 **Prepared:** August 1, 2026
-**Status:** v1.0
+**Status:** **v1.1 — Part 8 added: a second round of 45 agents was launched and STOPPED at 15 returned.** Only **Q-58** completed; it found **six confirmed defects in CR-E06**, two of them places where the file asserted something the record contradicts, and **CR-E06's `[PROVISIONAL]` marking was deliberately NOT cleared.**
 
 ---
 
@@ -88,8 +88,40 @@ That claim had propagated from **CR-E03 §1** into **CR-E05 §1.3**, into **QUEU
 
 ---
 
+## Part 8 — ROUND 2, STOPPED PART-WAY (added v1.1)
+
+A second workflow of **45 agents** was launched after the integration and **stopped at 17 started / 15 returned** when the session was closed. **Only one phase completed, and it is the only thing that landed.**
+
+### 8.1 Q-58 — CR-E06 verified, and DELIBERATELY NOT CLEARED
+
+**6 readers over `day2.txt`/`day5.txt` → 126 candidates (69 material), 139 confirmations. 8 adversarially tested → 6 CONFIRMED.**
+
+⚠ **The `[PROVISIONAL]` marking was NOT cleared, and the reasoning should be reused.** CR-E05 cleared on 10-of-16; CR-E06 was **6-of-8 with 61 material candidates untested**. **A high hit rate against a small sample is evidence the file has more, not evidence it is sound.** **Clearing is a judgement about the untested remainder, not a tally of the tested part.**
+
+**Two of the six were places where the file asserted something the record contradicts** — the failure mode that matters most:
+
+| | Defect |
+|---|---|
+| **1** | §2.5 said "which person is the 5% and which the 95% is **NOT stated on the record**." **It is** — elicited by the **State on cross**: Twiggs aligned with the 5% contributor, Robinson with the 95%. **A scoped null that was simply wrong** — hazard 5, from the inside |
+| **2** | §5.3 said the defence attacked "the **propriety** of the assumption, not its **magnitude**." **It attacked magnitude too** — "astronomical," "whether you've got accurate numbers in front of you." ⚠ **But through the number-of-contributors input, never naming Twiggs, never asserting a direction of effect, and never asking what the figure would be without the assumption — so the guard survives in corrected form** |
+
+The other four: the LR-of-1 run covered **item 7-1 only** (a scope the file had left open); a **second communication-log entry of 2025-09-13** showing the earliest oral communication already used the compliant "possible contributor" formula (**a confirmation running toward the State**); the out-of-order call was **by prior arrangement previewed by the State**; and the witness testified **a portion of extract was returned "on all of the items"** — counsel said "we'll get to that in a minute" and never did, so it stands **unrebutted and untested**, logged because it cuts against the section's own direction of travel.
+
+### 8.2 What did NOT run
+
+**Q-07 (Losee) produced a complete draft that was never reviewed** — banked as `2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md`. ✅ **Worth recording: the drafter respected LOOP.md §2 rigorously**, excluding CR-E06 in its entirety and enumerating every exclusion — the costliest being the six consumed northeast-corner swabs that yielded no DNA, and Exhibit 31's "Screwdriver from perch" description. **That is the rule working as designed: the DNA folder must clear before the Losee folder can be complete.**
+
+**Not started at all:** Q-08 (DNA), Q-10 (arrest chronology), **Q-55** (18 verifiers over the Q-54 residue), **Q-56** (the brief and its provenance), **Q-46/Q-47/Q-48/Q-57** (unheld documents).
+
+### 8.3 A method note worth keeping
+
+**The Q-55 dedup was rebuilt before this round and the rebuild proved the original defect.** Replacing the prefix key with Jaccard clustering over content tokens **collapsed 20 duplicates the old key had missed entirely** (18 clusters with >1 member). **The old key had collapsed zero.** That left **103 material clusters** from the 213 residue — of which this round was to test 18. **None were tested.**
+
+---
+
 ## REVISION LOG
 
 | Version | Date | Change |
 |---|---|---|
+| **1.1** | **2026-08-01** | **Part 8 added — round 2, stopped part-way.** A 45-agent workflow was launched after the integration and **stopped at 17 started / 15 returned** on session close. **Only Q-58 completed**: 6 readers → **126 candidates (69 material), 139 confirmations; 8 tested, 6 CONFIRMED** and corrected into CR-E06 v1.1. ⚠ **CR-E06's `[PROVISIONAL]` marking was DELIBERATELY NOT CLEARED — a 6-of-8 hit rate against 61 untested material candidates is evidence the file has more, not evidence it is sound. Clearing is a judgement about the untested remainder, not a tally of the tested part.** **Two of the six were assertions the record contradicts** — a scoped null that was simply wrong (§2.5), and a characterisation of the defence's attack that was wrong in a way that had made the over-hedge guard look cleaner than it was (§5.3, now corrected and surviving). **Q-07 produced a complete but UNREVIEWED draft, banked and marked DO-NOT-PUBLISH**; its reviewer was in flight when the run stopped. ✅ **Logged as the rule working: the drafter excluded CR-E06 entirely under LOOP.md §2 and enumerated every exclusion.** **Q-08, Q-10, Q-55, Q-56 and Q-46/47/48/57 did not run.** Also records that **the rebuilt Q-55 dedup proved the original defect** — Jaccard clustering collapsed 20 duplicates the prefix key had missed, where the old key collapsed zero. |
 | 1.0 | 2026-08-01 | **Session audit created.** Records a 39-agent, four-phase session and its integration into eight files. **Q-54 cleared CR-E05's `[PROVISIONAL]` marking** on the strength of 16 adversarially verified findings — **10 confirmed, 6 refuted, every refutal a case where the file was right** — while **213 candidates remain untested and are expressly not findings.** **The session's most consequential result is about method, not about Day 1: a caveat this library had propagated library-wide was itself never verified, and was wrong.** Also records **D-52 resolved against CR-E05's own hypothesis**, **CR-ACQ §8 item 12 closed**, **CR-E06 created** with **D-53–D-58 opened**, **DOCKET-WATCH Run 2 logged** and the durable routine recorded with its report-only limitation. **Residual scope stated at Part 5, including a defect in this session's own orchestration.** **No case-posture statement altered; no register entry resolved against any named person; a human read still owed.** |

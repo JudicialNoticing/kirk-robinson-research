@@ -20,7 +20,7 @@ Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of
 
 | File | Real? |
 |---|---|
-| **CR-E06** (Bakker/Oliver) | ✅ **GENUINELY PROVISIONAL.** New, unchecked, no cycle has run. **May not be cited elsewhere** → **Q-58** |
+| **CR-E06** (Bakker/Oliver) | ✅ **GENUINELY PROVISIONAL — and deliberately so, at v1.1.** Q-58 **did** run: **126 candidates, 8 tested, 6 CONFIRMED and corrected in place.** ⚠ **The marking was NOT cleared: a 6-of-8 hit rate with 61 material candidates untested is evidence the file has more.** **May not be cited elsewhere** → **Q-58 stays OPEN** |
 | **CR-E03** (Days 2/3/5) | ✅ **GENUINELY PROVISIONAL as to its §5A** (Q-14 findings) |
 | **CR-E05** (Day 1) | ❌ **FALSE POSITIVE — this file is now VERIFIED (v1.1).** Q-54 ran on 2026-08-01 and the marking was cleared; the validator matches the token in the historical revision log and in §9.4's *statement that it was cleared* |
 | **START-HERE.md** | ❌ **FALSE POSITIVE** — this file merely discusses the marker |
@@ -59,13 +59,14 @@ Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of
 
 ## 4. Recommended work order
 
-**The four items you chose on 2026-08-01 are all now unblocked — CR-E05 clearing `[PROVISIONAL]` is what released them.**
+⚠ **A 45-agent round was launched on 2026-08-01 and STOPPED at 15 returned. Only Q-58 completed.** Everything below is what remains, in order.
 
-1. **Q-07–Q-10 — feed the topic folders.** Losee, DNA evidence, Twiggs, arrest chronology. **This is the largest available jump in coverage**, and it was dammed behind the write-back. ⚠ **The DNA folder is now much richer and much more delicate**: it must carry **D-53's conditioning finding**, Oliver's "cannot speak to activity," the consumption record, and the **living-persons framing in CR-E06's header** — verbatim, not paraphrased.
-2. **Q-56 — bank the State's brief** from the Scribd mirror. ⚠ **Provenance verification is a SEPARATE act from reading it**: file-stamp, signature block, certificate of service. Until then it is an upload, not a filed document.
-3. **Q-55 — the second verification cycle** on Q-54's 213 untested candidates. ⚠ **Fix the dedup first** — last run's collapsed nothing and burned two of sixteen slots on the same hole found twice.
-4. **Q-58 — verify CR-E06**, which is new and unchecked.
-5. **Q-48, Q-46, Q-47, Q-57** — the unheld primary documents.
+1. ⚠ **Q-58 — FINISH IT. 61 material candidates are untested.** The 8 that were tested returned **6 confirmed defects**, two of them assertions the record contradicts. **Until this completes, CR-E06 is `[PROVISIONAL]` and NOTHING may cite it — which is what currently blocks the DNA folder.** Candidates are in `CR-ACQ-.../2026-08-01_round2-Q58-raw-output.json`.
+2. ⚠ **Q-07 — RUN THE REVIEW, do not publish the draft.** A complete 85.6k-char Losee draft exists at `CR-ACQ-.../2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md`; **its adversarial review was in flight when the session closed and never ran.** An unreviewed draft is not a finding.
+3. **Q-08 (DNA) and Q-10 (arrest chronology)** — never started. ⚠ **Q-08 is gated behind item 1**: the drafter cannot carry D-53, the consumption record or the LR-of-1 while CR-E06 is provisional. **The Losee drafter already proved this bites** — it excluded the six consumed northeast-corner swabs, which is literally "what was recovered at the drop point."
+4. **Q-55 — the second cycle on Q-54's residue.** ✅ **The dedup is already rebuilt and verified**: Jaccard clustering collapsed **20 duplicates the old prefix key missed** (it collapsed zero). **103 material clusters; 18 were selected and none tested.** Candidate list at `scratchpad/q55-candidates.json`; regenerate if the scratchpad is gone.
+5. **Q-56 — bank the State's brief** from the Scribd mirror. ⚠ **Provenance is a SEPARATE act**: file-stamp, signature block, certificate of service. Until then it is an upload, not a filed document.
+6. **Q-48, Q-46, Q-47, Q-57** — the unheld primary documents. ⚠ **Q-46 now has TWO dates in play** (a contempt *hearing* c. 06-22, a contempt *ruling* 06-26) — **not established to be the same event.**
 
 ## 5. Traps — two changed on 2026-08-01
 
@@ -85,8 +86,16 @@ Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of
 - **Files: ten in `files - Court record`** — CR-ACQ, CR-E01…**CR-E06**, CR-WATCH-log, and three audits.
 - **Exhibits: still none obtained.** ⚠ **State's Exhibit 31 — the decisive artifact for D-53 — has never been read.** The State's brief is **located, not banked**.
 - **CR-E05 is VERIFIED.** ⚠ **But on 16 of 229 candidates — 213 are untested** (Q-55).
+- **CR-E06 is v1.1 and STILL `[PROVISIONAL]`, deliberately.** Q-58 tested 8 of 69 material candidates and **6 were confirmed defects.** ⚠ **The reasoning is worth reusing: clearing is a judgement about the UNTESTED remainder, not a tally of the tested part.**
+- ⚠ **Two of this session's own files asserted things the record contradicts** — CR-E05 §5's D-52 hypothesis, and CR-E06 §2.5's scoped null. **Both were caught only by a cycle reading the primary source.** Neither would have been caught by re-reading the write-up.
 - **The loop is still DISARMED.** Zero cycles. **DOCKET-WATCH has run twice, both by hand**, and now has a scheduler.
 - **Working tree clean, pushed to `origin/main`.**
+
+## 6A. ⚠ The single most reusable lesson of 2026-08-01
+
+**Every substantive error found this session was an assertion that felt safe.** The recess caveat felt safe because it only ever *restricted* what could be said. CR-E05's D-52 hypothesis felt safe because it was hedged as "most likely." CR-E06's "not stated on the record" felt safe because it was a null. **All three were wrong, and all three were caught only by a cycle that went back to the transcript rather than re-reading the write-up.**
+
+**The operational rule:** a caveat, a hedge and a null are all **claims**, and claims need verification acts. **Verifying what a file *says* cannot find what it never said, and cannot test what it merely assumed.**
 
 ## 7. What 2026-08-01 actually changed, in one paragraph
 
