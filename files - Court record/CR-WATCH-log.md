@@ -3,7 +3,7 @@
 **Purpose:** one row per run of the [DOCKET-WATCH.md](../DOCKET-WATCH.md) spec. **A run that finds nothing still writes a row** — a watch with gaps in its log is indistinguishable from a watch that was not running.
 **Case:** *State of Utah v. Tyler James Robinson*, Case No. 251403576, Fourth Judicial District Court, Provo — Hon. Tony F. Graf, Jr.
 **Standing constraint:** a run may acquire and bank freely and may update DOCKET-WATCH's own calendar table with an observed status. **It may never change a case-posture statement in a topic file, resolve a register entry, characterise a filing's contents beyond its title and date, or infer an outcome from a filing's existence.** D-51 is why.
-**Status:** v1.0
+**Status:** **v1.1 — Run 2 logged 2026-08-01.** ⚠ **A durable cloud routine now exists** (`trig_016faLfbQWCz72M463Dy8HsL`, Wednesdays and Saturdays 09:00 ET, first firing 2026-08-05). **It is REPORT-ONLY**: the cloud environment was refused access to the private repository, so **its output must be pasted into this file by hand** until that grant is made. Runs 1 and 2 were both executed by hand.
 
 ---
 
@@ -12,6 +12,7 @@
 | # | Date | Trigger | Headline | Escalated? |
 |---|---|---|---|---|
 | **1** | **2026-07-28** | first run; State's opening brief due this date | **State's opening probable-cause brief reported FILED 2026-07-28** (T1 via T3, single independent source). 09-01 argument still stands. **A previously unknown Rev transcript located: a contempt hearing, c. 2026-06-22.** | No — no escalation trigger met |
+| **2** | **2026-08-01** | scheduled follow-up; the durable routine created this date | **A PUBLIC MIRROR OF THE STATE'S BRIEF EXISTS AND IS RETRIEVABLE** — 28 pp., Scribd, closing Run 1's "no public mirror" null and giving **Q-45** a route. The 07-28 filing date is now **multi-sourced** (Run 1 had one). **The DocumentCloud API is no longer bot-gated** and project 224251 was enumerated for the first time (46 documents). ⚠ **28 pp. is the LENGTH; 35 was the page LIMIT.** | No — no escalation trigger met |
 
 ---
 
@@ -86,8 +87,75 @@
 
 ---
 
+## Run 2 — 2026-08-01
+
+**Method:** three parallel routes (filings / calendar / Rev transcripts), web search and direct fetch only. **No docket access.** Retrieval date for everything in this run: **2026-08-01**. **Every filing fact below is T1 via T3 unless expressly marked otherwise.**
+
+### 1. Escalation check — NO TRIGGER MET
+
+| Trigger | Met? |
+|---|---|
+| A bindover ruling issues | **No.** Three web searches run; nothing found. **Tyler Robinson has NOT been bound over as of 2026-08-01** and is presumed innocent |
+| The 09-01 date moves | **No.** Affirmatively restated as standing by Reavy, ABC News and KUTV. **No continuance motion found** |
+| A filing sealed or unsealed | **No.** All sealing/unsealing events returned are dated 2026-07-10 or earlier |
+| A previously working route starts failing | **No.** The only route change is a route **re-opening** — see §4 |
+
+### 2. Filings
+
+- ⚠ **THE STATE'S OPENING BRIEF NOW HAS AN ACQUISITION ROUTE.** A **28-page "Memorandum in Support of Preliminary Hearing Bindover," Case No. 251403576**, is hosted on **Scribd by The Post Millennial** (HTTP 200, download offered). **This closes Run 1's "no public mirror found" null.** → **Q-45.** ⚠ **The document has NOT been banked and its contents are NOT recorded** — that is the next act, and **provenance verification is a SEPARATE act from reading it**: locate the electronic file-stamp line, the signature block and date, and the certificate of service, **none of which was visible in the retrieved extract.** Until then the copy is an upload of unverified provenance, not a filed document.
+- ⚠ **28 PAGES IS THE ACTUAL LENGTH. 35 WAS THE COURT-ORDERED PAGE LIMIT.** Two independent outlets (KUTV, Fox News) state 28. **`DOCKET-WATCH.md` already says "35-page limit" correctly, so no library file requires correction** — but **no file may write "35 pp." as a page count.** *(This run's own task framing made that conflation; recorded so the next run does not.)*
+- **The 2026-07-28 filing date is now MULTI-SOURCED.** Run 1 rested on one independent source (Fox News). As of this run: **Fox News, Pat Reavy, KUTV, ABC News, Washington Examiner, and Deseret/KSL.** ⚠ **Source independence for the FILING EVENT is upgraded; the DOCUMENT remains unheld. It stays T1 via T3 and must not be silently promoted.**
+- **A NEW ARTIFACT THE LIBRARY DOES NOT HOLD:** "**Supplemental Notice Concerning Access to Evidence Presented in Open Court**" *(title carries a typo, "Evidennce", in the source metadata)*, DocumentCloud doc 28443912, **4 pages, created 2026-07-09 — i.e. filed DURING hearing week, between Day 4 and Day 5.** ⚠ **Its adjacency to the Exhibit 12.1 publication question rests on the TITLE ONLY.** Not retrieved; contents uncharacterised.
+- **Second source for Q-47** (KUTV): the Kirk family, through their attorneys, asked the court to rule by September 1, citing Utah's Crime Victims' Rights Act. Run 1 had a single search snippet. **Still T1 via T3; the motion itself remains unheld.**
+- **The bullet-fragment motion ruling remains unobtained after two runs.**
+
+### 3. Calendar — observed status
+
+| Date | Event | Observed status, 2026-08-01 |
+|---|---|---|
+| 2026-07-28 | State's opening brief, 35-page limit | **Reported filed**, 28 pp., multi-sourced |
+| **2026-08-11** | Defence response, 35-page limit | **Pending. Every post-07-28 source restates it as standing.** The next hard checkpoint |
+| 2026-08-18 | State's reply, 18-page limit | **Pending**, on a thinner base — only Deseret/KSL restates it |
+| **2026-09-01, 10:00** | Oral argument, in person | **Pending and standing.** No continuance motion found. ⚠ Nester's trial-week conflict remains an open, named risk |
+| after 09-01 | Bindover ruling | **Pending. Robinson has NOT been bound over** |
+
+### 4. Route status — one route RE-OPENED
+
+- ⚠ **THE DOCUMENTCLOUD API IS NO LONGER BOT-GATED.** Run 1 recorded a Cloudflare 403; on 2026-08-01 `api.www.documentcloud.org/api/documents/search/` returned **HTTP 200 with valid JSON**, honouring `+project:224251` filtering and cursor pagination. **Project 224251 was POSITIVELY ENUMERATED for the first time: count field = 46; 45 distinct documents listed across two cursor pages.** ⚠ **One of the 46 is unaccounted for in the enumeration and no claim is made otherwise.** **The DocumentCloud WEB UI remains JS-gated** — so **Q-32 should be SPLIT, not closed.**
+- **Q-03 partially unblocked:** two docket-listing documents are now retrievable without the XChange paywall, **but both are current only to 2026-03-15** and so do not cover this watch window. **The blocker on a CURRENT docket is unchanged.**
+- **Collateral benefit relevant to standing hazard 9:** project 224251 holds a **"prosecutor David Sturgill biography"** document. **Sturgill is the examining prosecutor who has NO speaker label anywhere in Rev's Day 1 transcript** (CR-E05 §1.2).
+- **abc4.com** and the DocumentCloud **web UI** have now failed on two consecutive runs.
+
+### 5. ⚠ Two hazards this run hit
+
+- **MACHINE EXTRACTION WAS UNRELIABLE AGAIN, ON FOUR COUNTS — and Run 1 logged this hazard for the same article set.** Three separate page-extractions asserted the filing date as "**Tuesday, July 29, 2026**"; **2026-07-29 is a Wednesday.** One extraction reported the **defence** deadline as Aug. 18. **Do not take a date from an extraction without a day-of-week check.**
+- **A CONFLATION TRAP, flagged for the next run.** Searches for a ruling on the **bullet-fragment motion** repeatedly surface the **2026-06-26 CONTEMPT ruling** instead — Judge Graf finding a Deputy Utah County Attorney in civil contempt over public comments *about* the bullet fragment. **These are different matters.** ⚠ **It also means TWO DATES are now in play for Q-46**: the Rev contempt-hearing page (proceeding c. 2026-06-22) and this 06-26 ruling. **Whether they are the same event is not established.**
+
+### 6. Deliberate non-recording
+
+**Every outlet retrieved this run characterises the brief's argument and several quote from it directly; the search layer surfaced such quotations unprompted and repeatedly. NONE of it is recorded here.** DOCKET-WATCH forbids a watch run from characterising a filing's contents beyond title and date, and **Q-04's decisive artifact is the document itself.**
+
+### 7. Blind spot, stated
+
+**No located source is dated after 2026-07-29. This run has a three-day gap at its own leading edge.** An unreported filing or a stipulated extension would be invisible to it, because **no docket was consulted.**
+
+### 8. Queued out of this run
+
+| → | Item |
+|---|---|
+| **Q-45** | **Now actionable** — bank the Scribd mirror, then verify provenance as a separate act before reading |
+| **Q-32** | **Split**: API route open, web UI still gated |
+| **Q-46** | Two dates now in play — establish whether the 06-22 proceeding and the 06-26 ruling are the same event |
+| **NEW** | The 2026-07-09 "Supplemental Notice Concerning Access to Evidence Presented in Open Court," 4 pp. |
+| **NEW** | Consider escalating **Q-32** (interactive browser) from nice-to-have to a blocking dependency before 09-01 |
+
+**No register entry was assigned or moved. No case-posture statement in any topic file was altered.**
+
+---
+
 ## REVISION LOG
 
 | Version | Date | Change |
 |---|---|---|
+| **1.1** | **2026-08-01** | **Run 2 logged.** **No escalation trigger met** — no bindover, 09-01 standing, nothing sealed or unsealed, and the only route change is a route **re-opening**. ⚠ **A public mirror of the State's opening brief now exists and is retrievable** — a 28-page "Memorandum in Support of Preliminary Hearing Bindover" on Scribd — **closing Run 1's "no public mirror found" null and giving Q-45 an acquisition route.** The document was **not banked and its contents are not recorded**; provenance verification is named as a separate act from reading it. ⚠ **28 pp. is the actual length; 35 was the court's page LIMIT — the two were being conflated, though DOCKET-WATCH already stated it correctly, so no library file required correction.** The **2026-07-28 filing date is now multi-sourced** across six outlets where Run 1 had one; **source independence for the filing event is upgraded, the document remains unheld, and it stays T1 via T3.** ⚠ **The DocumentCloud API is no longer bot-gated: project 224251 was positively enumerated for the first time (46 documents; 45 listed, one unaccounted for and not claimed otherwise), while the web UI remains JS-gated — so Q-32 should be SPLIT, not closed.** A **new unheld artifact** was located: a 4-page "Supplemental Notice Concerning Access to Evidence Presented in Open Court," **filed 2026-07-09, during hearing week** — adjacency to the Exhibit 12.1 question resting on **title only**. Second source obtained for **Q-47**. ⚠ **Two hazards recurred and are logged: machine extraction gave wrong dates on four counts (three extractions called 2026-07-29 a Tuesday; it is a Wednesday), and searches for the bullet-fragment ruling repeatedly surface the 2026-06-26 contempt ruling instead — which also puts TWO dates in play for Q-46.** **A three-day blind spot at the run's leading edge is stated.** Outlets' characterisations and direct quotations of the brief were surfaced repeatedly by the search layer and **deliberately not recorded**, per the spec. **No register entry assigned or moved; no case-posture statement altered.** |
 | 1.0 | 2026-07-28 | File created; **Run 1 logged.** The first execution of the DOCKET-WATCH spec, which until now had no runner attached. **The State's opening probable-cause brief is reported filed on 2026-07-28** — T1 via T3, one independent source, no primary document obtained, and the date confirmed by day-of-week check against D-51 rather than by machine extraction (two automated passes returned wrong dates and are logged as a caveat). **The brief's contents are deliberately not recorded**, per DOCKET-WATCH's prohibition and because Q-04's decisive artifact is the document itself. **The 09-01 argument stands**; no continuance motion found, with the Nester conflict still open and the 08-11 defence reply named as the next checkpoint. **A previously unknown proceeding was located** — a contempt hearing c. 2026-06-22, absent from the library's five-day transcript inventory. **The `legacy.utcourts.gov` press-notice route was retrieved for the first time** and holds nothing after 2026-07-06; **abc4.com is newly bot-blocked**. Three items queued (**Q-45, Q-46, Q-47**). No escalation trigger met; no case-posture statement altered; no register entry assigned or moved. |

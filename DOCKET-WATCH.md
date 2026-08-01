@@ -1,7 +1,12 @@
 # DOCKET WATCH — *State of Utah v. Robinson*, Case No. 251403576
 
 **Why this is separate from [LOOP.md](LOOP.md):** the research queue is paced by work available. **This is paced by a court calendar** (LOOP.md §5). Missing a filing window is the one failure here that cannot be caught up later.
-**Prepared:** 2026-07-28 · **Runs until:** the bindover ruling, then re-scope. · **Status:** v1.2 — **Run 1 executed 2026-07-28**; log at [CR-WATCH-log.md](files%20-%20Court%20record/CR-WATCH-log.md)
+**Prepared:** 2026-07-28 · **Runs until:** the bindover ruling, then re-scope. · **Status:** **v1.3 — Runs 1 and 2 executed (2026-07-28, 2026-08-01)**; log at [CR-WATCH-log.md](files%20-%20Court%20record/CR-WATCH-log.md)
+
+> ### ⏰ THE SCHEDULER NOW EXISTS — and its one limitation
+> **Cloud routine `trig_016faLfbQWCz72M463Dy8HsL`**, created 2026-08-01 on user authorisation. **Wednesdays and Saturdays, 09:00 ET** (`0 13 * * 3,6` UTC), Opus 5, connectors stripped. **First firing: 2026-08-05.** Wednesday/Saturday is deliberate: **all three briefing dates fall on Tuesdays**, so a Wednesday run lands the morning after each one.
+> ⚠ **IT IS REPORT-ONLY.** The cloud environment was refused access to the private repository (`HTTP 403 — You don't have access to a repository this routine uses`). **The routine runs the checks and produces a report, but cannot commit its run log.** Its output must be **pasted into `CR-WATCH-log.md` by hand** until the Claude Code GitHub App is granted access to `JudicialNoticing/kirk-robinson-research`. **Granting that access is a user action and is the one outstanding step.**
+> **The spec below is inlined into the routine's prompt**, so the routine carries the prohibitions even without the repo. **If this file changes, the routine's prompt must be updated to match** — they are not automatically in sync.
 
 ## The calendar
 
@@ -10,7 +15,7 @@
 | Date | Event | Status |
 |---|---|---|
 | 2026-07-06 → 07-10 | Preliminary hearing, five days | **held** (D-51, as reversed) |
-| **2026-07-28** | **State's opening probable-cause brief due**, 35-page limit | ✅ **REPORTED FILED 2026-07-28** — observed status, Run 1. **T1 via T3, one independent source** (Fox News, pub. 20:38 EDT that day); **the document is not held** and its contents are unrecorded (→ Q-45). The conditional on the court reporter did not bite |
+| **2026-07-28** | **State's opening probable-cause brief due**, 35-page limit | ✅ **REPORTED FILED 2026-07-28.** **Run 2 (2026-08-01) upgraded this from one independent source to six** (Fox, Reavy, KUTV, ABC, Washington Examiner, Deseret/KSL) — **source independence for the FILING EVENT only; it stays T1 via T3 and the document is still not held** (→ Q-45). ⚠ **A public 28-page mirror now exists on Scribd**, giving Q-45 a route; **contents remain deliberately unrecorded until banked and provenance-verified.** ⚠ **28 pp. is the LENGTH; 35 is the LIMIT — do not conflate.** The conditional on the court reporter did not bite |
 | **2026-08-11** | Defense response due, 35-page limit | pending |
 | **2026-08-18** | State's reply due, **18**-page limit | pending |
 | **2026-09-01, 10:00 a.m.** | **Oral argument** — **in person**, "up to two hours per side" | pending. ⚠ **Known conflict — see below.** **Still standing as of Run 1 (2026-07-28)**; no continuance motion found, but see the run's scope caveat |
