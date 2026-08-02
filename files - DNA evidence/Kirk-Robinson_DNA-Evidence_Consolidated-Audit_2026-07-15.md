@@ -220,6 +220,16 @@ Deseret (past): https://www.deseret.com/politics/2026/07/10/tyler-robinson-preli
 
 ## 10. Revision Log
 
+> ### ⚠ SUPERSEDED 2026-08-01 — READ THIS BEFORE CITING ANYTHING BELOW
+>
+> **This file (v3) is SUPERSEDED by [`DNA-E01_DNA-evidence-what-it-can-bear.md`](DNA-E01_DNA-evidence-what-it-can-bear.md) (v4.0), the first transcript-sourced version.** **It is RETAINED, not deleted** — its media-discrepancy analysis at §7 is original work that survives — **but it must be cited only through the claim-by-claim supersession map at DNA-E01 §13.**
+>
+> **Why it was superseded.** This file rests substantially on **`[T1 via T3]`** news reporting. **All five hearing days have since been read directly**, so most of what is tagged T1-via-T3 here is now available at **Tier 1 from the transcripts** — and where the reporting and the transcript diverge, **the transcript governs**.
+>
+> ⚠ **THE REGISTER IN §7 IS IN COLLISION AND MUST NOT BE CITED BY NUMBER.** Its **D-1 … D-10** duplicate numbers already assigned, library-wide, to unrelated discrepancies in the *Bride of Charlie* series (D-1, D-4, D-5, D-6 in `BOC-E01`; D-7–D-10 in `BOC-E02`; among others). CLAUDE.md requires D-numbers to be **cross-file, sequential, with no duplicate assignments.** **Until that is resolved, cite these entries by their DESCRIPTION, never by their number** — "the OANN contributor inversion," not "D-1." **The companion acquisition roadmap propagates the same numbers and is under the same restriction.** **A resolution is proposed at DNA-E01 §12; nothing has been renumbered, and the decision is a human one.**
+>
+> ⚠ **Two of the entries here are now answerable at Tier 1** — the towel-transfer premise and the reason for the 3→2 contributor revision — **and DNA-E01 records what the transcripts say about both.** Neither is "resolved" by this file's own terms.
+
 **v1 — Original explainer.** Initial synthesis of the DNA claims by item. Errors later identified:
 - (a) Attributed the reading of the likelihood-ratio report to Bakker; it was Faumuina.
 - (b) Framed the forensic testimony as defense cross-examination of prosecution witnesses; in fact the defense *called* all three experts.

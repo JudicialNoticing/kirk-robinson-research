@@ -7,6 +7,14 @@
 
 ---
 
+> ### ⚠ REGISTER RESTRICTION, 2026-08-01 — DO NOT CITE THIS FILE'S D-NUMBERS
+>
+> This roadmap's purpose line and its §1 "Resolves" column cite **D-1 … D-10** in the DNA sense. ⚠ **Those numbers are ALREADY ASSIGNED, library-wide, to unrelated discrepancies in the *Bride of Charlie* series.** CLAUDE.md requires D-numbers to be cross-file, sequential and free of duplicate assignments. **Cite these entries by DESCRIPTION, never by number, until the collision is resolved.** A resolution is proposed at `DNA-E01_DNA-evidence-what-it-can-bear.md` §12; **nothing has been renumbered, and the decision is a human one.**
+>
+> **The companion evidence file is superseded**: see `DNA-E01_DNA-evidence-what-it-can-bear.md` (v4.0), the first transcript-sourced version. This roadmap is otherwise unchanged and its acquisition targets stand.
+
+---
+
 ## 0. The governing access-law framework (Utah) — read first
 
 Getting the *channel* right matters, because Utah routes court records and agency records through **two separate legal regimes**:
