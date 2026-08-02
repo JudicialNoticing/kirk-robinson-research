@@ -16,7 +16,7 @@ git pull                 # nothing else has been writing here, but check
 
 Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of it. ⚠ **Two of them changed on 2026-08-01 — hazard 10 was CORRECTED because it was wrong, and hazard 9 was WIDENED.** See §5.
 
-**Expect `queue-check.sh` to list SIX files under "Provisional findings outstanding." THREE are real.**
+**Expect `queue-check.sh` to list SIX files under "Provisional findings outstanding." THREE are real.** *(CR-E06 has since cleared; DNA-E01 and the blocked Q-08 draft have joined.)*
 
 | File | Real? |
 |---|---|
@@ -62,7 +62,11 @@ Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of
 
 ⚠ **A 45-agent round was launched on 2026-08-01 and STOPPED at 15 returned. Only Q-58 completed.** Everything below is what remains, in order.
 
-1. ✅ **Q-58 and Q-59 are DONE — CR-E06 is VERIFIED and the DNA folder is UNBLOCKED.** ⚠ **Read the v1.2 revision row before writing Q-08**: six places where that file asserted something the record contradicts, **five of them caveats, nulls or hedges.** The rules that came out of it and now bind the DNA folder: **never write a bare "Exhibit 30"/"Exhibit 31" or a bare item designator** ("the FBI's item 7-1" or "ATF item 7.1", never "7.1" — the two labs are not running a common series); **never quote a paragraph-E "less than one in a trillion" sentence without its propositions and the cap**; and **Q-50 may not be carried without its basis paragraph (§3.4).**
+1. ✅ **Q-08 IS DONE — the DNA folder now has `DNA-E01_DNA-evidence-what-it-can-bear.md` (v4.0).** Findings `[PROVISIONAL]` → **Q-61** is the verification cycle, and ⚠ **aim it at CAVEATS, NULLS AND HEDGES specifically**: five of six factual errors found in CR-E06 were of that kind, and the Q-08 draft invented a `[UNVERIFIED BY CYCLE]` token that `queue-check.sh` could not see.
+2. ⚠ **Q-60 IS WAITING ON YOU AND IS THE MOST STRUCTURAL THING OPEN.** The DNA folder has run its own **D-1…D-10 since 2026-07-15, duplicating numbers already assigned in the *Bride of Charlie* series.** Both DNA files now carry a **do-not-cite-by-number** restriction so nothing breaks meanwhile, and **nothing was renumbered.** Two proposals at **DNA-E01 §12**. ⚠ **Executing either edits files across two topic folders including a register cell inside CR-E06, a VERIFIED file — a change to the library's spine, not an assignment.**
+3. **Q-07 — run the Losee review** (the 85.6k draft is banked and marked DO-NOT-PUBLISH; its reviewer never ran) · **Q-10** — arrest chronology, never started · ⚠ **Q-09 (Twiggs) remains human-gated.**
+4. **Q-55** (the 213 Q-54 residue — dedup already rebuilt and proven) · **Q-56** (bank the State's brief; provenance is a separate act) · **Q-62** (ratify or reject the `DNA-E01` file-ID convention — a yes/no).
+5. **Q-48, Q-46, Q-47, Q-57** — the unheld primary documents. ⚠ Q-46 has **two dates in play**.
 2. ⚠ **Q-07 — RUN THE REVIEW, do not publish the draft.** A complete 85.6k-char Losee draft exists at `CR-ACQ-.../2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md`; **its adversarial review was in flight when the session closed and never ran.** An unreviewed draft is not a finding.
 3. **Q-08 (DNA) and Q-10 (arrest chronology)** — never started. ⚠ **Q-08 is gated behind item 1**: the drafter cannot carry D-53, the consumption record or the LR-of-1 while CR-E06 is provisional. **The Losee drafter already proved this bites** — it excluded the six consumed northeast-corner swabs, which is literally "what was recovered at the drop point."
 4. **Q-55 — the second cycle on Q-54's residue.** ✅ **The dedup is already rebuilt and verified**: Jaccard clustering collapsed **20 duplicates the old prefix key missed** (it collapsed zero). **103 material clusters; 18 were selected and none tested.** Candidate list at `scratchpad/q55-candidates.json`; regenerate if the scratchpad is gone.
