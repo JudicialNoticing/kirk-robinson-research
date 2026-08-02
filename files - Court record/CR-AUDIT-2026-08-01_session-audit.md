@@ -4,7 +4,7 @@
 **Scope:** the whole of the 2026-08-01 session — **Q-54, Q-52, Q-11, Q-06, DOCKET-WATCH Run 2**, and the integration of all of them into the topic files. Covers what changed, what was verified, what was **not** verified, and what a later reader must not assume.
 **Case context:** Case No. 251403576, Fourth Judicial District Court, Provo. **Tyler Robinson is presumed innocent and, as of 2026-08-01, has NOT been bound over for trial.** **No case-posture statement in any topic file was altered in this session.**
 **Prepared:** August 1, 2026
-**Status:** **v1.3 — Part 10 added: Q-58 AND Q-59 COMPLETE; CR-E06 v1.2 VERIFIED and `[PROVISIONAL]` CLEARED.** ⚠ **Six places where that file asserted something the record contradicts — FIVE OF THE SIX WERE CAVEATS, NULLS OR HEDGES**, including one hazard-9 violation committed inside the hazard-9 warning. *(v1.2: Part 9, Q-58.)* *(Superseded status line:)* **Part 9 added: Q-58 COMPLETED.** 68 of 69 material candidates tested — **59 CONFIRMED · 3 REFUTED · 6 MOOT**. ⚠ **The findings passed; the account did not.** Seven core corrections applied at CR-E06 v1.2, including **a D-53 register cell left stale by v1.1's own scope correction.** **`[PROVISIONAL]` NOT cleared — 46 confirmed items remain unintegrated (Q-59).** *(v1.1: Part 8, the 45-agent round stopped at 15 returned.)*
+**Status:** **v1.3 — Q-58 AND Q-59 COMPLETE; CR-E06 v1.2 VERIFIED and `[PROVISIONAL]` CLEARED** (Part 10). ⚠ **Six places where that file asserted something the record contradicts — FIVE OF THE SIX WERE CAVEATS, NULLS OR HEDGES**, including one hazard-9 violation committed inside the hazard-9 warning. **The findings passed**: nothing defeated a headline result, §5 finding or register entry. *(v1.2: Part 9 — Q-58's first batch, 8 tested, marking not yet cleared. v1.1: Part 8 — the 45-agent round stopped at 15 returned.)*
 
 ---
 
@@ -63,7 +63,7 @@ That claim had propagated from **CR-E03 §1** into **CR-E05 §1.3**, into **QUEU
 
 1. ⚠ **213 of the 229 Q-54 candidates were never adversarially verified** — **125 of them rated material by their finders.** They are **not findings** and nothing in the library may cite them. → **Q-55.**
 2. ⚠ **A defect in this session's own orchestration.** The dedup step **collapsed nothing (229 → 229)**: the key was too strict to catch the same hole described in two agents' different words. **It demonstrably burned two of sixteen verification slots on the omitted campus-geography direct, found twice.** **The cap was therefore tighter than it looked. Fix the dedup before re-running.**
-3. **CR-E06 is `[PROVISIONAL]` and unchecked.** No cycle has run on it. Given Q-54's yield on a file of comparable care, **assume it contains defects.** → **Q-58.**
+3. ✅ **SUPERSEDED at v1.3 — CR-E06 is now VERIFIED (Part 10).** *(As written at v1.0: "`[PROVISIONAL]` and unchecked; assume it contains defects." It did — 59 confirmed, all integrated.)* ⚠ **What remains untested there: 57 MINOR candidates, never examined.**
 4. **No exhibit was obtained this session.** **State's Exhibit 31 — the decisive artifact for D-53 — has still never been read by this library.** The State's brief was **located, not banked.**
 5. **The recess-continuity finding was verified for Days 1 and 2 ONLY.** **Days 3, 4 and 5 were not tested.**
 6. **Days 3 and 4 were not re-read** against Bakker or Oliver; cross-day statements in CR-E06 rest on targeted validated searches, not a fresh full read.
