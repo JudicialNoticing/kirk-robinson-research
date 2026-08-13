@@ -3,7 +3,7 @@
 **Purpose:** one row per run of the [DOCKET-WATCH.md](../DOCKET-WATCH.md) spec. **A run that finds nothing still writes a row** — a watch with gaps in its log is indistinguishable from a watch that was not running.
 **Case:** *State of Utah v. Tyler James Robinson*, Case No. 251403576, Fourth Judicial District Court, Provo — Hon. Tony F. Graf, Jr.
 **Standing constraint:** a run may acquire and bank freely and may update DOCKET-WATCH's own calendar table with an observed status. **It may never change a case-posture statement in a topic file, resolve a register entry, characterise a filing's contents beyond its title and date, or infer an outcome from a filing's existence.** D-51 is why.
-**Status:** **v1.1 — Run 2 logged 2026-08-01.** ⚠ **A durable cloud routine now exists** (`trig_016faLfbQWCz72M463Dy8HsL`, Wednesdays and Saturdays 09:00 ET, first firing 2026-08-05). **It is REPORT-ONLY**: the cloud environment was refused access to the private repository, so **its output must be pasted into this file by hand** until that grant is made. Runs 1 and 2 were both executed by hand.
+**Status:** **v1.2 — Run 3 logged 2026-08-13, a CATCH-UP RUN AFTER A 12-DAY GAP.** 🚨 **THE WATCH WENT DARK BETWEEN 2026-08-01 AND 2026-08-13.** The durable cloud routine (`trig_016faLfbQWCz72M463Dy8HsL`, Wednesdays and Saturdays 09:00 ET, first firing 2026-08-05) had **three scheduled firings — Wed 08-05, Sat 08-08, Wed 08-12 — and none produced a row here.** It is **REPORT-ONLY**: the cloud environment was refused access to the private repository, so **its output must be pasted into this file by hand**, and no hand-paste occurred. **Whether the routine fired and was never pasted, or is dead, is NOT ESTABLISHED from inside this repository — 👤 check `/schedule`.** Runs 1, 2 and 3 were all executed by hand. **Next scheduled firing: Sat 2026-08-15. Next hard case date: Tue 2026-08-18 (State's reply). Oral argument: Tue 2026-09-01.**
 
 ---
 
@@ -13,6 +13,10 @@
 |---|---|---|---|---|
 | **1** | **2026-07-28** | first run; State's opening brief due this date | **State's opening probable-cause brief reported FILED 2026-07-28** (T1 via T3, single independent source). 09-01 argument still stands. **A previously unknown Rev transcript located: a contempt hearing, c. 2026-06-22.** | No — no escalation trigger met |
 | **2** | **2026-08-01** | scheduled follow-up; the durable routine created this date | **A PUBLIC MIRROR OF THE STATE'S BRIEF EXISTS AND IS RETRIEVABLE** — 28 pp., Scribd, closing Run 1's "no public mirror" null and giving **Q-45** a route. The 07-28 filing date is now **multi-sourced** (Run 1 had one). **The DocumentCloud API is no longer bot-gated** and project 224251 was enumerated for the first time (46 documents). ⚠ **28 pp. is the LENGTH; 35 was the page LIMIT.** | No — no escalation trigger met |
+| — | *2026-08-05* | scheduled firing | 🚨 **NO ROW — the watch did not run, or ran and was never pasted.** Not established which | *n/a* |
+| — | *2026-08-08* | scheduled firing | 🚨 **NO ROW** — as above | *n/a* |
+| — | *2026-08-12* | scheduled firing | 🚨 **NO ROW** — as above. ⚠ **The 2026-08-11 defence deadline, named by Run 1 as "the next checkpoint," passed inside this gap and unchecked** | *n/a* |
+| **3** | **2026-08-13** | **catch-up after the gap was found from outside this repo** | **THE DEFENCE BRIEF IS FILED AND BANKED — the first primary filing this project holds as a document rather than through reporting.** *"Defendant Tyler James Robinson's Preliminary Hearing Briefing,"* signed and served **Tue 2026-08-11**, 41 pp. / 35 printed. ⚠ **No clerk file-stamp visible — two of three provenance elements present.** **09-01 stands**, confirmed by a **T2** official item dated 08-11. **No continuance motion found** (scope stated; no docket consulted). Contents deliberately unread. | No — no escalation trigger met. ⚠ **But the trigger list contains no trigger for "the watch stopped," which is why the gap went unnoticed** |
 
 ---
 
@@ -153,9 +157,83 @@
 
 ---
 
+## Run 3 — 2026-08-13 · CATCH-UP RUN AFTER A 12-DAY GAP
+
+> 🚨 **SCOPE CAVEAT, STATED FIRST — THIS RUN COVERS A WINDOW THE WATCH DID NOT WATCH.**
+> Run 2 was logged **2026-08-01**. The durable routine's scheduled firings on **Wed 2026-08-05, Sat 2026-08-08 and Wed 2026-08-12** produced **no rows in this file**. This run is a single catch-up pass covering **2026-08-01 → 2026-08-13**, not a reconstruction of three runs, and **no rows are backfilled for them** — a fabricated row is worse than a missing one.
+> ⚠ **Which failure occurred is NOT ESTABLISHED.** Two possibilities are consistent with the evidence and they need different fixes: (a) the routine fired and its reports were never hand-pasted, or (b) the routine is dead. The routine is **report-only** — the cloud environment was refused the private repo (HTTP 403) — so it cannot write here itself, and from inside this repository the two cases are indistinguishable. **Determining which is a 👤 owner action** (check `/schedule` for `trig_016faLfbQWCz72M463Dy8HsL`). This is exactly the condition the spec names: *"A watch with gaps in its log is indistinguishable from a watch that was not running."*
+> **Detection path:** the gap was found on 2026-08-13 from outside this repository, during an unrelated session-state reconstruction, because this file's mtime was 12 days old. **It was not caught by the watch.**
+
+**Method:** three search routes (filings / scheduling / continuance-specific), plus **one direct primary-document retrieval and one Tier 2 official-page read**. No docket access. Retrieval date for everything in this run: **2026-08-13**.
+
+### 1. Findings
+
+**(a) THE DEFENCE RESPONSE WAS FILED ON TIME — and unlike the State's brief, THIS ONE IS HELD.**
+
+| | |
+|---|---|
+| **Document** | **"DEFENDANT TYLER JAMES ROBINSON'S PRELIMINARY HEARING BRIEFING"** *(title as printed on the first page)* |
+| **Caption** | STATE OF UTAH, Plaintiff, vs. TYLER JAMES ROBINSON, Defendant — **Case No. 251403576**, **Honorable Tony F. Graf, Jr.**, In the Fourth Judicial District Court, Provo Department, in and for the County of Utah, State of Utah |
+| **Date** | **Tuesday, 2026-08-11** — *"RESPECTFULLY SUBMITTED this 11th day of August, 2026"* ✅ **Day-of-week checked: 2026-08-11 is a Tuesday**, consistent with the calendar's "all three briefing dates fall on Tuesdays." *(Run 2 logged machine extraction returning wrong days-of-week on four counts; this date is verified by direct reading of the document, not extraction.)* |
+| **Signature block** | `/s/` Kathryn N. Nester (13967) · `/s/` Michael N. Burt (pro hac vice) · `/s/` Richard G. Novak (pro hac vice) · `/s/` Staci Visser (14358) — "Attorneys for Defendant, Tyler James Robinson" |
+| **Certificate of service** | **PRESENT**, `/s/` Staci Visser: *"served via the Court's electronic filing system on the 11th day of August, 2026"* |
+| **Length** | **41 PDF pages; internal printed page numbering runs to 35** (body ends p. 33, signature p. 34, certificate p. 35). ⚠ **35 is also the court's page LIMIT for this brief. LENGTH AND LIMIT COINCIDE HERE — do not read the coincidence as a finding either way, and do not repeat Run 2's conflation hazard in reverse.** |
+| **Route** | Direct fetch, `static.foxnews.com/foxnews.com/content/uploads/2026/08/robinson-prelim-filing.pdf` — an **outlet-mirrored filing**, the same route class that produced both previously banked motions |
+| **Banked** | ✅ `CR-ACQ-2026-07-27_court-record-artifacts/2026-08-11_defendant-prelim-hearing-briefing.pdf` + `.txt` extraction · SHA-256 `c3f394372192a6a3c6b791839a22a9ce4be43aea6f9985b9fc3703633bfde0e4` |
+
+⚠ **PROVENANCE — ONE ELEMENT IS MISSING, AND IT IS THE SAME ONE Q-45 TURNS ON.** The signature date and the certificate of service both attest e-filing on 2026-08-11, but **no clerk file-stamp / e-filing header line is visible anywhere in the text layer**. Per Run 2's own standard — *"provenance verification is a SEPARATE act from reading it: locate the electronic file-stamp line, the signature block and date, and the certificate of service"* — **two of those three are present and one is absent.** This copy is therefore **an outlet-hosted upload carrying the defence's own attestation of filing, not a court-stamped document.** It is materially better provenance than the State's Scribd mirror (which has none of the three verified) and still **short of a stamped filing.** Treat as **T1 document text with an unverified stamp**, and do not silently promote.
+
+**(b) THE 2026-09-01 ORAL ARGUMENT STILL STANDS — now confirmed by a Tier 2 official source dated the same day as the defence filing.**
+
+The **Utah County Attorney's Office media page** (`atty.utahcounty.gov/media/ckpr`, retrieved 2026-08-13) carries an item dated **2026-08-11: "Preliminary Hearing Argument set for September 1, 2026, in the Tyler Robinson Case."** This is a **named-official (Tier 2)** statement of the date, current to the day the defence brief was filed. **Escalation trigger "anything moving the 09-01 date": NOT MET.**
+
+**(c) NO MOTION TO CONTINUE FOUND — with its search scope stated.**
+
+The spec directs a *specific* check for a defence motion to continue, because lead counsel stated a trial conflict with the 09-01 week on the record and was declined. **None was found.** ⚠ **Scope of that null, per the "absence of evidence is a finding with a scope" rule:** the search covered web search on the continuance question, the Utah County Attorney media page, and the four corners of the banked 08-11 brief. It did **not** cover the court docket (still paywalled, Q-31/Q-03), and **a motion filed 08-12 or 08-13 would very likely not yet be reported.** This is **not** evidence that no such motion exists — only that none surfaced on the open routes as of 2026-08-13.
+
+**(d) The State's reply deadline is corroborated as Tue 2026-08-18** — reporting of the briefing schedule (State 07-28 → defence 08-11 → State's reply 08-18) matches the calendar in DOCKET-WATCH, which took it from CR-ACQ §5.1. ✅ Day-of-week checked: 2026-08-18 is a Tuesday. **This is the next hard date, and it falls five days from this run.**
+
+### 2. Escalation check — NO TRIGGER MET
+
+| Trigger | Status |
+|---|---|
+| A bindover ruling issues | **No.** None found; the ruling follows the 09-01 argument |
+| The 09-01 date moves | **No** — affirmatively confirmed standing by a T2 source dated 2026-08-11 |
+| A filing is sealed or unsealed | **No** — none found |
+| A previously working route starts failing | **No.** The Utah County Attorney page **still works and has moved** (its latest Robinson item was 2026-06-26 at Run 1; it is now 2026-08-11). Outlet-mirrored filings still work — that route produced this run's primary document |
+
+**The 12-day gap is itself the finding of this run.** It met no escalation trigger as defined, and the spec's trigger list does not contain "the watch stopped running" — which is why nothing raised it.
+
+### 3. ⚠ Deliberate non-recording
+
+**The banked brief's arguments, and every outlet characterisation of them retrieved this run, are NOT recorded here.** DOCKET-WATCH forbids a watch run from characterising a filing's contents beyond its title and date, and the document is now held, so reading it is a **separate act** belonging to an evidence file under the two-layer discipline — not to a watch row. The search layer again surfaced outlet summaries unprompted; none is reproduced.
+
+⚠ **A second, independent reason for restraint here.** The text extraction incidentally surfaced material concerning the **sexuality and gender identity of Mr. Robinson and of Mr. Twiggs**, a private individual. **None of it is recorded in this file.** Under CLAUDE.md's living-persons rule, such material is admissible only insofar as it bears on a public question under investigation, and that determination belongs to a reasoned evidence-file pass with the analyst/recording layers kept separate — **not to a docket-watch row, and not to an incidental extraction.**
+
+### 4. Blind spot, stated
+
+**This run consulted no docket.** The paywalled-XChange blocker (Q-31) is unchanged, so any filing not mirrored by an outlet or announced by the prosecutor's office is invisible to it — including, specifically, a continuance motion filed in the last 48 hours. **The 08-01 → 08-13 window was covered by one pass at its trailing edge, not by the three scheduled passes**, so a filing that appeared and was superseded inside that window would leave no trace here.
+
+### 5. Queued out of this run
+
+| → | Item |
+|---|---|
+| **👤 URGENT** | **Determine whether `trig_016faLfbQWCz72M463Dy8HsL` is alive** (check `/schedule`). Next firing **Sat 2026-08-15**; if dead, it must be recreated **before Tue 2026-08-18** |
+| **👤** | **Grant the Claude Code GitHub App access to `JudicialNoticing/kirk-robinson-research`** — DOCKET-WATCH calls this "the one outstanding step," and its absence is the mechanism by which this watch went dark: a report-only routine's output must be hand-pasted, and no hand-paste occurred |
+| **NEW** | **Add "the watch itself has not run" to the escalation-trigger list** in DOCKET-WATCH. Every existing trigger describes an event *in the case*; none describes a failure *of the watch*, which is why 12 days passed unnoticed |
+| **Q-45 analogue** | The defence brief is banked and **its contents are unread by design.** A reasoned read belongs in a CR-E evidence file, not here |
+| **Q-45** | Unchanged — the **State's** 07-28 brief remains unbanked and its Scribd mirror unverified |
+| **NEW** | **Locate a court-stamped copy** of the 08-11 brief to close the missing file-stamp element |
+| **Q-31 / Q-03** | Unchanged — no current docket. ⚠ **This run is the second consecutive one whose blind spot is docket access**; consider promoting it to a blocking dependency before 09-01, as Run 2 already suggested for Q-32 |
+
+**No register entry was assigned or moved. No case-posture statement in any topic file was altered.** ⚠ **As of 2026-08-13, Tyler Robinson has NOT been bound over for trial. Presumption of innocence applies throughout.**
+
+---
+
 ## REVISION LOG
 
 | Version | Date | Change |
 |---|---|---|
+| **1.2** | **2026-08-13** | **Run 3 logged — a CATCH-UP RUN, and the run's headline finding is about the watch, not the case.** 🚨 **The watch went dark for 12 days:** three scheduled firings (Wed 08-05, Sat 08-08, Wed 08-12) produced no rows, and **the 2026-08-11 defence deadline — which Run 1 itself named as "the next checkpoint" and the likeliest vehicle for a continuance motion against a named on-the-record risk — passed inside that gap, unchecked.** The gap was found **from outside this repository** during an unrelated session reconstruction, by this file's 12-day-old mtime; the watch did not catch itself. ⚠ **No rows were backfilled** for the three missed firings — a fabricated row is worse than a missing one — and **whether the routine fired-and-was-never-pasted or is dead is expressly NOT ESTABLISHED**, since a report-only routine refused the private repo cannot be distinguished from a dead one from inside it. **On the case: the defence brief is FILED AND BANKED** — *"Defendant Tyler James Robinson's Preliminary Hearing Briefing,"* Case No. 251403576, Hon. Tony F. Graf, Jr., **signed and served Tue 2026-08-11** (day-of-week verified by direct reading, not extraction, per Run 2's logged hazard), 41 PDF pp. / 35 printed, SHA-256 recorded, `.txt` extraction alongside. **This is the first primary filing the project holds as a document rather than through reporting.** ⚠ **Provenance is two-of-three: signature block and certificate of service present, NO clerk file-stamp line visible** — better than the State's unverified Scribd mirror, still short of a stamped filing, and **not silently promoted.** ⚠ **35 is both the printed length and the court's page limit here; the coincidence is recorded and explicitly not read as a finding.** **The 09-01 argument STANDS**, upgraded from reporting to a **Tier 2 named-official** item dated 2026-08-11 (Utah County Attorney media page, a route whose latest Robinson item was 2026-06-26 at Run 1). **No continuance motion found — with scope stated**: open routes only, no docket consulted, and a motion filed in the last 48 hours would likely not yet be reported, so this is not evidence of absence. **The brief's contents are deliberately unrecorded** per the spec, and **a second restraint is logged**: the extraction incidentally surfaced material on the sexuality and gender identity of the defendant and of a private individual, none of which is recorded, that determination belonging to a reasoned evidence-file pass under the two-layer discipline rather than to a watch row. **No escalation trigger met — and the run flags that the trigger list contains no trigger for "the watch itself has stopped," which is precisely why 12 days passed unnoticed.** Queued: 👤 confirm the routine is alive before Sat 08-15, 👤 grant the GitHub App access, add a watch-failure escalation trigger, locate a stamped copy. **No register entry assigned or moved; no case-posture statement altered.** |
 | **1.1** | **2026-08-01** | **Run 2 logged.** **No escalation trigger met** — no bindover, 09-01 standing, nothing sealed or unsealed, and the only route change is a route **re-opening**. ⚠ **A public mirror of the State's opening brief now exists and is retrievable** — a 28-page "Memorandum in Support of Preliminary Hearing Bindover" on Scribd — **closing Run 1's "no public mirror found" null and giving Q-45 an acquisition route.** The document was **not banked and its contents are not recorded**; provenance verification is named as a separate act from reading it. ⚠ **28 pp. is the actual length; 35 was the court's page LIMIT — the two were being conflated, though DOCKET-WATCH already stated it correctly, so no library file required correction.** The **2026-07-28 filing date is now multi-sourced** across six outlets where Run 1 had one; **source independence for the filing event is upgraded, the document remains unheld, and it stays T1 via T3.** ⚠ **The DocumentCloud API is no longer bot-gated: project 224251 was positively enumerated for the first time (46 documents; 45 listed, one unaccounted for and not claimed otherwise), while the web UI remains JS-gated — so Q-32 should be SPLIT, not closed.** A **new unheld artifact** was located: a 4-page "Supplemental Notice Concerning Access to Evidence Presented in Open Court," **filed 2026-07-09, during hearing week** — adjacency to the Exhibit 12.1 question resting on **title only**. Second source obtained for **Q-47**. ⚠ **Two hazards recurred and are logged: machine extraction gave wrong dates on four counts (three extractions called 2026-07-29 a Tuesday; it is a Wednesday), and searches for the bullet-fragment ruling repeatedly surface the 2026-06-26 contempt ruling instead — which also puts TWO dates in play for Q-46.** **A three-day blind spot at the run's leading edge is stated.** Outlets' characterisations and direct quotations of the brief were surfaced repeatedly by the search layer and **deliberately not recorded**, per the spec. **No register entry assigned or moved; no case-posture statement altered.** |
 | 1.0 | 2026-07-28 | File created; **Run 1 logged.** The first execution of the DOCKET-WATCH spec, which until now had no runner attached. **The State's opening probable-cause brief is reported filed on 2026-07-28** — T1 via T3, one independent source, no primary document obtained, and the date confirmed by day-of-week check against D-51 rather than by machine extraction (two automated passes returned wrong dates and are logged as a caveat). **The brief's contents are deliberately not recorded**, per DOCKET-WATCH's prohibition and because Q-04's decisive artifact is the document itself. **The 09-01 argument stands**; no continuance motion found, with the Nester conflict still open and the 08-11 defence reply named as the next checkpoint. **A previously unknown proceeding was located** — a contempt hearing c. 2026-06-22, absent from the library's five-day transcript inventory. **The `legacy.utcourts.gov` press-notice route was retrieved for the first time** and holds nothing after 2026-07-06; **abc4.com is newly bot-blocked**. Three items queued (**Q-45, Q-46, Q-47**). No escalation trigger met; no case-posture statement altered; no register entry assigned or moved. |
