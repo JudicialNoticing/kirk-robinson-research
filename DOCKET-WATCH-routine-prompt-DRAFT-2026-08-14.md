@@ -1,6 +1,6 @@
-# PROPOSED routine prompt — synced to DOCKET-WATCH.md v1.5 · NOT YET APPLIED
+# Routine prompt — synced to DOCKET-WATCH.md v1.5 · ✅ APPLIED 2026-08-14
 
-**Status:** DRAFT, prepared 2026-08-14. The live routine (`trig_016faLfbQWCz72M463Dy8HsL`) still carries the 2026-08-01 prompt (confirmed from the API). **Applying this is an owner-gated change to standing automation** — on approval it is applied via a `RemoteTrigger` update to `job_config.ccr.events[0].data.message.content` (and, once the GitHub App grant lands, `session_context.sources` gains the repository — currently the config carries **no source at all**).
+**Status:** ✅ **APPLIED 2026-08-14 (evening), on owner authorisation** ("start at the top and continue with the rest," the top item being this application). Applied via a `RemoteTrigger` update to `job_config.ccr.events[0].data.message.content`; confirmed from the API response (`updated_at` 2026-08-15T00:23:59Z; next firing Sat 2026-08-15 09:00 ET unchanged; cron, model and allowed tools untouched). ⚠ **The repo-source half is still pending:** `session_context` carries **no repository source** — that needs the 👤 GitHub App grant followed by a config change, and was deliberately not touched here.
 **What changed vs. the 08-01 prompt:** calendar updated to observed statuses (08-11 defence brief FILED AND BANKED — do not re-acquire); egress self-test added first (runs have been blind since 08-05); route-status table refreshed to 2026-08-14; repo-write instructions added, conditional on a checkout existing; the two Rev slug traps consolidated. All prohibitions retained verbatim in substance.
 
 ---
@@ -61,3 +61,4 @@ If nothing changed, say so as a NULL RESULT WITH ITS SCOPE. A run that found not
 | Version | Date | Change |
 |---|---|---|
 | DRAFT | 2026-08-14 | Prepared against DOCKET-WATCH.md v1.5 after the liveness resolution. Not applied; owner approval required. |
+| APPLIED | 2026-08-14 | Applied to the live routine on owner authorisation, content field only; API confirmed (`updated_at` 2026-08-15T00:23:59Z). Repo source still absent from the config — pending the 👤 App grant. |
