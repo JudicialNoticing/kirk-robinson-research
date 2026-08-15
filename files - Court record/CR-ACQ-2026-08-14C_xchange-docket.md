@@ -80,7 +80,7 @@
 | **Q-65** | Unaffected — the 2026-06-26 contempt/OSC ruling post-dates this docket |
 | **Q-48** | Unaffected — no document numbers here |
 | **NEW** | ⚠️ **The 2026-01-09 → 2026-02-04 media-access, classification and closure litigation is a substantial body of proceedings this library has never inventoried**, and the docket names its filings. It bears directly on why the exhibit-publication questions arose at the hearing. Worth a scoped read |
-| **NEW** | **Project 224251 holds ~44 further docket filings this library has not read**, including the **2025-09-16 Information (10 pp.)** and the **2025-09-16 probable-cause affidavit (3 pp.)** — the two documents that would settle the charge structure and the State's original theory at Tier 1. **Neither is held.** |
+| ✅ **DONE, same session** | ~~**Project 224251 holds ~44 further docket filings this library has not read**, including the **Information (10 pp.)** and the **probable-cause affidavit (3 pp.)**… **Neither is held.**~~ **BOTH WERE ACQUIRED AND READ ON 2026-08-14 → [CR-E08](CR-E08_state-information-and-pc-affidavit-2025-09-16.md)** — the first filings **by the State** this project holds as documents. **CR-E07's F-15 is partly cured**, and **A-4 upgraded Medium → High**: the Information pleads exactly one aggravating circumstance. **~42 filings in the project remain unread → Q-70.** |
 
 **No case-posture statement in any topic file is altered by this acquisition. No D-register entry is assigned, resolved or moved.** As of 2026-08-14, Tyler Robinson has NOT been bound over for trial. Presumption of innocence applies throughout.
 
