@@ -2,6 +2,8 @@
 
 **File ID:** CR-ACQ-2026-08-14B *(the second acquisition file of 2026-08-14; the first, CR-ACQ-2026-08-14, is the contempt-hearing transcript)* · **Scope:** acquisition and facial (recording-layer) read of one 4-page court filing; resolution of Q-57's title-only adjacency question · **Case context:** *State of Utah v. Tyler James Robinson*, Case No. 251403576, Fourth Judicial District Court, Provo — Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-14 · **Status:** v1.0
 
+⚠️ **Findings `[PROVISIONAL]` (added 2026-08-14).** This file is scoped as a facial, recording-layer read — but §1 and §5 make **analyst-layer claims** (the Q-66 title correction, the e-filing-date correction against the library's prior record, and the adjacency pointers), and **no independent cycle has run on them.** The recording layer stands on the document's face; the analyst-layer claims may not be cited until cycled.
+
 **Sourcing framework (project standard):** Tier 1 — sworn testimony and primary court filings/documents · Tier 2 — named official statements · Tier 3 — named journalistic reporting · Tier 4 — anonymous/low-verification. "T1 via T3" marks primary-document content known only through reporting. Every claim below carries a URL and a retrieval date.
 
 **§1 Access-path caveats, first:**

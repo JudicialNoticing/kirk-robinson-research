@@ -2,6 +2,8 @@
 
 **File ID:** CR-ACQ-2026-08-14C *(the third acquisition file of 2026-08-14)* · **Scope:** acquisition and facial (recording-layer) read of two XChange case-history printouts; partial execution of Q-03; resolution of Q-66 · **Case context:** *State of Utah v. Tyler James Robinson*, No. 251403576, Fourth Judicial District Court, Provo — Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-14 · **Status:** v1.0
 
+⚠️ **Findings `[PROVISIONAL]` (added 2026-08-14).** This file is scoped as a facial, recording-layer read — but it makes **analyst-layer claims**: two scoped nulls (no contempt proceeding before 2026-03-14; no bullet-fragment matter in the period), a corroboration claim about CR-E07's count numbering, and a correction to the library's own prior title for the media-access notice. **No independent cycle has run on them** and they may not be cited until one does.
+
 **Sourcing framework (project standard):** Tier 1 — sworn testimony and primary court filings/documents · Tier 2 — named official statements · Tier 3 — named journalistic reporting · Tier 4 — anonymous/low-verification. "T1 via T3" marks primary-document content known only through reporting. Every claim below carries a URL and a retrieval date.
 
 ---
