@@ -1,6 +1,6 @@
 # CR-REVIEW-2026-08-14 — The Q-07 Losee draft review
 
-**File ID:** CR-REVIEW-2026-08-14 · **Scope:** the three-reviewer adversarial review of `2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md`, required by LOOP.md §2 and never run until now · **Case context:** *State of Utah v. Tyler James Robinson*, No. 251403576, Fourth Judicial District Court, Provo — Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-14 · **Status:** v1.0
+**File ID:** CR-REVIEW-2026-08-14 · **Scope:** the three-reviewer adversarial review of `2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md`, required by LOOP.md §2 and never run until now · **Case context:** *State of Utah v. Tyler James Robinson*, No. 251403576, Fourth Judicial District Court, Provo — Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-14 · **Status:** v1.1 — the fix pass and the re-gate are recorded at §8
 
 > ⚠️ **AS OF 2026-08-14, TYLER ROBINSON HAS NOT BEEN BOUND OVER FOR TRIAL. PRESUMPTION OF INNOCENCE APPLIES THROUGHOUT.**
 
@@ -89,8 +89,35 @@
 5. **Re-verify and re-stamp case posture** at the actual publication date — 👤 human gate.
 6. **Resolve Q-62** before any `LOSEE-E01` ID ships — 👤 human gate.
 
+## 8. The fix pass and the RE-GATE — added 2026-08-14
+
+**The fixes were applied (draft v1.1) and a re-gate was run. Verdict: PASS WITH FIXES.** All three BLOCKING living-persons items **CURED**; **no new living-persons harm introduced**. Coverage declared over all 523 lines, both ends quoted.
+
+⚠️ **But the re-gate's most valuable finding was about the fix pass, not the draft — and it is the reason this section exists.**
+
+**THREE OF THE "FIXES" WERE ANNOTATIONS, NOT EDITS, AND THE REVISION LOG REPORTED THEM AS DONE.** Where the fix pass wrote *"is restated as…"* inside a parenthetical, it left the underlying text untouched: the trial-presupposing phrase survived in §11 Finding 3's *"what would change it"* cell, *"during trial preparation"* survived at §12 item 11, and a gender descriptor of an unnamed officer survived at §7 — **while the log recorded all three as removed.**
+
+**The lesson, stated plainly because it is this project's own and it was committed by the person applying its own review: writing the instruction is not performing the edit, and a revision log that records intent as completion is a false account of the file.** ⚠️ **It is a close cousin of the failure class this library already tracks** — a caveat that only *restricts* feels safe and goes unchecked; here, a note that only *describes* a fix felt like the fix.
+
+Five further defects, all applied at draft **v1.2**:
+
+| id | Defect | Why it mattered |
+|---|---|---|
+| **RG-04** | The corrected hearing-end date was **not propagated** — §2 row 13 still read 2026-07-13 after the header was fixed to 07-10 | **The file contradicted itself on the very fact the pass advertised fixing** |
+| **RG-05** | The fix pass's **own new text** used a bare *"Exhibit 31"* | It broke the file's §1.3 rule **inside text written to enforce that rule** |
+| **RG-06** | The de-named elimination donor was **gendered five times** in the new text, and the L3-03 note **restated the relationship category** | With names removed, both remained **re-identification vectors** |
+| **RG-07** | The L3-06 note went **stale the moment L3-05 paraphrased §2 row 8** | And it obscured that one instance of the forbidden formulation legitimately survives at §8.3 — a cross-examination question the witness rejected — which is now a **stated choice**, not an oversight |
+| **RG-08** | A bare lab designator *"6A"* | Agencies do not share numbering series |
+
+**And the disclosure itself was under-counting:** the Status line listed three outstanding items where the revision log listed seven. Corrected — the Status line now carries all five classes and defers to the log.
+
+**Publication remains barred.** Outstanding: a fresh case-posture verification and re-stamp (👤), the Q-62 file-ID decision (👤), repair of two block quotations against the transcript, the residual convention defects, and **an independent verification cycle, which has still never run.**
+
+---
+
 ## Revision log
 
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-08-14 | File created. **The Q-07 review, in flight when the 2026-08-01 session closed and never completed, has now run** — three reviewers, each declaring coverage against the full 519-line draft. **Verdict: FAIL, do not publish.** Three BLOCKING living-persons items, all localised: the "testified under use immunity" formulation; §1.6 row 1's Twiggs/weapon-item juxtaposition with no non-suspect framing at the point of use; and a protective caveat that **names two private family members who appear nowhere else in the file** — the caveat causing the harm it exists to prevent, the fourth time in this library a rule has been broken inside the passage stating it. **Five substantive refutals**, of which two matter: a **"27-minute-35-second" body-camera duration with no support anywhere in Day 1** — a Rev stream timestamp from a different witness read as a measurement, which **had propagated into CR-E05 (VERIFIED) and QUEUE Q-53, both corrected the same day** — and a **tier error**, *"There is not, Judge"* graded High as sworn testimony when it is the State's counsel arguing before the witness was sworn (CR-E04 already had it right). **All four headline results survived**, including the three scoped nulls **re-tested under the new hazard 11 and holding at zero across five days**, and one finding proved **understated**. Ten convention defects (the governing one: **no literal `[PROVISIONAL]` token, so the validator cannot see the file's own admission that no cycle has run** — the same gap found in CR-E07 and queued as Q-68), five exclusion rulings (**three of the four blocked imports are now released by CR-E06 v1.2, with their scope constraints recorded verbatim**), and ten staleness items. **Unreached scope is itemised at §6 rather than left silent. No register entry assigned or moved; no case-posture statement altered. Robinson has not been bound over; presumption of innocence applies.** |
+| 1.1 | 2026-08-14 | **§8 added — the fix pass and the RE-GATE.** Verdict **PASS WITH FIXES**: all three BLOCKING living-persons items **CURED**, no new living-persons harm. ⚠ **The re-gate's most valuable finding was about the FIX PASS: three "fixes" were ANNOTATIONS, NOT EDITS, and the revision log reported them as done** — *"writing the instruction is not performing the edit, and a revision log that records intent as completion is a false account of the file."* Five further defects recorded and applied at draft v1.2, including a corrected date **the pass failed to propagate** and a bare exhibit designator **inside text written to enforce the rule against bare designators**. The draft's Status line was **under-counting its own outstanding items** and now defers to its log. **Publication remains barred; the independent verification cycle has still never run.** |
