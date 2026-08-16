@@ -4,6 +4,19 @@
 
 ⚠️ **Findings `[PROVISIONAL]`.** Sourced from six independent readers dispatched 2026-08-16, whose raw reports are banked at `CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md`. **No independent verification cycle has run on this file.** Nothing here may be cited elsewhere until one does (LOOP §2) → **Q-87**.
 
+> ### ⚠️ §0.1 · PROVISIONAL DEPENDENCIES — *added 2026-08-16, LOOP §2 discipline*
+>
+> **LOOP §2: *"no `[PROVISIONAL]` finding may be cited by another file, propagated into a topic folder, or used to resolve a register entry."*** This file both **is** provisional and **rests on** provisional findings. Those points are quarantined — **they may not be propagated further, and no register entry may be resolved on them.**
+>
+> | this file's claim | rests on | status |
+> |---|---|---|
+> | every `dkt<N>` tier statement in §1 | **CR-ACQ-2026-08-16 F-39 / F-40 / F-41** | `[PROVISIONAL]` → Q-83 |
+> | F-46's bearing on the sole aggravator | **CR-E08 A-4** | `[PROVISIONAL]` |
+> | §1's "the unredacted originals are unobtainable"; §5/§7 closure context | **CR-E12 §6, §9** | `[PROVISIONAL]` → Q-91 |
+> | F-49's resolution (the May → July mechanism) | **CR-E14 F-84** | `[PROVISIONAL]` → Q-99 |
+>
+> ⚠️ **§6.1's Losee geometry and §6.2's SBI statements are read DIRECTLY from the primary documents and depend on no other provisional file** — they are this file's own first-hand findings, and **Q-89 may proceed on them at the recording layer.** **Clearing item for this file: Q-87.**
+
 🚨 **CASE POSTURE, as of 2026-08-16: Tyler James Robinson has NOT been bound over for trial. The presumption of innocence applies throughout.** Every allegation below — by either party — is **attributed, never adopted**. The State's death-penalty notice is an **election, not an adjudication**.
 
 ---
@@ -238,3 +251,4 @@ It did not read Dkt. 332 or any hearing transcript; did not verify any Christens
 | Version | Date | Change |
 |---|---|---|
 | v1.0 | 2026-08-16 | Created from the 2026-08-16 six-reader pass over the newly banked DocumentCloud material (CR-ACQ-2026-08-16). Establishes the disqualification track, entirely new to this library. **F-42 corrects two errors in this project's own first description of it.** F-43 → F-61 opened; D-64 → D-68 opened; Q-86 → Q-90 raised. §6 records the evidentiary payloads filed for other purposes — the State's **sworn Losee-roof geometry including an 18-ft field-of-view window**, five **SBI eyewitness statements**, and a **timestamped contemporaneous message record** capturing the false early-detention report at ~12:33 PM. §7 records three living-persons decisions taken by the owner on 2026-08-16, all conservative. `[PROVISIONAL]` — no verification cycle has run. |
+| v1.1 | 2026-08-16 | ⚠️ **§0.1 PROVISIONAL DEPENDENCIES added (LOOP §2 discipline)** — four claim-classes quarantined pending Q-83/Q-91/Q-99. ✅ **§6.1's Losee geometry and §6.2's SBI statements are FIRST-HAND and depend on no other provisional file, so Q-89 may proceed on them at the recording layer.** |

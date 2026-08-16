@@ -4,6 +4,21 @@
 
 ⚠️ **Findings `[PROVISIONAL]`.** Sourced from the 2026-08-16 reader pass; raw report banked at `CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md`. **No independent verification cycle has run** → **Q-91**.
 
+> ### ⚠️ §0.1 · PROVISIONAL DEPENDENCIES — *added 2026-08-16, LOOP §2 discipline*
+>
+> **LOOP §2 bars a `[PROVISIONAL]` finding from being cited elsewhere or used to resolve a register entry.** This file both **is** provisional and **rests on** provisional findings — and, most seriously, **it was used to CORRECT another file.**
+>
+> | this file's claim | rests on | status |
+> |---|---|---|
+> | every `dkt<N>` tier statement; the "2-13-2026" resolution | **CR-ACQ-2026-08-16 F-39 / F-40** | `[PROVISIONAL]` → Q-83 |
+> | §3/§4's corrections to the granularity finding | **CR-E10 F-35 / F-36** | `[PROVISIONAL]` |
+> | §8.1's docket-#14 resolution | **CR-E09 F-30** | `[PROVISIONAL]` |
+> | §7's F-68 comparison against the preservation order | **CR-E13 §4** | `[PROVISIONAL]` → Q-94 |
+> | §6.1's "public/redacted counterparts exist and are held" | **CR-E11 §1** | `[PROVISIONAL]` → Q-87 |
+>
+> 🚨 **NOTE THE DIRECTION OF TRAVEL: CR-E10 was revised to v1.3 on the strength of THIS file's F-62 / F-63 / F-69.** That is provisional→provisional, so ✅ **no verified file was contaminated** *(CR-E05 and CR-E06, the two verified files, were not touched on 2026-08-16)* — **but it is exactly the propagation LOOP §2 forbids, and CR-E10's v1.3 rows must be re-checked when Q-91 clears this file.**
+> **Clearing item: Q-91.**
+
 🚨 **CASE POSTURE: Tyler James Robinson has NOT been bound over for trial as of 2026-08-16. Presumption of innocence applies throughout.** Nothing in this file adjudicates anyone's conduct.
 
 🚨 **THE WHOLE MAP IS BOUNDED AT 2026-03-14 AND MUST ALWAYS BE DATE-STAMPED AS SUCH.** Its docket source stops there (§1). **It covers nothing about the preliminary hearing, the June 2026 contempt matter, or the 2026-04-17 evidentiary hearing.**
@@ -204,3 +219,4 @@ This file did not read: any closure or classification ruling (none is held); doc
 |---|---|---|
 | v1.0 | 2026-08-16 | Created. **Q-75 executed.** F-62 → F-69 opened; Q-91 → Q-93 raised. **Corrects two of this library's own findings:** CR-E10 F-36 is under-scoped (closure runs at five granularities, not one) and mis-dates the witness-by-witness rule's origin (2026-01-16, not 02-03 — and the court imposed it *against* unanimous party stipulation). **F-69 finds a phantom acquisition target in CR-E10 that inflated Q-70's coverage count.** Resolves three carried contradictions (docket #14; the "2-13-2026" title; `dkt197` vs 213). **F-64 states a bound the library had no concept of: open ≠ observable — exhibits can be admitted in open court and never displayed.** `[PROVISIONAL]`. |
 | v1.1 | 2026-08-16 | 🚨 **Q-105 RE-RUN — 3 REFUTED, 8 NARROWED, and the worst defect was not a null battery at all.** **§6.1 listed the 2025-10-24 hearing as *structurally unobtainable* while this library has held a 97-page Tier 1 redacted transcript of it since 2026-07-27** (`oct24_clean.txt`, 176 KB, SHA-256-verified, summarised at CR-ACQ-2026-07-27 §4) — **cited by no evidence file** → **Q-110**. 🚨 **Root cause, and it generalises: a docket-derived observation was promoted into a claim about this library's HOLDINGS. The docket is evidence of what the court filed and classified, not of what this project possesses — and TWO other nulls here failed the same way (§9 N-6, §9 N-4).** **N-6 corrected** (the preliminary hearing and the June contempt matter are both established OPEN by held records the file already relies on; only the 2026-04-17 limb survives). **N-4 narrowed** (`dkt413` **is** a held signed order recording two closure dispositions — the steelman that saves the null is that both requests were **oral**). **§6.2 extended: `PROTECTED` appears TWICE and the two printouts DISAGREE about the same record** — a calibration fact about `[X]` sourcing. F-68's char count, the `(Dk. 23)` form and the pin-cite count corrected. ✅ **21 nulls CONFIRMED, logged deliberately** — including F-63/F-64's basis, F-67, and the 2026-03-14 ceiling. ⚠️ **F-63's origin dating for the witness-by-witness RULE survives, but the open-by-default presumption was articulated on the record twelve weeks earlier.** |
+| v1.2 | 2026-08-16 | ⚠️ **§0.1 PROVISIONAL DEPENDENCIES added (LOOP §2 discipline).** 🚨 **Records the direction of travel: CR-E10 was revised to v1.3 on THIS file's provisional F-62/F-63/F-69** — provisional→provisional, so **no verified file was contaminated** (CR-E05/CR-E06 untouched), **but it is the propagation LOOP §2 forbids and CR-E10's rows must be re-checked when Q-91 clears.** |

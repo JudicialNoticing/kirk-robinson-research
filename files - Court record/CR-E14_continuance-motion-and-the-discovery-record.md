@@ -4,6 +4,20 @@
 
 ⚠️ **Findings `[PROVISIONAL]`.** Sourced from the 2026-08-16 reader pass; raw report banked with the others at `CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md`. **No independent verification cycle has run** → **Q-99**.
 
+> ### ⚠️ §0.1 · PROVISIONAL DEPENDENCIES — *added 2026-08-16, LOOP §2 discipline*
+>
+> **LOOP §2 bars citing a `[PROVISIONAL]` finding elsewhere or using one to resolve a register entry.** This file both **is** provisional and **rests on** provisional findings.
+>
+> | this file's claim | rests on | status |
+> |---|---|---|
+> | §1's date-convention and metadata caveats | **CR-ACQ-2026-08-16 F-39** | `[PROVISIONAL]` → Q-83 |
+> | **F-84's chain — the May → July resolution** — at its 2026-02-02 link | **CR-E11**'s read of Dkt. 366 | `[PROVISIONAL]` → Q-87 |
+> | **F-94**, and §10's closure-map consequence | **CR-E12 §6.1, §2** | `[PROVISIONAL]` → Q-91 |
+>
+> ⚠️ **F-84 is graded High and is this file's most-cited result — but one of its six links is a provisional read of another provisional file.** The 2025-12-11, 2026-01-16, 2026-03-27 and 2026-07-06 links are first-hand from held documents; **the 2026-02-02 link is not.** **Do not propagate F-84 into a topic folder until Q-87 and Q-99 clear.**
+> ✅ **F-87 (the ATF ballistics assertion) depends on nothing else — read directly from the motion, and recording-layer regardless.** Its citation of CR-E06 is safe: **CR-E06 is VERIFIED.**
+> **Clearing item: Q-99.**
+
 🚨 **CASE POSTURE: Tyler James Robinson has NOT been bound over for trial. The presumption of innocence applies throughout.** As of this motion's own date the preliminary hearing had not yet occurred. **Every assertion in §4–§6 is the DEFENCE's, attributed and adopted by nobody.**
 
 ---
@@ -205,3 +219,4 @@ Each was run in Python on normalised, control-stripped text across all 69 pages,
 |---|---|---|
 | v1.0 | 2026-08-16 | Created. **Closes the May → July preliminary-hearing chronology gap (F-84, High)** with an unbroken six-link chain, and identifies the victim representative's **Invocation of Speedy Trial Rights** exactly (F-90). F-82 → F-95 opened; **D-70, D-71, D-72** opened; **Q-99 → Q-104** raised. 🚨 **F-87 records the defence's assertion that an ATF report did not identify the autopsy bullet to the rifle — held strictly in the recording layer, with four stated reasons it cannot be promoted, and raised as the library's highest-value acquisition target.** **F-94 gives CR-E12 a route it lacked: classification restricts a record but does not restrain a party from quoting it in a later public filing.** `[PROVISIONAL]`. |
 | v1.1 | 2026-08-16 | ✅ **Q-105 RE-RUN — 20 CONFIRMED · 3 NARROWED · 0 REFUTED.** Every §9 null re-tested against the repaired sources, and **every universal-absence null here had at least one pattern CAPABLE of matching the thing claimed absent** (standing hazard 14) — the one battery judged incomplete (`Utah Supreme Court`, absent from CR-E11 N-2) was supplemented and the null survived. 🚨 **But this file's stated METHOD was insufficient and is corrected at §1:** `U+FFFE` is not whitespace, and **in this very document it splits `2025-W-000401` — the ATF case number §12 records as an acquisition identifier** (standing hazard 16; use `./artifact_search.py`). 🛠 **Three narrowings, all basis defects rather than findings defects:** **N-3** attached "Zero" to a battery including `Dkt`/`Doc.`/`docket`, which are **not** zero — and that contradicted this file's own **F-95**, which promotes **Doc. 454** and **Doc. 61** to Tier 1 precisely because they are cited by number here; **N-7**'s closing sentence about `competen` was wrong (1 of 6, not all); **N-8**'s parenthetical overstated. ✅ **Notable confirmations:** F-87's ATF sentence verbatim **including the preserved "allegedly tied" hedge**, F-88's four STRmix decisions (exactly four), the absent expert resume, and the *Touhy* request covering only one of three ATF firearms reports. ⚠️ **F-87 remains recording-layer and untouched.** |
+| v1.2 | 2026-08-16 | ⚠️ **§0.1 PROVISIONAL DEPENDENCIES added (LOOP §2 discipline).** 🚨 **F-84 is graded High and is this file's most-cited result, but ONE of its six links — the 2026-02-02 State memorandum — is a provisional read of another provisional file.** The other four links are first-hand. **Do not propagate F-84 into a topic folder until Q-87 and Q-99 clear.** ✅ **F-87 depends on nothing else and is recording-layer regardless.** |
