@@ -1,0 +1,65 @@
+{
+  "2026-08-16_rev_fbi-captures-kirk-shooter": {
+    "chars": 27634,
+    "turns": 97,
+    "labels": {
+      "Spencer Cox": 26,
+      "Speaker 17": 5,
+      "Speaker 8": 4,
+      "Speaker 11": 4,
+      "Kash Patel": 3,
+      "Speaker 10": 3,
+      "Speaker 13": 3,
+      "Speaker 1": 2,
+      "Speaker 3": 2,
+      "Speaker 12": 2
+    }
+  },
+  "2026-08-16_rev_fbi-press-conference-on-kirk-shooting": {
+    "chars": 11377,
+    "turns": 44,
+    "labels": {
+      "Speaker 3": 10,
+      "Media": 10,
+      "Speaker 5": 3,
+      "Speaker 1": 2,
+      "Speaker 2": 2,
+      "Speaker 6": 2,
+      "We are exhausting every lead.": 1,
+      "Constitution of the United States.": 1,
+      "Speaker X": 1
+    }
+  },
+  "2026-08-16_rev_press-conference-on-charlie-kirk-shooting": {
+    "chars": 13571,
+    "turns": 66,
+    "labels": {
+      "Spencer Cox": 9,
+      "Speaker 6": 8,
+      "Beau Mason": 6,
+      "Jeff Long": 6,
+      "Speaker 10": 4,
+      "Robert Bohls": 3,
+      "Speaker 7": 3,
+      "Speaker 13": 3,
+      "Speaker 1": 2,
+      "And then we'll hear from Governor Cox.": 1
+    }
+  },
+  "2026-08-16_rev_update-on-charlie-kirk-shooter": {
+    "chars": 31911,
+    "turns": 99,
+    "labels": {
+      "Jeff Gray": 36,
+      "Carter Evans": 7,
+      "Speaker 4": 4,
+      "Morgan Chesky": 4,
+      "Speaker 1": 3,
+      "Speaker 9": 3,
+      "Emily Anderson": 2,
+      "Speaker 2": 2,
+      "Speaker 6": 2,
+      "Speaker 8": 2
+    }
+  }
+}

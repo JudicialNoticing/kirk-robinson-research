@@ -1,0 +1,42 @@
+{
+  "retrieved": "2026-08-16",
+  "source": "rev.com sitemap re-enumeration (Q-120)",
+  "items": [
+    {
+      "slug": "fbi-press-conference-on-kirk-shooting",
+      "url": "https://www.rev.com/transcripts/fbi-press-conference-on-kirk-shooting",
+      "retrieved": "2026-08-16",
+      "html_bytes": 181981,
+      "text_chars": 18811,
+      "sha256_html": "5322050bccf4e9dbab350f7f194ca60eae02956b0f241bc57cd90ba4022ae7e7",
+      "title": "FBI Press Conference Charlie Kirk Shooting | Rev"
+    },
+    {
+      "slug": "press-conference-on-charlie-kirk-shooting",
+      "url": "https://www.rev.com/transcripts/press-conference-on-charlie-kirk-shooting",
+      "retrieved": "2026-08-16",
+      "html_bytes": 188626,
+      "text_chars": 21183,
+      "sha256_html": "08347ff318cb9161a7d82acd86f72c17d06474b294489f5dcaa57067c01f1dd0",
+      "title": "Charlie Kirk Shooting Utah Valley | Rev"
+    },
+    {
+      "slug": "update-on-charlie-kirk-shooter",
+      "url": "https://www.rev.com/transcripts/update-on-charlie-kirk-shooter",
+      "retrieved": "2026-08-16",
+      "html_bytes": 212480,
+      "text_chars": 39202,
+      "sha256_html": "e258db8ab95ce490116f52349e02e463ea749aa57a8d237eb1bf67dec2c5ed51",
+      "title": "Charlie Kirk Shooter Tyler Robinson Jeff Gray | Rev"
+    },
+    {
+      "slug": "fbi-captures-kirk-shooter",
+      "url": "https://www.rev.com/transcripts/fbi-captures-kirk-shooter",
+      "retrieved": "2026-08-16",
+      "html_bytes": 208370,
+      "text_chars": 35605,
+      "sha256_html": "80006fd9d5ebe81c1eddcac23906323b0d3b0c9e5090dc0c16f72c5ff0425672",
+      "title": "FBI Kash Patel Charlie Kirk Shooter | Rev"
+    }
+  ]
+}
