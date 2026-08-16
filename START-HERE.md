@@ -38,11 +38,11 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ### Where to pick up
 
-1. **B2 — Q-61 round 2.** ~360 candidates untested; the Day-5/Oliver harvest (48 items) and the CR-E08 completeness harvest (66 items) are **banked and unintegrated**. Index: `CR-ACQ-.../2026-08-14_Q61-candidate-bank_INDEX.md`.
+1. **B2 — Q-61.** ⚠ **STARTED 2026-08-16: the verification stage has run for the first time.** Tranche 1 — the five carried nulls — is **5 of 5 CONFIRMED** → [CR-REVIEW-2026-08-16](files%20-%20Court%20record/CR-REVIEW-2026-08-16_Q61-carried-nulls.md). **~360 candidates still have no verdict.** ✅ **The banks are intact and resumable, verified by parsing rather than assumed:** Finder B **147** `F2-*`, day-2 completeness **60** `C1-*`, plus a **66**-item CR-E08 harvest the index had left off its own list. ⚠ **The Day-5/Oliver leg is RETRYABLE — it died on a `429` rate limit, not a spend limit** (the index said spend limit and that discouraged the retry). **Next tranche: the self-claims cluster, starting `F2-133`** — Finder B counts 27 rows against the file's own "twenty-six"; pure arithmetic against a primary artifact, no network.
 2. **C — finish Q-07:** two quotation repairs, residual convention defects, and **a verification cycle that has never run**.
-3. **D — Q-70:** **16 of 46** project documents read. It has paid out five times.
+3. ⛔ **D — Q-70 is BLOCKED, and this is new.** **The DocumentCloud API returns HTTP 403 behind a Cloudflare challenge from LOCAL sessions** (three endpoints, two user agents, re-tested twice on 2026-08-16) — **reversing Run 2's "no longer bot-gated" and the 08-13 46/46 enumeration.** 30 of 46 filings remain unread and **cannot currently be fetched.** ⚠ **Do not log a silent sweep as a null: the route is unattemptable, not empty.** Re-test each session.
 4. **B3 (Q-78)** unblocks the moment CR-E09 clears its cycle.
-5. **A1 — Tue 2026-08-18: run the watch BY HAND.** The State's reply is due and the routine is egress-blind, so there is **no document-capable scheduled cover.**
+5. 🚨 **A1 — Tue 2026-08-18: run the watch BY HAND. This is the day after tomorrow.** The State's reply is due, the routine's next firing is **Wed 08-19 — after the deadline** — and it is egress-blind, so there is **no document-capable scheduled cover at all.** ✅ **Run 4 (2026-08-16) left a baseline that makes it cheap:** the Fox outlet-mirror directory is enumerated at **55 PDFs / exactly one case item**, so detection is a **diff, not a search**. Rev is enumerable from its sitemap. DocumentCloud is not available (item 3).
 
 ## 1. First five minutes, in this order
 
