@@ -1,6 +1,6 @@
 # CR-ACQ-2026-08-16 — Acquisition: DocumentCloud project 224251 completed (46/46), plus nine filings found outside it
 
-**File ID:** CR-ACQ-2026-08-16 · **Scope:** acquisition only — the completion of Q-70 (the 32 unread filings of DocumentCloud project 224251), the discovery that the project was never the whole corpus, and the provenance/hash/metadata discipline attaching to all of it. **Substantive reads of the acquired documents are NOT in this file** — see §8 for where they go. · **Case context:** *State of Utah v. Tyler James Robinson*, No. 251403576, **Fourth Judicial District Court, Provo — case type FS** (see F-41), Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-16 · **Status:** v1.0
+**File ID:** CR-ACQ-2026-08-16 · **Scope:** acquisition only — the completion of Q-70 (the 32 unread filings of DocumentCloud project 224251), the discovery that the project was never the whole corpus, and the provenance/hash/metadata discipline attaching to all of it. **Substantive reads of the acquired documents are NOT in this file** — see §8 for where they go. · **Case context:** *State of Utah v. Tyler James Robinson*, No. 251403576, **Fourth Judicial District Court, Provo — case type FS** (see F-41), Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-16 · **Status:** **v1.1** — 🚨 *§3 corrected in place: v1.0's "seven were new" was wrong, and wrong by this file's own F-39. Two of the seven are third-party filings that merely CITE this case; one is a hash-duplicate. See the correction block in §3.*
 
 ⚠️ **Findings `[PROVISIONAL]`.** This file makes analyst-layer claims — the metadata hazard (§4), two empirically demonstrated false-null mechanisms (§6), the completeness null (§3), and five corrections to this project's own filenames (§5). **No independent cycle has run on them.** They may not be cited elsewhere until one does (LOOP §2). → **Q-83**.
 
@@ -84,7 +84,32 @@
 
 🚨 **But the corpus was never the project. A case-number search returns documents project 224251 does not contain.**
 
-`q="251403576"` returns **40 documents**, of which **9 sit outside project 224251**. Two of the nine were already held by this library from other routes (the defence brief; the victim-family supplemental notice) — which is itself the confirmation that the query works, since it found what the library already knew about. **Seven were new.** They include material that **postdates the collection's 2026-03-14 ceiling** and could never have been in it:
+`q="251403576"` returns **40 documents**, of which **9 sit outside project 224251**. Two of the nine were already held by this library from other routes (the defence brief; the victim-family supplemental notice) — which is itself the confirmation that the query works, since it found what the library already knew about.
+
+> # 🚨 CORRECTED AT v1.1, 2026-08-16 — AND THE ERROR IS THIS FILE'S OWN F-39, COMMITTED WITHIN THE HOUR
+>
+> **v1.0 said "Seven were new" and described the 663-page federal filing as *"a parallel FEDERAL track this library has never looked at."* THAT WAS WRONG, and it was wrong the exact way §4 warns about.** I took a search result's **membership in a result set** — metadata — as evidence of **relevance**, and wrote it into a published file **without opening the documents**. The readers who caught my filename errors caught them by opening documents; I did not open these.
+>
+> **What the seven actually are, each verified by reading its first page:**
+>
+> | DC id | Verdict | What it actually is |
+> |---|---|---|
+> | `26099252` | ⚠️ **DUPLICATE, not new** | The **proposed pretrial protective order** — `file_hash` **identical** to `27880860` already in the project. ✅ **Not worthless: a second, independent uploader holding the byte-identical original is genuine provenance corroboration.** |
+> | `26493871` | ✅ **GENUINELY NEW, this case** | A **victim's-counsel filing of 2026-01-19**, Fourth Judicial District, signed by the same victim's counsel the library tracks. Unread. |
+> | `27998184` · `27998188` · `27998189` | ✅ **GENUINELY NEW, this case — but ONE document, not three** | The **motion to vacate or continue** (28 printed pp.), signed by this case's defence team. Identical `file_hash` on all three. Unread. |
+> | `28324423` | ❌ **NOT THIS CASE** | ***State of South Carolina v. Richard Alexander Murdaugh***, Colleton County. It matched because it **CITES** *Utah v. Robinson* as persuasive authority on shackling and courtroom cameras. |
+> | `28417731` | ❌ **NOT THIS CASE, and not a "parallel federal track"** | A **civil** matter in the District of Utah. It matched because it **CITES** *Utah v. Robinson* by analogy on a limited-intervention procedure. **It is not a parallel proceeding, and nothing about this case turns on it.** |
+>
+> **So the honest count is: two genuinely new documents of this case (both unread), one hash-duplicate with provenance value, and two third-party documents that merely cite the case.** Not seven.
+>
+> ✅ **The two false positives nonetheless PAID OUT, and that is recorded rather than buried:**
+> - **F-42a — Two docket numbers arrive at Tier 1 from the federal filing's own citation:** the media's intervention request is **Docket No. 267**, and the ***Order Denying Media's Request to Intervene* is Doc. 266, 4th Dist. Ct., 2025-12-29**, described as requiring notice to media representatives of future Rule 4-202.04 closure or classification motions. **These are exactly CR-E12's B-7 and Q-77 targets, and they are now numbered.** *(Tier 1 by this file's own §4 rule: a docket number cited inside a primary filing.)* **Confidence: High.**
+> - **F-42b — 🚨 A VIDEO OF THE 2025-12-11 HEARING MAY EXIST PUBLICLY.** The South Carolina filing cites a **YouTube recording of the 2025-12-11 hearing**. ⚠️ **CR-E12 records that hearing as PARTIALLY CLOSED** (12:12–2:19 closed, remainder open, its minute order **`SEALED`**) — so any public video can only be of the **open** portion, and **nothing may be inferred about the closed segment from it**. ⚠️ **The URL is OCR-mangled and the video ID is NOT recoverable**: the PDF's text layer *is* the OCR (`pdftotext` reproduces it identically), rendering *"hitps://wwiv.youtube.com/walch?v=…&1=324s"*. **Do not guess the ID.** → **Q-97.** **Confidence that a recording was cited: High. Confidence in the identifier: nil.**
+> - The same filing asserts, as a Tier 3-equivalent characterisation by an out-of-state litigant, that the court ordered cameras repositioned and warned they would be excluded if the defendant were again shown in restraints. ⚠️ **Attributed, not adopted; this library holds no order to that effect.**
+>
+> **The lesson, stated against myself:** §4 of this file establishes that *a document's title is not the document*. **A search result's presence in a result set is the same kind of claim, and I believed it for the same reason — it was cheap.** The rule generalises: **relevance is established by reading, not by retrieval.**
+
+**The material found outside the project, as banked:**
 
 | Date | pp | DC id | Uploader org | API `file_hash` (SHA-1) | Title as uploaded (verbatim) | Disposition |
 |---|---|---|---|---|---|---|
@@ -100,7 +125,7 @@
 
 ⚠️ **The three copies of the 69-page "motion to vacate or continue March 27 2026" are ONE document, not three** — identical `file_hash` `a8383ffe1dfe667b...` on all three. **Do not count them as three filings.**
 
-🚨 **The lesson, and it is the same one this library has now learned three times at successively larger scale:** *a search for one artifact does not inventory a corpus* (2026-08-14, three sweeps read past the Information while hunting the State's brief) — and now — **enumerating a project is not inventorying a platform.** The library spent two days believing "46/46" meant complete. It meant complete *as to one uploader's folder*. **Q-79** opens to sweep the platform properly rather than one project.
+🚨 **The lesson, and it is the same one this library has now learned FOUR times at successively larger scale — the fourth time inside this very file (see the correction block above):** *a search for one artifact does not inventory a corpus* (2026-08-14, three sweeps read past the Information while hunting the State's brief) — and now — **enumerating a project is not inventorying a platform.** The library spent two days believing "46/46" meant complete. It meant complete *as to one uploader's folder*. **Q-79** opens to sweep the platform properly rather than one project.
 
 **Scope of this null, stated exactly:** searched DocumentCloud's public API on 2026-08-16 for the exact string `"251403576"` and for `user:144356`. **Not searched:** other case-number formats, party-name queries, or any other document platform. `+robinson +tyler` returns ~17,000 results and is useless without further constraint. **This does not establish that 55 documents is the whole of the case on DocumentCloud.**
 
@@ -214,3 +239,4 @@ Six independent readers read the newly banked material on 2026-08-16 and returne
 | Version | Date | Change |
 |---|---|---|
 | v1.0 | 2026-08-16 | Created. Project 224251 completed 46/46 (28 newly banked, 0 failures); sibling projects 225170/225296 enumerated and returned no new documents; a case-number search found **9 documents outside the project, 7 of them new**, including material postdating the collection's 2026-03-14 ceiling. **F-39/F-40 open on the uploader-metadata hazard; D-62 and D-63 opened; standing hazard 13 added; hazard 11 strengthened; the re-render hash trap demonstrated.** Five of this project's own filenames corrected in place (§5). Q-79 through Q-84 raised. |
+| **v1.1** | **2026-08-16** | 🚨 **§3 CORRECTED IN PLACE, and the error was this file's own F-39 committed within the hour.** v1.0 stated that the case-number search found **seven new documents**, and characterised a 663-page filing as *"a parallel FEDERAL track this library has never looked at."* **Both were wrong.** Verified by reading each document's first page: **two are third-party filings that merely CITE this case** — *State of South Carolina v. Murdaugh* (shackling/cameras) and an unrelated **civil** matter in the District of Utah (limited-intervention procedure) — **one is a hash-duplicate** of a document already in the project, and **three are one document uploaded three times.** **Honest count: two genuinely new documents of this case, both unread.** ✅ **The two false positives paid out anyway and it is recorded, not buried: F-42a** puts the media-intervention request at **Docket 267** and the **Order Denying Intervention at Doc. 266 (2025-12-29)** — Tier 1 by this file's own rule, and exactly CR-E12's B-7 / Q-77 targets; **F-42b** finds that a **YouTube recording of the partially-closed 2025-12-11 hearing was cited**, though the URL is OCR-mangled and the video ID is **not recoverable** (→ Q-97). **Root cause, stated against myself: §4 says a title is not the document; a search result's membership in a result set is the same kind of claim, and I believed it for the same reason — it was cheap. Relevance is established by reading, not by retrieval.** |

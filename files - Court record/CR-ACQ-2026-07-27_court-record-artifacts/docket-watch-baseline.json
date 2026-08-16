@@ -1,0 +1,342 @@
+{
+  "written": "run --baseline to refresh",
+  "checks": {
+    "dc": {
+      "status": "OK",
+      "ids": {
+        "27880531": {
+          "title": "tyler robinson case list of all filings and hearings as of 3-15-2026",
+          "pages": 31,
+          "file_hash": "63d36b7fc21eaa099248d7dcc4f5c46fe7069631",
+          "org": 87307
+        },
+        "27880533": {
+          "title": "tyler robinson all docket entries as of 3-15-2026",
+          "pages": 13,
+          "file_hash": "4e23edb3b79e42bc0f5da11c5dbfc6fdbbf10dfc",
+          "org": 87307
+        },
+        "27880529": {
+          "title": "tyler robinson case search on utah state court online xchange service",
+          "pages": 2,
+          "file_hash": "36d7bb97e5a0b90a3e1117b52d783d876a78306a",
+          "org": 87307
+        },
+        "27881507": {
+          "title": "2-13-2026 minute order on ORAL ARUGMENT of EVIDENTIARY HEARING - docket 413",
+          "pages": 3,
+          "file_hash": "aeb51f9560299f2d1a6d0ed375feeff026257bf1",
+          "org": 87307
+        },
+        "27880866": {
+          "title": "12-15-2025 ruling and order granting prosecutor motion to clarify courts pretrial and trial publicity order - docket 242",
+          "pages": 3,
+          "file_hash": "7e38df28274ec1502a6e22c29eebd6e80ad05a4b",
+          "org": 87307
+        },
+        "27880867": {
+          "title": "10-21-2025 Defendant Motion to Strike Response to Defendant s Motion to Appear at All In-Person Proceedings in Civilian Clothing and Without Restraints - docket 111",
+          "pages": 10,
+          "file_hash": "594cbf7df66c43bbf133f18a6ade81ae524da97a",
+          "org": 87307
+        },
+        "27880874": {
+          "title": "12-4-2025 Utah Office for Victims of Crime Restitution Notice Claim#1113665 - docket 211",
+          "pages": 1,
+          "file_hash": "358e9b4570ba9448f26ebbbcf69e71d6babc3f1f",
+          "org": 87307
+        },
+        "27880859": {
+          "title": "10-08-2025 Copy of Video-Audio Record completed - docket 74",
+          "pages": 2,
+          "file_hash": "b017422a7062c77767cc7bc37ac1211deea38f04",
+          "org": 87307
+        },
+        "27880857": {
+          "title": "10-08-2025 Defendant Motion to Preserve Evidence - docket 75",
+          "pages": 3,
+          "file_hash": "534dcba92f9c9be679c2bf80cab0ddac45087c91",
+          "org": 87307
+        },
+        "27880868": {
+          "title": "10-27-2025 ruling and order on defendant motion to strike and appear in civilian clothing without restraints - docket 137",
+          "pages": 9,
+          "file_hash": "8c7f53bfd2ed0668fb9cf0eb42bd9ec3f423f38d",
+          "org": 87307
+        },
+        "27880870": {
+          "title": "9-24-2025 Order To Transport for virtual hearing - docket 24",
+          "pages": 1,
+          "file_hash": "bf7482cde58f4b0daa2f0e18e3f90e9fe7c7b22f",
+          "org": 87307
+        },
+        "27880861": {
+          "title": "11-3-2025 defendant stipulated Motion to Order Transcript and Classify Transcript and Audio as Private from 10-24-2025 - docket 152",
+          "pages": 3,
+          "file_hash": "b30d2c0b4ff7614c337aeb5cad9cbc12a9d4f19a",
+          "org": 87307
+        },
+        "27880865": {
+          "title": "9-16-2025 Request for Designation of Victim Representative - docket 12",
+          "pages": 2,
+          "file_hash": "9c9e86cbe2cd37df962038958585ce936665b76d",
+          "org": 87307
+        },
+        "27880862": {
+          "title": "11-4-2025 Order Stipulated Order (1) Setting Aside 10-20-2025 Order Granting Motion to Preserve Evidence and (2) Granting In Part Motion to Preserve Evidence - docket 161",
+          "pages": 4,
+          "file_hash": "273e430c346faba340a8ecb8cf9e1b6f53235d10",
+          "org": 87307
+        },
+        "27880875": {
+          "title": "10-08-2025 Proposed Order Granting Motion to Preserve Evidence - docket 76",
+          "pages": 3,
+          "file_hash": "3f0b41a9d2e5bc3676be337e8e325bcffc0c05b3",
+          "org": 87307
+        },
+        "28443912": {
+          "title": "Supplemental Notice Concerning Access to Evidennce Presented in Open Court re Tyler Robinson",
+          "pages": 4,
+          "file_hash": "e31404f912f4a36578ed774b1e3fa02f746875fb",
+          "org": 19290
+        },
+        "27881508": {
+          "title": "2-2-2026 Proffer of Facts re Closure of Poritons of Evidentiary Hearing on Motion to Disqualify UCAO - docket 368",
+          "pages": 5,
+          "file_hash": "6f038b15b973555edd9fe054df324b88e4f34f0b",
+          "org": 87307
+        },
+        "26493871": {
+          "title": "document (4)",
+          "pages": 3,
+          "file_hash": "bf5b4453fd686a31f27bd5d5d9c8f003f79fde45",
+          "org": 102365
+        },
+        "27880871": {
+          "title": "10-27-2025 Prosecutor Notice of Open File Poilcy and Invitation to Inspect Physical Evidence - docket 135",
+          "pages": 3,
+          "file_hash": "22860bb9efc9cceedf17b0092e6d0b97087ca770",
+          "org": 87307
+        },
+        "27881511": {
+          "title": "1-30-2026 prosecutor Opposition to Defendant Motion to Classify Motion to Exclude Still media from the Courtroom and classify as private hearing - docket 346",
+          "pages": 3,
+          "file_hash": "e76e31891263cf213d10e39ece9b9b5134645b87",
+          "org": 87307
+        },
+        "27880864": {
+          "title": "10-22-2025 Prosecutor Motion to Set Aside 10-20-2025 Order Granting Motion to Preserve Evidence - docket 116",
+          "pages": 3,
+          "file_hash": "b13575951b15c840fce84793fcd7232cd3fb686d",
+          "org": 87307
+        },
+        "27880863": {
+          "title": "10-13-2025 Both Parties Motion for Discovery Protective Order Stipulated - docket 91",
+          "pages": 5,
+          "file_hash": "358a89356450dc48a45a4e1aee461cb9bad3e471",
+          "org": 87307
+        },
+        "27880888": {
+          "title": "1-5-2026 prosecutor Opposition to Defendant Motion to Disqualify the Utah County Attorney Office - docket 289",
+          "pages": 33,
+          "file_hash": "3b36f2509dc103dde1b9e72c5f1bd65cc9eb6f77",
+          "org": 87307
+        },
+        "27881510": {
+          "title": "1-9-2026 Subpoena for Sgt David Hull - docket 291",
+          "pages": 4,
+          "file_hash": "fbfb9ad67c95e8bb3f911ed0725268f188bb17d8",
+          "org": 87307
+        },
+        "27880872": {
+          "title": "9-16-2025 Order Pretrial Protective Order - docket 14",
+          "pages": 6,
+          "file_hash": "2d70980d6d529c647f5299eb6094cdee88984039",
+          "org": 87307
+        },
+        "27880860": {
+          "title": "9-16-2025 proposed pretrial protective order - docket 7",
+          "pages": 6,
+          "file_hash": "266fccb19b108d5b9cba24f1ecaa1d5f1773d8c8",
+          "org": 87307
+        },
+        "28324423": {
+          "title": "Reply to the States Response for Motion for Defendant to be Unshackled",
+          "pages": 4,
+          "file_hash": "d4a997ac81aae5ace133c48bce0cd1527238a632",
+          "org": 60250
+        },
+        "26099252": {
+          "title": "document (5)",
+          "pages": 6,
+          "file_hash": "266fccb19b108d5b9cba24f1ecaa1d5f1773d8c8",
+          "org": 729
+        },
+        "27881513": {
+          "title": "1-8-2026 Defendant Reply to Prosecutor Opposition to Motion to Disqualify Public - docket 293",
+          "pages": 7,
+          "file_hash": "34b2684342b75b3037aac8a2d05c04ba995d4107",
+          "org": 87307
+        },
+        "27998188": {
+          "title": "tyler robinson motion to vacate or continue march 27 2026",
+          "pages": 69,
+          "file_hash": "a8383ffe1dfe667bef96cb05f0e742e41f8ae0a0",
+          "org": 27875
+        },
+        "27998184": {
+          "title": "tyler robinson motion to vacate or continue march 27 2026",
+          "pages": 69,
+          "file_hash": "a8383ffe1dfe667bef96cb05f0e742e41f8ae0a0",
+          "org": 27875
+        },
+        "27880858": {
+          "title": "11-10-2025 Defendant Tyler James Robinson Response to Request for Notice of Motion to Close Judicial Proceedings and Records - docket 169",
+          "pages": 7,
+          "file_hash": "73adeb9c24f175f3676ebc4b70ad4c97d4f44452",
+          "org": 87307
+        },
+        "27998189": {
+          "title": "tyler robinson motion to vacate or continue march 27 2026",
+          "pages": 69,
+          "file_hash": "a8383ffe1dfe667bef96cb05f0e742e41f8ae0a0",
+          "org": 27875
+        },
+        "27880878": {
+          "title": "10-22-2025 Prosecutor Response to Defendant Motion to Preserve Evidence - docket 117",
+          "pages": 7,
+          "file_hash": "5290593ac427448fa05c66cd1119a14dcd751cf9",
+          "org": 87307
+        },
+        "27880876": {
+          "title": "12-8-2025 defendant response to the motion for limited intervention of deseret news et al (Dkt 197) - docket 213",
+          "pages": 9,
+          "file_hash": "e4ea9888a2843f1bed38d7c0832bf14bad134087",
+          "org": 87307
+        },
+        "27881509": {
+          "title": "1-30-2026 DEFENDANT TYLER ROBINSON RENEWED MOTION TO DISQUALIFY UTAH ATTORNEY GENERAL MEMORANDUM OF POINTS AND AUTHORITIES - docket 348",
+          "pages": 12,
+          "file_hash": "6b1b4208a5ef4a1eef745b5630e0b758630aca22",
+          "org": 87307
+        },
+        "27881512": {
+          "title": "2-2-2026 prosecutor Memorandum and Opposition to Defendant Renewed Request to Motion to Disqualify to the Utah Attorney General - docket 366",
+          "pages": 14,
+          "file_hash": "b729357353b75f0d6c381b886579ae784cf3e6c9",
+          "org": 87307
+        },
+        "27880873": {
+          "title": "12-17-2025 defendant Motion to Disqualify prosecutor and or judge for conflict of interest - docket 250",
+          "pages": 48,
+          "file_hash": "3ab5a9abe2e6703fab7220a1c76eb6cafb151304",
+          "org": 87307
+        },
+        "28551955": {
+          "title": "Defendant Tyler James Robinson's Preliminary Hearing Briefing, 8-11-26",
+          "pages": 41,
+          "file_hash": "a93801eef1bcbe30e0af4f569d91e841b266ce2b",
+          "org": 270
+        },
+        "28417731": {
+          "title": "gov.uscourts.utd.165286.1.4 1",
+          "pages": 663,
+          "file_hash": "4660cb21d41269e89c1d76a81d9e47be0884559f",
+          "org": 758
+        }
+      },
+      "count": 40
+    },
+    "fox": {
+      "status": "OK",
+      "pdf_count": 55,
+      "pdfs": [
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/01-26-04140-charging-document_12501047657610713680.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/0398747175.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/08-13-26_Chair_Cassidy_Letter_to_IAM_re_Cuba_Activity.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/1565082192.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/170209-danchenko-interviews.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/2026-08-03_JDJ_BS_LL_JVD_to_Caldwell_-_NJ_Dept_of_State_re_noncitizen_voting.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/2026.08.10_People_s_Letter_to_Judge_Carro__IND-75657-24_.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/260806_Letter_Anthropic_Security_Incidents_Final.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/2DCW-26-0000803_.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/7-26-cv-0284_-_Rodriquez_v._Johnson.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/8072413431.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/AISI-august-4-report.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/COMPROMISED_INDEPENDENCE_SCC_Report.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Dress_Code_Policy_-__Final.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/E26080007_REPORT.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/FILED_Response_to_Def._Venue_Motion._Murdaugh._8-12-26.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Malliotakis_Letter_to_Blanche_8.11.26.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Mangione-Letter7.2.26.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Mangione_Doc141.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Matthews_-_Memo_of_Law_in_Support_of_Motion_for_a_Preliminary_Injunction.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/McCormick_Road_Update_2.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Nolan_v._Durnan.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/OCR_Complaint_-_Florida_State_University.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/OGLES_247_xml.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Senator-OpenAI-Security-Incidents.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/TLAIB_NO-TSA-DATA-FOR-ICE-ACT.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/U.S._v._Hernandez_Complaint.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/US_Dept_Education_Letter_Opening_Florida_State_for_Investigation_-_04-25-2475_Redacted.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Warren__Lee_Letter_to_DoD_re_Prioritizing_the_Warfighter_in_Defense_Contracting_.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/california_parole_lawsuit.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/coalition-letter-to-potus-06042026.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/committee-report-8.3.26.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/depena_complaint.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/doi_letter_smithsonian.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/dojoigreportcomeyclintoncase-1.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/durham-barnett-flynn.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/fox_august-6-10-2026_maine_cross-tabs_august-12-release-1.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/fox_august-6-10-2026_maine_topline_august-12-release-1.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/fox_august-6-10-2026_michigan_cross-tabs_august-13-release.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/fox_august-6-10-2026_michigan_topline_august-13-release.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/fox_august-6-10-2026_ohio_cross-tabs_august-13-release.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/fox_august-6-10-2026_ohio_topline_august-13-release.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/gsa-letter-ability-one.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/harvard-final-report-final.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/house-special-operations-concealed-carry.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/muellerreportfinal.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/obumseli_estate_v_clenney_complaint.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/order806.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/orderdatedaug11.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/oxferd-comma-opening-ec-redacted-and-declassified-by-fbi-7.30.26.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/redacted-26-cf-6641__arrest___booking_report_2026-015020_7-9-2026.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/robinson-prelim-filing.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/senate-special-operations-concealed-carry.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/text-message-fauci-redacted_redacted-1.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/text-message-fauci-redacted_redacted.pdf"
+      ],
+      "case_items": [
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/Matthews_-_Memo_of_Law_in_Support_of_Motion_for_a_Preliminary_Injunction.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/robinson-prelim-filing.pdf"
+      ]
+    },
+    "rev": {
+      "status": "OK",
+      "hits": [
+        "https://www.rev.com/transcripts/general-lori-robinson-unh-commencement-speech-transcript",
+        "https://www.rev.com/transcripts/tyler-robinson-comtempt-hearing",
+        "https://www.rev.com/transcripts/ut-v-tyler-robinson---day-1",
+        "https://www.rev.com/transcripts/ut-v-tyler-robinson-preliminary-hearing-day-2",
+        "https://www.rev.com/transcripts/ut-v-tyler-robinson-preliminary-hearing-day-3",
+        "https://www.rev.com/transcripts/ut-v-tyler-robinson-preliminary-hearing-day-4",
+        "https://www.rev.com/transcripts/ut-v-tyler-robinson-preliminary-hearing-day-5"
+      ],
+      "sitemaps_scanned": 1
+    },
+    "utcourts": {
+      "status": "OK",
+      "hits": [
+        [
+          "https://legacy.utcourts.gov/utc/news/2026/07/06/public-information-regarding-the-tyler-robinson-preliminary-hearing/",
+          "PUBLIC INFORMATION REGARDING THE TYLER ROBINSON PRELIMINARY HEARING"
+        ],
+        [
+          "https://legacy.utcourts.gov/utc/news/2026/07/06/public-information-regarding-the-tyler-robinson-preliminary-hearing/",
+          "PUBLIC INFORMATION REGARDING THE TYLER ROBINSON PRELIMINARY HEARING"
+        ]
+      ]
+    }
+  }
+}

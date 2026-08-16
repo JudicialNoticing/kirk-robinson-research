@@ -35,6 +35,32 @@
 
 **As of 2026-07-28 Tyler Robinson has NOT been bound over for trial.** Presumption of innocence applies throughout.
 
+## ▶ RUNNING IT — `./docket-watch-run.py` (new 2026-08-16)
+
+**The by-hand run is now a DIFF, not a search.** Written specifically for the **Tue 2026-08-18** window, which has no document-capable scheduled cover.
+
+```bash
+cd ~/Documents/"Kirk Robinson Research"
+./docket-watch-run.py              # all four routes, diffed against the stored baseline
+./docket-watch-run.py --baseline   # refresh the baseline AFTER you have banked what it found
+./docket-watch-run.py --only dc    # one route: dc | fox | rev | utcourts
+```
+
+**Baseline established 2026-08-16, and it independently reproduces three facts this file recorded separately** — which is why it is trustworthy:
+
+| Route | Baseline | Cross-check |
+|---|---|---|
+| DocumentCloud case-number search | **40 documents** | matches the manual sweep of the same day |
+| Fox outlet mirror (via Wayback CDX) | **55 PDFs**, 1 genuine case item | ✅ **matches Run 4's independently-derived 55** |
+| Rev (via sitemap) | **7 `robinson` URLs** = 6 case transcripts + 1 unrelated commencement speech | ✅ **matches this file's access-routes table exactly** |
+| Utah Courts press notices | 2 matching notices | — |
+
+🚨 **THE DESIGN RULE, and it is the whole point of the script: a route that CANNOT BE ATTEMPTED is not a route that found nothing.** Every check returns **OK** / **EMPTY** (attempted, nothing there) / **BLOCKED** (could not attempt). **BLOCKED is never reported as a null, and a blocked route is never written into the baseline** — because a block is not a state. This exists because the DocumentCloud API 403'd at 09:00 on 2026-08-16 and was fully open at 14:05 with nothing changed in between.
+
+⚠️ **The case-item matcher is deliberately OVER-inclusive** — a noisy flag is the safe failure direction here, the same reasoning `queue-check.sh` uses. A missed filing cannot be caught up later; a false flag costs one click. One known false positive (an unrelated *"Preliminary Injunction"* memo) is already in the baseline, so the diff will not re-raise it.
+
+⚠️ **The script writes NOTHING into the library.** It prints a report for a human to read and paste into `CR-WATCH-log.md`. **It resolves nothing, characterises no filing's contents, and touches no case-posture statement** — those remain human gates in every mode (LOOP.md §3). ⚠️ **And a search hit is not a case document:** on 2026-08-16 two documents matching the case-number search turned out to be an out-of-state filing and an unrelated civil matter that merely *cite* this case. **Open it before recording relevance.**
+
 ## What each run checks
 
 1. **New filings** on the docket or in public mirrors — the three briefs above, and **the ruling on the bullet-fragment motion** (CR-ACQ §8, still unobtained).
