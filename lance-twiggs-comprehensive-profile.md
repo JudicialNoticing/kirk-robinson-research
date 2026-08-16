@@ -1,7 +1,7 @@
 # Lance Twiggs: Comprehensive Evidentiary Profile
 ## *State of Utah v. Tyler James Robinson* — Research Document
 
-**Compiled:** July 10, 2026 (Day 5 of the preliminary hearing) · **Version 1.1** — audited against fresh verification searches same day; see Revision Log (§13)
+**Compiled:** July 10, 2026 · **Version 1.2** — 🚨 **PARTIALLY RECONCILED 2026-08-16 against primary sources the file predates. TWO CRITICAL CORRECTIONS APPLIED (§3.3, §5.1); the remaining reconciliation is banked at `files - Court record/CR-REVIEW-2026-08-16G_twiggs-profile-reconciliation.md` and is NOT yet applied — see Q-140.** ⚠️ **Until it is, treat every tier marking in this file as provisional: its methodological note says most court-record content came through news reporting, which was true when written and is now substantially false.** *(v1.1* — audited against fresh verification searches same day; see Revision Log (§13)
 **Scope:** All publicly documented facts concerning Lance Twiggs — Tyler Robinson's roommate and romantic partner — drawn from charging documents, unsealed search warrants, preliminary hearing testimony (July 6–10, 2026), law enforcement statements, and media reporting from September 2025 through July 2026.
 
 ---
@@ -100,7 +100,7 @@ After reading the note, per the filings:
 - Twiggs: "How long have you been planning this?" Robinson: "A bit over a week, I believe."
 - Robinson on the weapon: "If I am able to grab my rifle unseen, I will have left no evidence... I'm worried what my old man would do if I didn't bring back grandpas rifle... idek if it had a serial number, but it wouldn't trace to me"; "I worry about prints"; "judging from today I'd say grandpas gun does just fine idk."
 - Robinson on the bullet engravings: "Remember how I was engraving bullets? The f***in messages are mostly a big meme, if I see 'notices bulge uwu' on fox new I might have a stroke."
-- Robinson's closing instructions: **"Delete this exchange"**; don't talk to media; don't take interviews; "If police ask questions, ask for a lawyer and stay silent"; "I'm going to turn myself in willingly"; "You are all I worry about love... I'm much more worried about you." He also texted contemplating suicide: "I'm sorry, but I think this might be it... I have no intention of being drug through the courts in front of the country" (unsealed warrants, April 2026).
+- Robinson's closing instructions: **"Delete this exchange"**; don't talk to media; don't take interviews; "If police ask questions, ask for a lawyer and stay silent"; "I'm going to turn myself in willingly"; "You are all I worry about love"** 🛠 **— CORRECTED 2026-08-16 (Q-135): the words *"I'm much more worried about you"* WERE TWIGGS', NOT ROBINSON'S.** The Information renders this as a two-person exchange (*Robinson:* "you are all I worry about love" / *Roommate:* "I'm much more worried about you"), and the defence's 2026-08-11 brief quotes only Robinson's side. ⚠️ **v1.1 placed a private individual's words inside a list captioned as the defendant's instructions. Verified directly against the Information and the brief.**
 
 **Twiggs' response to the deletion instruction is the pivotal fact of his role: he did not delete the messages.** The preserved thread became the backbone of the charging document, and Robinson's instructions to Twiggs are the factual basis of the two **witness tampering** counts (The Advocate; PBS; The Hill).
 
@@ -145,7 +145,7 @@ Twiggs spoke to authorities on **Sept. 12, 2025** — per AP, two days after the
 
 Testimony from Utah DPS Sgt. Jennifer Faumuina and FBI forensic DNA examiner **Amanda Bakker** (July 7, 2026):
 
-- Mixed male DNA from **two individuals — Robinson and Twiggs — was found on both** (a) the dark towel wrapped around the Mauser 98 rifle recovered in the woods, and (b) the **screwdriver recovered from the Losee Center rooftop** (the alleged firing position).
+- 🚨 **CORRECTED 2026-08-16 (Q-135) — THIS IS THE MOST IMPORTANT CORRECTION IN THIS FILE.** v1.1 read *"Mixed male DNA from **two individuals — Robinson and Twiggs — was found on both**."* **The record shows the opposite methodologically.** The FBI examiner testified that **the only likelihood ratio ever calculated on Mr. Twiggs alone was 1** — and on her own verbal scale an LR of 1 *"would fall under an **uninformative**."* She stated plainly: *"I **didn't utilize this calculation** to determine that Mr. Twiggs was a possible contributor … I **assumed** he was a contributor,"* and *"Based on the STRmix run, it was uninformative."* ⚠️ **So his presence was ASSUMED as an elimination-standard input, never statistically supported — and both headline statistics carry him in BOTH of their competing propositions, so the statistic never tests his presence at all.** 🚨 **Stating it as established presence asserts, about a man accused of nothing, precisely what the statistics never tested.** *(Superseded text:)* Mixed male DNA from two individuals was reported on (a) the dark towel wrapped around the Mauser 98 rifle recovered in the woods, and (b) the **screwdriver recovered from the Losee Center rooftop** (the alleged firing position).
 - Bakker, quoted directly: "When I calculated the statistics, Twiggs' DNA profile aligned with the **5%** contributor and Robinson's DNA profile aligned better with the **95%**" (towel); on the screwdriver the split was **Robinson ~89% / Twiggs ~11%** (Post Millennial video quote via Daily Wire; Fox News; Tippah/AP).
 - Twiggs' profile came from his voluntarily provided buccal swab, used as an **elimination sample** (OANN; Fox News).
 - **Media discrepancy flag:** One OANN article inverted the percentages (attributing 89%/95% to Twiggs). The direct Bakker quotation and the consensus of AP, Fox, NYT-derived, and Daily Wire reporting establish Robinson as the **majority** contributor and Twiggs as the **minority** contributor on both items.
@@ -352,6 +352,18 @@ Beyond the Sept. 10–11 narrative in §3, Twiggs stated:
 8. **§8.3 — Clarification:** FBI institutional silence time-bounded to September 2025 and distinguished from Bongino's individual on-record remarks.
 9. **§10 — Register expanded:** access-path caveat added to the NYT-via-Daily Wire row; new rows for the redaction-length conflict and the 7-vs.-10 charge-count discrepancy.
 10. **Verified without change:** the 12:23 p.m. shot time (officials; CBS video review; WaPo/BYU timelines); DNA percentage assignments (Robinson majority: 95% towel / 89% screwdriver — Bakker's direct quote); Graf's June 22 ruling language; use-immunity scope and Class A misdemeanor warning; the April 20 interview's location, oath, and in-lieu-of-testimony function; the note's full text and "Luna" salutation; the surrender chain via parents and the retired-deputy family friend; Twiggs' counsel declining subpoena service; the September 1, 2026 oral-argument date.
+
+
+### v1.2 — 2026-08-16 — PARTIAL RECONCILIATION against primary sources the file predates
+
+Full working: [`CR-REVIEW-2026-08-16G`](files%20-%20Court%20record/CR-REVIEW-2026-08-16G_twiggs-profile-reconciliation.md). **5 contradictions found; 2 applied here as living-persons-critical; 3 pending → Q-140.**
+
+1. 🚨 **§5.1 CORRECTED — the most important correction in this file.** v1.1 stated that mixed DNA from *"two individuals — Robinson and Twiggs — was found on both"* items. **The record shows this was ASSUMED, not established.** The FBI examiner testified that the only likelihood ratio ever calculated on Mr. Twiggs alone was **1** — *"uninformative"* on her own scale — and *"I **assumed** he was a contributor."* ⚠️ **He appears in BOTH propositions of both headline statistics, so they never tested his presence at all.**
+2. 🚨 **§3.3 CORRECTED — misattributed quotation.** *"I'm much more worried about you"* is **Twiggs' own reply**, which v1.1 listed among Robinson's instructions. The Information renders the passage as a two-person exchange; the defence brief quotes only Robinson's side. **A private individual's words were placed in a capital defendant's mouth.**
+3. ⚠️ **Header flagged:** the methodological note — *"most court-record content below is accessed through news reporting… rather than the primary documents themselves"* — **was true on 2026-07-10 and is substantially false now.** Flagged rather than rewritten, because rewriting it requires per-claim tier re-marking (Q-140).
+4. ⚠️ **Posture corrected in principle:** the preliminary hearing was **NOT concluded** on 2026-07-10. **2026-09-01 is its last day.** Several §11 open questions may be answered then.
+5. **PENDING → Q-140:** the redaction-length "three-way conflict" is **resolved** (two rulings, 2m53s + 13m31s) and §6's guessed mechanism is contradicted; the charge count resolves at 7; **seven living-persons removals**; and a completeness pass, which has not been run.
+6. ✅ **Logged deliberately:** this file **never commits the library's own seven-instance immunity error**, and its *"in lieu of live testimony"* framing is now Tier 1 verified.
 
 ---
 

@@ -5,9 +5,28 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
-## 0A. SESSION — 2026-08-16, afternoon (READ THIS FIRST; it supersedes everything below wherever they disagree)
+## 0A. SESSION — 2026-08-16, afternoon AND EVENING (READ THIS FIRST; it supersedes everything below wherever they disagree)
 
-**Register: ceiling D-72, next free D-73. Queue runs to Q-111. Standing hazards to 16. `queue-check.sh`: RESULT clean.**
+**Register: ceiling D-73, next free D-74. Queue runs to Q-141. Flags to F-110. Standing hazards to 16. `queue-check.sh`: RESULT clean. All work pushed to `origin/main`.**
+
+### 🚨 EVENING — THE CASE POSTURE WAS SUBTLY WRONG IN EVERY FILE THAT STATED IT
+
+**THE PRELIMINARY HEARING WAS NOT CONCLUDED ON 2026-07-10.** Verified against `day5.txt`: defence counsel refers to *"the last day of the preliminary hearing, **which will be September 1st**"*, the court speaks of motions *"ahead of the September 1st hearing"*, and the State addresses *"the **continued taking of evidence** today."*
+
+**So 07-06 → 07-10 were five days OF EVIDENCE, the briefing runs between, and 2026-09-01 is the hearing's LAST DAY.** 🚨 **This is why Robinson has not been bound over — the hearing is not finished.** ⚠️ **Calling it simply "held" understated the posture and made the bindover position read as anomalous when it is not.** Corrected in DOCKET-WATCH and here; **every file that captions 07-10 as the end of the evidentiary record is wrong** → Q-140 for the Twiggs profile, and **check any other file before citing it on posture.**
+
+### The evening's two files
+
+- **[CR-E16](files%20-%20Court%20record/CR-E16_participant-roster-and-label-reconciliation.md)** — **Q-96 executed.** The counsel/participant roster. 🚨 **Its payload is that it DEMONSTRATES four transcript-label failures rather than theorising them** — a police officer's sworn testimony under defence counsel's label; one prosecutor's label covering another for hundreds of turns; **the same label covering OPPOSING counsel in adjacent turns**; the oath attributed to defence counsel. 🚨 **And TWO are in the COURT'S OWN RECORD — so the docket is not a safe check on the transcript.** **F-103: "UCAO" does not mean "prosecution"** (the office appeared for a non-party and said so). **F-105: all three laboratory examiners who authored the State's forensic exhibits were called BY THE DEFENCE.**
+- **[CR-REVIEW-2026-08-16G](files%20-%20Court%20record/CR-REVIEW-2026-08-16G_twiggs-profile-reconciliation.md)** — the Twiggs profile against the primary record it predates. **5 contradictions; 2 applied (→ profile v1.2); 3 + seven living-persons removals pending → Q-140.**
+
+### 🚨 The correction that matters most, and the person it concerns is accused of nothing
+
+**The Twiggs profile stated that mixed DNA from *"two individuals — Robinson and Twiggs — was found on both"* the towel and the screwdriver.** The record shows the opposite methodologically: **the only likelihood ratio ever calculated on Mr. Twiggs alone was `1`** — *"uninformative"* on the examiner's own scale — and she testified *"I **assumed** he was a contributor."*
+
+⚠️ **The deeper point, and it generalises: he appears in BOTH propositions of both headline statistics, so those statistics never tested his presence at all.** A number on both sides of a ratio cannot discriminate. **Also corrected: a quotation attributed to Robinson is Twiggs' own reply**, which put a private individual's words inside a list captioned as a capital defendant's instructions.
+
+✅ **Q-50's premise is CONFIRMED at Tier 1 — and it is ITEM-SPECIFIC, not global.** The **Dremel** was inside the household; the **towel** was conceded on cross to have been *"found in a bush out at the university… outside of a home"*; the **screwdriver's** only provenance is *"Item 8, Screwdriver from perch."* **One global answer would have been wrong in both directions.** ✅ **And a third person's DNA (item 1.4, Robinson's father) drew the same "associated with the premise" explanation — the elimination logic that swept Twiggs in swept in someone nobody alleges was present.**
 
 ### 🚨 THE SECOND HALF OF 2026-08-16 WAS AN AUDIT OF OUR OWN METHOD, AND IT FOUND MORE THAN THE CASE RECORD DID
 
@@ -53,13 +72,20 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 **(1)** The **redacted deputy prosecutor stays redacted** as `[Dpty Atty]`; the library records that the public record permits the inference and that it declined to draw it. **(2)** The **SBI statements: substance yes, identities no** — declarants are Ex. A–E only; the juvenile's statement is handled identically and flagged. **(3)** The **pretrial risk assessment's scores, factors and recommendation stay withheld** — existence, instrument and procedural function only.
 
-### Where to pick up
+### Where to pick up (rewritten 2026-08-16 evening)
 
-1. 🚨 **A1 — the 08-18 by-hand watch run** (above). Time-critical.
-2. **Q-93** — the **2026-03-13 omnibus closure rulings**, the most consequential unheld document in the case-record track; **no 2026 classification status is safe without it.** Then **Q-86** (Dkt. 332 — the County Attorney's sworn testimony).
-3. **Q-87 / Q-91 / Q-94** — the three new files are `[PROVISIONAL]` and **no cycle has run on any of them.**
-4. **B2 — Q-61** still has **~360 candidates with no verdict**, and the 48 banked `C2-*` Oliver items are ready. **No network needed.**
-5. **Q-79** — the federal track and the other 7 documents found outside the project, all unread.
+1. 🚨 **A1 — the 08-18 by-hand watch run. TUESDAY. Time-critical and the only cover for the State's reply.** `./docket-watch-run.py` makes it a diff. ⚠️ **A BLOCKED route is never a null and is never baselined.**
+2. 🚨 **Q-140 — finish the Twiggs reconciliation.** 3 contradictions + **seven living-persons removals** + the per-claim tier re-marking the header now demands, **then a COMPLETENESS pass** — what was run was claim-by-claim, which cannot find what the file never said.
+3. **The person-file programme, started and unfinished:** **Q-136 Zinn · Q-137 the Robinson arrest chronology · Q-138 Erika Kirk.** ✅ **Two new primary sources make these newly tractable** — the arrest-announcement transcript (Governor + FBI Director) and **36 turns of the elected County Attorney**.
+4. **Q-93** — the 2026-03-13 omnibus closure rulings; **no 2026 classification status is safe without it.** Then **Q-86** (Dkt. 332).
+5. **The `[PROVISIONAL]` backlog is now large and none of it has had a cycle:** Q-87/Q-91/Q-94, Q-122, Q-126, Q-139 (CR-E16), Q-141 (the Twiggs corrections). ⚠️ **LOOP §2: a `[PROVISIONAL]` finding may not be cited by another file, propagated into a topic folder, or used to resolve a register entry** — and the count of files under that bar is growing faster than the cycles are clearing it.
+6. **Q-61** still has ~360 candidates with no verdict; **Q-133** has 144 untested `F2-*`. **No network needed for either.**
+
+### 👤 OWNER-GATED — batched, nothing else waits on you
+
+- **Two PII retention decisions:** the **24.3 MB `BAM Franchising` filing** (unrelated litigation, private parties' data, the library's largest holding) and a **case-search printout carrying an uninvolved party's name + DOB**. → CR-ACQ-2026-08-16 §9.
+- **Q-31** — the $10 XChange purchase.
+- **The 08-18 run** needs no approval, only a session.
 
 ---
 
