@@ -36,7 +36,7 @@ The index's own reasoning, and it was a good one: DNA-E01 §14 reports a **3-for
 
 ## 3. ⚠️ NEW TRAP on null #3 — the claim survives, but only just, and for a reason worth writing down
 
-Searching the **stem** rather than the phrase changes the picture: `/voir dire|tender|qualif/` over day 2 returns **10 hits, not 1**. Five of them (hits 6–10) are **Ms. Bakker describing her own qualification** — and one is a single word away from the searched phrase:
+Searching the **stem** rather than the phrase changes the picture: `/voir dire|tender|qualif/` over day 2 returns **9 hits, not 1** 🛠 *(CORRECTED 2026-08-16, Q-111: this read **10**; the true count is **9**, verified under four counting methods — raw/flattened × case-sensitive/insensitive — with all nine opened. ✅ **The trap itself is CONFIRMED**: Bakker's *"I'm not certified. I'm qualified as an examiner"* is among them, and it is an FBI-laboratory credential rather than a court qualification.)*. Five of them (hits 6–10) are **Ms. Bakker describing her own qualification** — and one is a single word away from the searched phrase:
 
 > **Mr. McBride:** "…Do you have a certification?"
 > **Ms. Bakker:** "**I'm not certified. I'm qualified as an examiner.**" *(day 2, `07:53:30`)*
@@ -81,7 +81,7 @@ Searching the **stem** rather than the phrase changes the picture: `/voir dire|t
 ## 6. Queued by this pass
 
 1. **Correct the index's rendering of null #3** (restore `|as an expert`), and record these five as re-run. → done this session.
-2. **The Day-5/Oliver completeness read is RETRYABLE and should be re-run** — see the index correction: it died on a **429 rate-limit**, not a spend limit.
+2. **The Day-5/Oliver completeness read is RETRYABLE and should be re-run** — see the index correction: it died on a **429 rate-limit**, not a spend limit. 🛠 **CORRECTED 2026-08-16 (Q-111): AN OVER-CORRECTION THAT DISCARDED A TRUE FACT.** The `429`'s error **type** is `rate_limit_error`, but its **message body is a spend cap** — *"You've hit your **monthly spend limit**"* — and the coordinator's own resume message in the same bank reads *"cut off by an **account spend limit**… Credits are restored."* ✅ **The leg DID complete and returned 48 of 48 with no gaps — that half was right.** ⚠️ **But it was NOT transient-and-self-retryable: clearing it was an OWNER action, and "retryable" is the wrong lesson for a resumer to carry.**
 3. **Next tranche:** the index's *"self-claims the file makes about itself"* cluster — the class that failed three times in CR-E06 — starting with **`F2-133`**, where Finder B counts **27 rows against the file's own "twenty-six."** That is a pure arithmetic check against a primary artifact and needs no network.
 
 ## Revision log

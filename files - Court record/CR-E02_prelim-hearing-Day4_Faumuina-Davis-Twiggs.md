@@ -235,7 +235,7 @@ So: **415 ft = direct line-of-sight (slope) distance; 410 ft = horizontal distan
 3. **Was a cartridge case recovered at the perch**, separate from the one in the chamber? Decisive for the weight of CR-ACQ's `source identification` (§4).
 4. **Was the seized Dremel compared to the scribe marks, and with what result?** The question the ATF report itself poses.
 5. **The rest of Faumuina** — the keyword survey is not a full read (§1); most of Burt's 85-turn cross is unread.
-6. **Days 1, 2, 3, 5** — Days 2/3/5 banked and unread (~570k chars); Day 1 never located.
+6. **Days 1, 2, 3, 5** — Days 2/3/5 banked and unread (~570k chars); ~~Day 1 never located~~ 🛠 **FALSE SINCE 2026-07-28 — CORRECTED 2026-08-16 (Q-111). DAY 1 WAS LOCATED AND BANKED** at Rev's divergent slug `ut-v-tyler-robinson---day-1` (commit `536e2cc`, *"Locate Day 1 (new slug); REVERSE D-51"*), and **read end to end at CR-E05 the same day.** `day1.txt`, 327,506 bytes, 2,600 turns. 🚨 **A route null left standing after the artifact was acquired — the mirror image of a docket observation promoted into a claim about holdings.** ⚠️ **This file is at v1.5, dated 2026-08-14 — seventeen days after Day 1 was banked — and still carried it.**
 7. **The exhibits themselves** — surveillance video, photographs, maps, the handwritten note, the texts and Discord messages. All known only through description.
 8. **The certified court transcript**, replacing the commercial rendering, before any register entry is resolved on this material.
 

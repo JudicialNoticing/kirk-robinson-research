@@ -33,7 +33,7 @@ Sworn testimony is **Tier 1 as to what the witness said under oath**. It is *not
 **NOT READ — stated plainly, because the omissions are large:**
 - **The remainder of Karner's testimony** past ≈07:21, including **any examination by the State**. Her 285 turns are not fully covered here. **No conclusion in this file rests on the State having failed to rehabilitate her; the State's questioning simply has not been read.**
 - **Sergeant Faumuina** (330 turns — the day's largest witness) and **FBI Agent Davis** (105 turns), plus the Twiggs recorded statement, the text messages, the Discord chats, and the handwritten note reported to be in Day 4.
-- **Days 2, 3, and 5 entirely.** **Day 1 was never located.**
+- **Days 2, 3, and 5 entirely.** ~~**Day 1 was never located.**~~ 🛠 **FALSE SINCE 2026-07-28 — CORRECTED 2026-08-16 (Q-111). DAY 1 WAS LOCATED AND BANKED** at Rev's divergent slug `ut-v-tyler-robinson---day-1` (commit `536e2cc`, *"Locate Day 1 (new slug); REVERSE D-51"*), and **read end to end at CR-E05 the same day.** `day1.txt`, 327,506 bytes, 2,600 turns. 🚨 **A route null left standing after the artifact was acquired — the mirror image of a docket observation promoted into a claim about holdings.**
 
 **Who called this witness.** Direct examination was conducted by **Michael Burt for the defense**, with the State (**Mr. McBride**) objecting and cross-examining. The defense called the State's own ATF examiner. That posture shapes the whole exchange and is essential context for reading it: the questions are built to elicit limitations.
 
