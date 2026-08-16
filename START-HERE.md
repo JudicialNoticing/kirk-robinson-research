@@ -5,7 +5,49 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
-## 0. SESSION CLOSE — 2026-08-14 (read this first; it supersedes the 2026-08-01 snapshot below wherever they disagree)
+## 0A. SESSION — 2026-08-16, afternoon (READ THIS FIRST; it supersedes everything below wherever they disagree)
+
+**Register: ceiling D-69, next free D-70. Queue runs to Q-96. Standing hazards to 13. `queue-check.sh`: RESULT clean.**
+
+### 🚨 THE ONE THING THAT CANNOT WAIT
+
+**Tue 2026-08-18 — the State's reply, 18-page limit — and there is still NO document-capable scheduled cover.** The routine's next firing is **Wed 08-19, after the deadline**, and it remains egress-blind. **A local by-hand run on 08-18/19 is the only cover.** Run 4 left a diffable baseline (Fox mirror = 55 PDFs, exactly one case item) so detection is cheap. ✅ **And DocumentCloud is usable again — but intermittently** (below).
+
+### What happened
+
+**Q-70's ACQUISITION half is COMPLETE: 46 of 46 → [CR-ACQ-2026-08-16](files%20-%20Court%20record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md).** 28 banked, 0 failures. ⚠ **The route was 403-blocked at 09:00 (Run 4 escalated it as a standing loss) and fully open at 14:05, unchanged by anything we did — treat it as INTERMITTENT, and never log its silence as a null.**
+
+🚨 **"46/46" was never "complete."** Sibling projects 225170/225296 enumerated → **zero new** (that seam is closed). But a **bare case-number search returned 40 documents, 9 outside the project, 7 of them new** — including a **69-page motion to vacate or continue (2026-03-27)**, a **2026-06-25 reply re unshackling**, and a **663-page FEDERAL filing (`gov.uscourts.utd.165286`) from a parallel track this library has never looked at.** All banked, none read → **Q-79**. *Enumerating a project is not inventorying a platform.*
+
+**Six readers went through the new material; reports banked verbatim** (191 KB, `2026-08-16_Q70-completion-six-reader-reports_RAW.md`) so nothing depends on a session surviving. **Three evidence files written, all `[PROVISIONAL]`:**
+
+- **[CR-E11](files%20-%20Court%20record/CR-E11_prosecutor-disqualification-track.md)** — an entire **prosecutor-disqualification track** the library never knew existed. ⚠ **It carries evidence filed for other purposes**: the State's **sworn 2025-12-18 sight-line re-enactment from the southwest corner of the Losee roof** — four measurements including an **18-ft "field of view … prior to shooting"**, plus a photograph from the prone rooftop position — and **five SBI eyewitness Voluntary Statements** on shot direction, wound observations, the Q&A before the shot, and people on the elevated walkway. **→ Q-89: the blocked Losee draft must be re-opened against this.**
+- **[CR-E12](files%20-%20Court%20record/CR-E12_closure-classification-and-sealing-map.md)** — **Q-75 EXECUTED.** Closure runs at **five granularities, not one**. 🚨 **F-64: OPEN ≠ OBSERVABLE** — exhibits can be admitted in open court and never displayed, which bounds the held transcripts with no closure order responsible.
+- **[CR-E13](files%20-%20Court%20record/CR-E13_evidence-preservation-chain-complete.md)** — **Q-72 executed.** 🚨 **F-27 is STRENGTHENED, not weakened, by a newly-found earlier order** (#107, 2025-10-20 — still ~5½ weeks after the consumption) **and complicated three ways**: the operative order **names no federal agency**, defines "potentially destructive" **restrictively on the word "only"**, and is a **stipulation, not a ruling**. ⚠ **Q-78 stays blocked.**
+
+### ⚠ What this session should teach the next one
+
+1. 🚨 **THE ACQUISITION INDICTED ITSELF WITHIN THE HOUR. Five filenames created today were wrong, all the same way — generated from uploader-supplied DocumentCloud titles.** dkt 250 targets no judge; dkt 348 seeks *referral to* the AG, not the AG's disqualification; dkt 24 is an in-person hearing; Utah County has no District Attorney. **F-39: a docket number from a DocumentCloud title is Tier 4.** **F-40: a docket number in a responsive filing's caption cites the filing it ANSWERS** — the file called `dkt197` is docket **213** → **Q-80** re-checks them all.
+2. 🚨 **HAZARD 13 — `grep` FAILS SILENTLY AND TOTALLY on the XChange docket files.** They are `data` to `file(1)`; `grep -ci` returns **no output at all** on a file with four matches. **Worse than every prior false-null hazard, because it produces no answer that looks like a wrong answer.** Every null ever taken from them is **void → Q-81**. Read them in Python.
+3. ⚠ **Hazard 11 is wider than it says** — whitespace normalisation is **not** sufficient. Two extractions of the byte-identical same PDF differ by **41 NUL bytes** and a hyphen turned **U+FFFE**: `grep 'High-Powered'` gives **1 hit in one and 0 in the other**.
+4. ✅ **Three standing caveats were TESTED rather than restated** — the two above plus the re-render hash trap, now demonstrated on a case artifact (the outlet-mirrored defence brief **is** the DocumentCloud original byte-for-byte; the served PDF is a different file). **This is the "caveats are claims" rule finally being applied to the caveats.**
+5. **CR-E10 → v1.3**: two corrections. F-36 was under-scoped **and mis-dated the witness-by-witness rule's origin** (2026-01-16, not 02-03 — **and the court imposed it over the agreement of every party**), and its Q-70 row carried a **phantom acquisition target** that inflated the coverage count by one.
+
+### 👤 Three living-persons decisions taken by the owner 2026-08-16, all conservative — now policy
+
+**(1)** The **redacted deputy prosecutor stays redacted** as `[Dpty Atty]`; the library records that the public record permits the inference and that it declined to draw it. **(2)** The **SBI statements: substance yes, identities no** — declarants are Ex. A–E only; the juvenile's statement is handled identically and flagged. **(3)** The **pretrial risk assessment's scores, factors and recommendation stay withheld** — existence, instrument and procedural function only.
+
+### Where to pick up
+
+1. 🚨 **A1 — the 08-18 by-hand watch run** (above). Time-critical.
+2. **Q-93** — the **2026-03-13 omnibus closure rulings**, the most consequential unheld document in the case-record track; **no 2026 classification status is safe without it.** Then **Q-86** (Dkt. 332 — the County Attorney's sworn testimony).
+3. **Q-87 / Q-91 / Q-94** — the three new files are `[PROVISIONAL]` and **no cycle has run on any of them.**
+4. **B2 — Q-61** still has **~360 candidates with no verdict**, and the 48 banked `C2-*` Oliver items are ready. **No network needed.**
+5. **Q-79** — the federal track and the other 7 documents found outside the project, all unread.
+
+---
+
+## 0. SESSION CLOSE — 2026-08-14 (superseded in part by §0A above)
 
 **Sixteen commits. Working tree clean and pushed. `queue-check.sh`: RESULT clean.**
 **Register: ceiling D-61, next free D-62. Queue runs to Q-78. Standing hazards now run to 12.**
