@@ -134,7 +134,7 @@ Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of
 
 | Date | Event | Status as of 2026-08-01 (Run 2) |
 |---|---|---|
-| 2026-07-06 → 07-10 | Preliminary hearing, five days | **held**; **all five days now read in full** |
+| 2026-07-06 → 07-10 | Preliminary hearing — **five days of EVIDENCE, not the whole hearing** | **evidence taken**; **all five days read in full.** 🚨 **CLARIFIED 2026-08-16 (verified against `day5.txt`): THE HEARING WAS NOT CONCLUDED — IT WAS CONTINUED.** On the record on Day 5, defence counsel refers to *"**the last day of the preliminary hearing, which will be September 1st**"*; the court speaks of motions *"ahead of the September 1st hearing"*; the State addresses *"the **continued taking of evidence** today."* ✅ **So the briefing of 07-28 / 08-11 / 08-18 runs BETWEEN evidence and the hearing's LAST DAY.** ⚠️ **This is why Robinson has not been bound over — the preliminary hearing is not finished. Calling it simply "held" understates the posture and makes the bindover position read as anomalous when it is not.** |
 | 2026-07-28 | State's opening brief | ✅ **filed** — now **multi-sourced across six outlets** (Run 1 had one). ⚠ **28 pp. is the LENGTH; 35 was the LIMIT.** **A public Scribd mirror now exists** → **Q-56** |
 | **2026-08-11** | **Defence response** | **pending — THE NEXT CHECKPOINT**, and the likeliest vehicle for a continuance motion |
 | 2026-08-18 | State's reply | pending |
