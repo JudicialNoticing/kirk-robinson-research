@@ -62,7 +62,7 @@ for f in *.txt; do n=$(tr -dc '\0' < "$f" | wc -c); [ "$n" -gt 0 ] && echo "$n  
 
 ### R3 — a false null from searching the assumed phrase instead of the stem
 
-A pass concluded *"No withdrawal or substitution of counsel found… **the roster appears stable**."* `withdraw` = 0 ✅, `substitut` = 0 ✅, `Notice of Appearance` = 0 ✅ — **but `Notice of Limited Appearance` = 7 in BOTH files, all dated 09-30-2025.** Searching the bare stem **`Appearance`** returns 14 per file. ⚠️ **The conclusion is not supported by the search performed.** Hazard 12, live.
+A pass concluded *"No withdrawal or substitution of counsel found… **the roster appears stable**."* `withdraw` = 0 ✅, `substitut` = 0 ✅, `Notice of Appearance` = 0 ✅ — **but `Notice of Limited Appearance` = 7 in BOTH files.** 🛠 **CORRECTED 2026-08-16 (Q-105 re-run, R-L3): the COUNT of 7 is exactly right; THE DATING WAS NOT.** Row-level parse: **5 on 2025-09-30, 1 on 2025-10-13, 1 on 2025-10-14** — and **the 10-14 row is the only appearance filing on the docket that NAMES its attorney**, landing the day after the court's interim order on the civilian-clothing motion. ⚠️ *(A "14 per file" figure counts the string `Appearance of Counsel`, which occurs twice per row — 14 occurrences = 7 rows. Both numbers are right; they measure different things, and this file should have said which.)* Searching the bare stem **`Appearance`** returns 14 per file. ⚠️ **The conclusion is not supported by the search performed.** Hazard 12, live.
 
 ### R4 — the founding measurement of hazard 13 was itself miscounted, and corrected silently
 
@@ -90,6 +90,8 @@ The **event lists** do corroborate (506 vs 505). 🚨 **The short history contai
 | `under oath` | 5 | **0** |
 
 ⚠️ **Any null tested against the short history alone is a FALSE NULL for narrative content — and the old wording licensed exactly that error.** Corrected.
+
+🛠 **ONE FIGURE IN THIS TABLE CORRECTED 2026-08-16 (Q-105 re-run, R-L4): `Minute Entry` = 12 is the CASE-INSENSITIVE count. There are 10 date-prefixed minute entries** (09-16, 09-26, 09-29, 09-30, 10-28-2025; 12-11, 12-29-2025; 01-16, 02-03, 02-24-2026); the other two hits are narrative sentences *inside* minute entries. ✅ **R8's conclusion is untouched — the short history is 0 on both counts — but the denominator of the Sturgill null is 10 minute entries, not 12.**
 
 ---
 
