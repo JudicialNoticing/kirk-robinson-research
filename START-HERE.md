@@ -7,7 +7,23 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ## 0A. SESSION — 2026-08-16, afternoon (READ THIS FIRST; it supersedes everything below wherever they disagree)
 
-**Register: ceiling D-69, next free D-70. Queue runs to Q-96. Standing hazards to 13. `queue-check.sh`: RESULT clean.**
+**Register: ceiling D-72, next free D-73. Queue runs to Q-111. Standing hazards to 16. `queue-check.sh`: RESULT clean.**
+
+### 🚨 THE SECOND HALF OF 2026-08-16 WAS AN AUDIT OF OUR OWN METHOD, AND IT FOUND MORE THAN THE CASE RECORD DID
+
+**Q-70 read → CR-E11/E12/E13/E14** (disqualification track · closure map · preservation chain · the continuance motion). **Q-81 and Q-105 then audited the tooling underneath all of it, and the tooling was broken.**
+
+**Standing hazard 13 was corrected THREE TIMES on the day it was written:** 2 files → **50**; `file(1)` → **invalid as a detector** (use `NUL count > 0`); and 🚨 **the remedy it prescribed — Python plus whitespace normalisation — DOES NOT WORK**, because `\x00` is not whitespace to `\s`. **Every reader dispatched that day was given the insufficient method.** ✅ **REMEDIATED: 1,189 NULs → `0x0C` across 50 files, content verified unchanged against `git HEAD` on 50/50**, and ~70 nulls re-run by three readers.
+
+✅ **What held, and it was the part that mattered.** **CR-E13's load-bearing null** — no federal agency named in the preservation chain — **CONFIRMED** by stem battery *and* an entity census. **CR-E08's `circumstance` = 1 CONFIRMED on two independent extraction tools**, so **F-23 stands at High**. **~55 nulls confirmed overall.**
+
+🚨 **What did not.** **CR-E12 listed the 2025-10-24 hearing as *structurally unobtainable* while this library has held a 97-page Tier 1 transcript of it since 2026-07-27** — cited by no evidence file. **Root cause, and it is the most transferable thing today produced: a docket-derived observation was promoted into a claim about our HOLDINGS.** The docket is evidence of what the court filed and classified, **not of what this project possesses.** Two other nulls failed the same way. → **Q-110 runs a holdings completeness pass: what else do we hold and not cite?**
+
+🚨 **STANDING HAZARD 16, and it had already corrupted an evidence file.** `U+FFFE` **destroyed a hyphen at every line break** — so `Pre-Trial`, `Pre Trial` and `PreTrial` **all miss**. The Motion to Preserve Evidence cites four statutes in sequence (`77-11c-301/-302/-303/-401`) and **CR-E13 v1.0's list omitted `-302`**, because a plain search returns zero. ⚠️ **It must NOT be repaired in the data** — unlike the NULs, the correct expansion differs per word. ✅ **Use `./artifact_search.py`, which searches both readings.**
+
+> ✅ **The rule to carry: repair the DATA only where the correct value is unambiguous; otherwise repair the METHOD and leave the evidence alone.**
+
+⚠️ **Still untested under both hazards: `DNA-E01`, `CR-E01`–`CR-E07`, `CR-WATCH-log`, the four raw candidate banks → Q-111.** ✅ **`./docket-watch-run.py` now makes the 08-18 run a diff, not a search.**
 
 ### 🚨 THE ONE THING THAT CANNOT WAIT
 
