@@ -1,0 +1,680 @@
+{
+  "retrieved": "2026-08-16",
+  "project": "224251",
+  "banked_this_run": 28,
+  "failures": [],
+  "receipts": [
+    {
+      "id": "27881509",
+      "title": "1-30-2026 DEFENDANT TYLER ROBINSON RENEWED MOTION TO DISQUALIFY UTAH ATTORNEY GENERAL MEMORANDUM OF POINTS AND AUTHORITIES - docket 348",
+      "docket": "348",
+      "date_in_title": "2026-01-30",
+      "pages": 12,
+      "api_file_hash_sha1": "6b1b4208a5ef4a1eef745b5630e0b758630aca22",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2026-01-30_defendant-renewed-motion-disqualify-utah-attorney-general-memorandum_dkt348_dc27881509.txt",
+          "bytes": 21062,
+          "served_sha256": "7c5a25f92601e8c60904de8c31ff5f67481638daa7388b153d5d302628cc4c85",
+          "url": "https://s3.documentcloud.org/documents/27881509/1-30-2026-defendant-tyler-robinson-renewed-motion-to-disqualify-utah-attorney-general-memorandum-of-points-and-authorities-docket-348.txt"
+        },
+        "pdf": {
+          "path": "2026-01-30_defendant-renewed-motion-disqualify-utah-attorney-general-memorandum_dkt348_dc27881509.pdf",
+          "bytes": 216926,
+          "served_sha256": "f508c4786ef5f86db4df13cf59d252651a04c2d576931002b0010d5c0fb51670",
+          "url": "https://s3.documentcloud.org/documents/27881509/1-30-2026-defendant-tyler-robinson-renewed-motion-to-disqualify-utah-attorney-general-memorandum-of-points-and-authorities-docket-348.pdf"
+        }
+      }
+    },
+    {
+      "id": "27881511",
+      "title": "1-30-2026 prosecutor Opposition to Defendant Motion to Classify Motion to Exclude Still media from the Courtroom and classify as private hearing - docket 346",
+      "docket": "346",
+      "date_in_title": "2026-01-30",
+      "pages": 3,
+      "api_file_hash_sha1": "e76e31891263cf213d10e39ece9b9b5134645b87",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.txt",
+          "bytes": 3082,
+          "served_sha256": "5969e1783403042c5597e7876547d96c6940837af96f7b06861a5249b91a6284",
+          "url": "https://s3.documentcloud.org/documents/27881511/1-30-2026-prosecutor-opposition-to-defendant-motion-to-classify-motion-to-exclude-still-media-from-the-courtroom-and-classify-as-private-hearing-docket-346.txt"
+        },
+        "pdf": {
+          "path": "2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.pdf",
+          "bytes": 144938,
+          "served_sha256": "40fa2fe69cf1f99b7e242732f5ce21e3919b3144033ef95e32cec279cc598ee6",
+          "url": "https://s3.documentcloud.org/documents/27881511/1-30-2026-prosecutor-opposition-to-defendant-motion-to-classify-motion-to-exclude-still-media-from-the-courtroom-and-classify-as-private-hearing-docket-346.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880888",
+      "title": "1-5-2026 prosecutor Opposition to Defendant Motion to Disqualify the Utah County Attorney Office - docket 289",
+      "docket": "289",
+      "date_in_title": "2026-01-05",
+      "pages": 33,
+      "api_file_hash_sha1": "3b36f2509dc103dde1b9e72c5f1bd65cc9eb6f77",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.txt",
+          "bytes": 50339,
+          "served_sha256": "5caaf8c86a722136386efc4e933583218712d42f990c67f40257e1fdd56e87b8",
+          "url": "https://s3.documentcloud.org/documents/27880888/1-5-2026-prosecutor-opposition-to-defendant-motion-to-disqualify-the-utah-county-attorney-office-docket-289.txt"
+        },
+        "pdf": {
+          "path": "2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.pdf",
+          "bytes": 4522827,
+          "served_sha256": "548e843cfba26b2dc8d8e65569a41ce6a2115b0b7dcdfe9b22cf5e41e5954a0d",
+          "url": "https://s3.documentcloud.org/documents/27880888/1-5-2026-prosecutor-opposition-to-defendant-motion-to-disqualify-the-utah-county-attorney-office-docket-289.pdf"
+        }
+      }
+    },
+    {
+      "id": "27881513",
+      "title": "1-8-2026 Defendant Reply to Prosecutor Opposition to Motion to Disqualify Public - docket 293",
+      "docket": "293",
+      "date_in_title": "2026-01-08",
+      "pages": 7,
+      "api_file_hash_sha1": "34b2684342b75b3037aac8a2d05c04ba995d4107",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.txt",
+          "bytes": 10605,
+          "served_sha256": "3369c617761b58819ddd7d1042de4f2184498d0339bd0cad0912ed5913f0e48a",
+          "url": "https://s3.documentcloud.org/documents/27881513/1-8-2026-defendant-reply-to-prosecutor-opposition-to-motion-to-disqualify-public-docket-293.txt"
+        },
+        "pdf": {
+          "path": "2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.pdf",
+          "bytes": 144347,
+          "served_sha256": "22cc1d464983384c8ddc3b2b42505ae84640acb22652c56f3a23da4fc91a4a68",
+          "url": "https://s3.documentcloud.org/documents/27881513/1-8-2026-defendant-reply-to-prosecutor-opposition-to-motion-to-disqualify-public-docket-293.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880859",
+      "title": "10-08-2025 Copy of Video-Audio Record completed - docket 74",
+      "docket": "74",
+      "date_in_title": "2025-10-08",
+      "pages": 2,
+      "api_file_hash_sha1": "b017422a7062c77767cc7bc37ac1211deea38f04",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.txt",
+          "bytes": 2147,
+          "served_sha256": "68233dfe96c22f9f95d6ddbad57b71c7c5e87e158b76e47ea56b7d200559b381",
+          "url": "https://s3.documentcloud.org/documents/27880859/10-08-2025-copy-of-video-audio-record-completed-docket-74.txt"
+        },
+        "pdf": {
+          "path": "2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.pdf",
+          "bytes": 117781,
+          "served_sha256": "29ef23abd3c2f924a9c5331a95d4ea4293fa1ce3ae976f5d4dd0447b38ce8fe4",
+          "url": "https://s3.documentcloud.org/documents/27880859/10-08-2025-copy-of-video-audio-record-completed-docket-74.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880875",
+      "title": "10-08-2025 Proposed Order Granting Motion to Preserve Evidence - docket 76",
+      "docket": "76",
+      "date_in_title": "2025-10-08",
+      "pages": 3,
+      "api_file_hash_sha1": "3f0b41a9d2e5bc3676be337e8e325bcffc0c05b3",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.txt",
+          "bytes": 1354,
+          "served_sha256": "c0b2f743133b27fd61997e16f6e19fac915dc9fd8e79d4b05dff27daa3323929",
+          "url": "https://s3.documentcloud.org/documents/27880875/10-08-2025-proposed-order-granting-motion-to-preserve-evidence-docket-76.txt"
+        },
+        "pdf": {
+          "path": "2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.pdf",
+          "bytes": 136552,
+          "served_sha256": "b0ba157ff24e1a4e38071cb31525031de09a9d31dd832b9ce047facb9fee79c2",
+          "url": "https://s3.documentcloud.org/documents/27880875/10-08-2025-proposed-order-granting-motion-to-preserve-evidence-docket-76.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880863",
+      "title": "10-13-2025 Both Parties Motion for Discovery Protective Order Stipulated - docket 91",
+      "docket": "91",
+      "date_in_title": "2025-10-13",
+      "pages": 5,
+      "api_file_hash_sha1": "358a89356450dc48a45a4e1aee461cb9bad3e471",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.txt",
+          "bytes": 5750,
+          "served_sha256": "b7103667a5e247f79d96eeea7261be2acd216676a92d56df1b30595eff64406b",
+          "url": "https://s3.documentcloud.org/documents/27880863/10-13-2025-both-parties-motion-for-discovery-protective-order-stipulated-docket-91.txt"
+        },
+        "pdf": {
+          "path": "2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.pdf",
+          "bytes": 173189,
+          "served_sha256": "0d8fd7d22226210d9f2b8a891ce025a573679f3abb54fbf45d170a1785fb8201",
+          "url": "https://s3.documentcloud.org/documents/27880863/10-13-2025-both-parties-motion-for-discovery-protective-order-stipulated-docket-91.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880867",
+      "title": "10-21-2025 Defendant Motion to Strike Response to Defendant s Motion to Appear at All In-Person Proceedings in Civilian Clothing and Without Restraints - docket 111",
+      "docket": "111",
+      "date_in_title": "2025-10-21",
+      "pages": 10,
+      "api_file_hash_sha1": "594cbf7df66c43bbf133f18a6ade81ae524da97a",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.txt",
+          "bytes": 10812,
+          "served_sha256": "2915ef60bc0af68251d7fb8ccb8f20a80cc206f87730f0b305c22cbab0f5cf71",
+          "url": "https://s3.documentcloud.org/documents/27880867/10-21-2025-defendant-motion-to-strike-response-to-defendant-s-motion-to-appear-at-all-in-person-proceedings-in-civilian-clothing-and-without-restraints-docket-111.txt"
+        },
+        "pdf": {
+          "path": "2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.pdf",
+          "bytes": 450104,
+          "served_sha256": "1b033e4d96be4d18ef09843a4218df8c2fa374c553b92c397b873ac816e2ac91",
+          "url": "https://s3.documentcloud.org/documents/27880867/10-21-2025-defendant-motion-to-strike-response-to-defendant-s-motion-to-appear-at-all-in-person-proceedings-in-civilian-clothing-and-without-restraints-docket-111.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880868",
+      "title": "10-27-2025 ruling and order on defendant motion to strike and appear in civilian clothing without restraints - docket 137",
+      "docket": "137",
+      "date_in_title": "2025-10-27",
+      "pages": 9,
+      "api_file_hash_sha1": "8c7f53bfd2ed0668fb9cf0eb42bd9ec3f423f38d",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.txt",
+          "bytes": 14588,
+          "served_sha256": "f635d7307c0f3aadf6098d070e1732433c7b952652ec956cf6ecb5fab5c7802d",
+          "url": "https://s3.documentcloud.org/documents/27880868/10-27-2025-ruling-and-order-on-defendant-motion-to-strike-and-appear-in-civilian-clothing-without-restraints-docket-137.txt"
+        },
+        "pdf": {
+          "path": "2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.pdf",
+          "bytes": 3489587,
+          "served_sha256": "0bad44c5325c2be2652ae3d915cc40af4e201f85d61258ac92505d08c16d094d",
+          "url": "https://s3.documentcloud.org/documents/27880868/10-27-2025-ruling-and-order-on-defendant-motion-to-strike-and-appear-in-civilian-clothing-without-restraints-docket-137.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880873",
+      "title": "12-17-2025 defendant Motion to Disqualify prosecutor and or judge for conflict of interest - docket 250",
+      "docket": "250",
+      "date_in_title": "2025-12-17",
+      "pages": 48,
+      "api_file_hash_sha1": "3ab5a9abe2e6703fab7220a1c76eb6cafb151304",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-12-17_defendant-motion-disqualify-prosecutor-judge-conflict-interest_dkt250_dc27880873.txt",
+          "bytes": 33894,
+          "served_sha256": "ed0b543427c828499b217557c4540ccca66a5252ba0539d72051c1aefc2df8ae",
+          "url": "https://s3.documentcloud.org/documents/27880873/12-17-2025-defendant-motion-to-disqualify-prosecutor-and-or-judge-for-conflict-of-interest-docket-250.txt"
+        },
+        "pdf": {
+          "path": "2025-12-17_defendant-motion-disqualify-prosecutor-judge-conflict-interest_dkt250_dc27880873.pdf",
+          "bytes": 2744947,
+          "served_sha256": "8dc58d4d2848e5f72a30e2734164a44161b35f9f83112141c1547424492f1c89",
+          "url": "https://s3.documentcloud.org/documents/27880873/12-17-2025-defendant-motion-to-disqualify-prosecutor-and-or-judge-for-conflict-of-interest-docket-250.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880874",
+      "title": "12-4-2025 Utah Office for Victims of Crime Restitution Notice Claim#1113665 - docket 211",
+      "docket": "211",
+      "date_in_title": "2025-12-04",
+      "pages": 1,
+      "api_file_hash_sha1": "358e9b4570ba9448f26ebbbcf69e71d6babc3f1f",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.txt",
+          "bytes": 1316,
+          "served_sha256": "549184430121c9bfff700706777e9ef2c8b4591ca928f5684f3ae404a90dccde",
+          "url": "https://s3.documentcloud.org/documents/27880874/12-4-2025-utah-office-for-victims-of-crime-restitution-notice-claim1113665-docket-211.txt"
+        },
+        "pdf": {
+          "path": "2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.pdf",
+          "bytes": 50460,
+          "served_sha256": "228ecc637ad882fc12305283bc228abfde2b785d5e2894e581fae91dd7b14eb0",
+          "url": "https://s3.documentcloud.org/documents/27880874/12-4-2025-utah-office-for-victims-of-crime-restitution-notice-claim1113665-docket-211.pdf"
+        }
+      }
+    },
+    {
+      "id": "27881508",
+      "title": "2-2-2026 Proffer of Facts re Closure of Poritons of Evidentiary Hearing on Motion to Disqualify UCAO - docket 368",
+      "docket": "368",
+      "date_in_title": "2026-02-02",
+      "pages": 5,
+      "api_file_hash_sha1": "6f038b15b973555edd9fe054df324b88e4f34f0b",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.txt",
+          "bytes": 5349,
+          "served_sha256": "32fc19fb178b7c14a22c06a21bed6ba194c6875dd6e71a1e736e69d420dda318",
+          "url": "https://s3.documentcloud.org/documents/27881508/2-2-2026-proffer-of-facts-re-closure-of-poritons-of-evidentiary-hearing-on-motion-to-disqualify-ucao-docket-368.txt"
+        },
+        "pdf": {
+          "path": "2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.pdf",
+          "bytes": 171224,
+          "served_sha256": "f98d28a688698b01e1ba9735c69bd4c552698cdc9914e2721e66a9253238e3ce",
+          "url": "https://s3.documentcloud.org/documents/27881508/2-2-2026-proffer-of-facts-re-closure-of-poritons-of-evidentiary-hearing-on-motion-to-disqualify-ucao-docket-368.pdf"
+        }
+      }
+    },
+    {
+      "id": "27881512",
+      "title": "2-2-2026 prosecutor Memorandum and Opposition to Defendant Renewed Request to Motion to Disqualify to the Utah Attorney General - docket 366",
+      "docket": "366",
+      "date_in_title": "2026-02-02",
+      "pages": 14,
+      "api_file_hash_sha1": "b729357353b75f0d6c381b886579ae784cf3e6c9",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.txt",
+          "bytes": 22975,
+          "served_sha256": "40229dd0b7a08888661329d6dbd8cd3a6811cad366017850ed406db71efa03bc",
+          "url": "https://s3.documentcloud.org/documents/27881512/2-2-2026-prosecutor-memorandum-and-opposition-to-defendant-renewed-request-to-motion-to-disqualify-to-the-utah-attorney-general-docket-366.txt"
+        },
+        "pdf": {
+          "path": "2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.pdf",
+          "bytes": 223559,
+          "served_sha256": "3ba01f91ce26d49ac2c7bbdeedf533b711b290758601261d27f65f1c0aea060b",
+          "url": "https://s3.documentcloud.org/documents/27881512/2-2-2026-prosecutor-memorandum-and-opposition-to-defendant-renewed-request-to-motion-to-disqualify-to-the-utah-attorney-general-docket-366.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880543",
+      "title": "9-10-2025 utah county district attorney press release after shooting",
+      "docket": null,
+      "date_in_title": "2025-09-10",
+      "pages": 1,
+      "api_file_hash_sha1": "e93de8a85d8c94325df731ad5174ebd96c9f1780",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-10_utah-county-district-attorney-press-release-after-shooting_dc27880543.txt",
+          "bytes": 1599,
+          "served_sha256": "b3852d986c030976c99da5e68bd572d99c60ac4545b912825ef5e554780ebeb2",
+          "url": "https://s3.documentcloud.org/documents/27880543/9-10-2025-utah-county-district-attorney-press-release-after-shooting.txt"
+        },
+        "pdf": {
+          "path": "2025-09-10_utah-county-district-attorney-press-release-after-shooting_dc27880543.pdf",
+          "bytes": 99805,
+          "served_sha256": "18ee3adbdc7cc70ecd3a29e6da6647fe78089afb98fbf5666bbc4c089a4521f3",
+          "url": "https://s3.documentcloud.org/documents/27880543/9-10-2025-utah-county-district-attorney-press-release-after-shooting.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880877",
+      "title": "9-12-2025 public safety assessment report - docket 3",
+      "docket": "3",
+      "date_in_title": "2025-09-12",
+      "pages": 3,
+      "api_file_hash_sha1": "8c9e4332774037d23e2bf4c1a940f674b777f9c5",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-12_public-safety-assessment-report_dkt3_dc27880877.txt",
+          "bytes": 3498,
+          "served_sha256": "89c74961d2c12ade35c01f2f4f04d6d9b364cd72e4d6358e59982dacb5cf9978",
+          "url": "https://s3.documentcloud.org/documents/27880877/9-12-2025-public-safety-assessment-report-docket-3.txt"
+        },
+        "pdf": {
+          "path": "2025-09-12_public-safety-assessment-report_dkt3_dc27880877.pdf",
+          "bytes": 736696,
+          "served_sha256": "c12c12541b2f53e14eef24759623356f074925820aee2810d16b16773be0de1c",
+          "url": "https://s3.documentcloud.org/documents/27880877/9-12-2025-public-safety-assessment-report-docket-3.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880865",
+      "title": "9-16-2025 Request for Designation of Victim Representative - docket 12",
+      "docket": "12",
+      "date_in_title": "2025-09-16",
+      "pages": 2,
+      "api_file_hash_sha1": "9c9e86cbe2cd37df962038958585ce936665b76d",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-16_request-designation-victim-representative_dkt12_dc27880865.txt",
+          "bytes": 1628,
+          "served_sha256": "173a09497ce423a1f89f0c0e6546de4be313acb5646ee0229a04be092142c910",
+          "url": "https://s3.documentcloud.org/documents/27880865/9-16-2025-request-for-designation-of-victim-representative-docket-12.txt"
+        },
+        "pdf": {
+          "path": "2025-09-16_request-designation-victim-representative_dkt12_dc27880865.pdf",
+          "bytes": 97061,
+          "served_sha256": "abd54f6f7a2b8c7075176f060237d92d1f093787659d0b0e6df79ee7660b1a57",
+          "url": "https://s3.documentcloud.org/documents/27880865/9-16-2025-request-for-designation-of-victim-representative-docket-12.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880869",
+      "title": "9-16-2025 bail order \u2013 docket 4",
+      "docket": "4",
+      "date_in_title": "2025-09-16",
+      "pages": 1,
+      "api_file_hash_sha1": "deccfcdd5807a2cebc9d7b1e06f709150fc5e292",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-16_bail-order_dkt4_dc27880869.txt",
+          "bytes": 700,
+          "served_sha256": "aaeb6ea3f2e4db0a33fba5f0b6315c9cb92d4869633e58381a120ce7b540cf0c",
+          "url": "https://s3.documentcloud.org/documents/27880869/9-16-2025-bail-order-docket-4.txt"
+        },
+        "pdf": {
+          "path": "2025-09-16_bail-order_dkt4_dc27880869.pdf",
+          "bytes": 724809,
+          "served_sha256": "f99eddcd425c8e03391667bce697550c4ac6cf9c1b4c9668bf1aea9c9ae33db5",
+          "url": "https://s3.documentcloud.org/documents/27880869/9-16-2025-bail-order-docket-4.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880860",
+      "title": "9-16-2025 proposed pretrial protective order - docket 7",
+      "docket": "7",
+      "date_in_title": "2025-09-16",
+      "pages": 6,
+      "api_file_hash_sha1": "266fccb19b108d5b9cba24f1ecaa1d5f1773d8c8",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.txt",
+          "bytes": 8541,
+          "served_sha256": "b452c0e991acb8bc237150449cd51fd04cd1d9c1cd1a833b4f28d2e89891daaa",
+          "url": "https://s3.documentcloud.org/documents/27880860/9-16-2025-proposed-pretrial-protective-order-docket-7.txt"
+        },
+        "pdf": {
+          "path": "2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.pdf",
+          "bytes": 387626,
+          "served_sha256": "121faf7de385d320ec3a5cbcd0534679f925076abb97c9ade6bf12332c067e66",
+          "url": "https://s3.documentcloud.org/documents/27880860/9-16-2025-proposed-pretrial-protective-order-docket-7.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880535",
+      "title": "9-22-2025 Utah County District Attorney press release - tyler robinson prosecutor trial team",
+      "docket": null,
+      "date_in_title": "2025-09-22",
+      "pages": 2,
+      "api_file_hash_sha1": "071f04dbe51be940338d4764f2e3b4f2bfa2e8e6",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-22_utah-county-district-attorney-press-release-prosecutor-trial_dc27880535.txt",
+          "bytes": 782,
+          "served_sha256": "636010c0e6bf97c47b09a6d344bd1b7bddf9deba6f51db6c8807fa28673d608a",
+          "url": "https://s3.documentcloud.org/documents/27880535/9-22-2025-utah-county-district-attorney-press-release-tyler-robinson-trial-team.txt"
+        },
+        "pdf": {
+          "path": "2025-09-22_utah-county-district-attorney-press-release-prosecutor-trial_dc27880535.pdf",
+          "bytes": 787184,
+          "served_sha256": "e92d7265183638f70d6e6bd62494317316589850bd6143c1bd4dd12f547d6a74",
+          "url": "https://s3.documentcloud.org/documents/27880535/9-22-2025-utah-county-district-attorney-press-release-tyler-robinson-trial-team.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880539",
+      "title": "9-22-2025 prosecutor Chad Grunander biography",
+      "docket": null,
+      "date_in_title": "2025-09-22",
+      "pages": 2,
+      "api_file_hash_sha1": "0d0cb3cc8773854943e090c24707e7c8bd7f8eea",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-22_prosecutor-chad-grunander-biography_dc27880539.txt",
+          "bytes": 2146,
+          "served_sha256": "ae04369acc1263f01814115d45dc1247b51b7f7230958b76a9576adb07c3b81e",
+          "url": "https://s3.documentcloud.org/documents/27880539/9-22-2025-prosecutor-chad-grunander-biography.txt"
+        },
+        "pdf": {
+          "path": "2025-09-22_prosecutor-chad-grunander-biography_dc27880539.pdf",
+          "bytes": 163940,
+          "served_sha256": "38e63afa75f67b7f4c6ec5452e118b66ca3657244d6965aceea59c68476ad433",
+          "url": "https://s3.documentcloud.org/documents/27880539/9-22-2025-prosecutor-chad-grunander-biography.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880541",
+      "title": "9-22-2025 prosecutor Christopher Ballard biography",
+      "docket": null,
+      "date_in_title": "2025-09-22",
+      "pages": 2,
+      "api_file_hash_sha1": "eea80ea3f226f80bcba95e2152e4af00864d6629",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.txt",
+          "bytes": 2056,
+          "served_sha256": "bba3d65348eb525352836ec920c56f11170ee3640792db050567f54dc9f24436",
+          "url": "https://s3.documentcloud.org/documents/27880541/9-22-2025-prosecutor-christopher-ballard-biography.txt"
+        },
+        "pdf": {
+          "path": "2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.pdf",
+          "bytes": 194850,
+          "served_sha256": "2dd23c740993793e01c72aa851021410a9c1dbab17687f497674592ae75a870f",
+          "url": "https://s3.documentcloud.org/documents/27880541/9-22-2025-prosecutor-christopher-ballard-biography.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880538",
+      "title": "9-22-2025 prosecutor David Sturgill biography",
+      "docket": null,
+      "date_in_title": "2025-09-22",
+      "pages": 1,
+      "api_file_hash_sha1": "5256c9c4e3588786bca85ee4008060ebbe35ab33",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-22_prosecutor-david-sturgill-biography_dc27880538.txt",
+          "bytes": 1779,
+          "served_sha256": "15376e1a54d30f71f42530d00a7ba6c7e1aabc0bee08a662876a8cfecbd87e9f",
+          "url": "https://s3.documentcloud.org/documents/27880538/9-22-2025-prosecutor-david-sturgill-biography.txt"
+        },
+        "pdf": {
+          "path": "2025-09-22_prosecutor-david-sturgill-biography_dc27880538.pdf",
+          "bytes": 150169,
+          "served_sha256": "92dcbc199ca4035a08ddbce81975860fefed1c9e751dae4622e18728792da08b",
+          "url": "https://s3.documentcloud.org/documents/27880538/9-22-2025-prosecutor-david-sturgill-biography.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880540",
+      "title": "9-22-2025 prosecutor Lauren Hunt biography",
+      "docket": null,
+      "date_in_title": "2025-09-22",
+      "pages": 1,
+      "api_file_hash_sha1": "7aab429f9d835adb0376f5d58c83a6138fe97941",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.txt",
+          "bytes": 1396,
+          "served_sha256": "a97922769b18c5cc206eda6671f80132ccbe93fa1aea213f3545d8e3630bd1e9",
+          "url": "https://s3.documentcloud.org/documents/27880540/9-22-2025-prosecutor-lauren-hunt-biography.txt"
+        },
+        "pdf": {
+          "path": "2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.pdf",
+          "bytes": 192280,
+          "served_sha256": "2f4c43d53713b451b6c324fcd69f7c1f121d6683400861943fddd9018ab6f38a",
+          "url": "https://s3.documentcloud.org/documents/27880540/9-22-2025-prosecutor-lauren-hunt-biography.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880537",
+      "title": "9-22-2025 prosecutor Ryan McBride biography",
+      "docket": null,
+      "date_in_title": "2025-09-22",
+      "pages": 2,
+      "api_file_hash_sha1": "517c756cc1d2be1a1c99b38a41156cc268d54c1a",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.txt",
+          "bytes": 2119,
+          "served_sha256": "8279dd38ae66f163b4273d011ce97fdcdf446cf08a6f968e7f8dca968466f832",
+          "url": "https://s3.documentcloud.org/documents/27880537/9-22-2025-prosecutor-ryan-mcbride-biography.txt"
+        },
+        "pdf": {
+          "path": "2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.pdf",
+          "bytes": 184623,
+          "served_sha256": "9271952c3393d2b6a0b9f9b7f8d2645882e79a8ea24c21a94113b3f87571d081",
+          "url": "https://s3.documentcloud.org/documents/27880537/9-22-2025-prosecutor-ryan-mcbride-biography.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880536",
+      "title": "9-22-2025 prosecutor jeffrey gray biography",
+      "docket": null,
+      "date_in_title": "2025-09-22",
+      "pages": 2,
+      "api_file_hash_sha1": "48ecbf310c7603bb90703ece85d11b4253ff08e9",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.txt",
+          "bytes": 2308,
+          "served_sha256": "c4d5a94ab6879982fa8304f22c41fa34b52236a3642f6c62e9384cd68755af2a",
+          "url": "https://s3.documentcloud.org/documents/27880536/9-22-2025-prosecutor-jeffrey-gray-biography.txt"
+        },
+        "pdf": {
+          "path": "2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.pdf",
+          "bytes": 226050,
+          "served_sha256": "b3a832e219c7b018ee63a300e033a22ba1ed384d7001dc5359be1b8d9a5d3b1a",
+          "url": "https://s3.documentcloud.org/documents/27880536/9-22-2025-prosecutor-jeffrey-gray-biography.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880870",
+      "title": "9-24-2025 Order To Transport for virtual hearing - docket 24",
+      "docket": "24",
+      "date_in_title": "2025-09-24",
+      "pages": 1,
+      "api_file_hash_sha1": "bf7482cde58f4b0daa2f0e18e3f90e9fe7c7b22f",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2025-09-24_order-transport-virtual-hearing_dkt24_dc27880870.txt",
+          "bytes": 553,
+          "served_sha256": "544a3fd2df8a661e3310d550564f0e750b1eb900e8b2750018e2222f17f1eef4",
+          "url": "https://s3.documentcloud.org/documents/27880870/9-24-2025-order-to-transport-for-virtual-hearing-docket-24.txt"
+        },
+        "pdf": {
+          "path": "2025-09-24_order-transport-virtual-hearing_dkt24_dc27880870.pdf",
+          "bytes": 131323,
+          "served_sha256": "b440b13a6da71c190c2545e71d00e14cac83f464de90e22e9d9c39b642a3414d",
+          "url": "https://s3.documentcloud.org/documents/27880870/9-24-2025-order-to-transport-for-virtual-hearing-docket-24.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880529",
+      "title": "tyler robinson case search on utah state court online xchange service",
+      "docket": null,
+      "date_in_title": "",
+      "pages": 2,
+      "api_file_hash_sha1": "36d7bb97e5a0b90a3e1117b52d783d876a78306a",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.txt",
+          "bytes": 472,
+          "served_sha256": "25882682370a904a1acfff0c45963f6ab24280dc99c57d9222e94f3279bec55e",
+          "url": "https://s3.documentcloud.org/documents/27880529/tyler-robinson-case-search-on-utah-state-court-online-xchange-service.txt"
+        },
+        "pdf": {
+          "path": "2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.pdf",
+          "bytes": 250633,
+          "served_sha256": "437f125cb74b19244325bcce44d8003b693f91c474bc2ac36963963f3faea78f",
+          "url": "https://s3.documentcloud.org/documents/27880529/tyler-robinson-case-search-on-utah-state-court-online-xchange-service.pdf"
+        }
+      }
+    },
+    {
+      "id": "27880534",
+      "title": "tyler robinson utah county sheriff office inmate custody booking",
+      "docket": null,
+      "date_in_title": "",
+      "pages": 1,
+      "api_file_hash_sha1": "d3c50ac9fdc3340e2700e1c5e0b8e54876cc9ebd",
+      "access": "public",
+      "retrieved": "2026-08-16",
+      "files": {
+        "txt": {
+          "path": "2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.txt",
+          "bytes": 788,
+          "served_sha256": "c399b2abd2557762a68cf9eb13a1dc908f1c7559a79e9ce31a7ccc52a9535d4a",
+          "url": "https://s3.documentcloud.org/documents/27880534/tyler-robinson-utah-county-sheriff-office-inmate-custody-booking.txt"
+        },
+        "pdf": {
+          "path": "2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.pdf",
+          "bytes": 396071,
+          "served_sha256": "90ac2f4859b78ec346361bfaa2051f41d648bc612601f9a87a2abbc98487a9e3",
+          "url": "https://s3.documentcloud.org/documents/27880534/tyler-robinson-utah-county-sheriff-office-inmate-custody-booking.pdf"
+        }
+      }
+    }
+  ]
+}

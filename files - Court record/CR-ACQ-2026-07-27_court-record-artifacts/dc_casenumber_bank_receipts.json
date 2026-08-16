@@ -1,0 +1,224 @@
+{
+  "retrieved": "2026-08-16",
+  "query": "\"251403576\"",
+  "count": 40,
+  "outside_224251": 9,
+  "receipts": [
+    {
+      "id": "26099252",
+      "title": "document (5)",
+      "pages": 6,
+      "org": 729,
+      "user": 108468,
+      "created_at": "2025-09-16T21:23:56.342Z",
+      "api_file_hash_sha1": "266fccb19b108d5b9cba24f1ecaa1d5f1773d8c8",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2025-09-16_5_dc26099252.txt",
+          "bytes": 8541,
+          "served_sha256": "b452c0e991acb8bc237150449cd51fd04cd1d9c1cd1a833b4f28d2e89891daaa"
+        },
+        "pdf": {
+          "path": "2025-09-16_5_dc26099252.pdf",
+          "bytes": 387626,
+          "served_sha256": "a9e35edc2149e051cd700bfeaa2a35e7ea6de87627f47984e224405973d020c8"
+        }
+      }
+    },
+    {
+      "id": "26493871",
+      "title": "document (4)",
+      "pages": 3,
+      "org": 102365,
+      "user": 146301,
+      "created_at": "2026-01-19T19:44:54.480Z",
+      "api_file_hash_sha1": "bf5b4453fd686a31f27bd5d5d9c8f003f79fde45",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2026-01-19_4_dc26493871.txt",
+          "bytes": 1977,
+          "served_sha256": "5340d4bad3ca24f40eeca4f1e9af98f05642f60f55090dec7e8ddd40453ab1bb"
+        },
+        "pdf": {
+          "path": "2026-01-19_4_dc26493871.pdf",
+          "bytes": 99612,
+          "served_sha256": "e93ee9728838ecd60f4addae88d5a433a4da743d0a0cc436a8df3d3a02d3b37a"
+        }
+      }
+    },
+    {
+      "id": "27998184",
+      "title": "tyler robinson motion to vacate or continue march 27 2026",
+      "pages": 69,
+      "org": 27875,
+      "user": 100497,
+      "created_at": "2026-04-02T20:17:35.553Z",
+      "api_file_hash_sha1": "a8383ffe1dfe667bef96cb05f0e742e41f8ae0a0",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.txt",
+          "bytes": 112783,
+          "served_sha256": "2339b1260cc500f8c21a04d17be790293bce989d9a70b95fab44f99f66a4377c"
+        },
+        "pdf": {
+          "path": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.pdf",
+          "bytes": 1547812,
+          "served_sha256": "5dfe91f5bba758d2b4add2640d435f5905800b52b4cb8d30890758467d3ee354"
+        }
+      }
+    },
+    {
+      "id": "27998188",
+      "title": "tyler robinson motion to vacate or continue march 27 2026",
+      "pages": 69,
+      "org": 27875,
+      "user": 100497,
+      "created_at": "2026-04-02T20:25:12.010Z",
+      "api_file_hash_sha1": "a8383ffe1dfe667bef96cb05f0e742e41f8ae0a0",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.txt",
+          "bytes": 112783,
+          "served_sha256": "2339b1260cc500f8c21a04d17be790293bce989d9a70b95fab44f99f66a4377c"
+        },
+        "pdf": {
+          "path": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.pdf",
+          "bytes": 1547812,
+          "served_sha256": "cc1c8e10ecac96c5395fb089342c013d3e37a11e05bbcae14437bd56738b5c9d"
+        }
+      }
+    },
+    {
+      "id": "27998189",
+      "title": "tyler robinson motion to vacate or continue march 27 2026",
+      "pages": 69,
+      "org": 27875,
+      "user": 100497,
+      "created_at": "2026-04-02T20:31:42.180Z",
+      "api_file_hash_sha1": "a8383ffe1dfe667bef96cb05f0e742e41f8ae0a0",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.txt",
+          "bytes": 112783,
+          "served_sha256": "2339b1260cc500f8c21a04d17be790293bce989d9a70b95fab44f99f66a4377c"
+        },
+        "pdf": {
+          "path": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.pdf",
+          "bytes": 1547812,
+          "served_sha256": "c696e2675eae202e2ebddff159e24e4b38b507d2a3a5d8cedf1e93b13f99f2ec"
+        }
+      }
+    },
+    {
+      "id": "28324423",
+      "title": "Reply to the States Response for Motion for Defendant to be Unshackled",
+      "pages": 4,
+      "org": 60250,
+      "user": 103665,
+      "created_at": "2026-06-25T17:50:19.330Z",
+      "api_file_hash_sha1": "d4a997ac81aae5ace133c48bce0cd1527238a632",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.txt",
+          "bytes": 7752,
+          "served_sha256": "21b670ca4805f89dcbb744f60343123c6d6f41c634ad8840ad9641707137417b"
+        },
+        "pdf": {
+          "path": "2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.pdf",
+          "bytes": 125730,
+          "served_sha256": "ad2cf27e9754757d6d40a9cfc60b596af5b02dc4e4dd7e54a5063da76f82dae4"
+        }
+      }
+    },
+    {
+      "id": "28417731",
+      "title": "gov.uscourts.utd.165286.1.4 1",
+      "pages": 663,
+      "org": 758,
+      "user": 5762,
+      "created_at": "2026-07-06T00:51:19.561Z",
+      "api_file_hash_sha1": "4660cb21d41269e89c1d76a81d9e47be0884559f",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.txt",
+          "bytes": 1155299,
+          "served_sha256": "b33d543dd6e215a9a420617a46fd17358a8edd164b3c6363ba87d9beafba337b"
+        },
+        "pdf": {
+          "path": "2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.pdf",
+          "bytes": 24264080,
+          "served_sha256": "3908b442471533f8eb8effc9cec94ce9df12e846defa37d2bb29fec6d8a5feb7"
+        }
+      }
+    },
+    {
+      "id": "28443912",
+      "title": "Supplemental Notice Concerning Access to Evidennce Presented in Open Court re Tyler Robinson",
+      "pages": 4,
+      "org": 19290,
+      "user": 100427,
+      "created_at": "2026-07-09T18:26:33.754Z",
+      "api_file_hash_sha1": "e31404f912f4a36578ed774b1e3fa02f746875fb",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2026-07-09_supplemental-notice-concerning-access-evidennce-presented-open-court_dc28443912.txt",
+          "bytes": 5128,
+          "served_sha256": "6ebbda660f71601de1941d41dd947b186edb1cf2ebf6702ec2b14155144226e8"
+        },
+        "pdf": {
+          "path": "2026-07-09_supplemental-notice-concerning-access-evidennce-presented-open-court_dc28443912.pdf",
+          "bytes": 574981,
+          "served_sha256": "bf8b8af375b4f43e0507b624b0c0bdd8bab8aceffdcacb179abdc4f67da2d5f5"
+        }
+      }
+    },
+    {
+      "id": "28551955",
+      "title": "Defendant Tyler James Robinson's Preliminary Hearing Briefing, 8-11-26",
+      "pages": 41,
+      "org": 270,
+      "user": 109543,
+      "created_at": "2026-08-12T19:27:07.512Z",
+      "api_file_hash_sha1": "a93801eef1bcbe30e0af4f569d91e841b266ce2b",
+      "access": "public",
+      "source": "",
+      "related_article": "",
+      "files": {
+        "txt": {
+          "path": "2026-08-12_defendant-james-preliminary-hearing-briefing-8-11-26_dc28551955.txt",
+          "bytes": 94225,
+          "served_sha256": "5939b7d7ceb72cfab1bc770b55e103c17f727e7019fadb6cce7bca6e1b0bf833"
+        },
+        "pdf": {
+          "path": "2026-08-12_defendant-james-preliminary-hearing-briefing-8-11-26_dc28551955.pdf",
+          "bytes": 383293,
+          "served_sha256": "5c2c426b79febf1260b1b3458b379c184d609c1a36f18e6cc52bb8369d94e490"
+        }
+      }
+    }
+  ]
+}
