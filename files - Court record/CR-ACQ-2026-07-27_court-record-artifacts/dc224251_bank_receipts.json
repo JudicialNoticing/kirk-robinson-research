@@ -15,16 +15,22 @@
       "retrieved": "2026-08-16",
       "files": {
         "txt": {
-          "path": "2026-01-30_defendant-renewed-motion-disqualify-utah-attorney-general-memorandum_dkt348_dc27881509.txt",
+          "path": "2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.txt",
           "bytes": 21062,
           "served_sha256": "7c5a25f92601e8c60904de8c31ff5f67481638daa7388b153d5d302628cc4c85",
-          "url": "https://s3.documentcloud.org/documents/27881509/1-30-2026-defendant-tyler-robinson-renewed-motion-to-disqualify-utah-attorney-general-memorandum-of-points-and-authorities-docket-348.txt"
+          "url": "https://s3.documentcloud.org/documents/27881509/1-30-2026-defendant-tyler-robinson-renewed-motion-to-disqualify-utah-attorney-general-memorandum-of-points-and-authorities-docket-348.txt",
+          "renamed_from": "2026-01-30_defendant-renewed-motion-disqualify-utah-attorney-general-memorandum_dkt348_dc27881509.txt",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         },
         "pdf": {
-          "path": "2026-01-30_defendant-renewed-motion-disqualify-utah-attorney-general-memorandum_dkt348_dc27881509.pdf",
+          "path": "2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.pdf",
           "bytes": 216926,
           "served_sha256": "f508c4786ef5f86db4df13cf59d252651a04c2d576931002b0010d5c0fb51670",
-          "url": "https://s3.documentcloud.org/documents/27881509/1-30-2026-defendant-tyler-robinson-renewed-motion-to-disqualify-utah-attorney-general-memorandum-of-points-and-authorities-docket-348.pdf"
+          "url": "https://s3.documentcloud.org/documents/27881509/1-30-2026-defendant-tyler-robinson-renewed-motion-to-disqualify-utah-attorney-general-memorandum-of-points-and-authorities-docket-348.pdf",
+          "renamed_from": "2026-01-30_defendant-renewed-motion-disqualify-utah-attorney-general-memorandum_dkt348_dc27881509.pdf",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         }
       }
     },
@@ -231,16 +237,22 @@
       "retrieved": "2026-08-16",
       "files": {
         "txt": {
-          "path": "2025-12-17_defendant-motion-disqualify-prosecutor-judge-conflict-interest_dkt250_dc27880873.txt",
+          "path": "2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.txt",
           "bytes": 33894,
           "served_sha256": "ed0b543427c828499b217557c4540ccca66a5252ba0539d72051c1aefc2df8ae",
-          "url": "https://s3.documentcloud.org/documents/27880873/12-17-2025-defendant-motion-to-disqualify-prosecutor-and-or-judge-for-conflict-of-interest-docket-250.txt"
+          "url": "https://s3.documentcloud.org/documents/27880873/12-17-2025-defendant-motion-to-disqualify-prosecutor-and-or-judge-for-conflict-of-interest-docket-250.txt",
+          "renamed_from": "2025-12-17_defendant-motion-disqualify-prosecutor-judge-conflict-interest_dkt250_dc27880873.txt",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         },
         "pdf": {
-          "path": "2025-12-17_defendant-motion-disqualify-prosecutor-judge-conflict-interest_dkt250_dc27880873.pdf",
+          "path": "2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.pdf",
           "bytes": 2744947,
           "served_sha256": "8dc58d4d2848e5f72a30e2734164a44161b35f9f83112141c1547424492f1c89",
-          "url": "https://s3.documentcloud.org/documents/27880873/12-17-2025-defendant-motion-to-disqualify-prosecutor-and-or-judge-for-conflict-of-interest-docket-250.pdf"
+          "url": "https://s3.documentcloud.org/documents/27880873/12-17-2025-defendant-motion-to-disqualify-prosecutor-and-or-judge-for-conflict-of-interest-docket-250.pdf",
+          "renamed_from": "2025-12-17_defendant-motion-disqualify-prosecutor-judge-conflict-interest_dkt250_dc27880873.pdf",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         }
       }
     },
@@ -327,16 +339,22 @@
       "retrieved": "2026-08-16",
       "files": {
         "txt": {
-          "path": "2025-09-10_utah-county-district-attorney-press-release-after-shooting_dc27880543.txt",
+          "path": "2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.txt",
           "bytes": 1599,
           "served_sha256": "b3852d986c030976c99da5e68bd572d99c60ac4545b912825ef5e554780ebeb2",
-          "url": "https://s3.documentcloud.org/documents/27880543/9-10-2025-utah-county-district-attorney-press-release-after-shooting.txt"
+          "url": "https://s3.documentcloud.org/documents/27880543/9-10-2025-utah-county-district-attorney-press-release-after-shooting.txt",
+          "renamed_from": "2025-09-10_utah-county-district-attorney-press-release-after-shooting_dc27880543.txt",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         },
         "pdf": {
-          "path": "2025-09-10_utah-county-district-attorney-press-release-after-shooting_dc27880543.pdf",
+          "path": "2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
           "bytes": 99805,
           "served_sha256": "18ee3adbdc7cc70ecd3a29e6da6647fe78089afb98fbf5666bbc4c089a4521f3",
-          "url": "https://s3.documentcloud.org/documents/27880543/9-10-2025-utah-county-district-attorney-press-release-after-shooting.pdf"
+          "url": "https://s3.documentcloud.org/documents/27880543/9-10-2025-utah-county-district-attorney-press-release-after-shooting.pdf",
+          "renamed_from": "2025-09-10_utah-county-district-attorney-press-release-after-shooting_dc27880543.pdf",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         }
       }
     },
@@ -447,16 +465,22 @@
       "retrieved": "2026-08-16",
       "files": {
         "txt": {
-          "path": "2025-09-22_utah-county-district-attorney-press-release-prosecutor-trial_dc27880535.txt",
+          "path": "2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.txt",
           "bytes": 782,
           "served_sha256": "636010c0e6bf97c47b09a6d344bd1b7bddf9deba6f51db6c8807fa28673d608a",
-          "url": "https://s3.documentcloud.org/documents/27880535/9-22-2025-utah-county-district-attorney-press-release-tyler-robinson-trial-team.txt"
+          "url": "https://s3.documentcloud.org/documents/27880535/9-22-2025-utah-county-district-attorney-press-release-tyler-robinson-trial-team.txt",
+          "renamed_from": "2025-09-22_utah-county-district-attorney-press-release-prosecutor-trial_dc27880535.txt",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         },
         "pdf": {
-          "path": "2025-09-22_utah-county-district-attorney-press-release-prosecutor-trial_dc27880535.pdf",
+          "path": "2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.pdf",
           "bytes": 787184,
           "served_sha256": "e92d7265183638f70d6e6bd62494317316589850bd6143c1bd4dd12f547d6a74",
-          "url": "https://s3.documentcloud.org/documents/27880535/9-22-2025-utah-county-district-attorney-press-release-tyler-robinson-trial-team.pdf"
+          "url": "https://s3.documentcloud.org/documents/27880535/9-22-2025-utah-county-district-attorney-press-release-tyler-robinson-trial-team.pdf",
+          "renamed_from": "2025-09-22_utah-county-district-attorney-press-release-prosecutor-trial_dc27880535.pdf",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         }
       }
     },
@@ -615,16 +639,22 @@
       "retrieved": "2026-08-16",
       "files": {
         "txt": {
-          "path": "2025-09-24_order-transport-virtual-hearing_dkt24_dc27880870.txt",
+          "path": "2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.txt",
           "bytes": 553,
           "served_sha256": "544a3fd2df8a661e3310d550564f0e750b1eb900e8b2750018e2222f17f1eef4",
-          "url": "https://s3.documentcloud.org/documents/27880870/9-24-2025-order-to-transport-for-virtual-hearing-docket-24.txt"
+          "url": "https://s3.documentcloud.org/documents/27880870/9-24-2025-order-to-transport-for-virtual-hearing-docket-24.txt",
+          "renamed_from": "2025-09-24_order-transport-virtual-hearing_dkt24_dc27880870.txt",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         },
         "pdf": {
-          "path": "2025-09-24_order-transport-virtual-hearing_dkt24_dc27880870.pdf",
+          "path": "2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.pdf",
           "bytes": 131323,
           "served_sha256": "b440b13a6da71c190c2545e71d00e14cac83f464de90e22e9d9c39b642a3414d",
-          "url": "https://s3.documentcloud.org/documents/27880870/9-24-2025-order-to-transport-for-virtual-hearing-docket-24.pdf"
+          "url": "https://s3.documentcloud.org/documents/27880870/9-24-2025-order-to-transport-for-virtual-hearing-docket-24.pdf",
+          "renamed_from": "2025-09-24_order-transport-virtual-hearing_dkt24_dc27880870.pdf",
+          "renamed_on": "2026-08-16",
+          "rename_reason": "filename derived from an uploader-supplied DocumentCloud title that misdescribed the document (CR-ACQ-2026-08-16 \u00a75, F-39)"
         }
       }
     },
@@ -676,5 +706,7 @@
         }
       }
     }
-  ]
+  ],
+  "path_integrity_checked": "2026-08-16",
+  "note": "Five stems were renamed on 2026-08-16 after readers found the uploader-supplied titles misdescribed the documents (CR-ACQ-2026-08-16 \u00a75). Each affected entry carries renamed_from. SHA-256 values are unchanged by a rename. NOTE: the .txt files were separately repaired on 2026-08-16 (0x00 -> 0x0C, Q-105), so served_sha256 for .txt entries reflects the AS-DOWNLOADED bytes, superseded by docket-artifacts_2026-08-16_NUL-repair_SUPERSESSION.json."
 }
