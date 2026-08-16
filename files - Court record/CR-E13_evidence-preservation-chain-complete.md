@@ -12,7 +12,7 @@
 
 **Tier 1** — sworn testimony and primary court filings/documents · **Tier 2** — named official statements · **Tier 3** — named journalistic reporting/analysis · **Tier 4** — anonymous-source or low-verification material. **"T1 via T3"** marks primary content known only through reporting.
 
-**Docket-number marks:** **[F]** = the number is stated on a document **face** (Tier 1) · **[N]** = the number comes from a **DocumentCloud uploader title** only (Tier 4 — CR-ACQ-2026-08-16 **F-39**) · **[R]** = from the XChange register, **which carries no document numbers at all** and can therefore never supply one.
+**Docket-number marks:** **[F]** = the number is stated on a document **face** (Tier 1) · **[N]** = the number comes from a **DocumentCloud uploader title** only (Tier 4 — CR-ACQ-2026-08-16 **F-39**) · **[R]** = from the XChange register. ⚠️ **The register has no document-number COLUMN — but it is NOT true that it can never supply a number.** 🛠 **CORRECTED 2026-08-16 (CR-REVIEW-2026-08-16B, R1): FOUR DOCKET NUMBERS DO APPEAR — `Dkt. #23`, `Doc. 165`, `Dkt 197`, `Dkt. 325`, six occurrences in EACH printout, embedded inside filing titles the parties typed. The printouts have no document-number COLUMN; the absolute form was FALSE and this library already relied on the contrary (CR-E12 grades Dkt. #23 at High from exactly this source).**
 
 ---
 

@@ -132,7 +132,7 @@
 ### 4. Route status — one route RE-OPENED
 
 - ⚠ **THE DOCUMENTCLOUD API IS NO LONGER BOT-GATED.** Run 1 recorded a Cloudflare 403; on 2026-08-01 `api.www.documentcloud.org/api/documents/search/` returned **HTTP 200 with valid JSON**, honouring `+project:224251` filtering and cursor pagination. **Project 224251 was POSITIVELY ENUMERATED for the first time: count field = 46; 45 distinct documents listed across two cursor pages.** ⚠ **One of the 46 is unaccounted for in the enumeration and no claim is made otherwise.** **The DocumentCloud WEB UI remains JS-gated** — so **Q-32 should be SPLIT, not closed.**
-- **Q-03 partially unblocked:** two docket-listing documents are now retrievable without the XChange paywall, **but both are current only to 2026-03-15** and so do not cover this watch window. **The blocker on a CURRENT docket is unchanged.**
+- **Q-03 partially unblocked:** two docket-listing documents are now retrievable without the XChange paywall, **but both are current only to **2026-03-14** 🛠 *(corrected 2026-08-16, R7: the last docket entry is 2026-03-14; 2026-03-15 03:18/03:21 is the printout's GENERATION stamp, not its coverage — every other file in the library says 03-14)*** and so do not cover this watch window. **The blocker on a CURRENT docket is unchanged.**
 - **Collateral benefit relevant to standing hazard 9:** project 224251 holds a **"prosecutor David Sturgill biography"** document. **Sturgill is the examining prosecutor who has NO speaker label anywhere in Rev's Day 1 transcript** (CR-E05 §1.2).
 - **abc4.com** and the DocumentCloud **web UI** have now failed on two consecutive runs.
 
