@@ -5,6 +5,45 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
+## 0AC. SESSION CLOSE — 2026-08-17, PAUSED AT USAGE LIMIT (READ FIRST — SUPERSEDES §0AB)
+
+**Queue runs to Q-167. Register: see QUEUE.md's header — it is now the single source of truth and this file must not restate the number. `queue-check.sh`: RESULT clean. All work committed.**
+
+### 🚨 THE ONE THING THAT COULD BE LOST — READ BEFORE ANYTHING ELSE
+
+**A workflow was IN FLIGHT when the session paused: `SEC-E01`, the security-posture file** (run `wf_40d671b9-8d9`, 21 of ~28 agents returned, output file **0 bytes** — it did **not** return). ✅ **Its script is banked** at `CR-ACQ-.../2026-08-17_SEC-E01-workflow-script.js`. ⚠️ **Resume-from-run-id will NOT work across sessions — re-run it fresh from the banked script.** 🚨 **Nothing of its output exists. This is the Q-136 situation exactly, and the script was banked precisely so it cannot repeat.**
+
+### ✅ What landed and is applied
+
+1. **Q-136 (Zinn) — DONE.** 39 agents. `zinn-george-evidence.md` → **v1.1**. 🚨 **The child-victim detail is REMOVED** (flagged at three prior passes, unremedied each time). *"The FBI separately concluded Robinson acted alone"* **STRUCK** — no such statement exists in anything held; **one proposition, three attributions across this library, only Cox's hedged one held.** §5.3 rewritten on the further ground that **acted-alone does not bear on the payment claim at all** — participation in the shooting vs. post-shooting obstruction. The file gained the **revision log, version and File ID it never had.**
+2. **Twiggs — DONE.** 45 agents. Profile → **v1.4**. 🚨 **The file cited a source five times and no pass had ever opened it** (the 2026-06-22 transcript). *"He relied on State v. Lopez"* is **reversed at Tier 1**. **Q-142 verified 159 rows: 54 confirmed · 94 NARROWED · 11 refuted** — and **five refuted rows targeted text the living-persons pass had already removed.**
+3. **Q-146 · Q-148 · Q-131 · Q-147 · Q-159 · Q-161 — all done.** Details in QUEUE.md.
+4. **SEC-E02 written** — `files - Event security/`. The palm-pistol allegation recorded at T4 and **resolved against at Medium-high**, capped because **State's Exhibit 11 (the ME report) is ADMITTED WITH PUBLICATION DENIED and no wound evidence is held.**
+5. **Run 6 of DOCKET-WATCH logged.** 🚨 **Escalation MET — the Fox mirror route is BLOCKED.**
+
+### 📋 WHERE TO PICK UP — in this order
+
+1. 🚨 **THE 08-18 BY-HAND WATCH RUN IS TODAY OR YESTERDAY DEPENDING WHEN YOU READ THIS.** The State's reply was due **Tue 2026-08-18**. ⚠️ **Run 6 found the Fox outlet-mirror route BLOCKED (Wayback CDX 504) — that is the route Run 4 baselined to make this cheap.** Re-attempt it; if still down, the cover rests on DocumentCloud and Rev alone. `./docket-watch-run.py`.
+2. 🚨 **APPLY Q-137 AND Q-138 — the analysis is DONE and BANKED, only the application remains.** `CR-ACQ-.../2026-08-17_Q137-Q138-person-files_RAW.json` (1.27 MB, SHA-256 `40b88eb7…`): **18 findings survived, 6 split, 0 refuted**, plus two apply-ready plans (**56 KB and 62 KB**) and a cross-file critic. **This is the highest-value work available and needs no new dispatch.** 🚨 **Its headline: the arrest chronology's booking times are WRONG — the file says arrest 10 p.m. Sept 11 / booked 1:58 a.m.; four independent primaries agree on arrest 04:00 → arrival ~07:00 → booked 07:58:15, ALL on Sept 12**, and Davis testified he was himself the booking officer. ⚠️ **The booking record's TEXT LAYER IS GARBLE — the finding came from rendering the PDF at 300 DPI. Do not search the .txt.**
+3. **Re-run the SEC-E01 workflow fresh** from the banked script (above).
+4. **Q-164** (verify SEC-E02) · **Q-162** (the rest of the Twiggs tier re-marking) · **Q-153** (point DocumentCloud's open API at Zinn — never once tried).
+
+### 👤 OWNER-GATED — batched, nothing else waits on you
+
+- **Q-160** — five Twiggs edits, each of which would put more about a private individual into the file. **My recommendations are written into the row.** ✅ **Q-161 unblocked its (a): the next free D-number is D-73.**
+- **Q-147** — the DOCKET-WATCH routine-prompt change is **drafted and unapplied**; it should land before a Wednesday firing.
+- **Q-166** — State's Exhibit 11. ⚠️ **A sealing question, not an acquisition one.**
+- **Q-31** ($10 XChange) ⚠️ **but see Q-149: its blocker was never verified** · **Q-156** (two GRAMA requests) · **Q-157** · **Q-60** · **Q-42** · **Q-50** · the two PII retention decisions.
+
+### ⚠️ What this session should teach the next one
+
+1. 🚨 **A CITATION IS A CLAIM THAT SOMEONE READ IT.** The Twiggs file cited one transcript five times across four sections and nobody had opened it. **No amount of re-reading the file could have found the defect, because it was never in the file's internal consistency.**
+2. 🚨 **THE RIGHT RULE AT THE WRONG DEPTH IS STILL WRONG.** Five successive passes applied *grep, then read the hit* to the D-register — **and each read the hit for the number it was correcting and stopped.** Not one read the hit for D-73. **The ceiling was D-72 the whole time.**
+3. ⚠️ **A MAP AND A REMOVAL PASS FROM THE SAME SESSION WERE NEVER RECONCILED AGAINST EACH OTHER.** Five of Q-142's rows would have **re-inserted living-persons material that had already been removed, in order to mark its tier.**
+4. ✅ **THE VALIDATOR CAUGHT ITS FIRST REAL DUPLICATE EIGHT HOURS AFTER BEING FIXED — on this session's own work.** Under the old pattern it was blind to 111 of 149 rows.
+
+---
+
 ## 0AB. SESSION CLOSE — 2026-08-17 (READ FIRST)
 
 **Queue runs to Q-149.** 🛠 **REGISTER CEILING CORRECTED 2026-08-17: it is D-72 assigned / D-73 next free, NOT "D-73 unchanged" — D-73 was never assigned to anything, and this line was one of the three sites that manufactured the error.** **Do not restate the number here; the canonical statement is QUEUE.md's header.** `queue-check.sh`: RESULT clean. All work committed and pushed.
