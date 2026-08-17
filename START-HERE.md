@@ -5,6 +5,41 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
+## 0AA. SESSION — 2026-08-16, LATE NIGHT (READ FIRST; supersedes §0A wherever they disagree)
+
+**Register ceiling unchanged at D-73. Queue now runs to Q-148. `queue-check.sh`: RESULT clean.**
+
+### ✅ Q-140 and Q-141 are DONE. The Twiggs profile is v1.3.
+
+**Applied:** C2, C4, C5 · **21 living-persons edits** · the ATF leg of the DNA record · §4 narrowed · §8.3 expanded · the methodological note corrected · the §7.1 booking inference removed.
+
+### 🚨 THE THREE THINGS THIS SESSION SHOULD TEACH THE NEXT ONE
+
+1. 🚨 **A PENDING INSTRUCTION POINTED AT A FILE THAT WAS NEVER WRITTEN.** Q-140's seven living-persons removals were specified as *"listed in the working note"* — **and no working note exists.** Searched every `.md`, `git log --diff-filter=D`, the untracked and ignored trees, the scratchpad. **The list died with the session that made it, and the count "seven" propagated into three files as though it were a specification.** ✅ **Re-derived from scratch by three independent lenses and deliberately NOT reconciled to seven.** ✅ **The rule: the deliverable is the FILE. This session banked its raw analytic output (519 KB, 44 agents) BEFORE applying any of it.**
+2. 🚨 **TWO OF Q-140'S THREE SPECIFICATIONS WERE THEMSELVES DEFECTIVE, AND I PROPAGATED ONE WITHIN THE HOUR.** C2 gave one of the record's **two** renderings of the redaction figures and omitted three further Day-4 redactions; C5 located its defect in a caption the profile does not carry; and C5's *"09-01 may answer several open questions"* is **WRONG** — Day 5 closed the evidence (defence rested, State waived rebuttal, Robinson declined to testify) and **09-01 is ARGUMENT ONLY, four hours, on a closed record.** ⚠️ **I wrote that error into the profile before verifying it, then found and corrected it hours later. Adopting a correction from a review file without going to the primary source is not a verification act.**
+3. ⚠️ **A STALE ROADMAP LINE SUPPRESSED WORK FOR THREE WEEKS.** `CR-ACQ-2026-07-27` item 8 still said **"Day 1 of the preliminary hearing — not found"** while `day1.txt` had been on disk since 2026-07-28 and START-HERE had recorded all five days read since 08-01. **It is why a seven-reader completeness pass did not open Day 1.** ✅ Corrected in place; the Day-1 Twiggs null is now documented with its pattern list. 🚨 **A roadmap entry is a claim about HOLDINGS — the same root cause as the CR-E12 defect found earlier the same day.**
+
+### What the completeness pass found (first ever run on this file)
+
+- 🚨 **A SECOND LABORATORY.** ATF's DNA Section Chief, **called by the defence on Day 5**, testified to **"support for inclusion of Lance Twiggs"** on a **Dremel tool** — **the top of ATF's five-category scale, on a third item the profile did not know existed.** ⚠️ **§5.1's "only LR ever run on him was 1" is now scoped to the FBI examination, where it is true.** ✅ **The exculpatory frame travels in the same breath because the record puts it there** — three household elimination donors, and the witness's own household-transfer explanation, on the one item of three where innocent provenance is strongest.
+- ⚠️ **§4 said authorities "consistently" exculpated him. The record does not carry "consistently."** At the charging press conference the County Attorney **declined four times** to characterise the roommate's position and said investigators *"haven't ruled that out"* on advance knowledge. 🚨 **Recorded with its reading attached: a prosecutor's refusal to comment is ORTHODOX and is NOT an adverse indication.**
+- ✅ **Q-141 confirmed C1 and C3 — and NARROWED C3.** *"Assumed"* is the examiner's lab **term of art** for a contributor conditioned into STRmix, and she stated a visual basis. **The statistics still cannot discriminate as to him; but the file must not say nothing did.**
+
+### 📋 Where to pick up
+
+1. 🚨 **A1 — the 08-18 by-hand watch run. TUESDAY. Still the only document-capable cover for the State's reply.** ✅ **De-risked 2026-08-16: `./docket-watch-run.py` was dry-run against the baseline, all four routes attemptable, zero drift — logged as Run 5.** ✅ **DocumentCloud is OPEN again** (403 at 09:00, open 14:05, open 22:47 — *intermittent*, now measured across three observations).
+2. **Q-142** — apply the tier re-marking; the map is built and banked. **This is the last piece of the Twiggs file.**
+3. **Q-145** — the contempt/subpoena transcript: **Tier 1 for the whole of §6, on disk, never opened**, and it carries a *"disposed of clothing"* strand the profile has nowhere.
+4. **Q-144** (seven banked completeness findings) · **Q-143** (two split verdicts) · **Q-146** (the Count-4 docket/pleading date conflict).
+5. **Q-136 Zinn · Q-137 arrest chronology · Q-138 Erika Kirk** — the rest of the person-file programme, unchanged.
+
+### 👤 OWNER-GATED — one item added
+
+- 🚨 **NEW: the DOCKET-WATCH routine's live prompt still says the preliminary hearing was `HELD`.** Verified from the API: its prompt was last written **2026-08-15T00:23Z**, *before* the posture correction, and **it fires Wed 08-19**. ⚠️ **The prohibition against stating posture does not help — the wrong posture is supplied to the run as background fact, above the prohibition.** ✅ **A corrected draft is banked and ready to apply on your say-so: `DOCKET-WATCH-routine-prompt-DRAFT-2026-08-16.md`.**
+- **Two PII retention decisions** (the 24.3 MB `BAM Franchising` filing; the printout with an uninvolved party's name + DOB) · **Q-31** ($10 XChange) · **Q-32(b)** (a browser you drive) · **Q-60** · **Q-42** · **Q-50**.
+
+---
+
 ## 0A. SESSION — 2026-08-16, afternoon AND EVENING (READ THIS FIRST; it supersedes everything below wherever they disagree)
 
 **Register: ceiling D-73, next free D-74. Queue runs to Q-141. Flags to F-110. Standing hazards to 16. `queue-check.sh`: RESULT clean. All work pushed to `origin/main`.**
