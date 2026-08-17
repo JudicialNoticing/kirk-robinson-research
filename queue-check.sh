@@ -64,6 +64,38 @@ prov=$(grep -rc '\[PROVISIONAL\]' --include='*.md' . 2>/dev/null | grep -v ':0' 
 if [ -n "$prov" ]; then say "$prov" | sed 's/^/  /'; say "  → these may NOT be cited elsewhere until a verification cycle clears them (LOOP.md §2)"; else ok "none outstanding"; fi
 
 say ""
+say "== Artifacts folder integrity =="
+# Added 2026-08-17 (Q-159). A PDF with no .txt sibling is STRUCTURALLY INVISIBLE to every
+# "searched all the .txt artifacts" sweep this library runs — the sweep cannot report a gap
+# it cannot see. One such file already existed unnoticed. This makes the gap visible.
+ART="files - Court record/CR-ACQ-2026-07-27_court-record-artifacts"
+if [ -d "$ART" ]; then
+  npdf=$(find "$ART" -maxdepth 1 -name '*.pdf' | wc -l | tr -d ' ')
+  ntxt=$(find "$ART" -maxdepth 1 -name '*.txt' | wc -l | tr -d ' ')
+  nsub=$(find "$ART/prelim-hearing-transcripts" -maxdepth 1 -name '*.txt' 2>/dev/null | wc -l | tr -d ' ')
+  unpaired=""
+  while IFS= read -r p; do
+    [ -f "${p%.pdf}.txt" ] || unpaired="$unpaired $(basename "$p")"
+  done < <(find "$ART" -maxdepth 1 -name '*.pdf')
+  nun=$(printf '%s' "$unpaired" | wc -w | tr -d ' ')
+  say "  $npdf PDF · $ntxt txt (+$nsub in prelim-hearing-transcripts)"
+  # 71 = 63 + 9 - 1 contaminant. If this arithmetic changes, every "71 artifacts" null is re-scoped.
+  say "  sweepable .txt excluding the BAM Franchising contaminant: $((ntxt + nsub - 1))"
+  if [ "$nun" = "1" ] && [ -n "$(printf '%s' "$unpaired" | grep -c 'tyler-robinson-redacted-hearing-transcript')" ]; then
+    ok "1 unpaired PDF, and it is the known-cleared one (duplicates oct24_clean.txt; zinn=0)"
+  elif [ "$nun" = "0" ]; then
+    ok "no unpaired PDFs"
+  else
+    bad "$nun PDF(s) with no .txt sibling — INVISIBLE to every .txt sweep:$unpaired"
+  fi
+  # degraded-OCR near-nulls: a .txt this small is not searchable text
+  tiny=$(find "$ART" -maxdepth 1 -name '*.txt' -size -1k | while read -r f; do basename "$f"; done | tr '\n' ' ')
+  [ -n "$tiny" ] && say "  ⚠ near-null extractions (<1KB, may be degraded OCR): $tiny"
+else
+  say "  (artifacts folder not found — skipped)"
+fi
+
+say ""
 say "== Working tree =="
 if [ -n "$(git status --porcelain 2>/dev/null)" ]; then say "  uncommitted changes present"; else ok "clean"; fi
 
