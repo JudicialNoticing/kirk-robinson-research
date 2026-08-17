@@ -1,6 +1,10 @@
 # Erika Kirk: Background, Family, and Contested-Claims Dossier
 
-**Case context:** Ancillary research file for the *State of Utah v. Tyler James Robinson* project (Case No. 251403576). Erika Kirk is not a party or (publicly known) witness in the criminal case; this file exists because claims about her background have become a major vector of assassination-adjacent conspiracy narratives, and the project requires a clean separation between what is documented about her and what is asserted.
+🚨 **FOUNDING PREMISE CORRECTED 2026-08-17 (Q-138) — AND IT WAS FALSE ON PRIMARY DOCUMENTS THIS LIBRARY ALREADY HELD.** This file opened: *"Erika Kirk is not a party or (publicly known) witness in the criminal case."* **She has a formal, statutory role in it.** ✅ **Established at Tier 1:** counsel for the victim moved on **2025-09-16** (dkt 12) that she be designated representative of the deceased victim under **Utah Code Ann. § 77-38-9(2)**, to exercise the victim's rights under Chapters 77-37 and 77-38; the designation was **GRANTED ORALLY FROM THE BENCH on 2025-12-11**; she has had **counsel of record since 2025-09-16** — ten months earlier than this library believed; and she is **the sole named protected person on the entered Pretrial Protective Order (dkt 14, signed 2025-09-16)**. She has also moved in her own name (the 2026-07-08 supplemental notice) and invoked speedy-trial rights (2026-01-16), which the State then deployed as scheduling pressure (CR-E14, F-84 chain).
+
+⚠️ **WHY THIS MATTERS TO THE FILE'S SCOPE RATHER THAN BEING HOUSEKEEPING: the old sentence licensed the dossier by saying she had no role in the case.** She does. **The correct scope is narrower and better founded:** this file exists **because claims about her background became a vector of assassination-adjacent narrative**, and it tests those claims. **It is not a biography, and her formal role in the proceeding is a fact about the case — not a warrant to widen into her private life.** See the Part VI correction, where an acquisition roadmap had begun to do exactly that.
+
+**Case context:** Ancillary research file for the *State of Utah v. Tyler James Robinson* project (Case No. 251403576). ~~Erika Kirk is not a party or (publicly known) witness in the criminal case;~~ this file exists because claims about her background have become a major vector of assassination-adjacent conspiracy narratives, and the project requires a clean separation between what is documented about her and what is asserted.
 
 **Compiled:** July 15, 2026
 **Method:** Four-tier sourcing framework applied throughout.
@@ -33,7 +37,8 @@
 | Ventures | BIBLEin365 ministry program (2016); Proclaim Streetwear / Proclaim365 apparel (2018); *Midweek Rise Up* podcast (2019) | T3 | Fortune, Britannica |
 | Romania work | "Romanian Angels" project under Everyday Heroes Like You: holiday gift drives, letters, and orphanage/hospital visits in Constanța, ~2011–2015, in partnership with U.S. service members and the charity United Hands Romania; "adopt an orphan" language referred to gift sponsorship, not legal adoption | T3 + T1 artifacts | Lead Stories, PolitiFact, Snopes; archived org website and contemporaneous Romanian local press |
 | Relationship | Met Charlie Kirk in 2018 at what began as a job interview (Bill's Burgers, NYC — her account); dating from ~2018–2019; engaged Dec. 2020; married May 8, 2021, Scottsdale | T2/T3 | Her Instagram accounts; Fortune |
-| Children | Daughter b. Aug. 23, 2022; son b. May 2024; names/faces kept private | T3 | People, Fortune |
+| Children | Two minor children. **Names, faces and dates of birth are not recorded in this file.** | T3 | People, Fortune |
+| | 🚨 **REMOVED 2026-08-17 (Q-138): this row previously carried an EXACT DATE OF BIRTH for a minor child, and a birth month and year for a second — in the same sentence as the words *"names/faces kept private."*** ⚠️ **The row was asserting a privacy practice and breaching it in the same breath.** **These children are the subject of no contested claim in Part IV, no register entry, and no public question this library investigates.** A dossier that exists to test claims about their mother's biography has no reason to carry their birthdates. ✅ **The bare fact of two children is retained** — it is ordinary, non-identifying public-figure biography and it appears in the same national reporting. | | |
 | Widowhood | Charlie Kirk assassinated Sept. 10, 2025, Utah Valley University; Erika publicly forgave the accused at the Sept. 21 State Farm Stadium memorial | T3 | Extensively documented in main case files |
 | Current roles | CEO and board chair, Turning Point USA (elected unanimously Sept. 18, 2025; board said Charlie had expressed this succession wish); appointed by Pres. Trump to the U.S. Air Force Academy Board of Visitors, March 2026 | T2/T3 | CBS News, Fortune, Wikipedia |
 
@@ -166,9 +171,20 @@ Each entry: her claim/public narrative → the challenge → best assessment.
 
 ## Part VI — Open questions and Tier 1 acquisition paths
 
-1. **Divorce file (Kent v. Lori Frantzve):** establishes divorce date, custody arrangement, Erika's recorded birthdate. Venue determination first (Ohio county of residence c. 1990s vs. Maricopa County, AZ). This single file would resolve Discrepancies #2–3 and adjudicate the central Owens claim.
-2. **Birth record / announcement:** Ohio Dept. of Health index (non-certified verification available to non-family in Ohio); Dayton Daily News microfilm for the Good Samaritan announcement.
-3. **Clark County marriage record (Solomon–Frantzve, 2002):** online index search, ~$0; certified copy trivially obtainable.
+> 🚨 **ITEMS 1–3 ARE STRUCK 2026-08-17 (Q-138). THIS ROADMAP HAD BEGUN TO OPERATIONALISE THE WIDENING THE FILE'S OWN SCOPE FORBIDS — and a roadmap is not a wish list, it is an instruction to a future pass.**
+>
+> **Struck, with the reason named so no later pass re-opens them:**
+> - ❌ **The family-court divorce and custody file of two living private individuals**, sought to fix a divorce date and a recorded birthdate. **It is a custody file concerning a child's upbringing, about people who are the subject of no claim this file tests.** The proportionality is indefensible: a family-court record pulled to settle a **two-day** variance in a pageant report.
+> - ❌ **A living private person's birth record**, via a state vital-records index, and **microfilm of her parents' newspaper birth announcement.** Same target, same variance, and the second reaches uninvolved private individuals directly.
+> - ❌ **A marriage certificate for the aunt and her late husband.** They are in this file by genealogical completeness, not because anyone made a claim about them.
+>
+> ✅ **What survives is the part that does real work, and the distinction is the point: items 4–8 test claims that were ACTUALLY MADE, using INSTITUTIONAL and SELF-PUBLISHED records.** Corporate filings and Forms 990 test the *"parents' professional intelligence/defense framing"* (Claim 9) and the board claim; degree verification tests Claim 5, which concerns her own public representations about herself; the Archive.org capture series tests **what she actually claimed**, which is the cleanest instrument in the whole file.
+>
+> 🚨 **The operative rule, carried from SEC-E02 §7: a target that seeks PRIVATE information about a private individual is improper even when the record is technically obtainable, and "obtainable" was the only test items 1–3 applied.** ⚠️ **Discrepancies #2–3 therefore stay OPEN and unresolved. That is the correct outcome — an open discrepancy about a birthdate costs this project nothing, and closing it by pulling a custody file would cost someone else a great deal.**
+
+1. ~~**Divorce file (Kent v. Lori Frantzve):** establishes divorce date, custody arrangement, Erika's recorded birthdate. Venue determination first (Ohio county of residence c. 1990s vs. Maricopa County, AZ). This single file would resolve Discrepancies #2–3 and~~ **STRUCK — see above.** adjudicate the central Owens claim.
+2. ~~**Birth record / announcement:** Ohio Dept. of Health index; Dayton Daily News microfilm for the announcement.~~ **STRUCK — see above.**
+3. ~~**Clark County marriage record (Solomon–Frantzve, 2002):** online index search; certified copy trivially obtainable.~~ **STRUCK — see above.** ⚠️ *"Trivially obtainable" was the whole of the justification, and ease of acquisition is not a public question.*
 4. **USPTO/Justia patent records (Frantzve/Guinta):** free; confirms the Lori–Guinta association and Lori's technical field.
 5. **Arizona Corporation Commission filings:** AZ-Tech International, GTEK, E3TEK Group, Prepper Emporia, CKF Group — officer/agent listings would convert the parents' claimed corporate roles from Tier 4 to Tier 1. Free online search.
 6. **TPUSA Forms 990 (2020–2025):** officer/director schedules — tests the Kent-board claim; also relevant to the separate Turning Point Action finances claim.
@@ -233,6 +249,16 @@ Each entry: her claim/public narrative → the challenge → best assessment.
 ---
 
 ## Revision Log
+
+### v1.1 — 2026-08-17 — **Q-138: the founding premise was false, and the roadmap had begun to operationalise the widening**
+
+🚨 **THE FOUNDING PREMISE WAS FALSE ON PRIMARY DOCUMENTS THIS LIBRARY ALREADY HELD.** The file opened by stating she *"is not a party or (publicly known) witness in the criminal case."* She is the **court-designated representative of the deceased victim** under Utah Code § 77-38-9(2) — requested 2025-09-16 (dkt 12), **granted orally from the bench 2025-12-11** — with **counsel of record since 2025-09-16, ten months earlier than this library believed**, and she is **the sole named protected person on the entered Pretrial Protective Order.** ⚠️ **That sentence was doing work: it licensed the dossier by saying she had no role.** The scope is restated — this file tests CLAIMS about her, and her formal role in the proceeding is a fact about the case, not a warrant to widen.
+
+🚨 **AN EXACT DATE OF BIRTH FOR A MINOR CHILD WAS REMOVED FROM PART I** — published in the same sentence as the words *"names/faces kept private."* The row asserted a privacy practice and breached it in the same breath. **These children are the subject of no contested claim, no register entry and no public question this file investigates.** The bare fact of two children is retained.
+
+🚨 **PART VI ITEMS 1–3 STRUCK.** The acquisition roadmap directed a future pass to pull **a family-court divorce and custody file concerning two living private individuals**, **a living private person's birth record**, and **a marriage certificate for an aunt and her late husband** — the last two justified partly on the ground that they were cheap and *"trivially obtainable."* **Ease of acquisition is not a public question.** ✅ **Items 4–8 survive and are the part that does real work** — corporate filings, Forms 990, degree verification and the Archive.org capture series all test claims that were **actually made**, using institutional or self-published records. ⚠️ **Discrepancies #2–3 stay OPEN, and that is the correct outcome: an unresolved two-day birthdate variance costs this project nothing; closing it by pulling a custody file would cost someone else a great deal.**
+
+⚠️ **NOT DONE, and named so the scope is not mistaken for coverage:** the remaining Q-138 findings — the Part II family roster's genealogical material, the guard-test failure on an unadjudicated fraud allegation against a named private individual, the contested-claims register's currency re-check, and the sister-file register collision — are **banked and unapplied** at `CR-ACQ-.../2026-08-17_Q137-Q138-person-files_RAW.json` (`q138.plan`, 62 KB). **6 findings drew SPLIT verdicts and are NOT findings.** This pass took the two urgent items and the scope correction only.
 
 | Date | Change |
 |---|---|

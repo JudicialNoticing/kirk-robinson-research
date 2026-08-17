@@ -11,7 +11,13 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ### 🚨 THE ONE THING THAT COULD BE LOST — READ BEFORE ANYTHING ELSE
 
-**A workflow was IN FLIGHT when the session paused: `SEC-E01`, the security-posture file** (run `wf_40d671b9-8d9`, 21 of ~28 agents returned, output file **0 bytes** — it did **not** return). ✅ **Its script is banked** at `CR-ACQ-.../2026-08-17_SEC-E01-workflow-script.js`. ⚠️ **Resume-from-run-id will NOT work across sessions — re-run it fresh from the banked script.** 🚨 **Nothing of its output exists. This is the Q-136 situation exactly, and the script was banked precisely so it cannot repeat.**
+🛠 **CORRECTED 2026-08-17, WITHIN THE HOUR — AND THE CORRECTION IS THE MORE USEFUL FACT.** This section originally read: *"21 of ~28 agents returned, output file 0 bytes — it did not return… Nothing of its output exists."* **That was wrong.** ✅ **`SEC-E01` DID return, and its output is BANKED** at `CR-ACQ-.../2026-08-17_SEC-E01-security-posture_RAW-PARTIAL.json` (652 KB, SHA-256 `31aa9409…`).
+
+**What actually happened: 44 agents · 29 completed · 🚨 15 KILLED BY A MONTHLY SPEND LIMIT** — the final `draft` and `critic`, plus 13 of the verification agents. ✅ **All six finder lenses completed in full (36 findings), each declaring full-coverage scope.** Verification is **PARTIAL: 7 survived · 4 split · 1 refuted, with 13 verdicts missing.**
+
+🚨 **THE LESSON, AND THIS LIBRARY HAS BEEN HERE BEFORE AND DREW THE WRONG CONCLUSION LAST TIME.** Q-111 records an identical event mis-diagnosed as a transient `429`: *"the error type is `rate_limit_error`, but its message body is a spend cap."* **This time the message is explicit — *"You've hit your monthly spend limit"* — and the distinction Q-111 established holds: THIS IS NOT SELF-RETRYABLE. Clearing it is an OWNER action.** ⚠️ **And note what the 0-byte output file did: it made a partial success look like a total loss.** **Judging a run by its output file rather than its journal is the same class of error as judging a document by its filename.**
+
+✅ **RESUMED the same session** (`resumeFromRunId` is same-session-only): the 29 completed agents replay from cache and only the 15 failures re-run. ⚠️ **If that resume did not complete before the session ended, the script and the partial output are both banked and a fresh run costs only the 15.**
 
 ### ✅ What landed and is applied
 
