@@ -35,7 +35,7 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ### 👤 OWNER-GATED — one item added
 
-- 🚨 **NEW: the DOCKET-WATCH routine's live prompt still says the preliminary hearing was `HELD`.** Verified from the API: its prompt was last written **2026-08-15T00:23Z**, *before* the posture correction, and **it fires Wed 08-19**. ⚠️ **The prohibition against stating posture does not help — the wrong posture is supplied to the run as background fact, above the prohibition.** ✅ **A corrected draft is banked and ready to apply on your say-so: `DOCKET-WATCH-routine-prompt-DRAFT-2026-08-16.md`.**
+- ✅ ~~**the DOCKET-WATCH routine's live prompt still says the preliminary hearing was `HELD`**~~ **DONE 2026-08-17 on owner authorisation: prompt re-applied and verified by independent re-fetch** (`updated_at` 2026-08-17T04:43:02Z; `HELD.` gone; cron, enabled state, next firing 08-19, environment and tool allowlist all preserved). ⚠️ **The lesson kept: the prohibition against stating posture could not have caught this, because the wrong posture arrived as background FACT, above the prohibition. A rule against concluding is no protection against a false premise.** 🚨 **And `DOCKET-WATCH.md` + the routine prompt are two copies of one spec with nothing keeping them in sync — treat any edit to either as a single change across both.**
 - **Two PII retention decisions** (the 24.3 MB `BAM Franchising` filing; the printout with an uninvolved party's name + DOB) · **Q-31** ($10 XChange) · **Q-32(b)** (a browser you drive) · **Q-60** · **Q-42** · **Q-50**.
 
 ---

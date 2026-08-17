@@ -1,6 +1,9 @@
 # DOCKET-WATCH routine prompt — DRAFT 2026-08-16
 
-**Status:** 👤 **AWAITING OWNER AUTHORISATION. Not yet applied to the routine.**
+**Status:** ✅ **APPLIED 2026-08-17 on owner authorisation. Confirmed live from the API: `updated_at` 2026-08-17T04:43:02Z.**
+✅ **Verified by an independent re-fetch after the write, not from the write's own echo:** the string `preliminary hearing, five days. HELD.` **is gone**, the corrected calendar bullet is in place, and **everything else was preserved unchanged** — `cron_expression` `0 13 * * 3,6`, `enabled: true`, `next_run_at` **2026-08-19T13:00Z**, `environment_id` `env_01W6FqrQNGVQ8RPsSsUapCHf`, `allowed_tools` `[Read, WebSearch, WebFetch]`, model `claude-opus-5`.
+⚠️ **What this did NOT fix, restated so it is not mistaken for solved:** the routine is still **report-only** (`No sources configured`) and still **egress-blind**. **The 2026-08-18 by-hand local run remains the only document-capable cover for the State's reply.**
+⚠️ **NOT bundled into this change: Q-147's route-RECOVERY escalation trigger.** It was not in the reviewed draft, and it should move together with `DOCKET-WATCH.md`'s spec rather than being slipped into the prompt alone — the two drifting apart is the exact failure this document exists to correct.
 **Target:** cloud routine `trig_016faLfbQWCz72M463Dy8HsL` ("DOCKET-WATCH — State v. Robinson, Case 251403576 (report-only)").
 **Supersedes:** `DOCKET-WATCH-routine-prompt-DRAFT-2026-08-14.md`, applied 2026-08-14T20:23 EDT and confirmed live from the API.
 
