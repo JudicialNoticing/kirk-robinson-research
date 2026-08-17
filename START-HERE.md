@@ -5,19 +5,15 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
-## 0AC. SESSION CLOSE — 2026-08-17, PAUSED AT USAGE LIMIT (READ FIRST — SUPERSEDES §0AB)
+## 0AC. SESSION CLOSE — 2026-08-17 (READ FIRST — SUPERSEDES §0AB)
 
-**Queue runs to Q-167. Register: see QUEUE.md's header — it is now the single source of truth and this file must not restate the number. `queue-check.sh`: RESULT clean. All work committed.**
+**Queue runs to Q-171. Register: see QUEUE.md's header — it is now the single source of truth and this file must not restate the number. `queue-check.sh`: RESULT clean. All work committed.**
 
-### 🚨 THE ONE THING THAT COULD BE LOST — READ BEFORE ANYTHING ELSE
+### ✅ RESOLVED — the in-flight workflow completed after the pause
 
-🛠 **CORRECTED 2026-08-17, WITHIN THE HOUR — AND THE CORRECTION IS THE MORE USEFUL FACT.** This section originally read: *"21 of ~28 agents returned, output file 0 bytes — it did not return… Nothing of its output exists."* **That was wrong.** ✅ **`SEC-E01` DID return, and its output is BANKED** at `CR-ACQ-.../2026-08-17_SEC-E01-security-posture_RAW-PARTIAL.json` (652 KB, SHA-256 `31aa9409…`).
+**`SEC-E01` was mid-run when the session paused. It was RESUMED and completed clean: 44 of 44 agents, 0 errors.** Output banked at `CR-ACQ-.../2026-08-17_SEC-E01-security-posture_RAW.json` (846 KB, SHA-256 `4caab1cf…`); the partial was removed. **The file is on disk: `files - Event security/SEC-E01_security-posture-2025-09-10.md`, 506 lines, `[PROVISIONAL]`.**
 
-**What actually happened: 44 agents · 29 completed · 🚨 15 KILLED BY A MONTHLY SPEND LIMIT** — the final `draft` and `critic`, plus 13 of the verification agents. ✅ **All six finder lenses completed in full (36 findings), each declaring full-coverage scope.** Verification is **PARTIAL: 7 survived · 4 split · 1 refuted, with 13 verdicts missing.**
-
-🚨 **THE LESSON, AND THIS LIBRARY HAS BEEN HERE BEFORE AND DREW THE WRONG CONCLUSION LAST TIME.** Q-111 records an identical event mis-diagnosed as a transient `429`: *"the error type is `rate_limit_error`, but its message body is a spend cap."* **This time the message is explicit — *"You've hit your monthly spend limit"* — and the distinction Q-111 established holds: THIS IS NOT SELF-RETRYABLE. Clearing it is an OWNER action.** ⚠️ **And note what the 0-byte output file did: it made a partial success look like a total loss.** **Judging a run by its output file rather than its journal is the same class of error as judging a document by its filename.**
-
-✅ **RESUMED the same session** (`resumeFromRunId` is same-session-only): the 29 completed agents replay from cache and only the 15 failures re-run. ⚠️ **If that resume did not complete before the session ended, the script and the partial output are both banked and a fresh run costs only the 15.**
+⚠️ **Two lessons kept from how it failed and recovered.** (1) 🚨 **15 of its 44 agents were killed by a MONTHLY SPEND LIMIT — not a transient rate limit.** Q-111 mis-diagnosed the identical event once before; the distinction holds: **clearing it is an OWNER action and "retryable" is the wrong lesson.** (2) ⚠️ **Its output file was 0 bytes, which made a partial success look like a total loss** — this file said so, wrongly, and was corrected in place. **Judge a run by its journal, not by its output file.** ✅ **`resumeFromRunId` is same-session only, and it worked: the 29 completed agents replayed from cache and only the 15 failures re-ran.**
 
 ### ✅ What landed and is applied
 
@@ -26,27 +22,33 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 3. **Q-146 · Q-148 · Q-131 · Q-147 · Q-159 · Q-161 — all done.** Details in QUEUE.md.
 4. **SEC-E02 written** — `files - Event security/`. The palm-pistol allegation recorded at T4 and **resolved against at Medium-high**, capped because **State's Exhibit 11 (the ME report) is ADMITTED WITH PUBLICATION DENIED and no wound evidence is held.**
 5. **Run 6 of DOCKET-WATCH logged.** 🚨 **Escalation MET — the Fox mirror route is BLOCKED.**
+6. **`SEC-E01` written** — the security posture at the 2025-09-10 event, from the sworn record. 🚨 **F-119, which nobody had ever run: `securit*` = 0 in BOTH the Information and the PC affidavit — the State's pleaded proximity theory is about *"Mr. Kirk's team members"*, and "security personnel" enters via the DEFENCE brief and witness answers, not the State's pleading.** **F-117: the *"no briefing / no plan / no Losee coverage"* negatives are scoped to ONE WITNESS, and CR-E05 flattens them in five places** — ⚠️ **correction flagged, deliberately NOT applied → Q-172.**
+7. **Q-137 → chronology v1.1.** 🚨 **The custody clock was wrong.** The file said arrest 10 p.m. Sept 11 / booked 1:58 a.m., both from a booking sheet **this project has never seen**. The held record: detained ~9 p.m. → **formally arrested 04:00** → arrival ~07:00 → **booked 07:58:15**, all Sept 12. ✅ **The 10 p.m. figure STAYS — it is Patel's, and it describes CUSTODY, not formal arrest; only its attribution was wrong.** ✅ **An entire judicial morning added at T1**, including **Judge Howell's 8:40:00 a.m. Order to Hold Without Bail** — *ex parte*, four days before the initial appearance. 🚨 **The PSA is recorded by existence and timestamp ONLY; the owner's PII gate held.**
+8. **Q-138 → dossier v1.1 then v1.2.** 🚨 **An exact DOB for a minor child, published in the same sentence as *"names/faces kept private."*** 🚨 **An acquisition roadmap directing a future pass to pull a family-court CUSTODY file on private individuals** — struck; ease of acquisition is not a public question. 🚨 **The founding premise was false: she is the court-designated victim representative, granted orally 2025-12-11, with counsel since 2025-09-16.** ✅ **Then the Part II roster, person by person: an uncorroborated allegation of CRIMINAL CONDUCT against a private individual — and measurement showed the claimant NEVER MADE IT (zero occurrences across all 37 BOC files including Owens' own transcripts).** ✅ **Eight members tested and KEPT.**
+9. **`SEC-E02` written** — the palm-pistol allegation recorded at T4 and **resolved against at Medium-high**, capped because **State's Exhibit 11 is ADMITTED WITH PUBLICATION DENIED and no wound evidence is held.**
 
 ### 📋 WHERE TO PICK UP — in this order
 
-1. 🚨 **THE 08-18 BY-HAND WATCH RUN IS TODAY OR YESTERDAY DEPENDING WHEN YOU READ THIS.** The State's reply was due **Tue 2026-08-18**. ⚠️ **Run 6 found the Fox outlet-mirror route BLOCKED (Wayback CDX 504) — that is the route Run 4 baselined to make this cheap.** Re-attempt it; if still down, the cover rests on DocumentCloud and Rev alone. `./docket-watch-run.py`.
-2. 🚨 **APPLY Q-137 AND Q-138 — the analysis is DONE and BANKED, only the application remains.** `CR-ACQ-.../2026-08-17_Q137-Q138-person-files_RAW.json` (1.27 MB, SHA-256 `40b88eb7…`): **18 findings survived, 6 split, 0 refuted**, plus two apply-ready plans (**56 KB and 62 KB**) and a cross-file critic. **This is the highest-value work available and needs no new dispatch.** 🚨 **Its headline: the arrest chronology's booking times are WRONG — the file says arrest 10 p.m. Sept 11 / booked 1:58 a.m.; four independent primaries agree on arrest 04:00 → arrival ~07:00 → booked 07:58:15, ALL on Sept 12**, and Davis testified he was himself the booking officer. ⚠️ **The booking record's TEXT LAYER IS GARBLE — the finding came from rendering the PDF at 300 DPI. Do not search the .txt.**
-3. **Re-run the SEC-E01 workflow fresh** from the banked script (above).
-4. **Q-164** (verify SEC-E02) · **Q-162** (the rest of the Twiggs tier re-marking) · **Q-153** (point DocumentCloud's open API at Zinn — never once tried).
+1. 🚨 **THE 08-18 WATCH RUN. The State's reply was due Tue 2026-08-18 — CHECK WHETHER IT WAS RUN AND WHETHER THE FILING LANDED.** ⚠️ **Run 6 found the Fox outlet-mirror route BLOCKED (Wayback CDX 504) — the route Run 4 baselined to make this cheap.** Re-attempt it; if still down the cover rests on DocumentCloud and Rev alone. `./docket-watch-run.py`. **This is the only time-critical item.**
+2. **Q-171 — Q-138 plan Sections B and C.** The Part 0 court-record spine, and the register corrections including 🚨 **Claim 8's missing Lombardi thread — the thread the maternal-grandparents entry exists to anchor.** ⚠️ **A BINDING 12-ITEM DO-NOT-WRITE LIST travels with it**, including: **the 2025-12-04 UOVC restitution notice does NOT concern Erika Kirk** (it names a different victim and two minors by initials) **and should be STRUCK from her sourcing set.**
+3. **Q-168 — the rest of the Q-137 plan.** 🚨 **§1's opening sentence adopts defence counsel's proposition as analyst-layer fact where the witness qualified it on the stand**; §3's intermediary entries; 4 owner-gated items inside.
+4. **Q-172** (the CR-E05 scope correction SEC-E01 identified but did not make) · **Q-164** (verify SEC-E02) · **Q-162** (rest of the Twiggs tier re-marking) · **Q-153** (point DocumentCloud's open API at Zinn — never once tried).
+5. **Q-163** — the D-1 … D-72 gap audit. ⚠️ **Blocked behind Q-60 and Q-157: three colliding D-series must be resolved first or the audit will read them as one.**
 
 ### 👤 OWNER-GATED — batched, nothing else waits on you
 
-- **Q-160** — five Twiggs edits, each of which would put more about a private individual into the file. **My recommendations are written into the row.** ✅ **Q-161 unblocked its (a): the next free D-number is D-73.**
+- **Q-160** — five Twiggs edits, each of which would put more about a private individual into the file. **Recommendations are written into the row.** ✅ **Unblocked: the next free D-number is D-74.**
 - **Q-147** — the DOCKET-WATCH routine-prompt change is **drafted and unapplied**; it should land before a Wednesday firing.
-- **Q-166** — State's Exhibit 11. ⚠️ **A sealing question, not an acquisition one.**
-- **Q-31** ($10 XChange) ⚠️ **but see Q-149: its blocker was never verified** · **Q-156** (two GRAMA requests) · **Q-157** · **Q-60** · **Q-42** · **Q-50** · the two PII retention decisions.
+- **Q-166** — State's Exhibit 11 (the ME report). ⚠️ **A SEALING question, not an acquisition one** — route via CR-E12.
+- **Q-156** (two GRAMA requests — the exact two-agency test of the Zinn booking conflict) · **Q-31** ⚠️ *but see Q-149: its blocker was never verified* · **Q-157** · **Q-60** · **Q-42** · **Q-50** · the two PII retention decisions.
 
 ### ⚠️ What this session should teach the next one
 
 1. 🚨 **A CITATION IS A CLAIM THAT SOMEONE READ IT.** The Twiggs file cited one transcript five times across four sections and nobody had opened it. **No amount of re-reading the file could have found the defect, because it was never in the file's internal consistency.**
-2. 🚨 **THE RIGHT RULE AT THE WRONG DEPTH IS STILL WRONG.** Five successive passes applied *grep, then read the hit* to the D-register — **and each read the hit for the number it was correcting and stopped.** Not one read the hit for D-73. **The ceiling was D-72 the whole time.**
-3. ⚠️ **A MAP AND A REMOVAL PASS FROM THE SAME SESSION WERE NEVER RECONCILED AGAINST EACH OTHER.** Five of Q-142's rows would have **re-inserted living-persons material that had already been removed, in order to mark its tier.**
-4. ✅ **THE VALIDATOR CAUGHT ITS FIRST REAL DUPLICATE EIGHT HOURS AFTER BEING FIXED — on this session's own work.** Under the old pattern it was blind to 111 of 149 rows.
+2. 🚨 **THE RIGHT RULE AT THE WRONG DEPTH IS STILL WRONG — and the remedy note became the reinfection vector.** Five passes applied *grep, then read the hit* to the D-register and each stopped at the number it was correcting. The ceiling was **D-72** the whole time. **Then, hours after the fix, a fresh agent assigned D‑76 by counting a string that existed ONLY inside the correction note documenting that that number was wrong.** ✅ **Every quoted-but-never-assigned number is now written `D<hyphen>NN`** — hazard 21. ⚠️ **And the remedy sentence claiming the bare string was zero repo-wide CONTAINED ONE, which made it false as written.**
+3. 🚨 **A DISCLAIMER IN THE SAME SENTENCE AS THE INCLUSION IS THE TELL, NOT THE CURE.** Twice today: the Zinn child-victim detail, and an allegation of criminal conduct the claimant **never actually made**. **Strip the disclaimer and read what remains.**
+4. ⚠️ **AN AUDIT THAT ONLY REMOVES IS A BIAS SIGNAL, AND IT NEARLY DELETED THE WRONG THING.** The maternal-grandparents entry reads as heritage colour and is the **pivot of an Owens claim this library has already resolved.** **Eight roster members were tested and kept.**
+5. ✅ **THE VALIDATOR CAUGHT ITS FIRST REAL DUPLICATE EIGHT HOURS AFTER BEING FIXED — on this session's own work.** Under the old pattern it was blind to 111 of 149 rows.
 
 ---
 
