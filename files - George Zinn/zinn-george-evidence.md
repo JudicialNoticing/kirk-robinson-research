@@ -2,6 +2,14 @@
 ## Role in the Charlie Kirk Assassination Investigation (State of Utah v. Tyler James Robinson, related matter)
 
 **File status:** Corrected and citation-locked following accuracy audit (July 13, 2026)
+
+> 🚨 **STALE AS OF 2026-08-17, AND ONE KNOWN CONFLICT IS UNAPPLIED. READ [`ZINN-REVIEW-2026-08-17`](ZINN-REVIEW-2026-08-17_partial-reconciliation.md) BEFORE CITING THIS FILE.**
+> **This file is dated 2026-07-13 and predates the library's entire court-record acquisition programme.** Q-136 was opened 2026-08-17 and **paused mid-pass**; a partial reconciliation is banked in the review file above. What it establishes:
+> - ✅ **The library now holds a Tier 2 source that names Zinn** — the same-day 2025-09-10 press conference, in which a Utah DPS official states he was released after being identified as *"not an accurate person of interest,"* and Governor Cox expressly distinguishes him from the person of interest then in custody. **Part of §1's Tier 2/Tier 3 spine can be upgraded to T2 read directly.** ⚠️ Not yet applied.
+> - 🚨 **§1.7 IS IN CONFLICT WITH THAT SOURCE.** This file says Zinn was hospitalised until 2025-09-15 and booked then; the same-day official statement says he *"has been booked into the county jail by Utah Valley University Police Department."* **Deliberately unresolved** — the two-senses reading (charges lodged 09-10 vs. physical intake 09-15) is an inference, not a finding. **Do not cite §1.7's booking date without this caveat.**
+> - ⚠️ **The access-path caveat below — *"All Tier 1 content accessed via secondary reporting"* — is now too broad as stated**, though no per-claim re-marking has been done.
+> - ⚠️ **The living-persons and completeness passes HAVE NOT RUN.** Two candidates are already visible and named in the review file's §5.
+> - ✅ **The Q-40 gate still holds:** whether CR-E04 §5.4's early detainee is Zinn is **NOT established and must not be assumed.** At least two people were detained on 2025-09-10.
 **Case context:** Zinn was prosecuted separately from Robinson. His cases resolved by plea and sentencing in late January 2026.
 **Scope:** Zinn's actions on September 10, 2025; his stated motives; his prosecution and sentencing; the unverified "payment" claim; background and criminal history relevant to motive analysis.
 

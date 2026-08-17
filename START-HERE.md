@@ -5,7 +5,38 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
-## 0AA. SESSION — 2026-08-16, LATE NIGHT (READ FIRST; supersedes §0A wherever they disagree)
+## 0AB. SESSION CLOSE — 2026-08-17 (READ FIRST)
+
+**Queue runs to Q-149. Register ceiling unchanged at D-73. `queue-check.sh`: RESULT clean. All work committed and pushed.**
+
+**Two things closed since §0AA:** ✅ **the DOCKET-WATCH routine prompt was re-synced** (it had been telling every run the hearing was `HELD`; verified by independent re-fetch, `updated_at` 2026-08-17T04:43:02Z), and ⏸ **Q-136 (George Zinn) was opened and PAUSED mid-pass.**
+
+### ⏸ Where Q-136 actually stands
+
+**A multi-reader reconciliation was dispatched and stopped before returning — none of its output exists.** ✅ **But what was verified by direct reading is BANKED, not lost:** [`ZINN-REVIEW-2026-08-17`](files%20-%20George%20Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md), and `zinn-george-evidence.md` now carries a header flag so it cannot read as current.
+
+- 🚨 **The library holds a Tier 2 source that names Zinn and the file predates it** — the same-day 2025-09-10 press conference. A DPS official: released after being identified as *"not an accurate person of interest."* Cox, asked directly: *"That is not George Zinn."*
+- 🚨 **§1.7's booking date conflicts with it** — file says hospitalised to 09-15 then booked; the same-day official says he *"has been booked … by Utah Valley University Police Department."* **Left deliberately unresolved;** the two-senses reading is an inference.
+- ✅ **"Zinn" is named in exactly 1 of 71 banked artifacts.** Expected — **he was prosecuted separately, so his record is not in the Robinson docket at all** — but the file never says so.
+- ✅ **The Q-40 gate HOLDS.** Cox distinguishes Zinn from the person of interest in custody; that does **not** identify CR-E04 §5.4's early detainee. **At least two people were detained on 2025-09-10. Do not merge them.**
+- ⚠️ **NOT RUN: living-persons, completeness, tier re-marking, currency re-check.** 🚨 **Two living-persons candidates are already visible and flagged in the review file §5** — §1.3 names a cleared private individual, and §2.1 reproduces charging detail concerning **child victims**. **Recording a conviction does not require reproducing its contents.**
+
+### 📋 Where to pick up
+
+1. 🚨 **A1 — the 08-18 by-hand watch run. TOMORROW (Tue).** Still the only document-capable cover for the State's reply; the routine fires Wed and is egress-blind. ✅ Runner dry-run verified 08-16; DocumentCloud intermittent but open.
+2. **Finish Q-136** — re-run the dispatched pass (script path in the review file §5; ⚠ **resume-from-run-id will NOT work across sessions — run it fresh**), then apply.
+3. **Q-142** — the Twiggs tier re-marking; map already built and banked. Last piece of that file.
+4. **Q-145** (contempt transcript: T1 for all of Twiggs §6, on disk, never opened) · **Q-144** · **Q-143** · **Q-146**.
+5. **Q-137 arrest chronology · Q-138 Erika Kirk** — the rest of the person-file programme, untouched.
+
+### 👤 OWNER-GATED
+
+- **Q-31 ($10 XChange) is now worth more than it looked:** ⚠️ **it unlocks the Zinn roadmap's "step zero" (his case numbers) AND the whole of its Route A**, not just the Robinson docket → **Q-149**.
+- **Two PII retention decisions** (the 24.3 MB `BAM Franchising` filing; the printout with an uninvolved party's name + DOB) · **Q-32(b)** · **Q-60** · **Q-42** · **Q-50**.
+
+---
+
+## 0AA. SESSION — 2026-08-16, LATE NIGHT (supersedes §0A wherever they disagree)
 
 **Register ceiling unchanged at D-73. Queue now runs to Q-148. `queue-check.sh`: RESULT clean.**
 
