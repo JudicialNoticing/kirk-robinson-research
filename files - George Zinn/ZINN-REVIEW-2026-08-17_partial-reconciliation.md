@@ -2,7 +2,7 @@
 
 **Scope:** what was established by **direct reading** before Q-136 was paused. Reconciliation of `zinn-george-evidence.md` (dated 2026-07-13) against Tier 2 material the library acquired **2026-08-16**.
 **Case context:** *State of Utah v. Tyler James Robinson*, No. 251403576, Fourth Judicial District Court, Provo. ⚠️ **George Zinn was prosecuted SEPARATELY; he is not a party to that case.**
-**Prepared:** 2026-08-17 · **Status:** **v1.0 — PARTIAL AND INCOMPLETE. `[PROVISIONAL]`.**
+**Prepared:** 2026-08-17 · **Status:** **v1.1 — 2026-08-17. THE PASS THIS FILE SAID WAS UNRUN HAS NOW RUN, AND IT REFUTED THREE OF THIS FILE'S OWN CLAIMS.** See §7.
 
 🚨 **CASE POSTURE:** Tyler Robinson has **NOT** been bound over. The preliminary hearing is **unfinished** — 2026-09-01 is its last day, argument only on a closed evidentiary record. Presumption of innocence applies throughout.
 
@@ -92,8 +92,43 @@
 
 ---
 
+## §7 · 🚨 THREE OF THIS FILE'S OWN CLAIMS WERE REFUTED WHEN THE PASS FINALLY RAN (added v1.1, 2026-08-17)
+
+**The re-dispatched Q-136 pass completed the same day — 39 agents, adversarially verified on two lenses per finding. It found three defects in this file.** They are corrected here rather than silently; §§1–6 above stand except as stated.
+
+### 7.1 🚨 §3's claim that the *"crazy old dude"* passage is in the probable-cause affidavit is FALSE
+
+**§3 states the passage is *"present in the Information, the probable-cause affidavit, `day4.txt`, and read aloud at the 2025-09-16 charging press conference."*** ✅ **Re-measured directly, 2026-08-17, in Python with the extraction defects normalised, pattern `crazy old|old dude|grabbed some` — capable of matching:**
+
+| Source | Hits |
+|---|---|
+| `2025-09-16_affidavit-of-probable-cause_dc27880530.txt` | 🚨 **ZERO** |
+| `2025-09-16_information-charging-document_dc27880532.txt` | 2 (one passage) |
+| `2026-08-16_rev_update-on-charlie-kirk-shooter.txt` (Gray reading aloud) | 2 (one passage) |
+| `prelim-hearing-transcripts/day4.txt` (Davis reading Ex. 16.1 in court) | 2 (one passage) |
+
+🚨 **AND THE THREE PLACES IT DOES APPEAR DO NOT AGREE WORD FOR WORD.** The Information and the press-conference reading both give *"they grabbed some crazy old dude, **then** interrogated someone in similar clothing… from **my** drop point."* The Day 4 in-court reading gives *"…crazy old dude **and** interrogated someone in similar clothing… from **the** drop point."* ⚠️ **The Day 4 variant is a witness reading an exhibit aloud, captured by an uncertified machine transcript, so transcription is the most economical explanation — but it is an explanation, not a finding, and the exhibit itself has never been read by this library.** **Cite the Information for this passage. Do not present any rendering as the exhibit's text.**
+
+### 7.2 §3's null about the Robinson record is WRONG — the record DOES address the early detention, at Tier 1
+
+**§3 says *"the evidence file currently says nothing about how — or whether — the Robinson record treats the early detention."*** The second half of that is right about the file; **the implied premise that the Robinson record is silent is wrong.** Sworn testimony at the preliminary hearing addresses it directly: a Utah DPS officer testified he was aware a person had been taken into custody on arrival, that *"[i]nformation was passed down that the individual was not considered to be a suspect in the shooting,"* that the custody was *"[r]ight down by where Charlie Kirk was sitting by his tent,"* and that beyond that person *"there were several people who were detained for questioning… throughout the investigation,"* all cleared.
+
+🚨 **THE WITNESS NAMES NOBODY, and that is the whole point.** The testimony is Tier 1 **as to what the witness said**, and his knowledge is expressly relayed — *"I had heard that,"* *"[i]nformation was passed down,"* *"They said they had a person in custody."* ⚠️ **A tier upgrade that raises the source tier without recording that the knowledge is second-hand is the V-10 pattern this project exists to avoid.** **It does not identify anyone, and it does not close the Q-40 gate.**
+
+### 7.3 §5's claim that the access-path caveat is *"too broad as stated"* is WRONG
+
+**The caveat is scoped to TIER 1 content** — affidavit language, plea and sentencing terms. **The 2026-08-16 acquisitions are TIER 2.** They therefore do not narrow it at all. ✅ **The caveat stands exactly as written, and so does the file's closing line.** ⚠️ **A caveat is a claim and needs a verification act — and so is a claim that a caveat is wrong. This one failed its own test.**
+
+### 7.4 ✅ What this file got right, logged because an audit that only finds errors is a bias signal
+
+- **§2's booking conflict stands, and an attempt to settle it was refuted.** A proposed "counter-anchor" against the two-senses reading collapsed when the cited testimony was read past the sentence it stopped at. **The conflict remains deliberately open** — and open question 9 in the evidence file now states the exact two-agency test that would close it.
+- **§3's corpus measurement — *"Zinn" named in exactly 1 of 71 artifacts* — was independently re-derived and CONFIRMED**, with a positive control in the same run. ⚠️ **One method gap found: the artifacts folder contains one PDF with no `.txt` sibling, so it is structurally invisible to every "71 `.txt` artifacts" sweep. Checked and cleared** — it duplicates a banked transcript and returns `Zinn` = 0 — **but the gap is real and now recorded.**
+- **§4's Q-40 holding was right, and the pass found the gate being crossed elsewhere:** `files - Kirk assassination questions/kirk-shooting-official-timeline.md` attributed the sworn, unnamed courtyard detention to Mr. Zinn **by name** and had encoded the merge as a register entry. **Corrected 2026-08-17.**
+- **§4's contamination counts were confirmed** (9 `roommate`, 6 `partner`, 5 `cop car`) — ⚠️ **but §4's blanket instruction to exclude that file from folder sweeps is now superseded: exclude PER TERM.** `Robinson` returns 4 hits in it and **all four are true.** See standing hazard 17.
+
 ## Revision log
 
 | Version | Date | Change |
 |---|---|---|
+| **1.1** | **2026-08-17** | 🚨 **§7 added: the pass this file recorded as unrun HAS RUN, and it refuted three of this file's own claims.** (a) **§3's statement that the *"crazy old dude"* passage appears in the probable-cause affidavit is FALSE — re-measured, ZERO hits**, and the three sources that do carry it **disagree word for word** (*"then"* vs *"and"* interrogated; *"my"* vs *"the"* drop point). (b) **§3's implied null about the Robinson record is wrong** — sworn Tier 1 testimony addresses the early detention directly, though **the witness names nobody** and his knowledge is expressly relayed, so it identifies no one and does not close the Q-40 gate. (c) **§5's claim that the access-path caveat is "too broad" is wrong** — the caveat is scoped to Tier 1 and the new acquisitions are Tier 2, so it stands unchanged. ✅ **Confirmations logged in the same section:** the booking conflict stands and a proposed resolution was refuted; the 1-of-71 corpus measurement was independently re-derived; the Q-40 holding was right **and the gate was found being crossed in a sibling folder**; the contamination counts confirmed — but the blanket exclusion rule they carried is superseded by a per-term rule. ⚠️ **One method gap found: one PDF in the artifacts folder has no `.txt` sibling and is invisible to every "71 artifacts" sweep. Checked and cleared.** **The evidence file is now v1.1 with the pass applied.** |
 | **1.0** | **2026-08-17** | Created. Partial reconciliation banked when Q-136 was paused mid-pass. **Everything here verified by direct reading of the primary artifact.** Establishes: the same-day Tier 2 press conference names Zinn and clears him on the record; **a booking-date conflict with §1.7 that the file does not know about**, left deliberately unresolved with the two-senses reading labelled as inference; the measured corpus scope (**named in 1 of 71 artifacts**); the `cop car` contamination count; and that **the Q-40 gate holds**. Living-persons, completeness, tier re-marking and currency passes **NOT run** and named as such. No register entry moved; the evidence file was not edited. |

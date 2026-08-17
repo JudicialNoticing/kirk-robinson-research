@@ -52,7 +52,7 @@ A general access note: Utah's Xchange system makes all public district court doc
 
 **8. State v. George Zinn case file.** Fourth District (Judge Thomas Low): information, probable cause affidavit, plea statement, and sentencing order.
 - *Steps:* Xchange search by defendant name; request documents.
-- *Resolves:* Discrepancy Register item 4 (Bagley's ~30 seconds vs. police reports' ~2 minutes for the Zinn detention) at the primary-record level, plus the sworn basis for the diversion-of-resources account.
+- *Resolves:* ~~Discrepancy Register item 4 (Bagley's ~30 seconds vs. police reports' ~2 minutes for the Zinn detention)~~ 🚨 **RE-STATED 2026-08-17 (Q-136): item 4 is WITHDRAWN — it presupposed that the sworn testimony's unnamed courtyard detainee is Mr. Zinn, which no source establishes.** ✅ **What this target would actually resolve** is the **prior** question: whether Mr. Zinn is the person that testimony describes, and the onset time of his own conduct at the primary-record level — plus the sworn basis for the diversion-of-resources account. ⚠️ **`files - George Zinn` is the sole owner of Zinn acquisition** (see its roadmap Route A); this target is a cross-link, not a competing programme, and it must not re-encode the merge.
 
 **9. Utah County Jail booking record for Robinson.**
 - *Steps:* Records request to the Utah County Sheriff's Office (booking information is generally public; GRAMA request if needed).
