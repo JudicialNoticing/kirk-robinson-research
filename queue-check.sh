@@ -13,12 +13,21 @@ ok()  { printf '  ✓ %s\n' "$*"; }
 say "== QUEUE.md integrity =="
 [ -f QUEUE.md ] || { bad "QUEUE.md missing"; exit 1; }
 
-# Q-IDs must be unique
-dupes=$(grep -oE '^\| Q-[0-9]+ \|' QUEUE.md | tr -d '| ' | sort | uniq -d)
-if [ -n "$dupes" ]; then bad "duplicate Q-IDs: $(echo "$dupes" | tr '\n' ' ')"; else ok "Q-IDs unique"; fi
+# Q-IDs must be unique.
+# ⚠ The ID pattern is BOLD- AND STRIKETHROUGH-TOLERANT (fixed 2026-08-17, Q-131). It used to be
+# '^\| Q-[0-9]+ \|', which matches only UNADORNED rows — but almost every row is now written
+# '| **Q-NNN** |' or '| ~~Q-NN~~ |', so the ID list was nearly EMPTY and both checks below were
+# nearly blind. They only appeared to pass because genuine 'Q-NNN (' references are rare.
+# 🚨 The REFERENCE pattern below is deliberately left NOISY. Do not make it cleverer: a smarter
+# matcher risks a false NEGATIVE, which would let an unverified finding escape, and START-HERE's
+# standing note is that a noisy validator is the safe failure direction.
+qids() { grep -oE '^\| *~{0,2}\*{0,2}Q-[0-9]+' QUEUE.md | grep -oE 'Q-[0-9]+'; }
+
+dupes=$(qids | sort | uniq -d)
+if [ -n "$dupes" ]; then bad "duplicate Q-IDs: $(echo "$dupes" | tr '\n' ' ')"; else ok "Q-IDs unique ($(qids | sort -u | wc -l | tr -d ' ') distinct)"; fi
 
 # every Blocked-by reference must exist
-ids=$(grep -oE '^\| Q-[0-9]+ \|' QUEUE.md | tr -d '| ' | sort -u)
+ids=$(qids | sort -u)
 refs=$(grep -oE 'Q-[0-9]+ \(' QUEUE.md | sed 's/ (//' | sort -u)
 orphan=0
 for r in $refs; do
