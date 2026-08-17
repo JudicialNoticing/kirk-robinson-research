@@ -7,7 +7,7 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ## 0AB. SESSION CLOSE — 2026-08-17 (READ FIRST)
 
-**Queue runs to Q-149. Register ceiling unchanged at D-73. `queue-check.sh`: RESULT clean. All work committed and pushed.**
+**Queue runs to Q-149.** 🛠 **REGISTER CEILING CORRECTED 2026-08-17: it is D-72 assigned / D-73 next free, NOT "D-73 unchanged" — D-73 was never assigned to anything, and this line was one of the three sites that manufactured the error.** **Do not restate the number here; the canonical statement is QUEUE.md's header.** `queue-check.sh`: RESULT clean. All work committed and pushed.
 
 **Two things closed since §0AA:** ✅ **the DOCKET-WATCH routine prompt was re-synced** (it had been telling every run the hearing was `HELD`; verified by independent re-fetch, `updated_at` 2026-08-17T04:43:02Z), and ⏸ **Q-136 (George Zinn) was opened and PAUSED mid-pass.**
 
@@ -38,7 +38,7 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ## 0AA. SESSION — 2026-08-16, LATE NIGHT (supersedes §0A wherever they disagree)
 
-**Register ceiling unchanged at D-73. Queue now runs to Q-148. `queue-check.sh`: RESULT clean.**
+🛠 **REGISTER CEILING CORRECTED 2026-08-17 — see QUEUE.md's header, which is now the single source of truth. This line previously said "unchanged at D-73"; D-73 was never assigned.** Queue now runs to Q-148. `queue-check.sh`: RESULT clean.
 
 ### ✅ Q-140 and Q-141 are DONE. The Twiggs profile is v1.3.
 
@@ -73,7 +73,7 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ## 0A. SESSION — 2026-08-16, afternoon AND EVENING (READ THIS FIRST; it supersedes everything below wherever they disagree)
 
-**Register: ceiling D-73, next free D-74. Queue runs to Q-141. Flags to F-110. Standing hazards to 16. `queue-check.sh`: RESULT clean. All work pushed to `origin/main`.**
+🛠 **REGISTER CEILING CORRECTED 2026-08-17: the true ceiling is D-72 and the next free number is D-73. This line's "ceiling D-73, next free D-74" is the ORIGIN of an error that propagated into three further files.** **See QUEUE.md's header — the canonical statement — and do not restate the number here.** Queue runs to Q-141. Flags to F-110. Standing hazards to 20. `queue-check.sh`: RESULT clean. All work pushed to `origin/main`.
 
 ### 🚨 EVENING — THE CASE POSTURE WAS SUBTLY WRONG IN EVERY FILE THAT STATED IT
 
