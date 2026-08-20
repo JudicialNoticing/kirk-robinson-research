@@ -5,7 +5,33 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
-## 0AC. SESSION CLOSE — 2026-08-17 (READ FIRST — SUPERSEDES §0AB)
+## 0AD. SESSION CLOSE — 2026-08-20 (READ FIRST — SUPERSEDES §0AC)
+
+**Queue runs to Q-184 · register ceiling: see QUEUE.md's header (unmoved this session) · F-ceiling F-134 · `queue-check.sh`: RESULT clean · all work committed (local; push 👤).** Full session audit: [CR-AUDIT-2026-08-20](files%20-%20Court%20record/CR-AUDIT-2026-08-20_session-audit.md).
+
+**The morning session closed the missed 08-18 docket cover — the State's reply is BANKED (CR-ACQ-2026-08-20, CR-WATCH-log Run 7). This session read it: [CR-E17](files%20-%20Court%20record/CR-E17_states-reply-2026-08-18.md), created and VERIFIED same-day by a seven-verifier cycle.** All three bindover-cycle briefs are now covered — two held and read (defence CR-E07, reply CR-E17), **the State's opening brief is the last document held nowhere (Q-45)**, and the reply leans on it expressly six times.
+
+### What landed
+1. 🚨 **Queue repair first:** Q-171 was doubly assigned and SEC-E01's Q-172→Q-179 had never reached the queue (the D-73 two-copies shape in the Q-series). Renumbered (→ Q-180), synced, validated.
+2. **CR-E17 (Q-181)** — the State's theory partly in its own words at last: the one-clause answer to the defence's Rule 1102 lead (`1102`=0, `hearsay`=1); the candor accusation (p. 2 + p. 6) opposite the defence's earlier footnote-5 allegation — **reciprocal professional-conduct accusations now on the record, neither adopted (F-126)**; the aggravator statute cited **three ways** (F-127 — the held Information arbitrates none of them: bare § 76-5-202 + "(iii)"); "security personnel" enters State-authored text (F-128, extending F-119's timeline with scope); **the two-sided pin-cite checks (F-132): Ashcraft = 0 in the defence brief (the accusation's textual predicate is TRUE; merit unadjudicated), but four reply characterisations diverge from the brief — incl. a screwdriver claim the brief contradicts at its p. 22 and a "grandfather's rifle" with no counterpart**; the certified-transcript crosswalk is two-sided (F-133, `Tr. Day N` + `PHn:` forms) → **Q-182**.
+3. **Q-164** — SEC-E02 VERIFIED: one refutal (the firearms "census" row, rewritten with Hull's plural answer and the recollection caveat), F-112's banner narrowed (**Exhibit 6's wound-recovered .30-caliber-class fragments ARE held**, rifle comparison inconclusive — now a §4.4 limb), the Harpole source banked raw with a third member's name redacted.
+4. **Q-172** — CR-E05 v1.4: the five F-117 scope-flattenings rescoped to the witness's actual words; counterweight added.
+5. **Q-153** — the first primary Zinn documents (two 2025-09-16 PCAs, USA Today uploads); no court case number in either; sexual-exploitation narrative deliberately unread.
+6. **Standing hazard 22** — three measured counting/extraction traps from one cycle (footer-interleave false positives; hyphen-wrap inside tokens; substring double-count high bias).
+
+### 📋 Where to pick up
+1. 👤 **Before Sat 08-22 09:00: the DOCKET-WATCH routine prompt re-sync** — stale twice over ("08-18: not filed" false premise + missing recovery trigger). The one dated thing.
+2. **Q-182** — the Rev↔certified crosswalk (M, ready; feeds SEC-A6 before 09-01).
+3. **Q-171** (Erika Kirk plan §§B–C, with its binding do-not-write list) · **Q-168** (rest of the arrest-chronology plan) · **Q-136 remainder** (Zinn — now with the PCAs' T1 anchors for the booking-date conflict) · **Q-162** (Twiggs tier re-marking).
+4. **Q-184** (the 41-vs-42 defence-brief page count, S) · **Q-183** (blocked on acquiring code/opinion text).
+5. **Oral argument is Tue 09-01, 10:00** — the crosswalk and Q-45 are the two items that most improve the library's readiness for it.
+
+### 👤 OWNER-GATED, batched
+Kirk push (this session's commits local) · the routine prompt re-sync (dated, above) · **Q-180** (SEC-E01/SEC-E02 naming-rule conflict — recommendations in the row) · Q-160 · Q-166 · Q-156 · Q-31 *(but see Q-149)* · Q-157 · Q-60 · Q-42 · Q-50 · the two PII retention decisions.
+
+---
+
+## 0AC. SESSION CLOSE — 2026-08-17 (SUPERSEDED BY §0AD)
 
 **Queue runs to Q-181** *(corrected 2026-08-20: this line's "Q-171" was stale the day it was written — SEC-E01 had assigned Q-172…Q-179 file-locally and they never reached QUEUE.md; synced 2026-08-20, QUEUE.md rev 1.4, and the colliding Q-171 renumbered Q-180 at SEC-E01 v1.1)*. **Register: see QUEUE.md's header — it is now the single source of truth and this file must not restate the number. `queue-check.sh`: RESULT clean. All work committed.**
 
