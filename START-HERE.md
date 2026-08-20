@@ -7,7 +7,7 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ## 0AD. SESSION CLOSE — 2026-08-20 (READ FIRST — SUPERSEDES §0AC)
 
-**Queue runs to Q-184 · register ceiling: see QUEUE.md's header (unmoved this session) · F-ceiling F-134 · `queue-check.sh`: RESULT clean · all work committed (local; push 👤).** Full session audit: [CR-AUDIT-2026-08-20](files%20-%20Court%20record/CR-AUDIT-2026-08-20_session-audit.md).
+**Queue runs to Q-184 · register ceiling: see QUEUE.md's header — it advanced TWICE this session (D-74: the pleaded-vs-measured distance, CR-E18 §4; D-75: the Information-vs-note tense discrepancy, Twiggs profile §3.2) · F-ceiling F-138 · `queue-check.sh`: RESULT clean · all work committed (local; push 👤).** Full session audit: [CR-AUDIT-2026-08-20](files%20-%20Court%20record/CR-AUDIT-2026-08-20_session-audit.md). *(This block was written mid-session and trued up as later cycles landed: Q-182, Q-184 and Q-162 are now DONE — see the audit's rows 5–8 and the updated pick-up list below.)*
 
 **The morning session closed the missed 08-18 docket cover — the State's reply is BANKED (CR-ACQ-2026-08-20, CR-WATCH-log Run 7). This session read it: [CR-E17](files%20-%20Court%20record/CR-E17_states-reply-2026-08-18.md), created and VERIFIED same-day by a seven-verifier cycle.** All three bindover-cycle briefs are now covered — two held and read (defence CR-E07, reply CR-E17), **the State's opening brief is the last document held nowhere (Q-45)**, and the reply leans on it expressly six times.
 
@@ -19,12 +19,12 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 5. **Q-153** — the first primary Zinn documents (two 2025-09-16 PCAs, USA Today uploads); no court case number in either; sexual-exploitation narrative deliberately unread.
 6. **Standing hazard 22** — three measured counting/extraction traps from one cycle (footer-interleave false positives; hyphen-wrap inside tokens; substring double-count high bias).
 
-### 📋 Where to pick up
+### 📋 Where to pick up *(trued up at close — Q-182/Q-184/Q-162 landed later the same session)*
 1. 👤 **Before Sat 08-22 09:00: the DOCKET-WATCH routine prompt re-sync** — stale twice over ("08-18: not filed" false premise + missing recovery trigger). The one dated thing.
-2. **Q-182** — the Rev↔certified crosswalk (M, ready; feeds SEC-A6 before 09-01).
-3. **Q-171** (Erika Kirk plan §§B–C, with its binding do-not-write list) · **Q-168** (rest of the arrest-chronology plan) · **Q-136 remainder** (Zinn — now with the PCAs' T1 anchors for the booking-date conflict) · **Q-162** (Twiggs tier re-marking).
-4. **Q-184** (the 41-vs-42 defence-brief page count, S) · **Q-183** (blocked on acquiring code/opinion text).
-5. **Oral argument is Tue 09-01, 10:00** — the crosswalk and Q-45 are the two items that most improve the library's readiness for it.
+2. ✅ ~~Q-182~~ **DONE → [CR-E18](files%20-%20Court%20record/CR-E18_certified-transcript-crosswalk.md)** (45 anchors located; F-135–F-138; **D-74 opened** on the pleaded-vs-measured distance; verification cycle owed — dispatched at close). ✅ ~~Q-184~~ (CR-E07's 41 pages confirmed; the "42" was a form-feed fencepost → hazard 22(d)). ✅ ~~Q-162~~ **DONE → Twiggs profile v1.5** (all 42 remaining tier rows applied; **D-75 opened**; every tier now traces to a verification act or is marked otherwise).
+3. **Q-171** (Erika Kirk plan §§B–C, with its binding 12-item do-not-write list) · **Q-168** (rest of the arrest-chronology plan; 4 owner-gated items inside) · **Q-136 remainder** (Zinn — now with the PCAs' T1 anchors for the booking-date conflict).
+4. **Q-183** (blocked on acquiring code/opinion text) · the CR-E18 verification cycle's results, if its dispatch outlives the session.
+5. **Oral argument is Tue 09-01, 10:00** — with the crosswalk built, **Q-45 (the opening brief) is the single item that most improves readiness**; every F-138 instance and both new D-numbers are specific pages to check when the certified transcript (SEC-A6) is obtained.
 
 ### 👤 OWNER-GATED, batched
 Kirk push (this session's commits local) · the routine prompt re-sync (dated, above) · **Q-180** (SEC-E01/SEC-E02 naming-rule conflict — recommendations in the row) · Q-160 · Q-166 · Q-156 · Q-31 *(but see Q-149)* · Q-157 · Q-60 · Q-42 · Q-50 · the two PII retention decisions.
