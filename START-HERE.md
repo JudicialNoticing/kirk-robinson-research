@@ -7,7 +7,7 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ## 0AC. SESSION CLOSE — 2026-08-17 (READ FIRST — SUPERSEDES §0AB)
 
-**Queue runs to Q-171. Register: see QUEUE.md's header — it is now the single source of truth and this file must not restate the number. `queue-check.sh`: RESULT clean. All work committed.**
+**Queue runs to Q-181** *(corrected 2026-08-20: this line's "Q-171" was stale the day it was written — SEC-E01 had assigned Q-172…Q-179 file-locally and they never reached QUEUE.md; synced 2026-08-20, QUEUE.md rev 1.4, and the colliding Q-171 renumbered Q-180 at SEC-E01 v1.1)*. **Register: see QUEUE.md's header — it is now the single source of truth and this file must not restate the number. `queue-check.sh`: RESULT clean. All work committed.**
 
 ### ✅ RESOLVED — the in-flight workflow completed after the pause
 
