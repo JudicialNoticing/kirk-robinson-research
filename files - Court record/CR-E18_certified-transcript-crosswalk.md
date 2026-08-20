@@ -1,0 +1,120 @@
+# CR-E18 — The certified-transcript crosswalk: mapping both briefs' pin-cites to the Rev renderings
+
+**File ID:** CR-E18 · **Scope:** execution of **Q-182** — every certified-pagination citation in the two held bindover briefs (the defence brief's `PHn:page` form; the State's reply's `Tr. Day N at page:line` form), located in the library's uncertified Rev renderings, with stream timestamps, verbatim passages and content-anchored speakers. · **Case context:** *State of Utah v. Tyler James Robinson*, No. 251403576, Fourth Judicial District Court, Provo — Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-20 · **Status:** **v1.0 · `[PROVISIONAL]`** — located by an eleven-agent pass; the assembler spot-checked the load-bearing locates (§1); a full confirming cycle has not run.
+
+> 🚨 **CASE POSTURE, VERIFIED 2026-08-20. TYLER ROBINSON HAS NOT BEEN BOUND OVER.** The hearing is unfinished; 2026-09-01 is its last day, argument only, on a closed evidentiary record. Presumption of innocence is absolute. Every proposition in either brief is a party's claim; every transcript passage is a witness's sworn account as machine-rendered. **Nothing here adjudicates any fact.**
+
+## §0 · Sourcing framework (project standard)
+
+Tier 1 — sworn testimony and primary court filings/documents · Tier 2 — named official statements · Tier 3 — named journalistic reporting/analysis · Tier 4 — anonymous/low-verification. "T1 via T3" marks primary-document content known only through reporting. Every claim carries a locator; every retrieval a date.
+
+## §1 · Access-path caveats — read before using any row
+
+- 🚨 **THE DECISIVE LIMIT: a brief-vs-Rev divergence does NOT establish that the brief misquotes the certified transcript.** The certified transcript is **not held** (SEC-A6); Rev's renderings are uncertified machine transcripts with known garbles and systematically wrong speaker labels (hazard 9). Every "divergence" below is **brief-versus-Rev**, stated so acquisition of the certified transcript can adjudicate — never as a finding that a party misquoted the record.
+- **The `PHn` = hearing-day-*n* assumption was TESTED by this crosswalk and held**: every located anchor's content sits in `dayn.txt` for its `PHn` — with **one exception that proves the method** (PH2:102 → F-137: the content is in Day 4, and the cite is best explained as the brief's own typo).
+- **Method:** 45 anchors (41 `PHn:` cites from the defence brief, deduplicated with context; the reply's 4 distinct `Tr. Day N` cites) were located by eleven agents, one hearing day per batch, under the standing discipline: whitespace-normalised searches, stems and numeral-plus-word forms, hazard-22 footer/hyphen awareness, **speakers identified from content only** (swearing-in exchanges, the court's addresses, self-identification), with Day 4 attribution cross-checked against the independent `faumuina_condensed` rendering (the Q-118 control). NOT-FOUND verdicts carry their pattern lists. **Raw record banked:** `CR-ACQ-2026-07-27_court-record-artifacts/2026-08-20_Q182-crosswalk-anchors_RAW.json` (26,933 B, SHA-256 `65bc9289…`) and `…locates_RAW.json` (58,382 B, SHA-256 `de6156f2…`) — the full verbatim passages and speaker bases live there; the table below trims.
+- **Assembler spot-checks (2026-08-20):** the five load-bearing strings — *"approximately 415 feet"*, *"it was actually 410 feet"*, *"approximately 68 feet"*, *"Whether it be to load it, lock it as well as extract anything"*, and the fired-plus-three-unfired-cartridges sentence — were re-verified against `day4.txt` by hand, and `neck` = 0 in `day4.txt` was re-run (capable stem, whitespace-normalised).
+- **Verdict taxonomy:** ✅ VERBATIM — the brief's quoted words print in Rev (Rev's own garbles allowed) · ☑ CONSISTENT — the passage clearly corresponds; wording differs or the brief paraphrases · 🚨 NOT FOUND / ⚠️ AMBIGUOUS — as marked, patterns recorded.
+- ⚠️ **Rev timestamps are stream-time locators, not clock times** (hazard 10). Page↔time interpolation (§3) is approximate by construction.
+
+## §2 · The crosswalk
+
+**45 anchors: 13 ✅ VERBATIM · 30 ☑ CONSISTENT · 1 🚨 NOT FOUND (F-137) · 1 ⚠️ AMBIGUOUS.** Notes are trimmed; full passages in the banked raw record.
+
+**Day 1** *(14 anchors → `day1.txt`)*
+
+| Certified cite | Brief | Rev locator | Verdict | Note |
+|---|---|---|---|---|
+| `PH1:204` | Def. | `06:07:50` | ✅ VERBATIM | One-word divergence ("and that information" vs Rev's "and information"). Speaker is the Exhibit-11 examiner the court addresses as **"Mr. Sturgill"** in the adjacent turn — Rev's label reads "Ryan McBride" (hazard 9, corroborated) |
+| `PH1:212-13` | Def. | `06:34:43–06:35:55` | ✅ VERBATIM | "four times" verbatim; the brief's "entering and exiting campus parking structures" framing is its own — Rev says "on campus approximately four times" (the brief drops "approximately") |
+| `PH1:25` | Def. | `50:07–50:44` | ☑ CONSISTENT | Cited only as "(Officer Bagley description of the amphitheater)"; the Rev passage is exactly that description |
+| `PH1:27` | Def. | `52:43–52:51` | ☑ CONSISTENT | Paraphrase; Rev: "Directly east of the courtyard, amphitheater area", with the witness adding Losee "doesn't run right up against" it |
+| `PH1:46-47` | Def. | `01:13:08` | ✅ VERBATIM | Rev prints "**like a** little guardrail, probably about a couple feet high" — the brief drops "like a". *(A fifth barrier rendering adjacent to D-73; not resolved here)* |
+| `PH1:52` | Def. | `01:19:35–01:20:24` | ☑ CONSISTENT | Brief "four or five levels" vs Rev "four or five floors", witness then enumerates four |
+| `PH1:53-54` | Def. | `01:21:36–01:21:43` | ☑ CONSISTENT | 🚨 **The brief renders as Bagley's declarative ("there is a clear line of sight…") what Rev carries as the PROSECUTOR'S question, adopted by "Yes, there is"** → F-138 |
+| `PH1:65` | Def. | `01:37:58` | ✅ VERBATIM | "several thousand" verbatim; the rest is the brief's paraphrase |
+| `PH1:67` | Def. | `01:36:46–01:37:11` | ☑ CONSISTENT | "(shot fired at 12:23 PM)" compresses a Q&A; Rev has bare "12:23", no "PM"; the 12:23:28 precision rests on the co-cited StEx 11 |
+| `PH1:72-73` | Def. | `01:43:12–01:43:39` | ✅ VERBATIM | Both screwdriver strings verbatim ("a red and black screwdriver"; "10 or 15 feet in from the other side of the guardrail") — the anchor the reply's Argument II.C disputes (CR-E17 F-132(2)) |
+| `PH1:90-91` | Def. | `02:25:40–02:26:12` | ✅ VERBATIM | "prone position" verbatim; companion p. 94 maps to the 02:29:00–02:30:34 cluster |
+| `PH1:98-99` | Def. | `02:37:53–02:39:38` | ☑ CONSISTENT | Brief "observed jumping from roof" vs Rev's consistent "dropped off" |
+| `Tr. Day 1 at 212:13-19` | Reply | `06:34:43–06:34:55` | ☑ CONSISTENT | Rev says "on campus… twice before the shooting", not "in the amphitheater area"; ⚠️ **the reply's Sorensen-Center-lunch detail appears nowhere in the located passage** — its support must sit elsewhere (the defence's PH2:31-32 locus carries the Chick-fil-A/Sorenson answer) |
+| `Tr. Day 1 at 87:12-88:15` | Reply | `02:25:40–02:26:55` | ☑ CONSISTENT | Word-count interpolation lands pp. 87–88 exactly on the StEx 4/2 walk-down; ⚠️ the word "clear" does not appear there — **the literal "clear line of sight" Q&A sits at 01:21:36, the defence's PH1:53-54 locus** |
+
+**Day 2** *(19 anchors → `day2.txt`)*
+
+| Certified cite | Brief | Rev locator | Verdict | Note |
+|---|---|---|---|---|
+| `PH2:102` | Def. | — | 🚨 NOT FOUND | **In Day 2. The quoted words print VERBATIM in `day4.txt`** (04:50:59, 04:51:57, Sgt. Faumuina) → **F-137: best explained as the brief's day-typo for PH4:102.** Capable patterns listed in the raw record |
+| `PH2:126` ×3 | Def. | `05:03:09–05:03:46` | ☑ CONSISTENT | Brief "Mauser model 98" vs Rev "Mauser 98 rifle"; Rev's caliber line is garbled ("a drove-headed to a .30-06 barrel"); ⚠️ **"with a scope" has no support anywhere in Day 2's rendering** (patterns null; it does appear in the ATF/report material) |
+| `PH2:29` | Def. | `00:46:03` | ✅ VERBATIM | "some representatives from TPUSA" (Rev spaces "TP USA") |
+| `PH2:29-30` | Def. | `00:45:04–00:46:36` | ☑ CONSISTENT | Times match (8:30, 9:25) with phrasing differences |
+| `PH2:31-32` | Def. | `00:48:03–00:49:21` | ☑ CONSISTENT | "Chick-fil-A in the Sorenson Center" matches the restated answer; "just after 10:00 AM" vs brief's "approximately 10:00 AM" |
+| `PH2:32` | Def. | `00:50:25` | ✅ VERBATIM | "just prior to 11:00am" (case/spacing only); Rev shows the witness's own correction sequence |
+| `PH2:36-37` | Def. | `00:55:27–00:56:08` | ☑ CONSISTENT | Rev ties 12:23:28 to the reported shot, after which the individual "stands up" — the brief ties it to the figure getting up |
+| `PH2:46` | Def. | `01:02:49–01:03:19` | ☑ CONSISTENT | "zoomed in" verbatim within a garbled Rev sentence |
+| `PH2:47` | Def. | `01:08:09 · 01:11:00` | ☑ CONSISTENT | The brief compresses the two-step admission/monitors-only sequence |
+| `PH2:67` | Def. | `01:56:55–01:57:20` | ☑ CONSISTENT | Rev has "**approximately** 15 to 30 seconds", framed by the witness as a guess the video would verify — the brief's parenthetical drops both qualifiers |
+| `PH2:68` ×2 | Def. | `01:58:52–01:58:59` | ✅/☑ | "can't answer" verbatim in "I can't answer that question"; ⚠️ the Rev exchange is **narrower** than the brief's "could not testify as to what the shooter saw" — it concerns visibility of the area behind the tent |
+| `PH2:69` | Def. | `02:00:11–02:01:18` | ☑ CONSISTENT | Rev's witness **qualifies**: a videographer stood behind-right, and "I can't speak to whether there's anybody out of frame" — qualifications the brief's rendering sheds → F-138 |
+| `PH2:69-70` | Def. | `01:57:29–02:00:35` | ⚠️ AMBIGUOUS | None of the brief's tent-scene details (barrier, grass, seated positioning) appear in Day 2's rendering under capable patterns — **they evidently describe StEx 7 itself**; the nearest testimony is the Ty-Phillips-video/banner exchange |
+| `PH2:70` | Def. | `02:01:15–02:01:18` | ✅ VERBATIM | "There's no one stood in the middle behind the tent" exactly, nonstandard "stood" included; Rev adds a trailing "No." — and the out-of-frame qualification sits one turn earlier |
+| `PH2:84-85` | Def. | `02:18:32–02:19:16` | ✅ VERBATIM | "You would not be able to see through it." — said twice, the second time qualified "from the audience side" |
+| `Tr. Day 2 at 29:21-30:5, 31:1-17` | Reply | `00:46:03–00:50:26` | ☑ CONSISTENT | No quotation to match; mapped by anchoring the defence's PH2:31-32/PH2:32 loci and back-computing ~60–90 s/certified page |
+
+**Day 3** *(1 anchor → `day3.txt`)*
+
+| Certified cite | Brief | Rev locator | Verdict | Note |
+|---|---|---|---|---|
+| `PH3:35` | Def. | `00:47:23–00:48:47` | ☑ CONSISTENT | Paraphrase; ⚠️ the located Day 3 passage says "areas in Southern Utah" and **never names St. George** — that name must rest elsewhere |
+
+**Day 4** *(11 anchors → `day4.txt`)*
+
+| Certified cite | Brief | Rev locator | Verdict | Note |
+|---|---|---|---|---|
+| `PH4:106` ×2 | Def. | `04:51:32–04:56:17` | ☑ CONSISTENT | The fired-case-in-chamber proposition condenses the render-safe sequence ("one 30 odd 6 cartridge case or say fired cartridge case… three unfired cartridges all with engravings") |
+| `PH4:113` | Def. | `05:05:16` | ☑ CONSISTENT | Rev "perforations **in** it" vs brief "[with] perforations **on** it[.]" |
+| `PH4:115-16` | Def. | `05:07:39–05:07:56` | ☑ CONSISTENT | The substance is a one-word "Yes" after a sustained objection reshaped the question |
+| `PH4:116` | Def. | `05:08:24–05:09:01` | ☑ CONSISTENT | Rev never says "a perforation in the center" — the witness says "one being in it" (the bullseye) |
+| `PH4:130-31` | Def. | `05:28:52–05:29:32` | ☑ CONSISTENT | The parenthetical characterises the ATF report sentence; note the report's internal exhibit numbering is its own scheme |
+| `PH4:91` | Def. | `04:37:27` | ✅ VERBATIM | **"approximately 415 feet" verbatim** — see F-136. Brief styles the witness "Agent"; the State's call and Rev say "**Sergeant** Jennifer Faumuina" |
+| `PH4:91-92` | Def. | `04:37:27–04:38:24` | ☑ CONSISTENT | Only the angle component locates here; ⚠️ **"hit Mr. Kirk in the left side of his neck" appears nowhere in `day4.txt`** (`neck` = 0, capable stems, assembler-re-run) — it must rest on the co-cited StEx 11 or another day |
+| `PH4:92` | Def. | `04:37:56` | ✅ VERBATIM | "approximately 68 feet" verbatim; the "between the bottom of the amphitheater and the Losee roof" endpoints are the brief's gloss — Rev says only "the elevation difference between that" |
+| `PH4:96-97` | Def. | `04:45:23–04:46:26` | ☑ CONSISTENT | Recovery-location support; the Mauser/caliber/scope details source elsewhere |
+| `Tr. Day 4 at 91:12-92:10` | Reply | `04:37:26–04:38:24` | ☑ CONSISTENT | **The same turn as PH4:91/92 — both briefs cite the same certified page.** See F-136 for the 415/410/68 resolution; ⚠️ the reply's "clear line of sight to view all these people from just 410 feet away" sentence is **its own prose, not transcript language** (capable patterns null in `day4.txt`) |
+
+## §3 · The page ↔ time model
+
+The located pairs give **~30 certified-page ↔ Rev-timestamp anchor points** across Days 1, 2 and 4 (one on Day 3). Between adjacent anchors the observed rate is **roughly 60–90 seconds of stream time per certified page** (net of recesses, which Days 1–2 record as dead air — hazard 10's corrected form). Two agents used word-count interpolation and landed reply cites exactly on content-consistent passages (e.g. certified pp. 87–88 → the StEx 4 walk-down). ⚠️ **Interpolated locators are estimates good to roughly a page**; anchored locators (a quotation found at a timestamp) are exact on the Rev side.
+
+## §4 · Findings — `[PROVISIONAL]`
+
+- **F-135 — THE CROSSWALK EXISTS, AND THE `PHn` = DAY-*n* MAPPING IS VALIDATED.** 43 of 45 anchors located (13 verbatim, 30 consistent); the single in-day NOT-FOUND is itself explained as a day-typo (F-137), and the single AMBIGUOUS anchor evidently describes exhibit content rather than testimony. **Until the certified transcript is held (SEC-A6), this table is the library's instrument for converting either party's pin-cites into checkable Rev passages** — and it was built two-sided, from both briefs. Confidence: High that the located passages correspond; the certified pagination itself remains unverified by construction.
+- **F-136 — THE 415/410 "DISCREPANCY" BETWEEN THE BRIEFS DISSOLVES IN ONE WITNESS TURN — AND OPENS A REAL ONE WITH THE CHARGING DOCUMENT (→ D-74).** Sgt. Faumuina's rendering (`day4.txt` 04:37:27–04:38:24, attribution cross-checked against the condensed rendering) carries **all three figures in a single sequence**: perch-to-tent direct *"approximately 415 feet"*; *"without taking into account the elevation drop, it was actually 410 feet. So just horizontal straight across"*; elevation *"approximately 68 feet"* — counsel's echo ("410 feet … with a 68-foot vertical drop") confirmed "Yes." **Each brief quotes the figure suiting its framing**: the defence the 415 direct figure (styling the witness "Agent" where the call says "Sergeant"); the reply the 410 horizontal figure, **omitting both the 415 direct figure and the horizontal-only qualification**. Both party renderings are *consistent with* the testimony as Rev renders it; neither is complete. **D-74 is opened on the remaining divergence** (below). Confidence: High (verbatim-located, twice; assembler-re-verified).
+- **F-137 — A CITATION IN THE DEFENCE BRIEF POINTS TO THE WRONG HEARING DAY.** `PH2:102`'s quoted words — *"Whether it be to load it, lock it as well as extract anything that's in"* the rifle, and the fired-plus-three-unfired-cartridges sentence — **appear nowhere in Day 2's rendering** (capable patterns listed in the raw record) **and print verbatim in Day 4's** (04:50:59; 04:51:57, Sgt. Faumuina — whose Day 2 examination was expressly paused to Day 4). Best explanation: **a typo for `PH4:102`**, consistent with the companion cite PH4:96-97. Hazard 1 as CR-E07 v1.4 extended it — a filing's citations are claims — **the third instance in this briefing cycle** (the defence's *Apprendi* "(1980)"; the reply's three statute renderings). ⚠️ Stated as the best explanation from held renderings, not as certainty; the certified transcript adjudicates. Confidence: High on the textual facts.
+- **F-138 — A MEASURED PATTERN OF QUALIFICATION-SHAVING AND VOICE-FLATTENING IN BOTH BRIEFS' TRANSCRIPT RENDERINGS, BRIEF-vs-REV.** Instances, each verbatim-anchored: the defence renders **the prosecutor's question as Bagley's declarative** ("there is a clear line of sight…" — Rev: Q by counsel, adopted "Yes, there is", PH1:53-54); the defence's PH2:69/70 rendering sheds the witness's **videographer and out-of-frame qualifications**; PH2:67 drops "**approximately**" and the witness's this-is-a-guess framing; PH1:212-13 drops "approximately" and adds a parking-structures framing; PH2:126's "with a scope" has no Day-2 support; PH3:35's "St. George" is not in the located passage; PH4:91-92's neck-wound component locates nowhere in Day 4 (`neck` = 0). On the State's side: the reply's "clear line of sight … from just 410 feet away" is its own prose (F-136), and its Sorensen-lunch detail does not sit at its cited locus. 🚨 **The standing limit governs: these are divergences from an UNCERTIFIED rendering** — each is an agenda item for the certified transcript, **not a finding that any party misquoted the record**. No register entry resolves on this. Confidence: High as to what Rev prints and what the briefs print.
+
+### Register entry opened
+
+> **D-74 — THE CHARGED DISTANCE AND THE MEASURED DISTANCE DIVERGE ACROSS TWO PRIMARY SOURCES.** The Information (2025-09-16) pleads a roof *"approximately 160 yards away from Mr. Kirk"* (= **480 feet**, arithmetic this file's). The crime-scene measurement testimony, as Rev renders it and **as both parties' briefs quote it**, is *"approximately 415 feet"* perch-to-tent direct (410 horizontal; 68 elevation) — `day4.txt` 04:37:27–04:38:24. **The gap is ~65 feet / ~22 yards between two Tier 1 sources.** Both are stated approximations made at different times by different methods (an early charging estimate; a later scene measurement), and SEC-E02's F-116 records the wider circulation mess (160-vs-200 in the timeline's sources; 142 in open-web summaries — the last now notably close to the sworn ~138 yards). **Unresolved; no party's figure is adopted; nothing turns on it in any held filing.** Resolving artifact: the certified Day 4 transcript, or the measurement exhibit itself. *(Assigned after grep + reading every hit: no prior D-74 assignment exists — all prior strings were "next free" prose. QUEUE header updated in the same session.)*
+
+## §5 · Open items and queue effects
+
+| Item | Disposition |
+|---|---|
+| **SEC-A6 (certified transcript)** | Value raised again: every F-138 instance and D-74 is a specific page to check on acquisition |
+| **Q-183** | Unchanged (the statute-rendering question needs the code/opinions) |
+| **Verification cycle on this file** | Owed under LOOP §2; aim it at the 13 VERBATIM locates (re-find each quote), the two-sided F-136 resolution, F-137's day-typo reasoning, and a sample of the ☑ CONSISTENT rows |
+| **SEC-E02 F-116** | Annotated this session with the D-74 pointer (register infrastructure, not a propagation of this file's findings) |
+
+## §6 · Residual scope — what this file did NOT do
+
+- It did **not** and cannot verify certified page numbers against the certified transcript (not held) — the whole table is Rev-side.
+- It did **not** independently re-verify all 45 locates; the assembler re-verified the five load-bearing strings and the `neck` null by hand (§1), and Day 4 attributions were cross-checked against a second rendering. The rest stands on single-agent location pending the §5 cycle.
+- It did **not** read any day's transcript end-to-end for this file; searches were anchor-driven.
+- It resolved no register entry (D-74 is **opened**, not resolved) and altered no case-posture statement.
+
+## REVISION LOG
+
+| Version | Date | Change |
+|---|---|---|
+| **1.0** | **2026-08-20** | File created — Q-182 executed. 45 anchors (41 defence `PHn:` cites + the reply's 4 `Tr. Day N` cites) located in the Rev renderings by an eleven-agent pass under the standing discipline; 13 verbatim / 30 consistent / 1 not-found / 1 ambiguous; raw record banked with hashes. **The `PHn` = day-*n* mapping validated (F-135).** **F-136: the 415/410/68 distance sequence located in one witness turn — each brief quotes the figure suiting its framing — and D-74 opened on the Information-vs-measurement divergence** (~480 ft pleaded vs ~415 ft testified as rendered and as quoted by both parties; unresolved, nothing adopted). **F-137: PH2:102 is best explained as the defence brief's day-typo for PH4:102** — its quoted words print verbatim in Day 4. **F-138: measured qualification-shaving and voice-flattening instances in both briefs' transcript renderings, all stated brief-vs-Rev with the uncertified-rendering limit governing.** Page↔time model: ~30 anchor pairs, ~60–90 s/certified page between anchors. Assembler spot-checks stated in §1; verification cycle owed (§5). No register entry resolved; no case-posture statement altered. **Robinson has NOT been bound over — the hearing is not concluded; 09-01 is argument only. Presumption of innocence applies throughout.** |

@@ -1,0 +1,407 @@
+[
+ {
+  "cite": "PH2:69",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "02:00:11-02:01:18",
+  "rev_quote": "So there's a videographer on the right side of the tent and then I can only see as far as the video allows me to. So I can't speak to whether there's anybody out of frame who could have been behind the tent. ... Correct. But directly in the middle of the tent, is there anyone standing? ... There's no one stood in the middle behind the tent. No.",
+  "speaker_basis": "The answers are the witness under Ms. Nestor's continuous cross-examination \u2014 the same witness the court recalled to the stand as Agent Hull at the day's start and whom Ms. Nestor thanks by name (\"Thank you, Agent Hull\") at the 02:12:07 tender.",
+  "notes": "Brief's \"no one is immediately behind the center\" corresponds to Rev's \"no one stood in the middle behind the tent\"; but the witness qualified it: a videographer stood behind the tent on the right side, and he \"can't speak to whether there's anybody out of frame.\" The phrase \"American Comeback\" appears nowhere in day2.txt (case-insensitive grep, zero hits); the tent is only \"the pop-up tent\"/\"that banner\" in Rev. Witness initially asked to re-view the clip (02:00:21) before answering.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:84-85",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "02:18:32-02:19:16 (quote at 02:19:02)",
+  "rev_quote": "No. You can't see through it. It's white. And then you cannot see through it. No. ... You would not be able to see through it. You would not be able to see through it from the audience side of the amphitheater.",
+  "speaker_basis": "Same witness (Agent Hull) now on the State's redirect: Ms. Nestor tendered \"Thank you, Agent Hull\" at 02:12:07, the judge assigned \"Redirect by the State,\" and the examiner (Mr. Sturgill, whom the court had named as Hull's direct examiner) references \"I believe you testified that Mr. Kirk was on the other side.\"",
+  "notes": "Brief's quoted sentence \"You would not be able to see through it.\" appears verbatim at 02:19:02, said twice, the second time qualified \"from the audience side of the amphitheater\"; at 02:19:12 the witness adds you also cannot see through from the tunnel side. Note the quote comes from the State's redirect examination, not the defence cross.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:68",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "01:58:52-01:58:59",
+  "rev_quote": "And just to be clear, this area behind the tent would not have been visible to anybody that was on the Losee building. Is that fair? ... I can't answer that question.",
+  "speaker_basis": "The answer is the witness under Ms. Nestor's cross about the UVU breezeway clip \u2014 the same continuous examination of the witness the court recalled as Agent Hull and whom Ms. Nestor thanks by name at the 02:12:07 tender.",
+  "notes": "The brief's quoted fragment \"can't answer\" appears verbatim in \"I can't answer that question.\" But the surrounding proposition is the brief's paraphrase: Rev's question asks about visibility of the area behind the tent \"to anybody that was on the Losee building,\" not \"to the shooter on the Losee Center roof.\" Rev order (01:58, before the PH2:69 passage at 02:00) matches certified page order 68 before 69.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:126",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "05:03:09-05:03:26",
+  "rev_quote": "Is there a wooded area that's northeast of campus? ... Yes. ... What was found in that wooded area? ... What was found there was a long gun that was wrapped in a dark-colored towel. ... Sorry. That would be a rifle. So to be more specific, it was a Mauser 98 rifle.",
+  "speaker_basis": "Answers are the witness sworn at 05:00:28 immediately after \"The State calls Sergeant Jen Faumuina,\" who self-identifies at 05:01:02 (\"Yes. Jennifer Faumuina\", sergeant, State Bureau of Investigation, assigned to oversee crime scenes and physical evidence), examined by Mr. McBride.",
+  "notes": "Brief says \"Mauser model 98\"; Rev says \"Mauser 98 rifle.\" Rev locates the wooded area only as \"northeast of campus\" \u2014 the brief's \"across the street from the northeast corner of the Losee Center where the individual ran after jumping from the roof\" is not in this passage (the brief also cites PH4:96-97 and StEx 32 for that; Agent Hull's redirect at ~04:4x separately mentions Mr. Robinson entering a wooded area, day2.txt line 3728).",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:126",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "05:03:35-05:03:46",
+  "rev_quote": "Do you know what caliber that was? ... It was a drove-headed to a .30-06 barrel. ... And do you know what kind of action that had? Was that a semi-automatic? Automatic? Bolt action? ... It was a bolt action.",
+  "speaker_basis": "Same witness, Jennifer Faumuina \u2014 sworn at 05:00:28 after the State called \"Sergeant Jen Faumuina,\" self-identified at 05:01:02, answering Mr. McBride's direct.",
+  "notes": "\"Bolt action\" is verbatim. The caliber line is a Rev garble: \"It was a drove-headed to a .30-06 barrel\" (supports \"30.06 caliber\" but the verb phrase is machine noise). \"With a scope\" has NO support anywhere in Day 2 Rev text \u2014 patterns run: case-insensitive \"scope\" (6 hits, all legal/procedural usage, none firearm), \"telescopic\"/\"optic\" stems (0 hits); the brief also cites StExs 10.3 and 32 for the scope. Witness immediately disclaimed firearms familiarity: \"I'm not too familiar with guns, but I just know there's a bolt and you have to pull it back\" (05:03:50).",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:65",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "01:37:58",
+  "rev_quote": "In my terms, I'd say when I was up there looking down, I'd say there was several thousand people because you had it on the grass that was jam packed. In the amphitheater sitting on the grass you had people standing on the back up along the cement. You had people that were on the second level, the Sorenson and over by the Woodbury Building there's another level there where a lot of people were standing and watching.",
+  "speaker_basis": "Witness Christopher Bagley \u2014 an answer in the State's direct examination (question by Chad Grunander at 01:37:54: \"Any idea about approximately how many?\"); the witness self-identified as Christopher Bagley at 44:50 and is addressed as \"Officer\"; Rev mislabels his answers \"Richard Novak\" (defence counsel).",
+  "notes": "Only \"several thousand\" is quoted in the brief; \"gathered in and around an amphitheater on the UVU campus to watch and listen to guest speaker, Charlie Kirk\" is the brief's paraphrase. The passage ends \"So it was pretty packed, several thousand people.\" The companion cite PH1:68 falls in this same 01:36:36-01:38:35 stretch.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:67",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "01:36:46-01:37:11",
+  "rev_quote": "He was answering a question, a kid asked him a question, and then I heard a shot fired. \u2014 Do you know what time that was? \u2014 Yes. \u2014 What time was that? \u2014 12:23.",
+  "speaker_basis": "Answers by witness Christopher Bagley (self-identified at 44:50, addressed as \"Officer\"; Rev mislabels him \"Richard Novak\"); questions by prosecutor Chad Grunander, who entered his appearance for the State and conducts this direct examination.",
+  "notes": "Brief's parenthetical \"(shot fired at 12:23 PM)\" compresses a Q&A exchange; Rev has bare \"12:23\" with no \"PM\". Bagley repeats \"12:23\" on cross at 02:51:13. The precise 12:23:28 figure in the brief is sourced to StEx 11, not this testimony.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:204",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "06:07:50",
+  "rev_quote": "As far as the publication, Judge, we agree with Ms. Nester. This is a document that does contain very sensitive information and information that Mr. Kirk's family would appreciate it not being published. And so although we seek to admit it, we'd ask that it not be published here in the courtroom or that it be published in any fashion or way that the public could see it by virtue of a camera.",
+  "speaker_basis": "The State's counsel conducting Agent Hull's direct examination and moving admission of Exhibit 11 (the medical/autopsy report) \u2014 the court addresses this same speaker as \"Mr. Sturgill\" in the immediately following turn (06:09:27: \"Mr. Sturgill, is this a good point to stop...\", to which he answers at 06:10:03) and later describes \"the direct examination of Mr. Hull by Mr. Sturgill\" (06:29:03); Rev's label on the turn is \"Ryan McBride\".",
+  "notes": "One-word divergence: the brief renders \"...very sensitive information and that information that Mr. Kirk's family...\"; Rev prints \"...very sensitive information and information that Mr. Kirk's family...\". The brief's ellipsis bridges Rev's \"And so although we seek to admit it\". Brief's attribution to Mr. Sturgill matches the content basis despite Rev's contrary label.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:46-47",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "01:13:08 (follow-up 01:13:27)",
+  "rev_quote": "If they came up, that would put some right here on this pathway that goes between the Losee Center and down towards the computer science building there's a red pathway. There's actually a little handrail, like a little guardrail, probably about a couple feet high that somebody could jump over.",
+  "speaker_basis": "Witness Christopher Bagley \u2014 answer to Chad Grunander's direct-exam question \"how would someone access the roof from that stairway?\" (01:13:03); witness self-identified at 44:50 and Grunander closes with \"Thank you, Officer\"; Rev mislabels the answers \"Richard Novak\".",
+  "notes": "Brief's quote drops Rev's \"like a\" and comma: Rev prints \"like a little guardrail, probably about a couple feet high\". Apparent Rev garble \"would put some right here\" (likely \"someone\"). Follow-up at 01:13:27: \"There's a natural barrier with the guardrail. And from there on, there's no path. It's gravel roof...\"",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:90-91",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "02:25:40-02:26:12 (further references 02:29:00-02:30:34)",
+  "rev_quote": "To me, when I got up there and I could see this disturbance of gravel, to me, it looks like a sniper pad, a person that has been laying in a prone position and you've got markings of elbows, knees, and feet to where somebody was in the line of sight of where Charlie's tent was.",
+  "speaker_basis": "Witness Christopher Bagley \u2014 describing State's exhibit photos of the Losee rooftop during Grunander's direct; the court addresses him as \"Officer\" at 02:25:20 and he self-identified at 44:50; Rev mislabels the answers \"Richard Novak\".",
+  "notes": "Brief quotes only the phrase \"prone position\", which appears verbatim here. The cite's companion page 94 maps to the second cluster: 02:29:00-02:29:15 (\"two elbows, two knee areas... a marker where somebody laid a gun down\" / \"It's like a prone position.\") and 02:30:34 (\"somebody had been proned out in the line of sight of the tent\").",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:98-99",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "02:37:53\u201302:39:38",
+  "rev_quote": "I went and grabbed some more crime scene tape and I responded to the northeast side of the building and secured an area where I saw impressions of the shoe print inside the grass and also up above on that northeast side of the building. \u2026 [02:39:32] I did. I saw a shoe imprint that was embedded pretty deep right there next to where he dropped off.",
+  "speaker_basis": "Witness answers (Rev-labeled \"Richard Novak\") are Officer Chris Bagley \u2014 called by the State at 43:27, addressed as \"Officer Bagley\" by the court, self-identified \"Christopher Bagley... B-A-G-L-E-Y\" at 44:50; questioner is State's counsel Chad Grunander on direct.",
+  "notes": "Brief paraphrase, no direct quote. Brief says individual was \"observed jumping from roof\"; Rev witness consistently says the individual \"dropped off\" the northeast side (02:37:31, 02:39:12, 02:39:32). Rev renders it as \"impressions of the shoe print inside the grass\" then \"shoe imprint... embedded pretty deep... next to where he dropped off\" at the northeast corner. A follow-up exchange on the same shoe print (\"on the grass on the northeast lawn area below the Losee building\") is at 02:41:26\u201302:41:39, likely just past the cited pages.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:53-54",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "01:21:36\u201301:21:43",
+  "rev_quote": "Q: Okay. Is there a clear line of sight between the tent and the top of the Losee Center? The rooftop? A [01:21:43]: Yes, there is.",
+  "speaker_basis": "Question is State's counsel Chad Grunander; the affirming answer (Rev-labeled \"Richard Novak\") is Officer Chris Bagley, per the 43:27/43:32/44:50 call, address, and self-identification during this same direct examination.",
+  "notes": "The brief renders the quoted sentence as Bagley's declarative testimony (\"there is a clear line of sight between the tent and the top of the Losee Center\"); in the Rev text those words appear in inverted order as the prosecutor's question, which the witness adopts with \"Yes, there is.\" The companion cite PH1:117 likely maps to the parallel exchange at 02:18:19\u201302:18:25 (\"Is there a line of sight down into the courtyard?\" \"Yes, there is.\").",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:52",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "01:19:35\u201301:20:24",
+  "rev_quote": "...it's going to have the four or five floors that are sitting right there. \u2026 [01:19:56] This is ground level where the courtyard is. \u2026 And your fourth level, which is the actual top level of the building is that very top one with the windows that you can see. \u2026 Q [01:20:22]: Is there an atrium on the top of that? A [01:20:24]: There is an atrium.",
+  "speaker_basis": "Witness answers (Rev-labeled \"Richard Novak\") are Officer Chris Bagley, established by the State's call at 43:27, the court's address, and self-identification at 44:50; questions by State's counsel Chad Grunander.",
+  "notes": "Brief paraphrase. Brief says \"four or five levels\"; Rev says \"four or five floors\" and the witness then enumerates only four levels, calling the fourth \"the actual top level.\" The atrium point comes from a separate Q&A (01:20:22-24), and at 02:18:05 the witness adds \"The atrium's up just a little bit higher. So this is the top level of four.\"",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:25",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "50:07\u201350:44",
+  "rev_quote": "It's an outdoor area centered by a bunch of buildings around it. So it's in the center of campus, pretty much. \u2026 [50:26] It's kind of like an amphitheater look. So you got some grass and a couple steps that go up. You got some cement on top with some bushes and flowers. You've got places where people can sit and eat. They come out and study and relax on the grass. And there's a waterfall with a little pond that comes down into a stream.",
+  "speaker_basis": "Witness answers (Rev-labeled \"Richard Novak\") are Officer Chris Bagley, per the State's call at 43:27, the court addressing \"Officer Bagley,\" and self-identification at 44:50; questions by State's counsel Chad Grunander on direct.",
+  "notes": "Brief cites this only as \"(Officer Bagley description of the amphitheater)\" with no quotation; the Rev passage is the witness's description of the courtyard/amphitheater in answer to \"Can you describe what it looks like\" (50:20). No substantive divergence to flag.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:212-13",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "06:34:43\u201306:35:55",
+  "rev_quote": "Yeah. We were able to establish that Mr. Robinson had been on campus approximately four times throughout the day, twice before the shooting, the time of the shooting, and then after the shooting later in the evening into the early hours of the 11th. \u2026 Q [06:35:42]: And I believe you said that in total, Mr. Robinson visited the UVU campus four times that day. A: Yes, that's correct.",
+  "speaker_basis": "Witness is Agent David Hull \u2014 called by the State at 04:22:36, sworn at 04:22:48, self-identified \"David Hull, H-U-L-L\" at 04:23:24, employed by the Department of Public Safety; questions by State's counsel Ryan McBride on direct.",
+  "notes": "The brief's quoted words \"four times\" appear verbatim, but its framing diverges: brief says \"entering and exiting campus parking structures 'four times'\"; Rev says \"on campus approximately four times\" / \"visited the UVU campus four times,\" based on UVU surveillance video (the Exhibit 12.1 discussion begins immediately after, at 06:35:56). Brief also drops the witness's \"approximately,\" and its \"once after the shooting a vehicle is seen matching Mr. Robinson's\" compresses Rev's \"after the shooting later in the evening into the early hours of the 11th\" plus the earlier Challenger identification at 06:33:27\u201306:34:42. The \"identified as Mr. Robinson\" attribution is the State witness's characterisation, quoted as such.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH3:35 (defence brief)",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "00:47:23\u201300:48:47 (Rev prints MM:SS: 47:23\u201348:47)",
+  "rev_quote": "As part of the investigation, were search warrants obtained specifically for areas in Southern Utah? \u2026 Yes, they were. \u2026 It was the residence of Tyler Robinson and the residence of his parents. \u2026 Were those warrants executed? \u2026 They were. \u2026 Are you aware of whether Mr. Robinson lived with anyone else at that residence at the time? \u2026 Yes. \u2026 Do you know who that was? \u2026 Lance Twiggs.",
+  "speaker_basis": "Questions by prosecutor Lauren Hunt, answers by Agent Brian Davis (Utah SBI) \u2014 established from content: the state calls \"Agent Brian Davis\" at 25:29, the court says \"Ms. Hunt, your witness\" at 25:46, and the witness self-identifies \"Brian Davis. D-A-V-I-S\" at 26:11; day3_condensed.txt attributes the same turns identically.",
+  "notes": "Brief sentence is a paraphrase (no quotation marks), hence FOUND-CONSISTENT not VERBATIM. Divergences: (1) the brief places the residence \"in St. George, Utah\", but this Day 3 passage says only \"areas in Southern Utah\" and never names the residence's city \u2014 St. George appears on Day 3 only for the airport, police department, courthouse, and Washington County Sheriff's Office; (2) brief's \"shared with Lance Twiggs\" is rendered in Rev as the Q&A 'lived with anyone else at that residence' \u2192 'Lance Twiggs'. Adjacent Rev context (47:50\u201348:27): execution of the warrant on Robinson's residence started about 8:00 AM September 12 by a team led by Sergeant Faumuina \u2014 Rev garble prints \"The residents of Tyler Robinson was a team led by Sergeant Faumuina\" \u2014 consistent with the brief's next sentence citing PH4 (Faumuina) for what was found.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:126",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "05:03:09\u201305:03:46",
+  "rev_quote": "Is there a wooded area that's northeast of campus? \u2026 What was found there was a long gun that was wrapped in a dark-colored towel. \u2026 Sorry. That would be a rifle. So to be more specific, it was a Mauser 98 rifle. \u2026 It was a drove-headed to a .30-06 barrel. \u2026 It was a bolt action.",
+  "speaker_basis": "Answers are Sgt. Jennifer Faumuina (SBI): the witness sworn at 05:00:32 states her own name at 05:01:02 and her crime-scene assignment; the questioner is state counsel Mr. McBride, addressed by name by the judge at 04:59:26 immediately before announcing he would call \"Jen Faumuina\".",
+  "notes": "Brief renders \"Mauser model 98\"; Rev prints \"Mauser 98 rifle\". Rev's caliber answer is garbled: \"It was a drove-headed to a .30-06 barrel\". The brief's \"with a scope\" appears nowhere in the Day 2 rendering (patterns scope/scoped/optic/sight/telescop hit only \"scope of the hearing\" argument) \u2014 likely from the co-cited StExs 10.3/32. The brief's location detail \"across the street from the northeast corner of the Losee Center where the individual ran after jumping from the roof\" is fuller than Rev's \"wooded area that's northeast of campus\" \u2014 likely drawn from co-cited PH4:96-97/StEx 32.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:102",
+  "verdict": "NOT-FOUND",
+  "rev_timestamp": "",
+  "rev_quote": "",
+  "speaker_basis": "No Day 2 passage exists; the corresponding testimony in the day4.txt rendering is Sgt. Faumuina \u2014 the witness there describes personally rendering the recovered rifle safe, continuing the examination Mr. McBride expressly paused on Day 2 (04:59:43: \"we're going to pause her testimony\"), and is addressed as \"Sergeant Faumuina\" in adjacent turns.",
+  "notes": "Patterns run over whitespace-normalised day2.txt, all capable of matching the cited content: 'load|loaded|loading' (would catch \"load it\"), 'lock' (would catch \"lock it\"), 'extract' (would catch \"extract anything\"), 'manipul' (stem of manipulate/manipulated), 'cartridge|casing' and 'fired|unfired' (would catch \"fired cartridge case\"/\"three unfired cartridges\"), 'bolt' (only hits are the 05:03:41-50 action-type exchange, where Faumuina disclaims gun familiarity), plus 'chamber', 'eject', 'round(s)', 'ammunition|ammo', 'three', 'live', 'render safe'. Zero relevant hits. The brief's quoted words print VERBATIM in the day4.txt rendering: \"Whether it be to load it, lock it as well as extract anything that's in it\" (Sgt. Faumuina @ day4 04:50:59) and \"we found one 30 odd 6 cartridge case or say fired cartridge case. And we also found three unfired cartridges all with engravings on them\" (@ day4 04:51:57; restated \"A fired cartridge case and three unfired cartridges?\" @ 04:52:59). Cite is almost certainly a typo for PH4:102 \u2014 the companion cite PH4:96-97 (rifle recovery) sits a few pages earlier, and PH2:102 cannot precede PH2:126 within Day 2, whose only rifle testimony is one continuous minute at 05:03.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:29-30",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "00:45:04\u201300:46:36",
+  "rev_quote": "It's approximately 8:30 in the morning on September 10th, 2025. \u2026 I believe that's Tyler Robinson. \u2026 He returns on foot back to the same vehicle. \u2026 It's about 9:25 AM.",
+  "speaker_basis": "All quoted lines are answers by the case agent: the examiner opens this stretch \"What are we seeing here, Agent Hall?\" (00:44:55) and the judge later resumes with \"cross-examination of Agent Hall\" (01:39:43) \u2014 i.e., Agent Hull (Rev spells the surname both ways); the questioner is state counsel conducting direct (Mr. Sturgill, named in the 00:09:34 appearance line).",
+  "notes": "No direct quotation in the brief for this cite; figures match. Brief \"approximately 8:30am\" = Rev \"approximately 8:30 in the morning\"; brief \"approximately 9:25 AM\" = Rev \"It's about 9:25 AM\" (00:46:36), given in answer to \"what time is he returning back to the vehicle?\". The in-court identification (\"I believe that's Tyler Robinson\") is at 00:45:58.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:29",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "00:46:03 (clarification at 00:46:19)",
+  "rev_quote": "He heads out of the parking garage on foot into the campus and actually goes to the quad area of the campus. At that time, he makes contact with some representatives from TP USA. \u2026 Sorry, the amphitheater is what I've previously referred it to.",
+  "speaker_basis": "Answer by Agent Hull: same witness stretch in which the examiner addresses \"Agent Hall\" at 00:44:55 and the judge later says \"cross-examination of Agent Hall\" (01:39:43); the answer narrates surveillance video, the case agent's role; questioner is state counsel Mr. Sturgill per the appearance line.",
+  "notes": "Brief's quoted phrase \"some representatives from TPUSA\" prints in Rev as \"some representatives from TP USA\" (Rev's spacing). Brief's \"spoke to\" is Rev's \"makes contact with\", and brief's \"amphitheater area\" reflects Hull's own correction of \"quad area\" to \"the amphitheater\" at 00:46:19.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:31-32",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "00:48:03\u201300:49:21",
+  "rev_quote": "Just after 10:00 AM. \u2026 He went to Chick-fil-A in the Sorenson building and purchased some food, sat and ate the food. \u2026 From there, he moves across campus, out across Campus Drive into a wooded area on what would be kind of the northeast side of Campus Drive. \u2026 He moves through the Gunther building and the computer science building. \u2026 Then goes across to the railing that gives access to the roof of the Losee building.",
+  "speaker_basis": "Answers by Agent Hull, same examination stretch (examiner's \"Agent Hall\" address at 00:44:55; judge's \"cross-examination of Agent Hall\" at 01:39:43); questioner is state counsel Mr. Sturgill on direct.",
+  "notes": "Brief \"approximately 10:00 AM\" vs Rev \"Just after 10:00 AM\". Brief \"Chick-fil-A in the Sorenson Center\" matches Rev's restated answer at 00:48:29 (first given as \"the Sorenson building\"). Brief's \"appears at the railing on the walkway between the computer science building and Losee Center roof\" compresses Rev's route: computer science building (00:48:51) then \"the railing that gives access to the roof of the Losee building\" (00:49:21). The adjacent cite PH2:32's quote \"just prior to 11:00am\" prints at 00:50:26: \"It was just prior to 11:00 AM when he walked off campus\", corroborating the page mapping.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:91",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "04:37:27",
+  "rev_quote": "Yeah. So the distance from the perch area directly to the tent where Mr. Kirk was sitting was approximately 415 feet. If you break it down, so from the perch to the tent, you're looking at us basically like this. And this is the perch and this is the tent.",
+  "speaker_basis": "Witness Jennifer Faumuina, answering State direct examination \u2014 the State called her at 04:31:08, the judge seated her under continuing oath, and this turn answers counsel's immediately preceding \"Do you know the distance?\"",
+  "notes": "Brief's quoted phrase \"approximately 415 feet\" appears verbatim. Divergences: the brief styles her \"Agent Jennifer Faumuina\" while Rev renders \"Sergeant\" (the State's own call at 04:31:08 says \"Sergeant Jennifer Faumuina\"); the brief's framing \"distance of the slope between the rooftop vantage and the pop-up tent\" is its paraphrase \u2014 Rev says \"from the perch area directly to the tent.\"",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:92",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "04:37:56 (confirmed by counsel at 04:38:19-04:38:24)",
+  "rev_quote": "Yeah. So the angle ... So again, the distance, the perch to the tent was approximately 415 feet. If you think about it ... Or without taking into account the elevation drop, it was actually 410 feet. So just horizontal straight across. And then the elevation difference between that is approximately 68 feet.",
+  "speaker_basis": "Same witness (Faumuina) continuing the same answer sequence in State direct \u2014 this turn elaborates her own prior distance answer after counsel's for-the-record clarification about the downward slope.",
+  "notes": "Quoted phrase \"approximately 68 feet\" verbatim; the same turn also carries the brief's next sentence (410 feet without the slope, cited \"Id.\"). Divergence: the brief locates the elevation difference \"between the bottom of the amphitheater and the Losee roof\"; Rev says only \"the elevation difference between that\" (perch to tent) \u2014 the endpoints are the brief's gloss, not the witness's words. Counsel's echo at 04:38:19 (\"410 feet ... with a 68-foot vertical drop\") is confirmed \"Yes\" at 04:38:24.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:96-97",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "04:45:23-04:46:26 (wooded-area location described earlier at 04:41:11)",
+  "rev_quote": "Yes. In the wooded area, a right rifle that was wrapped in a dark-colored towel was found there. ... it showed who we believe was the shooter on the rooftop run from the southwest corner all the way to the northeast corner, jump down and then continue to the northeast side of that campus and then cross the street to Campus Drive. ... [Q:] Okay. So he ran basically toward and into that wooded area? [A:] Yes.",
+  "speaker_basis": "Witness Faumuina answering State direct \u2014 first-person account of receiving the sheriff's-office call and the UVU security footage, consistent with her role as the scene-processing sergeant established at the start of her testimony.",
+  "notes": "No direct quotation in the brief for this cite; the passage supports the recovery-location proposition. Divergences: \"Mauser model 98\" and \"30.06 caliber with a scope\" do not appear in this passage (the brief sources those details to PH2:126/StExs; on Day 4 the model appears only later, at line 8527, in a different witness's cross); Rev garble \"a right rifle\" (likely \"a rifle\"). The location \"northeast of the Losee Center building and ... across from Campus Drive\" is stated at 04:41:11; the run/jump/cross-street account is at 04:45:51.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:106",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "04:55:58-04:56:17",
+  "rev_quote": "[A:] This is the cartridge case that was recovered from the gun. [Q:] And what position was this in in the gun? [A:] Or this is what was in the chamber. [Q:] Okay. And the chamber meaning that's where a cartridge is when it is fired, correct? [A:] Yes.",
+  "speaker_basis": "Witness Faumuina identifying published State's Exhibit 19 on direct \u2014 the answers identify evidence she personally recovered, continuing the same examination sequence after the judge overruled standing objections at 04:55:36.",
+  "notes": "No direct quotation in the brief for this cite; brief's sentence \"The fired cartridge case was still in the chamber of the rifle\" condenses this exchange plus her earlier render-safe answer (04:51:57: \"we found one 30 odd 6 cartridge case or say fired cartridge case. And we also found three unfired cartridges\"), which the brief separately attributes to PH2:126. Page-ratio check puts certified p.106 at exactly this exchange.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:130-31",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "05:28:52-05:29:32 (ATF report identified at 05:26:25)",
+  "rev_quote": "Yes. \"The Exhibit 2 cartridge case was identified as having been fired in the Exhibit 1 rifle.\" ... [Q:] ... 2 through 5, will you explain what those are and where they came from? [A:] Yes. That would be the items we found in the gun on scene. And this was the gun that was found in the wooded area.",
+  "speaker_basis": "Witness Faumuina reading an admitted ATF firearms report (State's Exhibit 32 in the Rev rendering) aloud at State counsel's direction \u2014 the quoted identification sentence is the report's conclusion read into the record, not her own opinion; her surrounding answers tie the report exhibits to items she recovered.",
+  "notes": "Brief's parenthetical \"(cartridge fired from recovered weapon)\" is a characterization; Rev's report sentence is as quoted. The exhibit-number scheme here is the ATF report's internal numbering (Exhibit 1 rifle, Exhibit 2 cartridge case), distinct from the State's hearing exhibit numbers. A similar identification sentence for the safe-top cases (Exhibits 16, 18A-18E) appears later at ~05:40-range (line 5149) and maps to certified pp. ~138-139, so it is not this cite. Report intro/admission runs 05:26:25-05:26:42; page-ratio places pp. 130-31 across that intro through the identification sentence.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:32 (defence brief)",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "00:50:25-00:50:26 (surrounding PH2:31-32 material 00:48:15-00:49:42)",
+  "rev_quote": "Mr. Sturgill: And what time was it? Agent Hull: It was just prior to 11:00 AM when he walked off campus.",
+  "speaker_basis": "Answer is the witness Agent Hull on direct examination: the judge earlier invited 'Agent Hull to return to the stand to resume direct examination' and handed questioning to Mr. Sturgill, and the answering voice gives investigative video-tracking testimony in response to short counsel questions.",
+  "notes": "Brief quotes 'just prior to 11:00am'; Rev prints 'just prior to 11:00 AM' (case/spacing only). Context: the witness first estimated 'approximately 11:00 AM or just after' (00:49:42), then corrected to 'just prior to 11:00 AM' after refreshing memory from notes; the brief uses only the refreshed figure. Surrounding PH2:31-32 material diverges in wording: Rev has the wooded-area trip BEFORE noting the backpack gone, then 'moves through the Gunther building and the computer science building' and 'goes across to the railing that gives access to the roof of the Losee building' (00:48:51-00:49:21) \u2014 Rev never says 'walkway' or 'Losee Center' as the brief renders it.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:68 (defence brief)",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "01:58:52-01:58:59",
+  "rev_quote": "Ms. Nestor: And just to be clear, this area behind the tent would not have been visible to anybody that was on the Losee building. Is that fair? Agent Hull: I can't answer that question.",
+  "speaker_basis": "Answer is the witness Agent Hull under cross-examination: the judge announced 'cross-examination of Agent Holt [sic]... Ms. Nestor, your witness' after the recess and addresses 'Ms. Nester' by name moments after this exchange (01:59:18), and the answering voice is the one reviewing the investigative video.",
+  "notes": "The brief's rendering 'he could not testify as to what the shooter saw' is a characterisation; the Rev exchange is narrower \u2014 a refusal to answer whether the area behind the tent was visible from the Losee building (the rooftop position). No Rev passage uses 'shooter saw' or 'scope' wording (patterns run: 'shooter saw', 'what the shooter', 'through the/his scope', 'what he could see', 'vantage', 'speculat', 'can't/cannot answer/testify/speak to' \u2014 each capable of matching stem or paraphrase; only this hit and the 02:00:45 'I can only see as far as the video allows me to' turn are candidates, and page arithmetic \u2014 exactly two certified pages before the PH2:70 quote at 02:01:18 \u2014 selects this 01:58:59 exchange). Timestamp placement is consistent with cite spacing.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:70 (defence brief)",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "02:01:15-02:01:18",
+  "rev_quote": "Ms. Nestor: Correct. But directly in the middle of the tent, is there anyone standing? Agent Hull: There's no one stood in the middle behind the tent. No.",
+  "speaker_basis": "Answer is the witness Agent Hull under cross by Ms. Nestor: same cross-examination sequence the judge opened with 'Ms. Nestor, your witness', and the answering voice is the witness who had just re-viewed the breezeway video clip at counsel's request.",
+  "notes": "Brief's quotation 'There's no one stood in the middle behind the tent' appears exactly, including the nonstandard 'stood'; Rev adds a trailing 'No.' the brief omits. Immediately before (02:00:45), the same witness qualifies: 'I can only see as far as the video allows me to. So I can't speak to whether there's anybody out of frame who could have been behind the tent', and notes a videographer stood behind the tent to the right (02:01:09-02:01:14) \u2014 the brief's parenthetical omits these qualifications.",
+  "_batch": "?"
+ },
+ {
+  "cite": "Tr. Day 2 at 29:21-30:5, 31:1-17 (State's reply)",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "00:46:03-00:46:38 and 00:48:03-00:48:49 (two spans)",
+  "rev_quote": "He heads out of the parking garage on foot into the campus and actually goes to the quad area of the campus. At that time, he makes contact with some representatives from TP USA. ... Sorry, the amphitheater is what I've previously referred it to. ... Just after 10:00 AM. ... It's kind of on the northeast side of the amphitheater. It would be on the upper back edge of the amphitheater, furthest away from where the tent was that Mr. Kirk was in.",
+  "speaker_basis": "All quoted turns are the witness Agent Hull on direct: the judge invited Agent Hull to resume direct examination with Mr. Sturgill questioning, and the quoted turns are exhibit-narration answers to Mr. Sturgill's what-do-we-see questions (condensed rendering agrees).",
+  "notes": "No quotation in the reply to match, so the mapping is inferred: anchoring certified pages 31-32 to the defence's own PH2:31-32/PH2:32 passages (00:48:15-00:50:26) and back-computing at ~60-90 s per certified page places 29:21-30:5 in the first campus visit's amphitheater exchange (~8:30 AM arrival, quad/amphitheater visit, TPUSA contact, return to vehicle at 9:25 AM; 00:46:03-00:46:38, possibly extending to 'a short walk from the amphitheater' at 00:47:06) and 31:1-17 in the second visit's return 'Just after 10:00 AM' / Chick-fil-A-relative-to-amphitheater exchange (00:48:03-00:48:49). Page-boundary uncertainty is about half a page either side; both spans are 'amphitheater visits detail' consistent with the reply's description.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:27 (defence brief)",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "52:43\u201352:51",
+  "rev_quote": "The Losee Center, are you familiar with that building? \u2014 I am. \u2014 And where is it located on campus? \u2014 Directly east of the courtyard, amphitheater area. \u2014 Okay. Does it run up to the courtyard, the Losee Center? \u2014 No, not really.",
+  "speaker_basis": "Q by prosecutor Chad Grunander (the court addresses him 'Mr. Grunander' at 02:20:45 during this same direct exam); A by Officer Christopher Bagley, who self-identified at 44:50 after the State called 'Officer Chris Bagley' at 43:27 \u2014 Rev mislabels his answers 'Richard Novak' (defence counsel, who cannot be answering the State's direct).",
+  "notes": "Brief's parenthetical '(Losee directly east of amphitheater)' is a paraphrase, not a quotation; Rev answer says 'Directly east of the courtyard, amphitheater area.' Witness immediately adds Losee 'doesn't run right up against' the courtyard and the Sorensen building 'is kind of like right between those two' (52:55\u201353:02). Consistent, no figure divergence. Word-count model places this at certified p. 27 by construction (calibration anchor).",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH1:72-73 (defence brief)",
+  "verdict": "FOUND-VERBATIM",
+  "rev_timestamp": "01:43:12\u201301:43:39",
+  "rev_quote": "When I got on top, I hopped over the guardrail. I noticed that there was an object which was sitting right about 10 or 15 feet in from the other side of the guardrail in the gravel that looked out of place to me. \u2014 And what was it? \u2014 It was a red and black screwdriver.",
+  "speaker_basis": "A by Officer Christopher Bagley (self-identified 44:50; the examiner addresses him 'Officer Bagley' in the adjacent turn at 01:43:45, 'I am going to refer the witness... Officer Bagley, to State's Exhibit 3.1'); Q by prosecutor Grunander on direct \u2014 Rev again mislabels the answers 'Richard Novak'.",
+  "notes": "Both quoted strings ('a red and black screwdriver'; '10 or 15 feet in from the other side of the guardrail in the grave[l]') appear verbatim; Rev prints 'gravel' in full and prepends 'sitting right about' before '10 or 15 feet in'. Brief's attribution to Officer Bagley is correct despite the Rev label. This is the second calibration anchor (01:43:12 = certified p. 72).",
+  "_batch": "?"
+ },
+ {
+  "cite": "Tr. Day 1 at 87:12-88:15 (State's reply)",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "02:25:40\u201302:26:55",
+  "rev_quote": "So what I'm looking at is I'm on the top of the Losee building, which is where the gravel is on towards the bottom center. I'm looking west towards the tent, which is in the upper center that you got a white tent. You can see the grass down there in the amphitheater. \u2026 it looks like a sniper pad, a person that has been laying in a prone position \u2026 somebody was in the line of sight of where Charlie's tent was.",
+  "speaker_basis": "A by Officer Bagley, stepped down from the stand to narrate published State's Exhibit 4 at counsel's request (02:25:14) after the court's 'Officer, if you'd like to step down' at 02:25:20; Q by prosecutor Grunander; Rev mislabels the answers 'Richard Novak'.",
+  "notes": "Mapping is estimated: word-count interpolation from the two defence-verified anchors puts p. 87:12\u201388:15 at 02:25:40\u201302:26:55, exactly the StEx 4/StEx 2 walk-down; at 02:26:55 Bagley adds the disturbance 'would be right in the line of sight of the Charlie Kirk tent that's straight in front of it on the southwest side of the roof.' The reply's word 'clear' does not appear here; the literal Q 'Is there a clear line of sight between the tent and the top of the Losee Center?' occurs much earlier at 01:21:36 (est. p. ~53), and a related Q&A ('Is there a line of sight down into the courtyard?' \u2014 'Yes, there is.') sits at 02:18:19\u201302:19:48 (est. pp. 82\u201386). The cited locus falls inside the admission/publication sequence for StExs 3.2, 4, 2 and 5, consistent with the reply's exhibit string.",
+  "_batch": "?"
+ },
+ {
+  "cite": "Tr. Day 1 at 212:13-19 (State's reply)",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "06:34:43\u201306:34:55",
+  "rev_quote": "Okay. Were you able to determine at what time or times Mr. Robinson visited the UVU campus on September 10th? \u2014 Yeah. We were able to establish that Mr. Robinson had been on campus approximately four times throughout the day, twice before the shooting, the time of the shooting, and then after the shooting later in the evening into the early hours of the 11th.",
+  "speaker_basis": "A by DPS Agent David Hull (self-identified 04:23:24; the court calls him 'Agent Hull' at 06:38:37 and 07:46:07); Q by the prosecutor the court repeatedly addresses as 'Mr. Sturgill' (06:29:03 'direct examination of Mr. Hull by Mr. Sturgill', 06:38:35, 07:43:03) although Rev labels him 'Ryan McBride' \u2014 likely the 'David Sterk' garble in the appearances line.",
+  "notes": "Divergences: the Rev passage says 'on campus... twice before the shooting', not 'in the amphitheater area at least twice'; and the reply's detail about eating lunch at the Sorensen Center bordering the amphitheater appears NOWHERE in Day 1's Hull examination \u2014 patterns run over the whitespace-normalised text from 04:22:36 to 07:46:52: 'sorens' (catches both Sorensen/Sorenson spellings used earlier in the file), 'lunch', 'eat/eating/\\bate\\b', 'food', 'food court', 'meal', 'cafeteria', 'twice', 'two times' \u2014 the only 'lunch' hits are court scheduling; every 'Sorens*' hit is in Bagley's morning testimony. That detail may come from the Day 2 continuation of Hull's testimony or the surveillance-video exhibit itself. Word model estimates this exchange at p. ~214 (cited 212), within ~1.5% drift over 140 extrapolated pages; it is the only Day 1 passage stating how many times the Defendant was on campus before the shooting, and its size (~7 certified lines) matches the :13\u2013:19 span. This is testimony about the State's identification work; Mr. Robinson is presumed innocent and no bindover has occurred.",
+  "_batch": "?"
+ },
+ {
+  "cite": "Tr. Day 4 at 91:12-92:10",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "04:37:26-04:38:24 (distance figures at 04:37:27, 04:37:56, 04:38:19)",
+  "rev_quote": "Yeah. So the angle ... So again, the distance, the perch to the tent was approximately 415 feet. If you think about it ... Or without taking into account the elevation drop, it was actually 410 feet. So just horizontal straight across. And then the elevation difference between that is approximately 68 feet. / [Q:] Okay. 410 feet from the perch to the tent with a 68-foot vertical drop. Is that right? / [A:] Yes.",
+  "speaker_basis": "Answers: Sergeant Jennifer Faumuina; questions: state counsel Mr. McBride \u2014 identified from content: the judge seats the sergeant ('still under oath from your previous testimony') and hands off with 'Mr. McBride, your witness' (04:32:10), the questioner greets the witness by name and elicits crime-scene measurement testimony; attribution cross-checked against the independent faumuina_condensed.txt rendering, which agrees.",
+  "notes": "Two divergences. (1) The brief's direct quotation 'Defendant had a clear line of sight to view all these people from just 410 feet away' appears NOWHERE in the Rev Day 4 rendering \u2014 patterns run against whitespace-normalised text, all null: 'line of sight', 'all these people', 'clear view', 'unobstructed', 'vantage', stem 'sight', 'viewing'; that sentence is the State's characterisation, not transcript language. (2) The brief's flat '410 feet' figure is specifically the HORIZONTAL distance 'without taking into account the elevation drop'; the witness's direct perch-to-tent figure is 'approximately 415 feet' with an elevation difference of 'approximately 68 feet' \u2014 the brief omits the 415-foot direct figure and the qualification. Rev file location: ~/Documents/Kirk Robinson Research/files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt, lines 2793-2824.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:113",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "05:05:16",
+  "rev_quote": "In the closet we found on the ground some shooting targets with perforations in it. As well as on the shelf, we found a Dremel tool with a bits container.",
+  "speaker_basis": "Sergeant Jennifer Faumuina (witness) \u2014 this is the answer to state counsel's direct question at 05:05:15 \"What did you find in the closet?\", in the exam that began when the state called her at 04:31:08 and the court handed her to \"Mr. McBride, your witness\".",
+  "notes": "Near-verbatim but one word differs: Rev prints \"with perforations in it\"; the brief quotes \"[with] perforations on it[.]\" \u2014 \"in\" vs \"on\", and the brief's bracketed [with] implies the certified page lacks \"with\", which Rev includes. faumuina_condensed.txt prints the identical \"in it\" wording. Preceding Q at 05:05:08 (\"Did you search the closet on the first floor?\") matches the brief's first-floor-closet framing.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:115-16",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "05:07:39\u201305:07:56",
+  "rev_quote": "Q: Looking at State's Exhibit 25, I'm going to ask the question that was objected to. You said there's perforations in those. Are those consistent with bullet holes? A: Yes.",
+  "speaker_basis": "Q by state counsel Mr. McBride (content: he re-asks \"the question that was objected to\" and is the examiner who moved State's Exhibit 25 into evidence at 05:06:21); the \"Yes.\" is the witness Faumuina answering on direct.",
+  "notes": "Brief paraphrases (\"Agent Faumuina testified that the perforations were consistent with bullet holes\"); in Rev the substance is a one-word \"Yes\" to counsel's question, given only after an initial form of the question drew a sustained foundation objection (05:07:15\u201305:07:28) and foundation was laid at 05:07:39 (\"Hit with a bullet, there's holes in there, what we call perforations, because there's an entrance as well as an exit.\"). Brief's \"Agent\" vs Rev's \"Sergeant\" Faumuina.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:116",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "05:08:24\u201305:09:01",
+  "rev_quote": "They're all probably within the seven, six and eight ring. ... It is closer, but still not at ... Most of them are to the left of the bullseye and rings, I would say nine and eight. ... Yep. The perforations are actually closer to the bullseye as well, actually, one being in it.",
+  "speaker_basis": "Answers by witness Faumuina to McBride's target-by-target direct questions (\"Where are the perforations in relation to the bullseye?\" for the far-right, center, and leftmost targets) \u2014 Q/A structure within the same state direct exam.",
+  "notes": "The brief's sentence is a gloss, not a quote. Divergences: Rev never says \"a perforation in the center\" \u2014 the witness says \"one being in it\" (the bullseye); \"outside the target\" corresponds to \"a perforation up at the upper left-hand corner of that right most target\" (05:08:34, answer \"Yes, there is\") plus hits in outer rings; the progression in Rev runs far-right target -> center target -> leftmost target.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:91-92",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "04:37:27\u201304:38:24",
+  "rev_quote": "A: ...the distance from the perch area directly to the tent where Mr. Kirk was sitting was approximately 415 feet. Q: ...You're describing an angle, a slope downward from the perch to the location of the tent. Is that accurate? A: Yes, I am. Thank you. ... without taking into account the elevation drop, it was actually 410 feet. So just horizontal straight across. And then the elevation difference between that is approximately 68 feet.",
+  "speaker_basis": "Witness Faumuina giving distance/elevation measurements on state direct; the \"slope downward\" characterisation is spoken by examiner McBride making a record of her hand gesture (\"I'm sorry, I have to make a record\"), which the witness adopts (\"Yes, I am\").",
+  "notes": "Only the downward-angle component of the brief's sentence appears here. The \"hit Mr. Kirk in the left side of his neck\" component appears NOWHERE in day4.txt: whitespace-normalised searches for \"neck\", \"left side\", \"throat\", \"jugular\", \"clavic\" (each capable of matching any inflection or line-wrap once normalised) returned 0 hits \u2014 that detail must rest on the co-cited StEx 11 or another day's record. Note also \"downward\" is counsel's word describing the witness's gesture, not the witness's own.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH4:106",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "04:51:32\u201304:52:14",
+  "rev_quote": "Q: So if you shoot a bolt action rifle, does that spent shell casing automatically exit the gun? A: No, it does not. It will stay in there until the person that is handling the gun actually removes the bolt ... Or actually pulls the bolt back and then the casing will be extracted out. ... when we rendered the gun safe, we found in it when we removed the bolt back, we found one 30 odd 6 cartridge case or say fired cartridge case. And we also found three unfired cartridges all with engravings on them.",
+  "speaker_basis": "Q by McBride, A by witness Faumuina \u2014 same continuous state direct exam; the answers describe her own rendering-safe of the rifle (\"Were you present when this weapon was made safe?\" \"Yes, I was.\" at 04:51:49).",
+  "notes": "No quotation in the brief; this passage supports only the \"did not chamber another round, leaving the spent cartridge in the rifle\" component (brief's \"spent cartridge\" = Rev \"cartridge case or say fired cartridge case\"; Rev garbles .30-06 as \"30 odd 6\"). The \"did not miss his intended target\" component belongs to the co-cited PH4:130-31, not asked here. Bolt-action vs semi-auto foundation runs 04:50:52\u201304:51:32.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:67",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "01:56:55-01:57:20",
+  "rev_quote": "If you would like to replay the video, I can time it for you, but I don't recall. It was my guess, my guess, I would estimate, between 15 and 30 seconds. [...] And then establish a position and then take the shot. He appeared to be in prone for approximately 15 to 30 seconds, but the video would verify that.",
+  "speaker_basis": "Agent Hull, the witness: these are answer turns in Ms. Nestor's cross (her question at 01:56:39 asks how long the person was prone), and the court named this witness on recall (\"I invite Agent Hull to return to the stand... you are still under oath\") and announced \"cross-examination of Agent Hall/Holt. Ms. Nestor, your witness\"; condensed rendering attributes identically.",
+  "notes": "Brief's parenthetical paraphrases: Rev reads \"in prone for approximately 15 to 30 seconds\" (adds \"approximately\") and the witness frames the figure as an estimate (\"my guess... between 15 and 30 seconds\"; \"the video would verify that\").",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:36-37",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "00:55:27-00:56:08",
+  "rev_quote": "Just until the reported shot was fired at 12:23:28. The individual then stands up and then moves across the building to the north. [...] They moved behind the atrium area on the rooftop to the northeast corner where the white triangle is. [...] Mr. Robinson lowering and jumping off of the roof of the Losee building onto the grass area and then moving away towards Campus Drive.",
+  "speaker_basis": "Agent Hull, the witness, narrating StEx 12.4 on direct: answer turns to Mr. Sturgill's running questions (\"What are we seeing now?\"), with the prosecutor addressing him in-content as \"Agent Hall\" (00:44:50) and the court having recalled him by name; condensed rendering attributes the jump narration identically.",
+  "notes": "Divergences: the brief renders \"At 12:23:28 PM, the figure gets up\", but the Rev testimony ties 12:23:28 to the reported shot being fired, after which the individual \"stands up\"; brief's \"drops off the Losee building roof\" vs Rev \"lowering and jumping off of the roof of the Losee building onto the grass area\". The shoe-print clause in the same brief sentence is the PH1:98-99 (Day 1, Officer Bagley) cite, not in this Day 2 passage.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:69-70",
+  "verdict": "AMBIGUOUS",
+  "rev_timestamp": "01:57:29-02:00:35",
+  "rev_quote": "But there was a video that was taken by Mr. Ty Phillips from behind the individual that was speaking to Mr. Kirk. [...] And it showed a dead-on view of Mr. Kirk and his parts of his security team. Is that right? [...] I think you testified before that Mr. Kirk would've been dead center behind that banner. Is that right? [...] Approximately.",
+  "speaker_basis": "Questions by Ms. Nestor (defence counsel per her appearance statement, conducting cross); the confirmations (\"Correct\", \"Approximately\") are the witness Agent Hull, named by the court on recall; identified from the Q/A structure, not labels.",
+  "notes": "None of the brief's rendered details appear anywhere in Rev Day 2 \u2014 patterns run (all capable of matching the brief's wording or its stems): barrier, barricade, rope, fence, platform, elevat*, stage, riser, backdrop, canopy, table, chair, seated/sitting, patch of grass, grass, tent, banner, microphone, podium, audience, distance/feet/yards. Those details evidently come from StEx 7 itself (a Day 1 exhibit per the court's 00:20s ruling referencing \"exhibits from yesterday, namely Exhibit 7\"). The nearest Day 2 testimony is this Nestor-Hull exchange on the Ty Phillips video's vantage (behind the questioner, dead-on view of Mr. Kirk) and Kirk \"dead center behind that banner\" (supporting \"centered in the backdrop\"); the word-count page model places certified pp. 69-70 at ~01:59-02:02, covering the banner exchange, but the correspondence to the brief's full description is partial, so the exact certified-page content cannot be pinned.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:46",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "01:02:49-01:03:19",
+  "rev_quote": "What can you tell us about the zooming in and the zooming out? [...] Predominantly, it's in the area that was referred to as viewing the Losee building rooftop. I believe it focuses on the area where Mr. Robinson comes up the stairs and onto the rooftop. Those portions of that particular footage were zoomed in for clarity.",
+  "speaker_basis": "Question by Mr. Sturgill (the prosecutor conducting direct \u2014 he immediately goes on to move admission of 12.1 at 01:05:01); answer by the witness Agent Hull, named by the court on recall; condensed rendering attributes the answer identically.",
+  "notes": "The brief's quoted term \"zoomed in\" appears verbatim in the answer. The 12.1-vs-12.4 relationship is stated in the preceding question (01:02:49), garbled in Rev: \"I believe there's some zooming in and zooming out that's in 12.1 that has been removed, and 12.4\" \u2014 sense from context: zooming present in 12.1, absent from 12.4.",
+  "_batch": "?"
+ },
+ {
+  "cite": "PH2:47",
+  "verdict": "FOUND-CONSISTENT",
+  "rev_timestamp": "01:08:09 and 01:11:00",
+  "rev_quote": "All right, well I will admit 12.1 into evidence [...] But it is received into evidence and will be reviewed by myself in determining a probable cause determination. [...] What I will do is review this video in court and it will be displayed to the monitor's counsel table and to the court's monitor [...] but it will not be broadcast in the courtroom or by the video camera.",
+  "speaker_basis": "The court: the turns rule on admission and publication (\"I will admit 12.1 into evidence\"), respond to both counsel's arguments, and adjacent turns address this speaker as \"Judge\"/\"Your Honor\"; condensed rendering attributes identically.",
+  "notes": "The brief compresses a sequence: at 01:08:09 the court admitted 12.1 but initially declined to replay it; after the State asked to play only the zoomed portion, at 01:11:00 the court ruled it would view it on in-court monitors, with playback beginning ~01:13:16-01:14:10, but not broadcast \u2014 matching \"played in the courtroom but not published to the cameras in the courtroom\". Rev garble: \"displayed to the monitor's counsel table\" (= the monitors at counsel table).",
+  "_batch": "?"
+ }
+]
