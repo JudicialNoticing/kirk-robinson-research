@@ -793,9 +793,26 @@ The run's searches surfaced outlet headlines referring to a **judge's decision o
 
 **Not reconciled here, and deliberately not adopted.** Media headline characterisations are not observed status, the run did not establish a ruling, and inferring one from a headline is precisely what this spec prohibits. ▶️ **Queued as the first thing to check on the next pass** — if an EMC or sealing ruling has in fact issued, that is a live escalation trigger and it would be sitting unrecorded three days before the hearing.
 
+### 5b. ⚠ LOCAL ADDENDUM, same day — the §5 loose end is RESOLVED, and it resolves to a date trap
+
+**Run by a local (egress-capable) session on 2026-08-29 ~15:05 EDT, immediately after transcribing.** The cloud run could not do this: it was egress-blocked and could only see headline text.
+
+🚩 **The headlines are OLD, and the conflation was the whole of the apparent conflict.**
+
+| Article | Date, read from the page itself | Bearing |
+|---|---|---|
+| Fox, *"Tyler Robinson asks for more secret hearings after losing fight over cameras in court"* | **`datePublished` 2026-05-18T06:00:37-04:00** — read from the page's own JSON-LD and `<time datetime=...>`, HTTP 200, 464,181 bytes | **Three months old. NOT a ruling on the 2026-08-22 motions.** |
+| Prior sealing / camera denials (Fox, stgeorgeutah, LA Mag, Deseret, Post Millennial) | surfaced as **March and June 2026** items | earlier matters in the same dispute; **not new** |
+
+✅ **Therefore: NO ruling on the 2026-08-22 EMC-opposition or sealing motions has been located, and the cloud run's "pending, no ruling located" stands.** The apparent inconsistency was an artifact of undated headlines, not a contradiction in the record. ⚖️ **The run's decision not to escalate was correct** — and it would still have been correct had the headlines been recent, because a pending motion to seal is not a sealing.
+
+⚠️ **Route note: `abc4.com` returned HTTP 403 to a direct fetch** (6,520-byte block page), consistent with the bot-block first logged at Run 1. **Not a null — unattemptable.** The Fox host was open.
+
+⚠️ **Scope, stated:** search-index plus two direct fetches. **No docket was consulted.** A ruling issued in the last day or two might not yet be reported, so this is **not evidence of absence** — it is evidence that no *reported* ruling exists on the routes tried.
+
 ### 6. Queued out of this firing
 
-1. 🚨 **Check whether an EMC / sealing ruling has issued** — §5 above. **Highest priority; it is a named escalation trigger and the hearing is 09-01.**
+1. ✅ **CLOSED SAME DAY by the local addendum (§5b) — no ruling located; the conflicting headlines date-pinned to 2026-05-18 and earlier.** ⚠ Re-check on the next pass anyway: the window between this check and 09-01 is exactly where a ruling would land.
 2. 👤 **Attach the repository to the routine.** `No sources configured` has now produced **six** unread reports. Root cause, unchanged since 2026-08-14.
 3. ⚠ **Re-verify the Utah Courts 08-28 notice against its page body** when egress returns — §3 caution.
 4. **Q-45 unchanged — 32 days open.**
