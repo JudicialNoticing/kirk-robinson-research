@@ -893,9 +893,10 @@ That run warned that a search summariser had **twice** rendered this notice as t
 
 1. ⏰ **RETRY THE WAYBACK CAPTURES when Internet Archive playback recovers** — Q-45's first new route in 32 days. ⚠ Expect an interstitial, not the brief; **verify before claiming anything.**
 2. 🚨 **DocumentCloud sweep still owed** — blocked on both attempts today. It has flipped open within hours before; a retry is cheap.
-3. 👤 **Attach the repository to the routine.** Now **six** undelivered reports.
-4. ⚠️ **There is NO scheduled cover before the hearing.** If a further pre-hearing pass is wanted, it must be **local and by hand** — this run is the only one on the record between the 08-29 firing and 09-01.
-5. **Q-45 — 32 days open**, still the only bindover-cycle document held nowhere.
+3. 🚨 **👤 THE PASTE-BACK FIX IS TWO ACTIONS, NOT ONE — corrected this run.** The routine's config was read from the API: `folders: []` **and** `allowed_tools: ["Read","WebSearch","WebFetch"]`. **No `Write`, no `Edit`, no `Bash`.** ⚠️ **Attaching the repository alone would NOT have fixed anything** — the run would gain a checkout it still could not write to. **Six reports have been chased with an incomplete diagnosis.** Both actions are needed; the allowlist change is an owner decision (unattended write + shell access to this repository) and was **diagnosed, not applied.** ✅ `next_run_at` 2026-09-02 is after the hearing, so the change window is low-risk.
+4. **Retries run and still blocked, per the retry-before-recording rule:** DocumentCloud **403 on four attempts today**; Wayback *playback* **503 on two further attempts** (its CDX index stays open). Both **unattemptable, not null.**
+5. ⚠️ **There is NO scheduled cover before the hearing.** If a further pre-hearing pass is wanted, it must be **local and by hand** — this run is the only one on the record between the 08-29 firing and 09-01.
+6. **Q-45 — 32 days open**, still the only bindover-cycle document held nowhere.
 
 **No register entry assigned, resolved or moved. No case-posture statement altered. No filing's contents characterised beyond title and date.** ⚠ **Robinson has NOT been bound over, and the preliminary hearing is not concluded** — 09-01 is its last day, argument only on a closed evidentiary record. Presumption of innocence applies throughout.
 
