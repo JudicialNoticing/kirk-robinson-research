@@ -1,4 +1,14 @@
-# CR-REVIEW-2026-08-30 — Verification cycle: `CR-E19`, `CR-E20`, `CR-E21`
+# CR-REVIEW-2026-08-30 — Verification cycles 1 and 2: `CR-E19`, `CR-E20`, `CR-E21`
+
+**File ID:** CR-REVIEW-2026-08-30 · **Case:** *State of Utah v. Tyler James Robinson*, Case No. 251403576, Fourth Judicial District Court, Provo Department — Hon. **Tony F. Graf, Jr.** · **Prepared:** 2026-08-30 · **Status:** **v2.0 — `[PROVISIONAL]`.** 🛠 **This file was itself audited in cycle 2 and found to be missing every element below; they are added here.**
+
+> 🚨 **CASE POSTURE, as of 2026-08-30. TYLER ROBINSON HAS NOT BEEN BOUND OVER.** The preliminary hearing tests probable cause only. **Presumption of innocence is absolute.** No court has found any fact referred to below to be true.
+
+> **Living persons.** 🚨 **THIS FILE HAD NO LIVING-PERSONS APPARATUS AT ALL UNTIL v2.0 — and it names a private individual in §2.4 while discussing an evidentiary adjacency. That is the single worst instance of the failure this cycle ranked first, and it was in the file doing the ranking.**
+> **Matthew Robinson and Amber Robinson are elimination-sample donors** — persons whose profiles are obtained precisely so they can be identified and set aside — **sought because they were associated with the premises and NOT as suspects. Neither is accused of anything.** ⚠ **A "support for inclusion" statement is NOT a source attribution**, and the testifying analyst corrected counsel's contrary phrasing three times. The record's own de-implication travels with it: *"it's reasonable to assume that anyone living in the household could have contributed to DNA on an object found in that household."*
+> **Lance Twiggs** holds use immunity from two prosecuting offices, **did not testify live** (sworn recorded statement received under Rule 1102), and **is accused of nothing.** ⚠ **He too has support-for-inclusion results, on the Dremel** — disclosed here because cycle 2 found the library had disclosed one non-suspect's results and not his.
+> ⚠ **Where §2.4 below records an adjacency between an item and a named person, it does so to describe a DEFECT IN THIS LIBRARY'S HANDLING, not to suggest anything about any person. No inference about any of them is drawn here or may be drawn from here.**
+> **Laboratory personnel are recorded BY ROLE ONLY**, per `CR-E14` §11.
 
 **Scope:** the first independent adversarial verification cycle on the three files created 2026-08-30 — `CR-E19` (the latent-print record), `CR-E20` (the forensic exhibit map), `CR-E21` (the forensic discovery census). **Prepared:** 2026-08-30.
 
@@ -74,7 +84,7 @@
 
 **`CR-E21`:** **all 14 census rows verify verbatim**; the FBI dual-use lab number; the Johnson declaration on every checkable including the sworn jurat; Krane's quotation and estimates; both nulls at `F-6`/`F-7`; all five reproduced source typos. **Its §0 tiering and its Krane/Johnson two-layer handling were called exemplary and survive intact.**
 
-**Across all three:** case posture correct and date-stamped; no private contact information anywhere; allegations attributed not adopted; the alleged Discord message correctly quarantined to the recording layer; **D-number discipline clean** — D-76 assigned by reading, never restated.
+**Across all three:** case posture correct and date-stamped; no private contact information anywhere; allegations attributed not adopted; the alleged Discord message correctly quarantined to the recording layer; **D-number discipline: D-76 assigned by reading.** 🛠 **CORRECTED v2.0 — an earlier form logged "never restated" as a verified confirmation. IT WAS FALSE:** `CR-E19` restated the ceiling's values inside the very sentence denying it restated them. **Corrected at `CR-E19` v2.3.** ⚠ **A false entry in the CONFIRMATIONS list is worse than a missed defect — it certifies compliance that was not checked.**
 
 ---
 
@@ -86,14 +96,16 @@
 
 ⚠ **`[PROVISIONAL]` NEVERTHELESS REMAINS SET ON ALL THREE, AND THE REASON HAS CHANGED.** It no longer stands on the owed list. It stands on **§8 item 4: the corrections applied in this cycle have not themselves been verified.** Two rounds of substantial edits — the cycle's corrections and this closing pass — have landed on all three files **with no independent read since.** **A correction pass is not a verification pass.** Clearing requires a second cycle against the corrected text.
 
+🚨 **AND THERE WERE EIGHT, NOT SEVEN.** `CR-E20`'s own v1.4 log recorded a fourth owed item — *"the Exhibit 19 collision is unrecorded"* — which **never reached this list and was never closed**, while v1.5 nonetheless reported "four owed items closed." **It is real** (State's Exhibit 19 = chamber-cartridge-case photographs; the defence's Exhibit 19 = an unadmitted 28+-page comparison document) **and is now recorded at `CR-E20` `F-3`, together with two further collisions cycle 2 found.**
+
 **THE SEVEN, AS THEY STOOD, WITH DISPOSITIONS:**
 
-1. 🚨 **`CR-E19` §6A rests on one exhibit of a 68-page source. Exhibit A to the same filing names the AUTHOR and TECHNICAL REVIEWER of the P1 ATF latent report**, gives the FBI report a second identifier, establishes a named person's actual role, and shows **the defence sought the ATF fingerprint specialist's live testimony at this hearing and did not get it** — which bears directly on §6's scope statement. ✅ **CLOSED (v2.2).** Exhibit A read; `CR-E19 F-7` added; §6's scope statement qualified — the defence DID reach for the ATF latent examiner. 
+1. 🚨 **`CR-E19` §6A rests on one exhibit of a 68-page source. Exhibit A to the same filing names the AUTHOR and TECHNICAL REVIEWER of the P1 ATF latent report**, gives the FBI report a second identifier, establishes a named person's actual role, and shows **the defence sought the ATF fingerprint specialist's live testimony at this hearing and did not get it** — which bears directly on §6's scope statement. ⚠ **HALF-CLOSED at v2.2; COMPLETED v2.3.** Exhibit A read and `F-7` added — **but §6's scope sentence itself was never edited**, so the file asserted at §6 what §6A.2a withdrew. Cycle 2 caught it; the sentence is now qualified in place. the defence DID reach for the ATF latent examiner. 
 2. 🚨 **`CR-E21` omits Part Two ¶ 2.1's FBI latent production inventory and requests 13, 15 and 18. Request 13 seeks contamination and extraneous-DNA logs — directly adjacent to `DNA-E01` §6.3's contamination null.** ✅ **CLOSED (v1.2).** Requests 13, 15 and 18 added as §4.1 and `F-9`, with an express guard that neither the transcript null nor the request establishes any contamination. 
 3. **A second missing discipline: digital forensics.** RCFL, Cellebrite, a fusion-centre analyst — on the hearing record, absent from all three files, and outside the census's single source. **`CR-E21`'s title over-reaches its source.** ✅ **CLOSED (v1.2).** §6B added; the file retitled, because the title claimed more than its source could carry. 
 4. **The State's Notice of Intent to Conduct Non-Destructive Testing** (2025-12-22) is read only in `CR-ACQ`. It carries the ATF report's **Bates number and production filename** — a **seventh independent limb for `F-4`** — and an independent Tier 1 corroboration of `D-49`'s "five fragments" limb. ✅ **CLOSED (v1.5).** Added as `F-4`'s seventh limb — Bates No. 011543, the production filename, and the matching 2025-12-18 production row. 
-5. **`CR-E20`'s Rule 2 is violated by its own prose**, twice inside the rules block; `F-1`'s "four ATF reports" needs *"entered at this hearing"*; the 2×2 grid hides that Exhibit 34 spans both rows. ✅ **CLOSED (v1.5).** Six sites corrected, the breach recorded at the rule itself, `F-1` scoped, and the 2×2 grid now carries the caveat that Exhibit 34 spans both rows. 
-6. **`CR-E21` §8 and `CR-E19` §10 give the UBFS report three different priorities between them.** ✅ **CLOSED (v2.2).** All three rankings now read P2, held in one place. 
+5. **`CR-E20`'s Rule 2 is violated by its own prose**, twice inside the rules block; `F-1`'s "four ATF reports" needs *"entered at this hearing"*; the 2×2 grid hides that Exhibit 34 spans both rows. ❌ **NOT CLOSED at v1.5 — the compliance claim was false.** Cycle 2 found bare designators still standing, **including inside Rule 4 of the rules block**. Further sites corrected at v1.6, **and the self-compliance claim is now withdrawn rather than repeated.** The breach is recorded at the rule, `F-1` scoped, and the 2×2 grid now carries the caveat that Exhibit 34 spans both rows. 
+6. **`CR-E21` §8 and `CR-E19` §10 give the UBFS report three different priorities between them.** ❌ **CLOSED ON ONE SIDE ONLY.** The two `CR-E19` sites were harmonised; **`CR-E21` §8 item 3 was never touched** and still excluded the UBFS report from its target list. Completed at `CR-E21` v1.3. ⚠ **A disposition marked ✅ that had not landed — `annotating-is-not-editing` at the review level.** 
 7. ⚠ **A library-level convention conflict, not a per-file defect: `files - Court record/` runs a bare sequential F-series to F-143, and all three new files restart at F-1 with inconsistent prefixing.** **This needs a decision, not a patch.** ✅ **DECIDED (§7).** Prefixing governs new files; legacy files are not renumbered; `DNA-E01`'s false "no library-wide F-series" corrected. ⚠ **The tension with `CLAUDE.md`'s wording is a spec change and is flagged for the owner.** 
 
 ---
@@ -110,9 +122,18 @@
 **RULES, effective now:**
 - **New files use `<FILE-ID> F-n`, starting at F-1.**
 - ⚠ **Every citation of another file's flag MUST carry that file's prefix.** A bare `F-4` inside `CR-E21` meant **`CR-E20`'s** F-4 while that file had its own F-4 — the exact ambiguity the prefix exists to prevent. **All three files were audited for this and corrected.**
-- **Legacy bare-series files are NOT renumbered.** Six published files carry bare F-numbers; renumbering them would break every citation pointing at them for no evidentiary gain.
+- **Legacy bare-series files are NOT renumbered.** 🛠 **CORRECTED v2.0: an earlier form said "six published files." It is at least FIFTEEN, across TWO folders** — `files - Court record/` (CR-E07 through CR-E18, CR-ACQ, CR-AUDIT, CR-REVIEW-2026-08-17) **and `files - Event security/`** (SEC-E01 F-117–124, SEC-E02 F-112–116). ⚠ **So the bare series is a genuine CROSS-FOLDER register, which is closer to what `CLAUDE.md` describes than this decision allowed — and the count was wrong in the direction that makes renumbering MORE burdensome, not less.** ⚠ **The series also has unaudited gaps.** Legacy files; renumbering them would break every citation pointing at them for no evidentiary gain.
 
-⚠ **WHAT THIS DECISION DOES NOT SETTLE, AND IS FLAGGED FOR THE OWNER:** `CLAUDE.md` says *"F-numbers (flags)… Check the highest existing number before assigning a new one,"* which reads as mandating a single global series. **That wording and this decision are in tension.** **Either `CLAUDE.md` should say that F-numbers are file-scoped and prefixed, or the three new files should be renumbered into the global series.** **This is a spec change and belongs to the owner, not to a review file.**
+⚠ **WHAT THIS DECISION DOES NOT SETTLE, AND IS FLAGGED FOR THE OWNER:** `CLAUDE.md` says *"F-numbers (flags)… Check the highest existing number before assigning a new one,"* which reads as mandating a single global series. **That wording and this decision are in tension.** ⚠ 🛠 **AND AN EARLIER FORM PUT THIS TO THE OWNER AS A BINARY ON A MIS-STATED PREMISE. THERE IS A THIRD OPTION, AND TWO REPO FIXES THAT NEED NO SPEC CHANGE AT ALL:**
+- **(a)** open an **F-ceiling line in `QUEUE.md`**, mirroring the D-ceiling that exists precisely because the D-series went wrong three times without one; and **(b)** run an **F-series gap audit** (the F-analogue of the open D-series audit). **Neither requires the owner to change anything.**
+- **The third option:** *prefix new files **and** give the legacy bare series a ceiling line and a gap audit* — which addresses this decision's own stated primary hazard (no ceiling, no owner) instead of leaving 15+ files continuing a live bare register unguarded.
+**The remaining owner question is narrow: whether `CLAUDE.md`'s "check the highest existing number" should say F-numbers are file-scoped and prefixed.** **This is a spec change and belongs to the owner, not to a review file.**
+
+---
+
+## §6 · [intentionally vacant — see note]
+
+🛠 *(v2.0: cycle 2 found this file's sections ran §5 → §7 with no §6. The numbering is left as published rather than renumbered, because §§7 and 8 are cited elsewhere; this placeholder records the gap.)*
 
 ---
 
@@ -134,5 +155,52 @@
 | **1.0** | **2026-08-30** | **Initial file — records the first independent verification cycle on `CR-E19`, `CR-E20` and `CR-E21`.** Five adversarial passes: three claim-checks, one completeness pass, one conventions-and-living-persons audit. **~56 file-level defects plus 9 completeness omissions and 7 cross-file inconsistencies. Unanimous verdict: do not clear `[PROVISIONAL]` on any of the three.** 🚨 **The two headline results are both FALSIFIED NULLS in `CR-E20`** — the completeness null (State's Exhibit 11 is the medical examiner's report, admitted Day 1, and `CR-E05` already held it) and the §3a speaker null (it was the prosecution, and the reasoning had been inverted). 🚨 **The most consequential structural defect is in `CR-E19`: `F-2` asserted at High confidence exactly what `F-1` grades UNVERIFIED.** ⚠ **Living-persons breaches in all three, fixed first**, including a header that understated the record about a named living non-suspect and six laboratory personnel named against `CR-E14` §11's own rule for personnel from that very filing. **Seven of the project's own named hazards were committed by the files and are tabulated at §3.** ✅ **What survived is logged at §4 per the both-directions rule** — the byte-identical stipulation, `F-4`'s pagination fingerprint (judged under-argued), all five exhibit identifications, all 14 census rows, and clean D-number discipline throughout. **Corrections applied same day; seven items recorded as OWED at §5, which is why the flag stays.** |
 
 | **1.1** | **2026-08-30** | **ALL SEVEN OWED ITEMS CLOSED, and the reason `[PROVISIONAL]` stays has CHANGED.** `CR-E19` → **v2.2**, `CR-E20` → **v1.5**, `CR-E21` → **v1.2**. 🚨 **The largest closure reaches back into the cycle's own subject matter: Exhibit A to the same filing shows the defence sought the ATF fingerprint specialist's live testimony at this hearing, on `CR-E19`'s own P1 target report, and did not get it** — which **qualifies §6's scope statement, the sentence `F-1` rests on.** It is well evidenced on the State's side (the Novak declaration: no forensic examiner would be called, Rule 1102(b)(4) instead) and **contradicted on the defence's.** 🆕 **A seventh, independent limb for `CR-E20 F-4`, in the State's own words in a different filing** — the ATF report cited by **Bates No. 011543** and production filename, with a matching production row. 🆕 **Two disciplines added to `CR-E21` from outside its source — forensic pathology (an ADMITTED exhibit) and digital forensics — and the file retitled, because its title claimed more than one letter could carry.** 🚨 **Request 13's contamination and extraneous-DNA logs recorded, with an express guard that neither the transcript null nor the request establishes that any contamination occurred.** 🛠 **`CR-E20`'s Rule 2 self-breach corrected at six sites and recorded at the rule; `F-1` scoped; the 2×2 grid caveated because Exhibit 34 spans both its rows.** **UBFS priority harmonised across two files.** **§7 records the F-series convention decision — prefixing governs new files, legacy files are not renumbered, `DNA-E01`'s false "no library-wide F-series" is corrected, and the tension with `CLAUDE.md`'s wording is flagged as a spec change for the owner.** ⚠ **THE OWED LIST IS RETAINED AS WRITTEN WITH DISPOSITIONS APPENDED — a closed list rewritten into a clean one destroys the record of what was owed.** ⚠ **`[PROVISIONAL]` REMAINS SET ON ALL THREE. It no longer stands on the owed list; it stands on §8 item 4 — TWO rounds of substantial edits have now landed on these files with no independent read since. A correction pass is not a verification pass.** |
+
+
+---
+
+## §9 · 🚨 CYCLE 2 — WHAT THE CORRECTIONS BROKE
+
+**Run 2026-08-30, five independent passes against the corrected text.** Cycle 1's findings were assumed, not re-litigated; **the job was the corrections themselves.** Every pass returned **do not clear**.
+
+**The governing risk was realised, and the diagnosis is one sentence: reach, not truth.** Where a passage was edited it was usually edited correctly — the numeric corrections in `CR-E21` were **all independently re-derived and all held**. **What failed was propagation.** A fix landed in one place and did not reach the sections, findings and sibling files it governed.
+
+### The four results that matter
+
+1. 🚨 **`CR-E20`'s replacement completeness null was ALSO falsified.** The v1.4 correction claimed six reports under a scope of *"every exhibit number spoken on the record"* — **a search that was not run.** At least three further laboratory items were admitted: a **six-page FBI STRmix report (Baker 38, pp. 39–44)**, **Baker 4 p. 128** under Rule 1102(b)(4), and **Karner 6** — admitted by *the very ruling the file quotes* for the Exhibit 30/32 line. ⚠ **A claim falsified twice is now WITHDRAWN rather than re-scoped a third time**, and the file says what it maps without asserting closure.
+2. 🚨 **The name withdrawals were cosmetic.** All six withdrawn names survived in the revision logs of the files that withdrew them. ⚠ **CONVENTION POINT THE LIBRARY HAD NOT STATED: "corrections in place, never silent" is right for CLAIMS and cannot be applied to NAMES withheld for protective reasons — reprinting the name IS the harm.** Names are now **removed**; the fact of removal is recorded.
+3. 🚨 **Asymmetric protection.** The library disclosed one non-suspect's support-for-inclusion results and not another's, **against the person in the more exposed posture.** Corrected at `CR-E19`'s header.
+4. 🚨 **This review file was the worst offender.** It named a private individual **with the full adjacency and none of the guards**, and had no living-persons banner, no posture line, no File ID and no §6. **The file that ranked living persons first was the only one with no living-persons apparatus.**
+
+### Same-class defects reintroduced by the fixes
+
+| Fixed at | Reintroduced at |
+|---|---|
+| `CR-E19` §10 item 1 (`annotating-is-not-editing`) | §6's scope sentence and `F-7`'s absence from §9 |
+| `CR-E19` §0/§1 source classes (for the Burt letter) | not updated for v2.2's **two new** sources |
+| `CR-E20`'s falsified null | **a second falsified null** |
+| `CR-E21`'s `F-8` count | `§6B`'s "second phone" and "it testified" — **two new false facts** |
+
+⚠ **`CR-E21` §9 item 5 — the file's own statement of what it had not read — was declared false by its own `F-8` at v1.1 and then made more false at v1.2.** **That is the one statement a `[PROVISIONAL]` flag exists to protect**, and downstream readers were relying on it.
+
+### ✅ What cycle 2 confirmed
+
+**All of `CR-E21`'s numeric corrections, independently re-derived** — 25 productions, 19,612 files, 16/2/14/18, four exceptions, fifteen census items. **`CR-E20`'s §3a speaker reversal held on independent reading** — cycle 1's hardest call. **The seventh limb's every checkable element verified**, including the Exhibit B cross-anchor at 1,338 files. **`CR-E19`'s stipulation remains byte-identical; §7's item table correct in every cell; the "latent lists" restoration clean.** **Exhibit A verifies essentially cell-by-cell.**
+
+---
+
+## §10 · WHY `[PROVISIONAL]` STILL STANDS — and the reason has changed twice
+
+- **After cycle 1** it stood on: *the corrections have not been verified.*
+- **That ground is now spent** — they have been, and **three of seven dispositions failed**.
+- **It now stands on this:** ⚠ **three consecutive rounds of correction have each introduced defects of the same class they were fixing.** That is a fact about the process, not about any one file. **Cycle 3 must sweep for PROPAGATION rather than for claims — and the surface is cross-file, so it cannot be bounded from inside any single file.**
+
+⚠ **ONE LIMIT THAT CANNOT BE CURED BY MORE CYCLES, AND IT IS DISCLOSED HERE FOR THE FIRST TIME: the primary evidence of both cycles — ten agent reports — exists nowhere on disk.** The defect counts in this file are **not re-auditable by anyone**, including its author. **A future reader should treat every count here as an unverifiable self-report and rely only on the corrections visible in the files.**
+
+## REVISION LOG (continued)
+
+| Version | Date | Change |
+|---|---|---|
+| **2.0** | **2026-08-30** | 🚨 **CYCLE 2 RUN, AND THIS FILE WAS AUDITED WITH THE OTHERS — it was the worst offender.** It had **no File ID, no case context, no status line, no case-posture statement and no living-persons banner**, while naming a private individual in §2.4 with the full evidentiary adjacency and none of the guards. **All added.** ⚠ **The file that ranked living persons first was the only one of four with no living-persons apparatus.** 🚨 **THREE OF ITS SEVEN ✅ DISPOSITIONS DID NOT HOLD** — `CR-E19` §6's scope sentence was never edited, `CR-E20`'s Rule 2 compliance claim was false, and the UBFS harmonisation closed on one side only. **Corrected, and an EIGHTH owed item recovered** — the Exhibit 19 collision, recorded in `CR-E20`'s own log and dropped from this list. 🛠 **The §7 convention decision rested on a false count — "six published files" is at least FIFTEEN across TWO folders — and was put to the owner as a binary on that premise. Corrected, with a third option and two repo fixes that need no spec change.** 🛠 **A CONFIRMATION in §4 was FALSE:** "D-number discipline clean — never restated." `CR-E19` restated the ceiling inside the sentence denying it. ⚠ **A false entry in a confirmations list is worse than a missed defect.** **New §9 records what the corrections broke; new §10 states why the flag stands and that its ground has now changed twice.** ⚠ **Disclosed for the first time: the primary evidence of both cycles — ten agent reports — exists nowhere on disk, so every defect count here is an unverifiable self-report.** |
 
 *End of file.*
