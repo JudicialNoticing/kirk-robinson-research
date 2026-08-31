@@ -5,6 +5,35 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
+## 0AE. SESSION CLOSE — 2026-08-30 (READ FIRST — SUPERSEDES §0AD)
+
+**Register ceiling: `QUEUE.md`'s header — it advanced once this session (D-76: the fingerprint stipulation's "SBI Invest" against Faumuina's on-record correction, `CR-E19` §8).** **Everything below is pushed** — `origin/main` at `47ceb12`.
+
+### What landed — four new files
+1. **`CR-E20`** — the **forensic exhibit map**. There are **four ATF reports** entered here and they split two-and-two across DNA/biology and firearms/toolmark. The library had been calling **State's Exhibit 30 "the ATF firearm report,"** which is the natural name for **Exhibit 32** — and "Exhibit 30" turns out to have **three referents**.
+2. **`CR-E19`** — the **latent-print record**, created because the fingerprint question had **no owner**. Headline: **four latent fingerprint reports exist across three laboratories, and none reached the hearing** — two of them **ATF's, the laboratory that held the rifle**.
+3. **`CR-E21`** — the **forensic discovery census**, from the defence's 2026-03-25 letter: **fifteen items across three laboratories**, of which the library holds **one**.
+4. **`CR-REVIEW-2026-08-30`** — two verification cycles, ten independent passes.
+
+### The limitation that turned out to be false
+**"No laboratory report has been read. Not one."** — **wrong.** The **ATF firearms report** (2025-W-000401, = State's Exhibit 32) has been on disk since 2026-07-27 behind a **Type 3 font with no ToUnicode map**: image-legible, text-illegible. **`CR-E15` v1.2** now carries `F-141`–`F-143`, including the primary-document confirmation of `DNA-E01 F-14`.
+
+### 🚨 Where to pick up — ordered
+1. **Oral argument is Tue 2026-09-01, 10:00.** Everything below is second to that.
+2. 🚨 **CYCLE 3 ON `CR-E19` / `CR-E20` / `CR-E21` — and the brief is PROPAGATION, not claims.** All three remain **`[PROVISIONAL]`**. **Three consecutive correction rounds each introduced defects of the same class they were fixing.** Cycle 3 must sweep each claim's **footprint** — body, findings, headings, revision-log rows, sibling files — not re-check claims. ⚠ **Bank the agent reports this time:** cycle 1 and 2's evidence exists nowhere on disk, so every count in `CR-REVIEW` is an unverifiable self-report.
+3. **Thirteen unread laboratory reports, all now named with dates and identifiers** (`CR-E21` §2). **P1: the two ATF latent print reports** (2025-09-15 sub. 1; 2025-12-22 subs. 4/10/11/12) — **ATF held the rifle** — and the FBI latent report (Lab No. 2025-01779-5, Case ID SU-4130859).
+4. **The defence sought the ATF fingerprint specialist's live testimony at this hearing and did not get it** (`CR-E19 F-7`). The *Touhy* responses are unheld and would qualify §6's scope statement further.
+5. **Two disciplines the library still barely holds:** an FBI **questioned-documents** report (2025-11-07) and the **digital-forensics** chain (RCFL / Cellebrite / a fusion-centre analyst).
+6. **A live thread:** the ballistics motion records that an examiner **may have folded back the bullet jacket with pliers, unrecorded in the report** — the closest thing on any record to `CR-E19` §7's question about what was done to surfaces before swabbing. Carried nowhere.
+
+### 👤 OWNER-GATED
+- **The F-series convention** (`CR-REVIEW` §7) — prefixing governs new files; **at least fifteen legacy files across two folders carry a bare series with no ceiling line.** The narrow question for you: should `CLAUDE.md`'s *"check the highest existing number"* say F-numbers are file-scoped and prefixed? **Two repo fixes need no spec change: an F-ceiling line in `QUEUE.md`, and an F-series gap audit.**
+- **One phone call is the highest-value acquisition in the project.** The Fourth District Court transcript coordinator, case 251403576: the per-page fee; **whether the certified preliminary-hearing transcript is already docketed** (if unmarked like other open-hearing transcripts, it may be a **$1 XChange document** rather than a per-page order); and what the unheld **2026-02-23 Standing Order on Redacting and Filing Transcripts** requires of a third-party requester.
+- **A *Touhy* request to ATF and FBI** for the thirteen unread reports.
+- **The published deliverables** — `Forensic-Sampling-Summary_2026-08-30.docx` (in-repo) and the private artifact *"What Was Swabbed"* — are **derived from `[PROVISIONAL]` files**. Worth knowing before either travels.
+
+---
+
 ## 0AD. SESSION CLOSE — 2026-08-20 (READ FIRST — SUPERSEDES §0AC)
 
 **Queue runs to Q-184 · register ceiling: see QUEUE.md's header — it advanced TWICE this session (D-74: the pleaded-vs-measured distance, CR-E18 §4; D-75: the Information-vs-note tense discrepancy, Twiggs profile §3.2) · F-ceiling F-138 · `queue-check.sh`: RESULT clean · all work committed (local; push 👤).** Full session audit: [CR-AUDIT-2026-08-20](files%20-%20Court%20record/CR-AUDIT-2026-08-20_session-audit.md). *(This block was written mid-session and trued up as later cycles landed: Q-182, Q-184 and Q-162 are now DONE — see the audit's rows 5–8 and the updated pick-up list below.)*
