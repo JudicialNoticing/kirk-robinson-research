@@ -1,0 +1,114 @@
+# CR-REVIEW-2026-08-30 — Verification cycle: `CR-E19`, `CR-E20`, `CR-E21`
+
+**Scope:** the first independent adversarial verification cycle on the three files created 2026-08-30 — `CR-E19` (the latent-print record), `CR-E20` (the forensic exhibit map), `CR-E21` (the forensic discovery census). **Prepared:** 2026-08-30.
+
+**Verdict, unanimous across five passes: `[PROVISIONAL]` IS NOT CLEARED ON ANY OF THE THREE.**
+
+> ⚠ **Structural note, stated because it bears on how much this cycle is worth.** All three target files were written by the same author on the same day. **That author did not judge them.** Five passes were run by independent agents instructed not to defer, given the primary sources rather than the files' own accounts, and told that finding nothing was valid only if they showed the work that would have found something. **Every defect below was found by a pass, not by the author.**
+
+---
+
+## §1 · Method
+
+| Pass | Job | Result |
+|---|---|---|
+| **1** | Claim-check `CR-E19` against `day1`–`day5.txt` and the source PDF | **~23 defects** · do not clear |
+| **2** | Claim-check `CR-E20`, including **rendering** the ATF pages independently | **~18 defects** · do not clear |
+| **3** | Claim-check `CR-E21` against the Burt letter, Exhibit G and Addendum 2 | **~15 defects** · do not clear |
+| **4** | **Completeness** — what the three files MISSED, not whether their claims are true | **9 major omissions · 7 cross-file inconsistencies** |
+| **5** | Conventions, register discipline, **living persons ranked first** | **living-persons and convention breaches in all three** |
+
+**Why passes 1–3 and pass 4 are different jobs.** *Checking a file's claims cannot find what it never said.* Pass 4 was told to assume every claim true and hunt only absences. **It produced the single most serious finding of the cycle** (§2.1), which no claim-check could have reached.
+
+**Both directions.** Every pass was required to log confirmations explicitly, on the rule that an audit trail that only ever reports defects is itself a bias signal. §4 records what survived.
+
+---
+
+## §2 · The four findings that mattered most
+
+### 2.1 · `CR-E20`'s completeness null was FALSE — and the library already held the refutation
+
+`CR-E20` §2 claimed Exhibits 30–34 were *"the complete forensic-report set entered at this hearing."* **State's Exhibit 11 is the medical examiner's report of examination for Mr. Kirk** — nine pages, admitted Day 1 under Rule 1102, publication denied on victim-dignity grounds.
+
+⚠ **The method was `/Exhibit (29|3[0-9])/`. A regex keyed to a numeric window cannot find a report entered at number 11 — and the caveat named the wrong limitation**, claiming the scope was "the five-day transcript" when it was "exhibit numbers 29–39, spoken aloud." **`caveats-are-claims`.**
+
+🚨 **`CR-E05` §4.3 records Exhibit 11 in full and flags it as the decisive artifact for `D-49`. `CR-E20` cites `CR-E05` nowhere.** **The first null in this library falsified by material banked in the same folder.**
+
+### 2.2 · `CR-E20`'s speaker null was false, and the reasoning was inverted
+
+§3a declined to attribute *"exhibits 30 and, I believe, 34."* The court hands the floor to the State at **54:37**; **55:28 is an unlabelled continuation of McBride's turn**; and the self-correction *"Well, the defense has one witness"* is **affirmative evidence the speaker is not defence**. **The file treated the strongest attribution signal in the passage as its reason for refusing to attribute.**
+
+**It was the prosecution** — a stronger finding than "a party." ⚠ **And only the failing half was logged: Exhibit 30 *is* Oliver's report.** One-directional, against the project's first objectivity mechanic.
+
+### 2.3 · `CR-E19`'s `F-2` asserted at High exactly what `F-1` grades UNVERIFIED
+
+`F-2` said the four ridge-detail surfaces were swabbed for DNA ***"rather than examined for prints"*** at **Confidence: High**. **`F-1` grades that same proposition UNVERIFIED.** Two findings in one section, contradicting each other. §6A.1 audited `F-1`'s survival and never looked at `F-2` or `F-3`.
+
+### 2.4 · Living persons — three separate breaches, all fixed first
+
+- **`CR-E19`'s header said Amber and Matthew Robinson appear *"only as elimination-sample donors."*** There are **support-for-inclusion results naming Matthew Robinson on ATF items 1.4 and 1.6** — two of the four items §7 is built on — while §7 notes no witness identified who worked the bolt. **An unflagged adjacency about a named living non-suspect.**
+- **Six laboratory personnel were named across `CR-E19` and `CR-E21`, against `CR-E14` §11's rule for personnel drawn from this very filing** — role and date only. One was named solely as the subject of a proficiency-test request, i.e. **potential impeachment material about a non-testifying professional.**
+- **`CR-E20`'s living-persons banner named three people who appear nowhere in its body** — boilerplate asserting facts about two private individuals in a map of exhibit designators.
+
+---
+
+## §3 · The project's own named hazards, committed by the files
+
+| Hazard | Where |
+|---|---|
+| **`caveats-are-claims`** | `CR-E20` §2's null described a search it did not run · `CR-E21` §4's count |
+| **`annotating-is-not-editing`** | `CR-E19` §6A.3 announced the acquisition re-prioritisation; §10 item 1 was never edited |
+| **`metadata-is-not-content`** | `CR-E19`'s *"blind verification was performed"* — inferred from a **document title** |
+| **`verification-needs-two-passes`** | `CR-E19` §6A claims to have "verified directly against the source PDF" having read one exhibit of 68 pages |
+| **A null true of one version, written as timeless** | `CR-E20`'s `/Exhibit 32/` over `CR-E15`, in the present tense — **the exact trap `CR-E15` flags itself for** |
+| **Silent repair of a garble** | `CR-E19` printed *"latent [prints]"* for *"latent lists"* — two sections after writing "Do not silently repair it" |
+| **Restating what is held canonically elsewhere** | `CR-E21` cited `CR-E20 F-4` without its grades, while being the file that re-expressed F-4's bound |
+
+---
+
+## §4 · ✅ What survived — logged explicitly
+
+**`CR-E19`:** the stipulation is **byte-identical** to `day4.txt` and independently present in `day4_raw.html`; §7's ridge-detail table is correct in **every cell** (items 1.3/1.4/1.6/1.9, 4+4 occurrences, three of four consumed); the **§6 null survived searching well past its own term list**; the omnibus count of 26 **reproduces exactly**; the four-report table verifies row by row; the Day-1 speaker-label arithmetic closes at 589/3/4 of 596.
+
+**`CR-E20`:** **all five exhibit identifications are verbatim at the stated timestamps**; the Exhibit 32 admission timestamp correctly distinguishes ruling from motion; **`F-4`'s IDENTITY: High is sound and was judged UNDER-argued** — the pagination fingerprint verified independently on five landmarks, including the page break falling mid-sentence at *"commonly found."*
+
+**`CR-E21`:** **all 14 census rows verify verbatim**; the FBI dual-use lab number; the Johnson declaration on every checkable including the sworn jurat; Krane's quotation and estimates; both nulls at `F-6`/`F-7`; all five reproduced source typos. **Its §0 tiering and its Krane/Johnson two-layer handling were called exemplary and survive intact.**
+
+**Across all three:** case posture correct and date-stamped; no private contact information anywhere; allegations attributed not adopted; the alleged Discord message correctly quarantined to the recording layer; **D-number discipline clean** — D-76 assigned by reading, never restated.
+
+---
+
+## §5 · Corrections applied, and what remains owed
+
+**Applied 2026-08-30** — `CR-E19` → **v2.1**, `CR-E20` → **v1.4**, `CR-E21` → **v1.1**. All corrections in place, never silent. Living persons first. Full detail in each file's revision log.
+
+**OWED, NOT DONE — and this is why `[PROVISIONAL]` stays:**
+
+1. 🚨 **`CR-E19` §6A rests on one exhibit of a 68-page source. Exhibit A to the same filing names the AUTHOR and TECHNICAL REVIEWER of the P1 ATF latent report**, gives the FBI report a second identifier, establishes a named person's actual role, and shows **the defence sought the ATF fingerprint specialist's live testimony at this hearing and did not get it** — which bears directly on §6's scope statement.
+2. 🚨 **`CR-E21` omits Part Two ¶ 2.1's FBI latent production inventory and requests 13, 15 and 18. Request 13 seeks contamination and extraneous-DNA logs — directly adjacent to `DNA-E01` §6.3's contamination null.**
+3. **A second missing discipline: digital forensics.** RCFL, Cellebrite, a fusion-centre analyst — on the hearing record, absent from all three files, and outside the census's single source. **`CR-E21`'s title over-reaches its source.**
+4. **The State's Notice of Intent to Conduct Non-Destructive Testing** (2025-12-22) is read only in `CR-ACQ`. It carries the ATF report's **Bates number and production filename** — a **seventh independent limb for `F-4`** — and an independent Tier 1 corroboration of `D-49`'s "five fragments" limb.
+5. **`CR-E20`'s Rule 2 is violated by its own prose**, twice inside the rules block; `F-1`'s "four ATF reports" needs *"entered at this hearing"*; the 2×2 grid hides that Exhibit 34 spans both rows.
+6. **`CR-E21` §8 and `CR-E19` §10 give the UBFS report three different priorities between them.**
+7. ⚠ **A library-level convention conflict, not a per-file defect: `files - Court record/` runs a bare sequential F-series to F-143, and all three new files restart at F-1 with inconsistent prefixing.** **This needs a decision, not a patch.**
+
+---
+
+## §6 · RESIDUAL — what this cycle did not do
+
+1. **It read no exhibit.** Every laboratory report named across the three files remains unheld but one.
+2. **It did not audit `DNA-E01`, `CR-E15`, `CR-E14` or `CR-E05`** except where the three files cite them.
+3. **It did not test the three files' process claims** ("every hit opened," "verified directly") except through their outputs — where two were falsified.
+4. **The corrections applied here have not themselves been verified.** A correction pass is not a verification pass, and this file is the record of one cycle, not of two.
+5. ⚠ **`[PROVISIONAL]` REMAINS SET ON ALL THREE.** Clearing is a judgement about the **untested remainder**, not a tally of what passed — and §5 lists seven items of untested remainder, one of which (the unread 51 pages behind `CR-E19` §6A) is the same failure class the whole session has been correcting.
+6. **No register entry is assigned, moved or resolved by this file.** `D-70` is now cited in `CR-E21`; `D-76` is unchanged. `QUEUE.md`'s ceiling line is the single source of truth and is not restated here.
+
+---
+
+## REVISION LOG
+
+| Version | Date | Change |
+|---|---|---|
+| **1.0** | **2026-08-30** | **Initial file — records the first independent verification cycle on `CR-E19`, `CR-E20` and `CR-E21`.** Five adversarial passes: three claim-checks, one completeness pass, one conventions-and-living-persons audit. **~56 file-level defects plus 9 completeness omissions and 7 cross-file inconsistencies. Unanimous verdict: do not clear `[PROVISIONAL]` on any of the three.** 🚨 **The two headline results are both FALSIFIED NULLS in `CR-E20`** — the completeness null (State's Exhibit 11 is the medical examiner's report, admitted Day 1, and `CR-E05` already held it) and the §3a speaker null (it was the prosecution, and the reasoning had been inverted). 🚨 **The most consequential structural defect is in `CR-E19`: `F-2` asserted at High confidence exactly what `F-1` grades UNVERIFIED.** ⚠ **Living-persons breaches in all three, fixed first**, including a header that understated the record about a named living non-suspect and six laboratory personnel named against `CR-E14` §11's own rule for personnel from that very filing. **Seven of the project's own named hazards were committed by the files and are tabulated at §3.** ✅ **What survived is logged at §4 per the both-directions rule** — the byte-identical stipulation, `F-4`'s pagination fingerprint (judged under-argued), all five exhibit identifications, all 14 census rows, and clean D-number discipline throughout. **Corrections applied same day; seven items recorded as OWED at §5, which is why the flag stays.** |
+
+*End of file.*
