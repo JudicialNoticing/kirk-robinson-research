@@ -36,6 +36,35 @@ not exist when it is needed. The file lives outside the container; this record i
 
 ---
 
+## 2b. 🚨 The capture stalled mid-hearing, and there are now TWO recorders
+
+**At 12:24 EDT — 24 minutes into the hearing — the capture stopped growing.** A health watcher caught it. The
+diagnosis: `yt-dlp` sat at `frag 1136/1136` with **81:17 downloaded** against a broadcast that had been live for
+~93 minutes, i.e. **about twelve minutes behind the live edge and not advancing.** The process was alive and the
+stream was `playabilityStatus: OK`, `isLiveNow: true`.
+
+▶️ **Action taken: a SECOND, independent recorder was started rather than the first one repaired.** The content is
+perishable and irreplaceable; diagnosing a stall while a hearing runs spends the only thing that cannot be
+recovered. Redundancy first, diagnosis after.
+
+| | Recorder 1 (`3f3EMabrrFQ_…pool-feed`) | Recorder 2 (`LIVEEDGE_3f3EMabrrFQ_…`) |
+|---|---|---|
+| Started | 11:04 EDT | 12:24 EDT |
+| Mode | `--live-from-start` (DASH fragments) | live edge, HLS via ffmpeg |
+| Holds | **the backfill from broadcast start** — unique to it | from 12:24 forward |
+
+✅ **The stall was transient.** Recorder 1 resumed within ~2 minutes (88.5 → 89.6 MB) — a manifest-refresh pause at
+the live edge, not a death. **The watcher's 4-minute threshold was too tight for a live stream** and produced a
+false positive. That is the correct direction to be wrong in, and the threshold is now 6 minutes.
+
+🚨 **A blind spot created by the fix, and closed.** The original watcher measured the *directory*, so once recorder
+2 was running its steady growth would have **masked recorder 1 dying entirely**. The watcher now tracks each
+recorder's own file and each process separately. ⚠️ **Recorder 1 is the one that matters most** — it alone holds
+10:51 → 12:24, and if it dies before finishing, its `.part` files need remuxing by hand rather than yt-dlp's own
+merge step.
+
+---
+
 ## 3. 🚨 The timezone correction this acquisition depends on
 
 **The hearing begins 10:00 a.m. MDT = 12:00 EDT.** The court's notice says *"10:00 a.m. **local time** at the
