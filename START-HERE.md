@@ -7,6 +7,27 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ## 0AE. SESSION CLOSE — 2026-08-30 (READ FIRST — SUPERSEDES §0AD)
 
+> 🛠 **CORRECTION, 2026-09-01 — THE HEARING TIME WAS AMBIGUOUS EVERYWHERE, AND IT IS TODAY.**
+> Every statement of the 09-01 hearing time in this library and in the vault read a bare **"10:00"**. The court's
+> own notice ([Utah Courts, posted 2026-08-28](https://legacy.utcourts.gov/utc/news/2026/08/28/public-attendance-for-tyler-robinson-preliminary-hearing/),
+> re-read 2026-09-01, HTTP 200, 42,873 bytes) says **"10:00 a.m. local time at the Provo Courthouse"** — Provo is
+> **Mountain**. The hearing therefore begins **10:00 MDT = 12:00 EDT**, and the dated lists it appears in are
+> otherwise Eastern. ⚠️ **Consequence, observed rather than predicted:** a check made at 10:48 EDT found the
+> announced livestream returning **HTTP 200 with `playabilityStatus: UNPLAYABLE`** — which an Eastern reader would
+> have recorded as *the stream failed*, when the hearing had simply not started. **A status code is not a
+> retrieval, and neither is a clock without a zone.** Times corrected in place at four sites here, in
+> `DOCKET-WATCH.md`, in the LIVE routine-prompt file, and in the vault's project note and register.
+> ⚠️ **The DEPLOYED routine's inlined prompt still carries the bare time** — the file is the source of record, the
+> routine is a separate copy, and changing it is an owner-gated action.
+>
+> 🛠 **AMENDED 10:55 EDT, same day — and the amendment is a caution against this note's own method.** A watcher on
+> the stream recorded `isLiveNow` flipping **false → true at 10:51 EDT (08:51 MDT)**, about 70 minutes before the
+> announced start, while `playabilityStatus` stayed `UNPLAYABLE`. **Do not read that UNPLAYABLE as "the stream is
+> down":** an anonymous, cookieless `curl` is itself gated by YouTube, so the field is evidence about *our fetch*,
+> not about the broadcast. ⚖️ **The timezone finding above does NOT rest on it** — it rests on the court's own
+> notice read from the page body. Recorded because the failure mode this file exists to prevent is exactly the one
+> the 08-29 run hit: **treating an instrument's answer as the world's.**
+
 **Register ceiling: `QUEUE.md`'s header — it advanced once this session (D-76: the fingerprint stipulation's "SBI Invest" against Faumuina's on-record correction, `CR-E19` §8).** **Everything below is pushed** — `origin/main` at `47ceb12`.
 
 ### What landed — four new files
@@ -19,8 +40,8 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 **"No laboratory report has been read. Not one."** — **wrong.** The **ATF firearms report** (2025-W-000401, = State's Exhibit 32) has been on disk since 2026-07-27 behind a **Type 3 font with no ToUnicode map**: image-legible, text-illegible. **`CR-E15` v1.2** now carries `F-141`–`F-143`, including the primary-document confirmation of `DNA-E01 F-14`.
 
 ### 🚨 Where to pick up — ordered
-1. **Oral argument is Tue 2026-09-01, 10:00.** Everything below is second to that.
-2. 🚨 **CYCLE 3 ON `CR-E19` / `CR-E20` / `CR-E21` — and the brief is PROPAGATION, not claims.** All three remain **`[PROVISIONAL]`**. **Three consecutive correction rounds each introduced defects of the same class they were fixing.** Cycle 3 must sweep each claim's **footprint** — body, findings, headings, revision-log rows, sibling files — not re-check claims. ⚠ **Bank the agent reports this time:** cycle 1 and 2's evidence exists nowhere on disk, so every count in `CR-REVIEW` is an unverifiable self-report.
+1. **Oral argument is Tue 2026-09-01, 10:00 a.m. MDT — that is 12:00 EDT.** Everything below is second to that. 🛠 **CORRECTED 2026-09-01 — see the timezone note at the head of this file.**
+2. 🚨 **CYCLE 3 ON `CR-E19` / `CR-E20` / `CR-E21` — and the brief is PROPAGATION, not claims.** All three remain **`[PROVISIONAL]`**. **Three consecutive correction rounds each introduced defects of the same class they were fixing.** Cycle 3 must sweep each claim's **footprint** — body, findings, headings, revision-log rows, sibling files, **and the two published deliverables** — not re-check claims. 🛠 **CORRECTED 2026-09-01 — the footprint LEAVES THE REPOSITORY, and no statement of this brief said so.** `Forensic-Sampling-Summary_2026-08-30.docx` (in-repo) and the artifact *"What Was Swabbed"* are derived from these `[PROVISIONAL]` files, were last changed at commit `a91ba0c`, and **were not regenerated across either verification cycle** — so a sweep run exactly as briefed would have reached neither. **Both are now confirmed to carry defects; see the 👤 block below.** ⚠ **Bank the agent reports this time:** cycle 1 and 2's evidence exists nowhere on disk, so every count in `CR-REVIEW` is an unverifiable self-report.
 3. **Thirteen unread laboratory reports, all now named with dates and identifiers** (`CR-E21` §2). **P1: the two ATF latent print reports** (2025-09-15 sub. 1; 2025-12-22 subs. 4/10/11/12) — **ATF held the rifle** — and the FBI latent report (Lab No. 2025-01779-5, Case ID SU-4130859).
 4. **The defence sought the ATF fingerprint specialist's live testimony at this hearing and did not get it** (`CR-E19 F-7`). The *Touhy* responses are unheld and would qualify §6's scope statement further.
 5. **Two disciplines the library still barely holds:** an FBI **questioned-documents** report (2025-11-07) and the **digital-forensics** chain (RCFL / Cellebrite / a fusion-centre analyst).
@@ -30,7 +51,14 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 - **The F-series convention** (`CR-REVIEW` §7) — prefixing governs new files; **at least fifteen legacy files across two folders carry a bare series with no ceiling line.** The narrow question for you: should `CLAUDE.md`'s *"check the highest existing number"* say F-numbers are file-scoped and prefixed? **Two repo fixes need no spec change: an F-ceiling line in `QUEUE.md`, and an F-series gap audit.**
 - **One phone call is the highest-value acquisition in the project.** The Fourth District Court transcript coordinator, case 251403576: the per-page fee; **whether the certified preliminary-hearing transcript is already docketed** (if unmarked like other open-hearing transcripts, it may be a **$1 XChange document** rather than a per-page order); and what the unheld **2026-02-23 Standing Order on Redacting and Filing Transcripts** requires of a third-party requester.
 - **A *Touhy* request to ATF and FBI** for the thirteen unread reports.
-- **The published deliverables** — `Forensic-Sampling-Summary_2026-08-30.docx` (in-repo) and the private artifact *"What Was Swabbed"* — are **derived from `[PROVISIONAL]` files**. Worth knowing before either travels.
+- **The published deliverables** — `Forensic-Sampling-Summary_2026-08-30.docx` (in-repo) and the artifact *"What Was Swabbed"* — are **derived from `[PROVISIONAL]` files**. ~~Worth knowing before either travels.~~ 🚨 **CORRECTED 2026-09-01 on three counts, all material.**
+  1. 🚨 **IT IS NOT "the private artifact", AND IT HAS ALREADY TRAVELLED.** Read directly from the Artifact tool 2026-09-01: it is **"shared with anyone with the link"**, and **link-holders see a PINNED EARLIER VERSION, not the live one** — older still than the copy this library would inspect. **Republishing the live version may therefore NOT change what current viewers see; re-pinning is 👤.**
+  2. ✅ **Its location is now recorded, closing the gap that made it unsweepable:** **`https://claude.ai/code/artifact/a4ae7356-d7f1-48d8-a8cf-391113c226f7`** (*What Was Swabbed*, ~48 KB). Until today this URL appeared in **no file in this library** — its only trace was the words "and artifact" in the subject of commit `a91ba0c`, so the artifact could not be read, corrected or withdrawn from inside the repository that produced it.
+  3. 🚨 **BOTH DELIVERABLES CARRY CONFIRMED DEFECTS — verified against the library record 2026-09-01, drafts prepared:**
+     - **(a) The living-persons note.** Each still says Amber Robinson and Matthew Robinson *"appear only as elimination-sample donors"* — the exact form **`CR-E19` v2.1 narrowed on 2026-08-30**, because there ARE support-for-inclusion results naming **Matthew Robinson on ATF items 1.4 (bolt) and 1.6 (barrel)**, and because the same disclosure is owed to **Lance Twiggs on the Dremel button swabs** (disclosing one non-suspect's results and not the other's was ruled asymmetric protection). ⚠️ **A "support for inclusion" statement is NOT a source attribution** — the analyst corrected counsel three times — and the non-suspect framing is **defence counsel's, in a leading question assented to by the witness.**
+     - **(b) The opening "READ THIS FIRST" box.** Each still asserts *"no laboratory report has been read directly"* — which **§9 of the same document retracts by name** and §7 contradicts twice. **Each deliverable contradicts its own later section**, which is this library's diagnosed failure class: *reach, not truth — what failed was propagation.*
+     - **(c) A smaller one inside the retraction itself:** §9 states flat that the report *"is State's Exhibit 32"*, where **`CR-E15 F-139` holds identity at Medium-high as an INFERENCE, not a finding**, `CR-E20 F-4` holds it High, and the library's own rule is that **neither file may be cited as having settled it alone.**
+  4. ⏸ **Four uncorrected carriers of the same living-persons sentence shape remain live INSIDE the library and were NOT part of this pass** — `CR-E06`:6 (unscoped), `DNA-E01`:22 (expressly scoped to §§2–8), `CR-E14`:283 and `CR-E03`:338 (revision-log rows). Each needs its own verification. ⚠️ **The quotations of the withdrawn form at `CR-E19`:9/:311, `CR-REVIEW-2026-08-30`:59 and `CR-E21`:13 are the correction RECORD and must NOT be edited.**
 
 ---
 
@@ -53,7 +81,7 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 2. ✅ ~~Q-182~~ **DONE → [CR-E18](files%20-%20Court%20record/CR-E18_certified-transcript-crosswalk.md)** (45 anchors located; F-135–F-138; **D-74 opened** on the pleaded-vs-measured distance; verification cycle owed — dispatched at close). ✅ ~~Q-184~~ (CR-E07's 41 pages confirmed; the "42" was a form-feed fencepost → hazard 22(d)). ✅ ~~Q-162~~ **DONE → Twiggs profile v1.5** (all 42 remaining tier rows applied; **D-75 opened**; every tier now traces to a verification act or is marked otherwise).
 3. ✅ ~~Q-171~~ **DONE → dossier v1.3** (Part 0 spine, register corrections, the gated Part VI re-scope; the v1.1 banner's two do-not-write violations found and fixed). **Next ready: Q-168** (rest of the arrest-chronology plan; 4 owner-gated items inside) · **Q-136 remainder** (Zinn — now with the PCAs' T1 anchors for the booking-date conflict) · **Q-55** (the 213 untested CR-E05 candidates) · **Q-118** (the condensed-rendering attribution control).
 4. ✅ The CR-E18 verification cycle RAN at close → **v1.1 VERIFIED** (F-136's symmetric framing corrected — the omission asymmetry belongs to the reply alone). **Q-183** stays blocked on acquiring code/opinion text.
-5. **Oral argument is Tue 09-01, 10:00** — with the crosswalk built, **Q-45 (the opening brief) is the single item that most improves readiness**; every F-138 instance and both new D-numbers are specific pages to check when the certified transcript (SEC-A6) is obtained.
+5. **Oral argument is Tue 09-01, 10:00 a.m. MDT (12:00 EDT)** — with the crosswalk built, **Q-45 (the opening brief) is the single item that most improves readiness**; every F-138 instance and both new D-numbers are specific pages to check when the certified transcript (SEC-A6) is obtained.
 
 ### 👤 OWNER-GATED, batched
 Kirk push (this session's commits local) · the routine prompt re-sync (dated, above) · **Q-180** (SEC-E01/SEC-E02 naming-rule conflict — recommendations in the row) · Q-160 · Q-166 · Q-156 · Q-31 *(but see Q-149)* · Q-157 · Q-60 · Q-42 · Q-50 · the two PII retention decisions.
@@ -332,7 +360,7 @@ Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of
 | 2026-07-28 | State's opening brief | ✅ **filed** — now **multi-sourced across six outlets** (Run 1 had one). ⚠ **28 pp. is the LENGTH; 35 was the LIMIT.** **A public Scribd mirror now exists** → **Q-56** |
 | **2026-08-11** | **Defence response** | **pending — THE NEXT CHECKPOINT**, and the likeliest vehicle for a continuance motion |
 | 2026-08-18 | State's reply | pending |
-| **2026-09-01, 10:00** | **Oral argument**, in person, 4 hours total | pending. **Still standing.** ⚠ Nester's trial-week conflict remains an open, named risk |
+| **2026-09-01, 10:00 a.m. MDT (12:00 EDT)** | **Oral argument**, in person, 4 hours total | pending. **Still standing.** ⚠ Nester's trial-week conflict remains an open, named risk |
 | after 09-01 | Bindover ruling | pending. **Robinson has NOT been bound over** |
 
 **Run 2 also:** re-opened the **DocumentCloud API** (project 224251 enumerated for the first time — 46 documents) while the web UI stays gated, so **Q-32 is now SPLIT, not closed**; found a **new unheld filing of 2026-07-09**, made *during* hearing week → **Q-57**; and put **two dates in play for Q-46** (a contempt *hearing* c. 06-22 and a contempt *ruling* 06-26 — **not established to be the same event**).
