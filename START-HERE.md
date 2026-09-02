@@ -5,6 +5,22 @@ This is a snapshot with dates in it. **If you are reading this well after 2026-0
 
 ---
 
+## 0AF. SESSION 2026-09-02 (READ FIRST — SUPERSEDES §0AE for everything it names)
+
+> 🔴 **THE BINDOVER CYCLE IS OVER, AT OUTLET GRADE.** On the evening of 2026-09-01 the court **ruled orally from the bench** and, as reported by about eight independent newsrooms fetched raw on 09-02, **bound Robinson over on all seven counts**, sustained the "great risk of death" aggravator **at the probable-cause standard only**, and took **not-guilty pleas by counsel in the same session**; a **pretrial conference is set for 2026-10-23, 1:00 p.m. MDT.** **Every fact is `multi-outlet-consistent` and capped there — no order, minute entry or transcript exists anywhere reachable.** Full table, quotes, skeptic verdicts and contradictions: [`CR-WATCH-log` Run 9](files%20-%20Court%20record/CR-WATCH-log.md) (v2.3). **Evidence is banked** — 84 raw bodies + the structured results, hashed: [`CR-ACQ-2026-09-02_bindover-verification-fetches/`](files%20-%20Court%20record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md).
+>
+> ⚖️ **The posture line was NOT rewritten anywhere.** `DOCKET-WATCH.md` v2.0 carries a dated observed-status note under its *"has NOT been bound over"* sentence; `CR-ACQ-2026-09-01` §4 likewise. **The revision is the owner's (LOOP §3), recommended wording:** *"reported bound over 2026-09-01 on all seven counts (T1 via T3; no primary document held)"* — never a bare "bound over."
+>
+> 🎥 **The livestream capture: both recorders died at 15:47 EDT on a DNS failure** (network loss one minute after the 09-01 session closed; their watchers had died with the session). Recorder 1 holds the first **4:57:10** (remuxed, verified); **the full 9:45:10 unlisted VOD was pulled 09-02 09:03–09:08 and is held** (4.86 GB, hashed). `CR-ACQ-2026-09-01` §2c. **The ruling and the plea entry are on that VOD and have not been viewed or indexed.**
+>
+> 🚨 **The Utah County Attorney's site is DOWN** — wildcard TLS certificate expired 2026-09-02 06:52 GMT, CMS 503. Re-check after renewal; its case-updates page is the first place an official-statement-grade source would appear.
+>
+> 🛠 **The routine's live prompt is now written for a closed window.** Draft replacement: `DOCKET-WATCH-routine-prompt-DRAFT-2026-09-02.md`. **Applying it is 👤** (full-object update, verify by independent get). Next firing Sat 09-05 09:00 EDT runs the OLD text if nothing is applied.
+>
+> 👤 **Owner-gated, in order of consequence:** (1) rule on the posture wording; (2) **Q-31 — Xchange, ~$10: the 09-01 minute entry** is the single route that lifts every Run 9 row to primary-document and settles the "arraignment" label, the pleading attorney and the 10-23 setting; (3) apply the routine prompt; (4) push `main`; (5) the artifact re-pin (§0AE); (6) whether a transcript of the capture is wanted.
+>
+> ⚠️ Not done, deliberately: cycle 3 on `CR-E19`/`E20`/`E21` (§0AE item 2) and the thirteen unread lab reports — untouched by this session; the calendar outranked them.
+
 ## 0AE. SESSION CLOSE — 2026-08-30 (READ FIRST — SUPERSEDES §0AD)
 
 > 🛠 **CORRECTION, 2026-09-01 — THE HEARING TIME WAS AMBIGUOUS EVERYWHERE, AND IT IS TODAY.**
