@@ -29,7 +29,16 @@ import os, re, sys, json, glob, hashlib, subprocess, datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 ART  = "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts"
-SCAN_DIRS = [ART, os.path.join(ART, "prelim-hearing-transcripts")]
+CR   = "files - Court record"
+# Scanned RECURSIVELY. Widened 2026-09-14: the first version scanned two directories and reported 144
+# artifacts while 81 hashed primary captures sat unindexed in the verification-fetch tree — a scope
+# narrower than the claim, inside the tool built to prevent exactly that.
+SCAN_DIRS = [
+    ART,
+    os.path.join(CR, "CR-ACQ-2026-09-02_bindover-verification-fetches"),
+    os.path.join(CR, "TJR-REVIEW-2026-09-14_verification-cycle-1"),
+    "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts",
+]
 OUT_MD, OUT_JSON = "SOURCE-MANIFEST.md", "source-manifest.json"
 FFFE = "￾"
 
@@ -84,6 +93,18 @@ def classify_txt(path):
     return "text-native", 0, [], "plain search is reliable."
 
 
+def artifact_class(path):
+    """What KIND of thing this is. Kept distinct so a null asserted about the case record is not
+    silently satisfied by this project's own verification exhaust."""
+    if "TJR-REVIEW" in path:
+        return "process-evidence"          # agent journals, verdicts, pre-correction snapshots
+    if "bindover-verification-fetches" in path:
+        return "source-capture"            # raw outlet/court bodies fetched and hashed
+    if "prelim-hearing-transcripts" in path:
+        return "transcript"
+    return "primary-source"
+
+
 def provenance(name):
     """Derive what the filename encodes. Metadata is a claim someone typed — read the face to confirm."""
     p = {}
@@ -135,11 +156,12 @@ def main():
 
     entries, seen = [], set()
     for d in SCAN_DIRS:
-        for path in sorted(glob.glob(os.path.join(d, "*"))):
+        for path in sorted(glob.glob(os.path.join(d, "**", "*"), recursive=True)):
             if not os.path.isfile(path):
                 continue
             ext = os.path.splitext(path)[1].lower()
-            if ext not in (".pdf", ".txt", ".html", ".docx"):
+            if ext not in (".pdf", ".txt", ".html", ".docx", ".json", ".jsonl",
+                           ".raw", ".xml", ".png", ".jpg"):
                 continue
             if path in seen:
                 continue
@@ -148,6 +170,7 @@ def main():
             stem = os.path.splitext(name)[0]
             e = {
                 "path": path, "name": name, "ext": ext[1:],
+                "artifact_class": artifact_class(path),
                 "bytes": os.path.getsize(path),
                 "sha256": sha256(path),
                 "banked": datetime.date.fromtimestamp(os.path.getmtime(path)).isoformat(),
@@ -159,6 +182,12 @@ def main():
             elif ext == ".txt":
                 cls, n, split, how = classify_txt(path)
                 e.update(readability=cls, fffe_occurrences=n, fffe_split_words=split[:12], how_to_read=how)
+            elif ext in (".json", ".jsonl", ".xml"):
+                e.update(readability="structured-data",
+                         how_to_read="machine-readable; parse it, do not prose-search it.")
+            elif ext in (".png", ".jpg"):
+                e.update(readability="IMAGE-ONLY",
+                         how_to_read="RENDERED PAGE IMAGE — read it visually. It has no text to search at all.")
             else:
                 e.update(readability="raw-capture", how_to_read="source capture; prefer its extraction.")
             e["cited_by"] = dependants(stem, e["provenance"].get("documentcloud_id", ""), name, library_md)
@@ -184,8 +213,15 @@ def main():
     A("# SOURCE-MANIFEST — what this library holds, what is inside it, and how to read it\n")
     A("> 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./manifest.py`.**")
     A("> Hand-maintained indexes in this project have drifted every time they were kept by hand.\n")
+    byclass = {}
+    for e in entries:
+        byclass[e["artifact_class"]] = byclass.get(e["artifact_class"], 0) + 1
     A(f"**Artifacts:** {len(entries)}  ·  **Readability hazards:** {len(hazards)}  ·  "
       f"**Cited by no library file:** {len(orphans)}\n")
+    A("**By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*\n")
+    for k in sorted(byclass):
+        A(f"- `{k}` — {byclass[k]}")
+    A("")
     A("## 🚨 §1 · Readability hazards — a plain search over these returns a FALSE NULL\n")
     A("| Artifact | Class | How to read it |")
     A("|---|---|---|")
@@ -194,11 +230,11 @@ def main():
                 f" ({e.get('chars_per_page')} ch/pg, {e.get('pages')}pp)"
         A(f"| `{e['name'][:74]}` | **{e['readability']}**{extra} | {e['how_to_read']} |")
     A("\n## §2 · Holdings\n")
-    A("| Artifact | Form | Banked | Readability | Cited by |")
-    A("|---|---|---|---|---|")
+    A("| Artifact | Class | Form | Banked | Readability | Cited by |")
+    A("|---|---|---|---|---|---|")
     for e in entries:
-        A(f"| `{e['name'][:70]}` | {e['ext']} | {e['banked']} | {e['readability']} | "
-          f"{len(e['cited_by'])} file(s) |")
+        A(f"| `{e['name'][:60]}` | {e['artifact_class']} | {e['ext']} | {e['banked']} | "
+          f"{e['readability']} | {len(e['cited_by'])} |")
     A("\n## §3 · Held but cited by no library file\n")
     A("⚠ **Not dead weight — this is where the library's false nulls came from.** "
       "An artifact nothing cites is one nobody knows is held.\n")

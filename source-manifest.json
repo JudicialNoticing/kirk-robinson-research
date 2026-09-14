@@ -1,11 +1,12 @@
 {
- "generated_utc": "2026-09-14T22:43:10+00:00",
- "count": 144,
+ "generated_utc": "2026-09-14T22:49:01+00:00",
+ "count": 287,
  "entries": [
   {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
    "name": "2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 99805,
    "sha256": "18ee3adbdc7cc70ecd3a29e6da6647fe78089afb98fbf5666bbc4c089a4521f3",
    "banked": "2026-08-16",
@@ -27,6 +28,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.txt",
    "name": "2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1599,
    "sha256": "13ab2ae4ea7b29eeae94c5e99ebca0534db2d82f5b1a3de61541695517b8fb9e",
    "banked": "2026-08-16",
@@ -48,6 +50,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-12_public-safety-assessment-report_dkt3_dc27880877.pdf",
    "name": "2025-09-12_public-safety-assessment-report_dkt3_dc27880877.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 736696,
    "sha256": "c12c12541b2f53e14eef24759623356f074925820aee2810d16b16773be0de1c",
    "banked": "2026-08-16",
@@ -71,6 +74,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-12_public-safety-assessment-report_dkt3_dc27880877.txt",
    "name": "2025-09-12_public-safety-assessment-report_dkt3_dc27880877.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 3498,
    "sha256": "0983ce63558df30df2beef02aeeebbcc46e835cbd67e03e9d21b7e25bbd680dc",
    "banked": "2026-08-16",
@@ -94,6 +98,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_5_dc26099252.pdf",
    "name": "2025-09-16_5_dc26099252.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 387626,
    "sha256": "a9e35edc2149e051cd700bfeaa2a35e7ea6de87627f47984e224405973d020c8",
    "banked": "2026-08-16",
@@ -116,6 +121,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_5_dc26099252.txt",
    "name": "2025-09-16_5_dc26099252.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 8541,
    "sha256": "d2de25308405d9f1b5d81050011f586d3c5788fb434dce6d90cc73bdba0f3d04",
    "banked": "2026-08-16",
@@ -138,6 +144,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_affidavit-of-probable-cause_dc27880530.pdf",
    "name": "2025-09-16_affidavit-of-probable-cause_dc27880530.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 79188,
    "sha256": "2aafc149248ddcceb8cbe79599d9adb04a5a44ead8bbebc28b2ba7fd49d01d6e",
    "banked": "2026-08-14",
@@ -164,6 +171,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_affidavit-of-probable-cause_dc27880530.txt",
    "name": "2025-09-16_affidavit-of-probable-cause_dc27880530.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 10569,
    "sha256": "ab306e2e892a1ac1bbcd8fac7aed9d3f0bc66eac68df11219678e5f2ea73a315",
    "banked": "2026-08-16",
@@ -190,6 +198,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_bail-order_dkt4_dc27880869.pdf",
    "name": "2025-09-16_bail-order_dkt4_dc27880869.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 724809,
    "sha256": "f99eddcd425c8e03391667bce697550c4ac6cf9c1b4c9668bf1aea9c9ae33db5",
    "banked": "2026-08-16",
@@ -213,6 +222,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_bail-order_dkt4_dc27880869.txt",
    "name": "2025-09-16_bail-order_dkt4_dc27880869.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 700,
    "sha256": "7bf6029b76065e810997eeb39768ba56011bca0a34b8f042600d1c068732619b",
    "banked": "2026-08-16",
@@ -236,6 +246,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_information-charging-document_dc27880532.pdf",
    "name": "2025-09-16_information-charging-document_dc27880532.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 284539,
    "sha256": "158135f85e6d8fc2995c35998684ab8348acc2504c1c567347361e441748e559",
    "banked": "2026-08-14",
@@ -263,6 +274,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_information-charging-document_dc27880532.txt",
    "name": "2025-09-16_information-charging-document_dc27880532.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 22281,
    "sha256": "815d31a894423b2e2b0ea853905d48112ee35051a3c8fa89c4e5aabfae170a9d",
    "banked": "2026-08-16",
@@ -292,6 +304,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_pretrial-protective-order_dkt14_dc27880872.pdf",
    "name": "2025-09-16_pretrial-protective-order_dkt14_dc27880872.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 788468,
    "sha256": "ab882917795ee644660213027bb342938a03007719016631abcdc6489c2d7a6f",
    "banked": "2026-08-14",
@@ -316,6 +329,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_pretrial-protective-order_dkt14_dc27880872.txt",
    "name": "2025-09-16_pretrial-protective-order_dkt14_dc27880872.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 8337,
    "sha256": "e36bab072500ea1ee5dd0cd121b623d23a31d2f4decfb803f19557b9a85a5005",
    "banked": "2026-08-16",
@@ -340,6 +354,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.pdf",
    "name": "2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 387626,
    "sha256": "121faf7de385d320ec3a5cbcd0534679f925076abb97c9ade6bf12332c067e66",
    "banked": "2026-08-16",
@@ -362,6 +377,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.txt",
    "name": "2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 8541,
    "sha256": "d2de25308405d9f1b5d81050011f586d3c5788fb434dce6d90cc73bdba0f3d04",
    "banked": "2026-08-16",
@@ -384,6 +400,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_request-designation-victim-representative_dkt12_dc27880865.pdf",
    "name": "2025-09-16_request-designation-victim-representative_dkt12_dc27880865.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 97061,
    "sha256": "abd54f6f7a2b8c7075176f060237d92d1f093787659d0b0e6df79ee7660b1a57",
    "banked": "2026-08-16",
@@ -406,6 +423,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_request-designation-victim-representative_dkt12_dc27880865.txt",
    "name": "2025-09-16_request-designation-victim-representative_dkt12_dc27880865.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1628,
    "sha256": "da0a39f7a4d2cdc051d1b6e15524dc864caa13cdf6a44c92ff87ec2769044fcf",
    "banked": "2026-08-16",
@@ -428,6 +446,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-chad-grunander-biography_dc27880539.pdf",
    "name": "2025-09-22_prosecutor-chad-grunander-biography_dc27880539.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 163940,
    "sha256": "38e63afa75f67b7f4c6ec5452e118b66ca3657244d6965aceea59c68476ad433",
    "banked": "2026-08-16",
@@ -449,6 +468,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-chad-grunander-biography_dc27880539.txt",
    "name": "2025-09-22_prosecutor-chad-grunander-biography_dc27880539.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 2146,
    "sha256": "ab3b53187f1eef2bb9b9d55c3519ce5dcf9a11798fccc8412d349c72dbd6203c",
    "banked": "2026-08-16",
@@ -470,6 +490,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.pdf",
    "name": "2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 194850,
    "sha256": "2dd23c740993793e01c72aa851021410a9c1dbab17687f497674592ae75a870f",
    "banked": "2026-08-16",
@@ -491,6 +512,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.txt",
    "name": "2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 2056,
    "sha256": "2e1e22b7493a5e0923c3400fe73469eb9d5baeec93c7f2fc095b8cbd59b24cb0",
    "banked": "2026-08-16",
@@ -512,6 +534,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-david-sturgill-biography_dc27880538.pdf",
    "name": "2025-09-22_prosecutor-david-sturgill-biography_dc27880538.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 150169,
    "sha256": "92dcbc199ca4035a08ddbce81975860fefed1c9e751dae4622e18728792da08b",
    "banked": "2026-08-16",
@@ -533,6 +556,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-david-sturgill-biography_dc27880538.txt",
    "name": "2025-09-22_prosecutor-david-sturgill-biography_dc27880538.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1779,
    "sha256": "ce9fa11c892c66f6f1711078c54c68cfd8ee59d404bc4fc300e0d32f9cb0a0b4",
    "banked": "2026-08-16",
@@ -554,6 +578,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.pdf",
    "name": "2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 226050,
    "sha256": "b3a832e219c7b018ee63a300e033a22ba1ed384d7001dc5359be1b8d9a5d3b1a",
    "banked": "2026-08-16",
@@ -576,6 +601,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.txt",
    "name": "2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 2308,
    "sha256": "98c9ebb9d3da29558140f7a2f8925c60f3f6f18d4ddcf856d6836f90d16ba81e",
    "banked": "2026-08-16",
@@ -598,6 +624,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.pdf",
    "name": "2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 192280,
    "sha256": "2f4c43d53713b451b6c324fcd69f7c1f121d6683400861943fddd9018ab6f38a",
    "banked": "2026-08-16",
@@ -619,6 +646,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.txt",
    "name": "2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1396,
    "sha256": "44883aab6848553bfade6eb3571b3af3a79938710f6857cfece3cb6901888c6d",
    "banked": "2026-08-16",
@@ -640,6 +668,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.pdf",
    "name": "2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 184623,
    "sha256": "9271952c3393d2b6a0b9f9b7f8d2645882e79a8ea24c21a94113b3f87571d081",
    "banked": "2026-08-16",
@@ -661,6 +690,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.txt",
    "name": "2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 2119,
    "sha256": "1b2efda67e7c2ba632a6c28622952f227bedcfdbe77f18acd399beee1d8e7862",
    "banked": "2026-08-16",
@@ -682,6 +712,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.pdf",
    "name": "2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 787184,
    "sha256": "e92d7265183638f70d6e6bd62494317316589850bd6143c1bd4dd12f547d6a74",
    "banked": "2026-08-16",
@@ -703,6 +734,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.txt",
    "name": "2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 782,
    "sha256": "afd3c8819e5c046ae9ca7109050ef241f15ea080e29838faa4e65d805d7c70a1",
    "banked": "2026-08-16",
@@ -724,6 +756,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.pdf",
    "name": "2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 131323,
    "sha256": "b440b13a6da71c190c2545e71d00e14cac83f464de90e22e9d9c39b642a3414d",
    "banked": "2026-08-16",
@@ -746,6 +779,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.txt",
    "name": "2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 553,
    "sha256": "544a3fd2df8a661e3310d550564f0e750b1eb900e8b2750018e2222f17f1eef4",
    "banked": "2026-08-16",
@@ -768,6 +802,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.pdf",
    "name": "2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 117781,
    "sha256": "29ef23abd3c2f924a9c5331a95d4ea4293fa1ce3ae976f5d4dd0447b38ce8fe4",
    "banked": "2026-08-16",
@@ -790,6 +825,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.txt",
    "name": "2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 2147,
    "sha256": "35a3531c1be7e771a3f1734b2f335b19012ceda19320d2213006ac65344bc485",
    "banked": "2026-08-16",
@@ -812,6 +848,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.pdf",
    "name": "2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 121345,
    "sha256": "0c72014fcb61bed2de54f22668ddd852ff4698dc1e6d1b55536016f5e50a1533",
    "banked": "2026-08-14",
@@ -834,6 +871,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.txt",
    "name": "2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 2173,
    "sha256": "eb0620c7ae6e7126e4429fee75446b160db57d56cab112da08f8bfefe27839ba",
    "banked": "2026-08-16",
@@ -858,6 +896,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.pdf",
    "name": "2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 136552,
    "sha256": "b0ba157ff24e1a4e38071cb31525031de09a9d31dd832b9ce047facb9fee79c2",
    "banked": "2026-08-16",
@@ -880,6 +919,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.txt",
    "name": "2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1354,
    "sha256": "0a6002d13aa24231a461d3edf5ce9483bdf0bfdae7c13c0129a20086fe3bf316",
    "banked": "2026-08-16",
@@ -902,6 +942,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.pdf",
    "name": "2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 173189,
    "sha256": "0d8fd7d22226210d9f2b8a891ce025a573679f3abb54fbf45d170a1785fb8201",
    "banked": "2026-08-16",
@@ -924,6 +965,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.txt",
    "name": "2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 5750,
    "sha256": "d611a8d7a814b6237080d81eb6c6b9c500039d841498044883416125efd562f7",
    "banked": "2026-08-16",
@@ -946,6 +988,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.pdf",
    "name": "2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 450104,
    "sha256": "1b033e4d96be4d18ef09843a4218df8c2fa374c553b92c397b873ac816e2ac91",
    "banked": "2026-08-16",
@@ -968,6 +1011,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.txt",
    "name": "2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 10812,
    "sha256": "5fd6299a38dc70e5bc396f72ec0f21c1192b7c947064cd63d60d66a5d8c9d908",
    "banked": "2026-08-16",
@@ -990,6 +1034,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-22_state-motion-to-set-aside-order_dc27880864.pdf",
    "name": "2025-10-22_state-motion-to-set-aside-order_dc27880864.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 171037,
    "sha256": "b5393aef3e479ebacb60542e1ccdbea979ea222ac9ced0c37dc03d701487e657",
    "banked": "2026-08-14",
@@ -1011,6 +1056,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-22_state-motion-to-set-aside-order_dc27880864.txt",
    "name": "2025-10-22_state-motion-to-set-aside-order_dc27880864.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 3515,
    "sha256": "1fb03ff7d0fe437e4c0eb3d0b1ecfc8a12d4475301c286b328e8bcc09724d4de",
    "banked": "2026-08-16",
@@ -1032,6 +1078,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.pdf",
    "name": "2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 178925,
    "sha256": "ddfe802400707762adafb188c1d160523c66fc8401adbdead56cb56f0357236b",
    "banked": "2026-08-14",
@@ -1054,6 +1101,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.txt",
    "name": "2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 11643,
    "sha256": "a88a1b3803b4df65863b0baf11d2ff3bca18cef6545d38e18783df55ce685123",
    "banked": "2026-08-16",
@@ -1079,6 +1127,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.pdf",
    "name": "2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 3489587,
    "sha256": "0bad44c5325c2be2652ae3d915cc40af4e201f85d61258ac92505d08c16d094d",
    "banked": "2026-08-16",
@@ -1101,6 +1150,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.txt",
    "name": "2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 14588,
    "sha256": "2b2732b63f1663543a0c235f916ff7a2caa17c7eb4908845d1ab06b2952abeed",
    "banked": "2026-08-16",
@@ -1123,6 +1173,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-27_state-open-file-policy-notice_dc27880871.pdf",
    "name": "2025-10-27_state-open-file-policy-notice_dc27880871.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 166142,
    "sha256": "7799d0b212ca15e953d971f44a62e476e00c8def18414cad6fd2f10051602e75",
    "banked": "2026-08-14",
@@ -1144,6 +1195,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-27_state-open-file-policy-notice_dc27880871.txt",
    "name": "2025-10-27_state-open-file-policy-notice_dc27880871.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1997,
    "sha256": "dfbfb63ae458a981c481631cd723be9561d6963968c1da1ae48e595d47eaf0c3",
    "banked": "2026-08-16",
@@ -1165,6 +1217,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-03_stipulated-motion-classify-transcript-private_dkt152_dc27880861.pdf",
    "name": "2025-11-03_stipulated-motion-classify-transcript-private_dkt152_dc27880861.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 138369,
    "sha256": "dbc56308484dc3e5384b6b368ef89c9f82b9b6fcaa3c95f1666a9ed45651723e",
    "banked": "2026-08-14",
@@ -1187,6 +1240,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-03_stipulated-motion-classify-transcript-private_dkt152_dc27880861.txt",
    "name": "2025-11-03_stipulated-motion-classify-transcript-private_dkt152_dc27880861.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 3525,
    "sha256": "a47177486275d4a576c501ab69ecd5c8646651ac5916207eb07933d2fcf34492",
    "banked": "2026-08-16",
@@ -1209,6 +1263,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-04_stipulated-order-preserve-evidence_dc27880862.pdf",
    "name": "2025-11-04_stipulated-order-preserve-evidence_dc27880862.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 759924,
    "sha256": "163385c261844a36e9ed342bb5f91b71b5b019dc4d4d1720746074a92155f2f0",
    "banked": "2026-08-14",
@@ -1230,6 +1285,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-04_stipulated-order-preserve-evidence_dc27880862.txt",
    "name": "2025-11-04_stipulated-order-preserve-evidence_dc27880862.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 2851,
    "sha256": "aeccaf29dbe0ea7540e91b43e423740d6a4d4457d20935196fdca40275a15993",
    "banked": "2026-08-16",
@@ -1251,6 +1307,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.pdf",
    "name": "2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 189995,
    "sha256": "67de4d45da76428aa63069e145f18c055bb46e50fd46245262c64410b9e1481a",
    "banked": "2026-08-14",
@@ -1272,6 +1329,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.txt",
    "name": "2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 10357,
    "sha256": "392fc5f3fb062576805d29705f3fb91d0240b7ad1d6ee806c769e944d0554291",
    "banked": "2026-08-16",
@@ -1295,6 +1353,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.pdf",
    "name": "2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 50460,
    "sha256": "228ecc637ad882fc12305283bc228abfde2b785d5e2894e581fae91dd7b14eb0",
    "banked": "2026-08-16",
@@ -1318,6 +1377,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.txt",
    "name": "2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1316,
    "sha256": "8632b6593287d95cbf1de1033bad4e96978741d88a96751fcc90fef062b1b7a8",
    "banked": "2026-08-16",
@@ -1341,6 +1401,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876.pdf",
    "name": "2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 222074,
    "sha256": "d8bad0eb7cce7c11aa7b8080451fb3af47a6776e923630c815db05b371928122",
    "banked": "2026-08-14",
@@ -1363,6 +1424,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876.txt",
    "name": "2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 15974,
    "sha256": "f870e7708ace840cd8419afd7cb1989bc1ca1845a54e7b821de970c8db5c9445",
    "banked": "2026-08-16",
@@ -1387,6 +1449,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-15_ruling-clarifying-publicity-order_dkt242_dc27880866.pdf",
    "name": "2025-12-15_ruling-clarifying-publicity-order_dkt242_dc27880866.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 233601,
    "sha256": "5435355eab3c753671068765b6125b550ebff9d4d075e38efc1d9964073d82b6",
    "banked": "2026-08-14",
@@ -1410,6 +1473,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-15_ruling-clarifying-publicity-order_dkt242_dc27880866.txt",
    "name": "2025-12-15_ruling-clarifying-publicity-order_dkt242_dc27880866.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 3516,
    "sha256": "e2d90adf58c1e159292ae4048a2132663089556e649c957f3d3edbd218ed2568",
    "banked": "2026-08-14",
@@ -1433,6 +1497,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.pdf",
    "name": "2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 2744947,
    "sha256": "8dc58d4d2848e5f72a30e2734164a44161b35f9f83112141c1547424492f1c89",
    "banked": "2026-08-16",
@@ -1457,6 +1522,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.txt",
    "name": "2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 33894,
    "sha256": "04e89c92f64ed630d8d63f35881836b0a5d088b281e1a75847a5b1e983b38235",
    "banked": "2026-08-16",
@@ -1481,6 +1547,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-02_utah-supreme-court-order-denying-interlocutory-appeal_dc27880887.pdf",
    "name": "2026-01-02_utah-supreme-court-order-denying-interlocutory-appeal_dc27880887.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 55890,
    "sha256": "5d7437541d64f6dafde5ae550fd1569adbe171291b48d1f78cfcac439eb4fa17",
    "banked": "2026-08-14",
@@ -1503,6 +1570,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-02_utah-supreme-court-order-denying-interlocutory-appeal_dc27880887.txt",
    "name": "2026-01-02_utah-supreme-court-order-denying-interlocutory-appeal_dc27880887.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 622,
    "sha256": "1c0afe82297a241dca1bacc610c85ad51cdeeed4d39e339b44f58bee4edc375c",
    "banked": "2026-08-16",
@@ -1525,6 +1593,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.pdf",
    "name": "2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 4522827,
    "sha256": "548e843cfba26b2dc8d8e65569a41ce6a2115b0b7dcdfe9b22cf5e41e5954a0d",
    "banked": "2026-08-16",
@@ -1549,6 +1618,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.txt",
    "name": "2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 50339,
    "sha256": "b63c9cf3a4665396587853f6514765d949fc58c50b272cf107956e90ef0c0628",
    "banked": "2026-08-16",
@@ -1586,6 +1656,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.pdf",
    "name": "2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 144347,
    "sha256": "22cc1d464983384c8ddc3b2b42505ae84640acb22652c56f3a23da4fc91a4a68",
    "banked": "2026-08-16",
@@ -1609,6 +1680,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.txt",
    "name": "2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 10605,
    "sha256": "e9f1df57eef94ed63ff5604049a33699e756b9d2bce513c429556fb67670eaab",
    "banked": "2026-08-16",
@@ -1632,6 +1704,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-09_subpoena-sgt-david-hull_dkt291_dc27881510.pdf",
    "name": "2026-01-09_subpoena-sgt-david-hull_dkt291_dc27881510.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 168747,
    "sha256": "dc646579b201b94bbd381664ae69fd324e198d93821af0a8c0b9d4bdd7a60ece",
    "banked": "2026-08-14",
@@ -1654,6 +1727,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-09_subpoena-sgt-david-hull_dkt291_dc27881510.txt",
    "name": "2026-01-09_subpoena-sgt-david-hull_dkt291_dc27881510.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 8285,
    "sha256": "b1f2a40110be45877567cc12bfa11c03b7d4f4db5dd156cfa84561083e3c97a0",
    "banked": "2026-08-16",
@@ -1676,6 +1750,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-19_4_dc26493871.pdf",
    "name": "2026-01-19_4_dc26493871.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 99612,
    "sha256": "e93ee9728838ecd60f4addae88d5a433a4da743d0a0cc436a8df3d3a02d3b37a",
    "banked": "2026-08-16",
@@ -1697,6 +1772,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-19_4_dc26493871.txt",
    "name": "2026-01-19_4_dc26493871.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1977,
    "sha256": "8e98fc6138d8632559a94605487023d25d5a0dca4a44fc412e4cf30a2bcaad5e",
    "banked": "2026-08-16",
@@ -1718,6 +1794,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_attachment-A-prosecutor-office-media-guidance_dkt355_dc27881506.pdf",
    "name": "2026-01-30_attachment-A-prosecutor-office-media-guidance_dkt355_dc27881506.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 889686,
    "sha256": "019200596c863304c5bf4e0ab471f31e7c73659ca5db4f5449cce4f0937afb68",
    "banked": "2026-08-14",
@@ -1740,6 +1817,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_attachment-A-prosecutor-office-media-guidance_dkt355_dc27881506.txt",
    "name": "2026-01-30_attachment-A-prosecutor-office-media-guidance_dkt355_dc27881506.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 5121,
    "sha256": "8c813c72e92bea5b87c1faf49ff7c07413756447d0e647b14210159fa3e54f9f",
    "banked": "2026-08-16",
@@ -1762,6 +1840,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.pdf",
    "name": "2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 216926,
    "sha256": "f508c4786ef5f86db4df13cf59d252651a04c2d576931002b0010d5c0fb51670",
    "banked": "2026-08-16",
@@ -1785,6 +1864,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.txt",
    "name": "2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 21062,
    "sha256": "3a6e0f5224669a440b02230bd29ac59ad99c7b645f4a9614dc873ab30a913e71",
    "banked": "2026-08-16",
@@ -1810,6 +1890,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.pdf",
    "name": "2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 144938,
    "sha256": "40fa2fe69cf1f99b7e242732f5ce21e3919b3144033ef95e32cec279cc598ee6",
    "banked": "2026-08-16",
@@ -1833,6 +1914,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.txt",
    "name": "2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 3082,
    "sha256": "ddfba340d8a5eef6818b341a9ae46f559ee6658386f14b5e2081869557006e83",
    "banked": "2026-08-16",
@@ -1856,6 +1938,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.pdf",
    "name": "2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 171224,
    "sha256": "f98d28a688698b01e1ba9735c69bd4c552698cdc9914e2721e66a9253238e3ce",
    "banked": "2026-08-16",
@@ -1878,6 +1961,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.txt",
    "name": "2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 5349,
    "sha256": "b09f380379ed4861365af28f47907bc10da96448f6a3757e63220a396ca1f85f",
    "banked": "2026-08-16",
@@ -1900,6 +1984,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.pdf",
    "name": "2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 223559,
    "sha256": "3ba01f91ce26d49ac2c7bbdeedf533b711b290758601261d27f65f1c0aea060b",
    "banked": "2026-08-16",
@@ -1923,6 +2008,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.txt",
    "name": "2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 22975,
    "sha256": "c2f860958ce8aeb89749d3273db48a29eee501bc28bef1233aa6bfcdd2470870",
    "banked": "2026-08-16",
@@ -1948,6 +2034,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-03_minute-order-evidentiary-hearing-disqualification_dkt413_dc27881507.pdf",
    "name": "2026-02-03_minute-order-evidentiary-hearing-disqualification_dkt413_dc27881507.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 729537,
    "sha256": "4defb7685971ce682738c24fcc5d9f1ca35ef0d1670713c5e7afb1511ac20178",
    "banked": "2026-08-14",
@@ -1970,6 +2057,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-03_minute-order-evidentiary-hearing-disqualification_dkt413_dc27881507.txt",
    "name": "2026-02-03_minute-order-evidentiary-hearing-disqualification_dkt413_dc27881507.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 5222,
    "sha256": "d6ba89a800fa3ca18791d5eb1973bfaecc4d3def8816df2c69315546976db11a",
    "banked": "2026-08-16",
@@ -1992,6 +2080,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15_xchange-case-history-full_dc27880531.pdf",
    "name": "2026-03-15_xchange-case-history-full_dc27880531.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 59301,
    "sha256": "f3eed9a484e55ee05b887ade4c8ab2e920e039ddf7ebfb31529a4f5f7ad64ee3",
    "banked": "2026-08-14",
@@ -2019,6 +2108,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15_xchange-case-history-full_dc27880531.txt",
    "name": "2026-03-15_xchange-case-history-full_dc27880531.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 72370,
    "sha256": "21f2b8f3cbdbba8c98ec5c165c7fbeaa83251f644f99e1922c3179e577251c9f",
    "banked": "2026-08-16",
@@ -2049,6 +2139,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15_xchange-short-case-history_dc27880533.pdf",
    "name": "2026-03-15_xchange-short-case-history_dc27880533.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 28303,
    "sha256": "f65a8791251534db1dc010eca412c3b15433be05e63007dbeadbc2a392531555",
    "banked": "2026-08-14",
@@ -2074,6 +2165,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15_xchange-short-case-history_dc27880533.txt",
    "name": "2026-03-15_xchange-short-case-history_dc27880533.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 43449,
    "sha256": "b91f88cb2089a785ea465c963847071905c4069fd06da3c9022906d4423bd250",
    "banked": "2026-08-16",
@@ -2101,6 +2193,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.pdf",
    "name": "2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 250633,
    "sha256": "437f125cb74b19244325bcce44d8003b693f91c474bc2ac36963963f3faea78f",
    "banked": "2026-08-16",
@@ -2124,6 +2217,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.txt",
    "name": "2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 472,
    "sha256": "c367429086f1a1ad2cf089315f6ca5ffc8ef831df966b6e392d12c11972dd98a",
    "banked": "2026-08-16",
@@ -2147,6 +2241,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.pdf",
    "name": "2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 396071,
    "sha256": "90ac2f4859b78ec346361bfaa2051f41d648bc612601f9a87a2abbc98487a9e3",
    "banked": "2026-08-16",
@@ -2169,6 +2264,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.txt",
    "name": "2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 788,
    "sha256": "c399b2abd2557762a68cf9eb13a1dc908f1c7559a79e9ce31a7ccc52a9535d4a",
    "banked": "2026-08-16",
@@ -2191,6 +2287,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.pdf",
    "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 1547812,
    "sha256": "5dfe91f5bba758d2b4add2640d435f5905800b52b4cb8d30890758467d3ee354",
    "banked": "2026-08-16",
@@ -2217,6 +2314,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.txt",
    "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 112783,
    "sha256": "641503cfb937780a5b741fcd8a5f45d9e4a2c364b8b12d5d2d1e7a4d61fbfa3e",
    "banked": "2026-08-16",
@@ -2248,6 +2346,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.pdf",
    "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 1547812,
    "sha256": "cc1c8e10ecac96c5395fb089342c013d3e37a11e05bbcae14437bd56738b5c9d",
    "banked": "2026-08-16",
@@ -2269,6 +2368,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.txt",
    "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 112783,
    "sha256": "641503cfb937780a5b741fcd8a5f45d9e4a2c364b8b12d5d2d1e7a4d61fbfa3e",
    "banked": "2026-08-16",
@@ -2295,6 +2395,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.pdf",
    "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 1547812,
    "sha256": "c696e2675eae202e2ebddff159e24e4b38b507d2a3a5d8cedf1e93b13f99f2ec",
    "banked": "2026-08-16",
@@ -2316,6 +2417,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.txt",
    "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 112783,
    "sha256": "641503cfb937780a5b741fcd8a5f45d9e4a2c364b8b12d5d2d1e7a4d61fbfa3e",
    "banked": "2026-08-16",
@@ -2342,6 +2444,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-06-23-pub_rev-contempt-hearing-transcript.html",
    "name": "2026-06-23-pub_rev-contempt-hearing-transcript.html",
    "ext": "html",
+   "artifact_class": "primary-source",
    "bytes": 206156,
    "sha256": "b1ba235f3f85de6dab32e78a0a026c14d8ff92f016b05ee62041abd3699418b9",
    "banked": "2026-08-14",
@@ -2364,6 +2467,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-06-23-pub_rev-contempt-hearing-transcript.txt",
    "name": "2026-06-23-pub_rev-contempt-hearing-transcript.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 36842,
    "sha256": "4e4bcd4f905a23dd6b50bb442fe668a2859253b9115076a77dfb4b15a3a63b45",
    "banked": "2026-08-14",
@@ -2388,6 +2492,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.pdf",
    "name": "2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 125730,
    "sha256": "ad2cf27e9754757d6d40a9cfc60b596af5b02dc4e4dd7e54a5063da76f82dae4",
    "banked": "2026-08-16",
@@ -2409,6 +2514,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.txt",
    "name": "2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 7752,
    "sha256": "21b670ca4805f89dcbb744f60343123c6d6f41c634ad8840ad9641707137417b",
    "banked": "2026-08-16",
@@ -2430,6 +2536,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.pdf",
    "name": "2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 24264080,
    "sha256": "3908b442471533f8eb8effc9cec94ce9df12e846defa37d2bb29fec6d8a5feb7",
    "banked": "2026-08-16",
@@ -2456,6 +2563,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.txt",
    "name": "2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 1155299,
    "sha256": "03fda91652b0ac27aff55ceaaff511a91675d1ac0362de2b7b9fea3678fc256e",
    "banked": "2026-08-16",
@@ -2495,6 +2603,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-07-08_supplemental-notice-access-to-evidence_dc28443912.pdf",
    "name": "2026-07-08_supplemental-notice-access-to-evidence_dc28443912.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 574981,
    "sha256": "bf8b8af375b4f43e0507b624b0c0bdd8bab8aceffdcacb179abdc4f67da2d5f5",
    "banked": "2026-08-14",
@@ -2520,6 +2629,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-07-08_supplemental-notice-access-to-evidence_dc28443912.txt",
    "name": "2026-07-08_supplemental-notice-access-to-evidence_dc28443912.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 5128,
    "sha256": "6ebbda660f71601de1941d41dd947b186edb1cf2ebf6702ec2b14155144226e8",
    "banked": "2026-08-14",
@@ -2542,9 +2652,102 @@
    "unpaired": false
   },
   {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_Q58-completion-60-verdicts.json",
+   "name": "2026-08-01_Q58-completion-60-verdicts.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 458204,
+   "sha256": "7e6d49e5e343b8fdd48c0703ff9e70d08d1415899b5bace4f9981f66791eb988",
+   "banked": "2026-08-01",
+   "provenance": {
+    "filename_date": "2026-08-01"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_q08-reviews-and-register-proposal.json",
+   "name": "2026-08-01_q08-reviews-and-register-proposal.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 101162,
+   "sha256": "4b54c892b66664027d221c03cf076f2b2bec39aa525f85823853fd06fe38f52e",
+   "banked": "2026-08-01",
+   "provenance": {
+    "filename_date": "2026-08-01"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_round2-Q58-raw-output.json",
+   "name": "2026-08-01_round2-Q58-raw-output.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 479715,
+   "sha256": "9ef343a643569bc37cdad6a1f651711ddb5bef3ac5215b8a9c74362515afd4e8",
+   "banked": "2026-08-01",
+   "provenance": {
+    "filename_date": "2026-08-01"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_verification-cycle-raw-output.json",
+   "name": "2026-08-01_verification-cycle-raw-output.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 1054393,
+   "sha256": "ca416d08fec1f6f5f982d9bbdc30d95c7927271578a1a68c1f1fae90aa65b884",
+   "banked": "2026-08-01",
+   "provenance": {
+    "filename_date": "2026-08-01"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-AUDIT-2026-08-01_session-audit.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_verification-cycle-workflow-result.json",
+   "name": "2026-08-01_verification-cycle-workflow-result.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 1127446,
+   "sha256": "0bf42a9ebc8c216fccc7970fd5de3345058ac667678bf4de9e131eaf1c0170c9",
+   "banked": "2026-08-01",
+   "provenance": {
+    "filename_date": "2026-08-01"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-AUDIT-2026-08-01_session-audit.md",
+    "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md"
+   ],
+   "unpaired": false
+  },
+  {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-11_defendant-prelim-hearing-briefing.pdf",
    "name": "2026-08-11_defendant-prelim-hearing-briefing.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 389135,
    "sha256": "c3f394372192a6a3c6b791839a22a9ce4be43aea6f9985b9fc3703633bfde0e4",
    "banked": "2026-08-13",
@@ -2570,6 +2773,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-11_defendant-prelim-hearing-briefing.txt",
    "name": "2026-08-11_defendant-prelim-hearing-briefing.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 93418,
    "sha256": "d1979161ce344fb3bf7543e7976e73532de78ffacd1eccd9e8de60a2a61bd4af",
    "banked": "2026-08-13",
@@ -2595,6 +2799,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-11_defendant-prelim-hearing-briefing_ALT-EXTRACTION-dc28551955.txt",
    "name": "2026-08-11_defendant-prelim-hearing-briefing_ALT-EXTRACTION-dc28551955.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 94225,
    "sha256": "87100de7b20e94bec835d7bf089a0a3ed1a12d74fafda9a852d84da19d6da47f",
    "banked": "2026-08-16",
@@ -2621,9 +2826,140 @@
    "unpaired": false
   },
   {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_CRE07-completeness-inventory_RAW-CANDIDATES.jsonl",
+   "name": "2026-08-14_CRE07-completeness-inventory_RAW-CANDIDATES.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "primary-source",
+   "bytes": 438629,
+   "sha256": "9c6fa10c4778bbfdaf7de7a85a4c50d79c156aa3c4444ee2adc9dede30728326",
+   "banked": "2026-08-14",
+   "provenance": {
+    "filename_date": "2026-08-14"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-candidate-bank_INDEX.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_CRE08-completeness-state-filings_RAW-CANDIDATES.jsonl",
+   "name": "2026-08-14_CRE08-completeness-state-filings_RAW-CANDIDATES.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "primary-source",
+   "bytes": 277427,
+   "sha256": "e1e90cc921b683bbe60aaa2726ee643e0032c235bf593c81e3919cd105632121",
+   "banked": "2026-08-14",
+   "provenance": {
+    "filename_date": "2026-08-14"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-candidate-bank_INDEX.md",
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-completeness-day2-bakker_RAW-CANDIDATES.jsonl",
+   "name": "2026-08-14_Q61-completeness-day2-bakker_RAW-CANDIDATES.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "primary-source",
+   "bytes": 643602,
+   "sha256": "f5b6793e5cbf55f968a71858147039b50c06c60d1d3d008bca5342e29e6c7fea",
+   "banked": "2026-08-14",
+   "provenance": {
+    "filename_date": "2026-08-14"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-candidate-bank_INDEX.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-completeness-day5-oliver_RAW-CANDIDATES.jsonl",
+   "name": "2026-08-14_Q61-completeness-day5-oliver_RAW-CANDIDATES.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "primary-source",
+   "bytes": 746135,
+   "sha256": "224a5a6a918ea1d4174a693ff020118d06bb84c39b49a5cce1264af6fd1557f4",
+   "banked": "2026-08-14",
+   "provenance": {
+    "filename_date": "2026-08-14"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-candidate-bank_INDEX.md",
+    "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-finder-DNAE01-sections6-14_RAW-CANDIDATES.jsonl",
+   "name": "2026-08-14_Q61-finder-DNAE01-sections6-14_RAW-CANDIDATES.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "primary-source",
+   "bytes": 584581,
+   "sha256": "b8ceeaf81336b1b860b5e1caa6ce742841170c0d0396248ad077db845c76c27c",
+   "banked": "2026-08-14",
+   "provenance": {
+    "filename_date": "2026-08-14"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-candidate-bank_INDEX.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev-q120-acquisition_RECEIPTS.json",
+   "name": "2026-08-16_rev-q120-acquisition_RECEIPTS.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 1647,
+   "sha256": "80ff3d193db1115fd69f1946e4fc0f71153cb9742df0b11c196caefc4941c1b4",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16B_rev-official-statements.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev-q120-bodies.json",
+   "name": "2026-08-16_rev-q120-bodies.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 1439,
+   "sha256": "8f52c0578d1c046be46bc571723b39c270ec3d877435dcc5c78baaee813da444",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16B_rev-official-statements.md"
+   ],
+   "unpaired": false
+  },
+  {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_fbi-captures-kirk-shooter.txt",
    "name": "2026-08-16_rev_fbi-captures-kirk-shooter.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 27659,
    "sha256": "1c31cf2075347c38992a0db39f20f1bf7c890278cb0990eb2c5446117e1aacf9",
    "banked": "2026-08-16",
@@ -2644,6 +2980,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_fbi-captures-kirk-shooter_raw.html",
    "name": "2026-08-16_rev_fbi-captures-kirk-shooter_raw.html",
    "ext": "html",
+   "artifact_class": "primary-source",
    "bytes": 208370,
    "sha256": "80006fd9d5ebe81c1eddcac23906323b0d3b0c9e5090dc0c16f72c5ff0425672",
    "banked": "2026-08-16",
@@ -2660,6 +2997,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_fbi-press-conference-on-kirk-shooting.txt",
    "name": "2026-08-16_rev_fbi-press-conference-on-kirk-shooting.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 11377,
    "sha256": "b857a73d5a07716e50f08cde5f16e547db3827cd162c852a6c9c8dc474b520f0",
    "banked": "2026-08-16",
@@ -2681,6 +3019,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_fbi-press-conference-on-kirk-shooting_raw.html",
    "name": "2026-08-16_rev_fbi-press-conference-on-kirk-shooting_raw.html",
    "ext": "html",
+   "artifact_class": "primary-source",
    "bytes": 181981,
    "sha256": "5322050bccf4e9dbab350f7f194ca60eae02956b0f241bc57cd90ba4022ae7e7",
    "banked": "2026-08-16",
@@ -2697,6 +3036,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_press-conference-on-charlie-kirk-shooting.txt",
    "name": "2026-08-16_rev_press-conference-on-charlie-kirk-shooting.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 13571,
    "sha256": "d4fb5bcd4b4561e37ce87e9bfff89c6a2c63a9ebb3a39cf5aec6692a05ea0a7e",
    "banked": "2026-08-16",
@@ -2719,6 +3059,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_press-conference-on-charlie-kirk-shooting_raw.html",
    "name": "2026-08-16_rev_press-conference-on-charlie-kirk-shooting_raw.html",
    "ext": "html",
+   "artifact_class": "primary-source",
    "bytes": 188626,
    "sha256": "08347ff318cb9161a7d82acd86f72c17d06474b294489f5dcaa57067c01f1dd0",
    "banked": "2026-08-16",
@@ -2735,6 +3076,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_update-on-charlie-kirk-shooter.txt",
    "name": "2026-08-16_rev_update-on-charlie-kirk-shooter.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 31919,
    "sha256": "7ba458f394d06889e00b5f238afe2872483e4b9c3a2c68ccf91ccf42ae09d942",
    "banked": "2026-08-16",
@@ -2757,6 +3099,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_update-on-charlie-kirk-shooter_raw.html",
    "name": "2026-08-16_rev_update-on-charlie-kirk-shooter_raw.html",
    "ext": "html",
+   "artifact_class": "primary-source",
    "bytes": 212480,
    "sha256": "e258db8ab95ce490116f52349e02e463ea749aa57a8d237eb1bf67dec2c5ed51",
    "banked": "2026-08-16",
@@ -2770,9 +3113,84 @@
    "unpaired": false
   },
   {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-17_Q136-zinn-reconciliation_RAW.json",
+   "name": "2026-08-17_Q136-zinn-reconciliation_RAW.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 405082,
+   "sha256": "2aaf393024dcdcc9f5d41fa98d661f020920960943e0e0da9624f65b4a3616a6",
+   "banked": "2026-08-17",
+   "provenance": {
+    "filename_date": "2026-08-17"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - George Zinn/zinn-george-evidence.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-17_Q137-Q138-person-files_RAW.json",
+   "name": "2026-08-17_Q137-Q138-person-files_RAW.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 1274151,
+   "sha256": "40b88eb778a6b12525a2a664036c8e3058954919605a0f48ce6f3ba470d82d1a",
+   "banked": "2026-08-17",
+   "provenance": {
+    "filename_date": "2026-08-17"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "erika-kirk-background-family-contested-claims-dossier.md",
+    "files - Arrest chronology/robinson-surrender-timeline.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-17_Q142-Q143-Q144-Q145-twiggs-programme_RAW.json",
+   "name": "2026-08-17_Q142-Q143-Q144-Q145-twiggs-programme_RAW.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 928825,
+   "sha256": "03ea83eb12ef1c5092ad85b2cb5ed0c0561c8324bcc3b549da68686e8a2e49e8",
+   "banked": "2026-08-17",
+   "provenance": {
+    "filename_date": "2026-08-17"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-17_SEC-E01-security-posture_RAW.json",
+   "name": "2026-08-17_SEC-E01-security-posture_RAW.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 846201,
+   "sha256": "4caab1cf30c155cf0f999f2222da60b60ed61c78eab8739015b352f2015d7a5b",
+   "banked": "2026-08-17",
+   "provenance": {
+    "filename_date": "2026-08-17"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "START-HERE.md"
+   ],
+   "unpaired": false
+  },
+  {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-18_states-reply-memo-bindover.pdf",
    "name": "2026-08-18_states-reply-memo-bindover.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 277548,
    "sha256": "0e287a048829b100f9b7e003d2b1475c75b43d0e755fff4f7f6f9fa67dfd14f2",
    "banked": "2026-08-20",
@@ -2795,6 +3213,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-18_states-reply-memo-bindover.txt",
    "name": "2026-08-18_states-reply-memo-bindover.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 41016,
    "sha256": "93e0f505c07f0070fbdcceb10090d63f62c26d1d04f8e88c37c1e69031b0e25b",
    "banked": "2026-08-20",
@@ -2814,9 +3233,44 @@
    "unpaired": false
   },
   {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-20_Q182-crosswalk-anchors_RAW.json",
+   "name": "2026-08-20_Q182-crosswalk-anchors_RAW.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 26933,
+   "sha256": "65bc92893b3920c8e35a1dc9e977c82b1b51cb7cadf0d5efeacafb3562e2294b",
+   "banked": "2026-08-20",
+   "provenance": {
+    "filename_date": "2026-08-20"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E18_certified-transcript-crosswalk.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-20_Q182-crosswalk-locates_RAW.json",
+   "name": "2026-08-20_Q182-crosswalk-locates_RAW.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 58382,
+   "sha256": "de6156f223c656483e3eb9b5aa43757a4497e1803a1ce3fdaec4f919d72cf4cc",
+   "banked": "2026-08-20",
+   "provenance": {
+    "filename_date": "2026-08-20"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_signed.pdf",
    "name": "2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_signed.pdf",
    "ext": "pdf",
+   "artifact_class": "primary-source",
    "bytes": 1506097,
    "sha256": "c0c2d9553120681329bb9295397dc4c541bbf6838b117b308939d5b3b189f607",
    "banked": "2026-09-14",
@@ -2833,9 +3287,203 @@
    "unpaired": true
   },
   {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/atf_page-26.png",
+   "name": "atf_page-26.png",
+   "ext": "png",
+   "artifact_class": "primary-source",
+   "bytes": 317758,
+   "sha256": "db5db4f3675f85fead5a6b0fe638317e466eaeeaacfc6bd1534534bc736084b4",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "IMAGE-ONLY",
+   "how_to_read": "RENDERED PAGE IMAGE \u2014 read it visually. It has no text to search at all.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-AUDIT-2026-07-28_independent-pass.md",
+    "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/atf_page-27.png",
+   "name": "atf_page-27.png",
+   "ext": "png",
+   "artifact_class": "primary-source",
+   "bytes": 186084,
+   "sha256": "e346666ab5d27f28331d60153f110e1c998bda31f52e0fe9dfb9af27ad679e51",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "IMAGE-ONLY",
+   "how_to_read": "RENDERED PAGE IMAGE \u2014 read it visually. It has no text to search at all.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/atf_page-28.png",
+   "name": "atf_page-28.png",
+   "ext": "png",
+   "artifact_class": "primary-source",
+   "bytes": 167528,
+   "sha256": "ab816ff8fa601570dfd375580b13306774d3cd56ea1ca963f711465312c184c0",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "IMAGE-ONLY",
+   "how_to_read": "RENDERED PAGE IMAGE \u2014 read it visually. It has no text to search at all.",
+   "cited_by": [
+    "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/atf_page-29.png",
+   "name": "atf_page-29.png",
+   "ext": "png",
+   "artifact_class": "primary-source",
+   "bytes": 251219,
+   "sha256": "f8cc186a2fed1455a789ed13a2e8f71b4f48d24b1343f33c248f6c0e69897514",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "IMAGE-ONLY",
+   "how_to_read": "RENDERED PAGE IMAGE \u2014 read it visually. It has no text to search at all.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-AUDIT-2026-07-28_independent-pass.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/dc224251_bank_receipts.json",
+   "name": "dc224251_bank_receipts.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 36532,
+   "sha256": "8269e6a776e65cd57eec36960d88199e81c440929918248f8606123f85b0bbef",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "224251",
+    "source_route": "DocumentCloud open API"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "DOCKET-WATCH-routine-prompt-DRAFT-2026-08-14.md",
+    "DOCKET-WATCH-routine-prompt-DRAFT-2026-09-02.md",
+    "DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md",
+    "DOCKET-WATCH.md",
+    "QUEUE.md",
+    "START-HERE.md",
+    "files - Arrest chronology/tier1-acquisition-roadmap.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-synthesis.md",
+    "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md",
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+    "files - Court record/CR-E09_evidence-preservation-order-and-pretrial-practice.md",
+    "files - Court record/CR-E10_publicity-order-and-record-classification.md",
+    "files - Court record/CR-E11_prosecutor-disqualification-track.md",
+    "files - Court record/CR-E13_evidence-preservation-chain-complete.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-WATCH-log.md",
+    "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
+    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/dc224251_manifest.json",
+   "name": "dc224251_manifest.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 21806,
+   "sha256": "1500dd90a8f9aca05946eac0dcb3485b8972624c6c8fc4743f355a973fcba5a0",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "224251",
+    "source_route": "DocumentCloud open API"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "DOCKET-WATCH-routine-prompt-DRAFT-2026-08-14.md",
+    "DOCKET-WATCH-routine-prompt-DRAFT-2026-09-02.md",
+    "DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md",
+    "DOCKET-WATCH.md",
+    "QUEUE.md",
+    "START-HERE.md",
+    "files - Arrest chronology/tier1-acquisition-roadmap.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-synthesis.md",
+    "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md",
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+    "files - Court record/CR-E09_evidence-preservation-order-and-pretrial-practice.md",
+    "files - Court record/CR-E10_publicity-order-and-record-classification.md",
+    "files - Court record/CR-E11_prosecutor-disqualification-track.md",
+    "files - Court record/CR-E13_evidence-preservation-chain-complete.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-WATCH-log.md",
+    "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
+    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/dc_casenumber_bank_receipts.json",
+   "name": "dc_casenumber_bank_receipts.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 7751,
+   "sha256": "c3d30ca761c14cf13265dba1cb23d2605db1ecea42f4cb86cd1e9f27bd21ec44",
+   "banked": "2026-08-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/docket-artifacts_2026-08-16_NUL-repair_SUPERSESSION.json",
+   "name": "docket-artifacts_2026-08-16_NUL-repair_SUPERSESSION.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 24915,
+   "sha256": "313b0241b6459db71d9f542de4063d82210d031c14b35630607ee465c55987d2",
+   "banked": "2026-08-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/docket-watch-baseline.json",
+   "name": "docket-watch-baseline.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 23551,
+   "sha256": "14a566b11ef6d2198be7711121be8d68bcf19713ae7e8135509ca9dfa045479e",
+   "banked": "2026-08-29",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/oct24_clean.txt",
    "name": "oct24_clean.txt",
    "ext": "txt",
+   "artifact_class": "primary-source",
    "bytes": 176171,
    "sha256": "536a9e1cf6d1cc408fa1ce6b5d7f2f44af20c7259b26b2ce138e48ee952f5814",
    "banked": "2026-07-27",
@@ -2856,73 +3504,10 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-ballistics-motion.pdf",
-   "name": "tyler-robinson-ballistics-motion.pdf",
-   "ext": "pdf",
-   "bytes": 1369739,
-   "sha256": "b2395846d144924f683218a69e1b17e01ac5e3cd48ba7a6dd1ef6deb99f17f36",
-   "banked": "2026-07-27",
-   "provenance": {},
-   "readability": "text-native",
-   "pages": 29,
-   "chars_per_page": 1644,
-   "how_to_read": "pdftotext is reliable.",
-   "cited_by": [
-    "QUEUE.md",
-    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
-    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
-    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
-    "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
-   ],
-   "unpaired": false
-  },
-  {
-   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-ballistics-motion.txt",
-   "name": "tyler-robinson-ballistics-motion.txt",
-   "ext": "txt",
-   "bytes": 71515,
-   "sha256": "f8d0c760f6019eb13a405741dff6719809a17dce36f50d2a5d472cbdcfc51aa8",
-   "banked": "2026-07-27",
-   "provenance": {},
-   "readability": "text-native",
-   "fffe_occurrences": 0,
-   "fffe_split_words": [],
-   "how_to_read": "plain search is reliable.",
-   "cited_by": [
-    "QUEUE.md",
-    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
-    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
-    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
-    "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
-   ],
-   "unpaired": false
-  },
-  {
-   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-redacted-hearing-transcript.pdf",
-   "name": "tyler-robinson-redacted-hearing-transcript.pdf",
-   "ext": "pdf",
-   "bytes": 1060521,
-   "sha256": "7a891b006d5c7128a5e120a469461855d9121239189ca3011625036949e16dc6",
-   "banked": "2026-07-27",
-   "provenance": {},
-   "readability": "text-native",
-   "pages": 97,
-   "chars_per_page": 1954,
-   "how_to_read": "pdftotext is reliable.",
-   "cited_by": [
-    "QUEUE.md",
-    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
-    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
-    "robinson-tyler-james-comprehensive-profile.md"
-   ],
-   "unpaired": true
-  },
-  {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/2026-09-01_final-prelim-argument.txt",
    "name": "2026-09-01_final-prelim-argument.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 237613,
    "sha256": "4abf9a2b1aa61828fe87964372d74ff5b54ef59d66a4662a77f3929b8d75d60f",
    "banked": "2026-09-14",
@@ -2942,6 +3527,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/2026-09-01_final-prelim-argument_raw.html",
    "name": "2026-09-01_final-prelim-argument_raw.html",
    "ext": "html",
+   "artifact_class": "transcript",
    "bytes": 472052,
    "sha256": "9e2c54153872e2c4ec2d4eefea1527fe3938660bb2ef0a86dea191cb863a6bac",
    "banked": "2026-09-14",
@@ -2957,6 +3543,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day1.txt",
    "name": "day1.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 327506,
    "sha256": "b11e6be63d39be83d39c6590676df2d7a2bfaeac8dcdf2fab3fc24e72e67a646",
    "banked": "2026-07-28",
@@ -3003,6 +3590,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day1_raw.html",
    "name": "day1_raw.html",
    "ext": "html",
+   "artifact_class": "transcript",
    "bytes": 840749,
    "sha256": "a546f8a9de07d87e977ee4db1f584c3d2a0c8528227972c90187bd40447ff7ee",
    "banked": "2026-07-28",
@@ -3016,6 +3604,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2.txt",
    "name": "day2.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 323286,
    "sha256": "ae678fb2780dfa20a42318dcc1f4bd8ddf586696bdec5b3fbd0eefa38daaf9f3",
    "banked": "2026-07-27",
@@ -3056,6 +3645,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2_condensed.txt",
    "name": "day2_condensed.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 295044,
    "sha256": "852b2bbb9b11ff885e725af0031e0ca9b176b155e90503ab95f81cd51ebd6e32",
    "banked": "2026-07-27",
@@ -3076,6 +3666,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2_raw.html",
    "name": "day2_raw.html",
    "ext": "html",
+   "artifact_class": "transcript",
    "bytes": 788352,
    "sha256": "6bba4506bbcfe37d4370398654772898166c89966141861cfcb369934b0382cb",
    "banked": "2026-07-27",
@@ -3089,6 +3680,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day3.txt",
    "name": "day3.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 133588,
    "sha256": "a7456a16d4acfa6b99884863b65355aa879f13b6f1e11b41eac7b64bca15ed8e",
    "banked": "2026-07-27",
@@ -3120,6 +3712,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day3_condensed.txt",
    "name": "day3_condensed.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 127314,
    "sha256": "27349372a7d3f433fd207f674090acd305d0eb4b0e7714b2445b9b2de8333848",
    "banked": "2026-07-27",
@@ -3135,6 +3728,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day3_raw.html",
    "name": "day3_raw.html",
    "ext": "html",
+   "artifact_class": "transcript",
    "bytes": 365800,
    "sha256": "838f0a7fcfbac718c6164601c488206bd2f039c114bb0f42d1eb7c54d3b02c20",
    "banked": "2026-07-27",
@@ -3148,6 +3742,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt",
    "name": "day4.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 312855,
    "sha256": "16ae18bb520ac02ba6ede8ed445448bd1387b4f2746d9c9757b8f8fe16e5f0a0",
    "banked": "2026-07-27",
@@ -3192,6 +3787,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4_raw.html",
    "name": "day4_raw.html",
    "ext": "html",
+   "artifact_class": "transcript",
    "bytes": 774482,
    "sha256": "e8e65b963942eb1807d1d3b12e83711e5654c46905db96d64a0bb69a691e76a6",
    "banked": "2026-07-27",
@@ -3210,6 +3806,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day5.txt",
    "name": "day5.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 108219,
    "sha256": "87adbc6588aafcab7fd02c97c0ef1179968458c418c54ab6e40e600f86cf5ea2",
    "banked": "2026-07-27",
@@ -3254,6 +3851,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day5_condensed.txt",
    "name": "day5_condensed.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 101560,
    "sha256": "fecae80d906bce85ee94e82b72eba8705f88fdfc39719092ebc568a37eb592d4",
    "banked": "2026-07-27",
@@ -3273,6 +3871,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day5_raw.html",
    "name": "day5_raw.html",
    "ext": "html",
+   "artifact_class": "transcript",
    "bytes": 328373,
    "sha256": "829fdb1c7d67bfe125eca8089ce580f7ce7638f3f95fbbfefe5d32bbce8e1af3",
    "banked": "2026-07-27",
@@ -3286,6 +3885,7 @@
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/faumuina_condensed.txt",
    "name": "faumuina_condensed.txt",
    "ext": "txt",
+   "artifact_class": "transcript",
    "bytes": 73051,
    "sha256": "f4243538f76d2d61595fe3cffaa87f86864935d55e69f509f0d1479e28013761",
    "banked": "2026-07-27",
@@ -3298,6 +3898,1978 @@
     "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
     "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md",
     "files - Court record/CR-E18_certified-transcript-crosswalk.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-ballistics-motion.pdf",
+   "name": "tyler-robinson-ballistics-motion.pdf",
+   "ext": "pdf",
+   "artifact_class": "primary-source",
+   "bytes": 1369739,
+   "sha256": "b2395846d144924f683218a69e1b17e01ac5e3cd48ba7a6dd1ef6deb99f17f36",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "pages": 29,
+   "chars_per_page": 1644,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-ballistics-motion.txt",
+   "name": "tyler-robinson-ballistics-motion.txt",
+   "ext": "txt",
+   "artifact_class": "primary-source",
+   "bytes": 71515,
+   "sha256": "f8d0c760f6019eb13a405741dff6719809a17dce36f50d2a5d472cbdcfc51aa8",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-redacted-hearing-transcript.pdf",
+   "name": "tyler-robinson-redacted-hearing-transcript.pdf",
+   "ext": "pdf",
+   "artifact_class": "primary-source",
+   "bytes": 1060521,
+   "sha256": "7a891b006d5c7128a5e120a469461855d9121239189ca3011625036949e16dc6",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "pages": 97,
+   "chars_per_page": 1954,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": true
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_cal_.raw",
+   "name": "legacy.utcourts.gov_cal_.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 65821,
+   "sha256": "f96014fd2494af2abdb363040d864abe9e03617ebb84fd7b2226c6415f6b5224",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_cal_search.php_t_c_c_251403576_d_all_loc_all.raw",
+   "name": "legacy.utcourts.gov_cal_search.php_t_c_c_251403576_d_all_loc_all.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 32171,
+   "sha256": "11115a8d32955814d40dcfd04b36ac116321ee9dfb5d0ae4d56cbb1df1b09033",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_cal_search.php_t_j_j_Graf_d_all_loc_all.raw",
+   "name": "legacy.utcourts.gov_cal_search.php_t_j_j_Graf_d_all_loc_all.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 1407570,
+   "sha256": "c22f8e3d04646ce8a6b79f18e5e6ddfeac9fd8b92a7b975493b8d10969f14d41",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_cal_search.php_t_p_p_Robinson_2C_Tyler_d_all_loc_all.raw",
+   "name": "legacy.utcourts.gov_cal_search.php_t_p_p_Robinson_2C_Tyler_d_all_loc_all.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 34374,
+   "sha256": "716961111bc2cdd1657c88db8f1f48bf071a2686ab2164c60623c33339770105",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_judgments_view.php_loc_fourth.raw",
+   "name": "legacy.utcourts.gov_judgments_view.php_loc_fourth.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 23083,
+   "sha256": "0caa2891893ac482e4c8ec946423c888b123592b5726a248557e66fd1479ef64",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_.html",
+   "name": "legacy.utcourts.gov_utc_news_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 66034,
+   "sha256": "0619c7f6e50691107a0e6b684cbd7b80eba39cc4960dba5f64dbbdee08027b7a",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_2026_07_.raw",
+   "name": "legacy.utcourts.gov_utc_news_2026_07_.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 39744,
+   "sha256": "102e72e9328654820b1c2b07e873565079187ae9159373289b20f1dd9185afd6",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_2026_08_.html",
+   "name": "legacy.utcourts.gov_utc_news_2026_08_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 45607,
+   "sha256": "720b30693d5fed88d9b796043b6b953f326e1b7eb9b6cab8883b5ff6559701d3",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_2026_08_28_public-attendance-for-tyler-robinson-preliminary-hearing_.html",
+   "name": "legacy.utcourts.gov_utc_news_2026_08_28_public-attendance-for-tyler-robinson-preliminary-hearing_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 42873,
+   "sha256": "fba01e3ac9462ea1943d38de12b4b4d5760a7c1d8540508b5d7d7f5aefe258d2",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_2026_09_.html",
+   "name": "legacy.utcourts.gov_utc_news_2026_09_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 154826,
+   "sha256": "c1c7fed2b16df2e1fd0236f0fdd4f60fafed5b2bf6b7ff9b88a93c5fcc4def43",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_2026_09_01_.html",
+   "name": "legacy.utcourts.gov_utc_news_2026_09_01_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 154826,
+   "sha256": "c1c7fed2b16df2e1fd0236f0fdd4f60fafed5b2bf6b7ff9b88a93c5fcc4def43",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_2026_09_02_.html",
+   "name": "legacy.utcourts.gov_utc_news_2026_09_02_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 154826,
+   "sha256": "c1c7fed2b16df2e1fd0236f0fdd4f60fafed5b2bf6b7ff9b88a93c5fcc4def43",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news__s_Robinson.html",
+   "name": "legacy.utcourts.gov_utc_news__s_Robinson.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 43757,
+   "sha256": "c6f11303a1b79d08031f284cc9a2afc82ae366a22e619704a2bb70805d310f01",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_category_high-profile-cases_.html",
+   "name": "legacy.utcourts.gov_utc_news_category_high-profile-cases_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 154826,
+   "sha256": "c1c7fed2b16df2e1fd0236f0fdd4f60fafed5b2bf6b7ff9b88a93c5fcc4def43",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_news_tag_tyler-robinson_.html",
+   "name": "legacy.utcourts.gov_utc_news_tag_tyler-robinson_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 154826,
+   "sha256": "c1c7fed2b16df2e1fd0236f0fdd4f60fafed5b2bf6b7ff9b88a93c5fcc4def43",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/legacy.utcourts.gov_utc_notices_category_utah_.raw",
+   "name": "legacy.utcourts.gov_utc_notices_category_utah_.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 51851,
+   "sha256": "88d42c7ede877863163a95a78e2879dd1aef9da1a42a59987e508625bc7360a9",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/probe_media.html",
+   "name": "probe_media.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 41058,
+   "sha256": "1924a1665c681c4ce23455956852c0a30c8c107a4d5d664f86ae26c27d65d5f1",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/probe_root.html",
+   "name": "probe_root.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 46783,
+   "sha256": "b7be53839ec4d7abfd0c8fb8391ad06d8a1026a321cc038fdf38162d95df9905",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/provo_robinson.raw",
+   "name": "provo_robinson.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 55814,
+   "sha256": "ebad61c5dc0a9cb4e6be7f3bd9708db1984c3c2a57b484935991088a43903efd",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/ua.html",
+   "name": "ua.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 7220,
+   "sha256": "1e279bd239950accec821fa5171f2b663996da3d490b5fded5a8a713df4a59c8",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/ua_media.html",
+   "name": "ua_media.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 41058,
+   "sha256": "1924a1665c681c4ce23455956852c0a30c8c107a4d5d664f86ae26c27d65d5f1",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-synthesis.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/uc_news.html",
+   "name": "uc_news.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 53310,
+   "sha256": "3eb7b0761dbb18f248cc1c18917199bc01b15c889a48b54d9f487ae091b09187",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/uc_root.html",
+   "name": "uc_root.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 172485,
+   "sha256": "06ef9abde040f00faaea63572e4ea45c852fa676bea2b1e8a96e7e6a43b01cdb",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/ucao_k.html",
+   "name": "ucao_k.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 7220,
+   "sha256": "1e279bd239950accec821fa5171f2b663996da3d490b5fded5a8a713df4a59c8",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/wb_ckpr_20260613.html",
+   "name": "wb_ckpr_20260613.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 52382,
+   "sha256": "1e80f655e2297bce72b770bb9df7aaaa38194975148e944e7d223afab5d365e5",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_.html",
+   "name": "www.utcourts.gov_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 188373,
+   "sha256": "48ef34dec8b984708bd03c5c80e629c10329d057e234d967eb6f389ed2ee5729",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_content_utcourts_us_en_about_miscellaneous_directory_court-details.html_id_utah-county-provo-district-court.raw",
+   "name": "www.utcourts.gov_content_utcourts_us_en_about_miscellaneous_directory_court-details.html_id_utah-county-provo-district-court.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 123097,
+   "sha256": "6c35bd0cdeaedf2fc9d6196292c745a9a8faa6414ae893f5c8110b6f5f340f7d",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_about_news-press.html.html",
+   "name": "www.utcourts.gov_en_about_news-press.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91350,
+   "sha256": "5b17d632673ab77f8141eb6c7b7310d1a31a7c2d80002a1bbf183768dc6dadf4",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_about_news.html.html",
+   "name": "www.utcourts.gov_en_about_news.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91350,
+   "sha256": "5b17d632673ab77f8141eb6c7b7310d1a31a7c2d80002a1bbf183768dc6dadf4",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_court-records-publications_publications_public-notices_courts.html.raw",
+   "name": "www.utcourts.gov_en_court-records-publications_publications_public-notices_courts.html.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 108895,
+   "sha256": "20e9c23dd9e72a2b7090a3cdeec476b5310e049f485ee7d2edabe89e8a1be345",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_court-records-publications_records_xchange.html.raw",
+   "name": "www.utcourts.gov_en_court-records-publications_records_xchange.html.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 100241,
+   "sha256": "db718b14f75ec5c837f9ac6be5f2ade4d81f80b21f26bfd606d67a3584278822",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_courts_court-types_dist_dist-sites_4th.html.raw",
+   "name": "www.utcourts.gov_en_courts_court-types_dist_dist-sites_4th.html.raw",
+   "ext": "raw",
+   "artifact_class": "source-capture",
+   "bytes": 96965,
+   "sha256": "c384b19218ec5373c3666cdd8e4dcab494f74686bd77811c2c7f68afa4cb5a0d",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_media_media.html.html",
+   "name": "www.utcourts.gov_en_media_media.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 95043,
+   "sha256": "015f8e7528304d8847af42800c481d193e73ec9f19ebd8ef365e790039dd8e69",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_media_media_Media-Policies-Resources.html.html",
+   "name": "www.utcourts.gov_en_media_media_Media-Policies-Resources.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 93962,
+   "sha256": "82feb629c06fbfbe15c9d03096551a4ec7c4c90eacdb4d0e463dcaddeed3fbb0",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_media_media_high-profile-cases.html.html",
+   "name": "www.utcourts.gov_en_media_media_high-profile-cases.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91350,
+   "sha256": "5b17d632673ab77f8141eb6c7b7310d1a31a7c2d80002a1bbf183768dc6dadf4",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_media_media_robinson.html.html",
+   "name": "www.utcourts.gov_en_media_media_robinson.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91350,
+   "sha256": "5b17d632673ab77f8141eb6c7b7310d1a31a7c2d80002a1bbf183768dc6dadf4",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_media_media_state-v-robinson.html.html",
+   "name": "www.utcourts.gov_en_media_media_state-v-robinson.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91350,
+   "sha256": "5b17d632673ab77f8141eb6c7b7310d1a31a7c2d80002a1bbf183768dc6dadf4",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_media_media_tyler-robinson.html.html",
+   "name": "www.utcourts.gov_en_media_media_tyler-robinson.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91350,
+   "sha256": "5b17d632673ab77f8141eb6c7b7310d1a31a7c2d80002a1bbf183768dc6dadf4",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_en_news.html.html",
+   "name": "www.utcourts.gov_en_news.html.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91350,
+   "sha256": "5b17d632673ab77f8141eb6c7b7310d1a31a7c2d80002a1bbf183768dc6dadf4",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/court-and-prosecutor/www.utcourts.gov_news_.html",
+   "name": "www.utcourts.gov_news_.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91350,
+   "sha256": "5b17d632673ab77f8141eb6c7b7310d1a31a7c2d80002a1bbf183768dc6dadf4",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/abc.html",
+   "name": "abc.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 219571,
+   "sha256": "2f5de9bddcd176d04d10f7b59d4d6b7a4fdeae42afc3876f7728682032728a13",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/ap1.html",
+   "name": "ap1.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 1025010,
+   "sha256": "98c295d46ff1804d49c43f6ba2d3e171de8cbcff4b07de3bd4b2c48f4da7d63c",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/ap2.html",
+   "name": "ap2.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 978713,
+   "sha256": "1dc02c3d8f8837d5139344f8267ee46d5022d8bdb8827176c258f57f896098be",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/ap3.html",
+   "name": "ap3.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 852170,
+   "sha256": "7fc18af362e2e927ccc7b4f7b218d0b441c5a4c5cef47aaf3ebd2941dfc72853",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/cbs.html",
+   "name": "cbs.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 623463,
+   "sha256": "89d2bb6c2ed225812f26467e0d86239b6b53c9e729ab30bded04774f9f9e9cc0",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/chn_article.html",
+   "name": "chn_article.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 106320,
+   "sha256": "83414319936e292df7a6ccffcdf8afa542689a685776f5e8d9e5753917d0655c",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-synthesis.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/chn_feed.xml",
+   "name": "chn_feed.xml",
+   "ext": "xml",
+   "artifact_class": "source-capture",
+   "bytes": 58409,
+   "sha256": "4a33b60acc3de60136f223564bc17fa6522ec0001b335bc6b0aad36c02efaa36",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-synthesis.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/deseret-0901.html",
+   "name": "deseret-0901.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 335479,
+   "sha256": "3acf0435abdb1847b9fee2fdd428c7f0b0a64abef94c1c894df2213141c0a4fd",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/ksl-51618264.html",
+   "name": "ksl-51618264.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 190523,
+   "sha256": "605011980e081f22a7bb39700e753929e6b852f1741caa48d7f00a0b3a134c5f",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/nbc.html",
+   "name": "nbc.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 453356,
+   "sha256": "59ae1c295a61b3faa20f62c62347c15850d3c729753becc1772ff6c16a13efce",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/sltrib-0901.html",
+   "name": "sltrib-0901.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 331195,
+   "sha256": "5ee69bd6b64239d908658fe03d65b5e63d841346ccb8a80f212158f11945924d",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_1.html",
+   "name": "utahb_page_1.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 113957,
+   "sha256": "b59f159991360ef22905d1941851018228c507558ce53972e22c659b2c103748",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_1.url.txt",
+   "name": "utahb_page_1.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 121,
+   "sha256": "9807a3353985c7f28516c7acf5b707ea9f5b3e77901d9449bccc02889e1de501",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_10.html",
+   "name": "utahb_page_10.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 91008,
+   "sha256": "87ca9a6968809eb020eb746503d68b31bb87a37201763b86b247f8f4533929ad",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_10.url.txt",
+   "name": "utahb_page_10.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 98,
+   "sha256": "4da876604b4c5133bde9e5b15a6b130560377cb44038cec22fc6e0f26c354768",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_16.html",
+   "name": "utahb_page_16.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 42410,
+   "sha256": "f054ed67b4c32bbf4cee732a41f24e8ba21b72053497791eb80d1534bc9c836e",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_16.url.txt",
+   "name": "utahb_page_16.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 88,
+   "sha256": "a0600768d700dde29ae5c4270d754851cd948a2abe7050d0120cd5d0e69a5ba1",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_17.html",
+   "name": "utahb_page_17.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 45517,
+   "sha256": "0461900f6a473d0d235832ce80c2ee6e10cb46dd511030c45124d7dae2b45ab0",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_17.url.txt",
+   "name": "utahb_page_17.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 91,
+   "sha256": "33a9fae0e3de62d74293e6304bfc0a3cd232c0e0be44f2a26d0ec7a6e36acaa2",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_18.html",
+   "name": "utahb_page_18.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 359090,
+   "sha256": "603d8d18abd2e95427da178220ba683c6c7623a65a131b9b664fa8e7e978690a",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_18.url.txt",
+   "name": "utahb_page_18.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 103,
+   "sha256": "499b3d6aa45d533cca07ad6fd5f3d939fecafc7f437e9036c58e1a055524e8ce",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_19.html",
+   "name": "utahb_page_19.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 310149,
+   "sha256": "8c06877ef198866d8eca1beb4c43899107b9107eace759096e9011244d3501ce",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_2.html",
+   "name": "utahb_page_2.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 117158,
+   "sha256": "65e236353d8062f2f4156c0cd29399115c94019eadc3f3df6e434b76b57c56de",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_2.url.txt",
+   "name": "utahb_page_2.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 131,
+   "sha256": "6348d6a225dd8565e8b0a7dbb3ba5f6f19ea94e3ef7195ed71d5c5ccf8a4e611",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_6.html",
+   "name": "utahb_page_6.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 328471,
+   "sha256": "a6dc7eb6be83e83a54394de10f664e03849d7dd065d80641644521eb9c429c3f",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_6.url.txt",
+   "name": "utahb_page_6.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 104,
+   "sha256": "8f81d04373bd7d69bf4580e55206267395788f7d0a6a1e4b857f96cc9f18e204",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_7.html",
+   "name": "utahb_page_7.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 326439,
+   "sha256": "925ce255c6cf804bb35a30bdb038151e9cd3bbe83b0b88e7cfcf7adbdb0663e8",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_7.url.txt",
+   "name": "utahb_page_7.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 105,
+   "sha256": "fe4d0f7175efd430dedbda422efe915744a318f9e2a239e5e79e56fdcad70ffb",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_8.html",
+   "name": "utahb_page_8.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 218418,
+   "sha256": "6185fbc81f88056f73dfc1335db356080c5db8fa735bacf3dfb1e6b759e8ec10",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_8.url.txt",
+   "name": "utahb_page_8.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 80,
+   "sha256": "3ebaf777faf5361f28909e41e4fcf0abfae704a1793d6c76bf4161f77443c7d9",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_9.html",
+   "name": "utahb_page_9.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 96734,
+   "sha256": "4d1cdf9bd8f2e7fc5517872ed8c9f0ddf1262c4b40e7c36e97ac4890233300e1",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/outlets/utahb_page_9.url.txt",
+   "name": "utahb_page_9.url.txt",
+   "ext": "txt",
+   "artifact_class": "source-capture",
+   "bytes": 137,
+   "sha256": "ceb7b7232760bd20c6b8fd0f6b99c048fab01e48f2ab5107b5056243ebb8b8f9",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/transcripts-and-docs/dc_proj.json",
+   "name": "dc_proj.json",
+   "ext": "json",
+   "artifact_class": "source-capture",
+   "bytes": 5801,
+   "sha256": "bd001fcc2c2d4387c16194d82ca0d005cda4cd23276282312cf16648a5710b63",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/transcripts-and-docs/dc_search.json",
+   "name": "dc_search.json",
+   "ext": "json",
+   "artifact_class": "source-capture",
+   "bytes": 5801,
+   "sha256": "c527da3d9cf8e9f372ad68adb00c3a2cc1938350ad535edd3f47277b96d5a8bd",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/transcripts-and-docs/rev_day5.html",
+   "name": "rev_day5.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 351780,
+   "sha256": "67dfddffd8bf72fbf14743b99fc746fd904c58ef1f188449ce214e40c6024875",
+   "banked": "2026-09-02",
+   "provenance": {
+    "source_route": "Rev transcript"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-synthesis.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/transcripts-and-docs/rev_sitemap_dec.xml",
+   "name": "rev_sitemap_dec.xml",
+   "ext": "xml",
+   "artifact_class": "source-capture",
+   "bytes": 742149,
+   "sha256": "f822d8eb583073746d370ee5c25d0f649adb3d299c81a76dac81013c53d53ad9",
+   "banked": "2026-09-02",
+   "provenance": {
+    "source_route": "Rev transcript"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/transcripts-and-docs/xchange.html",
+   "name": "xchange.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 2044,
+   "sha256": "cfb07bb56c9e0dbd099597423552cf96421206ad4066de54d67b36648172bf47",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "QUEUE.md",
+    "START-HERE.md",
+    "files - Arrest chronology/robinson-surrender-timeline.md",
+    "files - Arrest chronology/tier1-acquisition-roadmap.md",
+    "files - Bride of Charlie series/BOC-ACQ-2026-07-19_phase0-pull-log.md",
+    "files - Bride of Charlie series/BOC-E03_Have-No-Fear-Lori-Is-Here_claim-inventory.md",
+    "files - Bride of Charlie series/BOC-E04_The-Ties-That-Bind_claim-inventory.md",
+    "files - Bride of Charlie series/BOC-E05_The-Lost-Years_claim-inventory.md",
+    "files - Bride of Charlie series/BOC-E06_What-Happened-In-Romania_claim-inventory.md",
+    "files - Bride of Charlie series/BOC-E08_Red-Sparrow_claim-inventory.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_BLOCKED-DRAFT_q08-dna_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
+    "files - Court record/CR-ACQ-2026-08-16B_rev-official-statements.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-synthesis.md",
+    "files - Court record/CR-AUDIT-2026-07-28_independent-pass.md",
+    "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
+    "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md",
+    "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+    "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md",
+    "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md",
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md",
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+    "files - Court record/CR-E11_prosecutor-disqualification-track.md",
+    "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
+    "files - Court record/CR-E18_certified-transcript-crosswalk.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-E20_forensic-exhibit-map.md",
+    "files - Court record/CR-REVIEW-2026-08-14_losee-draft-Q07.md",
+    "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md",
+    "files - Court record/CR-REVIEW-2026-08-16G_twiggs-profile-reconciliation.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
+    "files - DNA evidence/Kirk-Robinson_DNA-Evidence_Consolidated-Audit_2026-07-15.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "files - Kirk assassination questions/kirk-shooting-official-timeline.md",
+    "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
+    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
+    "lance-twiggs-comprehensive-profile.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/transcripts-and-docs/yt.html",
+   "name": "yt.html",
+   "ext": "html",
+   "artifact_class": "source-capture",
+   "bytes": 1278952,
+   "sha256": "ec1139b5195918f411a4e0ab43ac69ed9fea75562f4a7f9c53cfb4e2f20e8057",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md",
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-synthesis.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/workflow-results_fetched-and-verdicts.json",
+   "name": "workflow-results_fetched-and-verdicts.json",
+   "ext": "json",
+   "artifact_class": "source-capture",
+   "bytes": 240647,
+   "sha256": "aaa28edcedd49adeb4df74e8a9bffe57553c185da9fea170f633194a2c7796c6",
+   "banked": "2026-09-02",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-09-02_bindover-verification-fetches/MANIFEST.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_adjudication-journal.jsonl",
+   "name": "cycle1_adjudication-journal.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 146935,
+   "sha256": "7f0f1e925b9aee82ce21c844ee7bcbcd7274871562f462112d011dd3a1aa27cd",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_finder-defects.json",
+   "name": "cycle1_finder-defects.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 45223,
+   "sha256": "5404e50ad6936174043a7fb601930ab572dbf61bf72b39a24a20fa629c71ca51",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_panel-verdicts.json",
+   "name": "cycle1_panel-verdicts.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 54053,
+   "sha256": "2333b8312c376995498a11ddb6079ba1ded23a8aeb9f1dc9ea9e32df11a6a057",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle2_journal.jsonl",
+   "name": "cycle2_journal.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 341835,
+   "sha256": "9fd8bd3d871716bc54d717b4fd89d9cb5077efaf31d40fdf4616c57ab35d1bc5",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle2_results.json",
+   "name": "cycle2_results.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 172445,
+   "sha256": "c088fb27371f9d410eb29d7736b68d600e9049f4ac79d57f884ae9e1bf36301a",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_journal.jsonl",
+   "name": "cycle3_journal.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 282899,
+   "sha256": "9808098ec3baca87bd3ec01c111c6f3f851848ed99617a3de550ff9ba7912327",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_queue.json",
+   "name": "cycle3_queue.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 121244,
+   "sha256": "623a08364f43239cc4a111c42167bf3e064f483ee520f26bb34189156bbc13a7",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_results.json",
+   "name": "cycle3_results.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 167725,
+   "sha256": "c0b67e6fe4d84b30df670fe347386e2df71c35249148a4edfac717b0ceb097a0",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_1f229a39-bd3.jsonl",
+   "name": "journal_wf_1f229a39-bd3.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 244929,
+   "sha256": "d9fbfab18f7c5bb78c68969b400f3c8dcfa8080026f5b806ae3593183a83ed92",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_3fe455fb-26a.jsonl",
+   "name": "journal_wf_3fe455fb-26a.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 194888,
+   "sha256": "ea23750af08f3f5bd6824ce79a57af66acf2ab5aa99a8670ec851f0c1ee15493",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_8951c2ef-e9c.jsonl",
+   "name": "journal_wf_8951c2ef-e9c.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 277646,
+   "sha256": "6a2e2ffe1fb5cb93d0297842b36529bee826c82809cc4a7650e3bfe0bb0dfece",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_f2c380ea-788.jsonl",
+   "name": "journal_wf_f2c380ea-788.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 634055,
+   "sha256": "3ddd387f106d5968dcd5e1033e6799882cc8f5abfeaed4362e041f882853ec59",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_f79b4b05-205.jsonl",
+   "name": "journal_wf_f79b4b05-205.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 107920,
+   "sha256": "3f2d229cd73c5e9be6b82015f91ea4ce49b4196eba9c38b1e6c23237266bd8c5",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_facts.json",
+   "name": "p2_facts.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 112666,
+   "sha256": "edc7c96266556d55f54159389553838fc011c8623bf2f9a3264d357251a56650",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_questions-that-leaked-their-answers.json",
+   "name": "p2_questions-that-leaked-their-answers.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 15495,
+   "sha256": "6b45e8fb6e05f08ea9bc7e88e00a37480929c9d8ab41005b1c7ea1102f0372f2",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_results.json",
+   "name": "p2_results.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 636940,
+   "sha256": "a3a154fa22ba37de85025e6ca9bd5c24c13127cdc8c25a3cadf4e36342053348",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p3_chains.json",
+   "name": "p3_chains.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 208551,
+   "sha256": "b3ee0e97200674aa2987f7ca06e23f80ae5c2631cf3e1f6a867987f79df02de5",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p3_steps.json",
+   "name": "p3_steps.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 263326,
+   "sha256": "7cb69f9f190ac139bd7134ef9e182ffb93d006085418dd1b0928a4e699f0c61d",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5_citations.json",
+   "name": "p5_citations.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 52110,
+   "sha256": "3dff3ad2c167c87b48feed9c9625541c755c91ebf8c658b6125020f7971545d7",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5_results.json",
+   "name": "p5_results.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 278100,
+   "sha256": "1635fe986bae517f5f830ef8f2687e901262726f2792ea17bbc6f37fef64dc70",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_attack-results.json",
+   "name": "p7_attack-results.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 391778,
+   "sha256": "12caa5d5cf061af9e944e1b7b21f49be7cd181d070942d6b44384689e8521c28",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_claim-list-as-attacked.json",
+   "name": "p7_claim-list-as-attacked.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 39184,
+   "sha256": "acad98ef2c00d1eb05ece9b353d99f15926aa24f2b9ec1454cb541ec3a10312a",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_journal.jsonl",
+   "name": "p7_journal.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 385301,
+   "sha256": "38b885bdbbe40117812b97ee72c59e9837d84c86f12658d6061e0aa0ed785180",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_document-ledger-locked-before-results.json",
+   "name": "p8_document-ledger-locked-before-results.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 5803,
+   "sha256": "4ae08d039c405fc3e5249a831ff10c839f1aa3761c47dd6f053867b58f0ce4a6",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_journal.jsonl",
+   "name": "p8_journal.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 444675,
+   "sha256": "60dfd733b9acf76cdc6f5d9fe39af20d323555bcf8f63559fbc499b43b0145ab",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_quantity-census.json",
+   "name": "p8_quantity-census.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 23263,
+   "sha256": "d8c2b554646383d98f62f48cdb86f88ac23c64f2223cd9102e67ea8efd75b08c",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_source-rebuilds.json",
+   "name": "p8_source-rebuilds.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 443697,
+   "sha256": "0f8ff05276404e1829f78f11552efd1e48b42d0d90f223ea2366d5b93f9db83d",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_document-attribution-ledger-locked-before-results.json",
+   "name": "p9_document-attribution-ledger-locked-before-results.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 44230,
+   "sha256": "e12f8332196af9796da4f18af9e5535f853ec482238831e20041b0336d31fa28",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_journal.jsonl",
+   "name": "p9_journal.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 419252,
+   "sha256": "d95b1ef13b09263123f408ab59cd72a54f32d2038f4e649850019c75d54ddfdb",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_quotation-census.json",
+   "name": "p9_quotation-census.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 53663,
+   "sha256": "468e27decbc01ccf825ded69c27f9a76cfb779112a3fe3bb81464bed8e09079b",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_source-locations.json",
+   "name": "p9_source-locations.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 424116,
+   "sha256": "2b4a2299cf22e5cebd77a253ace91d6f819da4defe51c8a01465a4029dc733a4",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts/2025-09-16_zinn_obstruction_pca_dc26098558.pdf",
+   "name": "2025-09-16_zinn_obstruction_pca_dc26098558.pdf",
+   "ext": "pdf",
+   "artifact_class": "primary-source",
+   "bytes": 63062,
+   "sha256": "78e8d571207127f2efeb39cb5ad9e45d888dfef8d550ce5556e0ccd34bb152dc",
+   "banked": "2026-08-20",
+   "provenance": {
+    "documentcloud_id": "26098558",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 2,
+   "chars_per_page": 2038,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - George Zinn/ZINN-ACQ-2026-08-20_zinn-pcas.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts/2025-09-16_zinn_obstruction_pca_dc26098558.txt",
+   "name": "2025-09-16_zinn_obstruction_pca_dc26098558.txt",
+   "ext": "txt",
+   "artifact_class": "primary-source",
+   "bytes": 4840,
+   "sha256": "313e15efd568f9dc11675699cc80e8f910e6bc9ceba8ee0e45b22825ffdd6458",
+   "banked": "2026-08-20",
+   "provenance": {
+    "documentcloud_id": "26098558",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - George Zinn/ZINN-ACQ-2026-08-20_zinn-pcas.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts/2025-09-16_zinn_sex_charges_pca_dc26098557.pdf",
+   "name": "2025-09-16_zinn_sex_charges_pca_dc26098557.pdf",
+   "ext": "pdf",
+   "artifact_class": "primary-source",
+   "bytes": 66997,
+   "sha256": "30cef9b8d4ff67a2f8766ca3b836173f07f2a1928d9acc4a2d2bc10147695883",
+   "banked": "2026-08-20",
+   "provenance": {
+    "documentcloud_id": "26098557",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 2234,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - George Zinn/ZINN-ACQ-2026-08-20_zinn-pcas.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts/2025-09-16_zinn_sex_charges_pca_dc26098557.txt",
+   "name": "2025-09-16_zinn_sex_charges_pca_dc26098557.txt",
+   "ext": "txt",
+   "artifact_class": "primary-source",
+   "bytes": 7527,
+   "sha256": "b2a006ab1db7eb82ef547590a9ddd85866d87d27e7369ff1fcb7d5825081aa44",
+   "banked": "2026-08-20",
+   "provenance": {
+    "documentcloud_id": "26098557",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - George Zinn/ZINN-ACQ-2026-08-20_zinn-pcas.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts/dc26098557.json",
+   "name": "dc26098557.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 1275,
+   "sha256": "c0568f34762fadc34a9ec035cd42bb4d4ec45063c6a82361b23278c89c274740",
+   "banked": "2026-08-20",
+   "provenance": {
+    "documentcloud_id": "26098557",
+    "source_route": "DocumentCloud open API"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - George Zinn/ZINN-ACQ-2026-08-20_zinn-pcas.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts/dc26098558.json",
+   "name": "dc26098558.json",
+   "ext": "json",
+   "artifact_class": "primary-source",
+   "bytes": 1275,
+   "sha256": "14c5e864d2c0349a476e2706a1dbc7fa7fcad8d2a498d597a9a032d44a2f2c2d",
+   "banked": "2026-08-20",
+   "provenance": {
+    "documentcloud_id": "26098558",
+    "source_route": "DocumentCloud open API"
+   },
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - George Zinn/ZINN-ACQ-2026-08-20_zinn-pcas.md"
    ],
    "unpaired": false
   }
