@@ -1,0 +1,93 @@
+{
+ "atf-calc1": [
+  "| **1** | 1.1 + 1.4 | stock and grips; **bolt** | at least **one trillion** times more likely if from **Robinson** as a contributor to the major components + 3 unknowns than from 4 unknowns | 1.1 retained \u00b7 **1.4 consumed** |"
+ ],
+ "atf-calc2": [
+  "| **2** | 1.2 | **butt plate** | at least **one trillion** times more likely if from **Robinson** as a major component + 4 unknowns than from 5 unknowns | retained |"
+ ],
+ "atf-calc3": [
+  "| **3** | 1.3 | **trigger and trigger guard** (swabbed **together**) | at least **one trillion** times more likely if from **Robinson** as a major component + 3 unknowns than from 4 unknowns | retained |"
+ ],
+ "atf-calc4": [
+  "| **4** | 1.5 + 5.1 | **fore-end**; a .30-06 cartridge | at least **one trillion** times more likely if from **Robinson** as the major components + 2 unknowns than from 3 unknowns | 1.5 retained \u00b7 **5.1 consumed** |"
+ ],
+ "atf-calc5": [
+  "| **5** | 1.6 + 3.1 | **barrel**; a .30-06 cartridge | at least **one trillion** times more likely if from **Robinson** as a contributor to the major components + 2 unknowns than from 3 unknowns | **both consumed** |"
+ ],
+ "atf-calc6": [
+  "| **6** | 1.9 | **optical accessory (scope)** | **6.28 billion** times more likely if from **Robinson** as a contributor to the major component + 3 unknowns than from 4 unknowns | **consumed** |"
+ ],
+ "atf-calc7": [
+  "| **7** | 1.13 + 2.1 | **underside of the receiver after disassembly**; the **fired cartridge case** | at least **one trillion** times more likely if from **Robinson** as the major contributor + 1 unknown than from 2 unknowns | 1.13 retained \u00b7 **2.1 consumed** |"
+ ],
+ "atf-consumption": [
+  "six of the eleven ATF items carrying stated likelihood ratios in State's Exhibit 30 were entirely consumed** *(Oliver's Day-5 list, read expressly against **p."
+ ],
+ "atf-ratio-scope": [
+  "thirteen ATF items carry stated ratios across this record in all, and the consumption status of the two in State's Exhibit 33 is not on this record at all."
+ ],
+ "fbi-item7": [
+  "**7** | **Towel** from around the rifle | **Full profile**, two contributors, one of whom is **Twiggs**; proportions **5% / 95%**. Twiggs' profile *\"aligned with the 5% contributor\"*, Robinson's *\"aligned better with the 95% contributor.\"* \u26a0 **Her verb is \"aligned,\" not \"was.\"** |"
+ ],
+ "fbi-item8": [
+  "**8** | **Screwdriver from perch** (handle area) | **Partial profile**, degraded \u2014 a *\"ski slope\"* effect. Two contributors, one of whom is Twiggs. Proportions **11% / 89%** (\u26a0 answered \"79%\" later \u2014 **D-57**). |"
+ ],
+ "fbi-losee": [
+  "**1\u20136** | Six swabs, **north-east corner of the Losee building** | **NO DNA.** *\"There was nothing for me to compare to.\"* **Entirely consumed.** |"
+ ],
+ "fbi-54-55": [
+  "**54** | Swabs of **swiped finger areas** | no result stated \u00b7 **entirely consumed** |",
+  "**55** | **Stairwell railing** (two swabs combined) | *\"more than five individuals, so I could not provide a conclusion.\"* \u26a0 She **declined** counsel's premise that the railing was *\"where the suspect touched\"*: *\"As far as I know, they were swabs from a stairwell.\"* **Entirely consumed.** |"
+ ],
+ "counts": [
+  "**Seven counts**, as charged in the Information of 2025-09-16 \u2014 **four more than the three offences of arrest.** The Affidavit of Probable Cause's arrestee block records the **2025-09-12, 04:00 arrest on three offenc"
+ ],
+ "aggravator": [
+  "Count 1 pleads **one** circumstance and only one: that the defendant *\"knowingly created a great risk of death to another individual other than Charlie Kirk and the defendant\"* \u2014 pleaded, in the Information's own words, *\"under the following circumstance: (iii)\"*."
+ ],
+ "discovery-census": [
+  "**Fourteen of the fifteen items remain unread** \u2014 twelve reports carrying both a date and an identifier, plus the **two FBI DNA case files, which the letter does not date** (`CR-E21 F-1`)."
+ ],
+ "latent-reports": [
+  "Four latent fingerprint reports exist across three laboratories and not one reached the hearing** \u2014 two of them ATF's, the laboratory that held the rifle."
+ ],
+ "window-prints": [
+  "EXCLUDED on all three comparable window prints**, and **all six** north-east-corner DNA swabs were consumed with **no DNA obtained."
+ ],
+ "arrest-booking": [
+  "**460956**, Utah County Jail, booked **2025-09-12 at 07:58:15**"
+ ],
+ "bail-order": [
+  "**08:40:00 \u2014 ORDER TO HOLD WITHOUT BAIL."
+ ],
+ "psa-timestamp": [
+  "Public Safety Assessment created 2025-09-12 at 08:21:35** \u2014 is **withheld in full by owner policy."
+ ],
+ "campus-times": [
+  "Entry to campus about 11:51 a.m. (the affidavit: *\"approximately 1150 hours\"*);"
+ ],
+ "charging-dates": [
+  "The **Information** (*\"Authorized for presentment and filing on September 16, 2025\"*) and the **Affidavit of Probable Cause of 2025-09-12** are in this library's possession, pulled from the **DocumentCloud open API** (`dc27880532` / `dc27880530`) on **2026-08-14** and banked with SHA-256 hashes."
+ ],
+ "distance": [
+  "approximately 160 yards away,\"* confirmed *\"a clear shooting corridor,\"* and observed *\"markings in the gravel rooftop consistent with a sniper having lain on the roof."
+ ],
+ "defence-brief-pages": [
+  "41 PDF pp. / 35 printed."
+ ],
+ "state-reply-pages": [
+  "19 PDF pp. against an 18-page limit (**recorded, deliberately not reconciled**)."
+ ],
+ "state-opening-pages": [
+  "28 pp. is its reported **length**; 35 was the **limit** \u2014 never conflate."
+ ],
+ "transcript-lines": [
+  "35,743-line transcript base is **not** exposed."
+ ],
+ "identifiers": [
+  "case **2025-W-000401**  || Lab No. 2025-01779-5, Case ID SU-4130859"
+ ],
+ "pretrial-date": [
+  "pretrial conference is set for 2026-10-23**."
+ ]
+}

@@ -1,0 +1,1759 @@
+{
+ "date|2026-09-14": {
+  "kind": "date",
+  "value": "2026-09-14",
+  "lines": [
+   6,
+   7,
+   13,
+   19,
+   19,
+   55,
+   57,
+   88,
+   93,
+   93,
+   114,
+   122,
+   128,
+   129,
+   129,
+   131,
+   186,
+   221,
+   222,
+   273,
+   304,
+   321,
+   335,
+   338,
+   344,
+   353,
+   385,
+   387,
+   395,
+   506,
+   506
+  ],
+  "ctx": "prose"
+ },
+ "word-count|seven counts": {
+  "kind": "word-count",
+  "value": "seven counts",
+  "lines": [
+   13,
+   39,
+   57,
+   158,
+   211,
+   390
+  ],
+  "ctx": "prose"
+ },
+ "likelihood-ratio|one trillion": {
+  "kind": "likelihood-ratio",
+  "value": "one trillion",
+  "lines": [
+   25,
+   270,
+   271,
+   273,
+   277,
+   278,
+   279,
+   280,
+   281,
+   283,
+   288,
+   335,
+   336
+  ],
+  "ctx": "prose"
+ },
+ "likelihood-ratio|6.28 billion": {
+  "kind": "likelihood-ratio",
+  "value": "6.28 billion",
+  "lines": [
+   25,
+   282,
+   288
+  ],
+  "ctx": "prose"
+ },
+ "word-count|four contributors": {
+  "kind": "word-count",
+  "value": "four contributors",
+  "lines": [
+   25,
+   286
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:44:47": {
+  "kind": "clock",
+  "value": "05:44:47",
+  "lines": [
+   27,
+   321
+  ],
+  "ctx": "prose"
+ },
+ "word-count|three prints": {
+  "kind": "word-count",
+  "value": "three prints",
+  "lines": [
+   27,
+   321
+  ],
+  "ctx": "prose"
+ },
+ "word-count|three laboratories": {
+  "kind": "word-count",
+  "value": "three laboratories",
+  "lines": [
+   27,
+   90,
+   317
+  ],
+  "ctx": "prose"
+ },
+ "word-count|one report": {
+  "kind": "word-count",
+  "value": "one report",
+  "lines": [
+   31,
+   307
+  ],
+  "ctx": "prose"
+ },
+ "word-count|three counts": {
+  "kind": "word-count",
+  "value": "three counts",
+  "lines": [
+   35,
+   35
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-09-01": {
+  "kind": "date",
+  "value": "2026-09-01",
+  "lines": [
+   43,
+   57,
+   87,
+   87,
+   88,
+   91,
+   91,
+   93,
+   129,
+   131,
+   170,
+   174,
+   174,
+   186,
+   211,
+   222,
+   222,
+   222,
+   254,
+   344,
+   351,
+   352,
+   361,
+   387,
+   401,
+   425,
+   454,
+   485
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-03-25": {
+  "kind": "date",
+  "value": "2026-03-25",
+  "lines": [
+   43,
+   90,
+   360,
+   402,
+   459
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-10-23": {
+  "kind": "date",
+  "value": "2026-10-23",
+  "lines": [
+   57,
+   255,
+   393
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-06-22": {
+  "kind": "date",
+  "value": "2026-06-22",
+  "lines": [
+   64,
+   64,
+   248,
+   249
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-03-15": {
+  "kind": "date",
+  "value": "2026-03-15",
+  "lines": [
+   64
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-08-11": {
+  "kind": "date",
+  "value": "2026-08-11",
+  "lines": [
+   64,
+   203,
+   252,
+   444
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:19:39": {
+  "kind": "clock",
+  "value": "01:19:39",
+  "lines": [
+   64
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:32:01": {
+  "kind": "clock",
+  "value": "02:32:01",
+  "lines": [
+   64
+  ],
+  "ctx": "prose"
+ },
+ "atf-item|atf items 1.4": {
+  "kind": "atf-item",
+  "value": "ATF items 1.4",
+  "lines": [
+   65,
+   65
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-07-06": {
+  "kind": "date",
+  "value": "2026-07-06",
+  "lines": [
+   87,
+   250,
+   472
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-09-17": {
+  "kind": "date",
+  "value": "2025-09-17",
+  "lines": [
+   90,
+   222,
+   329,
+   331,
+   360,
+   402,
+   443,
+   459,
+   481
+  ],
+  "ctx": "prose"
+ },
+ "word-count|fifteen items": {
+  "kind": "word-count",
+  "value": "fifteen items",
+  "lines": [
+   90,
+   360,
+   402
+  ],
+  "ctx": "prose"
+ },
+ "word-count|twelve reports": {
+  "kind": "word-count",
+  "value": "twelve reports",
+  "lines": [
+   90
+  ],
+  "ctx": "prose"
+ },
+ "word-count|one item": {
+  "kind": "word-count",
+  "value": "one item",
+  "lines": [
+   90
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-03-14": {
+  "kind": "date",
+  "value": "2026-03-14",
+  "lines": [
+   91,
+   91
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-08-14": {
+  "kind": "date",
+  "value": "2026-08-14",
+  "lines": [
+   91,
+   92,
+   170,
+   474
+  ],
+  "ctx": "prose"
+ },
+ "identifier|dc27880531": {
+  "kind": "identifier",
+  "value": "dc27880531",
+  "lines": [
+   91
+  ],
+  "ctx": "prose"
+ },
+ "identifier|dc27880533": {
+  "kind": "identifier",
+  "value": "dc27880533",
+  "lines": [
+   91
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-09-12": {
+  "kind": "date",
+  "value": "2025-09-12",
+  "lines": [
+   92,
+   111,
+   112,
+   128,
+   128,
+   158,
+   189,
+   229,
+   239,
+   245,
+   246,
+   373,
+   441,
+   442,
+   480,
+   482,
+   486,
+   491
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-09-16": {
+  "kind": "date",
+  "value": "2025-09-16",
+  "lines": [
+   92,
+   128,
+   158,
+   221,
+   237,
+   246,
+   438,
+   439,
+   440
+  ],
+  "ctx": "prose"
+ },
+ "clock|07:18": {
+  "kind": "clock",
+  "value": "07:18",
+  "lines": [
+   92
+  ],
+  "ctx": "prose"
+ },
+ "identifier|dc27880532": {
+  "kind": "identifier",
+  "value": "dc27880532",
+  "lines": [
+   92,
+   104,
+   128,
+   239,
+   404,
+   438,
+   506
+  ],
+  "ctx": "prose"
+ },
+ "identifier|dc27880530": {
+  "kind": "identifier",
+  "value": "dc27880530",
+  "lines": [
+   92,
+   104,
+   404,
+   439,
+   506
+  ],
+  "ctx": "prose"
+ },
+ "large-count|35,743": {
+  "kind": "large-count",
+  "value": "35,743",
+  "lines": [
+   93,
+   313
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-08-16": {
+  "kind": "date",
+  "value": "2026-08-16",
+  "lines": [
+   93,
+   378,
+   506
+  ],
+  "ctx": "prose"
+ },
+ "word-count|three files": {
+  "kind": "word-count",
+  "value": "three files",
+  "lines": [
+   93
+  ],
+  "ctx": "prose"
+ },
+ "word-count|two file": {
+  "kind": "word-count",
+  "value": "two file",
+  "lines": [
+   93
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-09-10": {
+  "kind": "date",
+  "value": "2025-09-10",
+  "lines": [
+   104,
+   105,
+   141,
+   144,
+   209
+  ],
+  "ctx": "table"
+ },
+ "clock|7:00": {
+  "kind": "clock",
+  "value": "7:00",
+  "lines": [
+   108
+  ],
+  "ctx": "table"
+ },
+ "clock|3:00": {
+  "kind": "clock",
+  "value": "3:00",
+  "lines": [
+   108
+  ],
+  "ctx": "table"
+ },
+ "clock|4:00": {
+  "kind": "clock",
+  "value": "4:00",
+  "lines": [
+   108,
+   112,
+   114,
+   146
+  ],
+  "ctx": "table"
+ },
+ "clock|5:00": {
+  "kind": "clock",
+  "value": "5:00",
+  "lines": [
+   108,
+   146
+  ],
+  "ctx": "table"
+ },
+ "clock|6:00": {
+  "kind": "clock",
+  "value": "6:00",
+  "lines": [
+   108
+  ],
+  "ctx": "table"
+ },
+ "clock|05:17:16": {
+  "kind": "clock",
+  "value": "05:17:16",
+  "lines": [
+   110
+  ],
+  "ctx": "table"
+ },
+ "clock|06:33:32": {
+  "kind": "clock",
+  "value": "06:33:32",
+  "lines": [
+   110
+  ],
+  "ctx": "table"
+ },
+ "clock|07:58:15": {
+  "kind": "clock",
+  "value": "07:58:15",
+  "lines": [
+   111,
+   234
+  ],
+  "ctx": "table"
+ },
+ "clock|04:00": {
+  "kind": "clock",
+  "value": "04:00",
+  "lines": [
+   112,
+   112,
+   114,
+   114,
+   114,
+   158
+  ],
+  "ctx": "table"
+ },
+ "clock|04:00:00": {
+  "kind": "clock",
+  "value": "04:00:00",
+  "lines": [
+   114
+  ],
+  "ctx": "prose"
+ },
+ "clock|08:40:00": {
+  "kind": "clock",
+  "value": "08:40:00",
+  "lines": [
+   114,
+   236
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-09-11": {
+  "kind": "date",
+  "value": "2025-09-11",
+  "lines": [
+   128,
+   129,
+   219,
+   503
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-10-24": {
+  "kind": "date",
+  "value": "2025-10-24",
+  "lines": [
+   128
+  ],
+  "ctx": "prose"
+ },
+ "clock|08:21:35": {
+  "kind": "clock",
+  "value": "08:21:35",
+  "lines": [
+   128,
+   128
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-07-09": {
+  "kind": "date",
+  "value": "2026-07-09",
+  "lines": [
+   129,
+   139,
+   344
+  ],
+  "ctx": "prose"
+ },
+ "clock|7:57": {
+  "kind": "clock",
+  "value": "7:57",
+  "lines": [
+   129
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:50:21": {
+  "kind": "clock",
+  "value": "02:50:21",
+  "lines": [
+   129
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:53:27": {
+  "kind": "clock",
+  "value": "02:53:27",
+  "lines": [
+   129
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:54:00": {
+  "kind": "clock",
+  "value": "02:54:00",
+  "lines": [
+   129
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:54:13": {
+  "kind": "clock",
+  "value": "02:54:13",
+  "lines": [
+   129
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:27:28": {
+  "kind": "clock",
+  "value": "02:27:28",
+  "lines": [
+   129
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-04-20": {
+  "kind": "date",
+  "value": "2026-04-20",
+  "lines": [
+   139,
+   231
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:00:45": {
+  "kind": "clock",
+  "value": "05:00:45",
+  "lines": [
+   141
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:03:38": {
+  "kind": "clock",
+  "value": "05:03:38",
+  "lines": [
+   141
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:03:57": {
+  "kind": "clock",
+  "value": "05:03:57",
+  "lines": [
+   141
+  ],
+  "ctx": "prose"
+ },
+ "clock|06:00:42": {
+  "kind": "clock",
+  "value": "06:00:42",
+  "lines": [
+   141
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:12:55": {
+  "kind": "clock",
+  "value": "02:12:55",
+  "lines": [
+   143
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:13:13": {
+  "kind": "clock",
+  "value": "02:13:13",
+  "lines": [
+   143
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:29:57": {
+  "kind": "clock",
+  "value": "02:29:57",
+  "lines": [
+   143
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-09-09": {
+  "kind": "date",
+  "value": "2025-09-09",
+  "lines": [
+   146
+  ],
+  "ctx": "prose"
+ },
+ "clock|5:00 a.m.": {
+  "kind": "clock",
+  "value": "5:00 a.m.",
+  "lines": [
+   146
+  ],
+  "ctx": "prose"
+ },
+ "clock|4:00 a.m.": {
+  "kind": "clock",
+  "value": "4:00 a.m.",
+  "lines": [
+   146,
+   230
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:30:23": {
+  "kind": "clock",
+  "value": "02:30:23",
+  "lines": [
+   148
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:31:12": {
+  "kind": "clock",
+  "value": "02:31:12",
+  "lines": [
+   148
+  ],
+  "ctx": "prose"
+ },
+ "word-count|four days": {
+  "kind": "word-count",
+  "value": "four days",
+  "lines": [
+   158,
+   237
+  ],
+  "ctx": "prose"
+ },
+ "statute|section 76-5-202": {
+  "kind": "statute",
+  "value": "section 76-5-202",
+  "lines": [
+   174
+  ],
+  "ctx": "prose"
+ },
+ "distance|160 yards": {
+  "kind": "distance",
+  "value": "160 yards",
+  "lines": [
+   184,
+   184,
+   406
+  ],
+  "ctx": "prose"
+ },
+ "distance|480 ft": {
+  "kind": "distance",
+  "value": "480 ft",
+  "lines": [
+   184
+  ],
+  "ctx": "prose"
+ },
+ "distance|415 ft": {
+  "kind": "distance",
+  "value": "415 ft",
+  "lines": [
+   184,
+   406
+  ],
+  "ctx": "prose"
+ },
+ "distance|65 ft": {
+  "kind": "distance",
+  "value": "65 ft",
+  "lines": [
+   184
+  ],
+  "ctx": "prose"
+ },
+ "clock|11:51": {
+  "kind": "clock",
+  "value": "11:51",
+  "lines": [
+   186
+  ],
+  "ctx": "prose"
+ },
+ "clock|11:51 a.m.": {
+  "kind": "clock",
+  "value": "11:51 a.m.",
+  "lines": [
+   186,
+   187
+  ],
+  "ctx": "prose"
+ },
+ "clock|08:29": {
+  "kind": "clock",
+  "value": "08:29",
+  "lines": [
+   186
+  ],
+  "ctx": "prose"
+ },
+ "clock|8:30 a.m.": {
+  "kind": "clock",
+  "value": "8:30 a.m.",
+  "lines": [
+   186,
+   492
+  ],
+  "ctx": "prose"
+ },
+ "clock|9:25 a.m.": {
+  "kind": "clock",
+  "value": "9:25 a.m.",
+  "lines": [
+   186
+  ],
+  "ctx": "prose"
+ },
+ "clock|10:00 a.m.": {
+  "kind": "clock",
+  "value": "10:00 a.m.",
+  "lines": [
+   186,
+   485
+  ],
+  "ctx": "prose"
+ },
+ "clock|11:00": {
+  "kind": "clock",
+  "value": "11:00",
+  "lines": [
+   186
+  ],
+  "ctx": "prose"
+ },
+ "clock|04:56": {
+  "kind": "clock",
+  "value": "04:56",
+  "lines": [
+   189
+  ],
+  "ctx": "prose"
+ },
+ "clock|04:59": {
+  "kind": "clock",
+  "value": "04:59",
+  "lines": [
+   189
+  ],
+  "ctx": "prose"
+ },
+ "distance|400 feet": {
+  "kind": "distance",
+  "value": "400 feet",
+  "lines": [
+   208
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-07-28": {
+  "kind": "date",
+  "value": "2026-07-28",
+  "lines": [
+   211,
+   251,
+   403,
+   455
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-08-18": {
+  "kind": "date",
+  "value": "2026-08-18",
+  "lines": [
+   211,
+   253,
+   445
+  ],
+  "ctx": "prose"
+ },
+ "large-count|100,000": {
+  "kind": "large-count",
+  "value": "100,000",
+  "lines": [
+   220
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-07-07": {
+  "kind": "date",
+  "value": "2026-07-07",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|49:27": {
+  "kind": "clock",
+  "value": "49:27",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:10:26": {
+  "kind": "clock",
+  "value": "02:10:26",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:10:35": {
+  "kind": "clock",
+  "value": "02:10:35",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:10:40": {
+  "kind": "clock",
+  "value": "02:10:40",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|49:23": {
+  "kind": "clock",
+  "value": "49:23",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|53:21": {
+  "kind": "clock",
+  "value": "53:21",
+  "lines": [
+   222,
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|02:28:36": {
+  "kind": "clock",
+  "value": "02:28:36",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|53:02": {
+  "kind": "clock",
+  "value": "53:02",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|58:28": {
+  "kind": "clock",
+  "value": "58:28",
+  "lines": [
+   222
+  ],
+  "ctx": "prose"
+ },
+ "clock|7:57 p.m.": {
+  "kind": "clock",
+  "value": "7:57 p.m.",
+  "lines": [
+   223,
+   503
+  ],
+  "ctx": "prose"
+ },
+ "clock|8:57 p.m.": {
+  "kind": "clock",
+  "value": "8:57 p.m.",
+  "lines": [
+   223,
+   503
+  ],
+  "ctx": "prose"
+ },
+ "pages|57 p.": {
+  "kind": "pages",
+  "value": "57 p.",
+  "lines": [
+   223,
+   223,
+   503,
+   503
+  ],
+  "ctx": "prose"
+ },
+ "clock|8:02 p.m.": {
+  "kind": "clock",
+  "value": "8:02 p.m.",
+  "lines": [
+   224,
+   239
+  ],
+  "ctx": "prose"
+ },
+ "pages|02 p.": {
+  "kind": "pages",
+  "value": "02 p.",
+  "lines": [
+   224,
+   239
+  ],
+  "ctx": "prose"
+ },
+ "pages|9 p.": {
+  "kind": "pages",
+  "value": "9 p.",
+  "lines": [
+   225
+  ],
+  "ctx": "prose"
+ },
+ "pages|10 p.": {
+  "kind": "pages",
+  "value": "10 p.",
+  "lines": [
+   226,
+   482
+  ],
+  "ctx": "prose"
+ },
+ "clock|11:30": {
+  "kind": "clock",
+  "value": "11:30",
+  "lines": [
+   227
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:01:55": {
+  "kind": "clock",
+  "value": "01:01:55",
+  "lines": [
+   231
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:02:03": {
+  "kind": "clock",
+  "value": "01:02:03",
+  "lines": [
+   231
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:02:17": {
+  "kind": "clock",
+  "value": "01:02:17",
+  "lines": [
+   231
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:03:25": {
+  "kind": "clock",
+  "value": "01:03:25",
+  "lines": [
+   231
+  ],
+  "ctx": "prose"
+ },
+ "clock|7:00 a.m.": {
+  "kind": "clock",
+  "value": "7:00 a.m.",
+  "lines": [
+   234
+  ],
+  "ctx": "prose"
+ },
+ "identifier|booking no. 460956": {
+  "kind": "identifier",
+  "value": "Booking No. 460956",
+  "lines": [
+   234
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-06-26": {
+  "kind": "date",
+  "value": "2026-06-26",
+  "lines": [
+   246,
+   249
+  ],
+  "ctx": "prose"
+ },
+ "clock|3:00 p.m.": {
+  "kind": "clock",
+  "value": "3:00 p.m.",
+  "lines": [
+   246
+  ],
+  "ctx": "prose"
+ },
+ "clock|3:01": {
+  "kind": "clock",
+  "value": "3:01",
+  "lines": [
+   246
+  ],
+  "ctx": "prose"
+ },
+ "clock|3:14": {
+  "kind": "clock",
+  "value": "3:14",
+  "lines": [
+   246
+  ],
+  "ctx": "prose"
+ },
+ "clock|08:40": {
+  "kind": "clock",
+  "value": "08:40",
+  "lines": [
+   246
+  ],
+  "ctx": "prose"
+ },
+ "pages|00 p.": {
+  "kind": "pages",
+  "value": "00 p.",
+  "lines": [
+   246,
+   255
+  ],
+  "ctx": "prose"
+ },
+ "word-count|five days": {
+  "kind": "word-count",
+  "value": "five days",
+  "lines": [
+   250,
+   336
+  ],
+  "ctx": "prose"
+ },
+ "clock|1:00 p.m.": {
+  "kind": "clock",
+  "value": "1:00 p.m.",
+  "lines": [
+   255
+  ],
+  "ctx": "prose"
+ },
+ "atf-item|atf items.": {
+  "kind": "atf-item",
+  "value": "ATF items.",
+  "lines": [
+   269
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:34:17": {
+  "kind": "clock",
+  "value": "05:34:17",
+  "lines": [
+   269,
+   307,
+   335
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:35:41": {
+  "kind": "clock",
+  "value": "05:35:41",
+  "lines": [
+   269,
+   307,
+   335
+  ],
+  "ctx": "prose"
+ },
+ "atf-item|atf item 15.1": {
+  "kind": "atf-item",
+  "value": "ATF item 15.1",
+  "lines": [
+   270
+  ],
+  "ctx": "prose"
+ },
+ "atf-item|atf item 18.1": {
+  "kind": "atf-item",
+  "value": "ATF item 18.1",
+  "lines": [
+   271
+  ],
+  "ctx": "prose"
+ },
+ "word-count|two swabs": {
+  "kind": "word-count",
+  "value": "two swabs",
+  "lines": [
+   287,
+   300
+  ],
+  "ctx": "prose"
+ },
+ "word-count|six swabs": {
+  "kind": "word-count",
+  "value": "Six swabs",
+  "lines": [
+   295
+  ],
+  "ctx": "table"
+ },
+ "word-count|two contributors": {
+  "kind": "word-count",
+  "value": "two contributors",
+  "lines": [
+   296,
+   297,
+   304
+  ],
+  "ctx": "table"
+ },
+ "clock|06:09:51": {
+  "kind": "clock",
+  "value": "06:09:51",
+  "lines": [
+   304
+  ],
+  "ctx": "prose"
+ },
+ "clock|06:10:38": {
+  "kind": "clock",
+  "value": "06:10:38",
+  "lines": [
+   304
+  ],
+  "ctx": "prose"
+ },
+ "fbi-item|fbi item 7": {
+  "kind": "fbi-item",
+  "value": "FBI item 7",
+  "lines": [
+   305,
+   355
+  ],
+  "ctx": "prose"
+ },
+ "atf-item|atf items 15.1": {
+  "kind": "atf-item",
+  "value": "ATF items 15.1",
+  "lines": [
+   307
+  ],
+  "ctx": "prose"
+ },
+ "fbi-item|fbi item 54": {
+  "kind": "fbi-item",
+  "value": "FBI item 54",
+  "lines": [
+   307
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:31:39": {
+  "kind": "clock",
+  "value": "01:31:39",
+  "lines": [
+   307
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:31:51": {
+  "kind": "clock",
+  "value": "01:31:51",
+  "lines": [
+   307
+  ],
+  "ctx": "prose"
+ },
+ "clock|06:09:05": {
+  "kind": "clock",
+  "value": "06:09:05",
+  "lines": [
+   321
+  ],
+  "ctx": "prose"
+ },
+ "clock|06:09:27": {
+  "kind": "clock",
+  "value": "06:09:27",
+  "lines": [
+   321
+  ],
+  "ctx": "prose"
+ },
+ "word-count|four swabs": {
+  "kind": "word-count",
+  "value": "four swabs",
+  "lines": [
+   325
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-01-09": {
+  "kind": "date",
+  "value": "2026-01-09",
+  "lines": [
+   331,
+   407
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:39:06": {
+  "kind": "clock",
+  "value": "05:39:06",
+  "lines": [
+   335
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:38:39": {
+  "kind": "clock",
+  "value": "05:38:39",
+  "lines": [
+   335
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:37:23": {
+  "kind": "clock",
+  "value": "05:37:23",
+  "lines": [
+   335
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:38:31": {
+  "kind": "clock",
+  "value": "05:38:31",
+  "lines": [
+   335
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:34:08": {
+  "kind": "clock",
+  "value": "05:34:08",
+  "lines": [
+   335
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:35:24": {
+  "kind": "clock",
+  "value": "05:35:24",
+  "lines": [
+   335
+  ],
+  "ctx": "prose"
+ },
+ "word-count|two items": {
+  "kind": "word-count",
+  "value": "two items",
+  "lines": [
+   335
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:33:30": {
+  "kind": "clock",
+  "value": "05:33:30",
+  "lines": [
+   336
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:34:45": {
+  "kind": "clock",
+  "value": "05:34:45",
+  "lines": [
+   336
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:39:33": {
+  "kind": "clock",
+  "value": "05:39:33",
+  "lines": [
+   336
+  ],
+  "ctx": "prose"
+ },
+ "clock|05:40:07": {
+  "kind": "clock",
+  "value": "05:40:07",
+  "lines": [
+   336
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-07-27": {
+  "kind": "date",
+  "value": "2026-07-27",
+  "lines": [
+   338
+  ],
+  "ctx": "prose"
+ },
+ "clock|06:39:54": {
+  "kind": "clock",
+  "value": "06:39:54",
+  "lines": [
+   338
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:08:08": {
+  "kind": "clock",
+  "value": "01:08:08",
+  "lines": [
+   351
+  ],
+  "ctx": "prose"
+ },
+ "clock|06:05:02": {
+  "kind": "clock",
+  "value": "06:05:02",
+  "lines": [
+   351
+  ],
+  "ctx": "prose"
+ },
+ "clock|04:52:33": {
+  "kind": "clock",
+  "value": "04:52:33",
+  "lines": [
+   351
+  ],
+  "ctx": "prose"
+ },
+ "clock|08:00:22": {
+  "kind": "clock",
+  "value": "08:00:22",
+  "lines": [
+   352
+  ],
+  "ctx": "prose"
+ },
+ "clock|08:06:54": {
+  "kind": "clock",
+  "value": "08:06:54",
+  "lines": [
+   352
+  ],
+  "ctx": "prose"
+ },
+ "word-count|five day": {
+  "kind": "word-count",
+  "value": "five Day",
+  "lines": [
+   353
+  ],
+  "ctx": "prose"
+ },
+ "fbi-item|fbi item 9": {
+  "kind": "fbi-item",
+  "value": "FBI item 9",
+  "lines": [
+   359
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:49:40": {
+  "kind": "clock",
+  "value": "01:49:40",
+  "lines": [
+   362
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:50:02": {
+  "kind": "clock",
+  "value": "01:50:02",
+  "lines": [
+   362
+  ],
+  "ctx": "prose"
+ },
+ "clock|04:11:10": {
+  "kind": "clock",
+  "value": "04:11:10",
+  "lines": [
+   362
+  ],
+  "ctx": "prose"
+ },
+ "clock|04:11:57": {
+  "kind": "clock",
+  "value": "04:11:57",
+  "lines": [
+   362
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:53:10": {
+  "kind": "clock",
+  "value": "01:53:10",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:53:46": {
+  "kind": "clock",
+  "value": "01:53:46",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:56:19": {
+  "kind": "clock",
+  "value": "01:56:19",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:56:23": {
+  "kind": "clock",
+  "value": "01:56:23",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:53:13": {
+  "kind": "clock",
+  "value": "01:53:13",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:55:04": {
+  "kind": "clock",
+  "value": "01:55:04",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:55:22": {
+  "kind": "clock",
+  "value": "01:55:22",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:56:24": {
+  "kind": "clock",
+  "value": "01:56:24",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "clock|01:56:36": {
+  "kind": "clock",
+  "value": "01:56:36",
+  "lines": [
+   363
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-08-17": {
+  "kind": "date",
+  "value": "2026-08-17",
+  "lines": [
+   378
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-08-13": {
+  "kind": "date",
+  "value": "2026-08-13",
+  "lines": [
+   379
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-08-12": {
+  "kind": "date",
+  "value": "2026-08-12",
+  "lines": [
+   379
+  ],
+  "ctx": "prose"
+ },
+ "word-count|one print": {
+  "kind": "word-count",
+  "value": "one print",
+  "lines": [
+   379
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-09-02": {
+  "kind": "date",
+  "value": "2026-09-02",
+  "lines": [
+   395,
+   395,
+   395,
+   395,
+   454
+  ],
+  "ctx": "prose"
+ },
+ "clock|13:08": {
+  "kind": "clock",
+  "value": "13:08",
+  "lines": [
+   395
+  ],
+  "ctx": "prose"
+ },
+ "clock|13:12 utc": {
+  "kind": "clock",
+  "value": "13:12 UTC",
+  "lines": [
+   395
+  ],
+  "ctx": "prose"
+ },
+ "identifier|dc27880869": {
+  "kind": "identifier",
+  "value": "dc27880869",
+  "lines": [
+   440
+  ],
+  "ctx": "table"
+ },
+ "identifier|dc27880877": {
+  "kind": "identifier",
+  "value": "dc27880877",
+  "lines": [
+   441
+  ],
+  "ctx": "table"
+ },
+ "identifier|2025-01779-5": {
+  "kind": "identifier",
+  "value": "2025-01779-5",
+  "lines": [
+   459
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-02-23": {
+  "kind": "date",
+  "value": "2026-02-23",
+  "lines": [
+   464
+  ],
+  "ctx": "prose"
+ },
+ "clock|38:49": {
+  "kind": "clock",
+  "value": "38:49",
+  "lines": [
+   473
+  ],
+  "ctx": "table"
+ },
+ "date|2026-08-28": {
+  "kind": "date",
+  "value": "2026-08-28",
+  "lines": [
+   485
+  ],
+  "ctx": "prose"
+ },
+ "clock|8:29": {
+  "kind": "clock",
+  "value": "8:29",
+  "lines": [
+   492,
+   492
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-07-05": {
+  "kind": "date",
+  "value": "2026-07-05",
+  "lines": [
+   494
+  ],
+  "ctx": "prose"
+ },
+ "date|2026-04-15": {
+  "kind": "date",
+  "value": "2026-04-15",
+  "lines": [
+   495
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-09-13": {
+  "kind": "date",
+  "value": "2025-09-13",
+  "lines": [
+   501,
+   502
+  ],
+  "ctx": "prose"
+ },
+ "date|2025-12-03": {
+  "kind": "date",
+  "value": "2025-12-03",
+  "lines": [
+   506,
+   506
+  ],
+  "ctx": "prose"
+ }
+}
