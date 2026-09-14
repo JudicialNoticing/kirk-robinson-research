@@ -1,0 +1,680 @@
+[
+ {
+  "sec": "The seven findings that matter most",
+  "kind": "finding",
+  "claim": "Robinson was not identified by investigators. Sworn testimony establishes that law enforcement did not know the shooter's identity until he surrendered; the surveillance footage alone was insufficient. The case begins with a family recognising a photograph, not with detection. (\u00a76)",
+  "id": "C000"
+ },
+ {
+  "sec": "The seven findings that matter most",
+  "kind": "finding",
+  "claim": "The forensic record naming him is large in volume and narrow in what it can bear. Both laboratories' analysts agreed \u2014 unqualified and unrebutted by anyone \u2014 that neither can say what action deposited any DNA, or when. That is the single most consistent proposition in the entire body of evidence. (\u00a78.4)",
+  "id": "C001"
+ },
+ {
+  "sec": "The seven findings that matter most",
+  "kind": "finding",
+  "claim": "The strongest-sounding numbers are the most constrained. \"At least one trillion\" is a reporting cap, not a measurement; only the 6.28 billion figure is an actual reported value. The trigger swab was taken together with the trigger guard, among at least four contributors, with the major profile the most degraded. And five of the seven number-to-location mappings rest on one non-expert witness reading aloud from an exhibit this library has never read. (\u00a78.2)",
+  "id": "C002"
+ },
+ {
+  "sec": "The seven findings that matter most",
+  "kind": "finding",
+  "claim": "The characteristic public error is identifiable and predictable: the transposed conditional \u2014 restating a conditional likelihood ratio as the probability that a named person is the source. Four FBI/DOJ reporting limits were put to the FBI examiner and confirmed followed by her; the constraint broke downstream. (\u00a78.4)",
+  "id": "C003"
+ },
+ {
+  "sec": "The seven findings that matter most",
+  "kind": "finding",
+  "claim": "Consumption has foreclosed re-testing. Six FBI swabs, the swiped-finger-area swabs and a combined railing sample are gone; six of the eleven ATF items carrying stated likelihood ratios in State's Exhibit 30 were entirely consumed \u2014 a join graded Medium-high,  and scoped to that one report: thirteen ATF items carry stated ratios across this record in all, and the consumption status of the two in State's Exhibit 33 is not on this record at all. Elimination samples from the investigators were requested and not received. (\u00a78.4)",
+  "id": "C004"
+ },
+ {
+  "sec": "2.1 What is established",
+  "kind": "table",
+  "claim": "Name \u2014 Tyler James Robinson \u2014 T1 \u2014 charging documents, court record",
+  "id": "C005"
+ },
+ {
+  "sec": "2.1 What is established",
+  "kind": "table",
+  "claim": "Age \u2014 22 at the time of the shooting (2025-09-10) \u2014 T1 / High \u2014 the defendant's date of birth is printed in the caption of the held Information (dc27880532) and of the held Affidavit of Probable Cause (dc27880530), both listed at \u00a714 A as held and read directly by this library, fixing his age at 22 on the offence date.  The value is deliberately not reproduced (\u00a712 item 4, living-persons practice).  Neither held copy is court-stamped (\u00a71 item 6). Contemporaneous T3 reporting agrees (\"22-year-old Utahn\").",
+  "id": "C006"
+ },
+ {
+  "sec": "2.1 What is established",
+  "kind": "table",
+  "claim": "Residence, date-scoped \u2014 Shared a residence in St. George, Utah with Lance Twiggs as of 2025-09-10, in separate rooms, in an apartment complex \u2014 T1 / High \u2014 Twiggs sworn (State's Ex. 16); Sgt. Faumuina, live sworn",
+  "id": "C007"
+ },
+ {
+  "sec": "2.1 What is established",
+  "kind": "table",
+  "claim": "Bedroom attribution \u2014 His bedroom within the residence was identified by investigators from mail addressed to him and school documents; a spare bedroom adjoined it \u2014 T1 / High \u2014 Faumuina",
+  "id": "C008"
+ },
+ {
+  "sec": "2.1 What is established",
+  "kind": "table",
+  "claim": "Routine \u2014 Typically left about 7:00, returned 3:00\u20134:00; school about 5:00\u20136:00 on certain days during semesters \u2014 T1 \u2014 same source",
+  "id": "C009"
+ },
+ {
+  "sec": "2.1 What is established",
+  "kind": "table",
+  "claim": "Parents \u2014 Mother and father resident in Washington, Utah; both are named in the forensic record as elimination-sample donors (Amber Robinson, Matthew Robinson) \u2014 T1 for the elimination-donor role; the surrender account is T1 via T3 plus T2 official statements",
+  "id": "C010"
+ },
+ {
+  "sec": "2.1 What is established",
+  "kind": "table",
+  "claim": "Booking number \u2014 460956, Utah County Jail, booked 2025-09-12 at 07:58:15 \u2014 T1 / High \u2014 inmate record and affidavit carry the same number",
+  "id": "C011"
+ },
+ {
+  "sec": "2.1 What is established",
+  "kind": "table",
+  "claim": "Formal arrest \u2014 2025-09-12, about 04:00, at the Washington County Sheriff's Office \u2014 T1 / High that 04:00 is the record's arrest time; Medium-high that it is exact rather than rounded (\"about 4:00 AM, I believe\")",
+  "id": "C012"
+ },
+ {
+  "sec": "2.2 \ud83d\udea8 THE SPARSITY FINDING \u2014 what this libra",
+  "kind": "bullet",
+  "claim": "Education. Nothing beyond \"attended trade school.\" No school named, no dates, no record of completion. No high school, no university.",
+  "id": "C013"
+ },
+ {
+  "sec": "2.2 \ud83d\udea8 THE SPARSITY FINDING \u2014 what this libra",
+  "kind": "bullet",
+  "claim": "Employment. Nothing beyond \"worked for an electrician company.\" No employer named, no dates, no job title.",
+  "id": "C014"
+ },
+ {
+  "sec": "2.2 \ud83d\udea8 THE SPARSITY FINDING \u2014 what this libra",
+  "kind": "bullet",
+  "claim": "Political affiliation or voter registration. Nothing at any tier.",
+  "id": "C015"
+ },
+ {
+  "sec": "2.2 \ud83d\udea8 THE SPARSITY FINDING \u2014 what this libra",
+  "kind": "bullet",
+  "claim": "Religious affiliation. Nothing at T1 or T2 about Robinson's own faith.  A characterisation attributed to Gov. Cox \u2014 a \"conservative, Latter-day Saint\" family \u2014 sits in the Twiggs profile describing Twiggs' family, and the library carries an express open question whether Cox's \"very different than his family\" was originally said of Robinson's family instead. That question has never been resolved, and the characterisation must not be attached to Robinson on the strength of it.",
+  "id": "C016"
+ },
+ {
+  "sec": "2.2 \ud83d\udea8 THE SPARSITY FINDING \u2014 what this libra",
+  "kind": "bullet",
+  "claim": "Prior criminal history. Nothing. No prior record is asserted or held.",
+  "id": "C017"
+ },
+ {
+  "sec": "2.2 \ud83d\udea8 THE SPARSITY FINDING \u2014 what this libra",
+  "kind": "bullet",
+  "claim": "No \"manifesto.\" The term appears in this library once, in the continuance-motion file, and not as a description of any document attributed to Robinson.",
+  "id": "C018"
+ },
+ {
+  "sec": "\u00a73 \u00b7 Household, relationship and daily life",
+  "kind": "bullet",
+  "claim": "They lived in the same St. George residence as on 2025-09-10, in separate rooms.",
+  "id": "C019"
+ },
+ {
+  "sec": "\u00a73 \u00b7 Household, relationship and daily life",
+  "kind": "bullet",
+  "claim": "Occupations as above \u2014 Twiggs did bathtub/shower repair and new construction; Robinson worked for an electrician company and attended trade school.",
+  "id": "C020"
+ },
+ {
+  "sec": "\u00a73 \u00b7 Household, relationship and daily life",
+  "kind": "bullet",
+  "claim": "The night of 2025-09-09 into 09-10: Robinson spent the night at the apartment and left early. Twiggs heard him go; Robinson \"said he had a long drive to work that day.\" Twiggs did not know an exact time; asked to guess, he named 5:00 a.m. only as what he \"would've thought\" from Robinson's usual early-work-day start, then settled lower \u2014 \"but it was probably more like 4:00.\"  An elicited, hedged earwitness estimate \u2014 he heard the departure but not a clock \u2014 and the figure he settled on is ~4:00 a.m., not the 5:00 he stepped away from.",
+  "id": "C021"
+ },
+ {
+  "sec": "\u00a73 \u00b7 Household, relationship and daily life",
+  "kind": "bullet",
+  "claim": "The Dremel. Asked whether Robinson had told him it was to inscribe bullets \u2014 \"Yeah.\" The household kept \"all our random tools for household stuff in our lower basement level pantry.\" Asked whether he gave it to him or told him where it was: \"I just told him where it was.\"",
+  "id": "C022"
+ },
+ {
+  "sec": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "kind": "table",
+  "claim": "2 \u2014 Felony Discharge of a Firearm Causing Serious Bodily Injury \u2014 1st degree felony \u2014 \u00a7 76-11-210(2),(3)(c)",
+  "id": "C023"
+ },
+ {
+  "sec": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "kind": "table",
+  "claim": "3 \u2014 Obstruction of Justice \u2014 2nd degree \u2014 \u00a7 76-8-306(2) \u2014 concealing or removing the firearm (09-10)",
+  "id": "C024"
+ },
+ {
+  "sec": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "kind": "table",
+  "claim": "4 \u2014 Obstruction of Justice \u2014 2nd degree \u2014 \u00a7 76-8-306(2) \u2014 destroying, concealing or removing the clothing (09-11)",
+  "id": "C025"
+ },
+ {
+  "sec": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "kind": "table",
+  "claim": "5 \u2014 Tampering with a Witness \u2014 3rd degree \u2014 \u00a7 76-8-508 \u2014 directing the roommate to delete incriminating text messages (09-10)",
+  "id": "C026"
+ },
+ {
+  "sec": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "kind": "table",
+  "claim": "6 \u2014 Tampering with a Witness \u2014 3rd degree \u2014 \u00a7 76-8-508 \u2014 directing the roommate to stay silent if questioned (09-11)",
+  "id": "C027"
+ },
+ {
+  "sec": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "kind": "table",
+  "claim": "7 \u2014 Violent Offense Committed in the Presence of a Child \u2014 Class A misdemeanour \u2014 \u00a7\u00a7 76-3-203.10(2), 76-3-203.14(3)(a)(ii)",
+  "id": "C028"
+ },
+ {
+  "sec": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 ",
+  "kind": "bullet",
+  "claim": "The event. A TPUSA event at Utah Valley University, \"the first in a series of similar events to be held at college campuses nationwide\"; several hundred attended; Kirk was seated under a portable canopy taking questions. \"Approximately fifteen minutes into the event, Mr. Kirk was answering a question about mass shootings by transgender individuals when a gunshot rang out.\"",
+  "id": "C029"
+ },
+ {
+  "sec": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 ",
+  "kind": "bullet",
+  "claim": "The great-risk-of-death theory, in the State's own words. Team members \"very close to him on his right and left, as well as some behind his canopy\"; the crowd surrounding on three sides; temporary fencing separating attendees \"by only a matter of feet\"; the Hall of Flags directly above and behind; people in the walkway. And decisively: \"The bullet's trajectory passed closely to several other individuals beside Mr. Kirk, including the questioner who was standing directly in front of Mr. Kirk.\" \"Children were visible near Mr. Kirk's stage when he was shot.\"",
+  "id": "C030"
+ },
+ {
+  "sec": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 ",
+  "kind": "bullet",
+  "claim": "The surveillance reconstruction \u2014 where the charging documents' own narrative starts. Entry to campus about 11:51 a.m. (the affidavit: \"approximately 1150 hours\");",
+  "id": "C031"
+ },
+ {
+  "sec": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 ",
+  "kind": "bullet",
+  "claim": "The rifle. Recovered in a wooded area, wrapped in a towel, containing one spent and three unspent rounds \u2014 \"no shell casings were found on the roof, suggesting a bolt-action rather than an auto-loading weapon, and only a single round was fired.\"",
+  "id": "C032"
+ },
+ {
+  "sec": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 ",
+  "kind": "bullet",
+  "claim": "The DNA allegation, verbatim. \"DNA consistent with Robinson's was found on the trigger, other parts of the rifle, the fired cartridge casing, two of the three unfired cartridges, and the towel.\"  \u00a78 below is largely an account of the distance between this sentence and the laboratory record.",
+  "id": "C033"
+ },
+ {
+  "sec": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 ",
+  "kind": "bullet",
+  "claim": "The note and the messages. A handwritten note under Robinson's keyboard, found by the roommate at Robinson's direction (\"look under my keyboard\"), of which police found a photograph; and a subsequent text exchange quoted at length, including \"I had enough of his hatred. Some hate can't be negotiated out.\", \"delete this exchange\", \"Im gonna turn myself in willingly\", \"you are all I worry about love\", and \"if any police ask you questions ask for a lawyer and stay silent.\"",
+  "id": "C034"
+ },
+ {
+  "sec": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 ",
+  "kind": "bullet",
+  "claim": "The residence search. \"a shell casing with etchings like the etchings found on the shells in the rifle near UVU\", and \"several targets with bullet holes.\"",
+  "id": "C035"
+ },
+ {
+  "sec": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 ",
+  "kind": "bullet",
+  "claim": "The family accounts. His mother saw the published photograph and thought it resembled her son; his father agreed and believed the rifle \"matched a rifle that was given to his son as a gift.\" On the State's account \"Robinson implied that he was the shooter\" and, asked why, \"explained there is too much evil and the guy [Charlie Kirk] spreads too much hate.\"",
+  "id": "C036"
+ },
+ {
+  "sec": "\u00a75A \u00b7 The defence's filed position \u2014 recordi",
+  "kind": "bullet",
+  "claim": "Argument I \u2014 KGRD, the sole pleaded aggravator (the held Information independently confirms the circumstance is singular, \u00a74): the State must show more than a \"possibility\" that another may be killed \u2014 a \"high probability\" \u2014 and that the defendant knew of it; the court may draw reasonable inferences but \"may not speculate\" (State v. Murphy, 2026 UT App 38; State v. Prisbrey). The brief adds that no limiting order caused the shortfall: no evidence excluded, no proffered expert excluded, no time limit imposed.",
+  "id": "C037"
+ },
+ {
+  "sec": "\u00a75A \u00b7 The defence's filed position \u2014 recordi",
+  "kind": "bullet",
+  "claim": "Argument II \u2014 Count 6 (tampering with a witness \u2014 directing the roommate to stay silent if questioned): the advice was \"purely altruistic\" and therefore not criminal, invoking United States v. Peterson, 385 F.3d 127 (2d Cir. 2004) for the proposition that the inducer's motive separates obstruction from altruistic advice, and framing the message as an invocation of the Fifth Amendment rights to counsel and to silence.",
+  "id": "C038"
+ },
+ {
+  "sec": "\u00a75A \u00b7 The defence's filed position \u2014 recordi",
+  "kind": "bullet",
+  "claim": "Argument III \u2014 Count 7 (offence in the presence of a child): the State's video showed two children present, but no evidence the shooter knew any child was present \u2014 the inference drawn from an alleged earlier campus walking tour is characterised as speculation (\u2248400 feet; a 35\u201344 second window). The brief asks that the parallel presence-of-a-child aggravating factor pleaded with Counts 1 and 2 be stricken for the same want of knowledge, and argues in the alternative against the State's backup position that enhancements need no proof at a preliminary hearing (Apprendi).",
+  "id": "C039"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "FBI Salt Lake City releases person-of-interest photographs; a reward of up to $100,000 is announced.",
+  "id": "C040"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "~7:57 p.m. \u2014 a Discord message from Robinson's account tells groupmates it was him at UVU and that he is surrendering through a sheriff friend.  Tier 4 provenance chain; timestamp disputed across aggregators (one renders it 8:57 p.m., likely a timezone artifact).",
+  "id": "C041"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "8:02 p.m. \u2014 Sheriff Nate Brooksby receives the call from the retired detective, who says he knows the shooter's identity and is working to bring him in voluntarily. Brooksby immediately calls the Utah County Sheriff.",
+  "id": "C042"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "Just before 9 p.m. \u2014 Robinson arrives at the WCSO office in Hurricane with his parents and the family friend, met by plainclothes detectives. WCSO does not question him; he sits unrestrained on a couch with his parents, offered water. Deputies secure the parents' home and the St. George apartment.",
+  "id": "C043"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "~10 p.m. \u2014 the widely cited \"custody\" time.  Its source is FBI Director Kash Patel's press statement, not a booking record, and it is a statement about custody, not formal arrest.",
+  "id": "C044"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "Evening \u2192 midnight \u2014 an SBI/FBI team flies south, landing at St. George \"probably about 11:30 PM\" and reaching WCSO \"close to midnight.\" Agent Davis first observes Robinson on a wall monitor, in \"one of the soft interview rooms\" with audio-video recording \u2014  P9: an earlier form read the singular \"soft interview room,\" which collapses the witness's own indefiniteness about which room.",
+  "id": "C045"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "~4:00 a.m. \u2014 FORMAL ARREST at the Washington County Sheriff's Office, \"[a]fter all the interviews were completed.\"",
+  "id": "C046"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "~7:00 a.m. \u2014 arrival at the Utah County Jail. 07:58:15 \u2014 booked in, Booking No. 460956.",
+  "id": "C047"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "Processing. His phone had been seized from his person before the SBI/FBI team arrived. At the jail, after a search warrant was granted, his clothing was recovered, buccal swabs taken for DNA, and \"major case prints\" \u2014 fingerprints and palm prints, \"pretty much the entire hand\" \u2014 collected.",
+  "id": "C048"
+ },
+ {
+  "sec": "\u00a76 \u00b7 The surrender and arrest",
+  "kind": "bullet",
+  "claim": "08:40:00 \u2014 ORDER TO HOLD WITHOUT BAIL. Judge Shawn R. Howell, signing as district court judge and describing himself as \"the undersigned magistrate,\" finds probable cause for the warrantless arrest, finds the offence a capital felony with \"substantial evidence to support the charge,\" and orders that he be held without bail.  This order bears no case number.",
+  "id": "C049"
+ },
+ {
+  "sec": "\u00a77 \u00b7 Custody and procedural history",
+  "kind": "bullet",
+  "claim": "2026-01 \u2014 an Invocation of Speedy Trial Rights filed in Erika Kirk's name as victim representative.  The library grades it a notice: it requests no scheduling order and seeks no specific relief.",
+  "id": "C050"
+ },
+ {
+  "sec": "\u00a77 \u00b7 Custody and procedural history",
+  "kind": "bullet",
+  "claim": "2026-06-22 \u2014 rulings on Twiggs' testimony; the defence loses live cross-examination of him and answers by noticing seven forensic witnesses.",
+  "id": "C051"
+ },
+ {
+  "sec": "\u00a77 \u00b7 Custody and procedural history",
+  "kind": "bullet",
+  "claim": "2026-07-06 \u2192 07-10 \u2014 five days of evidence in the preliminary hearing. The hearing was NOT concluded; it was continued. On Day 5 the defence rested, the State expressly waived rebuttal, and Robinson personally declined to testify \u2014 the evidentiary record closed.",
+  "id": "C052"
+ },
+ {
+  "sec": "\u00a77 \u00b7 Custody and procedural history",
+  "kind": "bullet",
+  "claim": "2026-07-28 \u2014 the State's opening probable-cause brief (35-page limit).  Reported filed; the document is held nowhere. It is the last brief of the cycle this library does not possess.",
+  "id": "C053"
+ },
+ {
+  "sec": "\u00a77 \u00b7 Custody and procedural history",
+  "kind": "bullet",
+  "claim": "2026-08-11 \u2014 the defence's Preliminary Hearing Briefing, 41 PDF pp. / 35 printed. Held and read. \u2014 its threshold argument and Arguments I\u2013IV are recorded at \u00a75A.",
+  "id": "C054"
+ },
+ {
+  "sec": "\u00a77 \u00b7 Custody and procedural history",
+  "kind": "bullet",
+  "claim": "2026-08-18 \u2014 the State's Reply Memorandum in Support of Preliminary Hearing Bindover, 19 PDF pp. against an 18-page limit (recorded, deliberately not reconciled). Held and read.",
+  "id": "C055"
+ },
+ {
+  "sec": "\u00a77 \u00b7 Custody and procedural history",
+  "kind": "bullet",
+  "claim": "2026-09-01 \u2014 the final day: argument only, on a closed record. Bindover, arraignment and plea \u2014 see \u00a711.",
+  "id": "C056"
+ },
+ {
+  "sec": "8.2 ATF Laboratory \u2014 State's Exhibit 30: the",
+  "kind": "table",
+  "claim": "7 \u2014 1.13 + 2.1 \u2014 underside of the receiver after disassembly; the fired cartridge case",
+  "id": "C057"
+ },
+ {
+  "sec": "8.2 ATF Laboratory \u2014 State's Exhibit 30: the",
+  "kind": "finding",
+  "claim": "The trigger swab (1.3) was swabbed together with the trigger guard, so the analyst \"wouldn't be able to say where the DNA came from.\" It carried at least four contributors, possibly five, six or seven, with degradation, and the major profile was the most degraded.",
+  "id": "C058"
+ },
+ {
+  "sec": "8.2 ATF Laboratory \u2014 State's Exhibit 30: the",
+  "kind": "finding",
+  "claim": "Calculation 1 groups two swabs and states no separate value for the bolt alone. No file may lift a per-item figure out of a grouped calculation. And item 1.1 was itself a four-person mixture with two major contributors \u2014 the identity of the second is not on this record.",
+  "id": "C059"
+ },
+ {
+  "sec": "8.2 ATF Laboratory \u2014 State's Exhibit 30: the",
+  "kind": "finding",
+  "claim": "\"One trillion\" is a reporting cap, not a measurement. Only the 6.28 billion figure is an actual reported value rather than a capped floor.",
+  "id": "C060"
+ },
+ {
+  "sec": "8.2 ATF Laboratory \u2014 State's Exhibit 30: the",
+  "kind": "finding",
+  "claim": "The number\u2194location mapping for items 1.1, 1.2, 1.5, 1.6 and 1.9 rests on Sgt. Faumuina's Day-4 reading alone \u2014 one non-expert witness reading aloud from an exhibit this library has never read. Day 5 corroborates the set of locations; it does not corroborate which number goes with which. Confidence on the set: High. On the five mappings: Medium-high, and single-sourced is the reason.",
+  "id": "C061"
+ },
+ {
+  "sec": "8.3 FBI Laboratory \u2014 examiner Amanda Bakker",
+  "kind": "table",
+  "claim": "1\u20136 \u2014 Six swabs, north-east corner of the Losee building \u2014 NO DNA. \"There was nothing for me to compare to.\" Entirely consumed.",
+  "id": "C062"
+ },
+ {
+  "sec": "8.3 FBI Laboratory \u2014 examiner Amanda Bakker",
+  "kind": "table",
+  "claim": "7 \u2014 Towel from around the rifle \u2014 Full profile, two contributors, one of whom is Twiggs; proportions 5% / 95%. Twiggs' profile \"aligned with the 5% contributor\", Robinson's \"aligned better with the 95% contributor.\"  Her verb is \"aligned,\" not \"was.\"",
+  "id": "C063"
+ },
+ {
+  "sec": "8.3 FBI Laboratory \u2014 examiner Amanda Bakker",
+  "kind": "table",
+  "claim": "8 \u2014 Screwdriver from perch (handle area) \u2014 Partial profile, degraded \u2014 a \"ski slope\" effect. Two contributors, one of whom is Twiggs. Proportions 11% / 89% ( answered \"79%\" later \u2014 D-57).",
+  "id": "C064"
+ },
+ {
+  "sec": "8.3 FBI Laboratory \u2014 examiner Amanda Bakker",
+  "kind": "table",
+  "claim": "9 \u2014 A backpack \u2014 Processed for DNA;  no DNA result was ever stated. Two competing in-laboratory attributions, neither adopted by the examiner.",
+  "id": "C065"
+ },
+ {
+  "sec": "8.3 FBI Laboratory \u2014 examiner Amanda Bakker",
+  "kind": "table",
+  "claim": "54 \u2014 Swabs of swiped finger areas \u2014 no result stated \u00b7 entirely consumed",
+  "id": "C066"
+ },
+ {
+  "sec": "8.3 FBI Laboratory \u2014 examiner Amanda Bakker",
+  "kind": "table",
+  "claim": "55 \u2014 Stairwell railing (two swabs combined) \u2014 \"more than five individuals, so I could not provide a conclusion.\"  She declined counsel's premise that the railing was \"where the suspect touched\": \"As far as I know, they were swabs from a stairwell.\" Entirely consumed.",
+  "id": "C067"
+ },
+ {
+  "sec": "8.4 \ud83d\udea8 What the DNA cannot bear \u2014 four struct",
+  "kind": "finding",
+  "claim": "The contributor count is a subjective determination. The number of contributors is the examiner's own call, input into the software. On FBI item 7 it moved from three to two, and the two-person call is not independent of the elimination donor's introduction. (D-54)",
+  "id": "C068"
+ },
+ {
+  "sec": "8.4 \ud83d\udea8 What the DNA cannot bear \u2014 four struct",
+  "kind": "finding",
+  "claim": "Activity and transfer \u2014 answered strongly in the negative by both laboratories. Neither analyst can say what action deposited any DNA or when. The FBI analyst described a transfer mechanism on the State's own examination.",
+  "id": "C069"
+ },
+ {
+  "sec": "8.5 Latent prints \u2014 and the exclusions",
+  "kind": "bullet",
+  "claim": "Toward the State: the alleged Discord message \u2014 \"IDK if it had a serial number, but it wouldn't trace to me. I worry about prints. I had to leave it in a bush where I changed outfits\" \u2014 is a print-independent explanation for the absence of a print case.  Recording layer only: a party's alleged statement, never citable as print evidence.",
+  "id": "C070"
+ },
+ {
+  "sec": "8.6 Firearms, toolmark and the inscription c",
+  "kind": "bullet",
+  "claim": "The ATF firearms report, case 2025-W-000401, dated 2025-09-17 (= State's Exhibit 32 on the best available reading, graded Medium-high as an inference) is the one laboratory report this library holds and has read directly.  It sat on disk for three months illegible to text search \u2014 a Type 3 font with no ToUnicode map, image-legible and text-illegible. It had to be rendered to be read.",
+  "id": "C071"
+ },
+ {
+  "sec": "8.6 Firearms, toolmark and the inscription c",
+  "kind": "bullet",
+  "claim": "The rifle was test fired and found operable; the test fires were designated Exhibit 1.11 \u2014  not a DNA swab, which is why it appears on neither the consumed nor the retained list.",
+  "id": "C072"
+ },
+ {
+  "sec": "8.6 Firearms, toolmark and the inscription c",
+  "kind": "bullet",
+  "claim": "The residence. Five casings were found \"in what we would consider the spare bedroom right next to Tyler's bedroom on top of a safe.\"  (P9: a comma after \"bedroom\" had been inserted inside the quotation marks; all three renderings lack it) One was marked \"test shot.\"",
+  "id": "C073"
+ },
+ {
+  "sec": "8.7 Digital and documentary",
+  "kind": "bullet",
+  "claim": "The phone was seized from his person before the investigative team arrived.",
+  "id": "C074"
+ },
+ {
+  "sec": "\u00a79 \u00b7 Nulls \u2014 what the record does not establ",
+  "kind": "finding",
+  "claim": "No court has adjudicated any fact in this file. The court made no ruling on the scientific reliability of any DNA evidence \u2014 a Rule 702 question \u2014 which was litigated at length across the five evidentiary days and never decided (CR-E06 \u00a72.9, DNA-E01 \u00a78.3).  The null is scoped to scientific reliability and to the DNA evidence; it is not a claim about \"any forensic evidence,\" and it does not mean no reliability-flavoured ruling of any kind was made.  Two things travel with this null under CR-E06 \u00a72.9 and DNA-E01 \u00a78.3, which make carrying them mandatory, and neither may be dropped.",
+  "id": "C075"
+ },
+ {
+  "sec": "\u00a79 \u00b7 Nulls \u2014 what the record does not establ",
+  "kind": "finding",
+  "claim": "No witness stated who operated the rifle's bolt.  That is a gap in the record. It is not about, and must never be read against, any named person.",
+  "id": "C076"
+ },
+ {
+  "sec": "\u00a79 \u00b7 Nulls \u2014 what the record does not establ",
+  "kind": "finding",
+  "claim": "No DNA was obtained from the six Losee north-east-corner swabs.",
+  "id": "C077"
+ },
+ {
+  "sec": "\u00a79 \u00b7 Nulls \u2014 what the record does not establ",
+  "kind": "finding",
+  "claim": "No result was ever stated for FBI item 9 (the backpack).",
+  "id": "C078"
+ },
+ {
+  "sec": "\u00a79 \u00b7 Nulls \u2014 what the record does not establ",
+  "kind": "finding",
+  "claim": "The State's opening brief is held nowhere; of the laboratory reports named in the defence's 2026-03-25 discovery letter, all but one remain unread \u2014  the total is UNVERIFIED and deliberately not numbered here (\u00a716 SINK) \u2014 the exception is the ATF firearms report of 2025-09-17, held and read at CR-E15 \u2014 and the letter's two undated FBI DNA case files are unread also, so fourteen of its fifteen items remain unread (\u00a71 item 4).  The total is not graded: D-70 is OPEN. No exhibit list is held, and no file in this library asserts that any exhibit set is complete.",
+  "id": "C079"
+ },
+ {
+  "sec": "\u00a79 \u00b7 Nulls \u2014 what the record does not establ",
+  "kind": "finding",
+  "claim": "No primary written order or minute entry from 2026-09-01 is held.",
+  "id": "C080"
+ },
+ {
+  "sec": "\u00a710 \u00b7 Media narratives and contested claims",
+  "kind": "table",
+  "claim": "\"His father turned him in\" \u2014 Contested. Originates chiefly with President Trump's 2025-09-12 remarks and anonymous sourcing. The official account describes a negotiated family surrender through a retired-detective intermediary.",
+  "id": "C081"
+ },
+ {
+  "sec": "\u00a710 \u00b7 Media narratives and contested claims",
+  "kind": "table",
+  "claim": "The NY Post rifle photograph \u2014 Substantially resolved, with residual authentication caveats \u2014 a separate evidence file addresses whether the widely circulated scoped Mauser 98-pattern image depicted the actual recovered rifle.",
+  "id": "C082"
+ },
+ {
+  "sec": "\u00a710 \u00b7 Media narratives and contested claims",
+  "kind": "table",
+  "claim": "The Discord message \u2014 Tier 4 provenance chain. Text attributed to Washington Post reporting via secondary accounts; timestamp disputed across aggregators. First-publication claim not independently verified.",
+  "id": "C083"
+ },
+ {
+  "sec": "\u00a710 \u00b7 Media narratives and contested claims",
+  "kind": "table",
+  "claim": "\"DNA on the trigger\" \u2014 The charging document's phrasing. \u00a78 sets out the distance between it and the laboratory record \u2014 the trigger was swabbed together with the trigger guard, among at least four contributors, with the major profile the most degraded.",
+  "id": "C084"
+ },
+ {
+  "sec": "\u00a710 \u00b7 Media narratives and contested claims",
+  "kind": "table",
+  "claim": "Source-attribution restatements generally \u2014 The characteristic downstream error is the transposed conditional. Anticipated by the library as the place the next error will appear \u2014 \"not in a number, but in a sentence about a number.\"",
+  "id": "C085"
+ },
+ {
+  "sec": "\u00a711 \u00b7 Case posture as of 2026-09-14 \u2014 the bi",
+  "kind": "bullet",
+  "claim": "The court ruled orally from the bench, count by count, after recessing to integrate 24 pages of notes taken during argument.",
+  "id": "C086"
+ },
+ {
+  "sec": "\u00a711 \u00b7 Case posture as of 2026-09-14 \u2014 the bi",
+  "kind": "bullet",
+  "claim": "The court restated the standard on the record: the preliminary hearing's primary purpose is \"the ferreting out of groundless and improvident prosecutions\"; the State's burden is \"light\"; evidence is viewed in the light most favourable to the State; and whether the State can prove the aggravating circumstance beyond a reasonable doubt \"remains for trial.\"",
+  "id": "C087"
+ },
+ {
+  "sec": "\u00a711 \u00b7 Case posture as of 2026-09-14 \u2014 the bi",
+  "kind": "bullet",
+  "claim": "Arraignment followed in the same session. Counsel waived reading of the Information and entered pleas of not guilty to all counts on his behalf; the court found the waiver knowing and voluntary.  A minor on-record correction: defence counsel first said \"indictment\" and was corrected to \"Information.\"",
+  "id": "C088"
+ },
+ {
+  "sec": "\u00a711 \u00b7 Case posture as of 2026-09-14 \u2014 the bi",
+  "kind": "bullet",
+  "claim": "The pretrial conference was set for 2026-10-23, chosen from an offered alternative of September 24 on counsel availability. The court stated that trial dates would be set at that hearing.",
+  "id": "C089"
+ },
+ {
+  "sec": "\u00a712 \u00b7 Open questions",
+  "kind": "finding",
+  "claim": "What the 2026-09-01 written order and minute entry say \u2014 the single acquisition that would settle the ruling at documentary grade.",
+  "id": "C090"
+ },
+ {
+  "sec": "\u00a712 \u00b7 Open questions",
+  "kind": "finding",
+  "claim": "The unread laboratory reports \u2014  count UNVERIFIED (\u00a716 SINK); exactly one is held and read, the ATF firearms report of 2025-09-17 (CR-E15). With the letter's two undated FBI DNA case files, fourteen of the fifteen items the defence's 2026-03-25 discovery letter names remain unread (\u00a71 item 4).  The total is not graded: D-70 is OPEN. Priority: the two ATF latent print reports (ATF held the rifle) and the FBI latent report.",
+  "id": "C091"
+ },
+ {
+  "sec": "\u00a712 \u00b7 Open questions",
+  "kind": "finding",
+  "claim": "The State's 2026-07-28 opening brief \u2014 the last cycle document held nowhere.",
+  "id": "C092"
+ },
+ {
+  "sec": "\u00a712 \u00b7 Open questions",
+  "kind": "finding",
+  "claim": "The Cox attribution \u2014 was \"very different than his family\" said of Robinson's family or Twiggs'? Unresolved, and load-bearing for any statement about his upbringing.",
+  "id": "C093"
+ },
+ {
+  "sec": "\u00a712 \u00b7 Open questions",
+  "kind": "finding",
+  "claim": "D-74 (pleaded \u2248160 yards vs measured \u2248415 ft) and D-75 (the note's tense) remain OPEN.",
+  "id": "C094"
+ },
+ {
+  "sec": "\u00a712 \u00b7 Open questions",
+  "kind": "finding",
+  "claim": "The ruling on the 2026-01-09 ballistics motion \u2014 unheld.  (The pliers question itself is resolved at T1 \u2014 \u00a78.6 \u2014 and is no longer an open item.)",
+  "id": "C095"
+ },
+ {
+  "sec": "\u00a712 \u00b7 Open questions",
+  "kind": "finding",
+  "claim": "The Touhy responses for the ATF fingerprint specialist \u2014 unheld.",
+  "id": "C096"
+ },
+ {
+  "sec": "A \u00b7 Primary documents held and read by this ",
+  "kind": "table",
+  "claim": "Affidavit of Probable Cause \u2014 2025-09-16 \u2014 dc27880530; Probable Cause ID 189904",
+  "id": "C097"
+ },
+ {
+  "sec": "A \u00b7 Primary documents held and read by this ",
+  "kind": "table",
+  "claim": "Order to Hold Without Bail \u2014 2025-09-16 (dkt 4) \u2014 dc27880869; bears no case number",
+  "id": "C098"
+ },
+ {
+  "sec": "A \u00b7 Primary documents held and read by this ",
+  "kind": "table",
+  "claim": "Public Safety Assessment Report \u2014 2025-09-12 (dkt 3) \u2014 dc27880877",
+  "id": "C099"
+ },
+ {
+  "sec": "A \u00b7 Primary documents held and read by this ",
+  "kind": "table",
+  "claim": "ATF Forensic Science Laboratory report (firearms/toolmark) \u2014 2025-09-17 \u2014 case 2025-W-000401",
+  "id": "C100"
+ },
+ {
+  "sec": "A \u00b7 Primary documents held and read by this ",
+  "kind": "table",
+  "claim": "Defendant's Preliminary Hearing Briefing \u2014 2026-08-11 \u2014 41 PDF pp. / 35 printed",
+  "id": "C101"
+ },
+ {
+  "sec": "A \u00b7 Primary documents held and read by this ",
+  "kind": "table",
+  "claim": "State's Reply Memorandum in Support of Preliminary Hearing Bindover \u2014 2026-08-18 \u2014 19 PDF pp. vs an 18-page limit",
+  "id": "C102"
+ },
+ {
+  "sec": "A \u00b7 Primary documents held and read by this ",
+  "kind": "table",
+  "claim": "Pretrial protective order \u00b7 publicity order \u00b7 evidence-preservation chain \u00b7 disqualification track \u2014 2025-09 \u2192 2026-01 \u2014 various dkt/dc ids",
+  "id": "C103"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "The 2026-09-01 bindover order / minute entry \u2014 Not held. The court stated on the record it would file the written ruling \"within 24 hours\"; no such document has been located, and  the earlier \"reported published 2026-09-02\" claim is WITHDRAWN as unsourced (\u00a711).",
+  "id": "C104"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "State's opening probable-cause brief \u2014 2026-07-28. Held nowhere. The only located mirror is Scribd doc 1067587104, JavaScript-challenge-gated.  28 pp. is its reported LENGTH \u2014 SECOND_HAND, reachable only through a Scribd listing and rebuildable from no primary source. 35 was the LIMIT \u2014 SUPPORTED, set orally by the court (\"We will set it at 35 pages\", Day 4). Never conflate a measurement of a document with a rule about documents.  The same colloquy carries superseded figures \u2014 30 proposed, 40 countered, and a reply limit spoken first as 17, then 18; only 35 / 18 are operative.",
+  "id": "C105"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "State's Exhibit 30 (ATF DNA report) \u2014 Read aloud in part; the item table at pp. 2\u20134 has never been read. Decisive artifact for several open items.",
+  "id": "C106"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "State's Exhibit 34 (ATF toolmark comparison) \u2014 Identified on the record; not read by this project.",
+  "id": "C107"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "State's Exhibits 31, 33 (FBI DNA; further ATF DNA) \u2014 Not read.",
+  "id": "C108"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "Four latent fingerprint reports across FBI, ATF \u00d72, Utah Bureau of Forensic Services \u2014 Established to exist; none reached the hearing.",
+  "id": "C109"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "The court's exhibit list \u2014 Not held \u2014 the only artifact that could establish completeness of any exhibit set.",
+  "id": "C110"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "Certified hearing transcript \u2014 Not held. Every testimony citation is mediated by a machine transcript.",
+  "id": "C111"
+ },
+ {
+  "sec": "B \u00b7 Primary documents cited but NOT held \u2014 e",
+  "kind": "table",
+  "claim": "2026-02-23 Standing Order on Redacting and Filing Transcripts \u2014 Unheld.",
+  "id": "C112"
+ }
+]
