@@ -1,0 +1,225 @@
+[
+ {
+  "id": "ES-2",
+  "fact": "An earlier version of this summary asserted the library held no date of birth for Robinson; that null was withdrawn as false because his date of birth appears on the face of both the Information and the Affidavit of Probable Cause, which the library holds and has read directly.",
+  "section": "\u00a7ES \u2014 finding 1",
+  "check_question": "Which personal identifying data about Tyler James Robinson appear on the face of the two charging documents this library holds, and does either document state his date of birth?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 (asserted as on the face of primary documents); cross-referenced to \u00a712 item 4",
+  "likely_source": "The banked Information (DocumentCloud dc27880532) and Affidavit of Probable Cause (dc27880530); \u00a712 item 4.",
+  "flags": [
+   "presupposes"
+  ],
+  "overlap": []
+ },
+ {
+  "id": "ES-3",
+  "fact": "Searches re-run on 2026-09-14 over both the markdown files and the banked artifacts, under both readings of the U+FFFE split, return no occurrences of 'antifa' or 'groyper' in the library's source material, and a single occurrence of 'manifesto' that sits inside an internal file's own list of topics absent from the docket rather than describing any document attributed to Robinson; an earlier 'zero across the entire corpus' claim in this same summary was falsified by widening the scope to the banked artifacts.",
+  "section": "\u00a7ES \u2014 finding 1 (sparsity finding)",
+  "check_question": "Using artifact_search.py across this library's markdown files and banked .txt artifacts under both U+FFFE readings, what do searches for 'antifa', 'groyper', 'manifesto' and 'radicaliz' return, and in what context does each hit occur?",
+  "layer": "ANALYST",
+  "confidence_word": "stated as a scoped null with a stated re-run date and method; no grade word attached",
+  "likely_source": "Run ./artifact_search.py against the repo root and the banked artifact directories; compare with \u00a72.2, which records the falsifying hits.",
+  "flags": [
+   "presupposes"
+  ],
+  "overlap": [
+   "artifacts",
+   "groyper",
+   "manifesto",
+   "markdown",
+   "readings",
+   "searches"
+  ]
+ },
+ {
+  "id": "s2-11",
+  "fact": "The Information \u2014 a document this library holds and has read \u2014 contains the State's allegations that Robinson implied he planned to take his own life and, at his parents' home, said he could not go to jail; the profile already recorded this material in \u00a76, so the \"nothing on the record\" mental-health bullet contradicted its own file rather than omitting the source. The surviving, scoped form of the null is that the library holds no diagnosis, treatment record or mental-health history at any tier.",
+  "section": "\u00a72.2 \u2014 Mental health bullet",
+  "check_question": "Does the held Information in the Robinson case contain any allegation about statements of suicidal intent, and does any other section of this library's Robinson profile already record that material?",
+  "confidence_word": "CORRECTED 2026-09-14; recorded as the State's allegation, adopted nowhere",
+  "layer": "RECORDING",
+  "likely_source": "Information (dc27880532) banked text; \u00a76 of robinson-tyler-james-comprehensive-profile.md (2025-09-11 entries)",
+  "flags": [
+   "yes-no/leading"
+  ],
+  "overlap": [
+   "already",
+   "information",
+   "material",
+   "profile"
+  ]
+ },
+ {
+  "id": "s345-7",
+  "fact": "The roof-distance figure in the Information's probable-cause narrative and Sgt. Faumuina's measurement figure are not documented as measuring the same endpoints \u2014 the officer's figure is an on-scene estimate made while scanning for potential sniper positions, before the prone position was located, while the sergeant's is a survey from the identified perch \u2014 so the pair is neither corroboration nor a documented conflict and the two figures may not be cited against each other in either direction; registered as D-74, unresolved, and the figure appears in no count.",
+  "section": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 recording layer",
+  "check_question": "What was each source measuring or estimating when the roof-to-stage distance figures in the Information's probable-cause narrative and in Sgt. Faumuina's testimony were produced, and had the shooter's position on the roof been located at the time of each?",
+  "layer": "ANALYST",
+  "confidence_word": "D-74 OPEN / unresolved",
+  "likely_source": "Held Information's PC narrative (UVU officer paragraph); Faumuina measurement testimony in the day transcripts; CR-E08 F-26 as narrowed at v1.1; CR-E18 \u00a74",
+  "flags": [
+   "high-overlap(9)"
+  ],
+  "overlap": [
+   "distance",
+   "faumuina",
+   "figures",
+   "information",
+   "located",
+   "measuring",
+   "narrative",
+   "position",
+   "probable"
+  ]
+ },
+ {
+  "id": "s8a-1",
+  "fact": "The checkable anchors of the forensic record (which item, which laboratory, which order of magnitude) are almost all verifiable and were reported approximately right, while the interpretive connections asserted between them are where the record and public accounts diverge \u2014 and they diverge in one direction, toward source attribution.",
+  "section": "\u00a78.1 The shape of it, in one paragraph",
+  "check_question": "Comparing the forensic details as stated in the hearing record against how those same details are rendered in public and argued accounts of this case, which categories of detail match and which do not, and is there a consistent direction to the mismatches?",
+  "layer": "ANALYST",
+  "confidence_word": "none attached; asserted as a pattern finding",
+  "likely_source": "Cross-file: 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md'; \u00a78.4 and \u00a710 of the target; prelim transcripts day2/day4/day5",
+  "flags": [
+   "confirmatory"
+  ],
+  "overlap": [
+   "accounts",
+   "direction",
+   "forensic"
+  ]
+ },
+ {
+  "id": "s8a-5",
+  "fact": "This library has never read the face of either ATF exhibit (Exhibit 30 or Exhibit 33); their content reaches these files only through witnesses reading from them at the hearing, so no citation to them is direct primary-document reading.",
+  "section": "\u00a78.2 (scope block; caution 4)",
+  "check_question": "Does the Kirk Robinson Research library hold a copy of the ATF DNA report or the ATF forensic-biology report themselves, and if not, by what route does the content of those reports reach this library's files?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 via T3 marking rule applies; \u00a714 B calls Exhibit 30 'Read aloud in part; the item table at pp. 2\u20134 has never been read'",
+  "likely_source": "\u00a714 A and \u00a714 B of the target; the repo's held-artifact folders under 'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/'",
+  "flags": [
+   "yes-no/leading"
+  ],
+  "overlap": [
+   "content"
+  ]
+ },
+ {
+  "id": "s8a-6",
+  "fact": "Counsel expressly declined to have the remaining statistical-calculation paragraphs of the ATF forensic-biology report read aloud, so the ratios read into the record from that exhibit are a floor on its content, not a statement of what the exhibit contains; further numbered calculations were identified but their ratios never read.",
+  "section": "\u00a78.2 (scope block above the calculation table)",
+  "check_question": "During the Day-4 examination on the ATF forensic-biology report, what did counsel say about whether the witness should read the remaining statistical-calculation paragraphs, and which numbered calculations were identified on the record without their statistical results being stated?",
+  "layer": "RECORDING",
+  "confidence_word": "flagged \ud83d\udea8 P9/P8 as a scope error class; 'two is a floor, not content'",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt' (approx. 05:34:45); 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md' F-12",
+  "flags": [
+   "high-overlap(10)"
+  ],
+  "overlap": [
+   "biology",
+   "calculation",
+   "calculations",
+   "counsel",
+   "forensic",
+   "identified",
+   "numbered",
+   "paragraphs",
+   "remaining",
+   "statistical"
+  ]
+ },
+ {
+  "id": "s8b-10",
+  "fact": "Sgt. Jennifer Faumuina testified on direct that, working from higher-resolution footage obtained directly from UVU rather than the grainy command-post copy, investigators determined the person did not touch the window. The document limits this: it is an investigator's visual review of video, not an examiner's analysis; the defence did not cross-examine on the determination itself, but did establish on the same cross that the windows were processed the day after she first reviewed video of the suspect running toward the jump area and that the latents were taken as a genuine test to rule out whether the suspect had touched the window. No date appears anywhere on the record for when the better footage was obtained.",
+  "section": "\u00a78.5 (both directions logged \u2014 away from the State)",
+  "check_question": "What did Sgt. Faumuina testify on direct about reviewing video of the window on the northeast side of the Losee building, what source and quality of footage was she working from, what determination did investigators reach, and what does the record show about when that footage was obtained relative to the window being processed for latents?",
+  "confidence_word": "flag F-4 (`CR-E19` \u00a74); the acquisition-date item is a re-checked scoped null",
+  "layer": "RECORDING",
+  "likely_source": "day4.txt 05:44:47 (direct) and 06:09:05\u201306:09:27 (cross); `CR-E19` \u00a74 and flag F-4",
+  "flags": [
+   "high-overlap(8)"
+  ],
+  "overlap": [
+   "determination",
+   "faumuina",
+   "footage",
+   "investigators",
+   "latents",
+   "obtained",
+   "processed",
+   "working"
+  ]
+ },
+ {
+  "id": "s8b-15",
+  "fact": "The handwritten note's addressee salutation reaches this library only through reporting \u2014 marked T1 via T3 \u2014 because no held primary document reproduces it: the Information quotes one line of the body, the note's first two paragraphs were read aloud from Ex. 16.3, and the Day-5 findings describe the reading, none carrying an addressee. This is expressly NOT a corpus-wide null: the name appears in Twiggs' own sworn Rule 1102 answer and twice in the State's 2026-09-01 closing argument, the latter being a prosecutor's characterisation in argument rather than a document. State's Exhibit 16.3 is a photograph of the note recovered from Twiggs' phone, published to the courtroom only and not for media capture, and the court's unopposed findings are that the displayed portion did not contain the full note and that the full note was read into the record; the full text was already lawfully public via a search warrant, so no unlawful courtroom capture is asserted.",
+  "section": "\u00a78.7 (digital and documentary \u2014 the note)",
+  "check_question": "Among the primary documents this library holds \u2014 the charging Information, the exhibit readings in the transcripts, and the Day-5 findings \u2014 does any reproduce the handwritten note's salutation or addressee, where else in the banked record does that name occur, and what is State's Exhibit 16.3 as a physical artifact and how was it published in court?",
+  "confidence_word": "T1 via T3 (for the salutation); the three-occurrence search result marked '\ud83d\udee0 CORRECTED 2026-09-14'",
+  "layer": "ANALYST",
+  "likely_source": "Information `dc27880532`; day4.txt Ex. 16.3 reading; day5.txt findings; 2026-09-01_final-prelim-argument.txt (closing); artifact_search.py over all banked .txt under both U+FFFE readings",
+  "flags": [
+   "high-overlap(7)"
+  ],
+  "overlap": [
+   "addressee",
+   "findings",
+   "handwritten",
+   "information",
+   "primary",
+   "published",
+   "salutation"
+  ]
+ },
+ {
+  "id": "s9to12-10",
+  "fact": "The three-way outlet conflict over courtroom-recording redaction length is not an unresolved conflict: this library resolved it at Tier 1 on 2026-08-16 and corrected it 2026-08-17 in `lance-twiggs-comprehensive-profile.md` \u00a77.2, reading day3.txt/day4.txt directly, and found the court also released some time back to publication and ordered three further redactions that no outlet reported \u2014 including a video-only cut and two cuts kept from the courtroom as well as from broadcast.",
+  "section": "\u00a710 Media narratives \u2014 redaction-length row",
+  "check_question": "What does `lance-twiggs-comprehensive-profile.md` \u00a77.2 record about the redactions the court ordered to the courtroom recording on Days 3 and 4, on what date was that section written and corrected, and which of those orders appeared in outlet reporting?",
+  "layer": "ANALYST",
+  "confidence_word": "RESOLVED AT TIER 1 by this library",
+  "likely_source": "lance-twiggs-comprehensive-profile.md \u00a77.2; day3.txt; day4.txt; NewsNation, The Post Millennial and Front Page Detectives reporting",
+  "flags": [
+   "high-overlap(7)"
+  ],
+  "overlap": [
+   "comprehensive",
+   "corrected",
+   "courtroom",
+   "ordered",
+   "profile",
+   "recording",
+   "redactions"
+  ]
+ },
+ {
+  "id": "s9to12-14",
+  "fact": "No written bindover order or minute entry from 2026-09-01 has been located, and the earlier \"reported published 2026-09-02\" formulation is withdrawn as unsourced \u2014 it entered the file from a cloud watch-run report that the library's own verification had already refuted; the 2026-09-02 verification that graded \"written ruling available\" unsupported was itself run before the court's stated 24-hour filing window had expired, and the two routes that would settle it were unreadable.",
+  "section": "\u00a711 Case posture \u2014 grade change; \u00a712 item 1; \u00a714 B",
+  "check_question": "Has any written ruling or minute entry from the 2026-09-01 hearing in Case No. 251403576 been located on the docket or elsewhere, what retrieval attempts were made, and at what date and time were they run relative to the court's own stated filing deadline?",
+  "layer": "ANALYST",
+  "confidence_word": "scoped null, not an established absence; \"written ruling available\" graded unsupported, 2/2 skeptics refuting",
+  "likely_source": "DOCKET-WATCH.md; CR-WATCH-log.md; the 2026-09-02 verification run and the cloud watch-run report; Utah Fourth District Court docket for 251403576",
+  "flags": [
+   "yes-no/leading"
+  ],
+  "overlap": [
+   "located",
+   "written"
+  ]
+ },
+ {
+  "id": "s14-13",
+  "fact": "Robinson's date of birth is held at Tier 1 on the faces of two documents this library has read \u2014 the Information (dc27880532) and the Affidavit of Probable Cause (dc27880530) \u2014 so the withdrawn claim that an aggregator was the \"only source\" for his birth-year was false against disk; the affidavit's field label is capitalized (\"Date Of Birth\"), a lower-case regex returns a false null on it, and the value is deliberately not reproduced in the file.",
+  "section": "\u00a714 F",
+  "check_question": "Do the charging documents banked in this repository carry a date-of-birth field for the defendant on their face, under what field label does it appear on each, and what search string is required to hit it?",
+  "layer": "ANALYST",
+  "confidence_word": "T1; re-verified 2026-09-14",
+  "likely_source": "banked `.txt` of dc27880532 and dc27880530 in `CR-ACQ-2026-07-27_court-record-artifacts/`, via `artifact_search.py` `norm()` under both U+FFFE readings",
+  "flags": [
+   "yes-no/leading"
+  ],
+  "overlap": []
+ }
+]

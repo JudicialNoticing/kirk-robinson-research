@@ -1,0 +1,1076 @@
+[
+ {
+  "id": "ES-0",
+  "fact": "As of the document's preparation date, Robinson stands bound over for trial on every count charged and not-guilty pleas were entered on his behalf by counsel at an arraignment held in the same session, with a pretrial conference set.",
+  "section": "\u00a7ES \u2014 posture blockquote / 'Posture first'",
+  "check_question": "At the conclusion of the 2026-09-01 proceeding in State of Utah v. Tyler James Robinson (Case No. 251403576, Fourth District Court, Provo), what did the court decide as to each charged count, what plea was entered and by whom, and what further setting, if any, was made?",
+  "layer": "ANALYST",
+  "confidence_word": "date-stamped 'as of 2026-09-14'; no tier or grade attached in \u00a7ES",
+  "likely_source": "The 2026-09-01 hearing transcript banked 2026-09-14 (see \u00a711 and \u00a71 item 2); cross-check against any Utah courts docket entry for that date."
+ },
+ {
+  "id": "ES-1",
+  "fact": "The library's only record of what happened on 2026-09-01 is a contemporaneous Rev machine transcript acquired 2026-09-14 that has not been through a verification cycle; no written order and no minute entry from that date is held.",
+  "section": "\u00a7ES \u2014 'What is not established' / posture blockquote",
+  "check_question": "Which court-issued documents from the 2026-09-01 proceeding does this library hold, and what artifact does it rely on for its account of that day's events?",
+  "layer": "ANALYST",
+  "confidence_word": "\u00a71 item 2: 'newly acquired \u2026 has not been through a verification cycle'",
+  "likely_source": "\u00a71 items 2 and 5; the repository's banked transcript directory and the docket export dated 2026-03-14/15."
+ },
+ {
+  "id": "ES-2",
+  "fact": "An earlier version of this summary asserted the library held no date of birth for Robinson; that null was withdrawn as false because his date of birth appears on the face of both the Information and the Affidavit of Probable Cause, which the library holds and has read directly.",
+  "section": "\u00a7ES \u2014 finding 1",
+  "check_question": "What identifying fields appear on the face of each of the two charging documents this library holds for this case, and under what field labels?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 (asserted as on the face of primary documents); cross-referenced to \u00a712 item 4",
+  "likely_source": "The banked Information (DocumentCloud dc27880532) and Affidavit of Probable Cause (dc27880530); \u00a712 item 4.",
+  "question_repaired": true
+ },
+ {
+  "id": "ES-3",
+  "fact": "Searches re-run on 2026-09-14 over both the markdown files and the banked artifacts, under both readings of the U+FFFE split, return no occurrences of 'antifa' or 'groyper' in the library's source material, and a single occurrence of 'manifesto' that sits inside an internal file's own list of topics absent from the docket rather than describing any document attributed to Robinson; an earlier 'zero across the entire corpus' claim in this same summary was falsified by widening the scope to the banked artifacts.",
+  "section": "\u00a7ES \u2014 finding 1 (sparsity finding)",
+  "check_question": "Run artifact_search.py across this library's markdown files and its banked .txt artifacts, under both U+FFFE readings, for the stems 'antifa', 'groyper', 'manifesto' and 'radicaliz'. Report the result for each stem, with the context of anything returned.",
+  "layer": "ANALYST",
+  "confidence_word": "stated as a scoped null with a stated re-run date and method; no grade word attached",
+  "likely_source": "Run ./artifact_search.py against the repo root and the banked artifact directories; compare with \u00a72.2, which records the falsifying hits.",
+  "question_repaired": true
+ },
+ {
+  "id": "ES-4",
+  "fact": "Sworn preliminary-hearing testimony establishes that, on the evening after the shooting, investigators had developed a person of interest from surveillance imagery, and the witness's answer about the shooter's identity was a qualified one that an earlier version of this file flattened into a flat statement that investigators did not know the shooter's identity.",
+  "section": "\u00a7ES \u2014 finding 2",
+  "check_question": "What did the testifying investigator say at the preliminary hearing about the state of the investigation's knowledge of the shooter on the evening of 2025-09-11, and how was that answer framed or qualified?",
+  "layer": "RECORDING",
+  "confidence_word": "'Sworn testimony establishes' (T1 via machine transcript); marked 'NARROWED 2026-09-14 (P7)'",
+  "likely_source": "The banked preliminary-hearing transcripts (2026-07-06 \u2192 07-10), \u00a76 of this file, and the P7 register in \u00a718."
+ },
+ {
+  "id": "ES-5",
+  "fact": "Robinson's name reached the investigators before he arrived to surrender, not at the surrender: it came from Washington County when his approach was relayed, roughly in advance of his arrival.",
+  "section": "\u00a7ES \u2014 finding 2",
+  "check_question": "According to the hearing record, by what route and through which agency did Robinson's name first reach the investigators working this case, and when did that occur relative to his arrival to turn himself in?",
+  "layer": "ANALYST",
+  "confidence_word": "no grade attached; flagged \u26a0 as a correction to an earlier form",
+  "likely_source": "\u00a76 of this file and the banked Day 1\u2013Day 5 transcripts covering the surrender testimony."
+ },
+ {
+  "id": "ES-6",
+  "fact": "The account that Robinson's family recognized him in the released photograph is contained in the sworn probable-cause statement of the Information \u2014 a charging document \u2014 and not in sworn hearing testimony; an earlier version of this file cited it as testimony. What the hearing record itself carries is that Robinson told his immediate family he had been involved and wanted to turn himself in.",
+  "section": "\u00a7ES \u2014 finding 2",
+  "check_question": "In which document does the account of Robinson's family recognizing the released surveillance photograph appear, what kind of instrument is that document, and what does the preliminary-hearing testimony itself say about what Robinson told his family?",
+  "layer": "ANALYST",
+  "confidence_word": "no grade; flagged \ud83d\udea8 as a layer error (recording-layer account moved into the analyst layer)",
+  "likely_source": "The banked Information's probable-cause statement; the surrender testimony in the banked transcripts; \u00a76."
+ },
+ {
+  "id": "ES-7",
+  "fact": "Analysts from both laboratories agreed \u2014 without qualification and without contradiction by any witness \u2014 that neither laboratory can say what action deposited any DNA, or when it was deposited; the file calls this the single most consistent proposition in the body of evidence.",
+  "section": "\u00a7ES \u2014 finding 3",
+  "check_question": "What did the ATF and FBI DNA analysts say on the stand about their ability to determine the mechanism or the timing of DNA deposition on an item, and did any witness on either side state otherwise?",
+  "layer": "ANALYST",
+  "confidence_word": "'unqualified and unrebutted by anyone'; no tier or grade word attached in \u00a7ES",
+  "likely_source": "\u00a78.4 of this file; the Day 4 and Day 5 transcripts covering the ATF and FBI analysts; DNA-E01."
+ },
+ {
+  "id": "ES-8",
+  "fact": "Most of the mappings between the ATF likelihood-ratio figures and the specific items or locations they apply to rest on one non-expert witness reading aloud from State's Exhibit 30, an exhibit this library has never read.",
+  "section": "\u00a7ES \u2014 finding 4",
+  "check_question": "Who read the ATF DNA statistics into the preliminary-hearing record, what was that witness's role and forensic qualification, from what exhibit were the figures read, and does this library hold or have access to that exhibit?",
+  "layer": "ANALYST",
+  "confidence_word": "no grade attached in \u00a7ES; \u00a78.2 is cross-referenced",
+  "likely_source": "\u00a78.2 and \u00a714 B (documents cited but not held); the Day 4 transcript; the exhibit list from the preliminary hearing."
+ },
+ {
+  "id": "ES-9",
+  "fact": "The stipulation that records Robinson's exclusion on the comparable window latent prints also records that the FBI's subsequent examinations of those same prints were inconclusive, so the exculpatory reading does not carry across that later examination.",
+  "section": "\u00a7ES \u2014 finding 5",
+  "check_question": "What does the parties' stipulation concerning the window latent prints state about the comparison results as to Robinson, and what, if anything, does the same stipulation state about any later examination of those same prints by another laboratory?",
+  "layer": "RECORDING",
+  "confidence_word": "no grade attached; flagged \u26a0 as a cutback on the exculpatory reading; cross-referenced to CR-E19 F-4",
+  "likely_source": "The stipulation as it appears in the hearing record/transcript; \u00a78.5 of this file; CR-E19."
+ },
+ {
+  "id": "ES-10",
+  "fact": "Neither of the two banked charging documents states any likelihood ratio or probabilistic DNA figure, and the Affidavit of Probable Cause contains no DNA allegation at all \u2014 the DNA allegation in the State's pleaded narrative is the Information's.",
+  "section": "\u00a7ES \u2014 'The evidentiary picture, in brief'",
+  "check_question": "Which of the two charging documents in this case contains an allegation about DNA evidence, and do either of them state any statistical, probabilistic or likelihood-ratio figure concerning that evidence?",
+  "layer": "ANALYST",
+  "confidence_word": "stated as a null verified with artifact_search.py under both U+FFFE readings over both banked charging documents",
+  "likely_source": "The banked Information (dc27880532) and Affidavit of Probable Cause (dc27880530); re-run the search stems listed in \u00a7ES."
+ },
+ {
+  "id": "ES-11",
+  "fact": "The DNA likelihood ratios entered this case's record only through preliminary-hearing testimony: the ATF figures were read from State's Exhibit 30 by Sgt. Faumuina on Day 4 and taken up with ATF's Caitlin Oliver on Day 5, while two FBI figures were read by Faumuina from the FBI report on Day 2, before the FBI examiner was called \u2014 and Day 2 contains no reference to Exhibit 30, so the ratios cannot all be attributed to that exhibit.",
+  "section": "\u00a7ES \u2014 'The evidentiary picture, in brief'",
+  "check_question": "On which preliminary-hearing days, through which witnesses, and from which underlying reports or exhibits did the ATF and the FBI DNA statistics first enter the record in this case?",
+  "layer": "ANALYST",
+  "confidence_word": "no grade attached; the passage carries an explicit do-not-use warning about mis-attributing all ratios to one exhibit (correction cycle 2)",
+  "likely_source": "The banked Day 2, Day 4 and Day 5 transcripts; \u00a78.2, \u00a78.3 and \u00a79 item 2 of this file."
+ },
+ {
+  "id": "ES-12",
+  "fact": "No court in this case has ruled on the scientific reliability of any forensic method or result \u2014 the question was litigated at length as to the DNA evidence and expressly left undecided \u2014 whereas admissibility rulings under Rule 1102's reliable-hearsay standard were made, over objection.",
+  "section": "\u00a7ES \u2014 'What is not established'",
+  "check_question": "What did the court rule, and decline to rule, on the DNA evidence at the preliminary hearing \u2014 specifically as to scientific reliability and as to admissibility under Utah Rule of Criminal Procedure 1102 \u2014 and were any objections made?",
+  "layer": "ANALYST",
+  "confidence_word": "cross-referenced to DNA-E01 \u00a78.3 ('expressly not decided'); no grade word attached",
+  "likely_source": "DNA-E01 \u00a78.3; the transcript passages containing the court's oral rulings on the DNA and Rule 1102 objections."
+ },
+ {
+  "id": "ES-13",
+  "fact": "Of the forensic items named in the defence's 2026-03-25 discovery letter, this library holds and has read exactly one \u2014 the ATF firearms report of 2025-09-17 \u2014 and the remainder are unread; the total number of items in that set does not rebuild and is left ungraded.",
+  "section": "\u00a7ES \u2014 'What is not established' / \u00a71 item 4",
+  "check_question": "Which of the laboratory reports and case files listed in the defence's 2026-03-25 discovery letter has this library actually obtained and read, and what is the status of the rest?",
+  "layer": "ANALYST",
+  "confidence_word": "High for each row's laboratory, date and identifier and for the fact that exactly one item is held; the set total is 'a row count, not a graded total' with D-70 OPEN",
+  "likely_source": "\u00a71 item 4 and \u00a714 A/B of this file; CR-E21 \u00a72 and CR-E15; the banked 2026-03-25 discovery letter."
+ },
+ {
+  "id": "s2-0",
+  "fact": "The defendant's date of birth is printed in the caption of the Information (dc27880532) and in the caption of the Affidavit of Probable Cause (dc27880530), both of which this library holds and has read directly \u2014 and that printed field is what fixes his age on the offence date.",
+  "section": "\u00a72.1 \u2014 Age row",
+  "check_question": "In the charging documents in State v. Tyler James Robinson, does a defendant date-of-birth field appear, and if so on which documents and in what part of each document?",
+  "confidence_word": "T1 / High",
+  "layer": "ANALYST",
+  "likely_source": "Banked charging documents in '~/Documents/Kirk Robinson Research/CR-ACQ-2026-07-27_court-record-artifacts/' (dc27880532, dc27880530) read through artifact_search.py; note the affidavit's face uses capitalised \"Date Of Birth\", per \u00a714 F"
+ },
+ {
+  "id": "s2-1",
+  "fact": "Cohabitation with Lance Twiggs at a St. George residence in separate rooms is carried by two independent sworn sources \u2014 Twiggs' recorded sworn statement (State's Exhibit 16) and Sgt. Jennifer Faumuina's live, cross-examined testimony \u2014 but only Twiggs carries the \"as of 2025-09-10\" date-scope; Faumuina describes the residence as she found it during the post-arrest search.",
+  "section": "\u00a72.1 \u2014 Residence, date-scoped (and \u00a73 confirmation note)",
+  "check_question": "Which witnesses in the Robinson preliminary hearing addressed who lived at the St. George residence and how its bedrooms were used, what form did each witness's testimony take (live or recorded), and to what point in time did each witness's account apply?",
+  "confidence_word": "T1 / High",
+  "layer": "ANALYST",
+  "likely_source": "'~/Documents/Kirk Robinson Research/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt' (Faumuina ~05:00:45, 05:03:38\u201305:03:57; Exhibit 16 playback ~02:12:55 ff.); lance-twiggs-comprehensive-profile.md"
+ },
+ {
+  "id": "s2-2",
+  "fact": "The only sworn evidence of Robinson's occupation and schooling is a hedged answer from Twiggs that expressly disclaims knowledge of the trade system; no employer is named, no school is named, and no dates are given anywhere in the record \u2014 so the employment and trade-school propositions are established only as things a witness said, not as facts.",
+  "section": "\u00a72.1 Occupation row \u00b7 \u00a72.2 Education and Employment bullets",
+  "check_question": "What does the sworn record of the Robinson preliminary hearing say about his work and schooling, how did the testifying witness characterise the reliability of his own knowledge on that point, and does any source in this library name the employer or the school?",
+  "confidence_word": "T1 as to what the witness said; DRIFT corrected; underlying facts not established at T1",
+  "layer": "RECORDING",
+  "likely_source": "day4.txt, Exhibit 16 playback (occupation colloquy); corpus-wide search for employer/school names via artifact_search.py"
+ },
+ {
+  "id": "s2-3",
+  "fact": "Robinson's mother and father are resident in Washington, Utah, and both appear in the forensic record in the role of elimination-sample donors (named individuals).",
+  "section": "\u00a72.1 \u2014 Parents row",
+  "check_question": "In the forensic record of the Robinson case, who is identified as having provided elimination samples, and what relationship do those individuals bear to the defendant?",
+  "confidence_word": "T1 for the elimination-donor role; surrender account is T1 via T3 plus T2",
+  "layer": "ANALYST",
+  "likely_source": "'~/Documents/Kirk Robinson Research/files - DNA evidence/DNA-E01'; day-transcript DNA testimony; files - Arrest chronology/robinson-surrender-timeline.md"
+ },
+ {
+  "id": "s2-4",
+  "fact": "The Dodge Challenger associated with Robinson was collected from his parents' home \u2014 a proposition carried both by the directly-held Affidavit of Probable Cause and by Sgt. Faumuina's live, cross-examined testimony.",
+  "section": "\u00a72.1 \u2014 Vehicle row",
+  "check_question": "Where was the vehicle associated with Robinson seized, and which held documents or sworn witnesses establish the place of its collection?",
+  "confidence_word": "T1 / High on make, model and collection",
+  "layer": "ANALYST",
+  "likely_source": "Affidavit of Probable Cause (dc27880530); prelim-hearing-transcripts/day4.txt ~05:17:16 (Faumuina)"
+ },
+ {
+  "id": "s2-5",
+  "fact": "Sgt. Hull described the DMV record for that vehicle with a colour term differing from the one on the affidavit's face and from the collecting sergeant's sworn description; the file records this as a variance it has not previously logged and does not resolve.",
+  "section": "\u00a72.1 \u2014 Vehicle row, colour caveat",
+  "check_question": "How did Sgt. Hull describe the DMV record for the Challenger in his testimony, and how does that description compare with the colour term used in the probable-cause affidavit and by the sergeant who collected the vehicle?",
+  "confidence_word": "Medium on the colour term only",
+  "layer": "RECORDING",
+  "likely_source": "prelim-hearing-transcripts/day1.txt ~06:33:32 (Hull); Affidavit of Probable Cause (dc27880530); day4.txt ~05:17:16"
+ },
+ {
+  "id": "s2-6",
+  "fact": "The Order to Hold Without Bail contains no arrest-time field at all: it recites only the affirmation of the arresting officer, finds the offence a capital felony, orders the defendant held without bail, and carries its own signing timestamp. An earlier form of this file counted it as one of three documents carrying the 04:00 arrest time; that was corrected 2026-09-14 \u2014 what the order adds is a name, not a time.",
+  "section": "\u00a72.1 \u2014 concordance warning following the table",
+  "check_question": "What does the Order to Hold Without Bail in State v. Robinson state on its face \u2014 what findings does it make, what does it recite as its basis, and what time fields does it carry?",
+  "confidence_word": "CORRECTED 2026-09-14",
+  "layer": "ANALYST",
+  "likely_source": "Banked Order to Hold Without Bail, dc27880869, in CR-ACQ-2026-07-27_court-record-artifacts/; cross-check 'files - Arrest chronology/robinson-surrender-timeline.md' \u00a72"
+ },
+ {
+  "id": "s2-7",
+  "fact": "Agent Brian Davis is the affiant on the probable-cause affidavit, is the arresting officer the bail order names, and on his own sworn testimony was also the booking officer \u2014 so the documents carrying the arrest time are concordant but not independent; they are one officer's entry recorded in three roles rather than three sources.",
+  "section": "\u00a72.1 \u2014 concordance warning following the table",
+  "check_question": "Who signed the probable-cause affidavit in the Robinson case, whom does the Order to Hold Without Bail identify as the arresting officer, and which officer testified about booking the defendant?",
+  "confidence_word": "",
+  "layer": "ANALYST",
+  "likely_source": "Affidavit of Probable Cause (dc27880530); Order to Hold Without Bail (dc27880869); Davis's testimony in prelim-hearing-transcripts/day4.txt"
+ },
+ {
+  "id": "s2-8",
+  "fact": "The sparsity finding's lead item \u2014 that Robinson's date of birth appears nowhere in this library \u2014 was withdrawn 2026-09-14 as a false null: the value is held at T1 on the faces of documents the file's own \u00a714 A lists as held and read, plus further banked artifacts, and the null had never been tested against disk.",
+  "section": "\u00a72.2 \u2014 first bullet (withdrawn)",
+  "check_question": "Before the 2026-09-14 pass, what did this library's profile of Robinson assert about whether his date of birth appeared in its holdings, and what did a search of the banked artifacts actually return?",
+  "confidence_word": "WITHDRAWN 2026-09-14",
+  "layer": "ANALYST",
+  "likely_source": "git history of robinson-tyler-james-comprehensive-profile.md; artifact_search.py run over CR-ACQ-2026-07-27_court-record-artifacts/*.txt"
+ },
+ {
+  "id": "s2-9",
+  "fact": "Prior criminal history is not a gap in the library's holdings but an affirmatively documented absence: a held Tier 1 instrument \u2014 the Public Safety Assessment \u2014 records it point by point, and that instrument's contents are withheld in full by standing owner policy, so the finding is stated only at the level of what it establishes.",
+  "section": "\u00a72.2 \u2014 Prior criminal history bullet (moved out of the sparsity finding)",
+  "check_question": "What does this library hold bearing on Robinson's prior criminal history, what is the holding status of that item, and what does the held record establish on the question?",
+  "confidence_word": "T1 instrument; contents WITHHELD IN FULL by owner policy",
+  "layer": "ANALYST",
+  "likely_source": "Public Safety Assessment Report, dc27880877, listed in \u00a714 A of the profile; owner-policy note in the same table; QUEUE.md / START-HERE.md for the withholding policy"
+ },
+ {
+  "id": "s2-10",
+  "fact": "The library holds a court-reporter-produced, redacted transcript of the sealed 2025-10-24 motion hearing, banked as oct24_clean.txt, in which defence counsel asserted the defendant's confidentiality in medical, mental-health and psychiatric records and declined to offer them \u2014 and this transcript is listed in neither \u00a71 item 3 (\"No certified transcript is held\") nor \u00a714 C (which states all testimony reaches the library through Rev machine transcripts).",
+  "section": "\u00a72.2 \u2014 Mental health bullet, scope paragraph",
+  "check_question": "What transcripts of proceedings in State v. Robinson are banked in this library, who produced each one, what is each one's redaction status, and which of them does the profile's access-path section and citation apparatus list?",
+  "confidence_word": "",
+  "layer": "ANALYST",
+  "likely_source": "Locate oct24_clean.txt under the court-record artifacts folder (find/grep from repo root); compare against \u00a71 item 3 and \u00a714 C of robinson-tyler-james-comprehensive-profile.md and against 'files - Court record' acquisition logs"
+ },
+ {
+  "id": "s2-11",
+  "fact": "The Information \u2014 a document this library holds and has read \u2014 contains the State's allegations that Robinson implied he planned to take his own life and, at his parents' home, said he could not go to jail; the profile already recorded this material in \u00a76, so the \"nothing on the record\" mental-health bullet contradicted its own file rather than omitting the source. The surviving, scoped form of the null is that the library holds no diagnosis, treatment record or mental-health history at any tier.",
+  "section": "\u00a72.2 \u2014 Mental health bullet",
+  "check_question": "What, if anything, do the held charging documents allege about Robinson's statements to his parents on 2025-09-11, and how does the library's own material treat that subject?",
+  "confidence_word": "CORRECTED 2026-09-14; recorded as the State's allegation, adopted nowhere",
+  "layer": "RECORDING",
+  "likely_source": "Information (dc27880532) banked text; \u00a76 of robinson-tyler-james-comprehensive-profile.md (2025-09-11 entries)",
+  "question_repaired": true
+ },
+ {
+  "id": "s2-12",
+  "fact": "State's Exhibit 16.2 is, per the case agent's sworn testimony, photographs of Twiggs' phone showing Discord messages, taken by a named agent during Twiggs' first FBI interview and confirmed in his second; Twiggs identified Robinson as a participant in the thread and named the account used; the same messages were also recovered through a subpoena served on Discord, which the agent reviewed; and the exhibit was received into evidence over standing defence objection and published to the gallery only, not for distribution on electronic media. The library has never read Exhibit 16.2 itself \u2014 what it holds is the testimony about it.",
+  "section": "\u00a72.2 \u2014 Social media bullet",
+  "check_question": "What did the case agent testify State's Exhibit 16.2 consists of, who created it and when, by what paths were those messages obtained by investigators, on what terms was the exhibit received into evidence, and is the exhibit itself among this library's holdings?",
+  "confidence_word": "T1 as to existence, admission, account attribution, provenance paths and timestamp; authorship attributed, never adopted",
+  "layer": "RECORDING",
+  "likely_source": "prelim-hearing-transcripts/day4.txt ~02:50:21\u201302:54:13 (Davis); \u00a714 B of the profile for whether the exhibit is held"
+ },
+ {
+  "id": "s2-13",
+  "fact": "The \u00a72.2 nulls failed on SCOPE rather than on extraction: the original searches were run over Markdown files only and never touched the banked .txt artifacts, which is why the radicalization/manifesto and date-of-birth nulls were falsifiable against disk; this is independent of the U+FFFE hyphen-break hazard described in \u00a71 item 7, and the three files carrying the falsifying hits contain none of that character.",
+  "section": "\u00a72.2 \u2014 radicalization bullet and \u00a71 item 7 cross-reference",
+  "check_question": "When this library's corpus-wide nulls about Robinson were originally run, which file types and folders did the search cover, and which categories of banked artifact were outside that search?",
+  "confidence_word": "CORRECTED 2026-09-14",
+  "layer": "ANALYST",
+  "likely_source": "git history / prior session logs for the null-running passes; artifact_search.py and tsearch.py in the repo root; QUEUE.md standing hazard 16"
+ },
+ {
+  "id": "s2-14",
+  "fact": "A re-run of the platform search across every Markdown and banked .txt artifact in the corpus, under both U+FFFE readings, surfaced no second online platform, handle, account or posting history attributed to Robinson; the platform hits inside the hearing transcripts are Rev.com page furniture, an Instagram reference that is Twiggs' own, and Steam references concerning Twiggs' display name \u2014 and no session has ever gone looking for Robinson's online presence outside the court record.",
+  "section": "\u00a72.2 \u2014 Social media bullet, scope paragraph",
+  "check_question": "Across this library's whole corpus, including the banked transcripts, which online platforms, usernames or accounts are attributed to Robinson, and to whom do the other platform mentions in the transcripts belong?",
+  "confidence_word": "",
+  "layer": "ANALYST",
+  "likely_source": "Re-run artifact_search.py over *.md and CR-ACQ-2026-07-27_court-record-artifacts/**/*.txt for the platform terms listed in \u00a72.2; day4.txt ~02:27:28 for the Instagram reference"
+ },
+ {
+  "id": "s345-0",
+  "fact": "Lance Twiggs' account of the household reaches the record through his sworn recorded statement, admitted as State's Exhibit 16, received under Utah R. Crim. P. 1102 in lieu of live testimony and played in open court with court-ordered redactions; he did not testify live and was not cross-examined on it, and the recording carries an oath, a false-statement admonition and immunity granted by two offices.",
+  "section": "\u00a73 \u00b7 Household, relationship and daily life",
+  "check_question": "How did Lance Twiggs' account come before the court at the preliminary hearing \u2014 through what exhibit and what procedural vehicle \u2014 and what conditions (oath, admonition, immunity, redaction, cross-examination) attached to it?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "Banked prelim-hearing transcripts, day4.txt around the Exhibit 16 playback; \u00a714 C exhibit/transcript inventory; lance-twiggs-comprehensive-profile.md \u00a71.1"
+ },
+ {
+  "id": "s345-1",
+  "fact": "The cohabitation and the separate bedrooms are not single-sourced to Twiggs: Sgt. Jennifer Faumuina carried both in live, sworn, cross-examined Day 4 testimony, so the no-cross-examination caveat does not travel with those two facts \u2014 but her account describes the residence as she found it when overseeing the search warrants after the arrest, and does not carry the \"as of 2025-09-10\" date-scope, which still rests on Twiggs alone.",
+  "section": "\u00a73 \u00b7 Household, relationship and daily life",
+  "check_question": "Which witnesses besides Lance Twiggs addressed the living arrangement at the St. George residence at the preliminary hearing, in what testimonial posture, and what point in time did each witness's account describe?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "day4.txt (Faumuina search-warrant testimony and the start of defence cross that day); compare against the Exhibit 16 passages"
+ },
+ {
+  "id": "s345-2",
+  "fact": "Twiggs, asked whether Robinson had told him the Dremel was to inscribe bullets, answered affirmatively, and said he directed Robinson to where the household tools were kept rather than handing the tool to him.",
+  "section": "\u00a73 \u00b7 Household, relationship and daily life",
+  "check_question": "What did Lance Twiggs say in his recorded statement about the Dremel tool \u2014 about any purpose Robinson gave for wanting it, and about how Robinson came to have it?",
+  "layer": "RECORDING",
+  "confidence_word": "",
+  "likely_source": "day4.txt, the Exhibit 16 video narration; cross-check the forensic Dremel findings in DNA-E01 and \u00a78.6"
+ },
+ {
+  "id": "s345-3",
+  "fact": "Twiggs answered that he personally had never heard Robinson speak about Charlie Kirk; the file treats this as a null the size of one witness that is not evidence Robinson never spoke of Kirk and establishes nothing about his politics or beliefs, and logs it under the both-directions rule as Tier 1 material running toward the defendant that bears on the victim-targeting enhancement without being offered as rebutting it.",
+  "section": "\u00a73 \u00b7 Household, relationship and daily life",
+  "check_question": "What did Lance Twiggs say, if anything, about whether Robinson ever discussed Charlie Kirk, and what qualifiers did his answer carry?",
+  "layer": "RECORDING",
+  "confidence_word": "T1",
+  "likely_source": "day4.txt, Exhibit 16 politics exchange; compare the syndicated press paraphrases cited in \u00a710/\u00a714 E"
+ },
+ {
+  "id": "s345-4",
+  "fact": "The charging history is two-stage, not contradictory: the Affidavit of Probable Cause's arrestee block records an arrest on three offences only \u2014 aggravated murder, felony discharge of a firearm, and a single obstruction count the affidavit ties to moving and hiding the rifle \u2014 while the Information charges seven counts, with the second obstruction count, both witness-tampering counts and the child-presence count first appearing in the Information.",
+  "section": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "check_question": "Which offences does the probable-cause affidavit record Robinson as arrested on, and which counts does the later Information charge?",
+  "layer": "ANALYST",
+  "confidence_word": "High",
+  "likely_source": "The held affidavit (DocumentCloud dc27880530) arrestee block and closing paragraph; the held Information (dc27880532); CR-E08 \u00a73 B-5"
+ },
+ {
+  "id": "s345-5",
+  "fact": "Count 1 pleads one capital aggravating circumstance and only one \u2014 that the defendant knowingly created a great risk of death to another individual \u2014 and the Information cites the statute bare, designating the circumstance only by an inline \"(iii)\" while printing no subsection pinpoint anywhere; the fuller subsection rendering appearing later in this file is the court's language from the oral bindover ruling plus this library's own identification, not the Information's text.",
+  "section": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "check_question": "How many capital aggravating circumstances does the Information plead against Count 1, and how precisely does the document itself identify the statutory subsection it relies on?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "Face of the held Information, Count 1; CR-E08 (pinpoint correction entry); the State's reply brief CR-E17 for the competing citation forms"
+ },
+ {
+  "id": "s345-6",
+  "fact": "The 2026-09-01 oral bindover ruling found the victim-targeting allegation satisfied the probable-cause standard but held its legal consequence differs by count \u2014 reclassifying the misdemeanour count, operating as a sentencing consideration on the felony-discharge count, and, as to the capital count, declining to decide that the statute authorises an additional penalty while preserving the State's notice; the operative bindover order names the presence-of-a-child factor for one count only, under a different statutory section than the separate offence charged in Count 7.",
+  "section": "\u00a74 \u00b7 The charges \u2014 recording layer",
+  "check_question": "What did the court say in its oral bindover ruling about the effect of the victim-targeting allegation on each count, and what did it decide or decline to decide about any penalty consequence for the capital count?",
+  "layer": "RECORDING",
+  "confidence_word": "T1 via newly acquired machine transcript, not verification-cycled",
+  "likely_source": "The 2026-09-01 Rev machine transcript acquired 2026-09-14 (\u00a714 C); no written order or minute entry is held (\u00a71.5, \u00a712 Q1)"
+ },
+ {
+  "id": "s345-7",
+  "fact": "The roof-distance figure in the Information's probable-cause narrative and Sgt. Faumuina's measurement figure are not documented as measuring the same endpoints \u2014 the officer's figure is an on-scene estimate made while scanning for potential sniper positions, before the prone position was located, while the sergeant's is a survey from the identified perch \u2014 so the pair is neither corroboration nor a documented conflict and the two figures may not be cited against each other in either direction; registered as D-74, unresolved, and the figure appears in no count.",
+  "section": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 recording layer",
+  "check_question": "For each stated distance between the rooftop position and the stage area, identify what was being measured or estimated, by whom, by what method, and what was known about the shooter's position at the time each figure was produced.",
+  "layer": "ANALYST",
+  "confidence_word": "D-74 OPEN / unresolved",
+  "likely_source": "Held Information's PC narrative (UVU officer paragraph); Faumuina measurement testimony in the day transcripts; CR-E08 F-26 as narrowed at v1.1; CR-E18 \u00a74",
+  "question_repaired": true
+ },
+ {
+  "id": "s345-8",
+  "fact": "Apart from a separately placed affidavit paragraph recording an early-morning arrival on campus in a grey Dodge Challenger, everything about Robinson's pre-11:51 campus movements is absent from both charging documents and comes from Agent Hull's Day 2 narration of Exhibit 12.4 \u2014 the parking structure, the walk to the amphitheatre and contact with TPUSA representatives, the departure and return on foot with a blue backpack, the Chick-fil-A stop, the wooded area, the return without the backpack, the approach to the Losee building roof access, and the walk off campus.",
+  "section": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 recording layer",
+  "check_question": "Where in the record do the accounts of Robinson's earlier-morning movements around the UVU campus originate \u2014 which witness and which exhibit \u2014 and do the charging documents themselves recite those movements?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "day2.txt (Hull narration of Exhibit 12.4); CR-E04 \u00a74; the held Information and affidavit, checked for what their surveillance recitations do and do not contain"
+ },
+ {
+  "id": "s345-9",
+  "fact": "Every identification in that surveillance narration is the testifying witness's hedged belief \u2014 the person and the vehicle are described as believed to be Robinson's, identified from DL/DMV records plus the vehicle's distinctive shape and wheels \u2014 no facial identification was offered, and CR-E05 \u00a74.5 records that the multi-visit campus timeline rests solely on UVU surveillance review.",
+  "section": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 recording layer",
+  "check_question": "On what basis did the testifying agent identify the person and the vehicle seen in the UVU surveillance footage, how was that identification phrased on the record, and was any facial identification offered?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "day1.txt and day2.txt identification passages; CR-E04 \u00a74 and CR-E05 \u00a74.5"
+ },
+ {
+  "id": "s345-10",
+  "fact": "The Information and the 2025-09-12 affidavit disagree about the cartridge inscriptions not only in spelling and punctuation but in assignment: the affidavit attributes one inscription to the three unfired casings collectively and then describes a second and a third unfired casing separately, while the Information gives one inscription per cartridge; no rendering is adopted here as the inscriptions' text, and the decisive artifact is the physical cartridge or its photograph.",
+  "section": "\u00a75 \u00b7 The State's probable-cause narrative \u2014 recording layer",
+  "check_question": "How does the probable-cause affidavit distribute the cartridge inscriptions among the recovered rounds, and how does the Information distribute them?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "Held affidavit inscription paragraphs vs the Information's inscription table; CR-E08 \u00a75 open item; day4.txt where the casing exhibits were read aloud"
+ },
+ {
+  "id": "s345-11",
+  "fact": "The copy of the defence's preliminary-hearing brief that this library holds is two-of-three on provenance \u2014 signature block and certificate of service present, clerk file-stamp absent \u2014 an outlet-hosted copy carrying the filer's own attestation rather than a court-stamped filing.",
+  "section": "\u00a75A \u00b7 The defence's filed position \u2014 recording layer",
+  "check_question": "Where did this library's copy of the defence preliminary-hearing brief come from, and what filing indicia does its face carry?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "CR-E07 provenance section; \u00a714 A held-documents list; the banked PDF's own face and certificate of service"
+ },
+ {
+  "id": "s345-12",
+  "fact": "The defence brief's Rule 1102 hearsay challenge is directed at identity on all charged counts and expressly does not reach the State's aggravator presentation \u2014 the brief states that presentation was not based upon hearsay evidence and attacks the aggravator as legally and factually insufficient instead; CR-E07 F-21 logs an earlier form of this file's summary as a High-grade recording-layer defect for stating the challenge more broadly than the party made it.",
+  "section": "\u00a75A \u00b7 The defence's filed position \u2014 recording layer",
+  "check_question": "What did the defence brief's Rule 1102 hearsay argument attack, and did that argument extend to the State's presentation supporting the aggravating factor?",
+  "layer": "RECORDING",
+  "confidence_word": "High (grade attached to the F-21 defect entry)",
+  "likely_source": "The held 2026-08-11 defence brief, Rule 1102 section and its Argument I; CR-E07 \u00a72 and F-21"
+ },
+ {
+  "id": "s345-13",
+  "fact": "The State's side of the briefing is asymmetrically held: the State's 2026-07-28 opening brief is held nowhere by this library, and although the State's 2026-08-18 reply is held and read at CR-E17, its arguments are not recorded anywhere in this file \u2014 a structural gap the file states rather than cures.",
+  "section": "\u00a75A \u00b7 The defence's filed position \u2014 recording layer",
+  "check_question": "Which of the parties' preliminary-hearing briefs does this library actually hold, and whose arguments are set out in the body of this profile?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "\u00a79 item 7 null; \u00a714 A/B held-vs-not-held lists; CR-E17; grep the file for any recitation of the State's reply arguments"
+ },
+ {
+  "id": "s67-0",
+  "fact": "Sworn preliminary-hearing testimony establishes that investigators did not know the shooter's identity until Robinson surrendered, and that the surveillance footage on its own was insufficient to identify him \u2014 i.e. the identification ran from the family inward, not from law enforcement outward.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "What did witnesses at the July 2026 preliminary hearing say about how investigators came to learn the shooter's identity, and about what the surveillance footage could and could not establish as to identity?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "Rev transcripts prelim-hearing-transcripts/day1.txt\u2013day5.txt (Davis, Hull); owning file `files - Arrest chronology/robinson-surrender-timeline.md`"
+ },
+ {
+  "id": "s67-1",
+  "fact": "On the charging documents' account, it was Robinson's mother who saw the released person-of-interest images, recognised her son and telephoned him (he said he had been home sick), and his father who separately fixed on the publicised rifle and asked his son to send a photograph of his own rifle \u2014 with the parents then persuading him to come to their home in Washington, Utah.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "How do the Information and the Affidavit of Probable Cause describe the sequence by which Robinson's parents came to suspect him after the FBI released the person-of-interest images \u2014 which parent did what, and in what order?",
+  "layer": "RECORDING",
+  "confidence_word": "T1 (both charging documents held and read)",
+  "likely_source": "Information `dc27880532` and Affidavit of Probable Cause `dc27880530` in `CR-ACQ-2026-07-27_court-record-artifacts/`; `CR-E08`"
+ },
+ {
+  "id": "s67-2",
+  "fact": "The description of the family-friend intermediary as a former Boy Scout leader is not witness testimony: it entered the record only as defence counsel's leading question on cross-examination on Day 2, and the witness neither adopted nor rejected it.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "On Day 2 of the preliminary hearing, in what form did any reference to Boy Scouts in connection with the family friend arise, who introduced it, and how did the witness on the stand respond to it?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "`prelim-hearing-transcripts/day2.txt` around 02:10:30\u201302:10:45 (Hull); speaker attribution must be inferred from content, not Rev labels (\u00a714 C)"
+ },
+ {
+  "id": "s67-3",
+  "fact": "The characterisation of the intermediary's connection to the Robinson family as a religious association traces to Sheriff Nate Brooksby's 2025-09-17 press account rather than to any sworn testimony; no witness placed the connection on a religious footing on oath, a null scoped to the held transcripts only (day1\u2013day5 plus the 2026-09-01 transcript).",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "On what basis, and from which speaker or document, is the relationship between the Robinson family and the retired-detective family friend described as religious in origin \u2014 and does any witness address that relationship's origin under oath in the held preliminary-hearing transcripts?",
+  "layer": "ANALYST",
+  "confidence_word": "T2 via T3 for the press account; scoped null over the held transcripts",
+  "likely_source": "Brooksby 2025-09-17 press conference (police1.com / fox13news.com links in \u00a714 D); stem searches across day1\u2013day5 and `2026-09-01_final-prelim-argument.txt` under both U+FFFE readings"
+ },
+ {
+  "id": "s67-4",
+  "fact": "The family-friend intermediary's written statement was received into evidence at the preliminary hearing as State's Exhibit 14 under Rule 1102, over the defence's standing Rule 1102 objection, and was not published; a later request to publish a four-line excerpt was denied on 2026-09-01.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "What item was admitted as State's Exhibit 14 at the preliminary hearing, under what rule was it offered, what objection was made, and what rulings were made about publishing any of its contents?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "`prelim-hearing-transcripts/day3.txt` 53:02\u201358:28; `2026-09-01_final-prelim-argument.txt`; `CR-E01`\u2013`CR-E06`"
+ },
+ {
+  "id": "s67-5",
+  "fact": "The Discord message from Robinson's account telling groupmates it was him at UVU and that he was surrendering through a sheriff friend is State's Exhibit 16.2 \u2014 screenshots taken from Lance Twiggs' phone and authenticated by Twiggs, with Discord records subpoenaed \u2014 and this file re-graded the item from Tier 4 (aggregator chain) to Tier 1 on that basis.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "What material was admitted as State's Exhibit 16.2 at the preliminary hearing, from whose device did it come, who authenticated it on the stand, and by what legal process were the underlying platform records obtained?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 \u2014 re-graded 2026-09-14 (P7), previously T4",
+  "likely_source": "`prelim-hearing-transcripts/day4.txt` ~02:52:39ff (Davis) and Twiggs' authentication testimony; `lance-twiggs-comprehensive-profile.md`; `CR-E20` exhibit map"
+ },
+ {
+  "id": "s67-6",
+  "fact": "The widely repeated ~10 p.m. 'custody' figure for 2025-09-11 derives from FBI Director Kash Patel's public arrest announcement rather than from any booking or arrest record, and it speaks to custody rather than to formal arrest.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "Who first stated the roughly 10 p.m. figure associated with Robinson on the night of 2025-09-11, in what kind of statement was it made, and does any booking, jail or arrest record in this library carry that same figure or that characterisation?",
+  "layer": "ANALYST",
+  "confidence_word": "T2 (named official statement, \u00a714 D)",
+  "likely_source": "Patel 2025-09-12 arrest announcement (\u00a714 D); Utah County inmate record (Booking No. 460956); Affidavit of Probable Cause `dc27880530`"
+ },
+ {
+  "id": "s67-7",
+  "fact": "The held sworn record describes the overnight interviews at the Washington County Sheriff's Office as being of the mother, the father and the family friend only; nothing in the reviewed record establishes that Robinson himself was interviewed there \u2014 the case agent testified only that he spoke with Robinson and obtained his name and date of birth. (A prior version of the library's record asserting that investigators interviewed Robinson and his father was withdrawn.)",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "According to the preliminary-hearing testimony, which people were interviewed at the Washington County Sheriff's Office during the overnight hours of 2025-09-11 into 09-12, and how did the case agent describe his own interaction with Robinson at that location?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 for the interviews; the Robinson item is a null scoped to WCSO and to the Day 3 transcript as read (Days 1, 2, 4, 5 not re-swept)",
+  "likely_source": "`prelim-hearing-transcripts/day3.txt` ~01:01:55\u201301:03:25 (Davis); `CR-E03`; `lance-twiggs-comprehensive-profile.md`"
+ },
+ {
+  "id": "s67-8",
+  "fact": "Robinson's phone was seized from his person before the SBI/FBI team arrived at WCSO, and the later collection at the Utah County Jail \u2014 clothing, buccal swabs for DNA, and 'major case' fingerprints and palm prints \u2014 followed the granting of a search warrant.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "By what authority and at what points in the custody sequence were Robinson's phone, clothing, DNA buccal swabs and fingerprint/palm-print exemplars obtained, according to the sworn testimony?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "`prelim-hearing-transcripts/day3.txt`/`day4.txt` (Davis on booking and processing); `files - DNA evidence/DNA-E01`; `CR-E19` (latent prints)"
+ },
+ {
+  "id": "s67-9",
+  "fact": "The Order to Hold Without Bail is an ex parte magistrate's determination signed by Judge Shawn R. Howell \u2014 sitting as district court judge but describing himself as 'the undersigned magistrate' \u2014 made on the State's own submission four days before the initial appearance and before any defence appearance; it finds probable cause for the warrantless arrest and orders pretrial detention, adjudicates no question of guilt, bears no case number, and Howell is not the judge later assigned to the case.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "Which judicial officer signed the order holding Robinson without bail, in what stated capacity, on what submission and with what participation by the defence \u2014 and what does that order determine as against what it does not?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 (held and read; \u00a714 A, `dc27880869`)",
+  "likely_source": "Order to Hold Without Bail `dc27880869` in `CR-ACQ-2026-07-27_court-record-artifacts/`; XChange case history (`CR-ACQ-2026-08-14C`) for the assignment of Judge Graf"
+ },
+ {
+  "id": "s67-10",
+  "fact": "The father-specific attribution in the State's surrender narrative \u2014 that it was at Robinson's father's request that the family friend met with Robinson and his parents \u2014 appears in the Information alone; the Affidavit of Probable Cause's parallel sentence attributes the outreach only to 'a family member,' so the father-specific version may not be cited to the charging documents generally, and neither document describes any report by the father to law enforcement.",
+  "section": "\u00a76 The surrender and arrest",
+  "check_question": "How does each of the two charging documents \u2014 the Information and the Affidavit of Probable Cause \u2014 describe who arranged for the retired-deputy family friend to become involved, and what does either say about any family member contacting law enforcement?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 (both documents held and read)",
+  "likely_source": "Information `dc27880532` and Affidavit of Probable Cause `dc27880530`; `CR-E08`; `files - Arrest chronology/robinson-surrender-timeline.md`"
+ },
+ {
+  "id": "s67-11",
+  "fact": "The State's Notice of Intent to Seek the Death Penalty is not held by this library: its filing is known only from the held XChange docket/minute entry and from the defence's filing citing it as Dkt. No. 10, so the record establishes that it was filed and when, and nothing about its contents or the State's stated reasons.",
+  "section": "\u00a77 Custody and procedural history",
+  "check_question": "Through which artifacts in this library is the State's Notice of Intent to Seek the Death Penalty known, is the document itself among the primary documents held and read, and what does each of those artifacts say about its contents?",
+  "layer": "ANALYST",
+  "confidence_word": "NOT held; filing established by docket line/minute entry; cited T1 via the defence's filing (`CR-E11` A-5)",
+  "likely_source": "\u00a714 A/B holdings tables; XChange case history printouts `CR-ACQ-2026-08-14C`; `CR-E11`"
+ },
+ {
+  "id": "s67-12",
+  "fact": "The 'Bail Order' entry appearing on the docket under 2025-09-16 is not a second bail order but Judge Howell's 2025-09-12 08:40 Order to Hold Without Bail reaching the docket; the minute entry for the initial appearance records no bail determination at all, only the remand to custody.",
+  "section": "\u00a77 Custody and procedural history",
+  "check_question": "What bail-related entries appear in the held XChange case history around the 2025-09-16 initial appearance, which underlying instrument does each correspond to, and what does the minute entry for that hearing record about bail?",
+  "layer": "ANALYST",
+  "confidence_word": "docket line / minute entry, present in both printouts independently (`CR-ACQ-2026-08-14C`); court-system output, generation route unconfirmed",
+  "likely_source": "XChange case history printouts `CR-ACQ-2026-08-14C` (both U+FFFE readings); Order to Hold Without Bail `dc27880869`; \u00a714 A dating note"
+ },
+ {
+  "id": "s67-13",
+  "fact": "The preliminary hearing was continued rather than concluded at the end of its five evidentiary days: on Day 5 the defence rested, the State expressly waived rebuttal, and Robinson personally declined to testify, closing the evidentiary record and leaving only argument for the final day.",
+  "section": "\u00a77 Custody and procedural history",
+  "check_question": "How did the fifth day of the preliminary hearing end \u2014 what did each side do at the close of evidence, what did the defendant say on the record about testifying, and what did the court schedule to follow?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "`prelim-hearing-transcripts/day5.txt`; `2026-09-01_final-prelim-argument.txt`; `CR-E01`\u2013`CR-E06`"
+ },
+ {
+  "id": "s67-14",
+  "fact": "The late-June 2026 civil contempt of a Deputy Utah County Attorney over public comments about the bullet fragment is known to this library only through reporting and has not been promoted: the ruling itself is held nowhere, the identity of the person held in contempt is not established by anything the library holds, and the one held artifact from that period \u2014 the c. 2026-06-22 status hearing transcript \u2014 carries no contempt finding.",
+  "section": "\u00a77 Custody and procedural history",
+  "check_question": "What contempt proceeding, if any, took place in the Robinson case in late June 2026 \u2014 who was its subject, what conduct was at issue, and what primary record of it exists or is held by this library?",
+  "layer": "RECORDING",
+  "confidence_word": "T1 via T3, not promoted (Q-65)",
+  "likely_source": "Contempt-related status hearing transcript banked 2026-08-14 (Rev slug `tyler-robinson-comtempt-hearing`); `CR-E09`; `DOCKET-WATCH.md` / `CR-WATCH-log.md`; the underlying Tier 3 reporting"
+ },
+ {
+  "id": "s8a-0",
+  "fact": "Both laboratories' DNA analysts (ATF and FBI) agreed \u2014 and the agreement was unqualified by them and unrebutted by any other witness or party \u2014 that neither can say what action deposited any DNA, or when; the document calls this the most consistent proposition in the entire body of evidence.",
+  "section": "\u00a78.1 The shape of it, in one paragraph",
+  "check_question": "In the Robinson preliminary-hearing record, what did each testifying DNA analyst say about whether they could determine how DNA came to be on an item and when it was deposited, and how did opposing counsel, the court, or any other witness respond to those statements?",
+  "layer": "ANALYST",
+  "confidence_word": "none attached in \u00a78.1 (stated flatly as 'unqualified and unrebutted'); \u00a7ES finding 3 repeats it with the same absolute framing",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2.txt' (FBI examiner) and 'day5.txt' (ATF Oliver); cross-check 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md'"
+ },
+ {
+  "id": "s8a-1",
+  "fact": "The checkable anchors of the forensic record (which item, which laboratory, which order of magnitude) are almost all verifiable and were reported approximately right, while the interpretive connections asserted between them are where the record and public accounts diverge \u2014 and they diverge in one direction, toward source attribution.",
+  "section": "\u00a78.1 The shape of it, in one paragraph",
+  "check_question": "Compare the forensic propositions the analysts gave on the record against how the same propositions appear in the parties' arguments and in public accounts. Report what differs, and characterise any pattern in the differences, or report that there is none.",
+  "layer": "ANALYST",
+  "confidence_word": "none attached; asserted as a pattern finding",
+  "likely_source": "Cross-file: 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md'; \u00a78.4 and \u00a710 of the target; prelim transcripts day2/day4/day5",
+  "question_repaired": true
+ },
+ {
+  "id": "s8a-2",
+  "fact": "The document marked State's Exhibit 30 is the ATF Laboratory's DNA report, and it is the report from which the eleven ratio-bearing ATF items in the \u00a78.2 table come.",
+  "section": "\u00a78.2 ATF Laboratory \u2014 State's Exhibit 30",
+  "check_question": "What document was marked State's Exhibit 30 at the Robinson preliminary hearing, which agency produced it, and what forensic discipline does it cover?",
+  "layer": "ANALYST",
+  "confidence_word": "\u00a714 B lists it as 'cited but NOT held' \u2014 so every citation to it is T1 via testimony/T3",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt' and 'day5.txt'; \u00a714 B of the target"
+ },
+ {
+  "id": "s8a-3",
+  "fact": "The ATF DNA report's likelihood-ratio conclusions were read into the record by Sgt. Faumuina, a non-expert police witness who did not author the report, and ATF DNA Section Chief Caitlin Oliver was examined about the same report on a later hearing day.",
+  "section": "\u00a78.2 ATF Laboratory \u2014 State's Exhibit 30",
+  "check_question": "Who read the ATF DNA report's statistical conclusions aloud at the Robinson preliminary hearing, what is that person's role and forensic expertise, and which ATF employee was later called to testify about that same report and in what capacity?",
+  "layer": "RECORDING",
+  "confidence_word": "none attached to the witness identifications themselves; caution 4 rests on Faumuina being 'one non-expert witness'",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt' (reading) and 'day5.txt' (Oliver examination)"
+ },
+ {
+  "id": "s8a-4",
+  "fact": "State's Exhibit 33 is a different report from Exhibit 30 \u2014 the ATF forensic-biology report on the Dremel tool and the cartridges/cartridge cases found in Robinson's home \u2014 and it was read into the record only in part.",
+  "section": "\u00a78.2 (scope block above the calculation table)",
+  "check_question": "What document was marked State's Exhibit 33 at the Robinson preliminary hearing, which agency and which physical items does it report on, and how much of its contents were read aloud?",
+  "layer": "ANALYST",
+  "confidence_word": "\u00a714 B lists Exhibits 31 and 33 as 'Not read' by this project; \u00a78.2 notes the exhibit's face has never been read by this library",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt' (approx. 05:33:30\u201305:35:41); \u00a714 B of the target; 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md' F-12"
+ },
+ {
+  "id": "s8a-5",
+  "fact": "This library has never read the face of either ATF exhibit (Exhibit 30 or Exhibit 33); their content reaches these files only through witnesses reading from them at the hearing, so no citation to them is direct primary-document reading.",
+  "section": "\u00a78.2 (scope block; caution 4)",
+  "check_question": "By what access path does the content of each ATF report reach this library's files, and what is the holding status of each report itself?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 via T3 marking rule applies; \u00a714 B calls Exhibit 30 'Read aloud in part; the item table at pp. 2\u20134 has never been read'",
+  "likely_source": "\u00a714 A and \u00a714 B of the target; the repo's held-artifact folders under 'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/'",
+  "question_repaired": true
+ },
+ {
+  "id": "s8a-6",
+  "fact": "Counsel expressly declined to have the remaining statistical-calculation paragraphs of the ATF forensic-biology report read aloud, so the ratios read into the record from that exhibit are a floor on its content, not a statement of what the exhibit contains; further numbered calculations were identified but their ratios never read.",
+  "section": "\u00a78.2 (scope block above the calculation table)",
+  "check_question": "Reconstruct the Day-4 examination on the ATF forensic-biology report: which numbered statistical calculations were reached, what was said about reading each, and what was stated for each on the record?",
+  "layer": "RECORDING",
+  "confidence_word": "flagged \ud83d\udea8 P9/P8 as a scope error class; 'two is a floor, not content'",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt' (approx. 05:34:45); 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md' F-12",
+  "question_repaired": true
+ },
+ {
+  "id": "s8a-7",
+  "fact": "The consumption/retention status of the ATF forensic-biology items (the Dremel-button swabs and the etched cartridge-case swabs) is not on the hearing record at all \u2014 the null is scoped to: the consumption/retention page the ATF witness was taken to was a page of Exhibit 30 that does not cover those item series; the stem 'consum' appears nowhere in the Day-4 transcript; and the only other consumption testimony in the record is the FBI examiner's, about FBI items.",
+  "section": "\u00a78.2 (scope block above the calculation table); echoed at \u00a78.4 finding 4",
+  "check_question": "What does the Robinson preliminary-hearing record state about whether the ATF biology items swabbed from the Dremel tool and from the home cartridge cases were consumed in testing or retained, and at what points in the record does any consumption-or-retention testimony occur?",
+  "layer": "ANALYST",
+  "confidence_word": "UNVERIFIED (\u00a715 register row); the document insists it is 'not on this record' and NOT 'they were retained'",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt' and 'day5.txt' (approx. 01:31:39/01:31:51); \u00a715 and \u00a716 of the target"
+ },
+ {
+  "id": "s8a-8",
+  "fact": "The swab of the rifle's trigger was collected together with the trigger guard as a single swab, and the ATF analyst said she would not be able to say where on that area the DNA came from; the sample carried multiple contributors with degradation, and the major profile was the most degraded of them.",
+  "section": "\u00a78.2 caution 1",
+  "check_question": "How was the swab covering the rifle's trigger area collected at the ATF laboratory, and what did the ATF analyst testify about locating the origin of the DNA on that swab and about the condition of the profiles it yielded?",
+  "layer": "RECORDING",
+  "confidence_word": "none attached in caution 1; carried into \u00a7ES finding 4 as a constraint on 'the strongest-sounding numbers'",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day5.txt' (Oliver); 'day4.txt' (Faumuina reading of the calculation)"
+ },
+ {
+  "id": "s8a-9",
+  "fact": "The largest stated ATF likelihood-ratio value is a reporting cap set by the laboratory's own practice, not a measured result \u2014 the laboratory will not report above it \u2014 so only the one non-capped figure in the table is an actual reported value.",
+  "section": "\u00a78.2 caution 3",
+  "check_question": "What does the ATF laboratory's reporting practice determine about the numerical values printed in its DNA likelihood-ratio conclusions, according to the testimony of its DNA section chief, and which values in this case were produced by that practice rather than by the calculation itself?",
+  "layer": "ANALYST",
+  "confidence_word": "none attached to caution 3 itself; \u00a7ES finding 4 and \u00a715 treat the cap/measurement distinction as the P8 pattern finding",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day5.txt' (Oliver on reporting limits); 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md'"
+ },
+ {
+  "id": "s8a-10",
+  "fact": "For five of the ATF item-to-location pairings, the mapping of which number belongs to which part of the rifle rests on Sgt. Faumuina's Day-4 reading alone; the Day-5 expert testimony corroborates the set of locations but does not corroborate which number goes with which location \u2014 the set is graded High, the five mappings Medium-high because they are single-sourced.",
+  "section": "\u00a78.2 caution 4",
+  "check_question": "Across the Robinson preliminary-hearing record, which witnesses stated which ATF DNA item numbers corresponded to which physical locations on the rifle, and did any witness other than the one who read the report supply those number-to-location pairings?",
+  "layer": "ANALYST",
+  "confidence_word": "'Confidence on the set: High. On the five mappings: Medium-high' \u2014 both need checking",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt' and 'day5.txt'; string search for the item designators across all five banked transcripts"
+ },
+ {
+  "id": "s8a-11",
+  "fact": "The FBI Laboratory examiner who testified, Amanda Bakker, reported that the swabs taken from the north-east corner of the Losee building yielded no DNA to compare against \u2014 there was nothing for her to compare to \u2014 and those swabs were entirely consumed.",
+  "section": "\u00a78.3 FBI Laboratory \u2014 examiner Amanda Bakker",
+  "check_question": "What did the FBI Laboratory examiner report for the swabs collected from the north-east corner of the Losee building, and what is the present physical status of those swabs?",
+  "layer": "ANALYST",
+  "confidence_word": "none attached in the \u00a78.3 table; carried into \u00a7ES finding 7 on consumption foreclosing re-testing",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2.txt' (Bakker testimony); 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md' \u00a76.2"
+ },
+ {
+  "id": "s8a-12",
+  "fact": "On the towel recovered from around the rifle, the FBI examiner described the named individuals as 'aligning' with mixture components rather than as being the source of them \u2014 her verb is 'aligned,' not 'was' \u2014 and one of the two contributors to that full profile is Lance Twiggs.",
+  "section": "\u00a78.3 (item 7, towel)",
+  "check_question": "When the FBI examiner described the DNA mixture on the towel recovered with the rifle, what terms did she use to relate each named individual to each mixture component, and did she state that either individual was the source of a component?",
+  "layer": "RECORDING",
+  "confidence_word": "\u26a0 flag on the verb; \u00a79 item 2 treats this as one of two FBI statement kinds, 'neither a source attribution'",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2.txt' (Bakker direct and cross); 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md'"
+ },
+ {
+  "id": "s8a-13",
+  "fact": "The backpack (FBI item 9) was processed for DNA but no DNA result was ever stated on the record for it, and two competing in-laboratory attributions of the item exist, neither of which the examiner adopted.",
+  "section": "\u00a78.3 (item 9, backpack)",
+  "check_question": "What DNA result, if any, did the FBI examiner state on the record for the backpack, and what did the record show about competing interpretations or attributions of that item within the laboratory?",
+  "layer": "ANALYST",
+  "confidence_word": "\u26a0 flagged as a null ('no DNA result was ever stated'); repeated at \u00a7ES 'No result was ever stated for the backpack'",
+  "likely_source": "'files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2.txt' (Bakker); 'files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md'"
+ },
+ {
+  "id": "s8b-0",
+  "fact": "The two FBI likelihood-ratio figures (the towel and the screwdriver) are ratios between two hypotheses that BOTH place Lance Twiggs among exactly two contributors \u2014 so the statistic never tests whether Twiggs is present, it presupposes it. Logged as discrepancy D-53.",
+  "section": "\u00a78.4 item 1 (conditioning problem)",
+  "check_question": "In the FBI examiner's likelihood-ratio calculations for the towel and the screwdriver items, what did each of the two competing hypotheses specify about who the contributors were, and was any named individual held constant across both hypotheses?",
+  "confidence_word": "D-53 (register entry); described as a 'structural finding'",
+  "layer": "ANALYST",
+  "likely_source": "prelim-hearing-transcripts/day2.txt (FBI examiner Bakker, likelihood-ratio passages); `files - DNA evidence/DNA-E01` \u00a73.x and the D-53 entry"
+ },
+ {
+  "id": "s8b-1",
+  "fact": "No alternative, unconditioned likelihood ratio for Robinson appears anywhere on the hearing record \u2014 none was put in evidence, offered, or requested of the witness, and counsel never asked what the Robinson figure would be without the elimination-contributor assumption; the record is therefore silent on the DIRECTION and SIZE of any effect of that assumption. The document frames this expressly as a null about the TRANSCRIPT, not about what the FBI laboratory did or did not compute.",
+  "section": "\u00a78.4 item 1 (the guard that runs the other way)",
+  "check_question": "What, if anything, do the banked preliminary-hearing transcripts contain about how the elimination-contributor assumption affected the magnitude of the Robinson likelihood ratios \u2014 including any figure stated for Robinson computed without that assumption \u2014 and what search was run to establish the scope of that answer?",
+  "confidence_word": "High (that the record is silent on direction and size of effect)",
+  "layer": "ANALYST",
+  "likely_source": "`DNA-E01` \u00a73.5; day2.txt and day2_condensed.txt via artifact_search.py under both U+FFFE readings (stems inflat/exaggerat/overstat)"
+ },
+ {
+  "id": "s8b-2",
+  "fact": "Defence counsel DID attack the elimination-contributor assumption by name on redirect, in accusatory terms, and the witness denied it \u2014 so what the record lacks is an asserted direction or size of effect, not any challenge at all. The document flags this as a qualification that must travel with the null above and may not be dropped.",
+  "section": "\u00a78.4 item 1 (qualification to the guard)",
+  "check_question": "On redirect of the FBI DNA examiner, how did counsel characterise the decision to assume an elimination contributor, and how did the witness respond to that characterisation?",
+  "confidence_word": "cited to `DNA-E01` \u00a73.3 and \u00a73.5 carrier 2; no grade attached",
+  "layer": "RECORDING",
+  "likely_source": "day2.txt redirect of examiner Bakker; `DNA-E01` \u00a73.3, \u00a73.5"
+ },
+ {
+  "id": "s8b-3",
+  "fact": "The number of contributors in a DNA mixture is the examiner's own subjective determination, which she inputs into the interpretation software; on FBI item 7 (the towel) that determination moved from three contributors to two, and the two-person call is not independent of the introduction of the elimination donor. Logged as D-54.",
+  "section": "\u00a78.4 item 2 (contributor count)",
+  "check_question": "How was the number of contributors for the FBI towel item arrived at, what role did the examiner versus the software play in that determination, and did the figure change at any point during her analysis?",
+  "confidence_word": "D-54 (register entry); no confidence grade attached",
+  "layer": "ANALYST",
+  "likely_source": "day2.txt (Bakker on contributor-number determination and STRmix/software input); `DNA-E01` D-54"
+ },
+ {
+  "id": "s8b-4",
+  "fact": "Both laboratories' analysts stated that neither could say what action deposited any DNA, or when \u2014 a position the document describes as unqualified and unrebutted by anyone \u2014 and the FBI analyst described a transfer mechanism during the State's OWN examination, not only on cross.",
+  "section": "\u00a78.4 item 3 (activity and transfer)",
+  "check_question": "What did each laboratory's DNA analyst say when asked whether they could determine what activity deposited DNA on an item and when it was deposited, which party's examination elicited the discussion of DNA transfer between persons or objects, and did any witness contradict those answers?",
+  "confidence_word": "'unqualified and unrebutted'; \u00a78.1 calls it 'the most consistent proposition in the entire body of evidence'",
+  "layer": "RECORDING",
+  "likely_source": "day2.txt (FBI examiner, direct examination) and day5.txt (ATF DNA Section Chief Caitlin Oliver); `DNA-E01`"
+ },
+ {
+  "id": "s8b-5",
+  "fact": "On the Day-5 consumption/retention testimony, the two halves of the consumed/retained split are NOT equally attested: the list of CONSUMED items is the witness's own unaided recitation, while the list of RETAINED items is counsel's recitation of the report page, carried by a one-word assent from the witness. An earlier form of the file wrongly called both 'Oliver's list.'",
+  "section": "\u00a78.4 item 4 (consumption)",
+  "check_question": "In the Day-5 ATF testimony about which State's Exhibit 30 items were consumed and which were retained, who spoke each list aloud \u2014 the witness or examining counsel \u2014 and what form did the witness's answer take in each instance?",
+  "confidence_word": "Medium-high (for the joined count); 'SUPPORTED' for the P8 arithmetic recompute",
+  "layer": "RECORDING",
+  "likely_source": "day5.txt at 01:31:39 and 01:31:51 (p. 8 of State's Exhibit 30 colloquy); `DNA-E01` \u00a76.2"
+ },
+ {
+  "id": "s8b-6",
+  "fact": "No latent-print examination of the rifle, the towel, or the screwdriver appears anywhere in the five-day preliminary-hearing record; the library states this as a scoped search null (search space stated, omnibus hits all opened), expressly NOT as 'no prints were found' and NOT as 'no examination occurred.'",
+  "section": "\u00a78.5 (latent prints)",
+  "check_question": "Across the five days of preliminary-hearing testimony, what latent-print examination of the rifle, the towel, or the screwdriver was described, and what search was run over the banked transcripts to determine the answer?",
+  "confidence_word": "scoped null \u2014 'that is not on this record'; absence called 'weak' evidence of absence",
+  "layer": "ANALYST",
+  "likely_source": "`CR-E19` (latent prints file) and its search log; artifact_search.py over day1\u2013day5 .txt"
+ },
+ {
+  "id": "s8b-7",
+  "fact": "Latent fingerprint reports are established to exist across three laboratories \u2014 FBI, ATF (two reports), and the Utah Bureau of Forensic Services \u2014 and none of their examiners reached the hearing; two of them are ATF's, the laboratory that held the rifle. The State said it would call no forensic examiner and proceeded by proffer, while the defence held all of the latent print reports and formally sought the ATF fingerprint specialist's live testimony.",
+  "section": "\u00a78.5 (latent prints)",
+  "check_question": "Which laboratories are established to have produced latent fingerprint reports in this case, which party possessed those reports, whether any of their examiners appeared at the preliminary hearing, and what did each party say about calling forensic examiners?",
+  "confidence_word": "'Established to exist' (\u00a714 B); citations are T1 via T3 for the unheld reports",
+  "layer": "ANALYST",
+  "likely_source": "`CR-E19`; `CR-E21` \u00a72 (2026-03-25 defence discovery letter); \u00a714 B of this profile; defence briefing `CR-E07`"
+ },
+ {
+  "id": "s8b-8",
+  "fact": "The 'I worry about prints' passage was read from State's Exhibit 16.1 \u2014 the Cellebrite phone extraction of text messages \u2014 by Agent Davis; an earlier form of this file attributed it to Discord, which is Exhibit 16.2, with Exhibit 16.3 being the photograph of notes. It is recording-layer only: a party's alleged statement, never citable as print evidence.",
+  "section": "\u00a78.5 (both directions logged \u2014 toward the State)",
+  "check_question": "Which State's exhibit and which communication platform was the passage about worrying over prints read from at the preliminary hearing, who read it, and how did the witness distinguish the 16.x sub-exhibits from one another?",
+  "confidence_word": "flagged '\ud83d\udee0 P7' as a corrected error; 'Recording layer only'",
+  "layer": "RECORDING",
+  "likely_source": "day4.txt 01:18:22 (16.1/16.2/16.3 breakdown) and 02:46:40 (Agent Davis reading); `CR-E02`"
+ },
+ {
+  "id": "s8b-9",
+  "fact": "Robinson was excluded on all three comparable window latent prints from the drop point, and the SAME stipulation records that the FBI's subsequent examinations of those three prints were inconclusive \u2014 so the exculpatory reading does not travel across them.",
+  "section": "\u00a78.5 (both directions logged \u2014 away from the State)",
+  "check_question": "What did the stipulation concerning the Losee-building window latent prints state about comparison of those prints to Robinson, and what did the FBI's later examinations of the same three prints conclude?",
+  "confidence_word": "cross-referenced to \u00a7ES finding 5 and \u00a79 item 4; `CR-E19` \u00a74",
+  "layer": "RECORDING",
+  "likely_source": "`CR-E19` \u00a74; the latent-print stipulation as read/filed in the hearing record (day1\u2013day5 .txt)"
+ },
+ {
+  "id": "s8b-10",
+  "fact": "Sgt. Jennifer Faumuina testified on direct that, working from higher-resolution footage obtained directly from UVU rather than the grainy command-post copy, investigators determined the person did not touch the window. The document limits this: it is an investigator's visual review of video, not an examiner's analysis; the defence did not cross-examine on the determination itself, but did establish on the same cross that the windows were processed the day after she first reviewed video of the suspect running toward the jump area and that the latents were taken as a genuine test to rule out whether the suspect had touched the window. No date appears anywhere on the record for when the better footage was obtained.",
+  "section": "\u00a78.5 (both directions logged \u2014 away from the State)",
+  "check_question": "What did Sgt. Faumuina testify on direct about video of the window on the northeast side of the Losee building \u2014 the footage's source and quality, what investigators concluded from it, and the sequence of that review relative to any processing of the window?",
+  "confidence_word": "flag F-4 (`CR-E19` \u00a74); the acquisition-date item is a re-checked scoped null",
+  "layer": "RECORDING",
+  "likely_source": "day4.txt 05:44:47 (direct) and 06:09:05\u201306:09:27 (cross); `CR-E19` \u00a74 and flag F-4",
+  "question_repaired": true
+ },
+ {
+  "id": "s8b-11",
+  "fact": "The ATF firearms/toolmark report in case 2025-W-000401 is the ONE laboratory report this library holds and has read directly \u2014 and it is held not as the admitted exhibit but as filed at Exhibit 2, pp. 25\u201329, of the defence's 2026-01-09 bullet-fragment motion, so the residual is completeness and redaction relative to the exhibit, not identity. Its equation to State's Exhibit 32 is an inference. State's Exhibit 34 is unread on every path, known only through the portion a witness read aloud. The report was text-illegible on disk for three months (Type 3 font, no ToUnicode map) and had to be rendered to be read.",
+  "section": "\u00a78.6 (firearms and toolmark)",
+  "check_question": "Which laboratory reports in this case does the library actually hold and read in full rather than through testimony, by what access path did each arrive, and what, if anything, stands between the held copy and the exhibit as admitted?",
+  "confidence_word": "Medium-high (the Exhibit 32 identification, 'as an inference'); \u00a714 A lists the report as held and read",
+  "layer": "ANALYST",
+  "likely_source": "`CR-E15` (the held ATF report PDF); \u00a714 A and \u00a714 B of this profile; the defence's 2026-01-09 bullet-fragment motion, Exhibit 2 pp. 25\u201329"
+ },
+ {
+  "id": "s8b-12",
+  "fact": "State's Exhibit 34, the ATF toolmark comparison, records that the Exhibit 15A engraving cutter was identified as having made the marks \u2014 answering the question the ATF firearms report (Exhibit 32) only posed, namely that the marks were of value for comparison if a suspect tool were located. Two different ATF reports, two different disciplines. Exhibit 34 also states that cartridge cases, including the five recovered from atop the safe, were identified as having been fired in the Exhibit 1 rifle, while the 'Exhibit 16' named in that same sentence is unidentified on this record \u2014 the witness could not say what it was. These are the ATF report's own item designators, not the court's State's Exhibit numbers, and Faumuina is not the examiner who performed either comparison; that examiner was never identified in the portion read.",
+  "section": "\u00a78.6 (the inscription convergence, limb (a))",
+  "check_question": "What conclusions did the ATF toolmark comparison report reach about the engraved markings and about the cartridge cases, how does that compare with what the ATF firearms report said about those same markings, and who was the examiner who performed the comparison?",
+  "confidence_word": "High that these paragraphs were read into the record; the exhibits' contents, completeness and the opinions' basis 'unestablished'",
+  "layer": "RECORDING",
+  "likely_source": "day4.txt 05:37:23, 05:38:31, 05:38:39, 05:39:06, 05:39:33, 05:40:07; `CR-E02` \u00a75.4b"
+ },
+ {
+  "id": "s8b-13",
+  "fact": "The likelihood-ratio figure read into the record for the Dremel does NOT attach to the engraving component: the toolmark comparison identified the longest metal bit as the cutter, and the DNA swab of the longest metal bit is a different item whose ratio was never read aloud \u2014 counsel expressly declined to have the remaining statistical calculations read. The join between the toolmark designator and the DNA swab designator is a cross-report inference. Exhibit 33's read results are also not its scope: further items had their locations identified and their ratios never read, and whom those items name is not on this record.",
+  "section": "\u00a78.6 (the inscription convergence, limb (b), limits 3 and 4)",
+  "check_question": "Which Dremel component did the ATF toolmark comparison identify as the engraving tool, which DNA swab item corresponds to that same component, and was a likelihood ratio for that swab read into the hearing record?",
+  "confidence_word": "cross-report inference \u2014 'anchor High, identity Medium-high'; flags `DNA-E01 F-24` and `F-25`",
+  "layer": "ANALYST",
+  "likely_source": "day4.txt 05:33:30, 05:34:08\u201305:34:45, 05:35:24\u201305:35:41, 05:39:33, 05:40:07; `DNA-E01` F-24, F-25; `CR-E02` \u00a75.4b"
+ },
+ {
+  "id": "s8b-14",
+  "fact": "The same Dremel-button swab that carries a Robinson figure also carries support for inclusion of Lance Twiggs, and the rifle's bolt and barrel swabs carry support for inclusion of Matthew Robinson; the ATF analyst framed this by saying it is reasonable to assume anyone living in the household could have contributed DNA to an object found in that household \u2014 an answer given about the Dremel, a household item, which the file says does not travel to the rifle swabs. Both named men are elimination-sample donors accused of nothing, and a support-for-inclusion statement is not a source attribution.",
+  "section": "\u00a78.6 (the counterweight)",
+  "check_question": "Besides Tyler Robinson, which other individuals did the ATF DNA results support including as contributors on the Dremel swabs and on the rifle swabs, in what capacity had those individuals given samples, and how did the ATF analyst explain the presence of household members' DNA?",
+  "confidence_word": "no grade stated; cited to `CR-E03` \u00a73.3 and `CR-E02` \u00a75.4b; governed by the living-persons block",
+  "layer": "RECORDING",
+  "likely_source": "day5.txt / day4.txt ATF DNA testimony; `CR-E03` \u00a73.3; `CR-E02` \u00a75.4b"
+ },
+ {
+  "id": "s8b-15",
+  "fact": "The handwritten note's addressee salutation reaches this library only through reporting \u2014 marked T1 via T3 \u2014 because no held primary document reproduces it: the Information quotes one line of the body, the note's first two paragraphs were read aloud from Ex. 16.3, and the Day-5 findings describe the reading, none carrying an addressee. This is expressly NOT a corpus-wide null: the name appears in Twiggs' own sworn Rule 1102 answer and twice in the State's 2026-09-01 closing argument, the latter being a prosecutor's characterisation in argument rather than a document. State's Exhibit 16.3 is a photograph of the note recovered from Twiggs' phone, published to the courtroom only and not for media capture, and the court's unopposed findings are that the displayed portion did not contain the full note and that the full note was read into the record; the full text was already lawfully public via a search warrant, so no unlawful courtroom capture is asserted.",
+  "section": "\u00a78.7 (digital and documentary \u2014 the note)",
+  "check_question": "What is State's Exhibit 16.3 as a physical artifact, how was it published in court, and what does each held primary document reproduce of the handwritten note's text? Report separately where the name 'Luna' occurs across the banked record.",
+  "confidence_word": "T1 via T3 (for the salutation); the three-occurrence search result marked '\ud83d\udee0 CORRECTED 2026-09-14'",
+  "layer": "ANALYST",
+  "likely_source": "Information `dc27880532`; day4.txt Ex. 16.3 reading; day5.txt findings; 2026-09-01_final-prelim-argument.txt (closing); artifact_search.py over all banked .txt under both U+FFFE readings",
+  "question_repaired": true
+ },
+ {
+  "id": "s9to12-0",
+  "fact": "The court presiding over the preliminary hearing never decided the Rule 702 scientific-reliability question as to the DNA evidence, even though that question was litigated across the five evidentiary days; the file scopes the null to scientific reliability and to DNA specifically, not to \"any forensic evidence.\"",
+  "section": "\u00a79 Nulls, item 1",
+  "check_question": "Across the five evidentiary days of the preliminary hearing in State of Utah v. Tyler James Robinson, what did the court decide, if anything, about the scientific reliability of the DNA evidence, and where in the record does any such decision appear?",
+  "layer": "ANALYST",
+  "confidence_word": "scoped null; carried from CR-E06 \u00a72.9 and DNA-E01 \u00a78.3",
+  "likely_source": "day1.txt\u2013day5.txt (Rev machine transcripts, CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/); CR-E06 \u00a72.9; files - DNA evidence/DNA-E01 \u00a78.3"
+ },
+ {
+  "id": "s9to12-1",
+  "fact": "Limb (b) of the same null \u2014 the assertion that the court DID rule on hearsay reliability on 2026-09-01 under a Rule 1102 admissibility standard \u2014 was carried from CR-E06 and the cycle-3 finder's method note and was NOT independently re-read against the primary transcript for this file; the file instructs that limb (b) be dropped if it fails to verify.",
+  "section": "\u00a79 Nulls, item 1(b)",
+  "check_question": "For the stretch of `2026-09-01_final-prelim-argument.txt` at roughly 08:00:22\u201308:06:54 concerning the reliability of hearsay the court relies on, which library file has read that stretch directly, and on what date?",
+  "layer": "ANALYST",
+  "confidence_word": "explicitly flagged as not independently re-read for this adjudication",
+  "likely_source": "CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/2026-09-01_final-prelim-argument.txt; CR-E06; the cycle-3 finder's method note"
+ },
+ {
+  "id": "s9to12-2",
+  "fact": "The library has never re-read the court's actual admission rulings from Days 1\u20134, which are the only thing that would settle whether the prosecutor's Day-5 characterization of prior gatekeeping rulings was accurate.",
+  "section": "\u00a79 Nulls, item 1(a)",
+  "check_question": "Which file in this library, if any, has read and recorded the court's evidentiary admission rulings from Days 1 through 4 of the preliminary hearing?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "CR-E06 \u00a72.9; day1.txt\u2013day4.txt; files - Court record/"
+ },
+ {
+  "id": "s9to12-3",
+  "fact": "The author of the FBI laboratory report, examiner Amanda Bakker, disclaimed under oath that the likelihood ratios in her report identify either Robinson or Twiggs as a source of the DNA \u2014 and the two ratios naming Robinson (on the towel and the screwdriver) were read into the record on Day 2 by Sgt. Faumuina, before the examiner was called; the examiner herself never uttered the figures.",
+  "section": "\u00a79 Nulls, item 2",
+  "check_question": "When the author of the FBI DNA report testified at the preliminary hearing, what did she say under oath about whether the likelihood ratios in her report identify anyone as a source of the DNA, and who had previously stated those ratios on the record?",
+  "layer": "RECORDING",
+  "confidence_word": "",
+  "likely_source": "day2.txt (Faumuina); the day of Bakker's testimony in day1.txt\u2013day5.txt; files - DNA evidence/DNA-E01; \u00a78.3\u20138.4 of this file; D-53"
+ },
+ {
+  "id": "s9to12-4",
+  "fact": "On the window latent prints, the stipulation records that Robinson was excluded as the source of all three comparable prints (11B, 11C, 11D) and that the FBI's subsequent examinations of those same three prints were inconclusive; the word \"identification\" appears nowhere in the hearing's print record.",
+  "section": "\u00a79 Nulls, item 4",
+  "check_question": "What conclusions were stated at the preliminary hearing about the comparable latent prints recovered from the window \u2014 both by the original examiner and by the FBI on re-examination?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "CR-E19 \u00a74 (latent prints); the stipulation as read in the hearing transcripts"
+ },
+ {
+  "id": "s9to12-5",
+  "fact": "Exactly one of the laboratory reports named in the defence's 2026-03-25 discovery letter is held and read by this library \u2014 the ATF firearms report of 2025-09-17, filed at CR-E15; no court exhibit list is held, and no file in the library asserts that any exhibit set is complete.",
+  "section": "\u00a79 Nulls, item 7 (and \u00a712 item 2)",
+  "check_question": "Of the laboratory reports listed in the defence's 2026-03-25 discovery letter, which ones has this library actually obtained and read, where are they filed, and does the library hold the court's exhibit list?",
+  "layer": "ANALYST",
+  "confidence_word": "per-row High; total UNVERIFIED and deliberately unnumbered; D-70 OPEN",
+  "likely_source": "CR-E21 \u00a72 (discovery census); CR-E15; \u00a714 A and \u00a714 B of this file; CR-ACQ-2026-07-27_court-record-artifacts/"
+ },
+ {
+  "id": "s9to12-6",
+  "fact": "Two Tier 1 witnesses addressed on different days whether bullets or cartridge cases were found on the Losee roof: Agent Dave Hull, testifying as head of the investigation with a knowledge hedge, and Officer Chris Bagley, the first officer onto the roof, who described having actively gone looking rather than reporting an incidental absence.",
+  "section": "\u00a79 Nulls, item 9",
+  "check_question": "Which witnesses at the preliminary hearing were asked about bullets or cartridge cases on the Losee roof, what was each witness's role at the scene or in the investigation, and how did each describe the search that produced his answer?",
+  "layer": "RECORDING",
+  "confidence_word": "Medium-high (grade assigned by CR-E04, expressly not promoted by Bagley's corroboration)",
+  "likely_source": "day2.txt 01:49:40\u201301:50:02 (Hull); day1.txt 04:11:10\u201304:11:57 (Bagley); CR-E04 \u00a75.1; CR-E05 \u00a73.3, \u00a77"
+ },
+ {
+  "id": "s9to12-7",
+  "fact": "Identification of the individual did not rest on the rooftop footage \u2014 Hull testified that the rooftop video as a standalone was not distinguishable, that identification rested on other cameras, and that the images released to the press were the stairwell/parking-garage sequence.",
+  "section": "\u00a79 Nulls, item 10",
+  "check_question": "According to the lead investigator's testimony at the preliminary hearing, which camera footage supported the identification of the individual on the roof, and which footage was the material released to the press?",
+  "layer": "RECORDING",
+  "confidence_word": "High as to the testimony; underlying facts bounded by Hull's knowledge",
+  "likely_source": "day2.txt 01:53:10\u201301:53:46; CR-E04 \u00a75.3"
+ },
+ {
+  "id": "s9to12-8",
+  "fact": "The formulation that the rooftop video showed \"no facial features, no clothing detail\" was defence counsel's proposition, not the witness's own words \u2014 Hull interposed that there had been a meeting to discuss a pattern on the front of the shirt observed as the individual jumped off the roof.",
+  "section": "\u00a79 Nulls, item 10 (both-directions log)",
+  "check_question": "In the Day 2 examination about the rooftop video's clarity, which speaker introduced the characterization about facial features and clothing detail, and what did the witness add in response about anything observed on the individual's clothing?",
+  "layer": "RECORDING",
+  "confidence_word": "",
+  "likely_source": "day2.txt 01:53:13; CR-E04 \u00a75.3"
+ },
+ {
+  "id": "s9to12-9",
+  "fact": "The Discord material was admitted at the preliminary hearing as State's Exhibit 16.2 \u2014 screenshots taken from Lance Twiggs' own phone of the group thread, authenticated by Twiggs, who identified the account \u2014 Agent Davis testified that law enforcement subpoenaed Discord and recovered the messages, and the court relied on the exhibit in its oral findings; the file re-grades this to T1, correcting an earlier \"Tier 4 provenance chain\" characterization.",
+  "section": "\u00a710 Media narratives \u2014 the Discord message row",
+  "check_question": "What was admitted as State's Exhibit 16.2 at the preliminary hearing, who authenticated it and on what basis, what did the investigating agent testify about how the underlying messages were obtained, and did the court rely on it in its findings?",
+  "layer": "ANALYST",
+  "confidence_word": "RE-GRADED T1 (P7, 2026-09-14)",
+  "likely_source": "hearing transcripts covering Twiggs' and Agent Davis' testimony (day1.txt\u2013day5.txt); the court's oral findings in 2026-09-01_final-prelim-argument.txt; lance-twiggs-comprehensive-profile.md"
+ },
+ {
+  "id": "s9to12-10",
+  "fact": "The three-way outlet conflict over courtroom-recording redaction length is not an unresolved conflict: this library resolved it at Tier 1 on 2026-08-16 and corrected it 2026-08-17 in `lance-twiggs-comprehensive-profile.md` \u00a77.2, reading day3.txt/day4.txt directly, and found the court also released some time back to publication and ordered three further redactions that no outlet reported \u2014 including a video-only cut and two cuts kept from the courtroom as well as from broadcast.",
+  "section": "\u00a710 Media narratives \u2014 redaction-length row",
+  "check_question": "Reconstruct, from the Day-3 and Day-4 transcripts, every redaction the court ordered to the courtroom recording \u2014 the timecodes, the medium each applied to, and any later modification \u2014 and separately report what outlet reporting stated about redaction length.",
+  "layer": "ANALYST",
+  "confidence_word": "RESOLVED AT TIER 1 by this library",
+  "likely_source": "lance-twiggs-comprehensive-profile.md \u00a77.2; day3.txt; day4.txt; NewsNation, The Post Millennial and Front Page Detectives reporting",
+  "question_repaired": true
+ },
+ {
+  "id": "s9to12-11",
+  "fact": "On the \"defence no longer contests commission\" claim, the library's both-directions sweep read six outlets besides Townhall \u2014 Deseret/KSL (counted as one syndicated piece), AP, UPI, HotAir, RedState and Eastern Herald \u2014 and expressly cleared all six, with three stating the point correctly; the file concludes outlet orientation did not predict accuracy.",
+  "section": "\u00a710 Media narratives \u2014 Townhall row",
+  "check_question": "Besides Townhall, which outlets did this library examine on the question of what the defence's preliminary-hearing brief argues, and what was the outcome for each?",
+  "layer": "ANALYST",
+  "confidence_word": "resolved in part, narrowly, against one named carrier; CR-E07 F-14/F-18; D-59 resolved in part 2026-08-13",
+  "likely_source": "CR-E07 (F-14, F-18); D-59 register entry; the outlet pieces themselves (Townhall, Amy Curtis 2026-08-12; Deseret/KSL; AP; UPI; HotAir; RedState; Eastern Herald)"
+ },
+ {
+  "id": "s9to12-12",
+  "fact": "At the conclusion of the preliminary hearing the court bound all seven counts over for trial \u2014 Counts 1\u20136 at the degrees charged and Count 7 as a reclassified misdemeanor under \u00a7 76-3-203.14(3)(a)(ii) \u2014 and then entered a single consolidated order naming every count and the sentencing allegation attaching to each; the ruling did not carry the pleading through unchanged.",
+  "section": "\u00a711 Case posture \u2014 the bindover",
+  "check_question": "How did the court dispose of each of the seven counts at the conclusion of the preliminary hearing, at what degree for each, and in what form did it enter the ruling?",
+  "layer": "RECORDING",
+  "confidence_word": "cap lifted from T1 via T3 to transcript grade on 2026-09-14",
+  "likely_source": "CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/2026-09-01_final-prelim-argument.txt; \u00a74 of this file"
+ },
+ {
+  "id": "s9to12-13",
+  "fact": "Arraignment followed in the same 2026-09-01 session: counsel waived reading of the Information and entered pleas of not guilty to all counts on Robinson's behalf, and the court found the waiver knowing and voluntary; a pretrial conference was set, with the court stating trial dates would be set at that hearing.",
+  "section": "\u00a711 Case posture \u2014 arraignment",
+  "check_question": "What proceedings followed immediately after the bindover ruling in the same session, what was waived, what pleas were entered and by whom, and what did the court say about when trial dates would be set?",
+  "layer": "RECORDING",
+  "confidence_word": "machine transcript, newly acquired, not yet verification-cycled; speaker labels unreliable by standing hazard",
+  "likely_source": "2026-09-01_final-prelim-argument.txt"
+ },
+ {
+  "id": "s9to12-14",
+  "fact": "No written bindover order or minute entry from 2026-09-01 has been located, and the earlier \"reported published 2026-09-02\" formulation is withdrawn as unsourced \u2014 it entered the file from a cloud watch-run report that the library's own verification had already refuted; the 2026-09-02 verification that graded \"written ruling available\" unsupported was itself run before the court's stated 24-hour filing window had expired, and the two routes that would settle it were unreadable.",
+  "section": "\u00a711 Case posture \u2014 grade change; \u00a712 item 1; \u00a714 B",
+  "check_question": "What retrieval attempts have been made for a written ruling or minute entry from the 2026-09-01 hearing, by what route, at what date and time, and with what result? Separately, what did the court state on the record about filing a written ruling?",
+  "layer": "ANALYST",
+  "confidence_word": "scoped null, not an established absence; \"written ruling available\" graded unsupported, 2/2 skeptics refuting",
+  "likely_source": "DOCKET-WATCH.md; CR-WATCH-log.md; the 2026-09-02 verification run and the cloud watch-run report; Utah Fourth District Court docket for 251403576",
+  "question_repaired": true
+ },
+ {
+  "id": "s9to12-15",
+  "fact": "Robinson's date of birth was a FALSE NULL in an earlier form of the open-questions list: the value is held at Tier 1 on the faces of two documents the library already lists as held and read \u2014 the Information (`dc27880532`) and the Affidavit of Probable Cause (`dc27880530`) \u2014 and is corroborated in four further banked artifacts; the value is deliberately not reproduced in the file.",
+  "section": "\u00a712 Open questions, item 4",
+  "check_question": "Which primary documents held and read by this library, if any, carry Tyler Robinson's date of birth on their face, and how was that determined?",
+  "layer": "ANALYST",
+  "confidence_word": "T1",
+  "likely_source": "CR-ACQ-2026-07-27_court-record-artifacts/ \u2014 `dc27880532` (Information, 2025-09-16) and `dc27880530` (Affidavit of Probable Cause, 2025-09-16); \u00a714 A of this file"
+ },
+ {
+  "id": "s14-0",
+  "fact": "Of the laboratory reports named in the defence's 2026-03-25 discovery letter, exactly one is held and read by this library as a banked primary PDF \u2014 the ATF Forensic Science Laboratory firearms/toolmark report (case 2025-W-000401), which \u00a714 A lists as held and \u00a714 B calls \"the one row of this census that is not T1 via T3.\" Its PDF could not be read by text extraction (Type 3 font, no ToUnicode map) and had to be rendered as an image.",
+  "section": "\u00a714 A / \u00a714 B (discovery-census row)",
+  "check_question": "Of the laboratory reports named in the defence's 2026-03-25 discovery letter in State v. Robinson, is any banked as a primary document in this repository \u2014 and if so, which one, and by what method was its text obtained from the PDF?",
+  "layer": "ANALYST",
+  "confidence_word": "held and read; \"not T1 via T3\"; per-row laboratory/date/identifier at High",
+  "likely_source": "`CR-ACQ-2026-07-27_court-record-artifacts/`; `CR-E15`; `CR-E21` \u00a72; the render-don't-grep memory note"
+ },
+ {
+  "id": "s14-1",
+  "fact": "This library holds the Public Safety Assessment Report only as an existence-and-timestamp record; its contents are withheld in full by owner policy, so no substantive claim in this file can rest on it.",
+  "section": "\u00a714 A",
+  "check_question": "What does this repository actually possess of the Public Safety Assessment Report filed in the Robinson case, and what is recorded about access to its contents?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "`CR-ACQ-2026-07-27_court-record-artifacts/` (dc27880877); \u00a713 holdings list"
+ },
+ {
+  "id": "s14-2",
+  "fact": "The Utah County inmate record's PDF text layer is OCR garble, so every figure this library cites from that document was read off the rendered page rather than extracted from text \u2014 an access-path dependency, not a transcription of machine text.",
+  "section": "\u00a714 A",
+  "check_question": "When a value is cited in this library from the Utah County inmate record for Robinson, from what form of that document was it read, and what is the condition of the PDF's text layer?",
+  "layer": "ANALYST",
+  "confidence_word": "",
+  "likely_source": "the banked inmate-record PDF (Booking No. 460956) in the court-record artifacts folder; `files - Arrest chronology/robinson-surrender-timeline.md`"
+ },
+ {
+  "id": "s14-3",
+  "fact": "No written bindover order or minute entry from the 2026-09-01 hearing is held or has been located anywhere, despite the court stating on the record that it would file the written ruling; the file's earlier assertion that such a ruling was published has been withdrawn as unsourced.",
+  "section": "\u00a714 B",
+  "check_question": "As of 2026-09-14, has any written order or minute entry memorializing the bindover decision in State v. Robinson been located on a docket or in a public repository, and what did the court say on the record about filing one?",
+  "layer": "ANALYST",
+  "confidence_word": "Not held; T1 via T3 for every citation to it; WITHDRAWN as unsourced",
+  "likely_source": "\u00a711 of this file; `2026-09-01_final-prelim-argument.txt`; Utah courts docket / `DOCKET-WATCH.md`"
+ },
+ {
+  "id": "s14-4",
+  "fact": "The State's opening probable-cause brief of 2026-07-28 is held nowhere by this library, and the only located mirror of it is a Scribd document that is gated behind a JavaScript challenge and therefore unretrievable.",
+  "section": "\u00a714 B",
+  "check_question": "Where, if anywhere, can the State's 2026-07-28 opening probable-cause brief in the Robinson case be retrieved, and what is the result of attempting retrieval from any mirror that has been located?",
+  "layer": "ANALYST",
+  "confidence_word": "Held nowhere; length figure SECOND_HAND; page limit SUPPORTED",
+  "likely_source": "Scribd doc 1067587104; the project's failed-retrieval / access-path log"
+ },
+ {
+  "id": "s14-5",
+  "fact": "State's Exhibit 30 is the ATF DNA report; it was read aloud only in part on the hearing record, and the item table it carries has never been read by this project \u2014 so every likelihood-ratio claim sourced to it reaches this library through witnesses reading an exhibit the library has not seen.",
+  "section": "\u00a714 B",
+  "check_question": "Which report was admitted as State's Exhibit 30 at the Robinson preliminary hearing, what forensic discipline does it cover, and which portions of it were read into the record versus left unread?",
+  "layer": "ANALYST",
+  "confidence_word": "T1 via T3; \u00a78.4's derived counts graded Medium-high",
+  "likely_source": "`day4.txt` / `day5.txt` transcripts; `DNA-E01` \u00a76.2; \u00a78.2 and \u00a78.4 of this file"
+ },
+ {
+  "id": "s14-6",
+  "fact": "State's Exhibit 34 is the ATF toolmark-comparison report, identified on the record but not read by this project; State's Exhibits 31 and 33 (FBI DNA and a further ATF DNA/forensic-biology report) are likewise unread.",
+  "section": "\u00a714 B",
+  "check_question": "What documents were marked as State's Exhibits 31, 33 and 34 at the Robinson preliminary hearing, and what subject matter does each of them cover?",
+  "layer": "ANALYST",
+  "confidence_word": "Not read; T1 via T3",
+  "likely_source": "`day4.txt` (\u224805:34\u201305:36) and `day5.txt`; `CR-E15`; `DNA-E01`"
+ },
+ {
+  "id": "s14-7",
+  "fact": "Latent fingerprint reports were produced in this investigation by the FBI, the ATF (two reports) and the Utah Bureau of Forensic Services; their existence is established, but none of them reached the preliminary hearing.",
+  "section": "\u00a714 B",
+  "check_question": "Which agencies produced latent fingerprint reports in the Robinson investigation, and were any of those reports offered, identified or admitted during the preliminary hearing?",
+  "layer": "ANALYST",
+  "confidence_word": "Established to exist; T1 via T3",
+  "likely_source": "`CR-E21` \u00a72 (2026-03-25 discovery letter); FBI Lab No. 2025-01779-5 / Case ID SU-4130859; \u00a78.5 of this file"
+ },
+ {
+  "id": "s14-8",
+  "fact": "The court's exhibit list is not held by this library, and it is the only artifact that could establish the completeness of any exhibit set \u2014 so no claim in this file about an exhibit set being complete can currently be supported.",
+  "section": "\u00a714 B",
+  "check_question": "What court record would establish the complete set of exhibits marked or admitted at the Robinson preliminary hearing, and is such a record available to this library?",
+  "layer": "ANALYST",
+  "confidence_word": "Not held",
+  "likely_source": "Fourth District Court docket for Case No. 251403576; `CR-ACQ-2026-07-27_court-record-artifacts/` inventory"
+ },
+ {
+  "id": "s14-9",
+  "fact": "No certified hearing transcript is held; every testimony citation in this file is mediated by a Rev machine transcript, and those transcripts are banked locally with SHA-256 hashes recorded.",
+  "section": "\u00a714 B / \u00a714 C",
+  "check_question": "What form of transcript underlies each testimony citation in this file, whether a certified transcript exists in this repository, and what provenance controls are recorded for the transcript files that are banked?",
+  "layer": "ANALYST",
+  "confidence_word": "Not held; machine-transcript dependence carried as an access-path caveat",
+  "likely_source": "`prelim-hearing-transcripts/day1.txt`\u2026`day5.txt`, `2026-09-01_final-prelim-argument.txt` and their `_raw.html`; the hash manifest"
+ },
+ {
+  "id": "s14-10",
+  "fact": "In the Rev machine transcripts, speaker labels are not evidence \u2014 witness answers are routinely attributed to examining counsel, so speakers must be inferred from content \u2014 and the in-line timestamps measure recording-stream elapsed time rather than wall-clock time.",
+  "section": "\u00a714 C (standing hazard)",
+  "check_question": "In the Rev transcripts of the Robinson preliminary hearing, how do the speaker attributions compare with the content of the answers they label, and what quantity do the in-line timestamps measure?",
+  "layer": "ANALYST",
+  "confidence_word": "Standing hazard",
+  "likely_source": "`day1.txt`\u2013`day5.txt` (sample any Q/A block); the rev-transcript-labels-unreliable memory note"
+ },
+ {
+  "id": "s14-11",
+  "fact": "Utah County Attorney Jeff Gray expressly declined to characterize Robinson's statements to his parents as a confession.",
+  "section": "\u00a714 D (Tier 2)",
+  "check_question": "When asked publicly about Robinson's reported statements to his parents, how did the Utah County Attorney characterize them?",
+  "layer": "RECORDING",
+  "confidence_word": "Tier 2 (named official statement)",
+  "likely_source": "Utah County Attorney press conference coverage, Sept 2025; \u00a75/\u00a76 of this file for the citation trail"
+ },
+ {
+  "id": "s14-12",
+  "fact": "The Factually.co piece of 2025-12-03 formerly cited in this file's Tier 4 list is about Lance Twiggs, not Robinson, and the \"born ca. 2002\u20132003\" range it carries is Twiggs' \u2014 the row was withdrawn on 2026-09-14 as a misattribution that imported a source about one person into another person's evidentiary profile.",
+  "section": "\u00a714 F",
+  "check_question": "Who is the subject of the Factually.co fact-check published 2025-12-03 under the media/fact-checks path, and whose birth-year range does that piece report?",
+  "layer": "ANALYST",
+  "confidence_word": "Tier 4; WITHDRAWN \u2014 MISATTRIBUTION",
+  "likely_source": "`https://factually.co/fact-checks/media/who-is-lance-twiggs-public-background-3320ad`; `lance-twiggs-comprehensive-profile.md` \u00a71.1"
+ },
+ {
+  "id": "s14-13",
+  "fact": "Robinson's date of birth is held at Tier 1 on the faces of two documents this library has read \u2014 the Information (dc27880532) and the Affidavit of Probable Cause (dc27880530) \u2014 so the withdrawn claim that an aggregator was the \"only source\" for his birth-year was false against disk; the affidavit's field label is capitalized (\"Date Of Birth\"), a lower-case regex returns a false null on it, and the value is deliberately not reproduced in the file.",
+  "section": "\u00a714 F",
+  "check_question": "Examine the face of each banked charging document and report which defendant-identifying fields are present, their field labels, and any extraction or search behaviour needed to retrieve them.",
+  "layer": "ANALYST",
+  "confidence_word": "T1; re-verified 2026-09-14",
+  "likely_source": "banked `.txt` of dc27880532 and dc27880530 in `CR-ACQ-2026-07-27_court-record-artifacts/`, via `artifact_search.py` `norm()` under both U+FFFE readings",
+  "question_repaired": true
+ }
+]

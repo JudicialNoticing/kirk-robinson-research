@@ -1,0 +1,938 @@
+[
+ {
+  "i": 19,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "The terms *antifa* and *groyper* return **zero hits in the library's source material** (re-run 2026-09-14 across every `.md` and `.txt`, banked artifacts included, under both readings of the `U+FFFE` split); ***manifesto*** returns **one** \u2014 in `CR-E14`, inside that file's own list of topics *absent* from the docket, and **not** as a description of any document attributed to Robinson; the exact string *radicalization* is **zero**, and *radicalization* is **zero as an asserted narrative** \u2014 \u26a0 **but not zero as a string: see \u00a72.2, where re-running these searches over the banked artifacts (not just the markdown files) falsified an earlier \"zero across the entire corpus\" claim in this very summary.** This is a scoped null about **acquisition priorities**, not a finding about him \u2014 no session has ever gone looking. (\u00a72.2) 2.",
+  "id": "X000"
+ },
+ {
+  "i": 30,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "timestamp",
+   "register"
+  ],
+  "sentence": "Faumuina testified on direct, from higher-resolution UVU footage obtained directly from the university, that as to the suspect and the window *\"We determined that he was not or he did not touch it\"* (`day4.txt` 05:44:47) \u2014 **an investigator's visual review of video, not an examiner's analysis, un-cross-examined, and undated, so it cannot be sequenced against the exclusion.** **The exclusion's weight is materially reduced in BOTH directions** (`CR-E19` F-4): an exclusion on prints nobody is said to have left proves little either way.",
+  "id": "X001"
+ },
+ {
+  "i": 47,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**The defence's own held filing contests identity on all seven counts as inadmissible hearsay and attacks the single aggravator as legally and factually insufficient (\u00a75A); the court bound over notwithstanding (\u00a711).** ### What is not established No court has adjudicated any fact here, and **no court has ruled on the *scientific reliability* of any forensic method or result** \u2014 that question was litigated at length on the DNA evidence and **expressly not decided** (`DNA-E01` \u00a78.3) \u2014 \u26a0 **while admissibility rulings under Rule 1102's reliable-hearsay standard are a different question and WERE made, over objection.** **No analyst attributed any DNA to Robinson as its source.** No witness stated who operated the rifle's bolt.",
+  "id": "X002"
+ },
+ {
+  "i": 57,
+  "kinds": [
+   "timestamp",
+   "xref"
+  ],
+  "sentence": "Recorded with attribution and adopted nowhere: his own sworn Rule 1102 answer (day4 02:32:01) that he went by Luna *\"to some people\u2026 but not as an overall thing.\"* **This file follows the court records' usage for traceability and takes no position on the dispute.** Owner of this claim: `lance-twiggs-comprehensive-profile.md` \u00a71.1. > **Amber Robinson and Matthew Robinson** appear in the forensic record as **elimination-sample donors** \u2014 persons whose profiles are obtained precisely so they can be identified and set aside \u2014 sought **because they were associated with the premises, not as suspects.** \u26a0 That framing must not be over-cleaned: there **are** support-for-inclusion results naming **Matthew Robinson** on rifle swabs (ATF items 1.4 and 1.6), and support-for-inclusion results naming **Lance Twiggs** on the Dremel tool.",
+  "id": "X003"
+ },
+ {
+  "i": 60,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "What stands in that gap is the record's own non-suspect framing above, and it may not be dropped, summarised away, or separated from these lines (`DNA-E01` \u00a72.2).** **Neither is accused of anything.** > **No home address, telephone number, or other contact detail of any private individual appears here**, and none may be added.",
+  "id": "X004"
+ },
+ {
+  "i": 72,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**No certified transcript OF THE PRELIMINARY HEARING is held** \u2014 every hearing-testimony citation here is mediated by a Rev machine transcript whose defects are catalogued in `DNA-E01` \u00a71.",
+  "id": "X005"
+ },
+ {
+  "i": 74,
+  "kinds": [
+   "sibling-file",
+   "register",
+   "xref"
+  ],
+  "sentence": "**Most laboratory reports are unheld.** **Fifteen forensic items across three laboratories** are named in the defence's 2026-03-25 discovery letter (`CR-E21` \u00a72) \u2014 \u26a0 **a row count, not a graded total** (`D-70`, `CR-E14` \u00a78, **OPEN**: the *Touhy* letter at Exhibit A of the same filing describes **three** reports by the ATF forensic biologist where the discovery letter's list gives **four**, so the set may be one fewer; each row's laboratory, date and identifier hold at **High**, the arithmetic of the set is **not graded**); **this library holds one** \u2014 the ATF firearms report of 2025-09-17.",
+  "id": "X006"
+ },
+ {
+  "i": 75,
+  "kinds": [
+   "sibling-file",
+   "register",
+   "xref"
+  ],
+  "sentence": "\u26a0 **The TOTAL is `UNVERIFIED` and is not stated here (\u00a716 SINK).** \ud83d\udee0 **P8, 2026-09-14:** an independent rebuild from the 2026-03-25 letter itself returned **16 items = 14 reports + 2 case files**, against this file's **15 = 13 + 2** and `CR-E21 F-1`'s own **15**, and against the same file's v1.0 row of **14 reports**.",
+  "id": "X007"
+ },
+ {
+  "i": 76,
+  "kinds": [
+   "sibling-file"
+  ],
+  "sentence": "**Four incompatible totals; the set does not rebuild.** What DOES rebuild, and is retained at **High**, is **each ROW's laboratory, date and identifier** \u2014 and that **exactly one item is held and read by this library** (the 2025-09-17 ATF firearms report, `CR-E15`).",
+  "id": "X008"
+ },
+ {
+  "i": 79,
+  "kinds": [
+   "sibling-file",
+   "dc-id"
+  ],
+  "sentence": "**A docket is held, but only through 2026-03-14.** Two Utah XChange case-history printouts \u2014 DocumentCloud `dc27880531` (31 pp.) and `dc27880533` (13 pp.), retrieved **2026-08-14** \u2014 are banked with hashes and read at the recording layer (`CR-ACQ-2026-08-14C`).",
+  "id": "X009"
+ },
+ {
+  "i": 82,
+  "kinds": [
+   "dc-id"
+  ],
+  "sentence": "**The charging documents are held and read directly \u2014 but the held copies are not court-stamped.** The **Information** (*\"Authorized for presentment and filing on September 16, 2025\"*) and the **Affidavit of Probable Cause of 2025-09-12** are in this library's possession, pulled from the **DocumentCloud open API** (`dc27880532` / `dc27880530`) on **2026-08-14** and banked with SHA-256 hashes.",
+  "id": "X010"
+ },
+ {
+  "i": 85,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 The served PDFs are **DocumentCloud re-renders, not the uploaded originals** \u2014 the banked SHA-256s are hashes of the re-renders, so comparison must run against the API `file_hash` values and never against the served bytes \u2014 and the **uploader's identity is not established**. (All per `CR-E08` \u00a71.) 7.",
+  "id": "X011"
+ },
+ {
+  "i": 86,
+  "kinds": [
+   "sibling-file"
+  ],
+  "sentence": "\ud83d\udea8 **The corpus-wide nulls in this file were not run under the library's validated search method.** Standing hazard 16 (`QUEUE.md`): **`U+FFFE`** \u2014 written by the extractor where the PDF holds a hyphen followed by a line break \u2014 sits **inside words in 15 of the 64 banked `.txt` artifacts**.",
+  "id": "X012"
+ },
+ {
+  "i": 93,
+  "kinds": [
+   "dc-id",
+   "xref"
+  ],
+  "sentence": "**Item 7 records a second, independent hazard \u2014 not the cause of that one.** --- ## \u00a72 \u00b7 Identity and personal background ### 2.1 What is established | Item | Content | Tier / Confidence | |---|---|---| | **Name** | Tyler James Robinson | **T1** \u2014 charging documents, court record | | **Age** | **22** at the time of the shooting (2025-09-10) | **T1 / High** \u2014 the defendant's **date of birth is printed in the caption of the held Information** (`dc27880532`) **and of the held Affidavit of Probable Cause** (`dc27880530`), both listed at **\u00a714 A** as held and read directly by this library, fixing his age at **22** on the offence date.",
+  "id": "X013"
+ },
+ {
+  "i": 104,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "Faumuina, live and cross-examined** (`day4.txt` 05:17:16: *\"That vehicle is, say, a gray-colored Dodge Challenger\"*).",
+  "id": "X014"
+ },
+ {
+  "i": 106,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "Hull described the DMV record for the vehicle as *\"silver in color\"* (`day1.txt` 06:33:32) \u2014 a variance this library has not previously recorded and does not resolve here | | **Booking number** | **460956**, Utah County Jail, booked **2025-09-12 at 07:58:15** | **T1 / High** \u2014 inmate record and affidavit carry the same number | | **Formal arrest** | **2025-09-12, about 04:00**, at the Washington County Sheriff's Office | **T1 / High** that 04:00 is the record's arrest time; **Medium-high** that it is exact rather than rounded (*\"about 4:00 AM, I believe\"*) | \u26a0 **A concordance warning that applies to the arrest time.** \u26a0 **A concordance warning that applies to the arrest time.** **Two** held documents carry the 04:00 field \u2014 the Utah County inmate record (*\"Arrested: 09/12/2025 | 04:00:00 AM\"*) and the Affidavit of Probable Cause (*\"On 09/12/2025 04:00 the defendant was arrested\"*).",
+  "id": "X015"
+ },
+ {
+  "i": 108,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "Read in full, the *Order to Hold Without Bail* carries NO arrest-time field at all:** it recites only *\"the affirmation of Brian Davis, the arresting officer,\"* finds the offence a capital felony, orders him held without bail, and is dated **September 12, 2025, signed 08:40:00 AM** \u2014 the order's own timestamp, not an arrest time.",
+  "id": "X016"
+ },
+ {
+  "i": 121,
+  "kinds": [
+   "transcript",
+   "timestamp",
+   "exhibit"
+  ],
+  "sentence": "\ud83d\udee0 **CORRECTED 2026-09-14 \u2014 the earlier form of this bullet omitted Exhibit 16.2 and understated the record against a T1 admitted exhibit.** On **Day 4 (2026-07-09)** Agent Brian Davis testified that Exhibit 16.2 is **photographs of Twiggs' phone** showing *\"the Discord messages that Lance had talked about,\"* taken by **Agent Larson** during Twiggs' first FBI interview and confirmed by Twiggs in his second; that Twiggs **identified Robinson as a participant in that thread** in both interviews and **named the Discord username Robinson used on it** \u2014 *\"the Tyler/Ikum, I-K-U-M\"*; that **law enforcement served a subpoena on Discord** and **the same messages were also recovered through the subpoena return**, which Davis reviewed; and that **the first message from \"Tyler\" on the exhibit was sent 2025-09-11 at 7:57 PM** (`day4.txt` 02:50:21\u201302:53:27).",
+  "id": "X017"
+ },
+ {
+  "i": 122,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "The exhibit was **admitted into evidence over standing defence objection and published to the gallery only, not for distribution on electronic media** (`day4.txt` 02:54:00\u201302:54:13).",
+  "id": "X018"
+ },
+ {
+  "i": 125,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "\u26a0 **Scope of what remains null:** re-run 2026-09-14 with `artifact_search.py` under both `U+FFFE` readings across every `.md` and banked `.txt` in the corpus, on *Steam, Reddit, Instagram, Facebook, Twitter/X, Snapchat, TikTok, YouTube, Twitch, Telegram, Tumblr, 4chan, Xbox, PlayStation, Roblox* \u2014 **no second platform, handle, account or posting history attributed to Robinson surfaced.** Every platform hit inside the hearing transcripts is Rev.com page furniture except Twiggs' own *\"one Instagram link a friend of mine had sent in our group chat\"* (`day4.txt` 02:27:28), and the *Steam* hits concern **Twiggs'** display-name question, not Robinson.",
+  "id": "X019"
+ },
+ {
+  "i": 138,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "Twiggs resided\"* (`day4.txt` 05:00:45), and her account of the layout attributes a separate bedroom to each of them (`day4.txt` 05:03:38\u201305:03:57); defence cross-examination began the same day (`day4.txt` 06:00:42).",
+  "id": "X020"
+ },
+ {
+  "i": 141,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "That was I think the first time I met him in person,\"* and he later described knowing Robinson **online first**, through a shared gaming friend group \u2014 *\"Way back when, when I was just out of high school, when I first knew him online, we played some shooting games together, but I didn't know him very well \u2026 he was someone that my friends invited.\"* (**T1** as to what the witness said \u2014 State's Ex. 16, `day4.txt` 02:12:55, 02:13:13, 02:29:57; his own *\"I think\"* hedge attaches to both the year and the in-person characterisation, and **the record does not date the online contact beyond that phrase**.) - They lived in the **same St.",
+  "id": "X021"
+ },
+ {
+  "i": 146,
+  "kinds": [
+   "transcript",
+   "timestamp",
+   "exhibit",
+   "xref"
+  ],
+  "sentence": "Did he ever talk about Charlie Kirk?\"* \u2014 he answered: ***\"I personally had never heard him talk about Charlie Kirk before specifically.\"*** (`day4.txt`, the Exhibit 16 video at **02:30:23\u201302:31:12** \u2014 recording-stream elapsed time, per \u00a714C.) \u26a0 **The qualifiers are his, and they are kept.** *\"I personally\"*, *\"specifically\"* and *\"I think\"* are in the answers; the syndicated paraphrases drop all three.",
+  "id": "X022"
+ },
+ {
+  "i": 172,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "exhibit",
+   "xref"
+  ],
+  "sentence": "**Everything else below is absent from both charging documents and comes from Agent Hull's Day 2 narration of Exhibit 12.4** (`CR-E04` \u00a74, from `day2.txt`): **~8:30 a.m.** \u2014 the vehicle *\"believed to belong to Mr.",
+  "id": "X023"
+ },
+ {
+  "i": 176,
+  "kinds": [
+   "transcript"
+  ],
+  "sentence": "Robinson\"* (`day2.txt`), *\"The vehicle we believe to belong to Mr.",
+  "id": "X024"
+ },
+ {
+  "i": 177,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "xref"
+  ],
+  "sentence": "Robinson\"* (`day1.txt`) \u2014 **no facial identification was offered**, and `CR-E05` \u00a74.5 records that *\"the four-campus-visits timeline rests **solely** on UVU surveillance review.\"* \ud83d\udea8 **This is load-bearing for \u00a74 and \u00a711.** The court's 2026-09-01 knowledge finding on the Count 1 aggravator rests on it: *\"Defendant was present in and around the event before the shooting.",
+  "id": "X025"
+ },
+ {
+  "i": 183,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 **No rendering is adopted here as the inscriptions' text** \u2014 a standing project instruction, carried in `CR-E08` \u00a75 as an unnumbered open item.",
+  "id": "X026"
+ },
+ {
+  "i": 189,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "Nothing further is reproduced. --- ## \u00a75A \u00b7 The defence's filed position \u2014 recording layer **Source: *Defendant Tyler James Robinson's Preliminary Hearing Briefing*, signed and served 2026-08-11, held and read (`CR-E07`).** \u26a0 **Provenance is two-of-three** \u2014 signature block and certificate of service present, **clerk file-stamp absent**: an outlet-hosted copy carrying the filer's own attestation, not a court-stamped filing (\u00a714 A).",
+  "id": "X027"
+ },
+ {
+  "i": 200,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "Twiggs is a private individual; that is recorded only to the extent needed to state what the contested enhancement turns on, attributed to the brief's characterisation of the State's position, adopted nowhere and not elaborated** (cf. \u00a75's closing note; `CR-E07` \u00a72.4).",
+  "id": "X028"
+ },
+ {
+  "i": 202,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 **RESIDUAL SCOPE, STATED: this section records ONE SIDE'S filing.** The State's **2026-07-28 opening brief is held nowhere** (\u00a79 item 7); its **2026-08-18 reply IS held and read at `CR-E17`**, but **its arguments are not recorded in this file** \u2014 a separate structural gap, not cured here. --- ## \u00a76 \u00b7 The surrender and arrest \ud83d\udea8 **THE CENTRAL FACT, AND IT IS OFTEN REPORTED BACKWARDS: Robinson was not identified by investigators.** Sworn testimony at the preliminary hearing confirmed that **law enforcement did not know the shooter's identity until Robinson surrendered**; the surveillance footage alone was insufficient to identify him.",
+  "id": "X029"
+ },
+ {
+  "i": 210,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "Both halves are withdrawn:** searched under both `U+FFFE` readings, the stems *characteriz*/*characteris* return **zero** \u2014 Gray never used the word in either direction. - The parents involve a **longtime family friend \u2014 a retired Washington County Sheriff's Office detective**, connected to the family through religious association, identified in hearing testimony as **\"Mitchell\"** and described on oath only as *\"a family friend, a good family friend\"* (Davis, day3 49:27) and as *\"known to the family\"* (Hull, day2 02:10:26).",
+  "id": "X030"
+ },
+ {
+  "i": 212,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "Did you know that?\"* (day2 02:10:35) \u2014 and the witness **neither adopted nor rejected it**: *\"I think I had heard that at some point.",
+  "id": "X031"
+ },
+ {
+  "i": 214,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "I don't recall specifically what it was\"* (Hull, day2 02:10:40).",
+  "id": "X032"
+ },
+ {
+  "i": 217,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "\ud83d\udea8 **NOT A GAP IN THE RECORD \u2014 A WITHHOLDING BY THIS FILE.** **The sworn record gives his full name in open court.** Asked *\"Who was that family friend?\"*, the witness answered with it (`day3.txt` 49:23) and used it again identifying the exhibit (`day3.txt` 53:21); the **State used it repeatedly in the 2026-09-01 argument** (02:28:36 and in closing).",
+  "id": "X033"
+ },
+ {
+  "i": 218,
+  "kinds": [
+   "transcript",
+   "exhibit"
+  ],
+  "sentence": "**His Rule 1102 written statement is State's Exhibit 14** \u2014 accepted into evidence at the preliminary hearing over the defence's standing Rule 1102 objection and **not published** (`day3.txt` 53:02\u201358:28), with publication of a four-line excerpt **denied again on 2026-09-01**.",
+  "id": "X034"
+ },
+ {
+  "i": 219,
+  "kinds": [
+   "transcript"
+  ],
+  "sentence": "**\"Mitchell\" is the surname** (`day3.txt` 53:21, *\"Mr.",
+  "id": "X035"
+ },
+ {
+  "i": 224,
+  "kinds": [
+   "transcript",
+   "exhibit"
+  ],
+  "sentence": "\ud83d\udea8 **T1 \u2014 RE-GRADED 2026-09-14 (P7).** **State's Exhibit 16.2**, screenshots from Twiggs' phone, **authenticated by Twiggs**; Discord was **subpoenaed**; **Agent Davis gave the time as 7:57 p.m. under oath** (`day4.txt` 02:52:39ff), and the court relied on it in its oral findings.",
+  "id": "X036"
+ },
+ {
+  "i": 234,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "George Police Department\"* (`day3.txt` 01:01:55), the State drawing the contrast itself \u2014 *\"we've heard of several people coming in and being spoken with at Washington County Sheriff's Office \u2026 Mr.",
+  "id": "X037"
+ },
+ {
+  "i": 236,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "George PD?\" \u2014 \"Correct.\"* (01:02:03\u201301:02:17).",
+  "id": "X038"
+ },
+ {
+  "i": 237,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "**That was the first of his TWO interviews**; the second was **2026-04-20 at the Utah County Attorney's Office** (`day3.txt` 01:03:25).",
+  "id": "X039"
+ },
+ {
+  "i": 238,
+  "kinds": [
+   "sibling-file"
+  ],
+  "sentence": "**T1** (`CR-E03`; `lance-twiggs-comprehensive-profile.md`).",
+  "id": "X040"
+ },
+ {
+  "i": 242,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "**07:58:15 \u2014 booked in**, Booking No. 460956. - **Processing.** His phone had been seized **from his person before** the SBI/FBI team arrived.",
+  "id": "X041"
+ },
+ {
+  "i": 243,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "At the jail, **after a search warrant was granted**, his clothing was recovered, **buccal swabs taken for DNA**, and *\"major case prints\"* \u2014 fingerprints and palm prints, *\"pretty much the entire hand\"* \u2014 collected. - **08:40:00 \u2014 ORDER TO HOLD WITHOUT BAIL.** Judge **Shawn R.",
+  "id": "X042"
+ },
+ {
+  "i": 256,
+  "kinds": [
+   "sibling-file",
+   "register",
+   "xref"
+  ],
+  "sentence": "Graf, Jr.** is assigned; the **WebEx initial appearance** is held before him at **3:00 p.m.** (audio tape count 3:01\u20133:14; defendant present and in custody \u2014 the Information read, indigency found, the **Public Defender appointed** with Rule 8 qualifications ordered, defendant remanded to the Utah County Jail); the **pretrial protective order** is granted on the State's oral request and signed by Judge Graf the same day \u2014 \u26a0 **Dkt. #14, a victim no-contact order under \u00a7 78B-7-803, NOT the pre-trial publicity order the 2026-06-26 contempt matter below concerned; two separate instruments with similar names, routinely conflated** (`CR-E09` F-30); and **the State files its *Notice of Intent to Seek the Death Penalty***, which the prosecutor notified the court of on the record at that hearing.",
+  "id": "X043"
+ },
+ {
+  "i": 257,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 **Grade and source:** every item in this bullet is a **docket line or the minute entry** of the held XChange case history, read directly under both `U+FFFE` readings and present in **both** printouts independently (`CR-ACQ-2026-08-14C`; \u00a71.5 \u2014 court-system output, not filings, generation route unconfirmed).",
+  "id": "X044"
+ },
+ {
+  "i": 258,
+  "kinds": [
+   "sibling-file"
+  ],
+  "sentence": "\u26a0 **The Notice itself is NOT held** (`CR-E11` A-5, where it is cited from the defence's filing as **Dkt.",
+  "id": "X045"
+ },
+ {
+  "i": 277,
+  "kinds": [
+   "transcript",
+   "exhibit"
+  ],
+  "sentence": "Faumuina's Day-4 reading alone \u2014 the same single-source limit as caution 4.** \ud83d\udea8 **Their consumption status is NOT on this record at all.** The consumption/retention page Oliver was taken to is **p. 8 of State's Exhibit 30**, which does not cover the 15.x or 18.x series; `day4.txt` contains the string `consum` **zero times**, and the only other consumption testimony in the record is the FBI examiner's, about FBI items.",
+  "id": "X046"
+ },
+ {
+  "i": 292,
+  "kinds": [
+   "sibling-file",
+   "register",
+   "xref"
+  ],
+  "sentence": "It presupposes it.** (D-53) \u26a0 **AND THE GUARD THAT RUNS THE OTHER WAY \u2014 A FINDING, NOT A FOOTNOTE (`DNA-E01` \u00a73.5).** **The record does not establish that assuming Twiggs inflated the Robinson likelihood ratio.** No alternative, unconditioned likelihood ratio for Robinson appears anywhere on this record \u2014 none was put in evidence, none offered, none requested of the witness, and counsel never asked what the Robinson figure would be without the assumption (`DNA-E01` \u00a73.5).",
+  "id": "X047"
+ },
+ {
+  "i": 294,
+  "kinds": [
+   "transcript"
+  ],
+  "sentence": "The stems ***inflat***, ***exaggerat*** and ***overstat*** return **zero hits in `day2.txt`** \u2014 re-verified **2026-09-14** with `artifact_search.py` under **both** readings of the `U+FFFE` split, over `day2.txt` and `day2_condensed.txt`.",
+  "id": "X048"
+ },
+ {
+  "i": 295,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "The witness's **unrebutted** answer on magnitude was that, for a **major** contributor, the three-to-two change *\"doesn't change the likelihood ratio of that major contributor by much\"* \u2014 *\"But it does change it, correct?\"* \u2014 *\"Yes.\"* (`day2.txt` **06:09:51\u201306:10:38**; \u26a0 her answer opens *\"It depends\"* and the concession is scoped to a major contributor).",
+  "id": "X049"
+ },
+ {
+  "i": 296,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "And **the defence never established that assuming an elimination contributor is improper practice rather than routine.** \u26a0 **The qualification travels with the guard and may not be dropped:** counsel **did** attack the assumption by name on redirect, in accusatory terms, **and the witness denied it** \u2014 what the record lacks is any asserted **direction or size of effect**, not any challenge at all (`DNA-E01` \u00a73.3, \u00a73.5 carrier 2).",
+  "id": "X050"
+ },
+ {
+  "i": 297,
+  "kinds": [
+   "sibling-file",
+   "register",
+   "xref"
+  ],
+  "sentence": "\u26a0 **And D-53 is a property to be carried, not a conflict to be resolved:** the examiner's account is a **recognised-practice claim, unrebutted on this record \u2014 which is not the same as verified** (`DNA-E01` \u00a73.6).",
+  "id": "X051"
+ },
+ {
+  "i": 306,
+  "kinds": [
+   "transcript",
+   "timestamp",
+   "exhibit"
+  ],
+  "sentence": "Thirteen ATF items carry stated ratios across this record:** the eleven above, **plus ATF items 15.1** (swabs of the Dremel's buttons) **and 18.1** (swabs of the etched *\"test shot\"* .30-06 cartridge case), both read from **State's Exhibit 33 \u2014 the ATF forensic-biology report on the Dremel and the home cartridge cases** (`day4.txt` 05:34:17 and 05:35:41).",
+  "id": "X052"
+ },
+ {
+  "i": 307,
+  "kinds": [
+   "transcript",
+   "exhibit"
+  ],
+  "sentence": "\u26a0 **The consumption status of those two is NOT on this record at all:** p. 8 of State's Exhibit 30 does not cover the 15.x or 18.x series, the stem `consum` returns **zero** across `day4.txt` under both readings of the `U+FFFE` split, and `15.1`/`18.1` return **zero** across `day5.txt`.",
+  "id": "X053"
+ },
+ {
+  "i": 308,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**\"Not on this record\" \u2014 not \"they were retained.\"** (`DNA-E01` \u00a76.2.) \u26a0 **Elimination samples from the investigators were requested and NOT received.** \u26a0 **THE RECURRING PUBLIC ERROR, NAMED.** The characteristic mistake downstream is the **transposed conditional** \u2014 restating a conditional likelihood ratio as *the probability that a named person is the source.* Four FBI/DOJ reporting limits were put to the FBI examiner and confirmed followed by her; **the constraint was broken downstream.** ### 8.5 Latent prints \u2014 and the exclusions \ud83d\udea8 **There is NO latent-print examination of the rifle, the towel, or the screwdriver anywhere in the five-day record.** Search space: **35,743 lines**, 26 omnibus hits, every one opened.",
+  "id": "X054"
+ },
+ {
+  "i": 313,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 **Recording layer only: a party's alleged statement, never citable as print evidence.** - *Away from the State:* the drop point produced **nothing inculpatory by two independent forensic routes** \u2014 **Robinson was EXCLUDED on all three comparable window prints**, and **all six** north-east-corner DNA swabs were consumed with **no DNA obtained.** \u26a0 **And that exclusion's weight is materially reduced in BOTH directions \u2014 neither direction is carried in this bullet as written.** (a) The same stipulation records that the FBI's **subsequent examinations of those three prints were *inconclusive***, so the exculpatory reading does not travel across them (as stated at \u00a7ES finding 5 and \u00a79 item 4; `CR-E19` \u00a74). (b) \ud83d\udea8 **The State's own witness testified that the person did not touch the window at all.** **Sgt.",
+  "id": "X055"
+ },
+ {
+  "i": 314,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "Jennifer Faumuina, on direct**, from higher-resolution footage obtained **directly from UVU** as against the *\"pretty grainy\"* command-post copy \u2014 *\"What was your determination?\"* \u2014 ***\"We determined that he was not or he did not touch it.\"*** (`day4.txt` 05:44:47).",
+  "id": "X056"
+ },
+ {
+  "i": 323,
+  "kinds": [
+   "transcript",
+   "timestamp",
+   "exhibit"
+  ],
+  "sentence": "Faumuina read: *\"The Exhibit 16 and Exhibit 18A through 18E cartridge cases were identified as having been fired in the Exhibit 1 rifle\"* (`day4.txt` **05:39:06**).",
+  "id": "X057"
+ },
+ {
+  "i": 324,
+  "kinds": [
+   "timestamp",
+   "exhibit"
+  ],
+  "sentence": "**18A\u201318E are the five casings from atop the safe** \u2014 the five in the bullet above (05:38:39); Exhibit 18 comprises those five fired .30-06 cases plus fifteen **unfired** .45 auto cartridges, 18F\u201318T (05:37:23).",
+  "id": "X058"
+ },
+ {
+  "i": 325,
+  "kinds": [
+   "timestamp",
+   "exhibit",
+   "xref"
+  ],
+  "sentence": "\u26a0 **These are the ATF report's own item designators, not the court's State's Exhibit numbers.** The *\"Exhibit 16\"* in that same sentence is **unidentified on this record** \u2014 the witness answered *\"I do not off the top of my head\"* (05:38:31) \u2014 and is **not** the State's Exhibit 16.3 of \u00a78.7.",
+  "id": "X059"
+ },
+ {
+  "i": 326,
+  "kinds": [
+   "sibling-file",
+   "timestamp",
+   "exhibit",
+   "xref"
+  ],
+  "sentence": "**(b) State's Exhibit 33 (the ATF biology report) put DNA figures naming Robinson on two items in that chain.** **ATF 15.1, swabs of the Dremel's buttons** \u2014 *\"at least one trillion times more likely if it originated from Tyler Robinson **as a contributor to the major component** and two unrelated, unknown individuals than if it originated from three unrelated, unknown individuals\"* (05:34:08, **05:34:17**) \u2014 and **ATF 18.1, the etched *\"test shot\"* .30-06 case from atop the safe** \u2014 the same sentence but ***\"as a major component\"*** (05:35:24\u2013**05:35:41**). (`CR-E02` \u00a75.4b.) \u26a0 **Four limits travel with (b), none of them optional.** **1. \u00a78.2's cap caution 3 applies:** both are the capped *\"at least one trillion\"* \u2014 a reporting cap, not a measurement.",
+  "id": "X060"
+ },
+ {
+  "i": 327,
+  "kinds": [
+   "transcript",
+   "exhibit",
+   "xref"
+  ],
+  "sentence": "**2. \u00a78.2's caution 4 applies, and harder.** The strings *\"15.1\"* and *\"18.1\"* each occur **once in the entire five-day record**, in Faumuina's Day-4 reading from an exhibit this library has never read; **Day 5 corroborates neither designator**, so unlike Exhibit 30's items these mappings are single-sourced **with no set-level corroboration behind them** *(search: both `U+FFFE` readings over every banked `.txt`, all five days plus the condensed files; one hit each, `day4.txt`)*.",
+  "id": "X061"
+ },
+ {
+  "i": 329,
+  "kinds": [
+   "timestamp",
+   "exhibit"
+  ],
+  "sentence": "Exhibit 33's read results are not its scope.** Asked what was tested, the witness answered *\"The Dremel tool, the bits' container, as well as the cartridges and cartridge casings we found in Tyler's home\"* (**05:33:30**).",
+  "id": "X062"
+ },
+ {
+  "i": 330,
+  "kinds": [
+   "sibling-file",
+   "timestamp",
+   "register"
+  ],
+  "sentence": "**Results exist on this record for 15.1 and 18.1 only**; **15.3 (cord), 15.5 (longest metal bit) and 15.6 (shortest metal bit) had their locations identified and their ratios never read** \u2014 counsel expressly declined them (*\"I'm not going to ask you to read those paragraphs for the rest of the statistical calculations,\"* 05:34:45) \u2014 and **whom those three name is not on this record**, nor is the consumption status of any of them (`DNA-E01 F-25`).",
+  "id": "X063"
+ },
+ {
+  "i": 332,
+  "kinds": [
+   "sibling-file",
+   "timestamp",
+   "register",
+   "exhibit"
+  ],
+  "sentence": "The trillion figure does NOT attach to the engraving component.** Exhibit 34 identified **Exhibit 15A, the longest metal bit** (05:39:33, 05:40:07); the DNA swab of the longest metal bit is **ATF 15.5, whose ratio was never read**, while the Dremel figure that *was* read is **15.1, the buttons.** The 15A\u219415.5 join is a **cross-report inference \u2014 anchor High, identity Medium-high** \u2014 and the witness supplying both descriptions could not identify ATF's Exhibit 16 (`DNA-E01 F-24`).",
+  "id": "X064"
+ },
+ {
+  "i": 333,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**No chain may be written so the trillion figure appears to attach to the engraving component.** \u2696 **And the counterweight travels in the same breath, not in another section.** **The Dremel's buttons \u2014 ATF 15.1, the same swab** \u2014 also carry **support for inclusion of Lance Twiggs**, and the rifle's bolt and barrel (ATF 1.4, 1.6) **support for inclusion of Matthew Robinson**, with the ATF analyst's own framing that *\"it's reasonable to assume that anyone living in the household could have contributed to DNA on an object found in that household\"* (`CR-E03` \u00a73.3; **the living-persons block above governs and its scope limits are not repealed here \u2014 that answer was given about the Dremel, a household item, and does not travel to the rifle swabs**).",
+  "id": "X065"
+ },
+ {
+  "i": 334,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**A chain described without them overstates** (`CR-E02` \u00a75.4b).",
+  "id": "X066"
+ },
+ {
+  "i": 335,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 **Both men are elimination-sample donors, accused of nothing; a support-for-inclusion statement is not a source attribution.** \u26a0 **Neither (a) nor (b) has been read by this project.** Exhibits 33 and 34 are known **only through the paragraphs one witness read aloud**, and **Faumuina is not the examiner who performed either comparison** \u2014 that examiner was never identified in the portion read (`CR-E02` \u00a75.4b).",
+  "id": "X067"
+ },
+ {
+  "i": 337,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "**The hedge is retired:** the report's author testified she cleaned the fragment and *\"peeled the petals back\"* and, asked what instrument she used, answered **\"I use pliers\"** (`day4.txt` 06:39:54).",
+  "id": "X068"
+ },
+ {
+  "i": 339,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**Confidence: High** (`CR-E01` \u00a73.2; `CR-ACQ-2026-07-27` \u00a73.2, *\"the hedge is retired\"*).",
+  "id": "X069"
+ },
+ {
+  "i": 342,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**No court has adjudicated any fact in this file.** The court made **no ruling on the scientific reliability of any DNA evidence** \u2014 a **Rule 702** question \u2014 which was **litigated at length across the five evidentiary days and never decided** (`CR-E06` \u00a72.9, `DNA-E01` \u00a78.3).",
+  "id": "X070"
+ },
+ {
+  "i": 343,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 **The null is scoped to scientific reliability and to the DNA evidence; it is not a claim about \"any forensic evidence,\" and it does not mean no reliability-flavoured ruling of any kind was made.** \u26a0 **Two things travel with this null under `CR-E06` \u00a72.9 and `DNA-E01` \u00a78.3, which make carrying them mandatory, and neither may be dropped.** **(a) The State's contrary on-record characterisation.** In a **pre-testimony record made on Day 5 before the ATF analyst was called**, the prosecutor told the court: *\"As a gatekeeper, the court has found it reliable.",
+  "id": "X071"
+ },
+ {
+  "i": 345,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "timestamp",
+   "xref"
+  ],
+  "sentence": "The exhibits have been found reliable\"* \u2014 so further reliability questions *\"are really questions of credibility of the witness and weighing of the evidence.\"* **That is a party's characterisation of prior rulings made in argument, NOT a ruling, and it is adopted by no one here** (`day5.txt` **01:08:08**; speaker established functionally from the court's adjacent address, not from the Rev label \u2014 `CR-E06` \u00a71.2, \u00a73.0).",
+  "id": "X072"
+ },
+ {
+  "i": 346,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 **What would settle whether the characterisation is accurate is not held:** the court's **actual admission rulings across Days 1\u20134**, which **no file in this library has re-read** (`CR-E06` \u00a72.9).",
+  "id": "X073"
+ },
+ {
+  "i": 347,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "xref"
+  ],
+  "sentence": "\u26a0 **The colloquy it sits in produced no ruling either:** the same record announced *\"a likely forthcoming standing objection\"* if the defence's examination reached Rule 702 territory; the defence answered that the State had already told it there would be **no** standing objection and that the point was waived or estopped; **no standing objection was ever lodged, and no waiver or estoppel ruling was sought, made or raised again** (`CR-E06` \u00a73.0 \u2014 scoped null, `/standing objection/` over `day5.txt` = 5 hits, all inside that one colloquy).",
+  "id": "X074"
+ },
+ {
+  "i": 348,
+  "kinds": [
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "\u26a0 **The defence's separate *\"law of this case\"* argument is NOT part of this exchange** \u2014 it was made on **Day 2** (`day2.txt` 06:05:02) and again in the **2026-09-01** closing (04:52:33), and what counsel there called the court's ruling is **document 631**, whose held words are narrower than counsel's paraphrase: *\"The presumption of reliability is confined to the presumption that the hearsay evidence is admissible\u2026 The magistrate still retains the ultimate decision-making authority on whether probable cause has been established.\"* **(b) The court DID rule on hearsay reliability, and that is a different question.** On **2026-09-01** it held that *\"[a]ny other hearsay in which the Court relies must independently satisfy subsection (b)(9), including its reliability requirement.",
+  "id": "X075"
+ },
+ {
+  "i": 349,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "timestamp"
+  ],
+  "sentence": "The Court relies only on hearsay satisfying these requirements\"* \u2014 \u26a0 **a Rule 1102 admissibility standard, not a finding that any forensic method is scientifically sound.** *(Verify this quotation against `2026-09-01_final-prelim-argument.txt` 08:00:22\u201308:06:54 before publishing; it is carried from `CR-E06` and the cycle-3 finder's method note and was **not** independently re-read in this adjudication.",
+  "id": "X076"
+ },
+ {
+  "i": 350,
+  "kinds": [
+   "transcript"
+  ],
+  "sentence": "If it does not verify, drop limb (b) and leave (a) standing.)* *(Quote in (a) verified directly 2026-09-14 by `artifact_search.py` \u2014 both U+FFFE readings \u2014 over `day1`\u2013`day5` and `2026-09-01_final-prelim-argument.txt`: `/gatekeep/` = 0, 0, 5, 0, **1**, 0; the five Day-3 hits are the court describing its own roles and contain no finding of reliability. `/law of (this|the) case/` over the same six = 2 hits, day2 and 09-01 only, neither on Day 5.)*\" 2.",
+  "id": "X077"
+ },
+ {
+  "i": 356,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "The total number of latents observed on the window is never stated on the record, and the residual \"other prints\" is never counted, so no file may write \"three of N\" or express this as a share**, and the same stipulation records that *\"[s]ubsequent examinations of these three latent or actual latent prints by the FBI were **inconclusive**\"* (`CR-E19` \u00a74).",
+  "id": "X078"
+ },
+ {
+  "i": 360,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**The State's opening brief is held nowhere**; of the laboratory reports named in the defence's 2026-03-25 discovery letter, **all but one remain unread** \u2014 \u26a0 **the total is `UNVERIFIED` and deliberately not numbered here (\u00a716 SINK)** \u2014 the exception is the **ATF firearms report of 2025-09-17**, held and read at `CR-E15` \u2014 and the letter's **two undated FBI DNA case files** are unread also, so **fourteen of its fifteen items remain unread** (\u00a71 item 4).",
+  "id": "X079"
+ },
+ {
+  "i": 365,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "timestamp",
+   "xref"
+  ],
+  "sentence": "**Agent Dave Hull**, asked *\"as the head of the investigation\"* whether *\"they ever find any bullets or casings anywhere on the Losee roof\"*, and then *\"[i]mmediately around the Losee building\"* \u2014 ***\"Not to my knowledge, no\"***, to each (`day2.txt` 01:49:40\u201301:50:02; `CR-E04` \u00a75.1).",
+  "id": "X080"
+ },
+ {
+  "i": 366,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "timestamp",
+   "xref"
+  ],
+  "sentence": "**Officer Chris Bagley**, first officer onto the roof, was not reporting an incidental absence: being *\"around guns and snipers all the time\"* he **went looking** \u2014 *\"I was looking over the edge, looking all over the place\"* \u2014 and answered ***\"As a matter of fact, no\"***; asked whether he found *\"any unshot bullets\"*, ***\"No\"*** (`day1.txt` 04:11:10\u201304:11:57; `CR-E05` \u00a73.3).",
+  "id": "X081"
+ },
+ {
+  "i": 367,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "\u26a0 **A purposive negative search is a stronger evidentiary fact than an incidental absence** (`CR-E05` \u00a77).",
+  "id": "X082"
+ },
+ {
+  "i": 368,
+  "kinds": [
+   "sibling-file",
+   "register",
+   "exhibit",
+   "xref"
+  ],
+  "sentence": "**Scope, and it is narrow in three directions.** (a) Hull's half carries his own *\"not to my knowledge\"* hedge and his March 2026 change of post; Bagley's carries his own *\"at that moment.\"* (b) **The null is bounded to the Losee building** \u2014 it is **not** a null about bullet evidence in the case: a **bullet jacket fragment (ATF Exhibit 6A)** was examined and came back **inconclusive**, and **its provenance is expressly not established by anything this library holds** (`CR-E15` F-97, N-3); a live **.223 round on the Computer Science roof** was found and accounted for as an officer's ejected round (`CR-E04` \u00a75.2). (c) **Confidence: Medium-high** \u2014 the grade `CR-E04` assigned, **not promoted** by Bagley's corroboration.",
+  "id": "X083"
+ },
+ {
+  "i": 370,
+  "kinds": [
+   "sibling-file",
+   "transcript",
+   "timestamp",
+   "xref"
+  ],
+  "sentence": "**The rooftop footage identifies nobody.** Asked whether *\"the video on the roof was not distinguishable\"*, Hull confirmed of *\"that video as a standalone\"* \u2014 ***\"It was not, no.\"*** Identification rested on **other cameras**; the images **released to the press** were the **stairwell/parking-garage** sequence (`day2.txt` 01:53:10\u201301:53:46; `CR-E04` \u00a75.3).",
+  "id": "X084"
+ },
+ {
+  "i": 371,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "Asked whether an actual gun is visible \u2014 ***\"No\"*** (01:56:19\u201301:56:23); his account is of *\"an object in his hand that's concealed, or in a bag... long\"* that *\"could be a firearm.\"* \u26a0 **Logged under the both-directions rule, because it cuts the other way:** the *\"no facial features, no clothing detail\"* formulation is **defence counsel's proposition, not the witness's words** \u2014 Hull interposed that *\"there was a meeting to discuss perhaps a pattern on the front of the shirt that was observed when the individual was jumping off of the roof\"* (01:53:13).",
+  "id": "X085"
+ },
+ {
+  "i": 372,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "**Two further nulls sit here, and each is narrower than it first reads.** (a) Two young men filmed a person on the roof about ten seconds before the shot; Hull's recollection is that **they** believed it was *\"overwatch or some kind of a police overwatch for the event.\"* \ud83d\udea8 **Doubly hedged and second-hand:** he *\"did not\"* review their interview and prefaced it *\"I don't know if I read it or if I heard it... if that's my recollection\"* (01:55:04\u201301:55:22).",
+  "id": "X086"
+ },
+ {
+  "i": 373,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "**It establishes, at most, what Hull understood two bystanders to have thought, and nothing whatever about who was on the roof.** Their video and interview are **unobtained**. (b) Asked whether any passing driver reported *\"a guy with a gun\"*, Hull answered ***\"We did not receive any reports to that effect, no\"*** (01:56:24\u201301:56:36), though **two cars passed directly in front of the individual** as he waited to cross Campus Drive.",
+  "id": "X087"
+ },
+ {
+  "i": 374,
+  "kinds": [
+   "sibling-file",
+   "register",
+   "xref"
+  ],
+  "sentence": "\ud83d\udea8 **This is a null about what the investigation received, NOT about what any motorist saw** \u2014 the same distinction the library had to apply when *\"no drones over campus\"* was rescoped from a knowledge-hedged answer to a scene-wide claim (`CR-E05` \u00a73.5, F-117/Q-172).",
+  "id": "X088"
+ },
+ {
+  "i": 397,
+  "kinds": [
+   "sibling-file",
+   "xref"
+  ],
+  "sentence": "**The unread laboratory reports** \u2014 \u26a0 **count `UNVERIFIED` (\u00a716 SINK)**; exactly one is held and read, the **ATF firearms report of 2025-09-17** (`CR-E15`).",
+  "id": "X089"
+ },
+ {
+  "i": 403,
+  "kinds": [
+   "dc-id",
+   "xref"
+  ],
+  "sentence": "Nothing beyond Twiggs' sworn *\"working for an electrician company\"* and trade school: **no school named, no employer named, no dates.** \u2705 **Date of birth is REMOVED from this item \u2014 it was a FALSE NULL.** The value is held at **T1 on the faces of two documents \u00a714 A already lists as held and read** \u2014 the **Information** (`dc27880532`) and the **Affidavit of Probable Cause** (`dc27880530`) \u2014 and is corroborated in four further banked artifacts.",
+  "id": "X090"
+ },
+ {
+  "i": 413,
+  "kinds": [
+   "sibling-file",
+   "dc-id"
+  ],
+  "sentence": "Several outlets syndicating one story count as **one** source, not many. ### A \u00b7 Primary documents held and read by this library | Document | Date | Identifier | Where held | |---|---|---|---| | **Information** (charging document) | 2025-09-16 | `dc27880532` | `CR-ACQ-2026-07-27_court-record-artifacts/` | | **Affidavit of Probable Cause** | 2025-09-16 | `dc27880530`; Probable Cause ID 189904 | same | | **Order to Hold Without Bail** | 2025-09-16 (dkt 4) | `dc27880869`; bears **no case number** | same | | **Public Safety Assessment Report** | 2025-09-12 (dkt 3) | `dc27880877` | \ud83d\udee0 **P2 correction: the library HOLDS this in full** \u2014 the complete 3-page PDF and its extraction, every field legible.",
+  "id": "X091"
+ },
+ {
+  "i": 416,
+  "kinds": [
+   "sibling-file"
+  ],
+  "sentence": "**460956** | \u26a0 text layer is **OCR garble**; every figure read off the rendered PDF | | **ATF Forensic Science Laboratory report** (firearms/toolmark) | 2025-09-17 | case **2025-W-000401** | `CR-E15` \u2014 \u26a0 Type 3 font, **no ToUnicode map**: image-legible, text-illegible; had to be rendered | | **Defendant's Preliminary Hearing Briefing** | 2026-08-11 | 41 PDF pp. / 35 printed | `CR-E07` \u2014 provenance two-of-three, **no clerk file-stamp** | | **State's Reply Memorandum in Support of Preliminary Hearing Bindover** | 2026-08-18 | 19 PDF pp. vs an 18-page limit | `CR-E17` \u2014 discrepancy recorded, deliberately unreconciled | | **RULING AND ORDER ON PRELIMINARY HEARING BINDOVER** | **2026-09-01** | 26 pp.; signed Graf; court seal; clerk's certificate 09/02/2026 | \ud83d\udea8 **Acquired 2026-09-14.",
+  "id": "X092"
+ },
+ {
+  "i": 424,
+  "kinds": [
+   "url"
+  ],
+  "sentence": "Spencer Cox**, 2025-09-12 press conference \u2014 via Fox News: `https://www.foxnews.com/us/family-turns-suspect-charlie-kirk-assassination-almost-unheard-behavior-specialist` - **Sheriff Nate Brooksby**, 2025-09-17 press conference \u2014 `https://www.police1.com/chiefs-sheriffs/utah-sheriff-who-helped-coordinate-charlie-kirk-shooting-suspects-surrender-addresses-rumors-gives-timeline` \u00b7 `https://www.fox13news.com/news/tyler-robinson-surrender-afraid-being-shot-sheriff` \u26a0 **Untested Tier-2 press statements; Brooksby is no longer in office.** - **FBI Director Kash Patel**, 2025-09-12 arrest announcement \u2014 the source of the \"10 p.m.\" and \"33 hours\" figures.",
+  "id": "X093"
+ },
+ {
+  "i": 425,
+  "kinds": [
+   "url"
+  ],
+  "sentence": "\u26a0 **A statement about custody, not a booking record and not formal arrest.** - **Utah County Attorney Jeff Gray** \u2014 expressly **declined to characterise** Robinson's statements to his parents as a confession. - **FBI investigation updates page** (photo/video release times, ET): `https://www.fbi.gov/news/press-releases/utah-valley-shooting-updates` - **Utah Courts public notice**, posted 2026-08-28 \u2014 `https://legacy.utcourts.gov/utc/news/2026/08/28/public-attendance-for-tyler-robinson-preliminary-hearing/` (re-read 2026-09-01) \u2014 **the source that settled the hearing start as 10:00 a.m.",
+  "id": "X094"
+ },
+ {
+  "i": 428,
+  "kinds": [
+   "dc-id",
+   "xref"
+  ],
+  "sentence": "**It says nothing about Robinson.** And the \"only source\" claim was false against disk: **Robinson's date of birth is held at T1 on the faces of the Information (`dc27880532`) and the Affidavit of Probable Cause (`dc27880530`)**, both of which \u00a714 A lists as *held and read* \u2014 re-verified 2026-09-14 by reading the DOB field on each banked `.txt` through `artifact_search.py` `norm()` under both `U+FFFE` readings \u2014 and corroborated further per \u00a712 item 4.",
+  "id": "X095"
+ },
+ {
+  "i": 434,
+  "kinds": [
+   "sibling-file",
+   "register",
+   "xref"
+  ],
+  "sentence": "The register entries cited but **not re-registered** here are **D-53, D-54, D-56, D-57, D-58** (`DNA-E01`), **D-72** (`CR-E14`), **D-74** (`CR-E18`) and **D-75** (Twiggs profile \u00a73.2).",
+  "id": "X096"
+ },
+ {
+  "i": 435,
+  "kinds": [
+   "sibling-file"
+  ],
+  "sentence": "The **canonical register ceiling lives in `QUEUE.md`'s header and nowhere else** \u2014 this file points at it and deliberately does not restate the number. ### H \u00b7 Citation conventions observed in this file 1.",
+  "id": "X097"
+ },
+ {
+  "i": 452,
+  "kinds": [
+   "sibling-file",
+   "register"
+  ],
+  "sentence": "Item 55 pooled **two swabs into one sample**, so collected-swab and tested-sample denominators differ. | | 14 | Seven counts | **`SUPPORTED`** | | | 15 | One aggravating circumstance | **`SUPPORTED`** | \u26a0 The statutory **designation** varies four ways across the record; the charging document matches none of the later renderings. | | 16 | **Discovery-census total** | \ud83d\udea8 **`CONTRADICTED` \u2192 `UNVERIFIED`** | **Independent rebuild returned 16 items (14 reports + 2 case files)** against this file's 15 (13+2), `CR-E21 F-1`'s 15, and that file's own earlier 14.",
+  "id": "X098"
+ },
+ {
+  "i": 453,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "**Four incompatible totals \u2014 the set does not rebuild.** Rows retained at High; **the total is sunk.** | | 17 | 4 latent print reports / 3 laboratories / 0 at hearing | **`SUPPORTED`** | \u26a0 A **stock as of the 2026-03-18 production**, not of reports existing in the case. | | 18 | 3 window prints, Robinson excluded | **`SUPPORTED`** | \u26a0 **Numerator with no denominator** \u2014 total latents observed is never stated. | | 19 | Arrest 04:00 \u00b7 booking 07:58:15 \u00b7 No. 460956 | **`SUPPORTED`** | \u26a0 Documents read \"04:00:00\"; testimony reads *\"about 4:00 AM, I believe.\"* Precision is an artifact of the form.",
+  "id": "X099"
+ },
+ {
+  "i": 454,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "\u26a0 **Probable Cause ID differs between documents (189904 vs 505275).** | | 20 | Bail order 08:40:00, Howell, no case number | **`SUPPORTED`** | \u26a0 **No corroboration anywhere** \u2014 time and judge appear on the instrument and in no other banked file.",
+  "id": "X100"
+ },
+ {
+  "i": 455,
+  "kinds": [
+   "timestamp"
+  ],
+  "sentence": "\u26a0 Signed 09-12; docket says filed 09-16. | | 21 | PSA created 08:21:35 | **`SUPPORTED`** | \u26a0 The PDF container's `/CreationDate` is **08:56:34** \u2014 a different object, 35m59s later.",
+  "id": "X101"
+ },
+ {
+  "i": 464,
+  "kinds": [
+   "sibling-file"
+  ],
+  "sentence": "Each entry keeps its label.)* | Item | Label | Why it is here | |---|---|---| | **The total number of forensic items in the 2026-03-25 discovery letter** | **`UNVERIFIED`** | Four incompatible totals across this file and `CR-E21` (16 / 15 / 15 / 14).",
+  "id": "X102"
+ }
+]
