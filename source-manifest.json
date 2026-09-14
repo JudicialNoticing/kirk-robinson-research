@@ -1,0 +1,3305 @@
+{
+ "generated_utc": "2026-09-14T22:43:10+00:00",
+ "count": 144,
+ "entries": [
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
+   "name": "2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
+   "ext": "pdf",
+   "bytes": 99805,
+   "sha256": "18ee3adbdc7cc70ecd3a29e6da6647fe78089afb98fbf5666bbc4c089a4521f3",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880543",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-10"
+   },
+   "readability": "text-native",
+   "pages": 1,
+   "chars_per_page": 1573,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.txt",
+   "name": "2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.txt",
+   "ext": "txt",
+   "bytes": 1599,
+   "sha256": "13ab2ae4ea7b29eeae94c5e99ebca0534db2d82f5b1a3de61541695517b8fb9e",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880543",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-10"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-12_public-safety-assessment-report_dkt3_dc27880877.pdf",
+   "name": "2025-09-12_public-safety-assessment-report_dkt3_dc27880877.pdf",
+   "ext": "pdf",
+   "bytes": 736696,
+   "sha256": "c12c12541b2f53e14eef24759623356f074925820aee2810d16b16773be0de1c",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880877",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "3",
+    "filename_date": "2025-09-12"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 1182,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-12_public-safety-assessment-report_dkt3_dc27880877.txt",
+   "name": "2025-09-12_public-safety-assessment-report_dkt3_dc27880877.txt",
+   "ext": "txt",
+   "bytes": 3498,
+   "sha256": "0983ce63558df30df2beef02aeeebbcc46e835cbd67e03e9d21b7e25bbd680dc",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880877",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "3",
+    "filename_date": "2025-09-12"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_5_dc26099252.pdf",
+   "name": "2025-09-16_5_dc26099252.pdf",
+   "ext": "pdf",
+   "bytes": 387626,
+   "sha256": "a9e35edc2149e051cd700bfeaa2a35e7ea6de87627f47984e224405973d020c8",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "26099252",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 6,
+   "chars_per_page": 1424,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_5_dc26099252.txt",
+   "name": "2025-09-16_5_dc26099252.txt",
+   "ext": "txt",
+   "bytes": 8541,
+   "sha256": "d2de25308405d9f1b5d81050011f586d3c5788fb434dce6d90cc73bdba0f3d04",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "26099252",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_affidavit-of-probable-cause_dc27880530.pdf",
+   "name": "2025-09-16_affidavit-of-probable-cause_dc27880530.pdf",
+   "ext": "pdf",
+   "bytes": 79188,
+   "sha256": "2aafc149248ddcceb8cbe79599d9adb04a5a44ead8bbebc28b2ba7fd49d01d6e",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880530",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 3515,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_affidavit-of-probable-cause_dc27880530.txt",
+   "name": "2025-09-16_affidavit-of-probable-cause_dc27880530.txt",
+   "ext": "txt",
+   "bytes": 10569,
+   "sha256": "ab306e2e892a1ac1bbcd8fac7aed9d3f0bc66eac68df11219678e5f2ea73a315",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880530",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_bail-order_dkt4_dc27880869.pdf",
+   "name": "2025-09-16_bail-order_dkt4_dc27880869.pdf",
+   "ext": "pdf",
+   "bytes": 724809,
+   "sha256": "f99eddcd425c8e03391667bce697550c4ac6cf9c1b4c9668bf1aea9c9ae33db5",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880869",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "4",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 1,
+   "chars_per_page": 706,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_bail-order_dkt4_dc27880869.txt",
+   "name": "2025-09-16_bail-order_dkt4_dc27880869.txt",
+   "ext": "txt",
+   "bytes": 700,
+   "sha256": "7bf6029b76065e810997eeb39768ba56011bca0a34b8f042600d1c068732619b",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880869",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "4",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_information-charging-document_dc27880532.pdf",
+   "name": "2025-09-16_information-charging-document_dc27880532.pdf",
+   "ext": "pdf",
+   "bytes": 284539,
+   "sha256": "158135f85e6d8fc2995c35998684ab8348acc2504c1c567347361e441748e559",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880532",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 10,
+   "chars_per_page": 2186,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_information-charging-document_dc27880532.txt",
+   "name": "2025-09-16_information-charging-document_dc27880532.txt",
+   "ext": "txt",
+   "bytes": 22281,
+   "sha256": "815d31a894423b2e2b0ea853905d48112ee35051a3c8fa89c4e5aabfae170a9d",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880532",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 1,
+   "fffe_split_words": [
+    "low\ufffecrawling"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_pretrial-protective-order_dkt14_dc27880872.pdf",
+   "name": "2025-09-16_pretrial-protective-order_dkt14_dc27880872.pdf",
+   "ext": "pdf",
+   "bytes": 788468,
+   "sha256": "ab882917795ee644660213027bb342938a03007719016631abcdc6489c2d7a6f",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880872",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "14",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 6,
+   "chars_per_page": 1380,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_pretrial-protective-order_dkt14_dc27880872.txt",
+   "name": "2025-09-16_pretrial-protective-order_dkt14_dc27880872.txt",
+   "ext": "txt",
+   "bytes": 8337,
+   "sha256": "e36bab072500ea1ee5dd0cd121b623d23a31d2f4decfb803f19557b9a85a5005",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880872",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "14",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.pdf",
+   "name": "2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.pdf",
+   "ext": "pdf",
+   "bytes": 387626,
+   "sha256": "121faf7de385d320ec3a5cbcd0534679f925076abb97c9ade6bf12332c067e66",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880860",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "7",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 6,
+   "chars_per_page": 1424,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.txt",
+   "name": "2025-09-16_proposed-pretrial-protective-order_dkt7_dc27880860.txt",
+   "ext": "txt",
+   "bytes": 8541,
+   "sha256": "d2de25308405d9f1b5d81050011f586d3c5788fb434dce6d90cc73bdba0f3d04",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880860",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "7",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_request-designation-victim-representative_dkt12_dc27880865.pdf",
+   "name": "2025-09-16_request-designation-victim-representative_dkt12_dc27880865.pdf",
+   "ext": "pdf",
+   "bytes": 97061,
+   "sha256": "abd54f6f7a2b8c7075176f060237d92d1f093787659d0b0e6df79ee7660b1a57",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880865",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "12",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "pages": 2,
+   "chars_per_page": 802,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-16_request-designation-victim-representative_dkt12_dc27880865.txt",
+   "name": "2025-09-16_request-designation-victim-representative_dkt12_dc27880865.txt",
+   "ext": "txt",
+   "bytes": 1628,
+   "sha256": "da0a39f7a4d2cdc051d1b6e15524dc864caa13cdf6a44c92ff87ec2769044fcf",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880865",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "12",
+    "filename_date": "2025-09-16"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-chad-grunander-biography_dc27880539.pdf",
+   "name": "2025-09-22_prosecutor-chad-grunander-biography_dc27880539.pdf",
+   "ext": "pdf",
+   "bytes": 163940,
+   "sha256": "38e63afa75f67b7f4c6ec5452e118b66ca3657244d6965aceea59c68476ad433",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880539",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "pages": 2,
+   "chars_per_page": 1056,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-chad-grunander-biography_dc27880539.txt",
+   "name": "2025-09-22_prosecutor-chad-grunander-biography_dc27880539.txt",
+   "ext": "txt",
+   "bytes": 2146,
+   "sha256": "ab3b53187f1eef2bb9b9d55c3519ce5dcf9a11798fccc8412d349c72dbd6203c",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880539",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.pdf",
+   "name": "2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.pdf",
+   "ext": "pdf",
+   "bytes": 194850,
+   "sha256": "2dd23c740993793e01c72aa851021410a9c1dbab17687f497674592ae75a870f",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880541",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "pages": 2,
+   "chars_per_page": 1013,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.txt",
+   "name": "2025-09-22_prosecutor-christopher-ballard-biography_dc27880541.txt",
+   "ext": "txt",
+   "bytes": 2056,
+   "sha256": "2e1e22b7493a5e0923c3400fe73469eb9d5baeec93c7f2fc095b8cbd59b24cb0",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880541",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-david-sturgill-biography_dc27880538.pdf",
+   "name": "2025-09-22_prosecutor-david-sturgill-biography_dc27880538.pdf",
+   "ext": "pdf",
+   "bytes": 150169,
+   "sha256": "92dcbc199ca4035a08ddbce81975860fefed1c9e751dae4622e18728792da08b",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880538",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "pages": 1,
+   "chars_per_page": 1749,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-david-sturgill-biography_dc27880538.txt",
+   "name": "2025-09-22_prosecutor-david-sturgill-biography_dc27880538.txt",
+   "ext": "txt",
+   "bytes": 1779,
+   "sha256": "ce9fa11c892c66f6f1711078c54c68cfd8ee59d404bc4fc300e0d32f9cb0a0b4",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880538",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.pdf",
+   "name": "2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.pdf",
+   "ext": "pdf",
+   "bytes": 226050,
+   "sha256": "b3a832e219c7b018ee63a300e033a22ba1ed384d7001dc5359be1b8d9a5d3b1a",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880536",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "pages": 2,
+   "chars_per_page": 1140,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.txt",
+   "name": "2025-09-22_prosecutor-jeffrey-gray-biography_dc27880536.txt",
+   "ext": "txt",
+   "bytes": 2308,
+   "sha256": "98c9ebb9d3da29558140f7a2f8925c60f3f6f18d4ddcf856d6836f90d16ba81e",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880536",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.pdf",
+   "name": "2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.pdf",
+   "ext": "pdf",
+   "bytes": 192280,
+   "sha256": "2f4c43d53713b451b6c324fcd69f7c1f121d6683400861943fddd9018ab6f38a",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880540",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "pages": 1,
+   "chars_per_page": 1370,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.txt",
+   "name": "2025-09-22_prosecutor-lauren-hunt-biography_dc27880540.txt",
+   "ext": "txt",
+   "bytes": 1396,
+   "sha256": "44883aab6848553bfade6eb3571b3af3a79938710f6857cfece3cb6901888c6d",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880540",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.pdf",
+   "name": "2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.pdf",
+   "ext": "pdf",
+   "bytes": 184623,
+   "sha256": "9271952c3393d2b6a0b9f9b7f8d2645882e79a8ea24c21a94113b3f87571d081",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880537",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "pages": 2,
+   "chars_per_page": 1042,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.txt",
+   "name": "2025-09-22_prosecutor-ryan-mcbride-biography_dc27880537.txt",
+   "ext": "txt",
+   "bytes": 2119,
+   "sha256": "1b2efda67e7c2ba632a6c28622952f227bedcfdbe77f18acd399beee1d8e7862",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880537",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.pdf",
+   "name": "2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.pdf",
+   "ext": "pdf",
+   "bytes": 787184,
+   "sha256": "e92d7265183638f70d6e6bd62494317316589850bd6143c1bd4dd12f547d6a74",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880535",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "pages": 2,
+   "chars_per_page": 402,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.txt",
+   "name": "2025-09-22_utah-county-attorney-press-release-trial-team-roster_dc27880535.txt",
+   "ext": "txt",
+   "bytes": 782,
+   "sha256": "afd3c8819e5c046ae9ca7109050ef241f15ea080e29838faa4e65d805d7c70a1",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880535",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-09-22"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.pdf",
+   "name": "2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.pdf",
+   "ext": "pdf",
+   "bytes": 131323,
+   "sha256": "b440b13a6da71c190c2545e71d00e14cac83f464de90e22e9d9c39b642a3414d",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880870",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "24",
+    "filename_date": "2025-09-24"
+   },
+   "readability": "text-native",
+   "pages": 1,
+   "chars_per_page": 562,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.txt",
+   "name": "2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc27880870.txt",
+   "ext": "txt",
+   "bytes": 553,
+   "sha256": "544a3fd2df8a661e3310d550564f0e750b1eb900e8b2750018e2222f17f1eef4",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880870",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "24",
+    "filename_date": "2025-09-24"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.pdf",
+   "name": "2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.pdf",
+   "ext": "pdf",
+   "bytes": 117781,
+   "sha256": "29ef23abd3c2f924a9c5331a95d4ea4293fa1ce3ae976f5d4dd0447b38ce8fe4",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880859",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "74",
+    "filename_date": "2025-10-08"
+   },
+   "readability": "text-native",
+   "pages": 2,
+   "chars_per_page": 1086,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.txt",
+   "name": "2025-10-08_copy-video-audio-record-completed_dkt74_dc27880859.txt",
+   "ext": "txt",
+   "bytes": 2147,
+   "sha256": "35a3531c1be7e771a3f1734b2f335b19012ceda19320d2213006ac65344bc485",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880859",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "74",
+    "filename_date": "2025-10-08"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.pdf",
+   "name": "2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.pdf",
+   "ext": "pdf",
+   "bytes": 121345,
+   "sha256": "0c72014fcb61bed2de54f22668ddd852ff4698dc1e6d1b55536016f5e50a1533",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880857",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "75",
+    "filename_date": "2025-10-08"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 718,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.txt",
+   "name": "2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.txt",
+   "ext": "txt",
+   "bytes": 2173,
+   "sha256": "eb0620c7ae6e7126e4429fee75446b160db57d56cab112da08f8bfefe27839ba",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880857",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "75",
+    "filename_date": "2025-10-08"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 1,
+   "fffe_split_words": [
+    "\u00a777-11c\ufffe302,"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.pdf",
+   "name": "2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.pdf",
+   "ext": "pdf",
+   "bytes": 136552,
+   "sha256": "b0ba157ff24e1a4e38071cb31525031de09a9d31dd832b9ce047facb9fee79c2",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880875",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "76",
+    "filename_date": "2025-10-08"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 459,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.txt",
+   "name": "2025-10-08_proposed-order-granting-motion-preserve-evidence_dkt76_dc27880875.txt",
+   "ext": "txt",
+   "bytes": 1354,
+   "sha256": "0a6002d13aa24231a461d3edf5ce9483bdf0bfdae7c13c0129a20086fe3bf316",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880875",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "76",
+    "filename_date": "2025-10-08"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.pdf",
+   "name": "2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.pdf",
+   "ext": "pdf",
+   "bytes": 173189,
+   "sha256": "0d8fd7d22226210d9f2b8a891ce025a573679f3abb54fbf45d170a1785fb8201",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880863",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "91",
+    "filename_date": "2025-10-13"
+   },
+   "readability": "text-native",
+   "pages": 5,
+   "chars_per_page": 1132,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.txt",
+   "name": "2025-10-13_both-parties-motion-discovery-protective-order-stipulated_dkt91_dc27880863.txt",
+   "ext": "txt",
+   "bytes": 5750,
+   "sha256": "d611a8d7a814b6237080d81eb6c6b9c500039d841498044883416125efd562f7",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880863",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "91",
+    "filename_date": "2025-10-13"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.pdf",
+   "name": "2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.pdf",
+   "ext": "pdf",
+   "bytes": 450104,
+   "sha256": "1b033e4d96be4d18ef09843a4218df8c2fa374c553b92c397b873ac816e2ac91",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880867",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "111",
+    "filename_date": "2025-10-21"
+   },
+   "readability": "text-native",
+   "pages": 10,
+   "chars_per_page": 1062,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.txt",
+   "name": "2025-10-21_defendant-motion-strike-response-defendant-motion-appear-all_dkt111_dc27880867.txt",
+   "ext": "txt",
+   "bytes": 10812,
+   "sha256": "5fd6299a38dc70e5bc396f72ec0f21c1192b7c947064cd63d60d66a5d8c9d908",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880867",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "111",
+    "filename_date": "2025-10-21"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-22_state-motion-to-set-aside-order_dc27880864.pdf",
+   "name": "2025-10-22_state-motion-to-set-aside-order_dc27880864.pdf",
+   "ext": "pdf",
+   "bytes": 171037,
+   "sha256": "b5393aef3e479ebacb60542e1ccdbea979ea222ac9ced0c37dc03d701487e657",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880864",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-10-22"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 1155,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-22_state-motion-to-set-aside-order_dc27880864.txt",
+   "name": "2025-10-22_state-motion-to-set-aside-order_dc27880864.txt",
+   "ext": "txt",
+   "bytes": 3515,
+   "sha256": "1fb03ff7d0fe437e4c0eb3d0b1ecfc8a12d4475301c286b328e8bcc09724d4de",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880864",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-10-22"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.pdf",
+   "name": "2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.pdf",
+   "ext": "pdf",
+   "bytes": 178925,
+   "sha256": "ddfe802400707762adafb188c1d160523c66fc8401adbdead56cb56f0357236b",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880878",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "117",
+    "filename_date": "2025-10-22"
+   },
+   "readability": "text-native",
+   "pages": 7,
+   "chars_per_page": 1625,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.txt",
+   "name": "2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.txt",
+   "ext": "txt",
+   "bytes": 11643,
+   "sha256": "a88a1b3803b4df65863b0baf11d2ff3bca18cef6545d38e18783df55ce685123",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880878",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "117",
+    "filename_date": "2025-10-22"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 2,
+   "fffe_split_words": [
+    "77-11c\ufffe401(3)(a)(ii)",
+    "77-11c\ufffe401(3)(a)."
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.pdf",
+   "name": "2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.pdf",
+   "ext": "pdf",
+   "bytes": 3489587,
+   "sha256": "0bad44c5325c2be2652ae3d915cc40af4e201f85d61258ac92505d08c16d094d",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880868",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "137",
+    "filename_date": "2025-10-27"
+   },
+   "readability": "text-native",
+   "pages": 9,
+   "chars_per_page": 1604,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.txt",
+   "name": "2025-10-27_ruling-order-defendant-motion-strike-appear-civilian-clothing_dkt137_dc27880868.txt",
+   "ext": "txt",
+   "bytes": 14588,
+   "sha256": "2b2732b63f1663543a0c235f916ff7a2caa17c7eb4908845d1ab06b2952abeed",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880868",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "137",
+    "filename_date": "2025-10-27"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-27_state-open-file-policy-notice_dc27880871.pdf",
+   "name": "2025-10-27_state-open-file-policy-notice_dc27880871.pdf",
+   "ext": "pdf",
+   "bytes": 166142,
+   "sha256": "7799d0b212ca15e953d971f44a62e476e00c8def18414cad6fd2f10051602e75",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880871",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-10-27"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 656,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-10-27_state-open-file-policy-notice_dc27880871.txt",
+   "name": "2025-10-27_state-open-file-policy-notice_dc27880871.txt",
+   "ext": "txt",
+   "bytes": 1997,
+   "sha256": "dfbfb63ae458a981c481631cd723be9561d6963968c1da1ae48e595d47eaf0c3",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880871",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-10-27"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-03_stipulated-motion-classify-transcript-private_dkt152_dc27880861.pdf",
+   "name": "2025-11-03_stipulated-motion-classify-transcript-private_dkt152_dc27880861.pdf",
+   "ext": "pdf",
+   "bytes": 138369,
+   "sha256": "dbc56308484dc3e5384b6b368ef89c9f82b9b6fcaa3c95f1666a9ed45651723e",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880861",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "152",
+    "filename_date": "2025-11-03"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 1161,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-03_stipulated-motion-classify-transcript-private_dkt152_dc27880861.txt",
+   "name": "2025-11-03_stipulated-motion-classify-transcript-private_dkt152_dc27880861.txt",
+   "ext": "txt",
+   "bytes": 3525,
+   "sha256": "a47177486275d4a576c501ab69ecd5c8646651ac5916207eb07933d2fcf34492",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880861",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "152",
+    "filename_date": "2025-11-03"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-04_stipulated-order-preserve-evidence_dc27880862.pdf",
+   "name": "2025-11-04_stipulated-order-preserve-evidence_dc27880862.pdf",
+   "ext": "pdf",
+   "bytes": 759924,
+   "sha256": "163385c261844a36e9ed342bb5f91b71b5b019dc4d4d1720746074a92155f2f0",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880862",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-11-04"
+   },
+   "readability": "text-native",
+   "pages": 4,
+   "chars_per_page": 710,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-04_stipulated-order-preserve-evidence_dc27880862.txt",
+   "name": "2025-11-04_stipulated-order-preserve-evidence_dc27880862.txt",
+   "ext": "txt",
+   "bytes": 2851,
+   "sha256": "aeccaf29dbe0ea7540e91b43e423740d6a4d4457d20935196fdca40275a15993",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880862",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-11-04"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.pdf",
+   "name": "2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.pdf",
+   "ext": "pdf",
+   "bytes": 189995,
+   "sha256": "67de4d45da76428aa63069e145f18c055bb46e50fd46245262c64410b9e1481a",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880858",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-11-10"
+   },
+   "readability": "text-native",
+   "pages": 7,
+   "chars_per_page": 1445,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.txt",
+   "name": "2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.txt",
+   "ext": "txt",
+   "bytes": 10357,
+   "sha256": "392fc5f3fb062576805d29705f3fb91d0240b7ad1d6ee806c769e944d0554291",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880858",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2025-11-10"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 1,
+   "fffe_split_words": [
+    "https://www.deseret.com/utah/2025/10/10/man-accused-of-killing-charlie-kirk-requests-street\ufffeclothes-and-no-shackles-during-hearings/."
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.pdf",
+   "name": "2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.pdf",
+   "ext": "pdf",
+   "bytes": 50460,
+   "sha256": "228ecc637ad882fc12305283bc228abfde2b785d5e2894e581fae91dd7b14eb0",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880874",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "211",
+    "filename_date": "2025-12-04"
+   },
+   "readability": "text-native",
+   "pages": 1,
+   "chars_per_page": 1342,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.txt",
+   "name": "2025-12-04_utah-office-victims-crime-restitution-notice-claim-1113665_dkt211_dc27880874.txt",
+   "ext": "txt",
+   "bytes": 1316,
+   "sha256": "8632b6593287d95cbf1de1033bad4e96978741d88a96751fcc90fef062b1b7a8",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880874",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "211",
+    "filename_date": "2025-12-04"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876.pdf",
+   "name": "2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876.pdf",
+   "ext": "pdf",
+   "bytes": 222074,
+   "sha256": "d8bad0eb7cce7c11aa7b8080451fb3af47a6776e923630c815db05b371928122",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880876",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "197",
+    "filename_date": "2025-12-08"
+   },
+   "readability": "text-native",
+   "pages": 9,
+   "chars_per_page": 1744,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876.txt",
+   "name": "2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876.txt",
+   "ext": "txt",
+   "bytes": 15974,
+   "sha256": "f870e7708ace840cd8419afd7cb1989bc1ca1845a54e7b821de970c8db5c9445",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880876",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "197",
+    "filename_date": "2025-12-08"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 1,
+   "fffe_split_words": [
+    "2:13-cv\ufffe169,"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-15_ruling-clarifying-publicity-order_dkt242_dc27880866.pdf",
+   "name": "2025-12-15_ruling-clarifying-publicity-order_dkt242_dc27880866.pdf",
+   "ext": "pdf",
+   "bytes": 233601,
+   "sha256": "5435355eab3c753671068765b6125b550ebff9d4d075e38efc1d9964073d82b6",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880866",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "242",
+    "filename_date": "2025-12-15"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 1146,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-15_ruling-clarifying-publicity-order_dkt242_dc27880866.txt",
+   "name": "2025-12-15_ruling-clarifying-publicity-order_dkt242_dc27880866.txt",
+   "ext": "txt",
+   "bytes": 3516,
+   "sha256": "e2d90adf58c1e159292ae4048a2132663089556e649c957f3d3edbd218ed2568",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880866",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "242",
+    "filename_date": "2025-12-15"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.pdf",
+   "name": "2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.pdf",
+   "ext": "pdf",
+   "bytes": 2744947,
+   "sha256": "8dc58d4d2848e5f72a30e2734164a44161b35f9f83112141c1547424492f1c89",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880873",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "250",
+    "filename_date": "2025-12-17"
+   },
+   "readability": "text-native",
+   "pages": 48,
+   "chars_per_page": 693,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.txt",
+   "name": "2025-12-17_defendant-motion-disqualify-utah-county-attorneys-office_dkt250_dc27880873.txt",
+   "ext": "txt",
+   "bytes": 33894,
+   "sha256": "04e89c92f64ed630d8d63f35881836b0a5d088b281e1a75847a5b1e983b38235",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880873",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "250",
+    "filename_date": "2025-12-17"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-02_utah-supreme-court-order-denying-interlocutory-appeal_dc27880887.pdf",
+   "name": "2026-01-02_utah-supreme-court-order-denying-interlocutory-appeal_dc27880887.pdf",
+   "ext": "pdf",
+   "bytes": 55890,
+   "sha256": "5d7437541d64f6dafde5ae550fd1569adbe171291b48d1f78cfcac439eb4fa17",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880887",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-01-02"
+   },
+   "readability": "text-native",
+   "pages": 1,
+   "chars_per_page": 625,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-02_utah-supreme-court-order-denying-interlocutory-appeal_dc27880887.txt",
+   "name": "2026-01-02_utah-supreme-court-order-denying-interlocutory-appeal_dc27880887.txt",
+   "ext": "txt",
+   "bytes": 622,
+   "sha256": "1c0afe82297a241dca1bacc610c85ad51cdeeed4d39e339b44f58bee4edc375c",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880887",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-01-02"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.pdf",
+   "name": "2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.pdf",
+   "ext": "pdf",
+   "bytes": 4522827,
+   "sha256": "548e843cfba26b2dc8d8e65569a41ce6a2115b0b7dcdfe9b22cf5e41e5954a0d",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880888",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "289",
+    "filename_date": "2026-01-05"
+   },
+   "readability": "text-native",
+   "pages": 33,
+   "chars_per_page": 1483,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.txt",
+   "name": "2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-attorney_dkt289_dc27880888.txt",
+   "ext": "txt",
+   "bytes": 50339,
+   "sha256": "b63c9cf3a4665396587853f6514765d949fc58c50b272cf107956e90ef0c0628",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880888",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "289",
+    "filename_date": "2026-01-05"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 50,
+   "fffe_split_words": [
+    "Accord\ufffeingly,",
+    "De\ufffefendant",
+    "Oppos\ufffeing",
+    "addi\ufffetional",
+    "appli\ufffecation",
+    "appro\ufffepriate",
+    "ap\ufffeproaches",
+    "attor\ufffeneys",
+    "at\ufffetended",
+    "at\ufffetorney",
+    "be\ufffelieve",
+    "be\ufffetween"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.pdf",
+   "name": "2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.pdf",
+   "ext": "pdf",
+   "bytes": 144347,
+   "sha256": "22cc1d464983384c8ddc3b2b42505ae84640acb22652c56f3a23da4fc91a4a68",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881513",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "293",
+    "filename_date": "2026-01-08"
+   },
+   "readability": "text-native",
+   "pages": 7,
+   "chars_per_page": 1479,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.txt",
+   "name": "2026-01-08_defendant-reply-prosecutor-opposition-motion-disqualify-public_dkt293_dc27881513.txt",
+   "ext": "txt",
+   "bytes": 10605,
+   "sha256": "e9f1df57eef94ed63ff5604049a33699e756b9d2bce513c429556fb67670eaab",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881513",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "293",
+    "filename_date": "2026-01-08"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-09_subpoena-sgt-david-hull_dkt291_dc27881510.pdf",
+   "name": "2026-01-09_subpoena-sgt-david-hull_dkt291_dc27881510.pdf",
+   "ext": "pdf",
+   "bytes": 168747,
+   "sha256": "dc646579b201b94bbd381664ae69fd324e198d93821af0a8c0b9d4bdd7a60ece",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27881510",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "291",
+    "filename_date": "2026-01-09"
+   },
+   "readability": "text-native",
+   "pages": 4,
+   "chars_per_page": 2055,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-09_subpoena-sgt-david-hull_dkt291_dc27881510.txt",
+   "name": "2026-01-09_subpoena-sgt-david-hull_dkt291_dc27881510.txt",
+   "ext": "txt",
+   "bytes": 8285,
+   "sha256": "b1f2a40110be45877567cc12bfa11c03b7d4f4db5dd156cfa84561083e3c97a0",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881510",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "291",
+    "filename_date": "2026-01-09"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-19_4_dc26493871.pdf",
+   "name": "2026-01-19_4_dc26493871.pdf",
+   "ext": "pdf",
+   "bytes": 99612,
+   "sha256": "e93ee9728838ecd60f4addae88d5a433a4da743d0a0cc436a8df3d3a02d3b37a",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "26493871",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-01-19"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 651,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-19_4_dc26493871.txt",
+   "name": "2026-01-19_4_dc26493871.txt",
+   "ext": "txt",
+   "bytes": 1977,
+   "sha256": "8e98fc6138d8632559a94605487023d25d5a0dca4a44fc412e4cf30a2bcaad5e",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "26493871",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-01-19"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_attachment-A-prosecutor-office-media-guidance_dkt355_dc27881506.pdf",
+   "name": "2026-01-30_attachment-A-prosecutor-office-media-guidance_dkt355_dc27881506.pdf",
+   "ext": "pdf",
+   "bytes": 889686,
+   "sha256": "019200596c863304c5bf4e0ab471f31e7c73659ca5db4f5449cce4f0937afb68",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27881506",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "355",
+    "filename_date": "2026-01-30"
+   },
+   "readability": "text-native",
+   "pages": 5,
+   "chars_per_page": 1007,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_attachment-A-prosecutor-office-media-guidance_dkt355_dc27881506.txt",
+   "name": "2026-01-30_attachment-A-prosecutor-office-media-guidance_dkt355_dc27881506.txt",
+   "ext": "txt",
+   "bytes": 5121,
+   "sha256": "8c813c72e92bea5b87c1faf49ff7c07413756447d0e647b14210159fa3e54f9f",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881506",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "355",
+    "filename_date": "2026-01-30"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.pdf",
+   "name": "2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.pdf",
+   "ext": "pdf",
+   "bytes": 216926,
+   "sha256": "f508c4786ef5f86db4df13cf59d252651a04c2d576931002b0010d5c0fb51670",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881509",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "348",
+    "filename_date": "2026-01-30"
+   },
+   "readability": "text-native",
+   "pages": 12,
+   "chars_per_page": 1723,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.txt",
+   "name": "2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-general_dkt348_dc27881509.txt",
+   "ext": "txt",
+   "bytes": 21062,
+   "sha256": "3a6e0f5224669a440b02230bd29ac59ad99c7b645f4a9614dc873ab30a913e71",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881509",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "348",
+    "filename_date": "2026-01-30"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 2,
+   "fffe_split_words": [
+    "https://nypost.com/2026/01/21/us\ufffenews/utah-sen-mike-lee-calls-for-charlie-kirks-alleged-assassin-tyler-robinson-to-face-public\ufffeexecution/."
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.pdf",
+   "name": "2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.pdf",
+   "ext": "pdf",
+   "bytes": 144938,
+   "sha256": "40fa2fe69cf1f99b7e242732f5ce21e3919b3144033ef95e32cec279cc598ee6",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881511",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "346",
+    "filename_date": "2026-01-30"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 1007,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.txt",
+   "name": "2026-01-30_prosecutor-opposition-defendant-motion-classify-motion-exclude-still_dkt346_dc27881511.txt",
+   "ext": "txt",
+   "bytes": 3082,
+   "sha256": "ddfba340d8a5eef6818b341a9ae46f559ee6658386f14b5e2081869557006e83",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881511",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "346",
+    "filename_date": "2026-01-30"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.pdf",
+   "name": "2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.pdf",
+   "ext": "pdf",
+   "bytes": 171224,
+   "sha256": "f98d28a688698b01e1ba9735c69bd4c552698cdc9914e2721e66a9253238e3ce",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881508",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "368",
+    "filename_date": "2026-02-02"
+   },
+   "readability": "text-native",
+   "pages": 5,
+   "chars_per_page": 1051,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.txt",
+   "name": "2026-02-02_proffer-facts-closure-poritons-evidentiary-hearing-motion-disqualify_dkt368_dc27881508.txt",
+   "ext": "txt",
+   "bytes": 5349,
+   "sha256": "b09f380379ed4861365af28f47907bc10da96448f6a3757e63220a396ca1f85f",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881508",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "368",
+    "filename_date": "2026-02-02"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.pdf",
+   "name": "2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.pdf",
+   "ext": "pdf",
+   "bytes": 223559,
+   "sha256": "3ba01f91ce26d49ac2c7bbdeedf533b711b290758601261d27f65f1c0aea060b",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881512",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "366",
+    "filename_date": "2026-02-02"
+   },
+   "readability": "text-native",
+   "pages": 14,
+   "chars_per_page": 1602,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.txt",
+   "name": "2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-motion-disqualify_dkt366_dc27881512.txt",
+   "ext": "txt",
+   "bytes": 22975,
+   "sha256": "c2f860958ce8aeb89749d3273db48a29eee501bc28bef1233aa6bfcdd2470870",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881512",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "366",
+    "filename_date": "2026-02-02"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 1,
+   "fffe_split_words": [
+    "non\ufffeelected"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-03_minute-order-evidentiary-hearing-disqualification_dkt413_dc27881507.pdf",
+   "name": "2026-02-03_minute-order-evidentiary-hearing-disqualification_dkt413_dc27881507.pdf",
+   "ext": "pdf",
+   "bytes": 729537,
+   "sha256": "4defb7685971ce682738c24fcc5d9f1ca35ef0d1670713c5e7afb1511ac20178",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27881507",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "413",
+    "filename_date": "2026-02-03"
+   },
+   "readability": "text-native",
+   "pages": 3,
+   "chars_per_page": 1746,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-02-03_minute-order-evidentiary-hearing-disqualification_dkt413_dc27881507.txt",
+   "name": "2026-02-03_minute-order-evidentiary-hearing-disqualification_dkt413_dc27881507.txt",
+   "ext": "txt",
+   "bytes": 5222,
+   "sha256": "d6ba89a800fa3ca18791d5eb1973bfaecc4d3def8816df2c69315546976db11a",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27881507",
+    "source_route": "DocumentCloud open API",
+    "docket_no": "413",
+    "filename_date": "2026-02-03"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15_xchange-case-history-full_dc27880531.pdf",
+   "name": "2026-03-15_xchange-case-history-full_dc27880531.pdf",
+   "ext": "pdf",
+   "bytes": 59301,
+   "sha256": "f3eed9a484e55ee05b887ade4c8ab2e920e039ddf7ebfb31529a4f5f7ad64ee3",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880531",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-03-15"
+   },
+   "readability": "text-native",
+   "pages": 31,
+   "chars_per_page": 2334,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15_xchange-case-history-full_dc27880531.txt",
+   "name": "2026-03-15_xchange-case-history-full_dc27880531.txt",
+   "ext": "txt",
+   "bytes": 72370,
+   "sha256": "21f2b8f3cbdbba8c98ec5c165c7fbeaa83251f644f99e1922c3179e577251c9f",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880531",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-03-15"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 2,
+   "fffe_split_words": [
+    "Over\ufffeLength:",
+    "Pre\ufffeTrial"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15_xchange-short-case-history_dc27880533.pdf",
+   "name": "2026-03-15_xchange-short-case-history_dc27880533.pdf",
+   "ext": "pdf",
+   "bytes": 28303,
+   "sha256": "f65a8791251534db1dc010eca412c3b15433be05e63007dbeadbc2a392531555",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "27880533",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-03-15"
+   },
+   "readability": "text-native",
+   "pages": 13,
+   "chars_per_page": 3345,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15_xchange-short-case-history_dc27880533.txt",
+   "name": "2026-03-15_xchange-short-case-history_dc27880533.txt",
+   "ext": "txt",
+   "bytes": 43449,
+   "sha256": "b91f88cb2089a785ea465c963847071905c4069fd06da3c9022906d4423bd250",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880533",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-03-15"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 1,
+   "fffe_split_words": [
+    "In\ufffePerson"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.pdf",
+   "name": "2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.pdf",
+   "ext": "pdf",
+   "bytes": 250633,
+   "sha256": "437f125cb74b19244325bcce44d8003b693f91c474bc2ac36963963f3faea78f",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880529",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-03-15"
+   },
+   "readability": "OCR-GARBLE",
+   "pages": 2,
+   "chars_per_page": 246,
+   "how_to_read": "RENDER: the text layer is unreliable; read the rendered page.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.txt",
+   "name": "2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc27880529.txt",
+   "ext": "txt",
+   "bytes": 472,
+   "sha256": "c367429086f1a1ad2cf089315f6ca5ffc8ef831df966b6e392d12c11972dd98a",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880529",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-03-15"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.pdf",
+   "name": "2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.pdf",
+   "ext": "pdf",
+   "bytes": 396071,
+   "sha256": "90ac2f4859b78ec346361bfaa2051f41d648bc612601f9a87a2abbc98487a9e3",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880534",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-03-15"
+   },
+   "readability": "text-native",
+   "pages": 1,
+   "chars_per_page": 784,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.txt",
+   "name": "2026-03-15ca_utah-county-sheriff-office-inmate-custody-booking_dc27880534.txt",
+   "ext": "txt",
+   "bytes": 788,
+   "sha256": "c399b2abd2557762a68cf9eb13a1dc908f1c7559a79e9ce31a7ccc52a9535d4a",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27880534",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-03-15"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.pdf",
+   "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.pdf",
+   "ext": "pdf",
+   "bytes": 1547812,
+   "sha256": "5dfe91f5bba758d2b4add2640d435f5905800b52b4cb8d30890758467d3ee354",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27998184",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-04-02"
+   },
+   "readability": "text-native",
+   "pages": 69,
+   "chars_per_page": 1613,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-E21_forensic-discovery-census.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.txt",
+   "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.txt",
+   "ext": "txt",
+   "bytes": 112783,
+   "sha256": "641503cfb937780a5b741fcd8a5f45d9e4a2c364b8b12d5d2d1e7a4d61fbfa3e",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27998184",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-04-02"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 4,
+   "fffe_split_words": [
+    "(2025-W\ufffe000401-submission",
+    "locally\ufffeemployed",
+    "non\ufffecase-specific",
+    "probabilistic\ufffegenotyping"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-E21_forensic-discovery-census.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.pdf",
+   "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.pdf",
+   "ext": "pdf",
+   "bytes": 1547812,
+   "sha256": "cc1c8e10ecac96c5395fb089342c013d3e37a11e05bbcae14437bd56738b5c9d",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27998188",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-04-02"
+   },
+   "readability": "text-native",
+   "pages": 69,
+   "chars_per_page": 1613,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.txt",
+   "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.txt",
+   "ext": "txt",
+   "bytes": 112783,
+   "sha256": "641503cfb937780a5b741fcd8a5f45d9e4a2c364b8b12d5d2d1e7a4d61fbfa3e",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27998188",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-04-02"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 4,
+   "fffe_split_words": [
+    "(2025-W\ufffe000401-submission",
+    "locally\ufffeemployed",
+    "non\ufffecase-specific",
+    "probabilistic\ufffegenotyping"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.pdf",
+   "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.pdf",
+   "ext": "pdf",
+   "bytes": 1547812,
+   "sha256": "c696e2675eae202e2ebddff159e24e4b38b507d2a3a5d8cedf1e93b13f99f2ec",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27998189",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-04-02"
+   },
+   "readability": "text-native",
+   "pages": 69,
+   "chars_per_page": 1613,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.txt",
+   "name": "2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.txt",
+   "ext": "txt",
+   "bytes": 112783,
+   "sha256": "641503cfb937780a5b741fcd8a5f45d9e4a2c364b8b12d5d2d1e7a4d61fbfa3e",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "27998189",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-04-02"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 4,
+   "fffe_split_words": [
+    "(2025-W\ufffe000401-submission",
+    "locally\ufffeemployed",
+    "non\ufffecase-specific",
+    "probabilistic\ufffegenotyping"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-06-23-pub_rev-contempt-hearing-transcript.html",
+   "name": "2026-06-23-pub_rev-contempt-hearing-transcript.html",
+   "ext": "html",
+   "bytes": 206156,
+   "sha256": "b1ba235f3f85de6dab32e78a0a026c14d8ff92f016b05ee62041abd3699418b9",
+   "banked": "2026-08-14",
+   "provenance": {
+    "filename_date": "2026-06-23",
+    "source_route": "Rev transcript"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-14_contempt-transcript.md",
+    "files - Court record/CR-E10_publicity-order-and-record-classification.md",
+    "lance-twiggs-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-06-23-pub_rev-contempt-hearing-transcript.txt",
+   "name": "2026-06-23-pub_rev-contempt-hearing-transcript.txt",
+   "ext": "txt",
+   "bytes": 36842,
+   "sha256": "4e4bcd4f905a23dd6b50bb442fe668a2859253b9115076a77dfb4b15a3a63b45",
+   "banked": "2026-08-14",
+   "provenance": {
+    "filename_date": "2026-06-23",
+    "source_route": "Rev transcript"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-14_contempt-transcript.md",
+    "files - Court record/CR-E10_publicity-order-and-record-classification.md",
+    "lance-twiggs-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.pdf",
+   "name": "2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.pdf",
+   "ext": "pdf",
+   "bytes": 125730,
+   "sha256": "ad2cf27e9754757d6d40a9cfc60b596af5b02dc4e4dd7e54a5063da76f82dae4",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "28324423",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-06-25"
+   },
+   "readability": "text-native",
+   "pages": 4,
+   "chars_per_page": 1916,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.txt",
+   "name": "2026-06-25_reply-states-response-motion-defendant-be-unshackled_dc28324423.txt",
+   "ext": "txt",
+   "bytes": 7752,
+   "sha256": "21b670ca4805f89dcbb744f60343123c6d6f41c634ad8840ad9641707137417b",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "28324423",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-06-25"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.pdf",
+   "name": "2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.pdf",
+   "ext": "pdf",
+   "bytes": 24264080,
+   "sha256": "3908b442471533f8eb8effc9cec94ce9df12e846defa37d2bb29fec6d8a5feb7",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "28417731",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-07-06"
+   },
+   "readability": "text-native",
+   "pages": 663,
+   "chars_per_page": 1759,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.txt",
+   "name": "2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.txt",
+   "ext": "txt",
+   "bytes": 1155299,
+   "sha256": "03fda91652b0ac27aff55ceaaff511a91675d1ac0362de2b7b9fea3678fc256e",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "28417731",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-07-06"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 54,
+   "fffe_split_words": [
+    "Co\ufffeDefendants",
+    "Co\ufffeDefendants;",
+    "Co\ufffeDefendants\u2019",
+    "Law\ufffeGorman",
+    "SALEM\ufffeBAKER",
+    "corporate\ufffeowned",
+    "court\ufffeapproved",
+    "cover\ufffeup",
+    "co\ufffeCase",
+    "co\ufffeDefendant",
+    "co\ufffeDefendants",
+    "co\ufffeDefendants,"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-07-08_supplemental-notice-access-to-evidence_dc28443912.pdf",
+   "name": "2026-07-08_supplemental-notice-access-to-evidence_dc28443912.pdf",
+   "ext": "pdf",
+   "bytes": 574981,
+   "sha256": "bf8b8af375b4f43e0507b624b0c0bdd8bab8aceffdcacb179abdc4f67da2d5f5",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "28443912",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-07-08"
+   },
+   "readability": "text-native",
+   "pages": 4,
+   "chars_per_page": 1265,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-14B_supplemental-notice-2026-07-08.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-WATCH-log.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-07-08_supplemental-notice-access-to-evidence_dc28443912.txt",
+   "name": "2026-07-08_supplemental-notice-access-to-evidence_dc28443912.txt",
+   "ext": "txt",
+   "bytes": 5128,
+   "sha256": "6ebbda660f71601de1941d41dd947b186edb1cf2ebf6702ec2b14155144226e8",
+   "banked": "2026-08-14",
+   "provenance": {
+    "documentcloud_id": "28443912",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-07-08"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-14B_supplemental-notice-2026-07-08.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-WATCH-log.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-11_defendant-prelim-hearing-briefing.pdf",
+   "name": "2026-08-11_defendant-prelim-hearing-briefing.pdf",
+   "ext": "pdf",
+   "bytes": 389135,
+   "sha256": "c3f394372192a6a3c6b791839a22a9ce4be43aea6f9985b9fc3703633bfde0e4",
+   "banked": "2026-08-13",
+   "provenance": {
+    "filename_date": "2026-08-11"
+   },
+   "readability": "text-native",
+   "pages": 41,
+   "chars_per_page": 2240,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "DOCKET-WATCH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md",
+    "files - Court record/CR-REVIEW-2026-08-16B_xchange-null-audit.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-11_defendant-prelim-hearing-briefing.txt",
+   "name": "2026-08-11_defendant-prelim-hearing-briefing.txt",
+   "ext": "txt",
+   "bytes": 93418,
+   "sha256": "d1979161ce344fb3bf7543e7976e73532de78ffacd1eccd9e8de60a2a61bd4af",
+   "banked": "2026-08-13",
+   "provenance": {
+    "filename_date": "2026-08-11"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "DOCKET-WATCH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md",
+    "files - Court record/CR-REVIEW-2026-08-16B_xchange-null-audit.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-11_defendant-prelim-hearing-briefing_ALT-EXTRACTION-dc28551955.txt",
+   "name": "2026-08-11_defendant-prelim-hearing-briefing_ALT-EXTRACTION-dc28551955.txt",
+   "ext": "txt",
+   "bytes": 94225,
+   "sha256": "87100de7b20e94bec835d7bf089a0a3ed1a12d74fafda9a852d84da19d6da47f",
+   "banked": "2026-08-16",
+   "provenance": {
+    "documentcloud_id": "28551955",
+    "source_route": "DocumentCloud open API",
+    "filename_date": "2026-08-11"
+   },
+   "readability": "U+FFFE-SPLIT",
+   "fffe_occurrences": 3,
+   "fffe_split_words": [
+    "High\ufffePowered,",
+    "Sosa\ufffeHurtado",
+    "theologically-orthodox\ufffeChristians\u201d"
+   ],
+   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Court record/CR-REVIEW-2026-08-16B_xchange-null-audit.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_fbi-captures-kirk-shooter.txt",
+   "name": "2026-08-16_rev_fbi-captures-kirk-shooter.txt",
+   "ext": "txt",
+   "bytes": 27659,
+   "sha256": "1c31cf2075347c38992a0db39f20f1bf7c890278cb0990eb2c5446117e1aacf9",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_fbi-captures-kirk-shooter_raw.html",
+   "name": "2026-08-16_rev_fbi-captures-kirk-shooter_raw.html",
+   "ext": "html",
+   "bytes": 208370,
+   "sha256": "80006fd9d5ebe81c1eddcac23906323b0d3b0c9e5090dc0c16f72c5ff0425672",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_fbi-press-conference-on-kirk-shooting.txt",
+   "name": "2026-08-16_rev_fbi-press-conference-on-kirk-shooting.txt",
+   "ext": "txt",
+   "bytes": 11377,
+   "sha256": "b857a73d5a07716e50f08cde5f16e547db3827cd162c852a6c9c8dc474b520f0",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - George Zinn/zinn-george-evidence.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_fbi-press-conference-on-kirk-shooting_raw.html",
+   "name": "2026-08-16_rev_fbi-press-conference-on-kirk-shooting_raw.html",
+   "ext": "html",
+   "bytes": 181981,
+   "sha256": "5322050bccf4e9dbab350f7f194ca60eae02956b0f241bc57cd90ba4022ae7e7",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_press-conference-on-charlie-kirk-shooting.txt",
+   "name": "2026-08-16_rev_press-conference-on-charlie-kirk-shooting.txt",
+   "ext": "txt",
+   "bytes": 13571,
+   "sha256": "d4fb5bcd4b4561e37ce87e9bfff89c6a2c63a9ebb3a39cf5aec6692a05ea0a7e",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "files - George Zinn/zinn-george-evidence.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_press-conference-on-charlie-kirk-shooting_raw.html",
+   "name": "2026-08-16_rev_press-conference-on-charlie-kirk-shooting_raw.html",
+   "ext": "html",
+   "bytes": 188626,
+   "sha256": "08347ff318cb9161a7d82acd86f72c17d06474b294489f5dcaa57067c01f1dd0",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_update-on-charlie-kirk-shooter.txt",
+   "name": "2026-08-16_rev_update-on-charlie-kirk-shooter.txt",
+   "ext": "txt",
+   "bytes": 31919,
+   "sha256": "7ba458f394d06889e00b5f238afe2872483e4b9c3a2c68ccf91ccf42ae09d942",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_rev_update-on-charlie-kirk-shooter_raw.html",
+   "name": "2026-08-16_rev_update-on-charlie-kirk-shooter_raw.html",
+   "ext": "html",
+   "bytes": 212480,
+   "sha256": "e258db8ab95ce490116f52349e02e463ea749aa57a8d237eb1bf67dec2c5ed51",
+   "banked": "2026-08-16",
+   "provenance": {
+    "filename_date": "2026-08-16",
+    "source_route": "Rev transcript"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-18_states-reply-memo-bindover.pdf",
+   "name": "2026-08-18_states-reply-memo-bindover.pdf",
+   "ext": "pdf",
+   "bytes": 277548,
+   "sha256": "0e287a048829b100f9b7e003d2b1475c75b43d0e755fff4f7f6f9fa67dfd14f2",
+   "banked": "2026-08-20",
+   "provenance": {
+    "filename_date": "2026-08-18"
+   },
+   "readability": "text-native",
+   "pages": 19,
+   "chars_per_page": 1968,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "DOCKET-WATCH.md",
+    "files - Court record/CR-ACQ-2026-08-20_states-reply.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-18_states-reply-memo-bindover.txt",
+   "name": "2026-08-18_states-reply-memo-bindover.txt",
+   "ext": "txt",
+   "bytes": 41016,
+   "sha256": "93e0f505c07f0070fbdcceb10090d63f62c26d1d04f8e88c37c1e69031b0e25b",
+   "banked": "2026-08-20",
+   "provenance": {
+    "filename_date": "2026-08-18"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "DOCKET-WATCH.md",
+    "files - Court record/CR-ACQ-2026-08-20_states-reply.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_signed.pdf",
+   "name": "2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_signed.pdf",
+   "ext": "pdf",
+   "bytes": 1506097,
+   "sha256": "c0c2d9553120681329bb9295397dc4c541bbf6838b117b308939d5b3b189f607",
+   "banked": "2026-09-14",
+   "provenance": {
+    "filename_date": "2026-09-01"
+   },
+   "readability": "NO-TEXT-LAYER",
+   "pages": 26,
+   "chars_per_page": 0,
+   "how_to_read": "RENDER: pdftoppm -r 150, read the images. A text search returns a FALSE NULL.",
+   "cited_by": [
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": true
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/oct24_clean.txt",
+   "name": "oct24_clean.txt",
+   "ext": "txt",
+   "bytes": 176171,
+   "sha256": "536a9e1cf6d1cc408fa1ce6b5d7f2f44af20c7259b26b2ce138e48ee952f5814",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-E12_closure-classification-and-sealing-map.md",
+    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+    "files - Court record/CR-REVIEW-2026-08-16D_Q105-null-re-runs.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-ballistics-motion.pdf",
+   "name": "tyler-robinson-ballistics-motion.pdf",
+   "ext": "pdf",
+   "bytes": 1369739,
+   "sha256": "b2395846d144924f683218a69e1b17e01ac5e3cd48ba7a6dd1ef6deb99f17f36",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "pages": 29,
+   "chars_per_page": 1644,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-ballistics-motion.txt",
+   "name": "tyler-robinson-ballistics-motion.txt",
+   "ext": "txt",
+   "bytes": 71515,
+   "sha256": "f8d0c760f6019eb13a405741dff6719809a17dce36f50d2a5d472cbdcfc51aa8",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+    "files - Court record/CR-WATCH-log.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/tyler-robinson-redacted-hearing-transcript.pdf",
+   "name": "tyler-robinson-redacted-hearing-transcript.pdf",
+   "ext": "pdf",
+   "bytes": 1060521,
+   "sha256": "7a891b006d5c7128a5e120a469461855d9121239189ca3011625036949e16dc6",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "pages": 97,
+   "chars_per_page": 1954,
+   "how_to_read": "pdftotext is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": true
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/2026-09-01_final-prelim-argument.txt",
+   "name": "2026-09-01_final-prelim-argument.txt",
+   "ext": "txt",
+   "bytes": 237613,
+   "sha256": "4abf9a2b1aa61828fe87964372d74ff5b54ef59d66a4662a77f3929b8d75d60f",
+   "banked": "2026-09-14",
+   "provenance": {
+    "filename_date": "2026-09-01"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/2026-09-01_final-prelim-argument_raw.html",
+   "name": "2026-09-01_final-prelim-argument_raw.html",
+   "ext": "html",
+   "bytes": 472052,
+   "sha256": "9e2c54153872e2c4ec2d4eefea1527fe3938660bb2ef0a86dea191cb863a6bac",
+   "banked": "2026-09-14",
+   "provenance": {
+    "filename_date": "2026-09-01"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day1.txt",
+   "name": "day1.txt",
+   "ext": "txt",
+   "bytes": 327506,
+   "sha256": "b11e6be63d39be83d39c6590676df2d7a2bfaeac8dcdf2fab3fc24e72e67a646",
+   "banked": "2026-07-28",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "START-HERE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_BLOCKED-DRAFT_q08-dna_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-AUDIT-2026-08-01_session-audit.md",
+    "files - Court record/CR-AUDIT-2026-08-20_session-audit.md",
+    "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
+    "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md",
+    "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+    "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md",
+    "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md",
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
+    "files - Court record/CR-E18_certified-transcript-crosswalk.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-E20_forensic-exhibit-map.md",
+    "files - Court record/CR-E21_forensic-discovery-census.md",
+    "files - Court record/CR-REVIEW-2026-08-14_losee-draft-Q07.md",
+    "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md",
+    "files - Court record/CR-REVIEW-2026-08-16E_Q111-legacy-file-audit.md",
+    "files - Court record/CR-WATCH-log.md",
+    "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "files - Event security/SEC-E02_security-team-allegations-assessment.md",
+    "files - Kirk assassination questions/kirk-shooting-official-timeline.md",
+    "lance-twiggs-comprehensive-profile.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day1_raw.html",
+   "name": "day1_raw.html",
+   "ext": "html",
+   "bytes": 840749,
+   "sha256": "a546f8a9de07d87e977ee4db1f584c3d2a0c8528227972c90187bd40447ff7ee",
+   "banked": "2026-07-28",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2.txt",
+   "name": "day2.txt",
+   "ext": "txt",
+   "bytes": 323286,
+   "sha256": "ae678fb2780dfa20a42318dcc1f4bd8ddf586696bdec5b3fbd0eefa38daaf9f3",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_BLOCKED-DRAFT_q08-dna_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-candidate-bank_INDEX.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-AUDIT-2026-08-01_session-audit.md",
+    "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md",
+    "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+    "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md",
+    "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md",
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
+    "files - Court record/CR-E18_certified-transcript-crosswalk.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-E20_forensic-exhibit-map.md",
+    "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md",
+    "files - Court record/CR-WATCH-log.md",
+    "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "files - Event security/SEC-E02_security-team-allegations-assessment.md",
+    "files - George Zinn/zinn-george-evidence.md",
+    "lance-twiggs-comprehensive-profile.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2_condensed.txt",
+   "name": "day2_condensed.txt",
+   "ext": "txt",
+   "bytes": 295044,
+   "sha256": "852b2bbb9b11ff885e725af0031e0ca9b176b155e90503ab95f81cd51ebd6e32",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+    "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day2_raw.html",
+   "name": "day2_raw.html",
+   "ext": "html",
+   "bytes": 788352,
+   "sha256": "6bba4506bbcfe37d4370398654772898166c89966141861cfcb369934b0382cb",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day3.txt",
+   "name": "day3.txt",
+   "ext": "txt",
+   "bytes": 133588,
+   "sha256": "a7456a16d4acfa6b99884863b65355aa879f13b6f1e11b41eac7b64bca15ed8e",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md",
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
+    "files - Court record/CR-E18_certified-transcript-crosswalk.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md",
+    "files - Court record/CR-REVIEW-2026-08-16F_Q89-losee-draft-vs-sworn-geometry.md",
+    "files - Court record/CR-WATCH-log.md",
+    "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
+    "lance-twiggs-comprehensive-profile.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day3_condensed.txt",
+   "name": "day3_condensed.txt",
+   "ext": "txt",
+   "bytes": 127314,
+   "sha256": "27349372a7d3f433fd207f674090acd305d0eb4b0e7714b2445b9b2de8333848",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day3_raw.html",
+   "name": "day3_raw.html",
+   "ext": "html",
+   "bytes": 365800,
+   "sha256": "838f0a7fcfbac718c6164601c488206bd2f039c114bb0f42d1eb7c54d3b02c20",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4.txt",
+   "name": "day4.txt",
+   "ext": "txt",
+   "bytes": 312855,
+   "sha256": "16ae18bb520ac02ba6ede8ed445448bd1387b4f2746d9c9757b8f8fe16e5f0a0",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Bride of Charlie series/BOC-ROUTE-2026-07-27_post-series-case-claims-corpus.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_BLOCKED-DRAFT_q08-dna_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-candidate-bank_INDEX.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-AUDIT-2026-07-28_independent-pass.md",
+    "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
+    "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md",
+    "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md",
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+    "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
+    "files - Court record/CR-E18_certified-transcript-crosswalk.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-E20_forensic-exhibit-map.md",
+    "files - Court record/CR-E21_forensic-discovery-census.md",
+    "files - Court record/CR-REVIEW-2026-08-14_losee-draft-Q07.md",
+    "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md",
+    "files - Court record/CR-REVIEW-2026-08-30_CR-E19-E20-E21-verification-cycle.md",
+    "files - Court record/CR-WATCH-log.md",
+    "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
+    "files - Event security/SEC-E02_security-team-allegations-assessment.md",
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "lance-twiggs-comprehensive-profile.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day4_raw.html",
+   "name": "day4_raw.html",
+   "ext": "html",
+   "bytes": 774482,
+   "sha256": "e8e65b963942eb1807d1d3b12e83711e5654c46905db96d64a0bb69a691e76a6",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-REVIEW-2026-08-30_CR-E19-E20-E21-verification-cycle.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day5.txt",
+   "name": "day5.txt",
+   "ext": "txt",
+   "bytes": 108219,
+   "sha256": "87adbc6588aafcab7fd02c97c0ef1179968458c418c54ab6e40e600f86cf5ea2",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "DOCKET-WATCH-routine-prompt-DRAFT-2026-08-16.md",
+    "DOCKET-WATCH.md",
+    "QUEUE.md",
+    "START-HERE.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_BLOCKED-DRAFT_q08-dna_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-14_Q61-candidate-bank_INDEX.md",
+    "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
+    "files - Court record/CR-AUDIT-2026-08-01_session-audit.md",
+    "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
+    "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md",
+    "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+    "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md",
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md",
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+    "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
+    "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-E20_forensic-exhibit-map.md",
+    "files - Court record/CR-E21_forensic-discovery-census.md",
+    "files - Court record/CR-REVIEW-2026-08-16E_Q111-legacy-file-audit.md",
+    "files - Court record/CR-REVIEW-2026-08-30_CR-E19-E20-E21-verification-cycle.md",
+    "files - Court record/CR-WATCH-log.md",
+    "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "lance-twiggs-comprehensive-profile.md",
+    "robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day5_condensed.txt",
+   "name": "day5_condensed.txt",
+   "ext": "txt",
+   "bytes": 101560,
+   "sha256": "fecae80d906bce85ee94e82b72eba8705f88fdfc39719092ebc568a37eb592d4",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+    "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md",
+    "files - Court record/CR-REVIEW-2026-08-16E_Q111-legacy-file-audit.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/day5_raw.html",
+   "name": "day5_raw.html",
+   "ext": "html",
+   "bytes": 328373,
+   "sha256": "829fdb1c7d67bfe125eca8089ce580f7ce7638f3f95fbbfefe5d32bbce8e1af3",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/faumuina_condensed.txt",
+   "name": "faumuina_condensed.txt",
+   "ext": "txt",
+   "bytes": 73051,
+   "sha256": "f4243538f76d2d61595fe3cffaa87f86864935d55e69f509f0d1479e28013761",
+   "banked": "2026-07-27",
+   "provenance": {},
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+    "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md",
+    "files - Court record/CR-E18_certified-transcript-crosswalk.md"
+   ],
+   "unpaired": false
+  }
+ ]
+}
