@@ -3,12 +3,12 @@
 > 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./manifest.py`.**
 > Hand-maintained indexes in this project have drifted every time they were kept by hand.
 
-**Artifacts:** 287  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 44
+**Artifacts:** 291  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 48
 
 **By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*
 
 - `primary-source` — 161
-- `process-evidence` — 31
+- `process-evidence` — 35
 - `source-capture` — 79
 - `transcript` — 16
 
@@ -311,6 +311,10 @@
 | `p7_attack-results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p7_claim-list-as-attacked.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p7_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
+| `p8-iteration2_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
+| `p8-iteration2_masked-payloads-sent-to-agents.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p8-iteration2_source-rebuilds.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p8-iteration2_values-withheld-from-agents.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p8_document-ledger-locked-before-results.json` | process-evidence | json | 2026-09-14 | structured-data | 1 |
 | `p8_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `p8_quantity-census.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
@@ -367,6 +371,10 @@
 - `p7_attack-results.json` — json, banked 2026-09-14, structured-data
 - `p7_claim-list-as-attacked.json` — json, banked 2026-09-14, structured-data
 - `p7_journal.jsonl` — jsonl, banked 2026-09-14, structured-data
+- `p8-iteration2_journal.jsonl` — jsonl, banked 2026-09-14, structured-data
+- `p8-iteration2_masked-payloads-sent-to-agents.json` — json, banked 2026-09-14, structured-data
+- `p8-iteration2_source-rebuilds.json` — json, banked 2026-09-14, structured-data
+- `p8-iteration2_values-withheld-from-agents.json` — json, banked 2026-09-14, structured-data
 - `p8_journal.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `p8_quantity-census.json` — json, banked 2026-09-14, structured-data
 - `p8_source-rebuilds.json` — json, banked 2026-09-14, structured-data
