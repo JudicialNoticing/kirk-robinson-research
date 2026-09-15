@@ -3,12 +3,12 @@
 > 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./manifest.py`.**
 > Hand-maintained indexes in this project have drifted every time they were kept by hand.
 
-**Artifacts:** 291  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 48
+**Artifacts:** 294  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 51
 
 **By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*
 
 - `primary-source` — 161
-- `process-evidence` — 35
+- `process-evidence` — 38
 - `source-capture` — 79
 - `transcript` — 16
 
@@ -306,6 +306,9 @@
 | `p2_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p3_chains.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p3_steps.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p5-iteration2_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
+| `p5-iteration2_queue.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p5-iteration2_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p5_citations.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p5_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p7_attack-results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
@@ -366,6 +369,9 @@
 - `p2_results.json` — json, banked 2026-09-14, structured-data
 - `p3_chains.json` — json, banked 2026-09-14, structured-data
 - `p3_steps.json` — json, banked 2026-09-14, structured-data
+- `p5-iteration2_journal.jsonl` — jsonl, banked 2026-09-14, structured-data
+- `p5-iteration2_queue.json` — json, banked 2026-09-14, structured-data
+- `p5-iteration2_results.json` — json, banked 2026-09-14, structured-data
 - `p5_citations.json` — json, banked 2026-09-14, structured-data
 - `p5_results.json` — json, banked 2026-09-14, structured-data
 - `p7_attack-results.json` — json, banked 2026-09-14, structured-data

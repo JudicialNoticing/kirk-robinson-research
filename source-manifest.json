@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-09-14T23:08:02+00:00",
- "count": 291,
+ "generated_utc": "2026-09-15T00:21:23+00:00",
+ "count": 294,
  "entries": [
   {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
@@ -5550,6 +5550,48 @@
    "artifact_class": "process-evidence",
    "bytes": 263326,
    "sha256": "7cb69f9f190ac139bd7134ef9e182ffb93d006085418dd1b0928a4e699f0c61d",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_journal.jsonl",
+   "name": "p5-iteration2_journal.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 281754,
+   "sha256": "8064ea4a5b97de9b99d145083f30d2ac176210e1d36e4b4f1695b19ccb777e32",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_queue.json",
+   "name": "p5-iteration2_queue.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 38156,
+   "sha256": "ff051d2ae88e9faac88dd273b945abf8065483e7bfcf4cbb404cb0ec54260a6b",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_results.json",
+   "name": "p5-iteration2_results.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 281801,
+   "sha256": "9e98bfb6e4e14d304592c34f9023599f78cb1d3096c7d101131db78b6e5a6e3f",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
