@@ -1,7 +1,8 @@
 # Longform HTML builder for TJR-P01 and siblings.
-#   python3 tools/build-html.py <source.md> <out.html>
+#   python3 scripts/build-html.py <source.md> <out.html>
 # Theme: centered reading column, TOC drawer, reading progress, collapsible front-matter.
 # Moved out of the session scratchpad 2026-09-14 so the deliverables stay regenerable.
+# Lives in scripts/ since 2026-09-15 (was tools/).
 import re, html, sys, io
 
 SRC, OUT = sys.argv[1], sys.argv[2]
