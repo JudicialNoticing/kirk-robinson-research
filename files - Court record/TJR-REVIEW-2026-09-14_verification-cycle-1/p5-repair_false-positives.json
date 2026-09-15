@@ -1,0 +1,50 @@
+[
+ {
+  "id": "X078",
+  "banked": "OVEREXTENDED",
+  "banked_severity": "minor",
+  "blind": "SUPPORTS",
+  "locator": "`CR-E19_latent-print-record.md` §4 (line 78), which itself quotes `day4.txt` 04:38:54 (McBride reading the parties' stipulation); verified by me directly against `day4.txt` at byte 112977–113640.",
+  "why": "The quoted clause is a character-for-character match to the stipulation in `CR-E19` §4 and to the primary `day4.txt`, and the bracketed \"[s]ubsequent\" is correct editorial lowercasing for mid-sentence use; the P8 denominator caution is independently verified — the stipulation states no total, never counts the \"other prints,\" and no count appears anywhere else on the routes swept."
+ },
+ {
+  "id": "S007",
+  "banked": "OVEREXTENDED",
+  "banked_severity": "minor",
+  "blind": "SUPPORTS",
+  "locator": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/ — day2.txt l.1, day3.txt l.1, day4.txt l.1, day5.txt l.1, 2026-09-01_final-prelim-argument.txt l.1 (and the matching <title> in each _raw.html)",
+  "why": "Every checkable string in the fragment matches the artifact's own first line character-for-character, including the 'Day N' template across day2–day5 and the differently-worded 'Final Preliminary Hearing' face of the 2026-09-01 file; the <title> and sha256 cross-checks in the same clause also hold. (Scope note: the fragment's sibling clause 'none of the six carries a reporter's certification' was not part of this sentence, but a normalised sweep of the six found only Rev site chrome — 'Ready To Certify Transcripts', 'transcription to certification' — and substring artifacts inside 'surprise'/'guardrail', no certification block.)"
+ },
+ {
+  "id": "S008",
+  "banked": "OVEREXTENDED",
+  "banked_severity": "moderate",
+  "blind": "SUPPORTS",
+  "locator": "robinson-tyler-james-comprehensive-profile.md §1 item 4 (line 91) → source-manifest.json entry for `tyler-robinson-ballistics-motion.pdf`; `2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.pdf` PDF p. 61; `files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md` §1",
+  "why": "Every citable limb holds: the manifest strings, the pp. 26–29 scope of the bad label, the Exhibit F / PDF p. 61 / letter p. 9 locator, and the ¶ 1.3 quote are all verbatim-correct — but \"the same artifact\" dangles onto the nearest named file (dc27998184.pdf), which CR-E15 never reads, and the manifest's second string lives under `how_to_read`, not `readability`."
+ },
+ {
+  "id": "X097",
+  "banked": "OVEREXTENDED",
+  "banked_severity": "moderate",
+  "blind": "SUPPORTS",
+  "locator": "~/Documents/Kirk Robinson Research/robinson-tyler-james-comprehensive-profile.md line 515 (§14 G · Internal library files) — cites ~/Documents/Kirk Robinson Research/QUEUE.md header",
+  "why": "Read the cited header directly; it carries the ceiling line verbatim and expressly claims single-source-of-truth status, and the profile restates no number. Two things worth recording without changing the sentence: (a) other files DO carry stale ceiling restatements (`START-HERE.md` 139/156/222/307, `CR-E09` 108, `CR-E10` 154, `DNA-E01` 918–920, the two `DO-NOT-PUBLISH` drafts) — but QUEUE.md's own header names those as the forbidden restatements, so 'canonical … and nowhere else' survives as written; (b) the same header states \"**There is NO F-series ceiling line**\", so the sentence holds for the D-register it is about (the preceding clause lists only D-numbers) and should not be read as covering the F-, V- or M-series. The flagged string's trailing \"### H · Citation conventions observed in this file 1.\" is the next heading, not part of the sentence."
+ },
+ {
+  "id": "X008",
+  "banked": "OVEREXTENDED",
+  "banked_severity": "moderate",
+  "blind": "SUPPORTS",
+  "locator": "robinson-tyler-james-comprehensive-profile.md §7 line 57 — checked against files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/prelim-hearing-transcripts/2026-09-01_final-prelim-argument.txt and against §11",
+  "why": "The cite resolves to a banked artifact whose hashes match the manifest entry, the acquisition date is corroborated three ways (hash, mtime, commit), and every fact the sentence hands to that source is quotable from it verbatim."
+ },
+ {
+  "id": "X023",
+  "banked": "MISMATCH",
+  "banked_severity": "major",
+  "blind": "SUPPORTS",
+  "locator": "robinson-tyler-james-comprehensive-profile.md:187 — cites `CR-E04` §4 and `day2.txt`",
+  "why": "Every limb of the attribution — witness (Agent Dave Hull), day (Day 2), exhibit (12.4, admitted and published at 00:41:11), the quoted phrase and the ~8:30 time — is verbatim in `day2.txt`, and the 'absent from both charging documents' negative was tested by reading both charging documents in full rather than by a grep null."
+ }
+]

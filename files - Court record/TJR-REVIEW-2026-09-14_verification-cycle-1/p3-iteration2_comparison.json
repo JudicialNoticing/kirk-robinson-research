@@ -1,0 +1,153 @@
+{
+ "protocol": "P3-iteration2",
+ "date": "2026-09-14",
+ "scope": "24 chains whose sections were rewritten since iteration 1; 51 iteration-1 invalid verdicts in unchanged sections left standing, not re-run",
+ "iter2_totals": {
+  "chains": 64,
+  "steps": 174,
+  "invalid": 116,
+  "valid": 58,
+  "premise_suspect": 34,
+  "regeneration_disagrees": 106
+ },
+ "iter1_whole_document": {
+  "chains": 40,
+  "steps": 162,
+  "invalid": 125
+ },
+ "matched_chain_comparison": {
+  "chains": 18,
+  "iter1_invalid": 52,
+  "iter1_steps": 72,
+  "iter2_invalid": 76,
+  "iter2_steps": 114
+ },
+ "per_chain": [
+  {
+   "chain": "The window-print exclusion converted into a sequence question",
+   "iter1_invalid": 2,
+   "iter1_steps": 5,
+   "iter2_invalid": 7,
+   "iter2_steps": 11
+  },
+  {
+   "chain": "'Possible ridge detail and/or smudging' is not a print result",
+   "iter1_invalid": 3,
+   "iter1_steps": 3,
+   "iter2_invalid": 6,
+   "iter2_steps": 6
+  },
+  {
+   "chain": "Finding 5 — the window-print exclusion and what cuts it back in both directions",
+   "iter1_invalid": 3,
+   "iter1_steps": 5,
+   "iter2_invalid": 6,
+   "iter2_steps": 11
+  },
+  {
+   "chain": "The conditioning problem: the FBI ratios presuppose Twiggs rather than test him",
+   "iter1_invalid": 1,
+   "iter1_steps": 3,
+   "iter2_invalid": 6,
+   "iter2_steps": 8
+  },
+  {
+   "chain": "The grade-lift: outlet cap → machine transcript → signed, sealed, certified order",
+   "iter1_invalid": 4,
+   "iter1_steps": 4,
+   "iter2_invalid": 5,
+   "iter2_steps": 6
+  },
+  {
+   "chain": "Consumption forecloses re-testing — and the count is scoped to one report",
+   "iter1_invalid": 4,
+   "iter1_steps": 4,
+   "iter2_invalid": 5,
+   "iter2_steps": 7
+  },
+  {
+   "chain": "The guard that runs the other way: from a corpus silence to a High-confidence null about inflation",
+   "iter1_invalid": 4,
+   "iter1_steps": 4,
+   "iter2_invalid": 5,
+   "iter2_steps": 6
+  },
+  {
+   "chain": "The latent-print null over the rifle, towel and screwdriver, and its grading as weak evidence of absence",
+   "iter1_invalid": 2,
+   "iter1_steps": 4,
+   "iter2_invalid": 5,
+   "iter2_steps": 6
+  },
+  {
+   "chain": "What the FBI item account supports: 'aligned', not 'was' — two nulls, one internal contradiction, and consumption throughout",
+   "iter1_invalid": 4,
+   "iter1_steps": 5,
+   "iter2_invalid": 5,
+   "iter2_steps": 9
+  },
+  {
+   "chain": "Finding 2 — investigators never put a name to the shooter",
+   "iter1_invalid": 3,
+   "iter1_steps": 4,
+   "iter2_invalid": 4,
+   "iter2_steps": 5
+  },
+  {
+   "chain": "The pliers: the hedge retired, and the residual relocated to the ruling",
+   "iter1_invalid": 3,
+   "iter1_steps": 4,
+   "iter2_invalid": 4,
+   "iter2_steps": 6
+  },
+  {
+   "chain": "Case posture: oral ruling → bindover on all seven counts → probable cause only → presumption intact",
+   "iter1_invalid": 3,
+   "iter1_steps": 4,
+   "iter2_invalid": 4,
+   "iter2_steps": 6
+  },
+  {
+   "chain": "Activity and transfer: whose DNA it is cannot become what anyone did",
+   "iter1_invalid": 3,
+   "iter1_steps": 3,
+   "iter2_invalid": 4,
+   "iter2_steps": 5
+  },
+  {
+   "chain": "What the eleven-item Exhibit 30 table can and cannot bear: the cap, the grouping, the co-swab, and the Medium-high mapping grade",
+   "iter1_invalid": 3,
+   "iter1_steps": 5,
+   "iter2_invalid": 4,
+   "iter2_steps": 8
+  },
+  {
+   "chain": "The contributor count is an analyst input, not a measurement, and it is entangled with the same assumption",
+   "iter1_invalid": 2,
+   "iter1_steps": 3,
+   "iter2_invalid": 3,
+   "iter2_steps": 5
+  },
+  {
+   "chain": "The scope of the defence's hearsay challenge (identity yes, aggravator no) — F-21",
+   "iter1_invalid": 1,
+   "iter1_steps": 3,
+   "iter2_invalid": 2,
+   "iter2_steps": 7
+  },
+  {
+   "chain": "Findings 3 and 4 — large in volume, narrow in bearing, and the strongest-sounding numbers most constrained",
+   "iter1_invalid": 4,
+   "iter1_steps": 5,
+   "iter2_invalid": 1,
+   "iter2_steps": 1
+  },
+  {
+   "chain": "The consumption status of ATF items 15.1 and 18.1 is not on this record — and that is not 'retained'",
+   "iter1_invalid": 3,
+   "iter1_steps": 4,
+   "iter2_invalid": 0,
+   "iter2_steps": 1
+  }
+ ]
+}
