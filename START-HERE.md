@@ -1,6 +1,8 @@
 # START HERE — next session
 
 **Written:** 2026-08-01 at session close. **Read this first, then [QUEUE.md](QUEUE.md).**
+
+> 🗂 **2026-09-15 — REORGANISED (Phase 2 of `AUDIT.md`, owner-approved). Paths changed, content did not.** Tooling is in `scripts/` (`./scripts/queue-check.sh`, `./scripts/tsearch.py`, `./scripts/manifest.py`, `./scripts/artifact_search.py`, `./scripts/docket-watch-run.py`); the verification kit in `docs/research-verification-kit/`; the routine-prompt files in `ops/docket-watch/` (superseded drafts in `archive/docket-watch-prompts/`); the renders in `deliverables/`; the TJR review bank in `verification/`; the three person dossiers in `files - Person profiles/`. **No `files - <Topic>` folder was renamed and nothing inside a bank moved.** Map: `INDEX.md`. ⚠ *This file still carries no row for the 2026-09-14 session (TJR-P01, kit adoption, the bindover order acquired); that write-back is owed.*
 This is a snapshot with dates in it. **If you are reading this well after 2026-09-01 it is stale** — the docket section will have resolved one way or the other, and the work order should be re-derived from QUEUE.md.
 
 ---
@@ -128,7 +130,7 @@ Kirk push (this session's commits local) · the routine prompt re-sync (dated, a
 
 ### 📋 WHERE TO PICK UP — in this order
 
-1. 🚨 **THE 08-18 WATCH RUN. The State's reply was due Tue 2026-08-18 — CHECK WHETHER IT WAS RUN AND WHETHER THE FILING LANDED.** ⚠️ **Run 6 found the Fox outlet-mirror route BLOCKED (Wayback CDX 504) — the route Run 4 baselined to make this cheap.** Re-attempt it; if still down the cover rests on DocumentCloud and Rev alone. `./docket-watch-run.py`. **This is the only time-critical item.**
+1. 🚨 **THE 08-18 WATCH RUN. The State's reply was due Tue 2026-08-18 — CHECK WHETHER IT WAS RUN AND WHETHER THE FILING LANDED.** ⚠️ **Run 6 found the Fox outlet-mirror route BLOCKED (Wayback CDX 504) — the route Run 4 baselined to make this cheap.** Re-attempt it; if still down the cover rests on DocumentCloud and Rev alone. `./scripts/docket-watch-run.py`. **This is the only time-critical item.**
 2. **Q-171 — Q-138 plan Sections B and C.** The Part 0 court-record spine, and the register corrections including 🚨 **Claim 8's missing Lombardi thread — the thread the maternal-grandparents entry exists to anchor.** ⚠️ **A BINDING 12-ITEM DO-NOT-WRITE LIST travels with it**, including: **the 2025-12-04 UOVC restitution notice does NOT concern Erika Kirk** (it names a different victim and two minors by initials) **and should be STRUCK from her sourcing set.**
 3. **Q-168 — the rest of the Q-137 plan.** 🚨 **§1's opening sentence adopts defence counsel's proposition as analyst-layer fact where the witness qualified it on the stand**; §3's intermediary entries; 4 owner-gated items inside.
 4. **Q-172** (the CR-E05 scope correction SEC-E01 identified but did not make) · **Q-164** (verify SEC-E02) · **Q-162** (rest of the Twiggs tier re-marking) · **Q-153** (point DocumentCloud's open API at Zinn — never once tried).
@@ -204,7 +206,7 @@ Kirk push (this session's commits local) · the routine prompt re-sync (dated, a
 
 ### 📋 Where to pick up
 
-1. 🚨 **A1 — the 08-18 by-hand watch run. TUESDAY. Still the only document-capable cover for the State's reply.** ✅ **De-risked 2026-08-16: `./docket-watch-run.py` was dry-run against the baseline, all four routes attemptable, zero drift — logged as Run 5.** ✅ **DocumentCloud is OPEN again** (403 at 09:00, open 14:05, open 22:47 — *intermittent*, now measured across three observations).
+1. 🚨 **A1 — the 08-18 by-hand watch run. TUESDAY. Still the only document-capable cover for the State's reply.** ✅ **De-risked 2026-08-16: `./scripts/docket-watch-run.py` was dry-run against the baseline, all four routes attemptable, zero drift — logged as Run 5.** ✅ **DocumentCloud is OPEN again** (403 at 09:00, open 14:05, open 22:47 — *intermittent*, now measured across three observations).
 2. **Q-142** — apply the tier re-marking; the map is built and banked. **This is the last piece of the Twiggs file.**
 3. **Q-145** — the contempt/subpoena transcript: **Tier 1 for the whole of §6, on disk, never opened**, and it carries a *"disposed of clothing"* strand the profile has nowhere.
 4. **Q-144** (seven banked completeness findings) · **Q-143** (two split verdicts) · **Q-146** (the Count-4 docket/pleading date conflict).
@@ -250,11 +252,11 @@ Kirk push (this session's commits local) · the routine prompt re-sync (dated, a
 
 🚨 **What did not.** **CR-E12 listed the 2025-10-24 hearing as *structurally unobtainable* while this library has held a 97-page Tier 1 transcript of it since 2026-07-27** — cited by no evidence file. **Root cause, and it is the most transferable thing today produced: a docket-derived observation was promoted into a claim about our HOLDINGS.** The docket is evidence of what the court filed and classified, **not of what this project possesses.** Two other nulls failed the same way. → **Q-110 runs a holdings completeness pass: what else do we hold and not cite?**
 
-🚨 **STANDING HAZARD 16, and it had already corrupted an evidence file.** `U+FFFE` **destroyed a hyphen at every line break** — so `Pre-Trial`, `Pre Trial` and `PreTrial` **all miss**. The Motion to Preserve Evidence cites four statutes in sequence (`77-11c-301/-302/-303/-401`) and **CR-E13 v1.0's list omitted `-302`**, because a plain search returns zero. ⚠️ **It must NOT be repaired in the data** — unlike the NULs, the correct expansion differs per word. ✅ **Use `./artifact_search.py`, which searches both readings.**
+🚨 **STANDING HAZARD 16, and it had already corrupted an evidence file.** `U+FFFE` **destroyed a hyphen at every line break** — so `Pre-Trial`, `Pre Trial` and `PreTrial` **all miss**. The Motion to Preserve Evidence cites four statutes in sequence (`77-11c-301/-302/-303/-401`) and **CR-E13 v1.0's list omitted `-302`**, because a plain search returns zero. ⚠️ **It must NOT be repaired in the data** — unlike the NULs, the correct expansion differs per word. ✅ **Use `./scripts/artifact_search.py`, which searches both readings.**
 
 > ✅ **The rule to carry: repair the DATA only where the correct value is unambiguous; otherwise repair the METHOD and leave the evidence alone.**
 
-⚠️ **Still untested under both hazards: `DNA-E01`, `CR-E01`–`CR-E07`, `CR-WATCH-log`, the four raw candidate banks → Q-111.** ✅ **`./docket-watch-run.py` now makes the 08-18 run a diff, not a search.**
+⚠️ **Still untested under both hazards: `DNA-E01`, `CR-E01`–`CR-E07`, `CR-WATCH-log`, the four raw candidate banks → Q-111.** ✅ **`./scripts/docket-watch-run.py` now makes the 08-18 run a diff, not a search.**
 
 ### 🚨 THE ONE THING THAT CANNOT WAIT
 
@@ -286,7 +288,7 @@ Kirk push (this session's commits local) · the routine prompt re-sync (dated, a
 
 ### Where to pick up (rewritten 2026-08-16 evening)
 
-1. 🚨 **A1 — the 08-18 by-hand watch run. TUESDAY. Time-critical and the only cover for the State's reply.** `./docket-watch-run.py` makes it a diff. ⚠️ **A BLOCKED route is never a null and is never baselined.**
+1. 🚨 **A1 — the 08-18 by-hand watch run. TUESDAY. Time-critical and the only cover for the State's reply.** `./scripts/docket-watch-run.py` makes it a diff. ⚠️ **A BLOCKED route is never a null and is never baselined.**
 2. 🚨 **Q-140 — finish the Twiggs reconciliation.** 3 contradictions + **seven living-persons removals** + the per-claim tier re-marking the header now demands, **then a COMPLETENESS pass** — what was run was claim-by-claim, which cannot find what the file never said.
 3. **The person-file programme, started and unfinished:** **Q-136 Zinn · Q-137 the Robinson arrest chronology · Q-138 Erika Kirk.** ✅ **Two new primary sources make these newly tractable** — the arrest-announcement transcript (Governor + FBI Director) and **36 turns of the elected County Attorney**.
 4. **Q-93** — the 2026-03-13 omnibus closure rulings; **no 2026 classification status is safe without it.** Then **Q-86** (Dkt. 332).
@@ -345,8 +347,8 @@ Kirk push (this session's commits local) · the routine prompt re-sync (dated, a
 ```bash
 cd ~/Documents/"Kirk Robinson Research"
 git pull                 # nothing else has been writing here, but check
-./queue-check.sh         # queue + register integrity; must print RESULT: clean
-./tsearch.py --validate  # transcript search method still works
+./scripts/queue-check.sh         # queue + register integrity; must print RESULT: clean
+./scripts/tsearch.py --validate  # transcript search method still works
 ```
 
 Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of it. ⚠ **Two of them changed on 2026-08-01 — hazard 10 was CORRECTED because it was wrong, and hazard 9 was WIDENED.** See §5.
@@ -409,7 +411,7 @@ Then read **[QUEUE.md](QUEUE.md)** and the **standing hazards** at the bottom of
 2. ⚠ **HAZARD 9 IS WIDER THAN IT SAID.** Not only do witness answers carry counsel's label — **a party's advocate's argument can carry the OPPOSING party's counsel label** (Day 5: one "Mr. McBride" label covers both the prosecutor and media counsel, in adjacent turns the judge distinguishes). **More dangerous than the Day 1 failures**, because an argument's content does not announce whose it is the way an answer does. **Infer every speaker from content; where label and content disagree, content wins.**
 3. **Exhibit numbers are not unique across parties — and now not across witnesses either.** "Exhibit 30" is both a NIST publication and a DNA report; "Exhibit 31" appears as State's, People's and plaintiff's. ⚠ **One court ruling admits a chart under the wrong number on its face** (D-55).
 4. ⚠ **Over-hedging is a defect too — it bit again.** CR-E05 refused in bold to identify "Falmina" as Sgt. Jennifer Faumuina; **Day 1 names her correctly at 24:19.** Caution that reads as rigour is still error.
-5. **A search null is a claim about the search.** Validate the method first — `./tsearch.py --validate`.
+5. **A search null is a claim about the search.** Validate the method first — `./scripts/tsearch.py --validate`.
 6. **Grep, then read the hit.** ⚠ **`queue-check.sh` reports a "highest string" one above the true register ceiling. It counts strings, not assignments.**
 7. **Selective quotation** is reliable as to the words, never as to the document. **Provenance is a separate verification act.** **Keyword sampling finds topics and misses conclusions.** **Rev page dates are publication dates.**
 8. ⚠ **NEW, and it generalises: A CAVEAT IS A CLAIM, AND CLAIMS NEED VERIFICATION ACTS.** Hazard 10 was wrong for weeks because a *caution* felt safe — it only ever restricted what could be said. **Hazards 1–8 have never been tested either.** Treat every standing hazard as unverified until some cycle has actually checked it.

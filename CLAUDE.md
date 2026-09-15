@@ -154,6 +154,13 @@ Marking rules:
 
 ## File conventions
 
+- **Layout (since 2026-09-15, `AUDIT.md` §7):** `files - <Topic>/` folders and everything inside an
+  artifact bank are the **citation namespace** and never move or get renamed. Tooling lives in
+  `scripts/` (run from anywhere), methodology in `docs/`, deployed routine text in `ops/`, rendered
+  outputs in `deliverables/`, verification-cycle banks in `verification/`, superseded material in
+  `archive/` (never deleted). `INDEX.md` lists every significant file; `SOURCE-MANIFEST.md` every
+  artifact. Creating or removing a topic folder, or moving files between them, is a human gate
+  (`LOOP.md` §3).
 - **Topic folders:** `files - <Topic>` at the repo root (exact pattern: `files`, space, dash,
   space, topic name). Paths contain spaces — always quote them in shell commands.
 - **Each topic** carries (1) an evidence/claim-inventory file and (2) a Tier 1 source-acquisition
@@ -165,7 +172,7 @@ Marking rules:
 
 ## Operational rules
 
-- File operations are non-destructive by default: copies/moves via `migrate-files.sh`
+- File operations are non-destructive by default: copies/moves via `scripts/migrate-files.sh`
   (verifies file lists and byte totals; leaves source intact); deletions go to `~/.Trash`,
   not `rm`.
 - Web research records the retrieval date and preserves the full URL. Failed retrievals

@@ -1,0 +1,71 @@
+# DECISIONS — why things are the way they are
+
+**Prepared:** 2026-09-15. Each entry says who decided (the owner, the library's own rules, or an *inference* drawn while auditing), when, and what would change it. Inferences are marked and should be confirmed or corrected by the owner.
+
+## Structure
+
+**S1 · The `files - <Topic>/` folder names and everything inside an artifact bank never move or get renamed.** Owner, 2026-09-15 (`AUDIT.md` Q1). 46 verified files carry 226 literal `files - <Topic>/…` paths and 43 carry the court bank's path; five scripts hard-code it; the cloud routine names two files by path. Renaming would mean rewriting citations inside files that carry revision logs and `VERIFIED` stamps, or leaving them broken. *Changes if:* the library ever adopts a citation-by-ID resolver so paths stop being load-bearing.
+
+**S2 · Reorganise around the namespace, not through it.** Owner, 2026-09-15. Tooling → `scripts/`, methodology → `docs/`, deployed routine text → `ops/`, renders → `deliverables/`, verification-cycle banks → `verification/`, superseded material → `archive/`, person dossiers → a new topic folder. Root file count 30 → 12.
+
+**S3 · No edit to the body of any file under `files - <Topic>/` during a reorganisation, with one exception.** Owner, 2026-09-15 (Q5). Historical mentions of `./tsearch.py` and the like inside dated audits are records of what was run. The exception was TJR-P01, which got a v2.5 row for three splice defects and its own relocation. Two root-relative links inside `files - Court record/CR-WATCH-log.md` (lines 539 and 1121, to routine-prompt drafts) were left dangling for the same reason; `archive/README.md` records where the targets went.
+
+**S4 · Creating a topic folder is a human gate.** `LOOP.md` §3. `files - Person profiles/` was created on the owner's explicit approval (Q3). An autonomous session must not do this.
+
+**S5 · Verification-cycle banks live in `verification/`, not in the topic folder of the file they verify.** Owner, 2026-09-15 (Q5). They are process evidence: agent journals, verdicts, frozen snapshots. `manifest.py` classes them `process-evidence` so a null about the case record is never satisfied by them. *(inference)* Future cycle banks should go here too, named `<FILE-ID>-REVIEW-<date>_verification-cycle-<n>/`; the single-file `*-REVIEW-*.md` reports stay in the topic folders.
+
+**S6 · The eight non-artifact files inside the court bank stay there.** Owner, 2026-09-15 (Q8). Two DO-NOT-PUBLISH drafts, three `_RAW.md` agent reports, one candidate-bank index, one Python and two JS one-off scripts. 89 files cite the DNA draft by its bank path. *(inference)* They are there because the 2026-08 workflows wrote their outputs next to their inputs; the convention since 2026-09-14 is to bank process evidence in a dedicated cycle folder.
+
+**S7 · The 23 MB mis-banked federal filing stays in the bank.** Owner, 2026-09-15 (Q9). It is the "BAM Franchising contaminant": 23 files cite it as the named exclusion, `queue-check.sh` subtracts it in its sweepable-artifact arithmetic, and `CR-REVIEW-2026-08-17` measured its contamination profile. Removing it would silently re-scope every "71/73 artifacts" null.
+
+**S8 · Frozen snapshots are never edited.** Library rule (`VERIFICATION-PROTOCOL.md`; TJR-P01 revision log). The 13 `profile_v*.md` files in the TJR bank still name the bank's old path; that is correct.
+
+## Tooling
+
+**T1 · Tools resolve the library root from their own location.** 2026-09-15. Before the move they assumed the cwd was the root. `docket-watch-run.py` already used `__file__`; the rest now do the same.
+
+**T2 · `SOURCE-MANIFEST.md` and `source-manifest.json` are generated and committed.** Library rule (manifest.py docstring, 2026-09-14): hand-maintained indexes drifted every time. They stay at the root because 14 and 17 files cite them there. Regenerate after banking, moving or citing anything; never hand-edit.
+
+**T3 · `manifest.py` ignores `docs/`, `archive/`, `AUDIT.md` and `INDEX.md` when computing "cited by".** 2026-09-15. The kit was already excluded under its old name; the two index files enumerate every artifact by name and would otherwise make nothing ever appear uncited, which is the signal the manifest exists to give.
+
+**T4 · `manifest.py --check` still regenerates.** Known defect, recorded 2026-09-15 (`AUDIT.md` §3.1), not fixed because the reorganisation was not to change logic. *Recommended:* make `--check` compare in memory and exit 1 on drift.
+
+**T5 · No `tests/`.** The regression suite is the three self-checking tools plus the manifest's counts (`README.md` §Tools). `queue-check.sh` exits 1 today on two known conditions: two bank PDFs have no `.txt` sibling (the bindover order has no text layer; the redacted hearing transcript is a known duplicate of `oct24_clean.txt`), and any dirty working tree.
+
+**T6 · `build-docx.js` prefers `require('docx')` and falls back to the Homebrew global path.** 2026-09-15. The absolute path was machine-specific.
+
+**T7 · The four one-off scripts inside data folders keep their absolute paths.** They are records of what was run on 2026-07-27, 08-16 and 08-17 and their outputs are cited; editing them would falsify the record.
+
+## Data and provenance
+
+**P1 · A PDF is raw; its `.txt` is derived; both are cited.** Library practice since 2026-07-27. `queue-check.sh` flags any PDF without a `.txt` because a `.txt`-only sweep cannot see it.
+
+**P2 · The U+FFFE line-break hyphenation in 15 `.txt` files is not repaired in the data.** `QUEUE.md` standing hazard 16 (2026-08-16). The correct expansion differs per word, so the remedy is the search method (`artifact_search.py` searches both readings). The NUL page separators, by contrast, were repaired in the data on 2026-08-16 because `0x0C` was unambiguously correct (hazard 13).
+
+**P3 · Four rendered PNG pages of the ATF firearms report are banked beside the PDF.** 2026-09-14. The PDF's text layer is a Type-3 font with no ToUnicode map: image-legible, text-illegible. The renders are the readable form and `manifest.py` classes them `IMAGE-ONLY`.
+
+**P4 · The 2026-09-01 bindover order has no text layer and no `.txt`.** Acquired 2026-09-14. Read by rendering all 26 pages. A string search of it returns a false null; `SOURCE-MANIFEST.md` §1 says so.
+
+**P5 · Identical files under different DocumentCloud ids are all kept.** e.g. `2025-09-16_5_dc26099252.txt` = `…proposed-pretrial-protective-order_dkt7_dc27880860.txt`; the three `2026-04-02_motion-vacate…` postings. Each id is cited somewhere; the manifest records the hashes.
+
+**P6 · Three naming generations coexist and are not reconciled.** *(inference)* ID-prefixed names (`CR-E19_…`) began with the court-record work on 2026-07-27; the descriptive names (`robinson-surrender-timeline.md`, `t1 source acquisition roadmap - George Zinn.md`) predate it (2026-07-13 to 07-18) and are cited by those names. `INDEX.md` maps every file to its role instead.
+
+## Process
+
+**R1 · `[PROVISIONAL]` is cleared by a judgement about the untested remainder, never by a tally of what passed.** Memory rule, 2026-08-30; `VERIFICATION-PROTOCOL.md` §3.4 (no self-certification).
+
+**R2 · Every correction pass has introduced defects of the class it was fixing.** Measured 2026-08-30 and again 2026-09-14 (seven, then eight, on TJR-P01). Consequence: a propagation sweep of the claim's footprint is budgeted as its own pass, and structural invariants (heading count, list markers) are checked after every applied replacement. *Recommended, not yet done:* add a sentence-integrity check (no mid-sentence file-path fragments, no adjacent duplicate sentences) to the invariant, since the three 2026-09-15 defects passed the existing one.
+
+**R3 · Agent output is banked, not summarised.** Memory rule, 2026-08-30 (ten agent reports drove two cycles and existed nowhere on disk). Hence `verification/`.
+
+**R4 · Protected names are removed, never struck through.** `CLAUDE.md`; memory rule. "Corrections in place, never silent" governs claims, not names.
+
+**R5 · The docket watch writes a row even when it finds nothing.** `CR-WATCH-log.md` header. A watch with gaps is indistinguishable from one that stopped. Three September firings ran dark and were transcribed on 2026-09-14; the root cause (the routine's account cannot see the private repo) is recorded in `CR-WATCH-log.md` v2.4 and is owner-gated.
+
+## Open
+
+- **O1** `START-HERE.md` and `QUEUE.md` have no row for the 2026-09-14 session (TJR-P01, kit adoption, bindover order). The reorganisation added dated relocation notes only; the session write-back is still owed.
+- **O2** The pending routine prompt `ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md` is unapplied (owner-gated).
+- **O3** `manifest.py --check` (T4). Sentence-integrity invariant (R2).
+- **O4** Two dangling links in `CR-WATCH-log.md` (S3).
+- **O5** Two local branches fully merged into `main` (`forensic-exhibit-map-and-print-null-2026-08-30`, `limits-resolution-2026-08-30`) can be deleted; not done, owner's call.

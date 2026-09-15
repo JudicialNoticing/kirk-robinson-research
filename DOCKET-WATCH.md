@@ -69,15 +69,15 @@
 
 > 🔴 **Observed status, 2026-09-02 (Run 9) — NOT a posture change; the line above stands until the owner rules (LOOP.md §3).** A bindover on all seven counts is **reported** to have issued orally from the bench on 2026-09-01, verified across ~eleven raw-fetched outlet pages (about eight independent newsrooms) and **capped at `multi-outlet-consistent` because no primary document exists anywhere reachable.** The recommended revision, put to the owner in the vault's Open Decisions: *"reported bound over 2026-09-01 on all seven counts (T1 via T3; no primary document held)"* — never a bare "bound over." Presumption of innocence applies throughout and is unaffected by a probable-cause finding.
 
-## ▶ RUNNING IT — `./docket-watch-run.py` (new 2026-08-16)
+## ▶ RUNNING IT — `./scripts/docket-watch-run.py` (new 2026-08-16)
 
 **The by-hand run is now a DIFF, not a search.** Written specifically for the **Tue 2026-08-18** window, which has no document-capable scheduled cover.
 
 ```bash
 cd ~/Documents/"Kirk Robinson Research"
-./docket-watch-run.py              # all four routes, diffed against the stored baseline
-./docket-watch-run.py --baseline   # refresh the baseline AFTER you have banked what it found
-./docket-watch-run.py --only dc    # one route: dc | fox | rev | utcourts
+./scripts/docket-watch-run.py              # all four routes, diffed against the stored baseline
+./scripts/docket-watch-run.py --baseline   # refresh the baseline AFTER you have banked what it found
+./scripts/docket-watch-run.py --only dc    # one route: dc | fox | rev | utcourts
 ```
 
 **Baseline established 2026-08-16, and it independently reproduces three facts this file recorded separately** — which is why it is trustworthy:
@@ -143,6 +143,7 @@ Append to `files - Court record/CR-WATCH-log.md` — one row per run: date, what
 
 | Version | Date | Change |
 |---|---|---|
+| **2.1** | **2026-09-15** | **Relocation note only; the spec is unchanged.** Phase 2 reorganisation (`AUDIT.md` §7): the LIVE routine-prompt file and the current 09-14 draft are in `ops/docket-watch/`; the four superseded drafts (08-14, 08-16, 08-17, 09-02) in `archive/docket-watch-prompts/`; the local runner is `./scripts/docket-watch-run.py` (4 invocations re-pointed); three path links in this file re-pointed. Bare-name mentions untouched. This file and `files - Court record/CR-WATCH-log.md` did not move: the cloud routine names both by path. |
 | **2.0** | **2026-09-02** | **The bindover cycle this spec was written around is over, at outlet grade.** Calendar: 09-01 argument **HELD**, ruling **REPORTED ISSUED** the same evening (all seven counts; aggravator sustained at probable cause; not-guilty pleas by counsel, same session), **2026-10-23 1:00 p.m. pretrial conference REPORTED SET** — all observed statuses from Run 9, all T1 via T3, **no primary document**. **The posture line is NOT rewritten**: a dated observed-status note sits under it and the revision is put to the owner. "What each run checks" item 3 re-pointed from 09-01 to 10-23 / written order / trial-setting / sealing rulings. Access routes: **Utah County Attorney site DOWN (expired wildcard cert, CMS 503)**; abc4 `/amp/` bypass. ⚠️ **The routine prompt is now written for a closed window** — draft replacement at `DOCKET-WATCH-routine-prompt-DRAFT-2026-09-02.md`, apply is 👤. |
 | **1.9** | **2026-09-02** | **Access routes gain the livestream/VOD row** — the route that produced the library's only contemporaneous copy of the 09-01 hearing was in no table (CR-ACQ-2026-09-01 §5 item 5, now closed). **Calendar NOT yet updated for the ruling reported by the 2026-09-02 firing** — that waits on Run 9's verification (CR-WATCH-log), per this file's own rule that a run may set an observed status but never infer an outcome from a report. ⚠ The routine's inlined prompt is now **two** revisions behind (1.8 → 1.9) and, if the bindover holds, written for a closed window. |
 | **1.8** | **2026-08-20** | **Calendar row 2026-08-18 → observed status FILED AND BANKED (Run 7, local catch-up):** the State's *"Reply Memorandum in Support of Preliminary Hearing Bindover"* was caught by this file's own outlet-mirror diff — 16 new PDFs against the 55 baseline, two of them one byte-identical document — fetched, hashed and banked with an unread extraction ([CR-ACQ-2026-08-20](files%20-%20Court%20record/CR-ACQ-2026-08-20_states-reply.md)). **Provenance two-of-three, the defence brief's grade exactly; 19 pp. vs the 18-page limit recorded and not reconciled; contents unread (caption/signature/certificate pages only).** 🚨 **The coverage gap the 08-18 row warned about REALISED: the planned local run did not happen** — found T+2 from outside the repo by log mtime; the blind 08-19 firing reported the filing (T1 via T3) into the unread channel; **cover by luck, recorded as such.** **Access routes:** outlet-mirror row rewritten (route delivered; baseline 71; CDX intermittency measured — retry before recording a block, never baseline through one; filename hazards in both directions), DocumentCloud row rewritten (OPEN and holding — the 08-16 gating was transient; intermittent at the Cloudflare layer; 40/40 current). 👤 **The routine's prompt is out of sync a third time** (still says "08-18: not filed"; lacks Q-147's recovery trigger) — **re-apply before Sat 08-22 09:00**; sync-box updated. No case-posture statement altered; no register entry moved; no filing's contents characterised. |
