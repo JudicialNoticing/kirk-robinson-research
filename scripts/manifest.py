@@ -37,7 +37,7 @@ CR   = "files - Court record"
 SCAN_DIRS = [
     ART,
     os.path.join(CR, "CR-ACQ-2026-09-02_bindover-verification-fetches"),
-    os.path.join(CR, "TJR-REVIEW-2026-09-14_verification-cycle-1"),
+    "verification/TJR-REVIEW-2026-09-14_verification-cycle-1",   # moved out of files - Court record/ 2026-09-15
     "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts",
 ]
 OUT_MD, OUT_JSON = "SOURCE-MANIFEST.md", "source-manifest.json"
