@@ -22,12 +22,13 @@ REGENERATE, NEVER EDIT
     output. Re-run it; do not patch it.
 
 USAGE
-    ./manifest.py                 # regenerate SOURCE-MANIFEST.md + source-manifest.json
-    ./manifest.py --check         # exit 1 if the manifest on disk is stale (for CI/queue-check)
+    ./scripts/manifest.py         # regenerate SOURCE-MANIFEST.md + source-manifest.json (run from anywhere)
+    ./scripts/manifest.py --check # NOTE: also regenerates; it does not yet detect staleness (AUDIT.md §3.1)
 """
 import os, re, sys, json, glob, hashlib, subprocess, datetime
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+# The script lives in scripts/; the library root is its parent. Every path below is root-relative.
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ART  = "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts"
 CR   = "files - Court record"
 # Scanned RECURSIVELY. Widened 2026-09-14: the first version scanned two directories and reported 144
@@ -88,7 +89,7 @@ def classify_txt(path):
     n = s.count(FFFE)
     if n:
         split = sorted({w for w in re.findall(r"\S*" + FFFE + r"\S*", s)})
-        return "U+FFFE-SPLIT", n, split, ("USE ./artifact_search.py — it searches both the joined and the "
+        return "U+FFFE-SPLIT", n, split, ("USE ./scripts/artifact_search.py — it searches both the joined and the "
                                           "hyphenated reading. A plain grep returns FALSE NULLS.")
     return "text-native", 0, [], "plain search is reliable."
 
@@ -144,7 +145,10 @@ def main():
     os.chdir(ROOT)
     library_md = {}
     for p in glob.glob("**/*.md", recursive=True):
-        if p.startswith(("VerificationAndFactCheckProtocol", "SOURCE-MANIFEST")):
+        # not library prose: the kit and the architecture docs (docs/), archived duplicates, this
+        # tool's own output, and the two files that enumerate every artifact by name (AUDIT.md,
+        # INDEX.md) — counting those as citations would make nothing ever appear uncited.
+        if p.startswith(("docs/", "archive/", "SOURCE-MANIFEST", "AUDIT.md", "INDEX.md")):
             continue
         # frozen pre-correction snapshots are baselines, not live citations
         if "/profile_v" in p and "_pre-" in p:
@@ -211,7 +215,7 @@ def main():
     L = []
     A = L.append
     A("# SOURCE-MANIFEST — what this library holds, what is inside it, and how to read it\n")
-    A("> 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./manifest.py`.**")
+    A("> 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./scripts/manifest.py`.**")
     A("> Hand-maintained indexes in this project have drifted every time they were kept by hand.\n")
     byclass = {}
     for e in entries:

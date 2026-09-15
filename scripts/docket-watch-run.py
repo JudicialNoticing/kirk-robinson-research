@@ -8,9 +8,9 @@ the deadline) and is egress-blind. A LOCAL by-hand run is the only cover.
 This turns that run from a from-scratch search into a DIFF against a stored
 baseline, per DOCKET-WATCH.md's access-routes table.
 
-    ./docket-watch-run.py                 # run all checks, diff vs baseline
-    ./docket-watch-run.py --baseline      # (re)write the baseline, then diff
-    ./docket-watch-run.py --only rev      # one check: dc | fox | rev | utcourts
+    ./scripts/docket-watch-run.py                 # run all checks, diff vs baseline
+    ./scripts/docket-watch-run.py --baseline      # (re)write the baseline, then diff
+    ./scripts/docket-watch-run.py --only rev      # one check: dc | fox | rev | utcourts
 
 DESIGN RULE, and it is the whole point of the file
 --------------------------------------------------
@@ -27,8 +27,9 @@ those are human gates in every mode (LOOP.md §3).
 """
 import argparse, json, os, re, sys, urllib.parse, urllib.request
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-BASELINE = os.path.join(HERE, "files - Court record",
+HERE = os.path.dirname(os.path.abspath(__file__))          # scripts/
+ROOT = os.path.dirname(HERE)                                # library root
+BASELINE = os.path.join(ROOT, "files - Court record",
                         "CR-ACQ-2026-07-27_court-record-artifacts",
                         "docket-watch-baseline.json")
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -227,7 +228,7 @@ def main():
 
     print("=" * 72)
     print("DOCKET WATCH — local run.  State v. Robinson, No. 251403576 (4th Dist., FS)")
-    print("Spec: DOCKET-WATCH.md.  Next hard date: Tue 2026-08-18, State's reply (18pp limit).")
+    print("Spec: DOCKET-WATCH.md — its calendar table carries the next hard date.")
     print("=" * 72)
 
     for n in names:
@@ -258,7 +259,7 @@ def main():
         prev.update({k: v for k, v in results.items() if v["status"] != BLOCKED})
         json.dump({"written": "run --baseline to refresh", "checks": prev},
                   open(BASELINE, "w"), indent=2)
-        print(f"\nbaseline written → {os.path.relpath(BASELINE, HERE)}")
+        print(f"\nbaseline written → {os.path.relpath(BASELINE, ROOT)}")
         if any(v["status"] == BLOCKED for v in results.values()):
             print("⚠️  Blocked routes were NOT baselined (a block is not a state).")
     return 1 if blocked else 0

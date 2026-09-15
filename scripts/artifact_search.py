@@ -4,6 +4,7 @@
 Written 2026-08-16 after two extraction defects in the same family each produced
 false nulls in files this library had already searched.
 
+    import sys; sys.path.insert(0, 'scripts')          # the module lives in scripts/ (since 2026-09-15)
     from artifact_search import load, norm, find
     hits = find(r'77-11c-401', 'files - Court record/CR-ACQ-.../dkt117.txt')
 
@@ -104,8 +105,9 @@ def audit(paths):
 
 if __name__ == "__main__":
     import glob, os, sys
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # scripts/ -> library root
     d = (sys.argv[1] if len(sys.argv) > 1 else
-         "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts")
+         os.path.join(ROOT, "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts"))
     rows = audit(sorted(glob.glob(os.path.join(d, "*.txt"))))
     nul = sum(r["nul"] for r in rows)
     split = sum(r["split"] for r in rows)

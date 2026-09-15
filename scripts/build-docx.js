@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const M = '/opt/homebrew/lib/node_modules/docx';
+// `docx` is not a project dependency; resolve it from NODE_PATH first, then the Homebrew global.
+let M = 'docx';
+try { require.resolve(M); } catch (e) { M = '/opt/homebrew/lib/node_modules/docx'; }
 const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell,
         AlignmentType, LevelFormat, HeadingLevel, BorderStyle, WidthType,
         ShadingType, TableOfContents, Header, Footer, PageNumber } = require(M);

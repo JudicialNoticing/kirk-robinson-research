@@ -14,10 +14,10 @@ known-positive check so you can state a null honestly.
 
 Usage
 -----
-    ./tsearch.py --validate                       # confirm the method works
-    ./tsearch.py "use pliers" --days 4
-    ./tsearch.py "engraving cutter" -B 800 -A 800
-    ./tsearch.py "Matthew Robinson" --days 5 -n 10
+    ./scripts/tsearch.py --validate                       # confirm the method works
+    ./scripts/tsearch.py "use pliers" --days 4
+    ./scripts/tsearch.py "engraving cutter" -B 800 -A 800
+    ./scripts/tsearch.py "Matthew Robinson" --days 5 -n 10
 
 Written 2026-07-28 during the Q-02 independent pass (CR-AUDIT-2026-07-28 §7).
 """
@@ -26,7 +26,7 @@ import os
 import sys
 import argparse
 
-REPO = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # scripts/ -> library root
 BASE = os.path.join(
     REPO,
     "files - Court record",

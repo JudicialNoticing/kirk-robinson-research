@@ -4,7 +4,7 @@
 # Exit 0 = clean, 1 = problems found. Read-only; never modifies anything.
 
 set -uo pipefail
-cd "$(dirname "$0")" || exit 1
+cd "$(dirname "$0")/.." || exit 1   # the script lives in scripts/; checks run from the library root
 fail=0
 say() { printf '%s\n' "$*"; }
 bad() { printf '  ✗ %s\n' "$*"; fail=1; }
@@ -60,7 +60,7 @@ done
 
 say ""
 say "== Provisional findings outstanding =="
-prov=$(grep -rc '\[PROVISIONAL\]' --include='*.md' . 2>/dev/null | grep -v ':0' | grep -vE './(LOOP|QUEUE)\.md' || true)
+prov=$(grep -rc '\[PROVISIONAL\]' --include='*.md' . 2>/dev/null | grep -v ':0' | grep -vE './(LOOP|QUEUE|AUDIT|INDEX)\.md|^./(docs|archive)/' || true)
 if [ -n "$prov" ]; then say "$prov" | sed 's/^/  /'; say "  → these may NOT be cited elsewhere until a verification cycle clears them (LOOP.md §2)"; else ok "none outstanding"; fi
 
 say ""
