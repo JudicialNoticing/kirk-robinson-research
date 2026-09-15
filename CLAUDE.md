@@ -19,7 +19,7 @@ revision-log entry — no untracked conclusions in chat only.
 ## Verification standard — `VERIFICATION-PROTOCOL.md` is binding
 
 **Adopted 2026-09-14.** The Research Verification Kit at
-`VerificationAndFactCheckProtocol copy/research-verification-kit/` is this project's standing
+`docs/research-verification-kit/` is this project's standing
 verification standard. **Read `VERIFICATION-PROTOCOL.md` before any verification, audit, correction
 cycle, or new evidence file.** It governs *how a claim earns the right to be written*; this file governs
 *what the library is and how files are written*. Both apply; where the protocol is stricter, it wins.
