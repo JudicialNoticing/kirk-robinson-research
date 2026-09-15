@@ -1,14 +1,14 @@
 # SOURCE-MANIFEST — what this library holds, what is inside it, and how to read it
 
-> 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./manifest.py`.**
+> 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./scripts/manifest.py`.**
 > Hand-maintained indexes in this project have drifted every time they were kept by hand.
 
-**Artifacts:** 294  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 51
+**Artifacts:** 302  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 54
 
 **By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*
 
 - `primary-source` — 161
-- `process-evidence` — 38
+- `process-evidence` — 46
 - `source-capture` — 79
 - `transcript` — 16
 
@@ -18,21 +18,21 @@
 |---|---|---|
 | `2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_signed.pdf` | **NO-TEXT-LAYER** (0 ch/pg, 26pp) | RENDER: pdftoppm -r 150, read the images. A text search returns a FALSE NULL. |
 | `2026-03-15ca_case-search-utah-state-court-online-xchange-service_dc2788052` | **OCR-GARBLE** (246 ch/pg, 2pp) | RENDER: the text layer is unreliable; read the rendered page. |
-| `2025-09-16_information-charging-document_dc27880532.txt` | **U+FFFE-SPLIT** (1 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.txt` | **U+FFFE-SPLIT** (1 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.txt` | **U+FFFE-SPLIT** (2 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.txt` | **U+FFFE-SPLIT** (1 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876` | **U+FFFE-SPLIT** (1 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-a` | **U+FFFE-SPLIT** (50 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-gene` | **U+FFFE-SPLIT** (2 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-moti` | **U+FFFE-SPLIT** (1 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-03-15_xchange-case-history-full_dc27880531.txt` | **U+FFFE-SPLIT** (2 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-03-15_xchange-short-case-history_dc27880533.txt` | **U+FFFE-SPLIT** (1 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.txt` | **U+FFFE-SPLIT** (4 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.txt` | **U+FFFE-SPLIT** (4 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.txt` | **U+FFFE-SPLIT** (4 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.txt` | **U+FFFE-SPLIT** (54 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
-| `2026-08-11_defendant-prelim-hearing-briefing_ALT-EXTRACTION-dc28551955.txt` | **U+FFFE-SPLIT** (3 split tokens) | USE ./artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2025-09-16_information-charging-document_dc27880532.txt` | **U+FFFE-SPLIT** (1 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc27880857.txt` | **U+FFFE-SPLIT** (1 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2025-10-22_state-response-to-motion-to-preserve_dkt117_dc27880878.txt` | **U+FFFE-SPLIT** (2 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2025-11-10_defendant-response-notice-of-motions-to-close_dc27880858.txt` | **U+FFFE-SPLIT** (1 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2025-12-08_defendant-response-media-limited-intervention_dkt197_dc27880876` | **U+FFFE-SPLIT** (1 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-01-05_prosecutor-opposition-defendant-motion-disqualify-utah-county-a` | **U+FFFE-SPLIT** (50 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-01-30_defendant-renewed-request-to-refer-motion-to-utah-attorney-gene` | **U+FFFE-SPLIT** (2 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-02-02_prosecutor-memorandum-opposition-defendant-renewed-request-moti` | **U+FFFE-SPLIT** (1 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-03-15_xchange-case-history-full_dc27880531.txt` | **U+FFFE-SPLIT** (2 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-03-15_xchange-short-case-history_dc27880533.txt` | **U+FFFE-SPLIT** (1 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-04-02_motion-vacate-continue-march-27-2026_dc27998184.txt` | **U+FFFE-SPLIT** (4 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.txt` | **U+FFFE-SPLIT** (4 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.txt` | **U+FFFE-SPLIT** (4 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.txt` | **U+FFFE-SPLIT** (54 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
+| `2026-08-11_defendant-prelim-hearing-briefing_ALT-EXTRACTION-dc28551955.txt` | **U+FFFE-SPLIT** (3 split tokens) | USE ./scripts/artifact_search.py — it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS. |
 
 ## §2 · Holdings
 
@@ -74,8 +74,8 @@
 | `2025-09-24_order-transport-in-person-waiver-hearing_dkt24_dc` | primary-source | txt | 2026-08-16 | text-native | 1 |
 | `2025-10-08_copy-video-audio-record-completed_dkt74_dc2788085` | primary-source | pdf | 2026-08-16 | text-native | 1 |
 | `2025-10-08_copy-video-audio-record-completed_dkt74_dc2788085` | primary-source | txt | 2026-08-16 | text-native | 1 |
-| `2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc278` | primary-source | pdf | 2026-08-14 | text-native | 1 |
-| `2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc278` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 1 |
+| `2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc278` | primary-source | pdf | 2026-08-14 | text-native | 2 |
+| `2025-10-08_defendant-motion-to-preserve-evidence_dkt75_dc278` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 2 |
 | `2025-10-08_proposed-order-granting-motion-preserve-evidence_` | primary-source | pdf | 2026-08-16 | text-native | 1 |
 | `2025-10-08_proposed-order-granting-motion-preserve-evidence_` | primary-source | txt | 2026-08-16 | text-native | 1 |
 | `2025-10-13_both-parties-motion-discovery-protective-order-st` | primary-source | pdf | 2026-08-16 | text-native | 1 |
@@ -92,8 +92,8 @@
 | `2025-10-27_state-open-file-policy-notice_dc27880871.txt` | primary-source | txt | 2026-08-16 | text-native | 1 |
 | `2025-11-03_stipulated-motion-classify-transcript-private_dkt` | primary-source | pdf | 2026-08-14 | text-native | 1 |
 | `2025-11-03_stipulated-motion-classify-transcript-private_dkt` | primary-source | txt | 2026-08-16 | text-native | 1 |
-| `2025-11-04_stipulated-order-preserve-evidence_dc27880862.pdf` | primary-source | pdf | 2026-08-14 | text-native | 1 |
-| `2025-11-04_stipulated-order-preserve-evidence_dc27880862.txt` | primary-source | txt | 2026-08-16 | text-native | 1 |
+| `2025-11-04_stipulated-order-preserve-evidence_dc27880862.pdf` | primary-source | pdf | 2026-08-14 | text-native | 2 |
+| `2025-11-04_stipulated-order-preserve-evidence_dc27880862.txt` | primary-source | txt | 2026-08-16 | text-native | 2 |
 | `2025-11-10_defendant-response-notice-of-motions-to-close_dc2` | primary-source | pdf | 2026-08-14 | text-native | 1 |
 | `2025-11-10_defendant-response-notice-of-motions-to-close_dc2` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 1 |
 | `2025-12-04_utah-office-victims-crime-restitution-notice-clai` | primary-source | pdf | 2026-08-16 | text-native | 2 |
@@ -124,8 +124,8 @@
 | `2026-02-02_proffer-facts-closure-poritons-evidentiary-hearin` | primary-source | txt | 2026-08-16 | text-native | 1 |
 | `2026-02-02_prosecutor-memorandum-opposition-defendant-renewe` | primary-source | pdf | 2026-08-16 | text-native | 2 |
 | `2026-02-02_prosecutor-memorandum-opposition-defendant-renewe` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 2 |
-| `2026-02-03_minute-order-evidentiary-hearing-disqualification` | primary-source | pdf | 2026-08-14 | text-native | 1 |
-| `2026-02-03_minute-order-evidentiary-hearing-disqualification` | primary-source | txt | 2026-08-16 | text-native | 1 |
+| `2026-02-03_minute-order-evidentiary-hearing-disqualification` | primary-source | pdf | 2026-08-14 | text-native | 2 |
+| `2026-02-03_minute-order-evidentiary-hearing-disqualification` | primary-source | txt | 2026-08-16 | text-native | 2 |
 | `2026-03-15_xchange-case-history-full_dc27880531.pdf` | primary-source | pdf | 2026-08-14 | text-native | 7 |
 | `2026-03-15_xchange-case-history-full_dc27880531.txt` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 7 |
 | `2026-03-15_xchange-short-case-history_dc27880533.pdf` | primary-source | pdf | 2026-08-14 | text-native | 5 |
@@ -140,8 +140,8 @@
 | `2026-04-02_motion-vacate-continue-march-27-2026_dc27998188.t` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 1 |
 | `2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.p` | primary-source | pdf | 2026-08-16 | text-native | 1 |
 | `2026-04-02_motion-vacate-continue-march-27-2026_dc27998189.t` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 1 |
-| `2026-06-23-pub_rev-contempt-hearing-transcript.html` | primary-source | html | 2026-08-14 | raw-capture | 5 |
-| `2026-06-23-pub_rev-contempt-hearing-transcript.txt` | primary-source | txt | 2026-08-14 | text-native | 5 |
+| `2026-06-23-pub_rev-contempt-hearing-transcript.html` | primary-source | html | 2026-08-14 | raw-capture | 6 |
+| `2026-06-23-pub_rev-contempt-hearing-transcript.txt` | primary-source | txt | 2026-08-14 | text-native | 6 |
 | `2026-06-25_reply-states-response-motion-defendant-be-unshack` | primary-source | pdf | 2026-08-16 | text-native | 1 |
 | `2026-06-25_reply-states-response-motion-defendant-be-unshack` | primary-source | txt | 2026-08-16 | text-native | 1 |
 | `2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.pdf` | primary-source | pdf | 2026-08-16 | text-native | 6 |
@@ -169,7 +169,7 @@
 | `2026-08-16_rev_fbi-press-conference-on-kirk-shooting_raw.htm` | primary-source | html | 2026-08-16 | raw-capture | 0 |
 | `2026-08-16_rev_press-conference-on-charlie-kirk-shooting.txt` | primary-source | txt | 2026-08-16 | text-native | 3 |
 | `2026-08-16_rev_press-conference-on-charlie-kirk-shooting_raw` | primary-source | html | 2026-08-16 | raw-capture | 0 |
-| `2026-08-16_rev_update-on-charlie-kirk-shooter.txt` | primary-source | txt | 2026-08-16 | text-native | 3 |
+| `2026-08-16_rev_update-on-charlie-kirk-shooter.txt` | primary-source | txt | 2026-08-16 | text-native | 4 |
 | `2026-08-16_rev_update-on-charlie-kirk-shooter_raw.html` | primary-source | html | 2026-08-16 | raw-capture | 0 |
 | `2026-08-17_Q136-zinn-reconciliation_RAW.json` | primary-source | json | 2026-08-17 | structured-data | 2 |
 | `2026-08-17_Q137-Q138-person-files_RAW.json` | primary-source | json | 2026-08-17 | structured-data | 2 |
@@ -179,18 +179,18 @@
 | `2026-08-18_states-reply-memo-bindover.txt` | primary-source | txt | 2026-08-20 | text-native | 4 |
 | `2026-08-20_Q182-crosswalk-anchors_RAW.json` | primary-source | json | 2026-08-20 | structured-data | 1 |
 | `2026-08-20_Q182-crosswalk-locates_RAW.json` | primary-source | json | 2026-08-20 | structured-data | 0 |
-| `2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_` | primary-source | pdf | 2026-09-14 | NO-TEXT-LAYER | 1 |
+| `2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_` | primary-source | pdf | 2026-09-14 | NO-TEXT-LAYER | 2 |
 | `atf_page-26.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 4 |
 | `atf_page-27.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 0 |
 | `atf_page-28.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 2 |
 | `atf_page-29.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 2 |
-| `dc224251_bank_receipts.json` | primary-source | json | 2026-08-16 | structured-data | 21 |
-| `dc224251_manifest.json` | primary-source | json | 2026-08-16 | structured-data | 21 |
+| `dc224251_bank_receipts.json` | primary-source | json | 2026-08-16 | structured-data | 20 |
+| `dc224251_manifest.json` | primary-source | json | 2026-08-16 | structured-data | 20 |
 | `dc_casenumber_bank_receipts.json` | primary-source | json | 2026-08-16 | structured-data | 2 |
 | `docket-artifacts_2026-08-16_NUL-repair_SUPERSESSION.json` | primary-source | json | 2026-08-16 | structured-data | 2 |
 | `docket-watch-baseline.json` | primary-source | json | 2026-08-29 | structured-data | 0 |
 | `oct24_clean.txt` | primary-source | txt | 2026-07-27 | text-native | 7 |
-| `2026-09-01_final-prelim-argument.txt` | transcript | txt | 2026-09-14 | text-native | 1 |
+| `2026-09-01_final-prelim-argument.txt` | transcript | txt | 2026-09-14 | text-native | 2 |
 | `2026-09-01_final-prelim-argument_raw.html` | transcript | html | 2026-09-14 | raw-capture | 0 |
 | `day1.txt` | transcript | txt | 2026-07-28 | text-native | 30 |
 | `day1_raw.html` | transcript | html | 2026-07-28 | raw-capture | 0 |
@@ -295,7 +295,7 @@
 | `cycle2_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `cycle3_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `cycle3_queue.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
-| `cycle3_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `cycle3_results.json` | process-evidence | json | 2026-09-14 | structured-data | 1 |
 | `journal_wf_1f229a39-bd3.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `journal_wf_3fe455fb-26a.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `journal_wf_8951c2ef-e9c.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
@@ -304,11 +304,19 @@
 | `p2_facts.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p2_questions-that-leaked-their-answers.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p2_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p3-iteration2_chains.json` | process-evidence | json | 2026-09-14 | structured-data | 1 |
+| `p3-iteration2_comparison.json` | process-evidence | json | 2026-09-14 | structured-data | 1 |
+| `p3-iteration2_verdicts.json` | process-evidence | json | 2026-09-14 | structured-data | 1 |
 | `p3_chains.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p3_steps.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p5-iteration2_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `p5-iteration2_queue.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p5-iteration2_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p5-repair_applied.json` | process-evidence | json | 2026-09-14 | structured-data | 1 |
+| `p5-repair_blind-reread.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p5-repair_false-positives.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p5-secondhand_applied.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `p5-secondhand_decisions.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p5_citations.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p5_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p7_attack-results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
@@ -358,7 +366,6 @@
 - `cycle2_results.json` — json, banked 2026-09-14, structured-data
 - `cycle3_journal.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `cycle3_queue.json` — json, banked 2026-09-14, structured-data
-- `cycle3_results.json` — json, banked 2026-09-14, structured-data
 - `journal_wf_1f229a39-bd3.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `journal_wf_3fe455fb-26a.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `journal_wf_8951c2ef-e9c.jsonl` — jsonl, banked 2026-09-14, structured-data
@@ -372,6 +379,10 @@
 - `p5-iteration2_journal.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `p5-iteration2_queue.json` — json, banked 2026-09-14, structured-data
 - `p5-iteration2_results.json` — json, banked 2026-09-14, structured-data
+- `p5-repair_blind-reread.json` — json, banked 2026-09-14, structured-data
+- `p5-repair_false-positives.json` — json, banked 2026-09-14, structured-data
+- `p5-secondhand_applied.json` — json, banked 2026-09-14, structured-data
+- `p5-secondhand_decisions.json` — json, banked 2026-09-14, structured-data
 - `p5_citations.json` — json, banked 2026-09-14, structured-data
 - `p5_results.json` — json, banked 2026-09-14, structured-data
 - `p7_attack-results.json` — json, banked 2026-09-14, structured-data

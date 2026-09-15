@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-09-15T00:21:23+00:00",
- "count": 294,
+ "generated_utc": "2026-09-15T19:30:14+00:00",
+ "count": 302,
  "entries": [
   {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
@@ -66,7 +66,7 @@
    "how_to_read": "pdftotext is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -90,7 +90,7 @@
    "how_to_read": "plain search is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -113,7 +113,7 @@
    "how_to_read": "pdftotext is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -136,7 +136,7 @@
    "how_to_read": "plain search is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -163,7 +163,7 @@
     "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -190,7 +190,7 @@
     "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -214,7 +214,7 @@
    "how_to_read": "pdftotext is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -238,7 +238,7 @@
    "how_to_read": "plain search is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -266,7 +266,7 @@
     "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -288,7 +288,7 @@
    "fffe_split_words": [
     "low\ufffecrawling"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
@@ -296,7 +296,7 @@
     "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -321,7 +321,7 @@
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -346,7 +346,7 @@
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -863,7 +863,8 @@
    "chars_per_page": 718,
    "how_to_read": "pdftotext is reliable.",
    "cited_by": [
-    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -886,9 +887,10 @@
    "fffe_split_words": [
     "\u00a777-11c\ufffe302,"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
-    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -1117,7 +1119,7 @@
     "77-11c\ufffe401(3)(a)(ii)",
     "77-11c\ufffe401(3)(a)."
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
    ],
@@ -1277,7 +1279,8 @@
    "chars_per_page": 710,
    "how_to_read": "pdftotext is reliable.",
    "cited_by": [
-    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -1299,7 +1302,8 @@
    "fffe_split_words": [],
    "how_to_read": "plain search is reliable.",
    "cited_by": [
-    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -1343,7 +1347,7 @@
    "fffe_split_words": [
     "https://www.deseret.com/utah/2025/10/10/man-accused-of-killing-charlie-kirk-requests-street\ufffeclothes-and-no-shackles-during-hearings/."
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
    ],
@@ -1439,7 +1443,7 @@
    "fffe_split_words": [
     "2:13-cv\ufffe169,"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
    ],
@@ -1465,7 +1469,7 @@
    "how_to_read": "pdftotext is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -1489,7 +1493,7 @@
    "how_to_read": "plain search is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -1514,7 +1518,7 @@
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -1539,7 +1543,7 @@
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -1644,7 +1648,7 @@
     "be\ufffelieve",
     "be\ufffetween"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
@@ -1879,7 +1883,7 @@
    "fffe_split_words": [
     "https://nypost.com/2026/01/21/us\ufffenews/utah-sen-mike-lee-calls-for-charlie-kirks-alleged-assassin-tyler-robinson-to-face-public\ufffeexecution/."
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
@@ -2023,7 +2027,7 @@
    "fffe_split_words": [
     "non\ufffeelected"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
@@ -2049,7 +2053,8 @@
    "chars_per_page": 1746,
    "how_to_read": "pdftotext is reliable.",
    "cited_by": [
-    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2072,7 +2077,8 @@
    "fffe_split_words": [],
    "how_to_read": "plain search is reliable.",
    "cited_by": [
-    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+    "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2100,7 +2106,7 @@
     "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2123,7 +2129,7 @@
     "Over\ufffeLength:",
     "Pre\ufffeTrial"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "QUEUE.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
@@ -2131,7 +2137,7 @@
     "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2157,7 +2163,7 @@
     "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2179,13 +2185,13 @@
    "fffe_split_words": [
     "In\ufffePerson"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "QUEUE.md",
     "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2306,7 +2312,7 @@
     "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
     "files - Court record/CR-E19_latent-print-record.md",
     "files - Court record/CR-E21_forensic-discovery-census.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2331,14 +2337,14 @@
     "non\ufffecase-specific",
     "probabilistic\ufffegenotyping"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
     "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
     "files - Court record/CR-E19_latent-print-record.md",
     "files - Court record/CR-E21_forensic-discovery-census.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2385,7 +2391,7 @@
     "non\ufffecase-specific",
     "probabilistic\ufffegenotyping"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
    ],
@@ -2434,7 +2440,7 @@
     "non\ufffecase-specific",
     "probabilistic\ufffegenotyping"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
    ],
@@ -2459,7 +2465,8 @@
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-ACQ-2026-08-14_contempt-transcript.md",
     "files - Court record/CR-E10_publicity-order-and-record-classification.md",
-    "lance-twiggs-comprehensive-profile.md"
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2484,7 +2491,8 @@
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-ACQ-2026-08-14_contempt-transcript.md",
     "files - Court record/CR-E10_publicity-order-and-record-classification.md",
-    "lance-twiggs-comprehensive-profile.md"
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2588,7 +2596,7 @@
     "co\ufffeDefendants",
     "co\ufffeDefendants,"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "QUEUE.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
@@ -2765,7 +2773,7 @@
     "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md",
     "files - Court record/CR-REVIEW-2026-08-16B_xchange-null-audit.md",
     "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2791,7 +2799,7 @@
     "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md",
     "files - Court record/CR-REVIEW-2026-08-16B_xchange-null-audit.md",
     "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -2815,13 +2823,13 @@
     "Sosa\ufffeHurtado",
     "theologically-orthodox\ufffeChristians\u201d"
    ],
-   "how_to_read": "USE ./artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
+   "how_to_read": "USE ./scripts/artifact_search.py \u2014 it searches both the joined and the hyphenated reading. A plain grep returns FALSE NULLS.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
     "files - Court record/CR-REVIEW-2026-08-16B_xchange-null-audit.md",
     "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3091,7 +3099,8 @@
    "cited_by": [
     "QUEUE.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
-    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md"
+    "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3145,8 +3154,8 @@
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [
-    "erika-kirk-background-family-contested-claims-dossier.md",
-    "files - Arrest chronology/robinson-surrender-timeline.md"
+    "files - Arrest chronology/robinson-surrender-timeline.md",
+    "files - Person profiles/erika-kirk-background-family-contested-claims-dossier.md"
    ],
    "unpaired": false
   },
@@ -3205,7 +3214,7 @@
     "DOCKET-WATCH.md",
     "files - Court record/CR-ACQ-2026-08-20_states-reply.md",
     "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3228,7 +3237,7 @@
     "DOCKET-WATCH.md",
     "files - Court record/CR-ACQ-2026-08-20_states-reply.md",
     "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3282,7 +3291,8 @@
    "chars_per_page": 0,
    "how_to_read": "RENDER: pdftoppm -r 150, read the images. A text search returns a FALSE NULL.",
    "cited_by": [
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Court record/CR-WATCH-log.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": true
   },
@@ -3368,9 +3378,6 @@
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [
-    "DOCKET-WATCH-routine-prompt-DRAFT-2026-08-14.md",
-    "DOCKET-WATCH-routine-prompt-DRAFT-2026-09-02.md",
-    "DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md",
     "DOCKET-WATCH.md",
     "QUEUE.md",
     "START-HERE.md",
@@ -3388,7 +3395,9 @@
     "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
     "files - Court record/CR-WATCH-log.md",
     "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
-    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md"
+    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md",
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md"
    ],
    "unpaired": false
   },
@@ -3407,9 +3416,6 @@
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [
-    "DOCKET-WATCH-routine-prompt-DRAFT-2026-08-14.md",
-    "DOCKET-WATCH-routine-prompt-DRAFT-2026-09-02.md",
-    "DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md",
     "DOCKET-WATCH.md",
     "QUEUE.md",
     "START-HERE.md",
@@ -3427,7 +3433,9 @@
     "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
     "files - Court record/CR-WATCH-log.md",
     "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
-    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md"
+    "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md",
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md"
    ],
    "unpaired": false
   },
@@ -3499,7 +3507,7 @@
     "files - Court record/CR-E12_closure-classification-and-sealing-map.md",
     "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
     "files - Court record/CR-REVIEW-2026-08-16D_Q105-null-re-runs.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3519,7 +3527,8 @@
    "fffe_split_words": [],
    "how_to_read": "plain search is reliable.",
    "cited_by": [
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Court record/CR-WATCH-log.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3581,8 +3590,8 @@
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
     "files - Event security/SEC-E02_security-team-allegations-assessment.md",
     "files - Kirk assassination questions/kirk-shooting-official-timeline.md",
-    "lance-twiggs-comprehensive-profile.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3636,8 +3645,8 @@
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
     "files - Event security/SEC-E02_security-team-allegations-assessment.md",
     "files - George Zinn/zinn-george-evidence.md",
-    "lance-twiggs-comprehensive-profile.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3658,7 +3667,7 @@
     "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
     "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md",
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3703,8 +3712,8 @@
     "files - Court record/CR-REVIEW-2026-08-16F_Q89-losee-draft-vs-sworn-geometry.md",
     "files - Court record/CR-WATCH-log.md",
     "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
-    "lance-twiggs-comprehensive-profile.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3778,8 +3787,8 @@
     "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
     "files - Event security/SEC-E02_security-team-allegations-assessment.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
-    "lance-twiggs-comprehensive-profile.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3816,9 +3825,9 @@
    "fffe_split_words": [],
    "how_to_read": "plain search is reliable.",
    "cited_by": [
-    "DOCKET-WATCH-routine-prompt-DRAFT-2026-08-16.md",
     "DOCKET-WATCH.md",
     "QUEUE.md",
+    "README.md",
     "START-HERE.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_BLOCKED-DRAFT_q08-dna_DO-NOT-PUBLISH.md",
@@ -3842,8 +3851,8 @@
     "files - Court record/CR-WATCH-log.md",
     "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
-    "lance-twiggs-comprehensive-profile.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3920,7 +3929,7 @@
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
     "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3943,7 +3952,7 @@
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
     "files - Court record/CR-WATCH-log.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -3964,7 +3973,7 @@
     "QUEUE.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
     "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": true
   },
@@ -5267,8 +5276,8 @@
     "files - Kirk assassination questions/kirk-shooting-official-timeline.md",
     "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
     "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
-    "lance-twiggs-comprehensive-profile.md",
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
@@ -5306,7 +5315,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_adjudication-journal.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_adjudication-journal.jsonl",
    "name": "cycle1_adjudication-journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5320,7 +5329,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_finder-defects.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_finder-defects.json",
    "name": "cycle1_finder-defects.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5334,7 +5343,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_panel-verdicts.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle1_panel-verdicts.json",
    "name": "cycle1_panel-verdicts.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5348,7 +5357,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle2_journal.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle2_journal.jsonl",
    "name": "cycle2_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5362,7 +5371,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle2_results.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle2_results.json",
    "name": "cycle2_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5376,7 +5385,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_journal.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_journal.jsonl",
    "name": "cycle3_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5390,7 +5399,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_queue.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_queue.json",
    "name": "cycle3_queue.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5404,7 +5413,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_results.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/cycle3_results.json",
    "name": "cycle3_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5414,11 +5423,13 @@
    "provenance": {},
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
-   "cited_by": [],
+   "cited_by": [
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+   ],
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_1f229a39-bd3.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_1f229a39-bd3.jsonl",
    "name": "journal_wf_1f229a39-bd3.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5432,7 +5443,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_3fe455fb-26a.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_3fe455fb-26a.jsonl",
    "name": "journal_wf_3fe455fb-26a.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5446,7 +5457,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_8951c2ef-e9c.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_8951c2ef-e9c.jsonl",
    "name": "journal_wf_8951c2ef-e9c.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5460,7 +5471,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_f2c380ea-788.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_f2c380ea-788.jsonl",
    "name": "journal_wf_f2c380ea-788.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5474,7 +5485,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_f79b4b05-205.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/journal_wf_f79b4b05-205.jsonl",
    "name": "journal_wf_f79b4b05-205.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5488,7 +5499,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_facts.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_facts.json",
    "name": "p2_facts.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5502,7 +5513,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_questions-that-leaked-their-answers.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_questions-that-leaked-their-answers.json",
    "name": "p2_questions-that-leaked-their-answers.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5516,7 +5527,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_results.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p2_results.json",
    "name": "p2_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5530,7 +5541,55 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p3_chains.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p3-iteration2_chains.json",
+   "name": "p3-iteration2_chains.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 283456,
+   "sha256": "a632d1e64e789a867e58118832620a9c896e1fa8e14caf27a8127802320268f3",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p3-iteration2_comparison.json",
+   "name": "p3-iteration2_comparison.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 4208,
+   "sha256": "b58224e7429436c141b9bda3579951b64afe6175b55d57dffea388caf705e074",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p3-iteration2_verdicts.json",
+   "name": "p3-iteration2_verdicts.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 309187,
+   "sha256": "a9dce7e41152b7b85fa87256827dc34c81a09731ceb7c06f20d9c2b1a67d9f8b",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p3_chains.json",
    "name": "p3_chains.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5544,7 +5603,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p3_steps.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p3_steps.json",
    "name": "p3_steps.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5558,7 +5617,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_journal.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_journal.jsonl",
    "name": "p5-iteration2_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5572,7 +5631,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_queue.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_queue.json",
    "name": "p5-iteration2_queue.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5586,7 +5645,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_results.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-iteration2_results.json",
    "name": "p5-iteration2_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5600,7 +5659,79 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5_citations.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-repair_applied.json",
+   "name": "p5-repair_applied.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 46287,
+   "sha256": "e3b425db2e17c194141587acd1322e8acf4a1b326863bb0e5f574f6fdab1a209",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-repair_blind-reread.json",
+   "name": "p5-repair_blind-reread.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 172993,
+   "sha256": "39ce6a34fe14c41eb1d6850e349e8d47b211b46bb8c86f7c48c0f3e953c1708d",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-repair_false-positives.json",
+   "name": "p5-repair_false-positives.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 4884,
+   "sha256": "19541668ae4f69323e017b037faecea2ae956f3dd0e0453dab7c71d04d76bb65",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-secondhand_applied.json",
+   "name": "p5-secondhand_applied.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 11580,
+   "sha256": "ac3bf4183c0d16360021541269f312654d5183891d5cbb7a84b7b905496400ac",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5-secondhand_decisions.json",
+   "name": "p5-secondhand_decisions.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 125610,
+   "sha256": "c72b8eadba83b2850c01e4b789a0cf6beecd37e0efc49b707791e1eaddbabfe5",
+   "banked": "2026-09-14",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5_citations.json",
    "name": "p5_citations.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5614,7 +5745,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p5_results.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p5_results.json",
    "name": "p5_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5628,7 +5759,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_attack-results.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_attack-results.json",
    "name": "p7_attack-results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5642,7 +5773,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_claim-list-as-attacked.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_claim-list-as-attacked.json",
    "name": "p7_claim-list-as-attacked.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5656,7 +5787,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_journal.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p7_journal.jsonl",
    "name": "p7_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5670,7 +5801,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8-iteration2_journal.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p8-iteration2_journal.jsonl",
    "name": "p8-iteration2_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5684,7 +5815,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8-iteration2_masked-payloads-sent-to-agents.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p8-iteration2_masked-payloads-sent-to-agents.json",
    "name": "p8-iteration2_masked-payloads-sent-to-agents.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5698,7 +5829,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8-iteration2_source-rebuilds.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p8-iteration2_source-rebuilds.json",
    "name": "p8-iteration2_source-rebuilds.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5712,7 +5843,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8-iteration2_values-withheld-from-agents.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p8-iteration2_values-withheld-from-agents.json",
    "name": "p8-iteration2_values-withheld-from-agents.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5726,7 +5857,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_document-ledger-locked-before-results.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_document-ledger-locked-before-results.json",
    "name": "p8_document-ledger-locked-before-results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5737,12 +5868,12 @@
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [
-    "robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_journal.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_journal.jsonl",
    "name": "p8_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5756,7 +5887,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_quantity-census.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_quantity-census.json",
    "name": "p8_quantity-census.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5770,7 +5901,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_source-rebuilds.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p8_source-rebuilds.json",
    "name": "p8_source-rebuilds.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5784,7 +5915,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_document-attribution-ledger-locked-before-results.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_document-attribution-ledger-locked-before-results.json",
    "name": "p9_document-attribution-ledger-locked-before-results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5798,7 +5929,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_journal.jsonl",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_journal.jsonl",
    "name": "p9_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
@@ -5812,7 +5943,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_quotation-census.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_quotation-census.json",
    "name": "p9_quotation-census.json",
    "ext": "json",
    "artifact_class": "process-evidence",
@@ -5826,7 +5957,7 @@
    "unpaired": false
   },
   {
-   "path": "files - Court record/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_source-locations.json",
+   "path": "verification/TJR-REVIEW-2026-09-14_verification-cycle-1/p9_source-locations.json",
    "name": "p9_source-locations.json",
    "ext": "json",
    "artifact_class": "process-evidence",
