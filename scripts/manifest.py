@@ -39,6 +39,8 @@ SCAN_DIRS = [
     os.path.join(CR, "CR-ACQ-2026-09-02_bindover-verification-fetches"),
     os.path.join(CR, "CR-ACQ-2026-09-16_prelim-hearing-audio-capture"),   # pointers + spot-checks for the July hearing audio held outside the repo, added 2026-09-16
     "verification/TJR-REVIEW-2026-09-14_verification-cycle-1",   # moved out of files - Court record/ 2026-09-15
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow",   # process evidence, added 2026-09-16
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3",  # process evidence (enumeration only), added 2026-09-16
     "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts",
     "files - Person profiles/PP-ACQ-2026-09-15_platform-imports",   # platform imports (T4 LLM output), added 2026-09-15
 ]
@@ -99,7 +101,7 @@ def classify_txt(path):
 def artifact_class(path):
     """What KIND of thing this is. Kept distinct so a null asserted about the case record is not
     silently satisfied by this project's own verification exhaust."""
-    if "TJR-REVIEW" in path:
+    if "TJR-REVIEW" in path or "/verification/" in path or path.startswith("verification/"):
         return "process-evidence"          # agent journals, verdicts, pre-correction snapshots
     if "platform-imports" in path:
         return "platform-import"           # LLM output imported from claude.ai / grok.com: T4, never load-bearing

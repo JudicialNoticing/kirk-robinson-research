@@ -3,13 +3,13 @@
 > 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./scripts/manifest.py`.**
 > Hand-maintained indexes in this project have drifted every time they were kept by hand.
 
-**Artifacts:** 357  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 97
+**Artifacts:** 361  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 96
 
 **By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*
 
 - `platform-import` — 5
 - `primary-source` — 199
-- `process-evidence` — 56
+- `process-evidence` — 60
 - `source-capture` — 81
 - `transcript` — 16
 
@@ -47,8 +47,8 @@
 | `2025-09-16_5_dc26099252.txt` | primary-source | txt | 2026-08-16 | text-native | 2 |
 | `2025-09-16_affidavit-of-probable-cause_dc27880530.pdf` | primary-source | pdf | 2026-08-14 | text-native | 7 |
 | `2025-09-16_affidavit-of-probable-cause_dc27880530.txt` | primary-source | txt | 2026-08-16 | text-native | 7 |
-| `2025-09-16_bail-order_dkt4_dc27880869.pdf` | primary-source | pdf | 2026-08-16 | text-native | 2 |
-| `2025-09-16_bail-order_dkt4_dc27880869.txt` | primary-source | txt | 2026-08-16 | text-native | 2 |
+| `2025-09-16_bail-order_dkt4_dc27880869.pdf` | primary-source | pdf | 2026-08-16 | text-native | 4 |
+| `2025-09-16_bail-order_dkt4_dc27880869.txt` | primary-source | txt | 2026-08-16 | text-native | 4 |
 | `2025-09-16_information-charging-document_dc27880532.pdf` | primary-source | pdf | 2026-08-14 | text-native | 9 |
 | `2025-09-16_information-charging-document_dc27880532.txt` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 9 |
 | `2025-09-16_pretrial-protective-order_dkt14_dc27880872.pdf` | primary-source | pdf | 2026-08-14 | text-native | 3 |
@@ -151,7 +151,7 @@
 | `2026-07-08_supplemental-notice-access-to-evidence_dc28443912` | primary-source | txt | 2026-08-14 | text-native | 5 |
 | `2026-07-28_states-memorandum-prelim-bindover_scribd-10675871` | primary-source | txt | 2026-09-16 | text-native | 1 |
 | `SHA256SUMS.txt` | primary-source | txt | 2026-09-16 | text-native | 2 |
-| `extracted-text.txt` | primary-source | txt | 2026-09-16 | text-native | 5 |
+| `extracted-text.txt` | primary-source | txt | 2026-09-16 | text-native | 6 |
 | `image-01-e3e9a6019f.jpg` | primary-source | jpg | 2026-09-16 | IMAGE-ONLY | 0 |
 | `image-06-783f513cdb.jpg` | primary-source | jpg | 2026-09-16 | IMAGE-ONLY | 0 |
 | `image-07-7fbe722cf2.jpg` | primary-source | jpg | 2026-09-16 | IMAGE-ONLY | 0 |
@@ -194,7 +194,7 @@
 | `2026-08-01_verification-cycle-workflow-result.json` | primary-source | json | 2026-08-01 | structured-data | 3 |
 | `2026-08-11_defendant-prelim-hearing-briefing.pdf` | primary-source | pdf | 2026-08-13 | text-native | 7 |
 | `2026-08-11_defendant-prelim-hearing-briefing.txt` | primary-source | txt | 2026-08-13 | text-native | 7 |
-| `2026-08-11_defendant-prelim-hearing-briefing_ALT-EXTRACTION-` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 5 |
+| `2026-08-11_defendant-prelim-hearing-briefing_ALT-EXTRACTION-` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 6 |
 | `2026-08-14_CRE07-completeness-inventory_RAW-CANDIDATES.jsonl` | primary-source | jsonl | 2026-08-14 | structured-data | 1 |
 | `2026-08-14_CRE08-completeness-state-filings_RAW-CANDIDATES.j` | primary-source | jsonl | 2026-08-14 | structured-data | 2 |
 | `2026-08-14_Q61-completeness-day2-bakker_RAW-CANDIDATES.jsonl` | primary-source | jsonl | 2026-08-14 | structured-data | 1 |
@@ -218,8 +218,8 @@
 | `2026-08-18_states-reply-memo-bindover.txt` | primary-source | txt | 2026-08-20 | text-native | 4 |
 | `2026-08-20_Q182-crosswalk-anchors_RAW.json` | primary-source | json | 2026-08-20 | structured-data | 1 |
 | `2026-08-20_Q182-crosswalk-locates_RAW.json` | primary-source | json | 2026-08-20 | structured-data | 0 |
-| `2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_` | primary-source | pdf | 2026-09-14 | NO-TEXT-LAYER | 2 |
-| `atf_page-26.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 4 |
+| `2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_` | primary-source | pdf | 2026-09-14 | NO-TEXT-LAYER | 3 |
+| `atf_page-26.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 5 |
 | `atf_page-27.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 0 |
 | `atf_page-28.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 2 |
 | `atf_page-29.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 2 |
@@ -229,7 +229,7 @@
 | `docket-artifacts_2026-08-16_NUL-repair_SUPERSESSION.json` | primary-source | json | 2026-08-16 | structured-data | 2 |
 | `docket-watch-baseline.json` | primary-source | json | 2026-08-29 | structured-data | 0 |
 | `oct24_clean.txt` | primary-source | txt | 2026-07-27 | text-native | 7 |
-| `2026-09-01_final-prelim-argument.txt` | transcript | txt | 2026-09-14 | text-native | 2 |
+| `2026-09-01_final-prelim-argument.txt` | transcript | txt | 2026-09-14 | text-native | 4 |
 | `2026-09-01_final-prelim-argument_raw.html` | transcript | html | 2026-09-14 | raw-capture | 0 |
 | `day1.txt` | transcript | txt | 2026-07-28 | text-native | 30 |
 | `day1_raw.html` | transcript | html | 2026-07-28 | raw-capture | 0 |
@@ -239,7 +239,7 @@
 | `day3.txt` | transcript | txt | 2026-07-27 | text-native | 15 |
 | `day3_condensed.txt` | transcript | txt | 2026-07-27 | text-native | 0 |
 | `day3_raw.html` | transcript | html | 2026-07-27 | raw-capture | 0 |
-| `day4.txt` | transcript | txt | 2026-07-27 | text-native | 29 |
+| `day4.txt` | transcript | txt | 2026-07-27 | text-native | 31 |
 | `day4_raw.html` | transcript | html | 2026-07-27 | raw-capture | 4 |
 | `day5.txt` | transcript | txt | 2026-07-27 | text-native | 28 |
 | `day5_condensed.txt` | transcript | txt | 2026-07-27 | text-native | 3 |
@@ -328,7 +328,7 @@
 | `yt.html` | source-capture | html | 2026-09-02 | raw-capture | 2 |
 | `workflow-results_fetched-and-verdicts.json` | source-capture | json | 2026-09-02 | structured-data | 1 |
 | `SHA256SUMS.txt` | source-capture | txt | 2026-09-16 | text-native | 2 |
-| `sources.json` | source-capture | json | 2026-09-16 | structured-data | 55 |
+| `sources.json` | source-capture | json | 2026-09-16 | structured-data | 57 |
 | `day1_COURTTV_041240.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
 | `day1_KSL_041410.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
 | `day2_COURTTV_050454.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
@@ -345,7 +345,7 @@
 | `cycle2_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `cycle2_results.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `cycle3_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
-| `cycle3_queue.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `cycle3_queue.json` | process-evidence | json | 2026-09-14 | structured-data | 2 |
 | `cycle3_results.json` | process-evidence | json | 2026-09-14 | structured-data | 1 |
 | `journal_wf_1f229a39-bd3.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `journal_wf_3fe455fb-26a.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
@@ -385,6 +385,10 @@
 | `p9_journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `p9_quotation-census.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `p9_source-locations.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
+| `journal_wf_447fd031-201.jsonl` | process-evidence | jsonl | 2026-09-16 | structured-data | 1 |
+| `result_draft-verdicts-reads.json` | process-evidence | json | 2026-09-16 | structured-data | 1 |
+| `enumeration_merged-74-claims.json` | process-evidence | json | 2026-09-16 | structured-data | 1 |
+| `journal_wf_49721daa-15d.jsonl` | process-evidence | jsonl | 2026-09-16 | structured-data | 1 |
 | `2025-09-16_zinn_obstruction_pca_dc26098558.pdf` | primary-source | pdf | 2026-08-20 | text-native | 2 |
 | `2025-09-16_zinn_obstruction_pca_dc26098558.txt` | primary-source | txt | 2026-08-20 | text-native | 2 |
 | `2025-09-16_zinn_sex_charges_pca_dc26098557.pdf` | primary-source | pdf | 2026-08-20 | text-native | 2 |
@@ -464,7 +468,6 @@
 - `cycle2_journal.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `cycle2_results.json` — json, banked 2026-09-14, structured-data
 - `cycle3_journal.jsonl` — jsonl, banked 2026-09-14, structured-data
-- `cycle3_queue.json` — json, banked 2026-09-14, structured-data
 - `journal_wf_1f229a39-bd3.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `journal_wf_3fe455fb-26a.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `journal_wf_8951c2ef-e9c.jsonl` — jsonl, banked 2026-09-14, structured-data

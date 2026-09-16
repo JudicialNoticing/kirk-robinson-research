@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-09-16T20:33:14+00:00",
- "count": 357,
+ "generated_utc": "2026-09-16T20:37:49+00:00",
+ "count": 361,
  "entries": [
   {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
@@ -216,7 +216,9 @@
    "how_to_read": "pdftotext is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
    "unpaired": false
   },
@@ -240,7 +242,9 @@
    "how_to_read": "plain search is reliable.",
    "cited_by": [
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
    "unpaired": false
   },
@@ -2722,7 +2726,8 @@
     "files - Arrest chronology/robinson-surrender-timeline.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
     "files - Court record/CR-ACQ-2026-09-16B_states-opening-memorandum.md",
-    "files - Court record/CR-WATCH-log.md"
+    "files - Court record/CR-WATCH-log.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
    "unpaired": false
   },
@@ -3390,7 +3395,8 @@
     "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md",
     "files - Court record/CR-REVIEW-2026-08-16B_xchange-null-audit.md",
     "files - Court record/CR-WATCH-log.md",
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
    "unpaired": false
   },
@@ -3853,7 +3859,8 @@
    "how_to_read": "RENDER: pdftoppm -r 150, read the images. A text search returns a FALSE NULL.",
    "cited_by": [
     "files - Court record/CR-WATCH-log.md",
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md"
    ],
    "unpaired": true
   },
@@ -3872,7 +3879,8 @@
     "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
     "files - Court record/CR-AUDIT-2026-07-28_independent-pass.md",
     "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
-    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md"
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
    "unpaired": false
   },
@@ -4091,7 +4099,9 @@
    "how_to_read": "plain search is reliable.",
    "cited_by": [
     "files - Court record/CR-WATCH-log.md",
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
    "unpaired": false
   },
@@ -4352,7 +4362,9 @@
     "files - Event security/SEC-E02_security-team-allegations-assessment.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
     "files - Person profiles/lance-twiggs-comprehensive-profile.md",
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
    "unpaired": false
   },
@@ -5964,7 +5976,9 @@
     "files - Person profiles/lance-twiggs-comprehensive-profile.md",
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md",
-    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md"
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
    "unpaired": false
   },
@@ -6223,7 +6237,10 @@
    "provenance": {},
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
-   "cited_by": [],
+   "cited_by": [
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md",
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
+   ],
    "unpaired": false
   },
   {
@@ -6782,6 +6799,70 @@
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [],
+   "unpaired": false
+  },
+  {
+   "path": "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/journal_wf_447fd031-201.jsonl",
+   "name": "journal_wf_447fd031-201.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 346908,
+   "sha256": "8506b62122877c30c69aecc6f44a1846e77dba272284e3b195ff2f022ee1cd09",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/result_draft-verdicts-reads.json",
+   "name": "result_draft-verdicts-reads.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 369686,
+   "sha256": "8625222991d3bb093199bdf6f4376c04bdba2f50949baafd6c636880f2f420f5",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/enumeration_merged-74-claims.json",
+   "name": "enumeration_merged-74-claims.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 199224,
+   "sha256": "33d76d841db60491675974d3de43290397a05453337b2d5416fc0ac1b7a509f7",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/journal_wf_49721daa-15d.jsonl",
+   "name": "journal_wf_49721daa-15d.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 404718,
+   "sha256": "acc8c065c5a729d013f785a41e734fe10971e42678e80909e75a3077544bf7ea",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
    "unpaired": false
   },
   {

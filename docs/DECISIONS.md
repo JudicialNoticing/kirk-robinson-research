@@ -64,9 +64,11 @@
 
 ## Open
 
-- **O1** `START-HERE.md` and `QUEUE.md` have no row for the 2026-09-14 session (TJR-P01, kit adoption, bindover order). The reorganisation added dated relocation notes only; the session write-back is still owed.
+- **O1** `START-HERE.md` and `QUEUE.md` have no row for the 2026-09-14 session (TJR-P01, kit adoption, bindover order). The reorganisation added dated relocation notes only; the session write-back is still owed. 🛠 **2026-09-16: the session's own transcript survives locally** (`4ad2341e…jsonl`); a draft block written from it failed isolated verification on wording (79 must-fix edits) and is banked unapplied in `verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/`. Still owed: a condensed block from the SUPPORTED items.
 - **O2** The pending routine prompt `ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md` is unapplied (owner-gated).
 - **O3** `manifest.py --check` (T4). Sentence-integrity invariant (R2).
-- **O4** Two dangling links in `CR-WATCH-log.md` (S3).
+- ~~**O4** Two dangling links in `CR-WATCH-log.md` (S3).~~ ✅ Done 2026-09-16 (`CR-WATCH-log` v2.5).
 - **O6** Vault pushes from a Claude Code shell hang: the shell inherits `GIT_ASKPASS` from the Antigravity IDE (it waits on the IDE's socket), and the keychain holds a token only for the JudicialNoticing account while the vault's remote URL forces `personal-account`. Working recipe, no config change: `env -u GIT_ASKPASS -u SSH_ASKPASS GIT_TERMINAL_PROMPT=0 git -c 'credential.helper=!gh auth git-credential' push origin main`. Permanent fix, owner's call: `gh auth setup-git`. (The research repo pushes normally.)
 - **O5** Two local branches fully merged into `main` (`forensic-exhibit-map-and-print-null-2026-08-30`, `limits-resolution-2026-08-30`) can be deleted; not done, owner's call.
+- **O7** *(added 2026-09-16)* **Cycle 3 on CR-E19/E20/E21 must be sized by the owner.** The corrections of cycles 1–2 enumerate to 74 distinct claims; a one-agent-per-claim sweep meant ~80 agents and was stopped. Recommended shape: a script over the 74 withdrawn forms first, readers only where there are hits. Also to decide: whether the three missing revision-log rows (CR-E19 v2.3, CR-E20 v1.6, CR-E21 v1.3) are written as part of it, and whether a frozen verification bank may be edited to remove three re-imported withdrawn surnames.
+- **O8** *(added 2026-09-16)* **Large captures live outside the repo by design** (`~/kirk-capture/`): the 09-01 VOD (4.86 GB) and now the July audio (3.4 GB). The repo holds hashes and pointers only; a second copy of the capture folder does not exist. Single-copy data — the owner's call whether to mirror it.
