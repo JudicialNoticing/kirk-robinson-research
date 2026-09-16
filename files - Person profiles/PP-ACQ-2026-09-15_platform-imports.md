@@ -54,15 +54,36 @@ Three facial observations, recorded so the next reader does not have to rediscov
 
 **The framework, by its own design, contains no factual claims about the case** and therefore has nothing to verify here. What it does carry is a **tier system that differs from `CLAUDE.md`'s** (a T0 for directly inspectable artifacts; a second axis of probative-weight classes rather than verification labels); `docs/discussion-framework/README.md` tabulates the difference.
 
+## §3a · P9 on the model's quotation of the Information — run 2026-09-16
+
+**Check.** The four paragraphs the Grok answer of 2026-08-22 presents as a *"verbatim excerpt"* of the Criminal Information were tested against the banked text `2025-09-16_information-charging-document_dc27880532.txt` (T1, `CR-E08`). **Method — mechanical, not a model read:** the quoted block was split into sentences (22), each normalised (NFKC; curly quotes → straight; en/em dash → hyphen; whitespace collapsed) and searched as an exact string in the source under **both `U+FFFE` readings** (joined and hyphenated). The source carries exactly one `U+FFFE` (`low‑crawling`, outside the quoted passage), so both readings return the same result for this check. No check question contained its answer; no agent saw the model's framing. The model's own **bold** on two sentences is the model's emphasis, not the document's.
+
+| Unit | Label | Evidence |
+|---|---|---|
+| 21 of 22 quoted sentences | `SUPPORTED` — verbatim | each located as an exact string in the source under both readings, in the order quoted, contiguous |
+| *"…had also been at home sick on September 10."* | `DRIFT`, immaterial | source reads *"September 10th."* — the ordinal suffix was dropped; no other change |
+| the bracketed *"[Charlie Kirk]"* in *"the guy [Charlie Kirk] spreads too much hate"* | `SUPPORTED` | the brackets are **in the source text**, not the model's insertion |
+| *"Probable Cause Statement section"* | `SUPPORTED` as to placement | The quoted passage sits inside the section headed `PROBABLE CAUSE` (the heading precedes it in the text; no later heading intervenes). The document's heading is `PROBABLE CAUSE`; the model's *"Probable Cause Statement"* is a paraphrase of the heading. |
+| *"filed … September 16, 2025 … Fourth Judicial District Court, Utah County … OTN 70090584"* | `SUPPORTED` | `September 16, 2025`, `FOURTH JUDICIAL DISTRICT COURT UTAH COUNTY` and `OTN: 70090584` all appear on the document's face |
+| *"later associated with Case No. 251403576"* | `SUPPORTED` in the narrow sense | the Information's caption has a blank `Case No.` field; the number is the docket's, held elsewhere at T1 |
+| *"attributed to information provided by Robinson's parents to police"* | `SUPPORTED` | the passage opens *"Robinson's mother stated the following to police"* and continues *"Robinson's father reported…"* |
+| the primary-source URL `atty.utahcounty.gov/cms/uploads/TJR_Information_49872215e3.pdf` and the DocumentCloud / Archive.org mirrors | `UNVERIFIED` | not retrieved; the banked copy is DocumentCloud `27880532`. Whether the UCA upload is byte-identical is a separate provenance act, not run |
+| *"it is not a contemporaneous recording or sworn courtroom testimony"* | `SUPPORTED` as to type only | the Information is a charging filing, not testimony. Whether its probable-cause statement is sworn by a declarant was **not checked** here |
+
+**What this establishes.** The model's quotation is faithful to the document's face at the sentence level (21/22 verbatim, one dropped ordinal). ⚖️ **It establishes nothing about the case that the library did not already hold**: the Information is T1, banked and read. **Consequence for use:** anyone wanting this passage cites the Information directly — never the transcript, which remains T4 and uncitable by its own header. **Not checked:** the model's 44 search-result URLs (data about the search, not about the answer); the UCA URL's identity with the banked PDF; anything in the second conversation.
+
+**Labels written:** 8 `SUPPORTED` (one narrow, one type-only), 1 `DRIFT` (immaterial), 1 `UNVERIFIED`. Sink: none — nothing here is asserted as fact in any analyst layer.
+
 ## §4 · Open items
 
 - **Q-185** (`QUEUE.md`, gate: human): reconcile or wall off the framework's tiers; decide whether a Charlie Kirk profile is wanted; confirm that nothing from the Israel record or the transcripts enters any file without P1 → P2.
 - 👤 The producing chats' URLs (vault README item 1).
 - 👤 Steer on the seven unfiled 2026-08-15 Grok chats on Kirk/Israel/Netanyahu claims — not extracted, named living people.
-- The one cheap check available: P9 on the model's quotation of the Information against `2025-09-16_information-charging-document_dc27880532.txt` under both `U+FFFE` readings (`scripts/artifact_search.py`).
+- ~~The one cheap check available: P9 on the model's quotation of the Information against `2025-09-16_information-charging-document_dc27880532.txt` under both `U+FFFE` readings (`scripts/artifact_search.py`).~~ ✅ **DONE 2026-09-16 → §3a**: 21/22 sentences verbatim, one dropped ordinal, placement and caption facts supported, the UCA URL unverified.
 
 ## Revision log
 
 | Version | Date | Change |
 |---|---|---|
+| **1.1** | **2026-09-16** | **§3a added — P9 run on the first conversation's quotation of the Information, mechanically, under both `U+FFFE` readings:** 21 of 22 quoted sentences located verbatim in `2025-09-16_information-charging-document_dc27880532.txt`; one immaterial `DRIFT` ("September 10th" → "September 10"); the bracketed "[Charlie Kirk]" is the document's own; placement under `PROBABLE CAUSE`, the filing date, court and OTN `SUPPORTED`; the UCA upload URL `UNVERIFIED` (not retrieved). §4's open item closed. **No case finding; the transcript stays T4 and uncitable.** |
 | **1.0** | **2026-09-15** | Created. Five items banked from the owner's Grok workspace on owner instruction; hashes recorded; nothing read for findings; Q-185 opened. `scripts/manifest.py` taught the `platform-import` class and this bank. Vault provenance record at `_inbox/kirk-robinson-research-import-2026-09-15/`. |
