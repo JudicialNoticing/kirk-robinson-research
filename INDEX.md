@@ -72,6 +72,7 @@
 | `CR-ACQ-2026-08-16B_rev-official-statements.md` | Four official-statement transcripts the surname filter had hidden (Q-120) | Press conferences of 2025-09-10 to 09-12 |
 | `CR-ACQ-2026-08-20_states-reply.md` | Banking of the State's reply; facial verification only | Provenance of `CR-E17`'s source |
 | `CR-ACQ-2026-09-01_hearing-livestream-capture.md` | The capture record of the 2026-09-01 livestream: two recorders, the stall, the 9:45:10 VOD held | The bindover hearing audio/video |
+| `CR-ACQ-2026-09-16_prelim-hearing-audio-capture.md` | Audio of the five July evidence days from two independent pool-feed uploads (Court TV, KSL), held outside the repo; hashes, durations, and ten spot-checks against the Rev transcripts — Court TV's clock is Rev's clock | The evidence-day audio; testing Rev's speaker labels and garbles |
 
 ### Audits and reviews (`CR-AUDIT-*`, `CR-REVIEW-*`)
 
@@ -110,6 +111,7 @@
 | ↳ `2026-08-14_Q61-candidate-bank_INDEX.md` + `*_RAW-CANDIDATES.jsonl` | A harvest of completeness candidates; nothing verified | Resuming Q-61 |
 | ↳ `*_RAW.json`, `*_RAW.md`, `*-workflow-script.js`, `docket-artifacts_2026-08-16_NUL-repair.py`, `*_receipts.json`, `docket-watch-baseline.json` | Process evidence and one-off scripts from the August workflows, kept where their outputs are cited | Auditing what a past cycle actually did |
 | `CR-ACQ-2026-09-02_bindover-verification-fetches/` (+ `MANIFEST.md`) | Raw HTTP bodies from the 09-02 verification run (court, prosecutor, outlets, transcripts), each hashed in its `MANIFEST.md` | What the world said on 2026-09-02 |
+| `CR-ACQ-2026-09-16_prelim-hearing-audio-capture/` | Pointers for the July audio held in `~/kirk-capture/prelim-july-2026/`: `SHA256SUMS.txt`, `durations.tsv`, `sources.json`, and the ten whisper spot-check transcripts | Provenance of the evidence-day audio |
 
 ## files - DNA evidence/
 

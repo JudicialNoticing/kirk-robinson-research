@@ -3,14 +3,14 @@
 > 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./scripts/manifest.py`.**
 > Hand-maintained indexes in this project have drifted every time they were kept by hand.
 
-**Artifacts:** 307  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 54
+**Artifacts:** 319  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 64
 
 **By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*
 
 - `platform-import` — 5
 - `primary-source` — 161
-- `process-evidence` — 46
-- `source-capture` — 79
+- `process-evidence` — 56
+- `source-capture` — 81
 - `transcript` — 16
 
 ## 🚨 §1 · Readability hazards — a plain search over these returns a FALSE NULL
@@ -49,8 +49,8 @@
 | `2025-09-16_affidavit-of-probable-cause_dc27880530.txt` | primary-source | txt | 2026-08-16 | text-native | 7 |
 | `2025-09-16_bail-order_dkt4_dc27880869.pdf` | primary-source | pdf | 2026-08-16 | text-native | 2 |
 | `2025-09-16_bail-order_dkt4_dc27880869.txt` | primary-source | txt | 2026-08-16 | text-native | 2 |
-| `2025-09-16_information-charging-document_dc27880532.pdf` | primary-source | pdf | 2026-08-14 | text-native | 8 |
-| `2025-09-16_information-charging-document_dc27880532.txt` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 8 |
+| `2025-09-16_information-charging-document_dc27880532.pdf` | primary-source | pdf | 2026-08-14 | text-native | 9 |
+| `2025-09-16_information-charging-document_dc27880532.txt` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 9 |
 | `2025-09-16_pretrial-protective-order_dkt14_dc27880872.pdf` | primary-source | pdf | 2026-08-14 | text-native | 3 |
 | `2025-09-16_pretrial-protective-order_dkt14_dc27880872.txt` | primary-source | txt | 2026-08-16 | text-native | 3 |
 | `2025-09-16_proposed-pretrial-protective-order_dkt7_dc2788086` | primary-source | pdf | 2026-08-16 | text-native | 1 |
@@ -201,7 +201,7 @@
 | `day3.txt` | transcript | txt | 2026-07-27 | text-native | 15 |
 | `day3_condensed.txt` | transcript | txt | 2026-07-27 | text-native | 0 |
 | `day3_raw.html` | transcript | html | 2026-07-27 | raw-capture | 0 |
-| `day4.txt` | transcript | txt | 2026-07-27 | text-native | 28 |
+| `day4.txt` | transcript | txt | 2026-07-27 | text-native | 29 |
 | `day4_raw.html` | transcript | html | 2026-07-27 | raw-capture | 4 |
 | `day5.txt` | transcript | txt | 2026-07-27 | text-native | 28 |
 | `day5_condensed.txt` | transcript | txt | 2026-07-27 | text-native | 3 |
@@ -286,9 +286,21 @@
 | `dc_search.json` | source-capture | json | 2026-09-02 | structured-data | 1 |
 | `rev_day5.html` | source-capture | html | 2026-09-02 | raw-capture | 2 |
 | `rev_sitemap_dec.xml` | source-capture | xml | 2026-09-02 | structured-data | 1 |
-| `xchange.html` | source-capture | html | 2026-09-02 | raw-capture | 45 |
+| `xchange.html` | source-capture | html | 2026-09-02 | raw-capture | 46 |
 | `yt.html` | source-capture | html | 2026-09-02 | raw-capture | 2 |
 | `workflow-results_fetched-and-verdicts.json` | source-capture | json | 2026-09-02 | structured-data | 1 |
+| `SHA256SUMS.txt` | source-capture | txt | 2026-09-16 | text-native | 1 |
+| `sources.json` | source-capture | json | 2026-09-16 | structured-data | 55 |
+| `day1_COURTTV_041240.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day1_KSL_041410.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day2_COURTTV_050454.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day2_KSL_050350.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day3_COURTTV_002211.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day3_KSL_002651.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day4_COURTTV_053952.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day4_KSL_054441.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day5_COURTTV_010427.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
+| `day5_KSL_012828.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
 | `cycle1_adjudication-journal.jsonl` | process-evidence | jsonl | 2026-09-14 | structured-data | 0 |
 | `cycle1_finder-defects.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
 | `cycle1_panel-verdicts.json` | process-evidence | json | 2026-09-14 | structured-data | 0 |
@@ -365,6 +377,16 @@
 - `day3_condensed.txt` — txt, banked 2026-07-27, text-native
 - `day3_raw.html` — html, banked 2026-07-27, raw-capture
 - `day5_raw.html` — html, banked 2026-07-27, raw-capture
+- `day1_COURTTV_041240.txt` — txt, banked 2026-09-16, text-native
+- `day1_KSL_041410.txt` — txt, banked 2026-09-16, text-native
+- `day2_COURTTV_050454.txt` — txt, banked 2026-09-16, text-native
+- `day2_KSL_050350.txt` — txt, banked 2026-09-16, text-native
+- `day3_COURTTV_002211.txt` — txt, banked 2026-09-16, text-native
+- `day3_KSL_002651.txt` — txt, banked 2026-09-16, text-native
+- `day4_COURTTV_053952.txt` — txt, banked 2026-09-16, text-native
+- `day4_KSL_054441.txt` — txt, banked 2026-09-16, text-native
+- `day5_COURTTV_010427.txt` — txt, banked 2026-09-16, text-native
+- `day5_KSL_012828.txt` — txt, banked 2026-09-16, text-native
 - `cycle1_adjudication-journal.jsonl` — jsonl, banked 2026-09-14, structured-data
 - `cycle1_finder-defects.json` — json, banked 2026-09-14, structured-data
 - `cycle1_panel-verdicts.json` — json, banked 2026-09-14, structured-data

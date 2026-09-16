@@ -37,6 +37,7 @@ CR   = "files - Court record"
 SCAN_DIRS = [
     ART,
     os.path.join(CR, "CR-ACQ-2026-09-02_bindover-verification-fetches"),
+    os.path.join(CR, "CR-ACQ-2026-09-16_prelim-hearing-audio-capture"),   # pointers + spot-checks for the July hearing audio held outside the repo, added 2026-09-16
     "verification/TJR-REVIEW-2026-09-14_verification-cycle-1",   # moved out of files - Court record/ 2026-09-15
     "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts",
     "files - Person profiles/PP-ACQ-2026-09-15_platform-imports",   # platform imports (T4 LLM output), added 2026-09-15
@@ -104,6 +105,8 @@ def artifact_class(path):
         return "platform-import"           # LLM output imported from claude.ai / grok.com: T4, never load-bearing
     if "bindover-verification-fetches" in path:
         return "source-capture"            # raw outlet/court bodies fetched and hashed
+    if "prelim-hearing-audio-capture" in path:
+        return "process-evidence" if "/spotcheck/" in path else "source-capture"   # whisper spot-checks vs. the capture's own hash/metadata pointers
     if "prelim-hearing-transcripts" in path:
         return "transcript"
     return "primary-source"
