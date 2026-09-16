@@ -77,7 +77,7 @@
    ],
    "where": "HTML line 129 (§07 heading), line 130 (§07 lead), line 160 (foot 'What remains unobtained')",
    "old": "<span class=\"num\">07</span> The wider forensic record — fourteen reports, one of them read",
-   "new": "<span class=\"num\">07</span> The wider forensic record — fifteen items, one of them read"
+   "new": "<span class=\"num\">07</span> The wider forensic record — the reports the defence letter names, one of them read"
   },
   {
    "claims": [
@@ -85,7 +85,7 @@
    ],
    "where": "HTML line 129 (§07 heading), line 130 (§07 lead), line 160 (foot 'What remains unobtained')",
    "old": "It names <strong>fourteen laboratory reports across three laboratories</strong>.",
-   "new": "It names <strong>fifteen items across three laboratories</strong> — thirteen laboratory reports and two FBI DNA case files without dates."
+   "new": "It names laboratory reports and case files across three laboratories; <strong>how many is a matter of counting convention</strong> (thirteen or fourteen reports plus two FBI DNA case files, depending on the source read), and the library behind this page records the total as unsettled rather than adopting one."
   },
   {
    "claims": [
