@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-09-15T19:30:14+00:00",
- "count": 302,
+ "generated_utc": "2026-09-16T00:56:44+00:00",
+ "count": 307,
  "entries": [
   {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
@@ -163,6 +163,7 @@
     "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-Charging-Document-Quote.md",
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
@@ -190,6 +191,7 @@
     "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-Charging-Document-Quote.md",
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
@@ -266,6 +268,7 @@
     "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports.md",
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
@@ -296,6 +299,7 @@
     "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
     "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports.md",
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
@@ -3396,6 +3400,7 @@
     "files - Court record/CR-WATCH-log.md",
     "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
     "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-Charging-Document-Quote.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md"
    ],
@@ -3434,6 +3439,7 @@
     "files - Court record/CR-WATCH-log.md",
     "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
     "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-Charging-Document-Quote.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md"
    ],
@@ -6099,6 +6105,98 @@
    "cited_by": [
     "QUEUE.md",
     "files - George Zinn/ZINN-ACQ-2026-08-20_zinn-pcas.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/00_project-instructions.md",
+   "name": "00_project-instructions.md",
+   "ext": "md",
+   "artifact_class": "platform-import",
+   "bytes": 4842,
+   "sha256": "73354f32ed02bb1cc3a8c3801afb275c6d07d1c1f20fbbeac2b7d60dddfea8c2",
+   "banked": "2026-09-15",
+   "provenance": {},
+   "readability": "text-native",
+   "how_to_read": "verbatim platform transcript; T4, read but never cite.",
+   "cited_by": [
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-07-08_charlie-kirk-on-israel-and-the-jewish-world_documented-record.html",
+   "name": "2026-07-08_charlie-kirk-on-israel-and-the-jewish-world_documented-record.html",
+   "ext": "html",
+   "artifact_class": "platform-import",
+   "bytes": 56471,
+   "sha256": "3a1283f4f5217874b552defc287e8a6a546fd209ba31cc592eb51fe89bf4e6a7",
+   "banked": "2026-09-15",
+   "provenance": {
+    "filename_date": "2026-07-08"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-07-08_charlie-kirk-on-israel-and-the-jewish-world_documented-record.txt",
+   "name": "2026-07-08_charlie-kirk-on-israel-and-the-jewish-world_documented-record.txt",
+   "ext": "txt",
+   "artifact_class": "platform-import",
+   "bytes": 38290,
+   "sha256": "bcc8ac484675af290ed8f5664d04561dfad916709738b596f869452419d0f946",
+   "banked": "2026-09-15",
+   "provenance": {
+    "filename_date": "2026-07-08"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-Charging-Document-Quote.md",
+   "name": "2026-08-22_Tyler-Robinson-Charging-Document-Quote.md",
+   "ext": "md",
+   "artifact_class": "platform-import",
+   "bytes": 17126,
+   "sha256": "b83edaab88d9dbc38239d6bffb2a37adb09c6bf90d101ce18d67b227f967def7",
+   "banked": "2026-09-15",
+   "provenance": {
+    "filename_date": "2026-08-22"
+   },
+   "readability": "text-native",
+   "how_to_read": "verbatim platform transcript; T4, read but never cite.",
+   "cited_by": [
+    "QUEUE.md",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports.md",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-Charging-Document-Quote.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-s-Political-Leftist-Motive.md",
+   "name": "2026-08-22_Tyler-Robinson-s-Political-Leftist-Motive.md",
+   "ext": "md",
+   "artifact_class": "platform-import",
+   "bytes": 24165,
+   "sha256": "93af5d6e71343b5189252e756cf440e1d8f4faa958ba6f0f891604abc5f2db1b",
+   "banked": "2026-09-15",
+   "provenance": {
+    "filename_date": "2026-08-22"
+   },
+   "readability": "text-native",
+   "how_to_read": "verbatim platform transcript; T4, read but never cite.",
+   "cited_by": [
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports.md"
    ],
    "unpaired": false
   }

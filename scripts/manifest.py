@@ -39,6 +39,7 @@ SCAN_DIRS = [
     os.path.join(CR, "CR-ACQ-2026-09-02_bindover-verification-fetches"),
     "verification/TJR-REVIEW-2026-09-14_verification-cycle-1",   # moved out of files - Court record/ 2026-09-15
     "files - George Zinn/ZINN-ACQ-2026-08-20_artifacts",
+    "files - Person profiles/PP-ACQ-2026-09-15_platform-imports",   # platform imports (T4 LLM output), added 2026-09-15
 ]
 OUT_MD, OUT_JSON = "SOURCE-MANIFEST.md", "source-manifest.json"
 FFFE = "￾"
@@ -99,6 +100,8 @@ def artifact_class(path):
     silently satisfied by this project's own verification exhaust."""
     if "TJR-REVIEW" in path:
         return "process-evidence"          # agent journals, verdicts, pre-correction snapshots
+    if "platform-imports" in path:
+        return "platform-import"           # LLM output imported from claude.ai / grok.com: T4, never load-bearing
     if "bindover-verification-fetches" in path:
         return "source-capture"            # raw outlet/court bodies fetched and hashed
     if "prelim-hearing-transcripts" in path:
@@ -165,8 +168,8 @@ def main():
                 continue
             ext = os.path.splitext(path)[1].lower()
             if ext not in (".pdf", ".txt", ".html", ".docx", ".json", ".jsonl",
-                           ".raw", ".xml", ".png", ".jpg"):
-                continue
+                           ".raw", ".xml", ".png", ".jpg") and not (ext == ".md" and "platform-imports" in path):
+                continue          # .md is indexed only in the platform-import bank (verbatim transcripts)
             if path in seen:
                 continue
             seen.add(path)
@@ -192,6 +195,8 @@ def main():
             elif ext in (".png", ".jpg"):
                 e.update(readability="IMAGE-ONLY",
                          how_to_read="RENDERED PAGE IMAGE — read it visually. It has no text to search at all.")
+            elif ext == ".md":
+                e.update(readability="text-native", how_to_read="verbatim platform transcript; T4, read but never cite.")
             else:
                 e.update(readability="raw-capture", how_to_read="source capture; prefer its extraction.")
             e["cited_by"] = dependants(stem, e["provenance"].get("documentcloud_id", ""), name, library_md)

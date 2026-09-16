@@ -29,6 +29,8 @@
 | `robinson-tyler-james-comprehensive-profile.md` | **TJR-P01 v2.5 `[PROVISIONAL]`**: the defendant end to end — identity, household, charges, the State's narrative, the surrender, the forensic record naming him, digital material, media narratives, case posture as of 2026-09-14. Carries its own P2/P3/P5/P7/P8/P9 registers (§15–§19) and a sink (§16) | Any question about Robinson; the model for a fully protocol-verified file |
 | `lance-twiggs-comprehensive-profile.md` | The roommate and partner, compiled 2026-07-10 from charging documents, warrants, hearing testimony and reporting; reconciled against later T1 material by `CR-REVIEW-2026-08-16G` | Twiggs' statements, the Discord/phone material, D-75 |
 | `erika-kirk-background-family-contested-claims-dossier.md` | Erika Kirk's documented background separated from the contested claims about it; her role in the proceeding | Any Owens-series claim about her; the victim-representative filings |
+| `PP-ACQ-2026-09-15_platform-imports.md` | **PP-ACQ-2026-09-15**: the acquisition record for the 2026-09-15 platform imports — what arrived from the owner's Grok workspace, hashes, what it does and does not establish (nothing: all T4) | Before touching anything in the bank below; Q-185 |
+| `PP-ACQ-2026-09-15_platform-imports/` | The platform-import bank: *Charlie Kirk on Israel and the Jewish World — A Documented Record* (HTML + text extraction), two verbatim Grok conversations of 2026-08-22 about Robinson (charging-document quote; "political leftist motive"), and the Grok project's own instructions. `manifest.py` classes all of it `platform-import` | Reading what the model said; never citing it |
 
 ## files - Court record/
 
@@ -185,6 +187,7 @@
 | `GLOSSARY.md` | Every term: tiers, labels, registers, hazards, artifact classes, case vocabulary | Any unfamiliar word |
 | `VERIFICATION-KIT-INDEX.md` | Index of the kit | Finding a protocol or prompt |
 | `research-verification-kit/` | The Research Verification Kit (P1–P10, prompt pack, schemas, background), hash-manifested | Running a verification cycle |
+| `discussion-framework/` | The *Epistemic Framework and Analytical Method* v1.0 and its *Discussion Card* (T4 imports, 2026-09-15): an outward-facing method for discussing the case, no case claims, a tier system that differs from CLAUDE.md's (its README says how) | Talking about the case with someone outside the library; not for writing library files |
 
 ## scripts/
 
@@ -203,6 +206,7 @@ See `README.md` §Tools for usage. `manifest.py` (holdings index), `artifact_sea
 |---|---|---|
 | `Tyler-Robinson_Comprehensive-Profile_2026-09-14.html` / `.docx` | Renders of TJR-P01 (rebuilt from v2.5 on 2026-09-15) | Sharing the profile |
 | `Forensic-Sampling-Summary_2026-08-30.docx` | DNA and print sample counts by item, from `CR-E21`; no markdown source | Sharing the forensic census |
+| `Epistemic-Framework-and-Analytical-Method_2026-09-15.html` · `Discussion-Card-Kirk-Robinson-Case_2026-09-15.pdf` | Renders of `docs/discussion-framework/` as downloaded from the Grok workspace | Sharing the discussion framework |
 
 ## archive/
 

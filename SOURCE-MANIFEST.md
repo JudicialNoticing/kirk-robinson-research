@@ -3,10 +3,11 @@
 > 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./scripts/manifest.py`.**
 > Hand-maintained indexes in this project have drifted every time they were kept by hand.
 
-**Artifacts:** 302  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 54
+**Artifacts:** 307  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 54
 
 **By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*
 
+- `platform-import` — 5
 - `primary-source` — 161
 - `process-evidence` — 46
 - `source-capture` — 79
@@ -44,12 +45,12 @@
 | `2025-09-12_public-safety-assessment-report_dkt3_dc27880877.t` | primary-source | txt | 2026-08-16 | text-native | 2 |
 | `2025-09-16_5_dc26099252.pdf` | primary-source | pdf | 2026-08-16 | text-native | 2 |
 | `2025-09-16_5_dc26099252.txt` | primary-source | txt | 2026-08-16 | text-native | 2 |
-| `2025-09-16_affidavit-of-probable-cause_dc27880530.pdf` | primary-source | pdf | 2026-08-14 | text-native | 6 |
-| `2025-09-16_affidavit-of-probable-cause_dc27880530.txt` | primary-source | txt | 2026-08-16 | text-native | 6 |
+| `2025-09-16_affidavit-of-probable-cause_dc27880530.pdf` | primary-source | pdf | 2026-08-14 | text-native | 7 |
+| `2025-09-16_affidavit-of-probable-cause_dc27880530.txt` | primary-source | txt | 2026-08-16 | text-native | 7 |
 | `2025-09-16_bail-order_dkt4_dc27880869.pdf` | primary-source | pdf | 2026-08-16 | text-native | 2 |
 | `2025-09-16_bail-order_dkt4_dc27880869.txt` | primary-source | txt | 2026-08-16 | text-native | 2 |
-| `2025-09-16_information-charging-document_dc27880532.pdf` | primary-source | pdf | 2026-08-14 | text-native | 7 |
-| `2025-09-16_information-charging-document_dc27880532.txt` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 7 |
+| `2025-09-16_information-charging-document_dc27880532.pdf` | primary-source | pdf | 2026-08-14 | text-native | 8 |
+| `2025-09-16_information-charging-document_dc27880532.txt` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 8 |
 | `2025-09-16_pretrial-protective-order_dkt14_dc27880872.pdf` | primary-source | pdf | 2026-08-14 | text-native | 3 |
 | `2025-09-16_pretrial-protective-order_dkt14_dc27880872.txt` | primary-source | txt | 2026-08-16 | text-native | 3 |
 | `2025-09-16_proposed-pretrial-protective-order_dkt7_dc2788086` | primary-source | pdf | 2026-08-16 | text-native | 1 |
@@ -184,8 +185,8 @@
 | `atf_page-27.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 0 |
 | `atf_page-28.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 2 |
 | `atf_page-29.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 2 |
-| `dc224251_bank_receipts.json` | primary-source | json | 2026-08-16 | structured-data | 20 |
-| `dc224251_manifest.json` | primary-source | json | 2026-08-16 | structured-data | 20 |
+| `dc224251_bank_receipts.json` | primary-source | json | 2026-08-16 | structured-data | 21 |
+| `dc224251_manifest.json` | primary-source | json | 2026-08-16 | structured-data | 21 |
 | `dc_casenumber_bank_receipts.json` | primary-source | json | 2026-08-16 | structured-data | 2 |
 | `docket-artifacts_2026-08-16_NUL-repair_SUPERSESSION.json` | primary-source | json | 2026-08-16 | structured-data | 2 |
 | `docket-watch-baseline.json` | primary-source | json | 2026-08-29 | structured-data | 0 |
@@ -340,6 +341,11 @@
 | `2025-09-16_zinn_sex_charges_pca_dc26098557.txt` | primary-source | txt | 2026-08-20 | text-native | 2 |
 | `dc26098557.json` | primary-source | json | 2026-08-20 | structured-data | 2 |
 | `dc26098558.json` | primary-source | json | 2026-08-20 | structured-data | 2 |
+| `00_project-instructions.md` | platform-import | md | 2026-09-15 | text-native | 1 |
+| `2026-07-08_charlie-kirk-on-israel-and-the-jewish-world_docum` | platform-import | html | 2026-09-15 | raw-capture | 1 |
+| `2026-07-08_charlie-kirk-on-israel-and-the-jewish-world_docum` | platform-import | txt | 2026-09-15 | text-native | 1 |
+| `2026-08-22_Tyler-Robinson-Charging-Document-Quote.md` | platform-import | md | 2026-09-15 | text-native | 3 |
+| `2026-08-22_Tyler-Robinson-s-Political-Leftist-Motive.md` | platform-import | md | 2026-09-15 | text-native | 1 |
 
 ## §3 · Held but cited by no library file
 

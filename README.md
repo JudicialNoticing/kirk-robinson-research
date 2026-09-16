@@ -36,7 +36,8 @@ files - <Topic>/        the research: evidence files, roadmaps, audits, reviews,
   Arrest chronology · Bride of Charlie series · Court record · DNA evidence · Event security ·
   George Zinn · Kirk assassination questions · Losee building · Person profiles
 verification/           banks written by verification cycles (agent journals, verdicts, frozen snapshots)
-docs/                   architecture, decisions, glossary, and the verification kit
+docs/                   architecture, decisions, glossary, the verification kit, and the public
+                        discussion framework (docs/discussion-framework/, a T4 import)
 scripts/                every tool (run from anywhere; each finds the library root)
 ops/docket-watch/       the text deployed on the cloud docket-watch routine, and its pending replacement
 deliverables/           rendered outputs shared outside the repo
