@@ -1,0 +1,119 @@
+{
+ "artifact": "https://claude.ai/code/artifact/a4ae7356-d7f1-48d8-a8cf-391113c226f7",
+ "live_version_read": "1788134942-011b (2026-09-16)",
+ "how_to_apply": "Artifact read (raw HTML) → apply each old→new replacement exactly once → Artifact publish with url → then the owner re-pins in the UI (viewers see a pinned earlier version). Publishing is owner-gated.",
+ "patch": [
+  {
+   "claims": [
+    "C-01",
+    "C-02",
+    "C-04",
+    "C-05"
+   ],
+   "where": "HTML line 14 (opening box, 'People named here who are accused of nothing') — KNOWN DEFECT 1",
+   "old": "Amber Robinson and Matthew Robinson appear only as <em>elimination-sample donors</em> — people whose profiles are obtained precisely so they can be identified and set aside — sought because they were associated with the premises, not as suspects. No inference about any of them may be drawn from this page.",
+   "new": "Amber Robinson and Matthew Robinson are elimination-sample donors — people whose DNA profiles are obtained precisely so they can be identified and set aside — sought because they were associated with the premises and not as suspects. The record does contain support-for-inclusion results naming two of the three people named here: Matthew Robinson on ATF items 1.4 (the bolt) and 1.6 (the barrel), and Lance Twiggs on swabs of the buttons of the Dremel rotary tool and other areas of that tool. A “support for inclusion” statement is not a source attribution — the ATF analyst corrected counsel’s contrary phrasing three times and counsel expressly accepted the correction. Two things travel with those results: defence counsel’s framing, put in a leading question and assented to by the witness — “not because he’s a suspect, but because he’s associated with that premise” — and the analyst’s own words about household items, “it’s reasonable to assume that anyone living in the household could have contributed to DNA on an object found in that household.” No inference about any of them may be drawn from this page."
+  },
+  {
+   "claims": [
+    "C-20",
+    "C-72"
+   ],
+   "where": "HTML line 12 (opening box, second paragraph) — KNOWN DEFECT 2",
+   "old": "<strong>Everything here is what a witness said under oath.</strong> No laboratory report has been read directly — every figure reaches this summary through a witness reading or describing a document aloud in court.",
+   "new": "<strong>Almost everything here is what a witness said under oath.</strong> The exceptions are the four-report block in §06 and all of §07, which come instead from a defence discovery letter filed with the court. One laboratory report has been read directly — the ATF firearms report of 17 September 2025 — and it is not the source of any DNA figure here: every DNA figure below still reaches this summary through a witness describing or reading a document aloud in court, because every DNA report from both laboratories remains unread."
+  },
+  {
+   "claims": [
+    "C-20"
+   ],
+   "where": "HTML line 157 (foot, 'Source.'); the masthead caption at line 7 ('Source: the five-day preliminary hearing, 6–10 July 2026') carries the same omission and is not on the hit list",
+   "old": "<strong>Source.</strong> The five-day preliminary hearing, 6–10 July 2026, read directly from transcripts. Everything here is sworn testimony or language both parties agreed to.",
+   "new": "<strong>Source.</strong> The five-day preliminary hearing, 6–10 July 2026, read directly from transcripts, and a defence discovery letter of 25 March 2026 filed with the court. Everything here is sworn testimony, language both parties agreed to, or — at the four-report block in §06 and in §07 — that filed letter."
+  },
+  {
+   "claims": [
+    "C-38"
+   ],
+   "where": "HTML line 158 (foot, 'The central limitation, corrected') — KNOWN DEFECT 3",
+   "old": "It is an accredited primary laboratory document, and it is State’s Exhibit 32.",
+   "new": "It is an accredited primary laboratory document. That it is the same document as State’s Exhibit 32, admitted at the hearing, is an inference, not a finding of identity: no witness was asked whether State’s Exhibit 32 is the document attached to the defence motion."
+  },
+  {
+   "claims": [
+    "C-14"
+   ],
+   "where": "HTML line 111 (§06 'What does exist') and the same proposition at line 130 (§07 lead; hit list indexes 35/37 there under C-62)",
+   "old": "It is a census of every forensic report produced in this case, and it establishes that <strong>four latent fingerprint reports exist, from three different laboratories</strong>.",
+   "new": "It lists the laboratory reports named in the defence's forensic discovery correspondence — not every forensic report in the case: forensic pathology and digital forensics sit outside it — and it establishes that <strong>four latent fingerprint reports exist, from three different laboratories</strong>."
+  },
+  {
+   "claims": [
+    "C-14"
+   ],
+   "where": "HTML line 111 (§06 'What does exist') and the same proposition at line 130 (§07 lead; hit list indexes 35/37 there under C-62)",
+   "old": "The same defence discovery letter catalogues <strong>every</strong> forensic report produced in this case as of March 2026.",
+   "new": "The same defence discovery letter catalogues the laboratory reports named in the defence's forensic discovery correspondence as of March 2026; forensic pathology and digital forensics sit outside it."
+  },
+  {
+   "claims": [
+    "C-30"
+   ],
+   "where": "HTML line 107 (§06 'This is a gap in the record')",
+   "old": "This was a probable-cause hearing, not a trial. A negative fingerprint result on the rifle is exactly the kind of finding neither side had reason to raise. <strong>Absence here is weak evidence of absence.</strong>",
+   "new": "This was a probable-cause hearing, not a trial. A negative fingerprint result on the rifle is the kind of finding the State had no reason to raise — it called no forensic examiner and proceeded by stipulation — though the defence, which held all four latent print reports, had formally sought the ATF fingerprint specialist's live testimony. <strong>Absence here is weak evidence of absence, and weaker on the State's side than on the defence's.</strong>"
+  },
+  {
+   "claims": [
+    "C-56"
+   ],
+   "where": "HTML line 11 (opening box, first paragraph)",
+   "old": "No court has found any fact below to be true, and the court made no reliability ruling on any forensic evidence.",
+   "new": "No court has found any fact below to be true, and no court has ruled on the scientific reliability of any forensic method or result; the exhibits were admitted at the hearing under the preliminary-hearing reliable-hearsay standard, which is a different question."
+  },
+  {
+   "claims": [
+    "C-62"
+   ],
+   "where": "HTML line 129 (§07 heading), line 130 (§07 lead), line 160 (foot 'What remains unobtained')",
+   "old": "<span class=\"num\">07</span> The wider forensic record — fourteen reports, one of them read",
+   "new": "<span class=\"num\">07</span> The wider forensic record — fifteen items, one of them read"
+  },
+  {
+   "claims": [
+    "C-62"
+   ],
+   "where": "HTML line 129 (§07 heading), line 130 (§07 lead), line 160 (foot 'What remains unobtained')",
+   "old": "It names <strong>fourteen laboratory reports across three laboratories</strong>.",
+   "new": "It names <strong>fifteen items across three laboratories</strong> — thirteen laboratory reports and two FBI DNA case files without dates."
+  },
+  {
+   "claims": [
+    "C-62"
+   ],
+   "where": "HTML line 129 (§07 heading), line 130 (§07 lead), line 160 (foot 'What remains unobtained')",
+   "old": "<strong>What remains unobtained</strong> is <strong>thirteen of the fourteen reports</strong> catalogued in §07, including every DNA report from both laboratories.",
+   "new": "<strong>What remains unobtained</strong> is <strong>fourteen of the fifteen items</strong> catalogued in §07, including every DNA report from both laboratories."
+  },
+  {
+   "claims": [
+    "C-66"
+   ],
+   "where": "HTML line 153 (§08 'Much of it can never be re-tested')",
+   "old": "That is one party’s account, and discovery here is staged and ongoing — but the records that would settle what survives were not in the defence’s hands four months before the hearing.",
+   "new": "That is one party’s account, and discovery here is staged and ongoing — but the records that would settle what survives were not in the defence’s hands some three and a half months before the hearing."
+  },
+  {
+   "claims": "POSTURE",
+   "where": "opening box line 1 and the foot's last paragraph",
+   "old": "<strong>Tyler Robinson is presumed innocent and, as of 30 August 2026, has not been bound over for trial.</strong>",
+   "new": "<strong>Tyler Robinson is presumed innocent.</strong> He was bound over for trial on 1 September 2026 on all seven counts (the signed order is held; clerk’s certificate 2 September 2026), and not-guilty pleas were entered by counsel the same day; a bindover is a probable-cause finding, not a verdict."
+  },
+  {
+   "claims": "POSTURE",
+   "where": "foot",
+   "old": "Case posture stated as of that date: Tyler Robinson has not been bound over, and the presumption of innocence applies in full.",
+   "new": "Posture updated 16 September 2026: bound over on all seven counts on 1 September 2026; not-guilty pleas entered by counsel; the presumption of innocence applies in full."
+  }
+ ]
+}

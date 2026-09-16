@@ -1,0 +1,1260 @@
+{
+ "reader": "cycle-3 propagation sweep, DELIVERABLES reader",
+ "date": "2026-09-16",
+ "method": "Each hit located in the deliverable text by its excerpt and read with its surrounding paragraph; classified from the deliverable's own text against the claim's withdrawn/corrected forms in the worklist. No file edited. Line numbers for the artifact are lines of the saved HTML; for the docx, paragraph lines of the text extraction.",
+ "docx": {
+  "source": "deliverables/Forensic-Sampling-Summary_2026-08-30.docx (text extraction forensic-sampling-summary_docx-text.txt; last corrected 2026-09-01)",
+  "hits_reviewed": 63,
+  "counts": {
+   "STALE": 13,
+   "CONSISTENT": 21,
+   "RECORD": 18,
+   "UNRELATED": 7,
+   "AMBIGUOUS": 4
+  },
+  "stale": [
+   {
+    "claims": [
+     "C-14"
+    ],
+    "hits": [
+     26
+    ],
+    "where": "para 172 (§6 'What DOES exist — four reports, none of which reached the hearing') and the same proposition at para 197 (§7 lead; hit list indexes 44/46 there under C-62)",
+    "current": [
+     "It is a census of every forensic report produced in this case, and it establishes that four latent fingerprint reports exist, from three different laboratories:",
+     "A defence discovery letter of 25 March 2026, filed with the court, catalogues every forensic report produced in this case as of that date."
+    ],
+    "replacement": [
+     "It lists the laboratory reports named in the defence's forensic discovery correspondence — not every forensic report in the case: forensic pathology and digital forensics sit outside it — and it establishes that four latent fingerprint reports exist, from three different laboratories:",
+     "A defence discovery letter of 25 March 2026, filed with the court, catalogues the laboratory reports named in the defence's forensic discovery correspondence as of that date; forensic pathology and digital forensics sit outside it."
+    ],
+    "note": "The 'census of every forensic report' proposition stands twice (paras 172 and 197). Both need the narrowing."
+   },
+   {
+    "claims": [
+     "C-30"
+    ],
+    "hits": [
+     33
+    ],
+    "where": "para 168 (§6 'This is a gap in the record, not a finding of \"no prints\"')",
+    "current": [
+     "This was a probable-cause hearing, not a trial. A negative fingerprint result on the rifle is exactly the kind of finding neither side had reason to raise. Absence here is therefore weak evidence of absence."
+    ],
+    "replacement": [
+     "This was a probable-cause hearing, not a trial. A negative fingerprint result on the rifle is the kind of finding the State had no reason to raise — it called no forensic examiner and proceeded by stipulation — though the defence, which held all four latent print reports, had formally sought the ATF fingerprint specialist's live testimony. Absence here is therefore weak evidence of absence, and weaker on the State's side than on the defence's."
+    ],
+    "note": "Flat 'neither side' form; the corrected form holds only on the State's side."
+   },
+   {
+    "claims": [
+     "C-56"
+    ],
+    "hits": [
+     41,
+     42,
+     43
+    ],
+    "where": "para 5 (opening box, first paragraph)",
+    "current": [
+     "No court has found any fact in this document to be true, and the court made no reliability ruling on any forensic evidence."
+    ],
+    "replacement": [
+     "No court has found any fact in this document to be true, and no court has ruled on the scientific reliability of any forensic method or result; the exhibits were admitted at the hearing under the preliminary-hearing reliable-hearsay standard, which is a different question."
+    ],
+    "note": "Three hits, one sentence."
+   },
+   {
+    "claims": [
+     "C-62"
+    ],
+    "hits": [
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50
+    ],
+    "where": "para 196 (§7 heading), para 197 (§7 lead), para 240 (§9 'What remains unobtained')",
+    "current": [
+     "7.  The wider forensic record — fourteen reports, one of them read",
+     "It names fourteen laboratory reports across three laboratories.",
+     "What remains unobtained: thirteen of the fourteen reports catalogued in §7, including every DNA report from both laboratories."
+    ],
+    "replacement": [
+     "7.  The wider forensic record — fifteen items, one of them read",
+     "It names fifteen items across three laboratories — thirteen laboratory reports and two FBI DNA case files without dates.",
+     "What remains unobtained: fourteen of the fifteen items catalogued in §7, including every DNA report from both laboratories."
+    ],
+    "note": "P8 check: the §7 table's cells (FBI 2+1+1, ATF 4+3+2+1, plus the Utah BFS window report noted in the Latent print row) already sum to fifteen, so the table needs no change — only the prose count is stale. The corrected form notes D-70 may make it one fewer; the deliverable need not carry that."
+   },
+   {
+    "claims": [
+     "C-66"
+    ],
+    "hits": [
+     51
+    ],
+    "where": "para 233 (§8 'Much of it can never be re-tested')",
+    "current": [
+     "That is one party’s account, and discovery in a case like this is staged and ongoing — but it means the records that would settle what survives were not in the defence’s hands four months before the hearing."
+    ],
+    "replacement": [
+     "That is one party’s account, and discovery in a case like this is staged and ongoing — but it means the records that would settle what survives were not in the defence’s hands some three and a half months before the hearing."
+    ],
+    "note": "25 March 2026 to 6 July 2026 is three months and eleven days. The second 'four months' at para 240 (docket records end) is classed AMBIGUOUS: the docket end-date is not stated in the document, so whether it is the same interval cannot be judged from the text."
+   }
+  ],
+  "ambiguous": [
+   {
+    "claims": [
+     "C-45"
+    ],
+    "hits": [
+     35
+    ],
+    "where": "para 172",
+    "note": "Withdrawn form is an absence (no access-path caveat on the letter). The docx attributes the material to 'a defence discovery letter filed with the court' and para 233 carries 'That is one party's account' — but only for the consumption-records statement; the four-report block (§6) and the §7 table's 'anticipated' / 'had not been done' cells carry no caveat that the letter's not-received statements are one party's assertions with the State's response unheld, and 'establishes' overreaches for a party letter. Partial, not stale. Optional tightening at para 172: '…has been read. It is one party's list, and the State's response to it is not held, but it establishes that four latent fingerprint reports exist…'"
+   },
+   {
+    "claims": [
+     "C-47"
+    ],
+    "hits": [
+     36,
+     37
+    ],
+    "where": "para 179 (§6 table, FBI row)",
+    "note": "The table gives 'Lab. No. 2025-01779-5' and does not assert it is the only identifier, so the withdrawn 'only' proposition is not asserted; the corrected second identifier (Case ID No. SU-4130859) is simply not carried. Optional enrichment, not a stale claim."
+   },
+   {
+    "claims": [
+     "C-66"
+    ],
+    "hits": [
+     52
+    ],
+    "where": "para 240",
+    "note": "'the docket records available here end four months before the hearing' — refers to the docket records' end date, which the document does not state; cannot be judged from the text. If it is the 25 March letter, the same three-and-a-half-month correction applies."
+   }
+  ],
+  "known_defects_standing": [],
+  "known_defects_detail": {
+   "living_persons_only_as_elimination_donors": {
+    "standing": false,
+    "where": "para 8 carries the corrected form (results naming Matthew Robinson on 1.4/1.6 and Lance Twiggs on the Dremel swabs, with the guards); para 237 records the narrowing."
+   },
+   "opening_box_no_laboratory_report_read": {
+    "standing": false,
+    "where": "para 6 carries the corrected form (one report read — the ATF firearms report — not the source of any DNA figure); para 238 records the correction."
+   },
+   "foot_flat_it_is_States_Exhibit_32": {
+    "standing": false,
+    "where": "para 238 carries 'is an inference, not a finding of identity: no witness was asked whether State's Exhibit 32 is the document attached to the defence motion.'"
+   }
+  },
+  "hits": [
+   {
+    "i": 0,
+    "claim": "C-01",
+    "term": "only as elimination-sample donors",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 1,
+    "claim": "C-01",
+    "term": "appear only as elimination-sample donors",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 2,
+    "claim": "C-01",
+    "term": "only as elimination",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 3,
+    "claim": "C-01",
+    "term": "elimination-sample donors",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 4,
+    "claim": "C-01",
+    "term": "elimination-sample donors",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 5,
+    "claim": "C-01",
+    "term": "appear only as",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 6,
+    "claim": "C-01",
+    "term": "not as suspects",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 7,
+    "claim": "C-01",
+    "term": "identified and set aside",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 8,
+    "claim": "C-02",
+    "term": "support-for-inclusion results naming Matthew Robinson",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 9,
+    "claim": "C-02",
+    "term": "Matthew Robinson on ATF items",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 10,
+    "claim": "C-02",
+    "term": "Matthew Robinson on ATF items",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 11,
+    "claim": "C-02",
+    "term": "elimination-sample donors",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 12,
+    "claim": "C-02",
+    "term": "elimination-sample donors",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 13,
+    "claim": "C-04",
+    "term": "not as suspects",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 14,
+    "claim": "C-05",
+    "term": "Amber Robinson",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 15,
+    "claim": "C-05",
+    "term": "Amber Robinson",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 16,
+    "claim": "C-05",
+    "term": "Matthew Robinson",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 17,
+    "claim": "C-05",
+    "term": "Matthew Robinson",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 18,
+    "claim": "C-05",
+    "term": "Matthew Robinson",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 19,
+    "claim": "C-05",
+    "term": "Matthew Robinson",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 20,
+    "claim": "C-05",
+    "term": "use immunity from two",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 21,
+    "claim": "C-05",
+    "term": "only as elimination-sample donors",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 22,
+    "claim": "C-05",
+    "term": "elimination-sample donors",
+    "class": "CONSISTENT",
+    "where": "para 8 (opening box, \"Persons named who are accused of nothing\")"
+   },
+   {
+    "i": 23,
+    "claim": "C-05",
+    "term": "elimination-sample donors",
+    "class": "RECORD",
+    "where": "para 237 (§9 \"The living-persons note, narrowed — 1 September 2026\")"
+   },
+   {
+    "i": 24,
+    "claim": "C-05",
+    "term": "elimination sample",
+    "class": "UNRELATED",
+    "where": "para 233 (§8, investigator elimination samples)"
+   },
+   {
+    "i": 25,
+    "claim": "C-09",
+    "term": "an identification",
+    "class": "CONSISTENT",
+    "where": "para 194 (§6 \"One line requires care\")"
+   },
+   {
+    "i": 26,
+    "claim": "C-14",
+    "term": "census of every forensic report",
+    "class": "STALE",
+    "where": "para 172 (§6 \"What DOES exist\")"
+   },
+   {
+    "i": 27,
+    "claim": "C-18",
+    "term": "never read",
+    "class": "UNRELATED",
+    "where": "para 88 (§2, item table never read out in full)"
+   },
+   {
+    "i": 28,
+    "claim": "C-18",
+    "term": "never read",
+    "class": "UNRELATED",
+    "where": "para 154 (§5, Dremel longest-bit result never read into the record)"
+   },
+   {
+    "i": 29,
+    "claim": "C-20",
+    "term": "Everything below is what a witness said",
+    "class": "CONSISTENT",
+    "where": "para 6 (opening box)"
+   },
+   {
+    "i": 30,
+    "claim": "C-20",
+    "term": "Everything here is sworn testimony",
+    "class": "CONSISTENT",
+    "where": "para 236 (§9 Source)"
+   },
+   {
+    "i": 31,
+    "claim": "C-23",
+    "term": "Domestic Strategic",
+    "class": "CONSISTENT",
+    "where": "para 226 (§7 \"Two threads\")"
+   },
+   {
+    "i": 32,
+    "claim": "C-23",
+    "term": "four days after the shooting",
+    "class": "CONSISTENT",
+    "where": "para 226 (§7 \"Two threads\")"
+   },
+   {
+    "i": 33,
+    "claim": "C-30",
+    "term": "neither side had reason",
+    "class": "STALE",
+    "where": "para 168 (§6 \"This is a gap in the record\")"
+   },
+   {
+    "i": 34,
+    "claim": "C-38",
+    "term": "Exhibit 32, admitted",
+    "class": "CONSISTENT",
+    "where": "para 238 (§9 \"The central limitation, corrected\")"
+   },
+   {
+    "i": 35,
+    "claim": "C-45",
+    "term": "Second Request for DNA",
+    "class": "AMBIGUOUS",
+    "where": "para 172 (§6 \"What DOES exist\")"
+   },
+   {
+    "i": 36,
+    "claim": "C-47",
+    "term": "2025-01779-5",
+    "class": "AMBIGUOUS",
+    "where": "para 179 (§6 four-report table, FBI row)"
+   },
+   {
+    "i": 37,
+    "claim": "C-47",
+    "term": "Lab. No. 2025-01779-5",
+    "class": "AMBIGUOUS",
+    "where": "para 179 (§6 four-report table, FBI row)"
+   },
+   {
+    "i": 38,
+    "claim": "C-52",
+    "term": "no witness was asked",
+    "class": "UNRELATED",
+    "where": "para 53 (§2 Fingerprints: none on this record)"
+   },
+   {
+    "i": 39,
+    "claim": "C-52",
+    "term": "no witness was asked",
+    "class": "UNRELATED",
+    "where": "para 167 (§6 \"This is a gap in the record\")"
+   },
+   {
+    "i": 40,
+    "claim": "C-52",
+    "term": "no witness was asked",
+    "class": "CONSISTENT",
+    "where": "para 238 (§9 \"The central limitation, corrected\")"
+   },
+   {
+    "i": 41,
+    "claim": "C-56",
+    "term": "no reliability ruling",
+    "class": "STALE",
+    "where": "para 5 (opening box)"
+   },
+   {
+    "i": 42,
+    "claim": "C-56",
+    "term": "reliability ruling on any forensic",
+    "class": "STALE",
+    "where": "para 5 (opening box)"
+   },
+   {
+    "i": 43,
+    "claim": "C-56",
+    "term": "made no reliability ruling",
+    "class": "STALE",
+    "where": "para 5 (opening box)"
+   },
+   {
+    "i": 44,
+    "claim": "C-62",
+    "term": "fourteen laboratory reports",
+    "class": "STALE",
+    "where": "para 197 (§7 lead paragraph)"
+   },
+   {
+    "i": 45,
+    "claim": "C-62",
+    "term": "FOURTEEN",
+    "class": "STALE",
+    "where": "para 196 (§7 heading)"
+   },
+   {
+    "i": 46,
+    "claim": "C-62",
+    "term": "FOURTEEN",
+    "class": "STALE",
+    "where": "para 197 (§7 lead paragraph)"
+   },
+   {
+    "i": 47,
+    "claim": "C-62",
+    "term": "FOURTEEN",
+    "class": "STALE",
+    "where": "para 240 (§9 \"What remains unobtained\")"
+   },
+   {
+    "i": 48,
+    "claim": "C-62",
+    "term": "of the fourteen",
+    "class": "STALE",
+    "where": "para 240 (§9 \"What remains unobtained\")"
+   },
+   {
+    "i": 49,
+    "claim": "C-62",
+    "term": "fourteen reports",
+    "class": "STALE",
+    "where": "para 196 (§7 heading)"
+   },
+   {
+    "i": 50,
+    "claim": "C-62",
+    "term": "fourteen reports",
+    "class": "STALE",
+    "where": "para 240 (§9 \"What remains unobtained\")"
+   },
+   {
+    "i": 51,
+    "claim": "C-66",
+    "term": "four months",
+    "class": "STALE",
+    "where": "para 233 (§8 \"Much of it can never be re-tested\")"
+   },
+   {
+    "i": 52,
+    "claim": "C-66",
+    "term": "four months",
+    "class": "AMBIGUOUS",
+    "where": "para 240 (§9 \"What remains unobtained\")"
+   },
+   {
+    "i": 53,
+    "claim": "C-69",
+    "term": "examiner testified",
+    "class": "UNRELATED",
+    "where": "para 167 (§6 \"This is a gap in the record\")"
+   },
+   {
+    "i": 54,
+    "claim": "C-72",
+    "term": "No laboratory report has been read",
+    "class": "RECORD",
+    "where": "para 238 (§9 \"The central limitation, corrected\")"
+   },
+   {
+    "i": 55,
+    "claim": "C-72",
+    "term": "laboratory report has been read",
+    "class": "CONSISTENT",
+    "where": "para 6 (opening box)"
+   },
+   {
+    "i": 56,
+    "claim": "C-72",
+    "term": "laboratory report has been read",
+    "class": "RECORD",
+    "where": "para 238 (§9 \"The central limitation, corrected\")"
+   },
+   {
+    "i": 57,
+    "claim": "C-72",
+    "term": "Not one.",
+    "class": "RECORD",
+    "where": "para 238 (§9 \"The central limitation, corrected\")"
+   },
+   {
+    "i": 58,
+    "claim": "C-72",
+    "term": "not one",
+    "class": "UNRELATED",
+    "where": "para 229 (§8 \"Not one result is a source attribution\")"
+   },
+   {
+    "i": 59,
+    "claim": "C-72",
+    "term": "not one",
+    "class": "RECORD",
+    "where": "para 238 (§9 \"The central limitation, corrected\")"
+   },
+   {
+    "i": 60,
+    "claim": "C-72",
+    "term": "has been read directly",
+    "class": "CONSISTENT",
+    "where": "para 6 (opening box)"
+   },
+   {
+    "i": 61,
+    "claim": "C-72",
+    "term": "has been read directly",
+    "class": "CONSISTENT",
+    "where": "para 210 (§7 table, Firearms/toolmark row)"
+   },
+   {
+    "i": 62,
+    "claim": "C-72",
+    "term": "has been read directly",
+    "class": "RECORD",
+    "where": "para 238 (§9 \"The central limitation, corrected\")"
+   }
+  ]
+ },
+ "artifact_live": {
+  "source": "claude.ai artifact 'What Was Swabbed', LIVE version 1788134942-011b, saved HTML what-was-swabbed_LIVE-2026-09-16.html (never corrected after 2026-08-30)",
+  "hits_reviewed": 58,
+  "counts": {
+   "STALE": 39,
+   "CONSISTENT": 5,
+   "RECORD": 5,
+   "UNRELATED": 6,
+   "AMBIGUOUS": 3
+  },
+  "stale": [
+   {
+    "claims": [
+     "C-01",
+     "C-02",
+     "C-04",
+     "C-05"
+    ],
+    "hits": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     14,
+     15
+    ],
+    "where": "HTML line 14 (opening box, 'People named here who are accused of nothing') — KNOWN DEFECT 1",
+    "current": [
+     "Amber Robinson and Matthew Robinson appear only as <em>elimination-sample donors</em> — people whose profiles are obtained precisely so they can be identified and set aside — sought because they were associated with the premises, not as suspects. No inference about any of them may be drawn from this page."
+    ],
+    "replacement": [
+     "Amber Robinson and Matthew Robinson are elimination-sample donors — people whose DNA profiles are obtained precisely so they can be identified and set aside — sought because they were associated with the premises and not as suspects. The record does contain support-for-inclusion results naming two of the three people named here: Matthew Robinson on ATF items 1.4 (the bolt) and 1.6 (the barrel), and Lance Twiggs on swabs of the buttons of the Dremel rotary tool and other areas of that tool. A “support for inclusion” statement is not a source attribution — the ATF analyst corrected counsel’s contrary phrasing three times and counsel expressly accepted the correction. Two things travel with those results: defence counsel’s framing, put in a leading question and assented to by the witness — “not because he’s a suspect, but because he’s associated with that premise” — and the analyst’s own words about household items, “it’s reasonable to assume that anyone living in the household could have contributed to DNA on an object found in that household.” No inference about any of them may be drawn from this page."
+    ],
+    "note": "Verbatim withdrawn form. Fifteen hits, one passage. The replacement is the docx para 8 form, which discloses both persons' results together (C-02 satisfied) and attributes the 'not as suspects' framing to defence counsel's leading question (C-04). A foot paragraph mirroring the docx's 'The living-persons note, narrowed — 1 September 2026' record is also owed. C-02's asymmetry does not arise in the live page because it discloses neither result; C-01's understatement does."
+   },
+   {
+    "claims": [
+     "C-20",
+     "C-72"
+    ],
+    "hits": [
+     21,
+     45,
+     47,
+     48,
+     49,
+     54,
+     57
+    ],
+    "where": "HTML line 12 (opening box, second paragraph) — KNOWN DEFECT 2",
+    "current": [
+     "<strong>Everything here is what a witness said under oath.</strong> No laboratory report has been read directly — every figure reaches this summary through a witness reading or describing a document aloud in court."
+    ],
+    "replacement": [
+     "<strong>Almost everything here is what a witness said under oath.</strong> The exceptions are the four-report block in §06 and all of §07, which come instead from a defence discovery letter filed with the court. One laboratory report has been read directly — the ATF firearms report of 17 September 2025 — and it is not the source of any DNA figure here: every DNA figure below still reaches this summary through a witness describing or reading a document aloud in court, because every DNA report from both laboratories remains unread."
+    ],
+    "note": "The page's own foot (line 158) retracts this sentence ('An earlier version of this page said … That was wrong'), and §07's table (line 136) says one report has been read directly — the opening box contradicts the rest of the live page."
+   },
+   {
+    "claims": [
+     "C-20"
+    ],
+    "hits": [
+     22,
+     23,
+     24
+    ],
+    "where": "HTML line 157 (foot, 'Source.'); the masthead caption at line 7 ('Source: the five-day preliminary hearing, 6–10 July 2026') carries the same omission and is not on the hit list",
+    "current": [
+     "<strong>Source.</strong> The five-day preliminary hearing, 6–10 July 2026, read directly from transcripts. Everything here is sworn testimony or language both parties agreed to."
+    ],
+    "replacement": [
+     "<strong>Source.</strong> The five-day preliminary hearing, 6–10 July 2026, read directly from transcripts, and a defence discovery letter of 25 March 2026 filed with the court. Everything here is sworn testimony, language both parties agreed to, or — at the four-report block in §06 and in §07 — that filed letter."
+    ],
+    "note": "The live page's §06 four-report block and all of §07 come from the letter, so the single-source statement is false against the page itself."
+   },
+   {
+    "claims": [
+     "C-38"
+    ],
+    "hits": [
+     28
+    ],
+    "where": "HTML line 158 (foot, 'The central limitation, corrected') — KNOWN DEFECT 3",
+    "current": [
+     "It is an accredited primary laboratory document, and it is State’s Exhibit 32."
+    ],
+    "replacement": [
+     "It is an accredited primary laboratory document. That it is the same document as State’s Exhibit 32, admitted at the hearing, is an inference, not a finding of identity: no witness was asked whether State’s Exhibit 32 is the document attached to the defence motion."
+    ],
+    "note": "Flat identity claim without the two grades or the hedge; the docx para 238 form is the corrected one."
+   },
+   {
+    "claims": [
+     "C-14"
+    ],
+    "hits": [
+     18
+    ],
+    "where": "HTML line 111 (§06 'What does exist') and the same proposition at line 130 (§07 lead; hit list indexes 35/37 there under C-62)",
+    "current": [
+     "It is a census of every forensic report produced in this case, and it establishes that <strong>four latent fingerprint reports exist, from three different laboratories</strong>.",
+     "The same defence discovery letter catalogues <strong>every</strong> forensic report produced in this case as of March 2026."
+    ],
+    "replacement": [
+     "It lists the laboratory reports named in the defence's forensic discovery correspondence — not every forensic report in the case: forensic pathology and digital forensics sit outside it — and it establishes that <strong>four latent fingerprint reports exist, from three different laboratories</strong>.",
+     "The same defence discovery letter catalogues the laboratory reports named in the defence's forensic discovery correspondence as of March 2026; forensic pathology and digital forensics sit outside it."
+    ],
+    "note": "Line 130 bolds 'every', which strengthens the withdrawn form."
+   },
+   {
+    "claims": [
+     "C-30"
+    ],
+    "hits": [
+     27
+    ],
+    "where": "HTML line 107 (§06 'This is a gap in the record')",
+    "current": [
+     "This was a probable-cause hearing, not a trial. A negative fingerprint result on the rifle is exactly the kind of finding neither side had reason to raise. <strong>Absence here is weak evidence of absence.</strong>"
+    ],
+    "replacement": [
+     "This was a probable-cause hearing, not a trial. A negative fingerprint result on the rifle is the kind of finding the State had no reason to raise — it called no forensic examiner and proceeded by stipulation — though the defence, which held all four latent print reports, had formally sought the ATF fingerprint specialist's live testimony. <strong>Absence here is weak evidence of absence, and weaker on the State's side than on the defence's.</strong>"
+    ],
+    "note": "Same flat form as the docx."
+   },
+   {
+    "claims": [
+     "C-56"
+    ],
+    "hits": [
+     32,
+     33,
+     34
+    ],
+    "where": "HTML line 11 (opening box, first paragraph)",
+    "current": [
+     "No court has found any fact below to be true, and the court made no reliability ruling on any forensic evidence."
+    ],
+    "replacement": [
+     "No court has found any fact below to be true, and no court has ruled on the scientific reliability of any forensic method or result; the exhibits were admitted at the hearing under the preliminary-hearing reliable-hearsay standard, which is a different question."
+    ],
+    "note": "Same flat form as the docx."
+   },
+   {
+    "claims": [
+     "C-62"
+    ],
+    "hits": [
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41
+    ],
+    "where": "HTML line 129 (§07 heading), line 130 (§07 lead), line 160 (foot 'What remains unobtained')",
+    "current": [
+     "<span class=\"num\">07</span> The wider forensic record — fourteen reports, one of them read",
+     "It names <strong>fourteen laboratory reports across three laboratories</strong>.",
+     "<strong>What remains unobtained</strong> is <strong>thirteen of the fourteen reports</strong> catalogued in §07, including every DNA report from both laboratories."
+    ],
+    "replacement": [
+     "<span class=\"num\">07</span> The wider forensic record — fifteen items, one of them read",
+     "It names <strong>fifteen items across three laboratories</strong> — thirteen laboratory reports and two FBI DNA case files without dates.",
+     "<strong>What remains unobtained</strong> is <strong>fourteen of the fifteen items</strong> catalogued in §07, including every DNA report from both laboratories."
+    ],
+    "note": "As in the docx, the §07 table's cells plus the Utah BFS report noted in the Latent print row already sum to fifteen; only the prose count is stale."
+   },
+   {
+    "claims": [
+     "C-66"
+    ],
+    "hits": [
+     42
+    ],
+    "where": "HTML line 153 (§08 'Much of it can never be re-tested')",
+    "current": [
+     "That is one party’s account, and discovery here is staged and ongoing — but the records that would settle what survives were not in the defence’s hands four months before the hearing."
+    ],
+    "replacement": [
+     "That is one party’s account, and discovery here is staged and ongoing — but the records that would settle what survives were not in the defence’s hands some three and a half months before the hearing."
+    ],
+    "note": "Line 160's 'docket records available here end four months before the hearing' is classed AMBIGUOUS for the same reason as the docx para 240."
+   }
+  ],
+  "ambiguous": [
+   {
+    "claims": [
+     "C-45"
+    ],
+    "hits": [
+     29
+    ],
+    "where": "HTML line 111",
+    "note": "Same partial-caveat position as the docx: the letter is attributed, line 153 carries 'That is one party's account' for the consumption-records statement only; §06/§07 carry no caveat that the letter's not-received statements are one party's assertions. Partial, not stale."
+   },
+   {
+    "claims": [
+     "C-47"
+    ],
+    "hits": [
+     30
+    ],
+    "where": "HTML line 116 (§06 table, FBI row)",
+    "note": "Table gives '2025-01779-5' only and does not assert it is the sole identifier; the corrected second identifier (Case ID No. SU-4130859) is not carried. Optional enrichment."
+   },
+   {
+    "claims": [
+     "C-66"
+    ],
+    "hits": [
+     43
+    ],
+    "where": "HTML line 160",
+    "note": "Docket-records end date not stated on the page; cannot be judged from the text."
+   }
+  ],
+  "known_defects_standing": [
+   "living_persons_only_as_elimination_donors",
+   "opening_box_no_laboratory_report_read",
+   "foot_flat_it_is_States_Exhibit_32"
+  ],
+  "known_defects_detail": {
+   "living_persons_only_as_elimination_donors": {
+    "standing": true,
+    "where": "HTML line 14 — verbatim withdrawn form; see stale group 1."
+   },
+   "opening_box_no_laboratory_report_read": {
+    "standing": true,
+    "where": "HTML line 12 — verbatim; retracted by the page's own foot at line 158; see stale group 2."
+   },
+   "foot_flat_it_is_States_Exhibit_32": {
+    "standing": true,
+    "where": "HTML line 158 — 'and it is State’s Exhibit 32'; see stale group 4."
+   }
+  },
+  "hits": [
+   {
+    "i": 0,
+    "claim": "C-01",
+    "term": "only as elimination-sample donors",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 1,
+    "claim": "C-01",
+    "term": "appear only as elimination-sample donors",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 2,
+    "claim": "C-01",
+    "term": "only as elimination",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 3,
+    "claim": "C-01",
+    "term": "elimination-sample donors",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 4,
+    "claim": "C-01",
+    "term": "appear only as",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 5,
+    "claim": "C-01",
+    "term": "associated with the premises, not as suspects",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 6,
+    "claim": "C-01",
+    "term": "not as suspects",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 7,
+    "claim": "C-01",
+    "term": "identified and set aside",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 8,
+    "claim": "C-01",
+    "term": "drawn from this page",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 9,
+    "claim": "C-02",
+    "term": "elimination-sample donors",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 10,
+    "claim": "C-04",
+    "term": "not as suspects",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 11,
+    "claim": "C-05",
+    "term": "Amber Robinson",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 12,
+    "claim": "C-05",
+    "term": "Matthew Robinson",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 13,
+    "claim": "C-05",
+    "term": "use immunity from two",
+    "class": "CONSISTENT",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 14,
+    "claim": "C-05",
+    "term": "only as elimination-sample donors",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 15,
+    "claim": "C-05",
+    "term": "elimination-sample donors",
+    "class": "STALE",
+    "where": "HTML line 14 (opening box, \"People named here who are accused of nothing\")"
+   },
+   {
+    "i": 16,
+    "claim": "C-05",
+    "term": "elimination sample",
+    "class": "UNRELATED",
+    "where": "HTML line 153 (§08, investigator elimination samples)"
+   },
+   {
+    "i": 17,
+    "claim": "C-09",
+    "term": "an identification",
+    "class": "CONSISTENT",
+    "where": "HTML line 127 (§06 \"One line requires care\")"
+   },
+   {
+    "i": 18,
+    "claim": "C-14",
+    "term": "census of every forensic report",
+    "class": "STALE",
+    "where": "HTML line 111 (§06 \"What does exist\")"
+   },
+   {
+    "i": 19,
+    "claim": "C-18",
+    "term": "never read",
+    "class": "UNRELATED",
+    "where": "HTML line 63 (§02 note)"
+   },
+   {
+    "i": 20,
+    "claim": "C-18",
+    "term": "never read",
+    "class": "UNRELATED",
+    "where": "HTML line 94 (§05 note)"
+   },
+   {
+    "i": 21,
+    "claim": "C-20",
+    "term": "Everything here is what a witness said",
+    "class": "STALE",
+    "where": "HTML line 12 (opening box)"
+   },
+   {
+    "i": 22,
+    "claim": "C-20",
+    "term": "Everything here is sworn testimony",
+    "class": "STALE",
+    "where": "HTML line 157 (foot, \"Source.\")"
+   },
+   {
+    "i": 23,
+    "claim": "C-20",
+    "term": "sworn testimony or language both parties agreed to",
+    "class": "STALE",
+    "where": "HTML line 157 (foot, \"Source.\")"
+   },
+   {
+    "i": 24,
+    "claim": "C-20",
+    "term": "read directly from transcripts.",
+    "class": "STALE",
+    "where": "HTML line 157 (foot, \"Source.\")"
+   },
+   {
+    "i": 25,
+    "claim": "C-23",
+    "term": "Domestic Strategic",
+    "class": "CONSISTENT",
+    "where": "HTML line 145 (§07 \"Two threads\")"
+   },
+   {
+    "i": 26,
+    "claim": "C-23",
+    "term": "four days after the shooting",
+    "class": "CONSISTENT",
+    "where": "HTML line 145 (§07 \"Two threads\")"
+   },
+   {
+    "i": 27,
+    "claim": "C-30",
+    "term": "neither side had reason",
+    "class": "STALE",
+    "where": "HTML line 107 (§06 \"This is a gap in the record\")"
+   },
+   {
+    "i": 28,
+    "claim": "C-38",
+    "term": "and it is State’s Exhibit 32",
+    "class": "STALE",
+    "where": "HTML line 158 (foot, \"The central limitation, corrected\")"
+   },
+   {
+    "i": 29,
+    "claim": "C-45",
+    "term": "Second Request for DNA",
+    "class": "AMBIGUOUS",
+    "where": "HTML line 111 (§06 \"What does exist\")"
+   },
+   {
+    "i": 30,
+    "claim": "C-47",
+    "term": "2025-01779-5",
+    "class": "AMBIGUOUS",
+    "where": "HTML line 116 (§06 latent-report table, FBI row)"
+   },
+   {
+    "i": 31,
+    "claim": "C-52",
+    "term": "no witness was asked",
+    "class": "UNRELATED",
+    "where": "HTML line 106 (§06 \"This is a gap in the record\")"
+   },
+   {
+    "i": 32,
+    "claim": "C-56",
+    "term": "no reliability ruling",
+    "class": "STALE",
+    "where": "HTML line 11 (opening box)"
+   },
+   {
+    "i": 33,
+    "claim": "C-56",
+    "term": "reliability ruling on any forensic",
+    "class": "STALE",
+    "where": "HTML line 11 (opening box)"
+   },
+   {
+    "i": 34,
+    "claim": "C-56",
+    "term": "made no reliability ruling",
+    "class": "STALE",
+    "where": "HTML line 11 (opening box)"
+   },
+   {
+    "i": 35,
+    "claim": "C-62",
+    "term": "fourteen laboratory reports",
+    "class": "STALE",
+    "where": "HTML line 130 (§07 lead paragraph)"
+   },
+   {
+    "i": 36,
+    "claim": "C-62",
+    "term": "FOURTEEN",
+    "class": "STALE",
+    "where": "HTML line 129 (§07 heading)"
+   },
+   {
+    "i": 37,
+    "claim": "C-62",
+    "term": "FOURTEEN",
+    "class": "STALE",
+    "where": "HTML line 130 (§07 lead paragraph)"
+   },
+   {
+    "i": 38,
+    "claim": "C-62",
+    "term": "FOURTEEN",
+    "class": "STALE",
+    "where": "HTML line 160 (foot, \"What remains unobtained\")"
+   },
+   {
+    "i": 39,
+    "claim": "C-62",
+    "term": "of the fourteen",
+    "class": "STALE",
+    "where": "HTML line 160 (foot, \"What remains unobtained\")"
+   },
+   {
+    "i": 40,
+    "claim": "C-62",
+    "term": "fourteen reports",
+    "class": "STALE",
+    "where": "HTML line 129 (§07 heading)"
+   },
+   {
+    "i": 41,
+    "claim": "C-62",
+    "term": "fourteen reports",
+    "class": "STALE",
+    "where": "HTML line 160 (foot, \"What remains unobtained\")"
+   },
+   {
+    "i": 42,
+    "claim": "C-66",
+    "term": "four months",
+    "class": "STALE",
+    "where": "HTML line 153 (§08 \"Much of it can never be re-tested\")"
+   },
+   {
+    "i": 43,
+    "claim": "C-66",
+    "term": "four months",
+    "class": "AMBIGUOUS",
+    "where": "HTML line 160 (foot, \"What remains unobtained\")"
+   },
+   {
+    "i": 44,
+    "claim": "C-69",
+    "term": "examiner testified",
+    "class": "UNRELATED",
+    "where": "HTML line 106 (§06 \"This is a gap in the record\")"
+   },
+   {
+    "i": 45,
+    "claim": "C-72",
+    "term": "No laboratory report has been read",
+    "class": "STALE",
+    "where": "HTML line 12 (opening box)"
+   },
+   {
+    "i": 46,
+    "claim": "C-72",
+    "term": "No laboratory report has been read",
+    "class": "RECORD",
+    "where": "HTML line 158 (foot, \"The central limitation, corrected\")"
+   },
+   {
+    "i": 47,
+    "claim": "C-72",
+    "term": "no laboratory report has been read directly",
+    "class": "STALE",
+    "where": "HTML line 12 (opening box)"
+   },
+   {
+    "i": 48,
+    "claim": "C-72",
+    "term": "No laboratory report has been read directly",
+    "class": "STALE",
+    "where": "HTML line 12 (opening box)"
+   },
+   {
+    "i": 49,
+    "claim": "C-72",
+    "term": "laboratory report has been read",
+    "class": "STALE",
+    "where": "HTML line 12 (opening box)"
+   },
+   {
+    "i": 50,
+    "claim": "C-72",
+    "term": "laboratory report has been read",
+    "class": "RECORD",
+    "where": "HTML line 158 (foot, \"The central limitation, corrected\")"
+   },
+   {
+    "i": 51,
+    "claim": "C-72",
+    "term": "Not one.",
+    "class": "RECORD",
+    "where": "HTML line 158 (foot, \"The central limitation, corrected\")"
+   },
+   {
+    "i": 52,
+    "claim": "C-72",
+    "term": "not one",
+    "class": "UNRELATED",
+    "where": "HTML line 149 (§08 \"Not one result is a source attribution\")"
+   },
+   {
+    "i": 53,
+    "claim": "C-72",
+    "term": "not one",
+    "class": "RECORD",
+    "where": "HTML line 158 (foot, \"The central limitation, corrected\")"
+   },
+   {
+    "i": 54,
+    "claim": "C-72",
+    "term": "has been read directly",
+    "class": "STALE",
+    "where": "HTML line 12 (opening box)"
+   },
+   {
+    "i": 55,
+    "claim": "C-72",
+    "term": "has been read directly",
+    "class": "CONSISTENT",
+    "where": "HTML line 136 (§07 table, Firearms/toolmark row)"
+   },
+   {
+    "i": 56,
+    "claim": "C-72",
+    "term": "has been read directly",
+    "class": "RECORD",
+    "where": "HTML line 158 (foot, \"The central limitation, corrected\")"
+   },
+   {
+    "i": 57,
+    "claim": "C-72",
+    "term": "every figure reaches this summary",
+    "class": "STALE",
+    "where": "HTML line 12 (opening box)"
+   }
+  ]
+ },
+ "notes": "DOCX: the three 2026-09-01 corrections are all in place (paras 6, 8, 238) and the §9 record paragraphs (237, 238) correctly quote the withdrawn forms as history. What was NOT swept on 2026-09-01 and still stands in the docx: the flat 'no reliability ruling' (C-56, para 5), the flat 'neither side had reason to raise' (C-30, para 168), the 'census of every forensic report' claim (C-14, paras 172 and 197), the 'fourteen reports / thirteen of the fourteen' count (C-62, paras 196, 197, 240), and 'four months before the hearing' (C-66, para 233). Five claims, thirteen hits, eight sentences. | ARTIFACT LIVE: never corrected — all three known 2026-09-01 defects stand (lines 14, 12, 158), plus every docx stale item above at its artifact counterpart (lines 11, 107, 111/130, 129/130/160, 153), plus the foot 'Source' single-source statement (C-20, line 157; masthead line 7 has the same omission and is not on the hit list). The live page is internally inconsistent: the opening box (line 12) says no report has been read; the foot (line 158) and §07 (line 136) say one has. | RESIDUAL SCOPE: (1) the HTML header notes that viewers of the shared link see a PINNED EARLIER version which cannot be read from here — this review covers the LIVE version only; the pinned version is unswept and may differ. (2) The C-02 asymmetry (one person's results without the other's) does not arise in either deliverable: the docx discloses both together, the live artifact discloses neither. (3) 'No inference about any of them may be drawn from this document/page' is retained in the docx para 8 after the full disclosure; classed CONSISTENT as a guard, not as the withdrawn understatement. (4) C-47's second FBI identifier and C-45's letter caveat are carried in neither deliverable; classed AMBIGUOUS (absence of an enrichment, not assertion of a withdrawn form). (5) Both deliverables state the case posture as of 30 August 2026 (not bound over); date-stamped, and outside this sweep's claim set, but the repository's most recent commits refer to a post-bindover posture — the date-stamp protects the sentence, not its currency. (6) Hits classed UNRELATED are same-string matches on different propositions ('never read' about in-court reading, 'no witness was asked' about print examinations, 'Elimination samples' about investigator samples, 'not one' in 'Not one result is a source attribution', 'examiner testified' about print examiners)."
+}
