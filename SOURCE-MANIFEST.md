@@ -3,12 +3,12 @@
 > 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./scripts/manifest.py`.**
 > Hand-maintained indexes in this project have drifted every time they were kept by hand.
 
-**Artifacts:** 319  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 64
+**Artifacts:** 357  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 97
 
 **By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*
 
 - `platform-import` — 5
-- `primary-source` — 161
+- `primary-source` — 199
 - `process-evidence` — 56
 - `source-capture` — 81
 - `transcript` — 16
@@ -149,6 +149,44 @@
 | `2026-07-06_gov-uscourts-utd-165286-1-4-1_dc28417731.txt` | primary-source | txt | 2026-08-16 | U+FFFE-SPLIT | 6 |
 | `2026-07-08_supplemental-notice-access-to-evidence_dc28443912` | primary-source | pdf | 2026-08-14 | text-native | 5 |
 | `2026-07-08_supplemental-notice-access-to-evidence_dc28443912` | primary-source | txt | 2026-08-14 | text-native | 5 |
+| `2026-07-28_states-memorandum-prelim-bindover_scribd-10675871` | primary-source | txt | 2026-09-16 | text-native | 1 |
+| `SHA256SUMS.txt` | primary-source | txt | 2026-09-16 | text-native | 2 |
+| `extracted-text.txt` | primary-source | txt | 2026-09-16 | text-native | 5 |
+| `image-01-e3e9a6019f.jpg` | primary-source | jpg | 2026-09-16 | IMAGE-ONLY | 0 |
+| `image-06-783f513cdb.jpg` | primary-source | jpg | 2026-09-16 | IMAGE-ONLY | 0 |
+| `image-07-7fbe722cf2.jpg` | primary-source | jpg | 2026-09-16 | IMAGE-ONLY | 0 |
+| `image-14-bc402fbdfa.jpg` | primary-source | jpg | 2026-09-16 | IMAGE-ONLY | 0 |
+| `image-28-6e25a56e7f.jpg` | primary-source | jpg | 2026-09-16 | IMAGE-ONLY | 0 |
+| `page-01-inline.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-02-inline.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-03-inline.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-04-891e0c4474.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-05-546d503e28.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-06-783f513cdb.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-07-7fbe722cf2.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-08-a266af0c6c.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-09-64342cefb4.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-10-636d75419e.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-11-1657ba8dfc.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-12-b1a9c6496b.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-13-093b61d7b0.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-14-bc402fbdfa.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-15-2fe26e26ee.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-16-da5ba1b113.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-17-7300634f3b.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-18-25a138382e.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-19-a3aabad5d2.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-20-e2f30d124c.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-21-d6193d9e70.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-22-d5c31e34de.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-23-b432a307a9.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-24-76b209a2f2.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-25-959593f77e.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-26-d9e938b290.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-27-5f33ef445c.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `page-28-6e25a56e7f.html` | primary-source | html | 2026-09-16 | raw-capture | 0 |
+| `scribd-document-page_2026-09-16.html` | primary-source | html | 2026-09-16 | raw-capture | 1 |
+| `scribd-embed-content_2026-09-16.html` | primary-source | html | 2026-09-16 | raw-capture | 1 |
 | `2026-08-01_Q58-completion-60-verdicts.json` | primary-source | json | 2026-08-01 | structured-data | 2 |
 | `2026-08-01_q08-reviews-and-register-proposal.json` | primary-source | json | 2026-08-01 | structured-data | 0 |
 | `2026-08-01_round2-Q58-raw-output.json` | primary-source | json | 2026-08-01 | structured-data | 2 |
@@ -289,7 +327,7 @@
 | `xchange.html` | source-capture | html | 2026-09-02 | raw-capture | 46 |
 | `yt.html` | source-capture | html | 2026-09-02 | raw-capture | 2 |
 | `workflow-results_fetched-and-verdicts.json` | source-capture | json | 2026-09-02 | structured-data | 1 |
-| `SHA256SUMS.txt` | source-capture | txt | 2026-09-16 | text-native | 1 |
+| `SHA256SUMS.txt` | source-capture | txt | 2026-09-16 | text-native | 2 |
 | `sources.json` | source-capture | json | 2026-09-16 | structured-data | 55 |
 | `day1_COURTTV_041240.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
 | `day1_KSL_041410.txt` | process-evidence | txt | 2026-09-16 | text-native | 0 |
@@ -363,6 +401,39 @@
 
 ⚠ **Not dead weight — this is where the library's false nulls came from.** An artifact nothing cites is one nobody knows is held.
 
+- `image-01-e3e9a6019f.jpg` — jpg, banked 2026-09-16, IMAGE-ONLY
+- `image-06-783f513cdb.jpg` — jpg, banked 2026-09-16, IMAGE-ONLY
+- `image-07-7fbe722cf2.jpg` — jpg, banked 2026-09-16, IMAGE-ONLY
+- `image-14-bc402fbdfa.jpg` — jpg, banked 2026-09-16, IMAGE-ONLY
+- `image-28-6e25a56e7f.jpg` — jpg, banked 2026-09-16, IMAGE-ONLY
+- `page-01-inline.html` — html, banked 2026-09-16, raw-capture
+- `page-02-inline.html` — html, banked 2026-09-16, raw-capture
+- `page-03-inline.html` — html, banked 2026-09-16, raw-capture
+- `page-04-891e0c4474.html` — html, banked 2026-09-16, raw-capture
+- `page-05-546d503e28.html` — html, banked 2026-09-16, raw-capture
+- `page-06-783f513cdb.html` — html, banked 2026-09-16, raw-capture
+- `page-07-7fbe722cf2.html` — html, banked 2026-09-16, raw-capture
+- `page-08-a266af0c6c.html` — html, banked 2026-09-16, raw-capture
+- `page-09-64342cefb4.html` — html, banked 2026-09-16, raw-capture
+- `page-10-636d75419e.html` — html, banked 2026-09-16, raw-capture
+- `page-11-1657ba8dfc.html` — html, banked 2026-09-16, raw-capture
+- `page-12-b1a9c6496b.html` — html, banked 2026-09-16, raw-capture
+- `page-13-093b61d7b0.html` — html, banked 2026-09-16, raw-capture
+- `page-14-bc402fbdfa.html` — html, banked 2026-09-16, raw-capture
+- `page-15-2fe26e26ee.html` — html, banked 2026-09-16, raw-capture
+- `page-16-da5ba1b113.html` — html, banked 2026-09-16, raw-capture
+- `page-17-7300634f3b.html` — html, banked 2026-09-16, raw-capture
+- `page-18-25a138382e.html` — html, banked 2026-09-16, raw-capture
+- `page-19-a3aabad5d2.html` — html, banked 2026-09-16, raw-capture
+- `page-20-e2f30d124c.html` — html, banked 2026-09-16, raw-capture
+- `page-21-d6193d9e70.html` — html, banked 2026-09-16, raw-capture
+- `page-22-d5c31e34de.html` — html, banked 2026-09-16, raw-capture
+- `page-23-b432a307a9.html` — html, banked 2026-09-16, raw-capture
+- `page-24-76b209a2f2.html` — html, banked 2026-09-16, raw-capture
+- `page-25-959593f77e.html` — html, banked 2026-09-16, raw-capture
+- `page-26-d9e938b290.html` — html, banked 2026-09-16, raw-capture
+- `page-27-5f33ef445c.html` — html, banked 2026-09-16, raw-capture
+- `page-28-6e25a56e7f.html` — html, banked 2026-09-16, raw-capture
 - `2026-08-01_q08-reviews-and-register-proposal.json` — json, banked 2026-08-01, structured-data
 - `2026-08-16_rev_fbi-captures-kirk-shooter_raw.html` — html, banked 2026-08-16, raw-capture
 - `2026-08-16_rev_fbi-press-conference-on-kirk-shooting_raw.html` — html, banked 2026-08-16, raw-capture

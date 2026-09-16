@@ -63,6 +63,7 @@ Rev transcript time spans for comparison, from the banked `dayN.txt` (first and 
 2. A gapless-ness check: compare each Court TV file's duration against the stream's own timeline (the `release_timestamp` and the last Rev stamp bracket it; a fragment-level check was not run).
 3. If disk allows later: the video at the same ids (the visual record of exhibits displayed on the media monitor; `CR-E06` §§ on Exhibits 16 and 24).
 4. `SOURCE-MANIFEST.md` regenerated with this folder registered (done in the same session).
+5. **The court's own audio record, if one exists for these dates** — Utah district courts sell it at $15.00 per half-day (UCJA Rule 4-202.08(3)(C)) on the Fourth District's *Request for Copy of Audio Recording* form, e-mailed to `recordingrequest4th@utcourts.gov` (read 2026-09-16, same session). That copy would be the court's record rather than a broadcaster's re-stream; queued as **Q-186** (human gate: money). Whether the hearing was electronically recorded in addition to being taken by a certified reporter is not known.
 
 ## §6 · Provenance
 
