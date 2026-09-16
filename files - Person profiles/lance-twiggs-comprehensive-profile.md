@@ -8,6 +8,8 @@
 
 🚨 **CASE POSTURE, as of 2026-08-17 — re-verified on that date; corrected in the body 2026-08-16 (Q-140), not merely noted.** **The preliminary hearing was NOT concluded on 2026-07-10.** July 6–10 were five days **of evidence**; the parties then brief (State 07-28 · defence 08-11 · State's reply 08-18); and **2026-09-01 is the hearing's last day**, given over to argument. ⚠️ **Tyler Robinson has NOT been bound over for trial, and that is because the hearing is unfinished — not because anything anomalous has occurred.** The presumption of innocence applies throughout. 🚨 **Lance Twiggs is accused of nothing.**
 
+> 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
+
 ---
 
 ## Methodological Note on Sourcing
@@ -470,3 +472,6 @@ Full working banked verbatim at [`2026-08-16_Q140-twiggs-analytic-pass_RAW.md`](
 ---
 
 *Prepared for ongoing research into State of Utah v. Tyler James Robinson. All charges against Robinson are allegations; he is presumed innocent unless and until proven guilty. Lance Twiggs is charged with no crime.*
+
+**2026-09-16 — Posture line updated to the owner's ruling.** Beneath the case-posture banner/statement this file carried, a dated note now states: *Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full.* The earlier sentence is retained as written (true as of its date). No finding, grade or citation changed. *(Entry H.)*
+

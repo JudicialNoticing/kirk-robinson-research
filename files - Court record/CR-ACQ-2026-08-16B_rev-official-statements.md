@@ -6,6 +6,8 @@
 
 🚨 **CASE POSTURE: Tyler James Robinson has NOT been bound over for trial. The presumption of innocence applies throughout.** ⚠️ **Rev's page titles assert conclusions this library does not adopt** — *"shooter"*, *"captures"*. **They are a transcription vendor's SEO titles, Tier 4 metadata, and are reproduced below only as the identifiers needed to re-find the pages.**
 
+> 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
+
 ---
 
 ## §0 · Sourcing framework (project standard)
@@ -71,3 +73,4 @@
 | Version | Date | Change |
 |---|---|---|
 | v1.0 | 2026-08-16 | Created. **Q-120 executed: the Rev null was scoped to the defendant's surname, and re-enumerating the same sitemap on nine other terms surfaced ten case-relevant pages, nine unreachable by the old filter.** Four acquired — **two Utah/FBI press conferences, an arrest announcement with the Governor and the FBI Director, and 36 turns of the elected County Attorney.** ⚠️ **The trap was already documented in this library pointing the other way** — *"match on the case, not on the surname"*, written for false positives and never applied to false negatives. ⚠️ **An extraction false null was committed and corrected inside this acquisition** (Rev's `Speaker 1 ( 00:00 ):` has spaces inside the parentheses). 🚨 **Item 4 makes the open register entry D-68 testable against a primary artifact for the first time — flagged, deliberately not resolved here.** |
+| 1.1 | 2026-09-16 | **Posture line updated to the owner's ruling of 2026-09-16.** The case-posture banner/statement now carries, beneath the sentence it had: *Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full.* The earlier sentence is retained as written (true as of its date). No finding, grade, label or citation changed. |

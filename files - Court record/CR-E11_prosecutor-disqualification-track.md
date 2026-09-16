@@ -19,6 +19,8 @@
 
 🚨 **CASE POSTURE, as of 2026-08-16: Tyler James Robinson has NOT been bound over for trial. The presumption of innocence applies throughout.** Every allegation below — by either party — is **attributed, never adopted**. The State's death-penalty notice is an **election, not an adjudication**.
 
+> 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
+
 ---
 
 ## §0 · Sourcing framework (project standard)
@@ -250,6 +252,8 @@ It did not read Dkt. 332 or any hearing transcript; did not verify any Christens
 
 **Nothing in this file alters case posture. Tyler James Robinson has NOT been bound over for trial; the presumption of innocence applies throughout.**
 
+> 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
+
 ---
 
 ## Revision log
@@ -259,3 +263,4 @@ It did not read Dkt. 332 or any hearing transcript; did not verify any Christens
 | v1.0 | 2026-08-16 | Created from the 2026-08-16 six-reader pass over the newly banked DocumentCloud material (CR-ACQ-2026-08-16). Establishes the disqualification track, entirely new to this library. **F-42 corrects two errors in this project's own first description of it.** F-43 → F-61 opened; D-64 → D-68 opened; Q-86 → Q-90 raised. §6 records the evidentiary payloads filed for other purposes — the State's **sworn Losee-roof geometry including an 18-ft field-of-view window**, five **SBI eyewitness statements**, and a **timestamped contemporaneous message record** capturing the false early-detention report at ~12:33 PM. §7 records three living-persons decisions taken by the owner on 2026-08-16, all conservative. `[PROVISIONAL]` — no verification cycle has run. |
 | v1.1 | 2026-08-16 | ⚠️ **§0.1 PROVISIONAL DEPENDENCIES added (LOOP §2 discipline)** — four claim-classes quarantined pending Q-83/Q-91/Q-99. ✅ **§6.1's Losee geometry and §6.2's SBI statements are FIRST-HAND and depend on no other provisional file, so Q-89 may proceed on them at the recording layer.** |
 | v1.2 | 2026-08-16 | 🛠 **Q-89 assessment fed back into §6.1.** **NARROWED: there is NO second sworn declarant** — v1.0's *"a second officer then took the rooftop position to confirm"* can be read as corroboration by a second affiant; the second officer **swore nothing**, and this is **single-declarant evidence**. 🚨 **ADDED, and it must travel with every figure: the re-enactment describes 2025-12-18, not 2025-09-10** — the reproduced photograph shows **bare deciduous trees and an empty courtyard**, while the 18-ft window's far boundary is *"a lamp post next to a tree"*. **Its transposition to the event date is a connection, not an anchor.** ⚠️ **ADDED: the four figures are NOT internally checkable** (85−75=10 against a separately measured 8 is a coincidence of different paths on different tiers, **not** a validity check), and **the affidavit never measures the right-hand boundary near Kirk**, so it nowhere establishes the width of the visible window. |
+| 1.3 | 2026-09-16 | **Posture line updated to the owner's ruling of 2026-09-16.** The case-posture banner/statement now carries, beneath the sentence it had: *Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full.* The earlier sentence is retained as written (true as of its date). No finding, grade, label or citation changed. |

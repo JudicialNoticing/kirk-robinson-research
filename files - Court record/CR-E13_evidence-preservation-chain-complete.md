@@ -19,6 +19,8 @@
 
 🚨 **CASE POSTURE: Tyler James Robinson has NOT been bound over for trial as of 2026-08-16. Presumption of innocence applies throughout.**
 
+> 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
+
 ---
 
 ## §0 · Sourcing framework (project standard)
@@ -200,6 +202,8 @@ This file did not read docket #107, the entered discovery protective order, the 
 
 **Case posture untouched: as of 2026-08-16 Tyler James Robinson has NOT been bound over; the presumption of innocence applies throughout.**
 
+> 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
+
 ---
 
 ## Revision log
@@ -209,3 +213,4 @@ This file did not read docket #107, the entered discovery protective order, the 
 | v1.0 | 2026-08-16 | Created. **Q-72 executed as far as the held record allows.** F-70 → F-79 opened; **D-69** opened; **Q-94, Q-95** raised. Establishes the operative order's terms, including a **restrictive definition of "potentially destructive" turning on the word *"only"*** (F-70) and the order's **silence on the consequence of a timely objection** (F-71). **F-27 is STRENGTHENED — an earlier notice order (#107, 2025-10-20) is newly established and is still ~5½ weeks after the consumption — and COMPLICATED: the order names no federal agency, defines its trigger restrictively, and is a stipulation rather than a ruling.** ⚠️ **Q-78 remains blocked.** `[PROVISIONAL]`. |
 | v1.1 | 2026-08-16 | ✅ **Q-105 RE-RUN — THE LOAD-BEARING NULL HOLDS.** **§8 N-1** — no federal agency named in the eight preservation-chain documents — is **CONFIRMED by a stronger method than the one recorded**: a 23-pattern stem battery (adding `federa`, `quantico`, `beltsville`, `crime lab`, `SBI`, `DPS`, `laborator`, `NIBIN`, `CODIS`, `JTTF` and more) **plus a pattern-independent ENTITY CENSUS** enumerating every organisation-shaped string. **No law enforcement agency of any kind — federal, state or local — is named.** ⚠️ **Its honest scope caveat is preserved unchanged: the search space would not necessarily contain such a reference, so this is absence of evidence with a narrow scope, not evidence of absence. The §7 headline qualification stands.** 🛠 **Corrections: §3's "or described" limb NARROWED** — no pattern battery can test it, and it contradicted §7's own correct formulation, since ¶2's class *is* a description that may encompass a federal agency. **N-6 REFUTED and corrected** (`dkt74` carries the form's *"Approved March 13, 2025"* twice, and the null was self-contradicting on its face). **D-69's parenthetical corrected** — it carried the very absolute §0 corrects. **F-79 narrowed** (three DNA passages from two sources, not one) **and its cross-reference fixed** (N-2, not N-1). ✅ **N-2, N-3, N-4, N-5, N-7 and D-69's `161` null all CONFIRMED**, several on batteries widened well beyond the originals. |
 | v1.2 | 2026-08-16 | ⚠️ **§0.1 PROVISIONAL DEPENDENCIES added (LOOP §2 discipline).** ✅ **Records that this file already applied the rule correctly once** — §7 refuses to unblock Q-78 because F-27 sits in provisional CR-E09 — and ✅ **that the load-bearing null (§8 N-1) depends on no other file**, having been re-verified directly against the eight primary documents. |
+| 1.3 | 2026-09-16 | **Posture line updated to the owner's ruling of 2026-09-16.** The case-posture banner/statement now carries, beneath the sentence it had: *Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full.* The earlier sentence is retained as written (true as of its date). No finding, grade, label or citation changed. |

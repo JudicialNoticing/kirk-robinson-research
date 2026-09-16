@@ -16,6 +16,8 @@ This timeline reconstructs the **official narrative** — the prosecution's acco
 
 **Important status note (posture re-verified 2026-08-17):** These are allegations, not adjudicated facts. Robinson, 23, has not entered a plea and **has NOT been bound over**. 🚨 **CORRECTED 2026-08-17 — this note previously said the preliminary hearing "concluded July 10, 2026." IT DID NOT.** July 6–10 were **five days OF EVIDENCE**; the hearing was **continued**, and **2026-09-01 is its LAST DAY — argument only, on a closed evidentiary record.** Established Tier 1 against the Day 5 transcript on 2026-08-16: defence counsel refers to *"the last day of the preliminary hearing, which will be September 1st"*; the court speaks of motions *"ahead of the September 1st hearing"*; the State addresses *"the continued taking of evidence today."* ⚠️ **Why this matters and is not pedantry: "concluded" makes the absence of a bindover read as an anomaly or a delay. It is neither — the hearing is simply not finished.** The probable-cause determination is **pending** (see Case Status) [[25]](https://www.ksl.com/article/51596294/tyler-robinson-preliminary-hearing-expected-to-wrap-up-friday) [[26]](https://www.fox35orlando.com/news/tyler-robinson-hearing-july-10). He is presumed innocent. Contested points, acknowledged evidentiary gaps, and source discrepancies are listed in the final sections.
 
+> 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
+
 ---
 
 ## The Weapon
@@ -202,3 +204,6 @@ Minor conflicts across sources, preserved rather than resolved:
   - ⚠️ **NOT re-verified in this pass:** everything else in this file. The pass was aimed at the Zinn identification and at posture, and touched nothing else.
 - **August 20, 2026 (Q-172, the F-117 drones rescope):**
   - 🛠 **Rescoped the "no drones" clause to the witness.** The Thin-security bullet stated "no drones" as a scene-wide fact; the sworn answer is *"Not that I know of"* (`day1.txt` 02:45:32–39), a knowledge-scoped hedge, plus UVU-scoped "no drone capability" (02:54:10–24). Same defect class SEC-E01's F-117 measured in CR-E05, corrected there the same day (CR-E05 v1.4). The meeting clause here was already correctly witness-scoped and is unchanged. **Nothing else in this file was re-verified in this pass.**
+
+- **2026-09-16 — Posture line updated to the owner's ruling.** Beneath the case-posture banner/statement this file carried, a dated note now states: *Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full.* The earlier sentence is retained as written (true as of its date). No finding, grade or citation changed.
+

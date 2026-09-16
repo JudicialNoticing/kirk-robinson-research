@@ -135,6 +135,8 @@ motion is not a ruling and **no outcome is inferred from it here** — but a pen
 condition under which a private copy stays private.
 
 ⚖️ **Presumption of innocence.** Mr. Robinson has not been bound over. This record notes only that a proceeding
+
+> 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
 occurred and was streamed. **Nothing about the hearing's content, argument, or outcome is asserted anywhere in
 this file.**
 
@@ -158,3 +160,6 @@ this file.**
 Captured and recorded 2026-09-01 by a Claude Code session working from the Obsidian vault. **§2c and the §5 updates added 2026-09-02 by the next vault session**, from the recorders' logs, `ffprobe`, `shasum`, YouTube's watch-page JSON and yt-dlp's metadata — all read directly. Court notice re-read
 the same day from the page body (HTTP 200, 42,873 bytes), not from a search summariser — the discipline this
 library adopted after a summariser twice rendered the hearing date as 2026-08-28.
+
+**2026-09-16 — Posture line updated to the owner's ruling.** Beneath the case-posture banner/statement this file carried, a dated note now states: *Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full.* The earlier sentence is retained as written (true as of its date). No finding, grade or citation changed.
+
