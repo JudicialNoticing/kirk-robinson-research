@@ -27,6 +27,8 @@ The library's tiers govern every file in `files - <Topic>/`. The framework's tie
 
 **Not to be done with these files:** cite them for any fact; treat the Discussion Card's three "levels" as the library's four tiers; promote either document into `docs/` proper without the Q-185 decision.
 
+⚠ **Notation collision.** The framework's Table C ("Discrepancy Register") numbers its rows `D-01`, `D-02` … — the same form as the library's cross-file D-register (`D-1` … `D-76`). They are unrelated. `scripts/queue-check.sh` excludes `docs/` from its register scan for this reason; anyone quoting a framework `D-nn` inside a library file must say which register it belongs to.
+
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-09-15 | Imported from the owner's Grok workspace (owner instruction, same day); byte-identical to the downloads; T4; tier-system difference recorded. |

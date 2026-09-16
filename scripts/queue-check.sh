@@ -41,8 +41,10 @@ if [ -n "$noart" ]; then bad "ready items with no decisive artifact: $(echo "$no
 
 say ""
 say "== Register integrity =="
-top=$(grep -rhoE 'D-[0-9]+' --include='*.md' . | sed 's/D-//' | sort -n | tail -1)
-gaps=$(grep -rhoE 'D-[0-9]+' --include='*.md' . | sed 's/D-//' | sort -n | uniq \
+# docs/ and archive/ are not library prose (the imported discussion framework uses its own D-01 notation)
+DX=(--exclude-dir=docs --exclude-dir=archive)
+top=$(grep -rhoE 'D-[0-9]+' --include='*.md' "${DX[@]}" . | sed 's/D-//' | sort -n | tail -1)
+gaps=$(grep -rhoE 'D-[0-9]+' --include='*.md' "${DX[@]}" . | sed 's/D-//' | sort -n | uniq \
        | awk 'NR>1 && $1!=prev+1 {printf "D-%s->D-%s ", prev, $1} {prev=$1}')
 if [ -n "$gaps" ]; then bad "register gaps: $gaps"; else ok "no register gaps (highest string D-$top)"; fi
 
@@ -54,7 +56,7 @@ declared=$(grep -ohE 'next (number )?is \*{0,2}D-[0-9]+' QUEUE.md 2>/dev/null | 
 say ""
 say "== Assignment sites (informational) =="
 for n in $(seq $((top-3)) "$top"); do
-  c=$(grep -rl "D-$n" --include='*.md' . 2>/dev/null | wc -l | tr -d ' ')
+  c=$(grep -rl "D-$n" --include='*.md' "${DX[@]}" . 2>/dev/null | wc -l | tr -d ' ')
   say "  D-$n appears in $c file(s)"
 done
 
