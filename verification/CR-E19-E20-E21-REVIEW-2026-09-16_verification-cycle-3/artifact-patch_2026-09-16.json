@@ -93,7 +93,7 @@
    ],
    "where": "HTML line 129 (§07 heading), line 130 (§07 lead), line 160 (foot 'What remains unobtained')",
    "old": "<strong>What remains unobtained</strong> is <strong>thirteen of the fourteen reports</strong> catalogued in §07, including every DNA report from both laboratories.",
-   "new": "<strong>What remains unobtained</strong> is <strong>fourteen of the fifteen items</strong> catalogued in §07, including every DNA report from both laboratories."
+   "new": "<strong>What remains unobtained</strong> is <strong>every item catalogued in §07 except the one report read</strong>, including every DNA report from both laboratories."
   },
   {
    "claims": [
