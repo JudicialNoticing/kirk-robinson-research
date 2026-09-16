@@ -68,4 +68,5 @@
 - **O2** The pending routine prompt `ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md` is unapplied (owner-gated).
 - **O3** `manifest.py --check` (T4). Sentence-integrity invariant (R2).
 - **O4** Two dangling links in `CR-WATCH-log.md` (S3).
+- **O6** Vault pushes from a Claude Code shell hang: the shell inherits `GIT_ASKPASS` from the Antigravity IDE (it waits on the IDE's socket), and the keychain holds a token only for the JudicialNoticing account while the vault's remote URL forces `personal-account`. Working recipe, no config change: `env -u GIT_ASKPASS -u SSH_ASKPASS GIT_TERMINAL_PROMPT=0 git -c 'credential.helper=!gh auth git-credential' push origin main`. Permanent fix, owner's call: `gh auth setup-git`. (The research repo pushes normally.)
 - **O5** Two local branches fully merged into `main` (`forensic-exhibit-map-and-print-null-2026-08-30`, `limits-resolution-2026-08-30`) can be deleted; not done, owner's call.
