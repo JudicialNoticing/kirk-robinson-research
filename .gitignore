@@ -5,3 +5,7 @@
 __pycache__/
 *.pyc
 .claude/RESUME.md
+
+# site build
+.site-build/
+.venv-site/

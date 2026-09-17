@@ -20,6 +20,17 @@ Four superseded drafts of the cloud routine's prompt. Each later draft names the
 | `COMPLETE-DROP-FILE.md` | `VerificationAndFactCheckProtocol copy/` | the byte-identical copy inside `docs/research-verification-kit/`, which the kit's `MANIFEST.md` names as the fallback | Provenance of the 2026-09-14 15:41 drop (VERIFICATION-PROTOCOL.md §0) |
 | `research-verification-kit.zip` | `VerificationAndFactCheckProtocol copy/` | the extracted, hash-verified kit in `docs/research-verification-kit/` | The original delivery artifact |
 
+## deliverables-superseded/
+
+The two renders of `TJR-P01` built from **v2.5** on 2026-09-15 and superseded on **2026-09-17** by renders from **v2.7** (Q-188). Both are here because they state the case posture **as it stood before the owner's 2026-09-16 ruling** — neither carries "Bound over on all seven counts on 2026-09-01 … presumption of innocence applies in full" (0 occurrences in each, verified 2026-09-17). They are kept, not deleted, because `AUDIT.md` §4.3/§7 and `INDEX.md` cite them by name as the 2026-09-14/15 renders.
+
+| File | Was at | Superseded by | Why keep it |
+|---|---|---|---|
+| `Tyler-Robinson_Comprehensive-Profile_2026-09-14.html` | `deliverables/` | `deliverables/Tyler-Robinson_Comprehensive-Profile_2026-09-17.html` (from v2.7) | Named in `AUDIT.md` §§4.3, 7 and in the 2026-09-15 reorganisation record as a then-current deliverable |
+| `Tyler-Robinson_Comprehensive-Profile_2026-09-14.docx` | `deliverables/` | `deliverables/Tyler-Robinson_Comprehensive-Profile_2026-09-17.docx` (from v2.7) | Same; and the docx's staleness was **not** named by Q-188 — the queue item caught one carrier of the defect and missed its sibling |
+
+⚠ **The filename date was a claim about the render, and it was renamed rather than overwritten for that reason:** a v2.7 render dated `2026-09-14` would be false on its face. Neither file was republished anywhere outside the repository.
+
 ## What is deliberately NOT here
 
 - The two `DO-NOT-PUBLISH` drafts, the `_RAW.md` reports and the one-off scripts inside `files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/` stay where they are: 89 files cite the DNA draft by that path (AUDIT.md §4.3, owner decision Q8).

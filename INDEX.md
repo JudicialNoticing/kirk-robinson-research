@@ -208,10 +208,24 @@ See `README.md` §Tools for usage. `manifest.py` (holdings index), `artifact_sea
 
 | File | What it is | Use when |
 |---|---|---|
-| `Tyler-Robinson_Comprehensive-Profile_2026-09-14.html` / `.docx` | Renders of TJR-P01 (rebuilt from v2.5 on 2026-09-15) | Sharing the profile |
+| `Tyler-Robinson_Comprehensive-Profile_2026-09-17.html` / `.docx` | Renders of TJR-P01, **rebuilt from v2.7 on 2026-09-17 (Q-188)** — the first pair that carries the owner's 2026-09-16 posture ruling. The 09-14 pair (from v2.5) is at `archive/deliverables-superseded/` | Sharing the profile |
 | `Forensic-Sampling-Summary_2026-08-30.docx` | DNA and print sample counts by item, from `CR-E21`; no markdown source | Sharing the forensic census |
 | `Epistemic-Framework-and-Analytical-Method_2026-09-15.html` · `Discussion-Card-Kirk-Robinson-Case_2026-09-15.pdf` | Renders of `docs/discussion-framework/` as downloaded from the Grok workspace | Sharing the discussion framework |
 
+## ops/site/ — the public-site build (Phase 1, not deployed)
+
+Added 2026-09-17. **Nothing here deploys anything by existing**; a site appears only when the repository is connected to a host, which is an owner gate (`LOOP.md` §3).
+
+| File | What it is | Use when |
+|---|---|---|
+| `ops/site/site.yml` | **The publish allow-list**, and the only thing that decides what a site contains. Each markdown file is `publish`, `hold` (owner decision pending) or `never` (named hard block, with a reason). Nothing publishes by being present on disk | Ruling on scope (Q-190); changing what the site carries |
+| `ops/site/BUILD-REPORT.md` | **Generated on every build, never hand-edited.** Every file in exactly one state, plus the counts, the trees excluded wholesale, and the unpublished files that published pages cite most | Auditing what a build would expose |
+| `ops/site/requirements.txt` | Build dependencies, used by `netlify.toml` and the local venv | — |
+| `scripts/build-site.py` | Stages an allow-listed copy into `.site-build/` (gitignored), injects each page's source path, version and status token, rewrites internal links and neutralises links to unpublished files, then runs mkdocs. **The `files - <Topic>/` namespace is never touched** | `./.venv-site/bin/python scripts/build-site.py --serve` |
+| `netlify.toml` | Build command and publish directory. Inert until someone connects the repo | Phase 3 |
+
+⚠ **The site is generated on every build and never hand-maintained** — so there is one source of truth and no separate derived copy to sweep. This is the direct answer to the defect Q-188 was: a derived deliverable that left the repository and was missed by three correction rounds.
+
 ## archive/
 
-Superseded routine-prompt drafts and the verification-kit drop duplicates. See `archive/README.md` for what is there and why.
+Superseded routine-prompt drafts, the verification-kit drop duplicates, and (since 2026-09-17) the v2.5 profile renders replaced under Q-188. See `archive/README.md` for what is there and why.

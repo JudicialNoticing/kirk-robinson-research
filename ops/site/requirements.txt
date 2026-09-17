@@ -1,0 +1,5 @@
+# Build dependencies for the public site. Used by netlify.toml and by the local venv.
+# Pinned loosely; `scripts/build-site.py` is the thing that must keep working.
+mkdocs-material
+pymdown-extensions
+pyyaml

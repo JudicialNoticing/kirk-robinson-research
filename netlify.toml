@@ -1,0 +1,26 @@
+# Netlify build configuration.
+#
+# ⚠ THIS FILE DEPLOYS NOTHING BY EXISTING. It takes effect only once someone connects this
+# repository to a Netlify site — which is a Phase 2/3 owner gate (LOOP.md §3: outward-facing
+# actions are the owner's). Until then it is inert configuration.
+#
+# What the site contains is governed by ops/site/site.yml, NOT by what is on disk.
+# Search-engine indexing stays blocked while `noindex: true` is set there.
+#
+# Created 2026-09-17.
+
+[build]
+  command = "pip install -r ops/site/requirements.txt && python3 scripts/build-site.py"
+  publish = ".site-build/site"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+# The generated pages use root-relative URLs (/court-record/CR-E19.../), which are the
+# citation namespace once published. They require the site to be served from a domain root,
+# not from a subpath.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

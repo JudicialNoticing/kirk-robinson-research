@@ -1,0 +1,460 @@
+# ops/site/site.yml — THE PUBLISH ALLOW-LIST AND SITE CONFIG
+#
+# This file governs what the public site contains. `scripts/build-site.py` reads it and
+# stages ONLY what is marked `publish`. Nothing is included by being present on disk.
+#
+# state:
+#   publish  — staged and rendered
+#   hold     — NOT staged. Owner decision pending (Phase 2). Listed in the build report.
+#   never    — NOT staged, and not a flag to flip casually. Reason is recorded.
+#
+# ⚠ Changing a `never` to anything else is an owner action with a reason written here.
+# ⚠ `url` values are the CITATION NAMESPACE once published. Treat them as frozen.
+#
+# Created 2026-09-17 (Phase 1). NOT DEPLOYED — local build only.
+
+site:
+  name: "Kirk Robinson Research"
+  description: "An open-source research library separating what the primary record establishes from what is merely asserted."
+  # Set before any deploy. Until then the build emits noindex.
+  url: ""
+  noindex: true   # Phase 2 gate: flip only when the owner rules on publication.
+
+# Injected beneath the H1 of every page that names the case or the defendant.
+# Wording is the owner's ruling of 2026-09-16 (START-HERE §0AH item 4), verbatim.
+posture_banner: >-
+  Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1,
+  clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day;
+  presumption of innocence applies in full.
+
+# Hard exclusions applied before anything else, by path prefix.
+exclude_trees:
+  - path: "verification/"
+    reason: "verification-cycle banks: agent journals, frozen snapshots, process evidence"
+  - path: "archive/"
+    reason: "superseded material by definition"
+  - path: ".venv-site/"
+    reason: "build environment"
+  - path: ".site-build/"
+    reason: "build output"
+  - path: "__pycache__/"
+    reason: "build artifacts"
+  - path: "ops/"
+    reason: "operational text incl. deployed routine prompts"
+  - path: "scripts/"
+    reason: "tooling"
+  - path: "docs/research-verification-kit/"
+    reason: "third-party kit, carries its own MANIFEST and licence question"
+  - path: "docs/discussion-framework/"
+    reason: "T4 import; Q-185 undecided"
+
+# Every artifact bank (any subdirectory inside a topic folder) is excluded wholesale:
+# 103 banked raw news-article bodies live in these, and republishing full copies is a
+# different posture from archiving them. Cite by URL + hash instead.
+exclude_bank_subdirs: true
+
+# Named hard blocks. Each of these is ALSO inside an excluded tree; it is named here so it
+# appears in every build report as deliberately blocked, not merely as something the folder
+# rules happened to catch. An exclusion nobody can see is an exclusion nobody can audit.
+never_publish:
+  - src: "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_UNREVIEWED-DRAFT_losee_DO-NOT-PUBLISH.md"
+    reason: "unreviewed draft; v1.2 findings [PROVISIONAL]; the file's own status line says STILL DO NOT PUBLISH"
+  - src: "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-01_BLOCKED-DRAFT_q08-dna_DO-NOT-PUBLISH.md"
+    reason: "blocked draft, [PROVISIONAL]; Q-07 legal gate has never been cleared"
+
+pages:
+
+  - section: "The library"
+    items:
+      - src: "README.md"
+        url: "index"
+        title: "Home"
+        state: publish
+        reason: "the library's own front page"
+      - src: "CLAUDE.md"
+        url: "method/library-standard"
+        title: "What this library is"
+        state: publish
+        reason: "the governing standard: tiers, registers, the two-layer rule"
+      - src: "VERIFICATION-PROTOCOL.md"
+        url: "method/verification-protocol"
+        title: "Verification protocol"
+        state: publish
+        reason: "how a claim earns the right to be written"
+      - src: "docs/GLOSSARY.md"
+        url: "method/glossary"
+        title: "Glossary"
+        state: publish
+        reason: "tier, label, D-number, PROVISIONAL, U+FFFE"
+      - src: "docs/ARCHITECTURE.md"
+        url: "method/architecture"
+        title: "Architecture"
+        state: publish
+        reason: "how the pieces fit together"
+      - src: "docs/DECISIONS.md"
+        url: "method/decisions"
+        title: "Decisions"
+        state: publish
+        reason: "why things are the way they are"
+      - src: "INDEX.md"
+        url: "index-of-files"
+        title: "Index of files"
+        state: hold
+        reason: "internal navigation; duplicates the site nav"
+      - src: "QUEUE.md"
+        title: "Work queue"
+        state: hold
+        reason: "internal session state: open items, owner gates, hazards"
+      - src: "START-HERE.md"
+        title: "Session entry"
+        state: hold
+        reason: "internal session state"
+      - src: "AUDIT.md"
+        title: "2026-09-15 audit"
+        state: hold
+        reason: "internal reorganisation record"
+      - src: "SOURCE-MANIFEST.md"
+        url: "holdings"
+        title: "Holdings manifest"
+        state: hold
+        reason: "generated; lists every banked artifact incl. ones not published"
+      - src: "DOCKET-WATCH.md"
+        title: "Docket watch"
+        state: hold
+        reason: "operational calendar + routine internals"
+      - src: "LOOP.md"
+        title: "Execution protocol"
+        state: hold
+        reason: "internal working protocol"
+
+  - section: "Arrest chronology"
+    source_dir: "files - Arrest chronology"
+    items:
+      - src: "files - Arrest chronology/robinson-surrender-timeline.md"
+        url: "arrest-chronology/robinson-surrender-timeline"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Arrest chronology/tier1-acquisition-roadmap.md"
+        url: "arrest-chronology/tier1-acquisition-roadmap"
+        state: publish
+        reason: "Tier 1 acquisition roadmap"
+
+  - section: "Bride of Charlie series"
+    source_dir: "files - Bride of Charlie series"
+    items:
+      - src: "files - Bride of Charlie series/BOC-ACQ-2026-07-19_phase0-pull-log.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Bride of Charlie series/BOC-AUDIT-2026-07-18B_library-audit.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Bride of Charlie series/BOC-AUDIT-2026-07-18_library-audit.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Bride of Charlie series/BOC-AUDIT-2026-07-20_session-audit.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Bride of Charlie series/BOC-AUDIT-2026-07-27B_adversarial-pass.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Bride of Charlie series/BOC-AUDIT-2026-07-27_session-audit.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Bride of Charlie series/BOC-E01_Wrinkle-in-Time_claim-inventory.md"
+        url: "bride-of-charlie/boc-e01_wrinkle-in-time_claim-inventory"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Bride of Charlie series/BOC-E02_Dr-Jerri-and-Mrs-Hyde_claim-inventory.md"
+        url: "bride-of-charlie/boc-e02_dr-jerri-and-mrs-hyde_claim-inventory"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Bride of Charlie series/BOC-E03_Have-No-Fear-Lori-Is-Here_claim-inventory.md"
+        url: "bride-of-charlie/boc-e03_have-no-fear-lori-is-here_claim-inventory"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Bride of Charlie series/BOC-E04_The-Ties-That-Bind_claim-inventory.md"
+        url: "bride-of-charlie/boc-e04_the-ties-that-bind_claim-inventory"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Bride of Charlie series/BOC-E05_The-Lost-Years_claim-inventory.md"
+        url: "bride-of-charlie/boc-e05_the-lost-years_claim-inventory"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Bride of Charlie series/BOC-E06_What-Happened-In-Romania_claim-inventory.md"
+        url: "bride-of-charlie/boc-e06_what-happened-in-romania_claim-inventory"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Bride of Charlie series/BOC-E07_Crazy-In-Love_claim-inventory.md"
+        url: "bride-of-charlie/boc-e07_crazy-in-love_claim-inventory"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Bride of Charlie series/BOC-E08_Red-Sparrow_claim-inventory.md"
+        url: "bride-of-charlie/boc-e08_red-sparrow_claim-inventory"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Bride of Charlie series/BOC-ROUTE-2026-07-27_post-series-case-claims-corpus.md"
+        state: hold
+        reason: "routing/corpus file, not a claim file"
+      - src: "files - Bride of Charlie series/BOC-T1_Tier1-Acquisition-Roadmap_all-episodes.md"
+        url: "bride-of-charlie/boc-t1_tier1-acquisition-roadmap_all-episodes"
+        state: publish
+        reason: "Tier 1 acquisition roadmap"
+
+  - section: "Court record"
+    source_dir: "files - Court record"
+    items:
+      - src: "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-08-14B_supplemental-notice-2026-07-08.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-08-14C_xchange-docket.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-08-14_contempt-transcript.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-08-16B_rev-official-statements.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-08-16_documentcloud-complete-sweep.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-08-20_states-reply.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-09-01_hearing-livestream-capture.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-09-16B_states-opening-memorandum.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-09-16_prelim-hearing-audio-capture.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-AUDIT-2026-07-27_adversarial-pass.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-AUDIT-2026-07-28_independent-pass.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-AUDIT-2026-08-01_session-audit.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-AUDIT-2026-08-20_session-audit.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md"
+        url: "court-record/cr-e01_prelim-hearing-day4_karner-atf-testimony"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md"
+        url: "court-record/cr-e02_prelim-hearing-day4_faumuina-davis-twiggs"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md"
+        url: "court-record/cr-e03_prelim-hearing-days2-3-5"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md"
+        url: "court-record/cr-e04_prelim-hearing-day2_hull-uvu-surveillance"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md"
+        url: "court-record/cr-e05_prelim-hearing-day1_bagley-hull-first-tranche"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md"
+        url: "court-record/cr-e06_bakker-day2_oliver-day5_full-read"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md"
+        url: "court-record/cr-e07_defence-prelim-briefing-2026-08-11"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md"
+        url: "court-record/cr-e08_state-information-and-pc-affidavit-2025-09-16"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E09_evidence-preservation-order-and-pretrial-practice.md"
+        url: "court-record/cr-e09_evidence-preservation-order-and-pretrial-practice"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E10_publicity-order-and-record-classification.md"
+        url: "court-record/cr-e10_publicity-order-and-record-classification"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E11_prosecutor-disqualification-track.md"
+        url: "court-record/cr-e11_prosecutor-disqualification-track"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E12_closure-classification-and-sealing-map.md"
+        url: "court-record/cr-e12_closure-classification-and-sealing-map"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E13_evidence-preservation-chain-complete.md"
+        url: "court-record/cr-e13_evidence-preservation-chain-complete"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md"
+        url: "court-record/cr-e14_continuance-motion-and-the-discovery-record"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md"
+        url: "court-record/cr-e15_atf-firearms-report-2025-09-17"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md"
+        url: "court-record/cr-e16_participant-roster-and-label-reconciliation"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E17_states-reply-2026-08-18.md"
+        url: "court-record/cr-e17_states-reply-2026-08-18"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E18_certified-transcript-crosswalk.md"
+        url: "court-record/cr-e18_certified-transcript-crosswalk"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E19_latent-print-record.md"
+        url: "court-record/cr-e19_latent-print-record"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E20_forensic-exhibit-map.md"
+        url: "court-record/cr-e20_forensic-exhibit-map"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E21_forensic-discovery-census.md"
+        url: "court-record/cr-e21_forensic-discovery-census"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-REVIEW-2026-08-14_losee-draft-Q07.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-16B_xchange-null-audit.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-16D_Q105-null-re-runs.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-16E_Q111-legacy-file-audit.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-16F_Q89-losee-draft-vs-sworn-geometry.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-16G_twiggs-profile-reconciliation.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-16_Q61-carried-nulls.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-08-30_CR-E19-E20-E21-verification-cycle.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - Court record/CR-WATCH-log.md"
+        state: hold
+        reason: "running docket-watch log; operational, names routine internals"
+
+  - section: "DNA evidence"
+    source_dir: "files - DNA evidence"
+    items:
+      - src: "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md"
+        url: "dna-evidence/dna-e01_dna-evidence-what-it-can-bear"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - DNA evidence/Kirk-Robinson_DNA-Evidence_Acquisition-Roadmap_2026-07-15.md"
+        url: "dna-evidence/kirk-robinson_dna-evidence_acquisition-roadmap_2026-07-15"
+        state: publish
+        reason: "Tier 1 acquisition roadmap"
+      - src: "files - DNA evidence/Kirk-Robinson_DNA-Evidence_Consolidated-Audit_2026-07-15.md"
+        url: "dna-evidence/kirk-robinson_dna-evidence_consolidated-audit_2026-07-15"
+        state: publish
+        reason: "evidence / claim-inventory file"
+
+  - section: "Event security"
+    source_dir: "files - Event security"
+    items:
+      - src: "files - Event security/SEC-E01_security-posture-2025-09-10.md"
+        url: "event-security/sec-e01_security-posture-2025-09-10"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Event security/SEC-E02_security-team-allegations-assessment.md"
+        url: "event-security/sec-e02_security-team-allegations-assessment"
+        state: publish
+        reason: "evidence / claim-inventory file"
+
+  - section: "George Zinn"
+    source_dir: "files - George Zinn"
+    items:
+      - src: "files - George Zinn/ZINN-ACQ-2026-08-20_zinn-pcas.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - George Zinn/ZINN-REVIEW-2026-08-17_partial-reconciliation.md"
+        state: hold
+        reason: "process record of a verification cycle, not a claim file"
+      - src: "files - George Zinn/t1 source acquisition roadmap - George Zinn.md"
+        url: "george-zinn/t1-source-acquisition-roadmap-george-zinn"
+        state: publish
+        reason: "Tier 1 acquisition roadmap"
+      - src: "files - George Zinn/zinn-george-evidence.md"
+        url: "george-zinn/zinn-george-evidence"
+        state: publish
+        reason: "evidence / claim-inventory file"
+
+  - section: "Kirk assassination questions"
+    source_dir: "files - Kirk assassination questions"
+    items:
+      - src: "files - Kirk assassination questions/evidence-rifle-photo-nypost-authenticity.md"
+        url: "assassination-questions/evidence-rifle-photo-nypost-authenticity"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Kirk assassination questions/kirk-shooting-official-timeline.md"
+        url: "assassination-questions/kirk-shooting-official-timeline"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md"
+        url: "assassination-questions/t1-source-acquisition-roadmap-kirk-assassination-questions"
+        state: publish
+        reason: "Tier 1 acquisition roadmap"
+
+  - section: "Losee building"
+    source_dir: "files - Losee building"
+    items:
+      - src: "files - Losee building/losee-rooftop-firing-evidence.md"
+        url: "losee-building/losee-rooftop-firing-evidence"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md"
+        url: "losee-building/tier1-source-acquisition-roadmap-forensic-evidence-for-losee-building-shot"
+        state: publish
+        reason: "Tier 1 acquisition roadmap"
+
+  - section: "Person profiles"
+    source_dir: "files - Person profiles"
+    items:
+      - src: "files - Person profiles/PP-ACQ-2026-09-15_platform-imports.md"
+        state: never
+        reason: "T4 platform imports; nothing in it is citable and Q-185 has not decided what travels"
+      - src: "files - Person profiles/erika-kirk-background-family-contested-claims-dossier.md"
+        url: "person-profiles/erika-kirk-background-family-contested-claims-dossier"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Person profiles/lance-twiggs-comprehensive-profile.md"
+        url: "person-profiles/lance-twiggs-comprehensive-profile"
+        state: publish
+        reason: "evidence / claim-inventory file"
+      - src: "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+        url: "person-profiles/robinson-tyler-james-comprehensive-profile"
+        state: publish
+        reason: "evidence / claim-inventory file"
