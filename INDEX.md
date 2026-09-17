@@ -93,6 +93,7 @@
 | `CR-REVIEW-2026-08-16G_twiggs-profile-reconciliation.md` | The Twiggs profile against the T1 record it predates | Before citing the Twiggs profile |
 | `CR-REVIEW-2026-08-17_Q146-Q148-Q131.md` | The Count-4 date conflict, the contaminant's measured profile, and a validator that was 75% blind (`[PROVISIONAL]`) | The contaminant; queue-check history |
 | `CR-REVIEW-2026-08-30_CR-E19-E20-E21-verification-cycle.md` | Cycles 1 and 2 on the three 08-30 files: two falsified nulls, and every correction round introducing its own defects (v2.1, `[PROVISIONAL]`) | Before cycle 3 on those files |
+| `CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md` | Cycle 3 on the three 08-30 files: the propagation sweep — script-first, 21 isolated readers, 124 stale hits and ~60 off-list carriers corrected across 27 files, the docx and the origin files themselves; the posture inference "closed evidentiary record" found standing in thirteen files; `[PROVISIONAL]` restated at the three-iteration cap (v1.0, `[PROVISIONAL]`)  |
 | `CR-WATCH-log.md` | One row per docket-watch run, including runs that found nothing; v2.4 transcribes three September firings that ran dark and the root cause (routine cannot see the private repo). **Named by the cloud routine; never move** | What the watch saw, and when it was blind |
 
 ### The banks (raw evidence — never moved, renamed or edited)
