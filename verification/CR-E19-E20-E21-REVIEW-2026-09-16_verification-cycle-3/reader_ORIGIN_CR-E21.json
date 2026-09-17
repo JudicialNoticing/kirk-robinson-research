@@ -1,0 +1,1057 @@
+{
+ "file": "files - Court record/CR-E21_forensic-discovery-census.md",
+ "file_version_read": "v1.3 per status line; revision log runs to 1.4 (2026-09-16)",
+ "hits_reviewed": 125,
+ "unique_claim_line_pairs": 125,
+ "counts": {
+  "RECORD": 59,
+  "UNRELATED": 22,
+  "CONSISTENT": 33,
+  "AMBIGUOUS": 2,
+  "STALE": 9
+ },
+ "stale": [
+  {
+   "claim": "C-14",
+   "line": 7,
+   "heading": "header — 'Why this file exists' paragraph",
+   "current_sentence": "The letter is a **census of every forensic report produced in this case**, written by counsel who had reviewed \"all of the forensic discovery provided by your Office through the latest production on March 18, 2026.\"",
+   "replacement": "The letter is counsel's census of the forensic reports produced to the defence under the disciplines the letter itself heads (firearms/toolmark, latent print, shoe impression, questioned documents, DNA), written by counsel who had reviewed \"all of the forensic discovery provided by your Office through the latest production on March 18, 2026.\" It is not a census of the case: forensic pathology (§6A) and digital forensics (§6B) sit outside it.",
+   "why": "The withdrawn completeness proposition survives in the header body, transferred from the file to the letter. The file's own §6A says the medical examiner's report was produced to the defence 2025-11-13 and 'this letter does not mention it'; §6B says the digital bucket's examiner reports are ones 'this letter does not reach'. So the letter is not a census of every forensic report produced in this case, by this file's own findings. The enumeration listed line 7 as 'adjacent phrasing still present'; read in the file it is a live assertion, not a record."
+  },
+  {
+   "claim": "C-66",
+   "line": 59,
+   "heading": "§2 · THE CENSUS — D-70 exposure box, second paragraph",
+   "current_sentence": "**Four months later the preliminary hearing produced State's Exhibits 33 and 34, whose dates are NOT established (`CR-E20` §6) and which therefore cannot be mapped onto this table.**",
+   "replacement": "**Three months and eleven days later (the hearing sat 2026-07-06 → 07-10) the preliminary hearing produced State's Exhibits 33 and 34, whose dates are NOT established (`CR-E20` §6) and which therefore cannot be mapped onto this table.**",
+   "why": "This is the very sentence C-66's withdrawn_form quotes. The v1.3 correction landed only in the §4 box (line 94). P8: 2026-03-25 → 2026-07-06 = 3 months 11 days (hearing dates per CR-E14 line 74); 2026-03-18 → 07-06 = 3 months 18 days; neither is four months."
+  },
+  {
+   "claim": "C-66",
+   "line": 194,
+   "heading": "§8 · OPEN ITEMS AND ACQUISITION TARGETS, item 9",
+   "current_sentence": "The letter's census is a snapshot; the hearing sat four months later.",
+   "replacement": "The letter's census is a snapshot; the hearing sat three months and eleven days later (2026-07-06 → 07-10).",
+   "why": "Same withdrawn interval as line 59; the enumeration's C-66 note names this line as a body site to check. Now disagrees with line 94 inside the same file."
+  },
+  {
+   "claim": "C-53",
+   "line": 70,
+   "heading": "§3 · THE NUMBERING TRAP — 'CONSEQUENCE' box",
+   "current_sentence": "**`CR-E20 F-4`** bounds the identification of `CR-E15`'s document to *\"the submission-1 report.\"* **There is no such thing as \"the submission-1 report.\"** ... **but the phrase \"bounded to the submission-1 report\" is not the bound it appears to be, and must be re-expressed as \"the 2025-09-17 firearms report.\"** → **owed to `CR-E20`; not executed here.**",
+   "replacement": "**`CR-E20 F-4`** bounded the identification of `CR-E15`'s document to *\"the submission-1 report\"* (its v1.2 form). **There is no such thing as \"the submission-1 report.\"** ... **the phrase was not the bound it appeared to be and has been re-expressed as \"the 2025-09-17 firearms report\" — executed at `CR-E20` v1.3 (status line and log row 1.3) on this finding; `CR-E20 F-4` itself survives unchanged.**",
+   "why": "Present-tense description of CR-E20 as still carrying the withdrawn 'submission-1 report' bound, plus an open owed action. CR-E20 v1.6 line 5 ('F-4's bound re-expressed from \"the submission-1 report\" ... to \"the 2025-09-17 firearms report\"') and its row 1.3 confirm the re-expression was executed 2026-08-30. Same class as C-49(i): a stale owed-action. The substantive F-2 point (no such report; F-4 survives) is the corrected form and stands."
+  },
+  {
+   "claim": "C-53",
+   "line": 203,
+   "heading": "§9 · RESIDUAL, item 4",
+   "current_sentence": "**It did not execute the correction it identifies for `CR-E20`** (the \"submission-1 report\" phrasing at `F-4` — §3).",
+   "replacement": "**It did not execute the correction it identified for `CR-E20`** (the \"submission-1 report\" phrasing then at `CR-E20 F-4` — §3); `CR-E20` v1.3 executed it the same day.",
+   "why": "As a residual about this file it is true, but 'the phrasing at F-4' presents the withdrawn wording as still standing in CR-E20. Also carries a bare `F-4` (C-68)."
+  },
+  {
+   "claim": "C-68",
+   "line": 203,
+   "heading": "§2 row 7 (line 45), §3 CONSEQUENCE box (line 70), §9 item 4 (line 203) — bare F-4 tokens meaning CR-E20's F-4",
+   "current_sentence": "line 45: \"`CR-E20` requires any file citing `F-4` to carry BOTH grades\" and \"while being the file that re-expressed F-4's bound\"; line 70: \"**F-4 survives**\"; line 203: \"the \\\"submission-1 report\\\" phrasing at `F-4`\"",
+   "replacement": "Prefix each token: \"any file citing `CR-E20 F-4`\", \"re-expressed `CR-E20 F-4`'s bound\", \"**`CR-E20 F-4` survives**\", \"phrasing at `CR-E20 F-4`\".",
+   "why": "CR-REVIEW §7 (line 124): 'Every citation of another file's flag MUST carry that file's prefix. A bare F-4 inside CR-E21 meant CR-E20's F-4 while that file had its own F-4 ... All three files were audited for this and corrected.' CR-E21 F-4 exists at line 97, so each bare token is the ambiguity the rule names. The first mention in each site is prefixed; these are residual survivors. Lines 45 and 203 are OFF-LIST for C-68 (the hit list carried C-68 only at line 70)."
+  },
+  {
+   "claim": "C-23",
+   "line": 148,
+   "heading": "§6 — F-7 paragraph (the 'Domestic Strategic Unit' thread)",
+   "current_sentence": "... a NAMED FBI UNIT supplying information about the writing — one day before the report date, four days after the shooting. ... *(Scoped null: `Domestic Strategic` across the repo before today = 0; across all five transcript days = 0.)*",
+   "replacement": "... a NAMED FBI UNIT supplying information about the writing, in a summary report dated four days after the shooting. ... *(Scoped null: `Domestic Strategic` across every `.md` in the repo before today = 0; across all five transcript days = 0.)*",
+   "why": "Row 1.1 recorded both as OWED ('F-7's repo-wide null needed its .md scope stated, and \"one day before the report date\" is unsourced — both owed'). Neither has closed: the null still reads 'across the repo' (F-6 at line 138 shows the scoped form) and the interval is still asserted with nothing in the quoted request 1.2 dating the unit's information (only the report is dated, 2025-09-14). This is also the MISSING entry for C-23."
+  },
+  {
+   "claim": "C-12",
+   "line": 160,
+   "heading": "§6A — closing parenthetical",
+   "current_sentence": "`CR-E20` v1.4 corrects its own completeness null against it.",
+   "replacement": "`CR-E20` v1.4 re-scoped its completeness null against it, and `CR-E20` v1.6 then WITHDREW the null altogether — falsified twice, not re-scoped a third time; that file now says what it maps without asserting closure.",
+   "why": "C-12's corrected form is withdrawal, not a corrected null: CR-E20 v1.6 line 42 ('THIS FILE HAS NOW ASSERTED A COMPLETENESS NULL TWICE AND HAD IT FALSIFIED TWICE. THE CLAIM IS WITHDRAWN, NOT RE-SCOPED A THIRD TIME') and line 57 ('REFUSED — permanently'). This sentence sends a reader to the v1.4 attempt-2 state, which is itself one of C-12's withdrawn forms."
+  },
+  {
+   "claim": "C-25",
+   "line": 206,
+   "heading": "§9 · RESIDUAL, item 7",
+   "current_sentence": "⚠ **`[PROVISIONAL]`** — no verification cycle has run; nothing here may resolve a register entry or be propagated into another topic folder.",
+   "replacement": "⚠ **`[PROVISIONAL]`** — two verification cycles have run (`CR-REVIEW-2026-08-30`); the flag stands because their corrections are themselves unread and cycle 2 found defects introduced by cycle 1's corrections; nothing here may resolve a register entry or be propagated into another topic folder.",
+   "why": "The withdrawn ground for the flag, asserted as current in the residual list; contradicts the corrected status line at line 9 of the same file. The enumeration's C-25 notes list this line as an in-body echo."
+  }
+ ],
+ "missing_corrected_forms": [
+  {
+   "claim": "C-23",
+   "looked_in": "§6 F-7 (lines 144–148) and the revision log (rows 1.1–1.4)",
+   "note": "Row 1.1 records the two corrections as OWED; no row or in-body stamp records closure. F-7 still reads 'across the repo before today = 0' (no .md scope; compare F-6 at line 138) and still carries 'one day before the report date' with no source. Reported under stale[] at line 148 as well."
+  }
+ ],
+ "ambiguous": [
+  {
+   "claim": "C-09",
+   "line": 116,
+   "heading": "§4.1 — the ¶ 2.1 pointer paragraph",
+   "current_sentence": "... **copies of the defendant's known prints** ... with the defence's complaint that *\"there is no indication in the materials provided **what points of comparison the examiners were relying on to make their identification**\"* ... ⚠ **`CR-E19` §6A carries this material with the fuller guards; that file governs it and this one points there rather than duplicating it.**",
+   "what_would_settle_it": "Whether a cross-file pointer to CR-E19 §6A satisfies C-09's corrected form ('the guard fused to it and inseparable'). §0 (line 22) does say the letter establishes nothing about what any report concluded, which is a file-level guard. If per-passage guarding is required, add after the quotation: '(the letter's characterisation, not a finding — it may not be read as an identification of Mr. Robinson; the hearing's print record holds only an exclusion and an inconclusive, CR-E19 §6A.2)'. The juxtaposition with 'copies of the defendant's known prints' in the same sentence is what makes the inline guard worth having."
+  },
+  {
+   "claim": "C-38",
+   "line": 202,
+   "heading": "§9 · RESIDUAL, item 3",
+   "current_sentence": "Only row 7 is mapped (= State's Exhibit 32, via `CR-E20 F-4`).",
+   "what_would_settle_it": "Whether the both-grades rule (line 45: 'CR-E20 requires any file citing F-4 to carry BOTH grades and name which it follows') is per file or per citation. The file followed is named here; the grades are not, and the '=' is the flat form C-38 withdrew. Row 7 (line 45) carries the full form. Cheap fix: '(= State's Exhibit 32 by inference — `CR-E20 F-4` ANCHOR High · IDENTITY High; `CR-E15 F-139` holds IDENTITY at Medium-high; see row 7)'."
+  }
+ ],
+ "off_list": [
+  {
+   "line": 14,
+   "kind": "STALE (posture; outside the 74 claims)",
+   "current_sentence": "**Tyler Robinson is presumed innocent and has not been bound over.**",
+   "note": "Contradicted by line 12 (bound over on all seven counts 2026-09-01; the v1.4 row says only the case-posture banner was updated). Second posture carrier, in the living-persons banner, without the 'true as of its date' qualifier. Suggest: 'Tyler Robinson is presumed innocent (posture as of 2026-09-16: bound over 2026-09-01 — see the banner above).'"
+  },
+  {
+   "line": 14,
+   "kind": "living-persons rationale no longer accurate",
+   "current_sentence": "An earlier form of this banner named **three people who appear nowhere else in this file** *(grep: one hit each, the banner itself)*",
+   "note": "Since the v1.3 §6B correction, line 170 quotes the transcript's 'Mr. Twiggs' phone', so one of the three is now named in the body and no living-persons sentence covers him. Not a withdrawn-claim carrier; a one-line banner sentence (he is named only in a transcript quotation about a phone download; accused of nothing) would close it."
+  },
+  {
+   "line": 35,
+   "kind": "locator",
+   "current_sentence": "see the `D-70` exposure above",
+   "note": "The D-70 box is below the table (line 57). 'above' → 'below'."
+  },
+  {
+   "line": 178,
+   "kind": "tense residue in a record note",
+   "current_sentence": "§9 says only Exhibits F and G and Addendum 2 were read; **Exhibit B is none of those.**",
+   "note": "§9 item 5 was corrected at v1.3; 'says' → 'said (corrected v1.3)'. Classified RECORD for C-17; the withdrawn proposition is labelled false in the same sentence."
+  },
+  {
+   "line": 116,
+   "kind": "dangling self-reference",
+   "current_sentence": "the FBI latent print production inventory at ¶ 2.1, which §6 summarised only in part",
+   "note": "The current §6 (lines 134–150) does not summarise ¶ 2.1 at all; the clause describes a pre-v1.2 §6. 'which an earlier form of §6 summarised only in part'."
+  },
+  {
+   "line": 188,
+   "kind": "redundant survivor, compatible",
+   "current_sentence": "**The three at P1** (§2 rows 10–12), the two ATF ones especially — **ATF held the rifle** (`CR-E19` §6A). **P1.**",
+   "note": "Restates the corrected ranking (rows 10–12 = FBI + two ATF = the three at P1) after the RE-RANKED sentence already gave it; not stale, tidy-up only."
+  },
+  {
+   "line": 48,
+   "kind": "enrichment, not stale (C-47)",
+   "current_sentence": "Lab. No. **2025-01779-5**",
+   "note": "Case ID No. SU-4130859 (from Exhibit A) appears nowhere in the file; the table records the identifier as Exhibit F gives it and §3's general rule (discipline + date + identifier) covers the ambiguity."
+  }
+ ],
+ "corrected_forms_found_for_CR-E21-origin_claims": {
+  "C-07": "line 142 (role-only; none testified; NAMES WITHDRAWN v1.1) and row 1.0 name removal recorded",
+  "C-14": "line 1 title; line 3 retitle note (but line 7 stale — see stale[])",
+  "C-15": "§6B lines 162–172",
+  "C-16": "§4.1 lines 101–116; F-9 at 105; ¶ 2.1 pointer at 116",
+  "C-17": "line 29 (nine sources, 69 pages) and line 204 (§9 item 5, 'What remains unread')",
+  "C-18": "line 7 ('The accurate statement: most of Part One, and the whole of Exhibit G and Addendum 2, are read here for the first time; Part Two ¶¶ 1.3 and 2 were already in the library')",
+  "C-19": "line 179",
+  "C-23": "NOT FOUND — see missing_corrected_forms",
+  "C-38": "line 45 row 7 (both grades, file followed, 'inference, however strong')",
+  "C-40": "line 35 (TOTAL NOT graded) and line 57 (D-70 cited, not resolved)",
+  "C-41": "line 85",
+  "C-42": "line 85 and line 94",
+  "C-61": "line 7 '(d) The letter is eleven pages, not ten'; line 29 pp. 53–63 with p. 52 cover sheet",
+  "C-62": "line 35 (TWELVE + TWO case files + shoe; FIFTEEN items, 13 reports + 2 case files; D-70 one fewer)",
+  "C-63": "line 57 ('CR-E14 §8 holds D-70 — locator corrected v1.3')",
+  "C-64": "line 78 (14 unqualified, 16 by formula, 18 categories)",
+  "C-65": "lines 80–83 (four exception bullets; 'THE OMITTED FOURTH')",
+  "C-66": "line 94 only — lines 59 and 194 still carry 'four months' (stale[])",
+  "C-67": "lines 176–177 (25 productions; 25 dated rows; Novak 4+5+5+6+2+3)",
+  "C-68": "prefixed at first mention in each site (lines 45, 70, 97, 202); bare tokens survive at 45, 70, 203 (stale[])",
+  "C-69": "line 162 heading ('described on the hearing record'); line 164 note",
+  "C-70": "line 170 ('It is the SAME phone', 02:39:39)",
+  "C-71": "line 170 ('State's Exhibit 16.3', 16.1/16.2 withdrawn in the v1.3 note)"
+ },
+ "per_hit": [
+  {
+   "claim": "C-01",
+   "line": 14,
+   "term": "only as elimination-sample donors",
+   "class": "RECORD",
+   "note": "CUT v1.3 banner quotes the withdrawn formulation as record; corrected form present (states no DNA result; handling governs at DNA-E01 §§1.5/2.2 and CR-E19)"
+  },
+  {
+   "claim": "C-02",
+   "line": 14,
+   "term": "elimination-sample donors",
+   "class": "UNRELATED",
+   "note": "banner names no result for either person; the rifle/Dremel mention is symmetric and unnamed"
+  },
+  {
+   "claim": "C-05",
+   "line": 14,
+   "term": "Living persons.",
+   "class": "RECORD",
+   "note": "the CUT v1.3 note is the record of the banner cut; no names present"
+  },
+  {
+   "claim": "C-05",
+   "line": 216,
+   "term": "Living persons",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-05",
+   "line": 109,
+   "term": "elimination sample",
+   "class": "UNRELATED",
+   "note": "investigator elimination samples in the transcript null; nothing to do with the banner"
+  },
+  {
+   "claim": "C-06",
+   "line": 113,
+   "term": "proficiency test",
+   "class": "CONSISTENT",
+   "note": "request 15 described by scope; no person named or role-misdescribed"
+  },
+  {
+   "claim": "C-06",
+   "line": 218,
+   "term": "proficiency test",
+   "class": "RECORD",
+   "note": "revision-log row 1.2"
+  },
+  {
+   "claim": "C-06",
+   "line": 142,
+   "term": "technical review",
+   "class": "CONSISTENT",
+   "note": "CR-E14 §11 rule quoted (role and report date only); no names"
+  },
+  {
+   "claim": "C-06",
+   "line": 28,
+   "term": "misspelled surname",
+   "class": "RECORD",
+   "note": "v1.3 note records the surname's removal; no name printed"
+  },
+  {
+   "claim": "C-06",
+   "line": 214,
+   "term": "misspelled surname",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-06",
+   "line": 216,
+   "term": "five reproduced source typos",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-07",
+   "line": 142,
+   "term": "Questioned Documents Unit",
+   "class": "CONSISTENT",
+   "note": "the C-07 corrected form: two QDU examiners and an EMU officer by role; none testified; NAMES WITHDRAWN v1.1 recorded"
+  },
+  {
+   "claim": "C-07",
+   "line": 214,
+   "term": "Questioned Documents Unit",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-08",
+   "line": 113,
+   "term": "proficiency tests",
+   "class": "UNRELATED",
+   "note": "no person is \"named for proficiency tests\" here; the request's scope only"
+  },
+  {
+   "claim": "C-08",
+   "line": 218,
+   "term": "proficiency tests",
+   "class": "RECORD",
+   "note": "revision-log row 1.2"
+  },
+  {
+   "claim": "C-09",
+   "line": 116,
+   "term": "their identification",
+   "class": "AMBIGUOUS",
+   "note": "the \"their identification\" quotation travels with a pointer to CR-E19 §6A's guards, not the guard itself — see ambiguous[]"
+  },
+  {
+   "claim": "C-12",
+   "line": 160,
+   "term": "completeness null",
+   "class": "STALE",
+   "note": "\"CR-E20 v1.4 corrects its own completeness null against it\" — CR-E20 v1.6 WITHDREW the null; this points at a superseded (withdrawn) state"
+  },
+  {
+   "claim": "C-13",
+   "line": 158,
+   "term": "Exhibit 11",
+   "class": "CONSISTENT",
+   "note": "Exhibit 11 = medical examiner's report, admitted Day 1 — the addition"
+  },
+  {
+   "claim": "C-13",
+   "line": 218,
+   "term": "Exhibit 11",
+   "class": "RECORD",
+   "note": "revision-log row 1.2"
+  },
+  {
+   "claim": "C-13",
+   "line": 3,
+   "term": "forensic pathology",
+   "class": "CONSISTENT",
+   "note": "retitle note names forensic pathology (§6A) as outside the letter — the addition, not the withdrawn shape"
+  },
+  {
+   "claim": "C-13",
+   "line": 154,
+   "term": "forensic pathology",
+   "class": "CONSISTENT",
+   "note": "§6A heading — the addition"
+  },
+  {
+   "claim": "C-13",
+   "line": 160,
+   "term": "forensic pathology",
+   "class": "CONSISTENT",
+   "note": "completion/production dates and CR-E05 §4.3 pointer — the addition"
+  },
+  {
+   "claim": "C-14",
+   "line": 3,
+   "term": "every laboratory report known to exist",
+   "class": "RECORD",
+   "note": "🛠 RETITLED note quoting the withdrawn title"
+  },
+  {
+   "claim": "C-14",
+   "line": 218,
+   "term": "every laboratory report known to exist",
+   "class": "RECORD",
+   "note": "revision-log row 1.2"
+  },
+  {
+   "claim": "C-14",
+   "line": 7,
+   "term": "census of every forensic report",
+   "class": "STALE",
+   "note": "first sentence asserts the letter is a census of every forensic report produced in this case — see stale[]"
+  },
+  {
+   "claim": "C-14",
+   "line": 214,
+   "term": "census of every forensic report",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-15",
+   "line": 168,
+   "term": "Cellebrite",
+   "class": "CONSISTENT",
+   "note": "§6B transcript quotation — the addition"
+  },
+  {
+   "claim": "C-15",
+   "line": 170,
+   "term": "Cellebrite",
+   "class": "CONSISTENT",
+   "note": "fourth laboratory (RCFL), Cellebrite, fusion-centre analyst — the addition; 16.3-only (C-71) present"
+  },
+  {
+   "claim": "C-15",
+   "line": 218,
+   "term": "Cellebrite",
+   "class": "RECORD",
+   "note": "revision-log row 1.2"
+  },
+  {
+   "claim": "C-15",
+   "line": 172,
+   "term": "613,023",
+   "class": "CONSISTENT",
+   "note": "Novak declaration figures — the addition"
+  },
+  {
+   "claim": "C-16",
+   "line": 216,
+   "term": "requests 13",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-16",
+   "line": 105,
+   "term": "request 13",
+   "class": "CONSISTENT",
+   "note": "F-9 / §4.1 is the corrected addition"
+  },
+  {
+   "claim": "C-16",
+   "line": 218,
+   "term": "request 13",
+   "class": "RECORD",
+   "note": "revision-log row 1.2"
+  },
+  {
+   "claim": "C-16",
+   "line": 116,
+   "term": "summarised only in part",
+   "class": "CONSISTENT",
+   "note": "¶ 2.1 now points at CR-E19 §6A (\"that file governs it and this one points there rather than duplicating it\"). The clause \"which §6 summarised only in part\" dangles — off-list"
+  },
+  {
+   "claim": "C-17",
+   "line": 204,
+   "term": "Only Exhibit F, Exhibit G and Addendum 2 were read",
+   "class": "RECORD",
+   "note": "§9 item 5 CORRECTED v1.3 note quotes the withdrawn three-source form; the nine-source read list and \"What remains unread\" follow — corrected form present at the layer_hint site"
+  },
+  {
+   "claim": "C-17",
+   "line": 178,
+   "term": "only Exhibits F and G and Addendum 2",
+   "class": "RECORD",
+   "note": "F-8(b) is the v1.1 correction record of the read-scope defect; its \"§9 says\" is present tense though §9 was corrected at v1.3 — off-list tense fix"
+  },
+  {
+   "claim": "C-17",
+   "line": 29,
+   "term": "named three",
+   "class": "RECORD",
+   "note": "\"(list corrected v1.3 — an earlier form named three and the file has read nine)\" + the nine-source list, 69 pages — corrected form present"
+  },
+  {
+   "claim": "C-17",
+   "line": 216,
+   "term": "Exhibit B was not read",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-18",
+   "line": 7,
+   "term": "remaining ten pages",
+   "class": "RECORD",
+   "note": "🛠 CORRECTED v1.1 note quotes the withdrawn provenance form; the accurate statement follows in the same line"
+  },
+  {
+   "claim": "C-18",
+   "line": 214,
+   "term": "remaining ten pages",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-18",
+   "line": 216,
+   "term": "remaining ten pages",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-19",
+   "line": 179,
+   "term": "only measure of discovery volume",
+   "class": "RECORD",
+   "note": "F-8(c) quotes the novelty claim as false; CR-E14 §4 R-1 / F-93 credited"
+  },
+  {
+   "claim": "C-23",
+   "line": 148,
+   "term": "one day before the report date",
+   "class": "STALE",
+   "note": "the null is still unscoped (\"across the repo\") and \"one day before the report date\" is still present and unsourced — the owed items never closed"
+  },
+  {
+   "claim": "C-23",
+   "line": 216,
+   "term": "one day before the report date",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-23",
+   "line": 214,
+   "term": "repo-wide",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-23",
+   "line": 144,
+   "term": "Domestic Strategic",
+   "class": "UNRELATED",
+   "note": "F-7 heading — the locator term only"
+  },
+  {
+   "claim": "C-23",
+   "line": 146,
+   "term": "Domestic Strategic",
+   "class": "UNRELATED",
+   "note": "the quoted request 1.2 — locator term"
+  },
+  {
+   "claim": "C-23",
+   "line": 190,
+   "term": "Domestic Strategic",
+   "class": "UNRELATED",
+   "note": "§8 item 5 acquisition target — locator term"
+  },
+  {
+   "claim": "C-25",
+   "line": 206,
+   "term": "no verification cycle has run",
+   "class": "STALE",
+   "note": "§9 item 7: \"no verification cycle has run\" — contradicts the corrected status line (line 9)"
+  },
+  {
+   "claim": "C-25",
+   "line": 9,
+   "term": "No independent verification cycle has run",
+   "class": "RECORD",
+   "note": "status line quotes the withdrawn form and carries the corrected form (TWO have run; cycle-2-found-defects ground)"
+  },
+  {
+   "claim": "C-28",
+   "line": 85,
+   "term": "decisive artifact",
+   "class": "UNRELATED",
+   "note": "\"decisive artifact(s)\" here are DNA-E01 §6.4's consumption records, not the UBFS latent report"
+  },
+  {
+   "claim": "C-28",
+   "line": 160,
+   "term": "decisive artifact",
+   "class": "UNRELATED",
+   "note": "\"decisive artifact for D-49\" is Exhibit 11, a different referent"
+  },
+  {
+   "claim": "C-29",
+   "line": 188,
+   "term": "not covered by the stipulation",
+   "class": "RECORD",
+   "note": "RE-RANKED v1.3 note quotes the withdrawn target; all four latent reports now targets, UBFS at P2. Trailing \"The three at P1 (rows 10–12)\" sentence is redundant but compatible (rows 10–12 = FBI + two ATF)"
+  },
+  {
+   "claim": "C-32",
+   "line": 216,
+   "term": "FOUR of them",
+   "class": "UNRELATED",
+   "note": "\"FOUR OF THEM NUMERIC\" counts defects, not ATF reports; in a log row"
+  },
+  {
+   "claim": "C-37",
+   "line": 59,
+   "term": "NOT established",
+   "class": "UNRELATED",
+   "note": "\"NOT established\" here is the dates of Exhibits 33/34 (CR-E20 §6), not F-4's identity grade"
+  },
+  {
+   "claim": "C-37",
+   "line": 85,
+   "term": "NOT established",
+   "class": "UNRELATED",
+   "note": "\"not established either way\" is about case-file contents"
+  },
+  {
+   "claim": "C-37",
+   "line": 94,
+   "term": "NOT established",
+   "class": "UNRELATED",
+   "note": "term collision"
+  },
+  {
+   "claim": "C-37",
+   "line": 148,
+   "term": "NOT established",
+   "class": "UNRELATED",
+   "note": "\"NOT ESTABLISHED: what that unit is\" — term collision"
+  },
+  {
+   "claim": "C-37",
+   "line": 186,
+   "term": "NOT established",
+   "class": "UNRELATED",
+   "note": "\"Which one is not established\" — which ATF DNA report is Exhibit 30"
+  },
+  {
+   "claim": "C-37",
+   "line": 214,
+   "term": "NOT established",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-38",
+   "line": 45,
+   "term": "= State's Exhibit 32",
+   "class": "RECORD",
+   "note": "v1.1 note quotes the flat \"= State's Exhibit 32\"; cell carries both grades and the file followed. Bare F-4 tokens in the same cell — see C-68 stale entry"
+  },
+  {
+   "claim": "C-38",
+   "line": 202,
+   "term": "= State's Exhibit 32",
+   "class": "AMBIGUOUS",
+   "note": "\"(= State's Exhibit 32, via CR-E20 F-4)\" — file followed named, both grades absent, \"=\" flat — see ambiguous[]"
+  },
+  {
+   "claim": "C-38",
+   "line": 214,
+   "term": "= State's Exhibit 32",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-40",
+   "line": 57,
+   "term": "rows 3–6",
+   "class": "CONSISTENT",
+   "note": "the D-70 exposure box: CR-E14 §8 (locator corrected), rows 3–6 ARE the D-70 table, total not gradeable, D-70 cited not resolved"
+  },
+  {
+   "claim": "C-40",
+   "line": 186,
+   "term": "rows 3–6",
+   "class": "CONSISTENT",
+   "note": "\"the four ATF DNA reports (§2 rows 3–6)\" names the four rows as acquisition targets, cited to §2 where D-70 sits; no total graded"
+  },
+  {
+   "claim": "C-40",
+   "line": 216,
+   "term": "rows 3–6",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-40",
+   "line": 35,
+   "term": "Confidence: High",
+   "class": "CONSISTENT",
+   "note": "High attaches to each row; TOTAL NOT graded; D-70 cited (but \"above\" should read \"below\" — off-list locator)"
+  },
+  {
+   "claim": "C-40",
+   "line": 65,
+   "term": "Confidence: High",
+   "class": "UNRELATED",
+   "note": "F-2's own grade, a different finding"
+  },
+  {
+   "claim": "C-40",
+   "line": 85,
+   "term": "Confidence: High",
+   "class": "UNRELATED",
+   "note": "F-3's grade, scoped \"as to the letter's assertion\""
+  },
+  {
+   "claim": "C-40",
+   "line": 97,
+   "term": "Confidence: High",
+   "class": "UNRELATED",
+   "note": "CR-E21 F-4's own grade; written with prefix (C-68-compliant)"
+  },
+  {
+   "claim": "C-40",
+   "line": 105,
+   "term": "Confidence: High",
+   "class": "UNRELATED",
+   "note": "F-9's grade"
+  },
+  {
+   "claim": "C-40",
+   "line": 120,
+   "term": "Confidence: High",
+   "class": "UNRELATED",
+   "note": "F-5's grade"
+  },
+  {
+   "claim": "C-40",
+   "line": 136,
+   "term": "Confidence: High",
+   "class": "UNRELATED",
+   "note": "F-6's grade"
+  },
+  {
+   "claim": "C-40",
+   "line": 144,
+   "term": "Confidence: High",
+   "class": "UNRELATED",
+   "note": "F-7's grade"
+  },
+  {
+   "claim": "C-40",
+   "line": 176,
+   "term": "Confidence: High",
+   "class": "UNRELATED",
+   "note": "F-8's grade; count reads 25 productions (C-67 corrected form)"
+  },
+  {
+   "claim": "C-41",
+   "line": 85,
+   "term": "EXACTLY the artifacts",
+   "class": "RECORD",
+   "note": "NARROWED v1.1 note quotes \"EXACTLY\"; corrected form (§6.4 names four; request 5 reaches at most two) present"
+  },
+  {
+   "claim": "C-41",
+   "line": 214,
+   "term": "EXACTLY the artifacts",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-41",
+   "line": 216,
+   "term": "EXACTLY the artifacts",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-42",
+   "line": 214,
+   "term": "did not have them either",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-42",
+   "line": 85,
+   "term": "did not have those records either",
+   "class": "RECORD",
+   "note": "quotes \"the defence did not have those records either\" as withdrawn as to the FBI limb; corrected survivor stated"
+  },
+  {
+   "claim": "C-42",
+   "line": 216,
+   "term": "did not have those records either",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-42",
+   "line": 94,
+   "term": "defence lacked",
+   "class": "CONSISTENT",
+   "note": "the §4 box now carries the FBI-limb withdrawal (v1.3)"
+  },
+  {
+   "claim": "C-43",
+   "line": 116,
+   "term": "blind verification",
+   "class": "CONSISTENT",
+   "note": "\"an 'Asset Details-Blind Verification' document\" — the title form; no claim that blind verification was performed"
+  },
+  {
+   "claim": "C-45",
+   "line": 27,
+   "term": "we have not received",
+   "class": "CONSISTENT",
+   "note": "§1: \"we have not received\" statements are the author's assertions; State's response not held — the corrected caveat"
+  },
+  {
+   "claim": "C-45",
+   "line": 201,
+   "term": "we have not received",
+   "class": "CONSISTENT",
+   "note": "§9 item 2: every \"we have not received\" is one party's claim"
+  },
+  {
+   "claim": "C-45",
+   "line": 11,
+   "term": "has not received",
+   "class": "CONSISTENT",
+   "note": "\"a party's filed statement of what it has and has not received\" — recording-layer framing, the corrected form"
+  },
+  {
+   "claim": "C-45",
+   "line": 22,
+   "term": "has not received",
+   "class": "CONSISTENT",
+   "note": "§0: Tier 1 only as to what counsel says he has and has not received; NOT as to report contents (also the C-20 two-class form)"
+  },
+  {
+   "claim": "C-45",
+   "line": 5,
+   "term": "Second Request for DNA",
+   "class": "CONSISTENT",
+   "note": "scope line names the source letter; the party-account caveat is carried at §1 line 27"
+  },
+  {
+   "claim": "C-45",
+   "line": 76,
+   "term": "not received",
+   "class": "CONSISTENT",
+   "note": "heading: \"WHAT THE DEFENCE SAID IT HAD NOT RECEIVED\" — attributed"
+  },
+  {
+   "claim": "C-45",
+   "line": 214,
+   "term": "not received",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-47",
+   "line": 48,
+   "term": "2025-01779-5",
+   "class": "CONSISTENT",
+   "note": "the letter's identifier as the letter gives it; §3 F-2 warns the Lab No. alone is ambiguous. SU-4130859 absent (enrichment, not stale)"
+  },
+  {
+   "claim": "C-47",
+   "line": 52,
+   "term": "2025-01779-5",
+   "class": "CONSISTENT",
+   "note": "as line 48 — the same Lab No. on the questioned-documents row is the F-2 point"
+  },
+  {
+   "claim": "C-47",
+   "line": 67,
+   "term": "2025-01779-5",
+   "class": "CONSISTENT",
+   "note": "F-2 bullet: the Lab No. carries two disciplines on two dates — the ambiguity C-47 cares about is the point being made"
+  },
+  {
+   "claim": "C-47",
+   "line": 214,
+   "term": "2025-01779-5",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-48",
+   "line": 39,
+   "term": "2025-01779-2",
+   "class": "CONSISTENT",
+   "note": "the two FBI DNA case files are two separate rows"
+  },
+  {
+   "claim": "C-48",
+   "line": 83,
+   "term": "2025-01779-2",
+   "class": "CONSISTENT",
+   "note": "both case files named separately as received"
+  },
+  {
+   "claim": "C-48",
+   "line": 187,
+   "term": "2025-01779-2",
+   "class": "CONSISTENT",
+   "note": "\"State's Exhibit 31 is among them\" — leaves which one open, as the corrected form does"
+  },
+  {
+   "claim": "C-48",
+   "line": 40,
+   "term": "2025-01779-12",
+   "class": "CONSISTENT",
+   "note": "as line 39"
+  },
+  {
+   "claim": "C-49",
+   "line": 214,
+   "term": "never restated",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-49",
+   "line": 205,
+   "term": "ceiling line",
+   "class": "CONSISTENT",
+   "note": "\"QUEUE.md's ceiling line is the single source of truth and is not restated here\" — pointed at, no values printed"
+  },
+  {
+   "claim": "C-53",
+   "line": 70,
+   "term": "submission-1 report",
+   "class": "STALE",
+   "note": "present-tense \"CR-E20 F-4 bounds ... to the submission-1 report\" + \"owed to CR-E20; not executed here\" — executed at CR-E20 v1.3"
+  },
+  {
+   "claim": "C-53",
+   "line": 203,
+   "term": "submission-1 report",
+   "class": "STALE",
+   "note": "§9 item 4 implies the \"submission-1 report\" phrasing still stands at F-4 and the fix is outstanding; also a bare `F-4` (C-68)"
+  },
+  {
+   "claim": "C-53",
+   "line": 214,
+   "term": "submission-1 report",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-61",
+   "line": 7,
+   "term": "ten pages",
+   "class": "RECORD",
+   "note": "quoted withdrawn \"ten pages\"; \"(d) The letter is eleven pages, not ten\" is the corrected form"
+  },
+  {
+   "claim": "C-61",
+   "line": 214,
+   "term": "ten pages",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-61",
+   "line": 216,
+   "term": "ten pages",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-62",
+   "line": 214,
+   "term": "fourteen laboratory reports",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-62",
+   "line": 35,
+   "term": "FOURTEEN",
+   "class": "RECORD",
+   "note": "RE-CUT note quotes \"Fourteen\"; live text is TWELVE + TWO case files + shoe = FIFTEEN items, 13 reports + 2 case files (P8: rows 3–14 = 12)"
+  },
+  {
+   "claim": "C-62",
+   "line": 216,
+   "term": "FOURTEEN",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-64",
+   "line": 214,
+   "term": "seventeen of eighteen",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-64",
+   "line": 216,
+   "term": "seventeen of eighteen",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-64",
+   "line": 78,
+   "term": "seventeen carry",
+   "class": "RECORD",
+   "note": "CORRECTED v1.1 note quotes \"seventeen carry the parenthetical\"; live text 14 unqualified / 16 by formula / 18 categories"
+  },
+  {
+   "claim": "C-65",
+   "line": 216,
+   "term": "18 − 3",
+   "class": "RECORD",
+   "note": "revision-log row 1.1"
+  },
+  {
+   "claim": "C-65",
+   "line": 78,
+   "term": "three stated exceptions",
+   "class": "RECORD",
+   "note": "\"18 minus its three stated exceptions\" describes the earlier form's arithmetic; four exception bullets follow (80–83), the fourth the FBI case files"
+  },
+  {
+   "claim": "C-66",
+   "line": 59,
+   "term": "four months",
+   "class": "STALE",
+   "note": "\"Four months later the preliminary hearing produced State's Exhibits 33 and 34\" — the withdrawn interval, uncorrected here"
+  },
+  {
+   "claim": "C-66",
+   "line": 94,
+   "term": "four months",
+   "class": "CONSISTENT",
+   "note": "\"three months and eleven days, not four months\" — the corrected form (P8 verified: 2026-03-25 → 2026-07-06)"
+  },
+  {
+   "claim": "C-66",
+   "line": 194,
+   "term": "four months",
+   "class": "STALE",
+   "note": "\"the hearing sat four months later\" — the withdrawn interval, uncorrected here"
+  },
+  {
+   "claim": "C-67",
+   "line": 214,
+   "term": "24 productions",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-68",
+   "line": 70,
+   "term": "F-4 SURVIVES",
+   "class": "STALE",
+   "note": "\"F-4 survives\" — bare token meaning CR-E20's F-4"
+  },
+  {
+   "claim": "C-68",
+   "line": 214,
+   "term": "F-4 SURVIVES",
+   "class": "RECORD",
+   "note": "revision-log row 1.0 (names removed v1.3; no withheld surname survives — masked check)"
+  },
+  {
+   "claim": "C-69",
+   "line": 164,
+   "term": "and it testified",
+   "class": "RECORD",
+   "note": "heading-correction note quotes \"and it testified\"; the heading (line 162) reads \"described on the hearing record\""
+  },
+  {
+   "claim": "C-69",
+   "line": 219,
+   "term": "it testified",
+   "class": "RECORD",
+   "note": "revision-log row 1.3"
+  },
+  {
+   "claim": "C-70",
+   "line": 170,
+   "term": "SECOND phone",
+   "class": "RECORD",
+   "note": "CORRECTED v1.3 note quotes \"SECOND phone\"; \"It is the SAME phone\" present"
+  },
+  {
+   "claim": "C-70",
+   "line": 219,
+   "term": "SECOND phone",
+   "class": "RECORD",
+   "note": "revision-log row 1.3"
+  },
+  {
+   "claim": "C-72",
+   "line": 26,
+   "term": "not one",
+   "class": "CONSISTENT",
+   "note": "\"NOT ONE ... with the single exception of the 2025-09-17 ATF firearms report, held and read at CR-E15\" — the corrected form"
+  }
+ ],
+ "notes": "Self-consistency pass on the origin file, judged from the file (status line v1.3; log runs to 1.4; 222 lines). Raw hits 125; unique claim/line pairs 125; classifications are per unique pair. Task-listed check points: F-1 count is the corrected FIFTEEN-items form (P8: rows 3–14 = 12 dated reports; +2 case files +1 shoe = 15; 13 reports + 2 case files) with D-70's 'one fewer' carried — consistent. F-2 ('no submission-1 report') is carried at line 70; its cross-file consequence is stale as an owed action (C-53). C-58: no stale carrier — the three bullet/toolmark reports are attributed to Exhibit F (rows 7–9, and §3's submission-1 list), and the Touhy letter appears only at lines 29 and 57 (the DNA-biologist three-vs-four count that is D-70); the table's 'Firearms / toolmark' label is the file's own discipline heading, not a claim about the filing's wording. C-17: nine sources at line 29 and the corrected §9 item 5 at 204; line 178's 'says' is a tense residue in a record note. C-18: accurate provenance statement at line 7; 'substantially unread' is compatible with it. C-66: corrected only at line 94; stale at 59 and 194 (hearing 2026-07-06 → 07-10 per CR-E14 line 74; 03-25 → 07-06 = 3 months 11 days). C-20: §0 line 22 carries the two-class form (Tier 1 as filed document and as to what counsel says he has and has not received; NOT as to report contents). Personnel-naming: role and report date only at lines 28, 113–114, 116, 142; a masked token-intersection check between the file and the filing's personnel passages (dc27998184.txt lines 1337–1375, 1756–1762, 1792–1793; only masked shapes printed, never a name) found every shared capitalised token to be a dictionary word, the defendant's surname, or the testifying ATF analyst named at line 81 — no withheld surname survives. Posture: lines 11–12 updated at v1.4; line 14's 'has not been bound over' was not (off_list). TJR-P01's no-number convention is a different file's rule and was not applied here. Cross-file facts used to settle borderline hits: CR-REVIEW §7 line 124 (prefix rule is per citation); CR-E20 v1.6 line 5 and row 1.3 (re-expression executed) and lines 42/57 (completeness null withdrawn, refused permanently). No file was edited."
+}
