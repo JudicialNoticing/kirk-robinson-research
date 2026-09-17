@@ -1,0 +1,140 @@
+{
+  "file": "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+  "file_version_read": "v1.2 (2026-09-16), 160 lines; worklist lines <=84 unchanged, lines >=86 shifted +2 by the 2026-09-16 posture note (line 86) and its blank line",
+  "hits_reviewed": 12,
+  "counts": {
+    "by_hit": {
+      "STALE": 2,
+      "RECORD": 3,
+      "CONSISTENT": 2,
+      "UNRELATED": 5,
+      "AMBIGUOUS": 0
+    },
+    "by_site": {
+      "STALE": 1,
+      "RECORD": 1,
+      "CONSISTENT": 2,
+      "UNRELATED": 5
+    },
+    "off_list": {
+      "AMBIGUOUS": 1
+    }
+  },
+  "hits": [
+    {
+      "claim": "C-01",
+      "term": "elsewhere in this library",
+      "line": 33,
+      "line_now": 33,
+      "heading": "§1 · Access-path caveats — row 'Private individuals'",
+      "class": "UNRELATED",
+      "why": "The row records that the documents' mother/father/family friend/roommate are unnamed and that 'the roommate's identity is established elsewhere in this library, not here'. No elimination-sample, DNA-donor or support-for-inclusion proposition appears anywhere in the file; the only DNA statement the file carries is the State's allegation about the defendant (§2.2, F-25). Grep hit on a generic phrase."
+    },
+    {
+      "claim": "C-05",
+      "term": "Living persons",
+      "line": 32,
+      "line_now": 32,
+      "heading": "§1 · Access-path caveats — row 'DELIBERATELY NOT REPRODUCED'",
+      "class": "CONSISTENT",
+      "why": "The living-persons handling names nobody and is cut to what this file actually touches: the defendant's address/DOB (withheld) and, in the next row, the unnamed private individuals the two filings describe. No banner naming people absent from the body; no DNA-donor formulation. Compatible narrower form of the C-05 correction."
+    },
+    {
+      "claim": "C-13",
+      "term": "medical examiner's report",
+      "line": 77,
+      "line_now": 77,
+      "heading": "§3 · Analyst layer — table row B-6",
+      "class": "CONSISTENT",
+      "why": "B-6 records, from the Information's own text, that the ME report was 'pending' as of 2025-09-16 and points at Q-51 / D-49. It does not enumerate a laboratory-report set and asserts nothing about what is held; a report pending in September 2025 and admitted as State's Exhibit 11 in July 2026 are compatible. Same for §1 'Not consulted' (line 34): a statement of this file's scope, not of library holdings."
+    },
+    {
+      "claim": "C-25",
+      "term": "No independent verification cycle has run / verification cycle has run on this file (2 hits, one site)",
+      "line": 147,
+      "line_now": 149,
+      "heading": "§6 · Residual scope — what this file did NOT do",
+      "class": "STALE",
+      "why": "See stale[0]."
+    },
+    {
+      "claim": "C-25",
+      "term": "no verification cycle has run / no verification cycle (2 hits, one site)",
+      "line": 156,
+      "line_now": 158,
+      "heading": "Revision log — row 1.0 (2026-08-14)",
+      "class": "RECORD",
+      "why": "Revision-log row, never edited; and true as written at v1.0 (the adversarial cycle is logged at row 1.1, same date, later)."
+    },
+    {
+      "claim": "C-28",
+      "term": "decisive artifact",
+      "line": 129,
+      "line_now": 131,
+      "heading": "§5 · Open items and register — row D-60",
+      "class": "UNRELATED",
+      "why": "'Decisive artifact: State's Exhibit 16.3 itself, and the photograph of the note' — the decisive artifact for D-60 (keyboard-note text), not the UBFS latent print report or F-1. Designator carries its owner (C-51 clean)."
+    },
+    {
+      "claim": "C-28",
+      "term": "decisive artifact",
+      "line": 130,
+      "line_now": 132,
+      "heading": "§5 · Open items and register — row D-61",
+      "class": "UNRELATED",
+      "why": "'Decisive artifact: the surveillance itself (unheld), or testimony on what each camera shows' — for D-61 (roof descent), not the latent print report."
+    },
+    {
+      "claim": "C-28",
+      "term": "decisive artifact",
+      "line": 134,
+      "line_now": 136,
+      "heading": "§5 · Open items and register — row 'NEW' (inscription renderings)",
+      "class": "UNRELATED",
+      "why": "'The decisive artifact is the physical cartridge or its photograph' — for the inscription-assignment variance, not the latent print report."
+    },
+    {
+      "claim": "C-49",
+      "term": "register ceiling",
+      "line": 156,
+      "line_now": 158,
+      "heading": "Revision log — row 1.0 (2026-08-14)",
+      "class": "RECORD",
+      "why": "Revision-log row recording this file's own dated ceiling check ('D-60 was genuinely free and the next free number is D-61'). Never edited. Not the CR-E19 owed-action sentence C-49 withdrew; the body (§5) points at the register and prints no ceiling."
+    },
+    {
+      "claim": "C-62",
+      "term": "FOURTEEN",
+      "line": 7,
+      "line_now": 7,
+      "heading": "Header — Status/version",
+      "class": "UNRELATED",
+      "why": "'fourteen corrections applied' is this file's own count of corrections from its 2026-08-14 adversarial cycle (14 CONFIRMED · 4 REFUTED · 8 PARTLY = 26 tested). Nothing to do with F-1's laboratory-report count."
+    }
+  ],
+  "stale": [
+    {
+      "claim": "C-25 (same defect class, native to this file — not propagated from CR-E19/E20/E21)",
+      "line": 147,
+      "line_now": 149,
+      "heading": "§6 · Residual scope — what this file did NOT do",
+      "current_sentence": "- ⚠️ **No independent verification cycle has run on this file. Its findings are `[PROVISIONAL]` and may not be cited elsewhere until one does.**",
+      "replacement": "- ⚠️ **One adversarial cycle has run on this file (2026-08-14, v1.1 — 26 claims tested). Its findings remain `[PROVISIONAL]` because the 66-item completeness harvest is banked and not yet integrated, and may not be cited elsewhere until it is.**",
+      "why": "The sentence is about CR-E08, and for CR-E08 it is contradicted by the file itself: the header (line 7) reads 'v1.1 (2026-08-14 — the adversarial cycle HAS now run: 26 claims tested, 14 CONFIRMED · 4 REFUTED · 8 PARTLY …) ⚠️ Findings remain [PROVISIONAL] — the completeness harvest (66 items) is banked and NOT yet integrated', and revision row 1.1 opens 'THE ADVERSARIAL CYCLE RAN — 26 claims tested'. Line 149 is the v1.0 sentence (mirrored verbatim in row 1.0) that v1.1 did not update, and it gives the withdrawn class of reason for the flag ('no cycle has run') where the header gives the corrected class (a cycle ran; the flag stands for another, stated reason). Replacement carries only the header's own form. Residual: the file does not say whether the 2026-08-14 cycle met the isolation rule; if the author holds it does not count as 'independent', keep that word but the sentence must still state the header's reason and not deny that the cycle ran."
+    }
+  ],
+  "ambiguous": [],
+  "off_list": [
+    {
+      "marker": "OFF-LIST",
+      "claim": "C-48 / C-32 class (over-designation of 'the State's DNA reports')",
+      "line_now": 104,
+      "heading": "§4 · Findings — F-25",
+      "class": "AMBIGUOUS",
+      "current_sentence": "On Day 5, the ATF analyst who authored the State's DNA reports **agreed that a headline of the form \"Mr. Robinson's DNA is found on this item\" is a source attribution and \"would not be scientifically defensible\"** (CR-E06, VERIFIED).",
+      "minimal_replacement_if_stale": "On Day 5, the ATF analyst who authored the ATF DNA reports **agreed that a headline of the form \"Mr. Robinson's DNA is found on this item\" is a source attribution and \"would not be scientifically defensible\"** (CR-E06, VERIFIED).",
+      "why": "Read literally, 'the ATF analyst who authored the State's DNA reports' says the ATF analyst authored all of the State's DNA reports; the library's record has two FBI DNA reports as well (Lab Nos. 2025-01779-2 and -12), which she did not author. The phrase is a witness identifier, not a document citation, and nothing else in the file touches the FBI reports. What would settle it: whether the author intends 'the State's DNA reports' to mean the ATF reports in evidence — if so, 'the ATF DNA reports' is the minimal fix; if the sentence is meant to identify the witness only, 'the ATF DNA analyst' does it without a report count. The revision-log echo at line 158 ('the State's own ATF analyst') is RECORD and asserts no authorship of all reports."
+    }
+  ],
+  "notes": "Read the whole file (160 lines, v1.2) before classifying; judged from the file, not the excerpts. Off-list grep for 'closed evidentiary', 'argument only', 'FBI', 'ATF report', 'elimination', 'three documents', \"record's own\", Matthew/Amber/Twiggs/Dremel, 'concordance', 'non-suspect' returns nothing except the line-104 candidate above — no C-57, C-48, C-32, C-03, C-02 or arrest-time-concordance carriers. Exhibit designators (State's Exhibit 16.3 ×3, StEx 16.1, StEx 16.3) all carry their owner (C-51 clean). Posture: the 🛠 owner's-ruling note of 2026-09-16 sits at line 86 beneath the §3 bullet 'Robinson has not been bound over'; the top banner (line 9) is date-stamped 'AS OF 2026-08-14' and carries no 🛠 note — true as of its date, not on this sweep's claim list, not flagged. No file edited."
+}

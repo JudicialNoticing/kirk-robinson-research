@@ -1,0 +1,194 @@
+{
+ "file": "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
+ "file_version_read": "log 1.2 (2026-09-16); header still says v1.1 — see off_list[0]",
+ "line_shift": "Worklist lines were computed before the 2026-09-16 commit 8910af3, which inserted a 2-line posture note at lines 18-19 and a 1.2 revision row at line 259. Re-anchoring by excerpt: worklist line 3 -> 3; lines 22..249 -> +2; the v1.0 log row 258 -> 261 (+3).",
+ "hits_reviewed": 15,
+ "distinct_lines": 12,
+ "counts": {
+  "STALE": 1,
+  "CONSISTENT": 5,
+  "UNRELATED": 8,
+  "RECORD": 1,
+  "AMBIGUOUS": 0
+ },
+ "stale": [
+  {
+   "claim": "C-48",
+   "line": 137,
+   "line_now": 139,
+   "heading": "§7 · Investigators and forensic examiners (roster table, row I-6)",
+   "current_sentence": "| **I-6** | **Amanda Bakker** — **FBI Laboratory, DNA Casework Unit**, Quantico; **author of the FBI DNA report** |",
+   "replacement": "| **I-6** | **Amanda Bakker** — **FBI Laboratory, DNA Casework Unit**, Quantico; **author of the FBI DNA report examined on Day 2 (State's Exhibit 31)** ⚠️ *the FBI DNA reports of record are TWO — Lab Nos. 2025-01779-2 and -12, distinguished by caption (CR-E21 §2 rows 1–2); which is Exhibit 31, and whether she authored both, is not established in this file* |",
+   "why": "The cell carries the singular, definite 'the FBI DNA report' — the undistinguished one-document form that C-48 withdrew (its notes target exactly this singular form). In this roster the singular reads as a count: the neighbouring I-8 cell counts 'three ATF DNA reports'. Two FBI DNA reports are of record (CR-E21 §2 rows 1-2, Lab Nos. 2025-01779-2 and -12). Testimony establishes the witness on ONE report: day2.txt 5321 'your report dated September 15th, 2025' (5337's 'two days later' is the same report, written two days after her call with the agents at 5329) and 8033 'your report, Plaintiff's 31'. So the replacement states the two-report record and leaves both open questions (which is Exhibit 31; whether she authored both) open rather than resolving them. Exhibit designator keeps its owner (C-51). Severity: low — a roster cell, no finding rests on it."
+  }
+ ],
+ "ambiguous": [],
+ "all_hits": [
+  {
+   "claim": "C-01",
+   "term": "elimination-sample donors",
+   "line": 22,
+   "line_now": 24,
+   "heading": "§0 · Rules this file is written under",
+   "class": "CONSISTENT",
+   "why": "A scope rule listing role categories out of the roster ('family members, the roommate, eyewitnesses, elimination-sample donors, the juvenile witness, and Rule 1102 written-statement declarants … only the role appears, never identifying detail'). No 'only as', no 'no inference may be drawn', no names, no result stated or withheld. Compatible with the corrected form, which still calls them elimination-sample donors; the results live at CR-E19/DNA-E01, not here."
+  },
+  {
+   "claim": "C-02",
+   "term": "elimination-sample donors",
+   "line": 22,
+   "line_now": 24,
+   "heading": "§0",
+   "class": "UNRELATED",
+   "why": "C-02's withdrawn form is an ABSENCE (one person's 1.4/1.6 results named without the other's). This passage names no person and states no forensic result, so it is not a carrier either way. Grep confirms the three names in C-01/C-02/C-05 occur nowhere in the file."
+  },
+  {
+   "claim": "C-05",
+   "term": "elimination-sample donors",
+   "line": 22,
+   "line_now": 24,
+   "heading": "§0",
+   "class": "CONSISTENT",
+   "why": "This IS the file's living-persons paragraph and it is already cut to what the file touches: roles only, no names, and the body never mentions the three people. The named laboratory examiners in §7 are sworn witnesses named from testimony (roster purpose), not banner boilerplate — see off_list[3] for the one quoted-passage edge case."
+  },
+  {
+   "claim": "C-10",
+   "term": "media counsel",
+   "line": 3,
+   "line_now": 3,
+   "heading": "File header (Scope)",
+   "class": "UNRELATED",
+   "why": "A list of participant categories in the scope line. Media counsel are a real category in this file (M-1…M-4, §6); D-4 is at §5 as defence counsel pro hac vice. No Novak-as-media-counsel proposition."
+  },
+  {
+   "claim": "C-10",
+   "term": "Media counsel",
+   "line": 118,
+   "line_now": 120,
+   "heading": "## §6 · Victim's side · Media counsel",
+   "class": "UNRELATED",
+   "why": "Section heading for the intervenor group's counsel (M-1…M-4). Not about D-4."
+  },
+  {
+   "claim": "C-10",
+   "term": "media counsel",
+   "line": 122,
+   "line_now": 124,
+   "heading": "§6",
+   "class": "CONSISTENT",
+   "why": "'M-1 … M-4 — media counsel for the intervenor group. None is a party.' The file's structure carries the corrected form: Richard G. Novak is D-4 in §5 (pro hac vice, order signed 2025-09-27, first in court 2025-09-29); media counsel are a separate M-series. Nothing puts D-4 in both."
+  },
+  {
+   "claim": "C-10",
+   "term": "media attorney",
+   "line": 196,
+   "line_now": 198,
+   "heading": "§10 · F-107 item 1 (third bullet)",
+   "class": "CONSISTENT",
+   "why": "The corrected form in full: the Rev string 'Richard Novak' = 596 occurrences resolving 3 (D-4, lines 445/461/469) + 589 (Officer Bagley, 641–6280) + 4 (counsel for the news media, 7733/7741/7753/7761) — sums check (P8). The passage says expressly 'This is not D-4, and not a second capacity of D-4', citing day5.txt 439. The holster (5182–5258) and screwdriver (3205–3281) passages are assigned to Bagley at lines 202–203."
+  },
+  {
+   "claim": "C-10",
+   "term": "media attorney",
+   "line": 210,
+   "line_now": 212,
+   "heading": "§10 · F-108",
+   "class": "UNRELATED",
+   "why": "A court minute entry (2026-02-24) listing a media attorney under 'Prosecutor:'. A docket-label failure about one of M-1…M-4; nothing to do with D-4."
+  },
+  {
+   "claim": "C-10",
+   "term": "media counsel (M-1) / no media attorney at all",
+   "line": 213,
+   "line_now": 215,
+   "heading": "§10 · F-109",
+   "class": "UNRELATED",
+   "why": "Two hits on one line, grouped. The unresolved 'Mr. Hunt' conflict between P-4 and M-1 in minute entries. Not about D-4."
+  },
+  {
+   "claim": "C-10",
+   "term": "media attorney",
+   "line": 237,
+   "line_now": 239,
+   "heading": "§11 · Scoped nulls",
+   "class": "UNRELATED",
+   "why": "'no media-counsel signature block is banked · one media attorney has no appearance found' — nulls about M-1…M-4."
+  },
+  {
+   "claim": "C-10",
+   "term": "media attorney",
+   "line": 258,
+   "line_now": 261,
+   "heading": "Revision log, v1.0 row",
+   "class": "RECORD",
+   "why": "Revision-log row; and its 'media attorney listed as Prosecutor:' is F-108, not D-4. Never to be edited."
+  },
+  {
+   "claim": "C-23",
+   "term": "repo-wide",
+   "line": 249,
+   "line_now": 251,
+   "heading": "§12 · Residual scope (v1.1 residual-scope paragraph)",
+   "class": "CONSISTENT",
+   "why": "A different null from CR-E19's F-7 (this one is the 'Novak' attribution scan), but it carries exactly the corrected pattern: 'scan of every `.md` file', dated 2026-08-30, with the .txt artifacts expressly excluded. The withdrawn pattern ('repo-wide' without its .md scope) is not present."
+  },
+  {
+   "claim": "C-48",
+   "term": "the FBI DNA report",
+   "line": 137,
+   "line_now": 139,
+   "heading": "§7 roster, I-6",
+   "class": "STALE",
+   "why": "See stale[0]."
+  },
+  {
+   "claim": "C-50",
+   "term": "the seven",
+   "line": 178,
+   "line_now": 180,
+   "heading": "§9 · Officials speaking publicly",
+   "class": "UNRELATED",
+   "why": "'announces the seven counts and the death-penalty notice' — the seven charged counts (consistent with the 2026-09-16 posture note's 'bound over on all seven counts'), not the review's seven owed items."
+  }
+ ],
+ "off_list": [
+  {
+   "kind": "STALE-adjacent (not a withdrawn-claim carrier) — header/log version mismatch",
+   "line_now": 3,
+   "heading": "File header",
+   "current_sentence": "**Status:** v1.1 *(completed 2026-08-30)*",
+   "replacement": "**Status:** v1.2 *(posture note 2026-09-16; completed 2026-08-30)*",
+   "why": "The revision log now carries a 1.2 row dated 2026-09-16 while the header still says v1.1. Same defect class as the status/log mismatch fixed in CR-E14 v1.5 this cycle."
+  },
+  {
+   "kind": "RECORD — posture (C-57 check)",
+   "line_now": 16,
+   "heading": "§0",
+   "note": "The pre-bindover posture sentence is retained under the 🛠 2026-09-16 posture note by the owner's ruling. The withdrawn C-57 phrase 'argument only, on a closed evidentiary record' does not occur in the file. Nothing to do."
+  },
+  {
+   "kind": "AMBIGUOUS (low priority)",
+   "line_now": 169,
+   "heading": "§8",
+   "current_sentence": "the held docket stops at 2026-03-15 with the hearing then set for May",
+   "what_would_settle_it": "Whether a docket printout later than 2026-03-15 is now banked. The 2026-09-16 posture note records a signed bindover order held at Tier 1, but that is a standalone artifact, not a docket printout; I found none later than the 2026-08-14C XChange pull. If one is banked, date-stamp the sentence ('as of 2026-08-16'); otherwise it is still true as a statement about held printouts."
+  },
+  {
+   "kind": "AMBIGUOUS (low priority) — laboratory-personnel convention",
+   "line_now": 227,
+   "heading": "§10 · Garble-normalisation list (the 'Carmack' non-merge)",
+   "note": "The paragraph quotes a laboratory case-file note read aloud on Day 2 that names two surnames 'of unstated role'; one is the I-11 rendering variant the paragraph exists to keep un-merged, the other is a laboratory/agency person who never testified. Not reproduced here. C-05's corrected form ('laboratory personnel by role and report date only') is scoped to the CR-E20/CR-E21 living-persons banners; whether it reaches a quoted transcript passage in the roster file is the owner's call. Settle by ruling on the convention's reach; if it reaches, replace the second surname with '[a second surname]'."
+  },
+  {
+   "kind": "NOTE — checked, not stale",
+   "line_now": 141,
+   "heading": "§7 roster, I-8",
+   "note": "'author of three ATF DNA reports' vs CR-E21 §2 rows 3–6 listing FOUR ATF DNA reports. Not flagged: day5.txt 855, 863, 1215, 1335 put 'all three of your reports' to the witness, so three is the authorship count and the census's fourth may have another author. Left as is."
+  },
+  {
+   "kind": "NOTE — C-55 / C-51 checked, consistent",
+   "note": "§8 line 162: Karner (I-7) called by Defence, direct by Burt; F-105 (line 146) says all three laboratory examiners were called by the defence — consistent with C-55. The only exhibit designator in the body is 'State's Exhibit 3.1' (line 202), which carries its owner (C-51)."
+  }
+ ],
+ "notes": "Method: read all 261 lines directly (sed/awk), re-anchored every hit by excerpt, and grepped the file for the three C-01/02/05 names (0 hits), 'Exhibit' (1, owned), 'closed evidentiary'/'argument' (0), and '01779' (0). External checks made only to write the C-48 replacement without overclaiming: CR-E21 §2 rows 1–6 (two FBI DNA reports, no author recorded; four ATF DNA reports), day2.txt 5313–5345 and 8033 (one report, dated 2025-09-15, Plaintiff's 31), day5.txt 855–1335 ('all three of your reports'). No file was edited. No name the hit list treats as withheld is written in this report; the three C-05 names are referred to by role, and the non-witness surname at line 227 is not reproduced. Isolation: classifications were made from the file text, not from the worklist excerpts. Residual: I did not re-verify any roster fact, bar number, line citation or count outside the hit passages beyond the P8 sum at §10 item 1 (3+589+4=596, checks)."
+}

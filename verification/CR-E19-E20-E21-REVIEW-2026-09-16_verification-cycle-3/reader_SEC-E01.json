@@ -1,0 +1,170 @@
+{
+  "file": "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+  "reader": "cycle-3 propagation sweep, 2026-09-16; judged from the file (read in full, 511 lines), not from the worklist excerpts",
+  "line_reanchoring": "Worklist lines were computed before the 2026-09-16 insertions. Current offsets: +0 for lines <= 8; +1 from line 9 (posture note under the banner); +3 from line 435 (blank + posture note under §8.4); +4 from line 509 (v1.2 revision row). Every hit was re-anchored by its excerpt phrase: 6->6, 8->8, 121->122, 188->189, 194->195, 335->336, 352->353, 424->425, 432->433, 450->453, 491->494, 498->501, 506->510, 507->511.",
+  "hits_reviewed": 19,
+  "counts": {
+    "STALE": 1,
+    "CONSISTENT": 8,
+    "RECORD": 0,
+    "UNRELATED": 10,
+    "AMBIGUOUS": 0,
+    "note_on_counts": "One primary label per hit. Three of the UNRELATED hits (C-23 and C-28 at 506->510; C-17 at 507->511) sit inside revision-log rows, i.e. RECORD locations never to be edited; they are counted UNRELATED because the passage does not carry the withdrawn proposition at all, and either label yields no edit. Duplicates grouped by line: C-25 x2 at line 6, C-13 x2 at line 425, C-25 x3 at line 501, C-23+C-28 at line 510.",
+    "off_list_stale": 3
+  },
+  "stale": [
+    {
+      "claim": "C-57",
+      "line": 8,
+      "line_now": 8,
+      "heading": "File header — case-posture banner (above §0)",
+      "current_sentence": "> 🚨 **CASE POSTURE, VERIFIED 2026-08-17. TYLER ROBINSON HAS NOT BEEN BOUND OVER.** The preliminary hearing is **UNFINISHED**: 2026-07-06 → 07-10 were five days **of evidence**; **2026-09-01 is its last day — ARGUMENT ONLY, on a closed evidentiary record.** The hearing did **not** \"conclude\" on 07-10. **The presumption of innocence is absolute.**",
+      "replacement": "Replace only the bold clause **2026-09-01 is its last day — ARGUMENT ONLY, on a closed evidentiary record.** with **2026-09-01 is its last day — set for argument.** (nothing else in the line changes; if the typographic weight is wanted, **SET FOR ARGUMENT** is equivalent).",
+      "why": "Both 'ARGUMENT ONLY' and 'on a closed evidentiary record' carry the withdrawn inference: the court said only that the matter was continued for argument (C-57 corrected form: 'set for argument'). The 🛠 posture note inserted beneath at line 9 records the 2026-09-16 bindover ruling and does not cure this clause — the clause is not a posture statement true as of its date but an inference that was never carried by the record. The remainder of the banner (HAS NOT BEEN BOUND OVER / UNFINISHED / five days of evidence) is a dated posture statement retained as written under the owner's 2026-09-16 ruling (v1.2 row) and is not a C-57 matter."
+    }
+  ],
+  "consistent": [
+    {
+      "claim": "C-25 (x2 — terms 'No independent verification cycle has run' and 'verification cycle has run on this file')",
+      "line": 6,
+      "line_now": 6,
+      "heading": "File header — Status line",
+      "current_sentence": "**Prepared:** 2026-08-17 · **Status:** **v1.1 · `[PROVISIONAL]`** — no independent verification cycle has run on this file.",
+      "why": "The sentence is about SEC-E01, not CR-E19/E20/E21. Checked on disk: no verification bank has SEC-E01 as its subject (verification/ holds TJR cycle-1, the 09-16 reconstruction workflow, and this cycle-3; the two JSON files that mention SEC-E01 do so only as the origin of F-117), and the cycle-3 README lists SEC-E01 among the files 'remaining' — this propagation sweep is the first pass to touch it and is not an independent cycle of its claims. The proposition is true of this file. (See OFF-LIST item 1 for the separate v1.1/v1.2 version mismatch on the same line.)"
+    },
+    {
+      "claim": "C-13 (x2 — terms 'Exhibit 11' and 'medical examiner's report')",
+      "line": 424,
+      "line_now": 425,
+      "heading": "§8.3 ✅ The measured nulls — row N-10",
+      "current_sentence": "| **N-10** | **No wound-characteristics or range-of-fire evidence is held** | State's Exhibit 11, the medical examiner's report, was **admitted with publication DENIED** | Bounds any claim about the shot's origin resting on wound morphology. **This file makes none** |",
+      "why": "Carries the corrected identification (State's Exhibit 11 = the medical examiner's report; admitted; publication denied) and never stated the withdrawn five-row 30–34 set. Designator carries its owner (C-51 satisfied)."
+    },
+    {
+      "claim": "C-13 (term 'medical examiner's report')",
+      "line": 491,
+      "line_now": 494,
+      "heading": "§11 Residual scope",
+      "current_sentence": "- **It did not read the medical examiner's report** (admitted, publication denied) and **makes no claim resting on wound characteristics.**",
+      "why": "A residual-scope statement about this file's own reading; it carries the corrected status of Exhibit 11 (admitted, publication denied) and makes no claim about the laboratory-report set."
+    },
+    {
+      "claim": "C-25 (x3 — terms 'No independent verification cycle has run', 'verification cycle has run on this file', 'until one has')",
+      "line": 498,
+      "line_now": 501,
+      "heading": "§11 Residual scope — last bullet",
+      "current_sentence": "- ⚠️ **`[PROVISIONAL]` — no independent verification cycle has run on this file.** Under LOOP §2 nothing here may be cited by another file, propagated into a topic folder, or used to resolve a register entry until one has. **Aim the verification pass at F-117** (a claim about another file's text), at **F-121** (an unresolved two-reading item), and at **the §8.3 null battery**, whose scope statements are the load-bearing part.",
+      "why": "Same proposition as line 6, about SEC-E01 itself; true of this file on the disk check described above. The withdrawn form is withdrawn only for CR-E19/E20/E21."
+    }
+  ],
+  "unrelated": [
+    {
+      "claim": "C-72 (term 'not one')",
+      "line": 121,
+      "line_now": 122,
+      "heading": "§2.5 ✅ N-1 — a measured null",
+      "current_sentence_fragment": "**Not one carries a personal name.**",
+      "why": "About references to the private security team carrying no personal name; lexical coincidence with 'No laboratory report has been read. Not one.' The file nowhere says any laboratory report is unread (grep: 'laboratory report' / 'lab report' / 'ATF report' = 0 hits)."
+    },
+    {
+      "claim": "C-61 (term '10-page')",
+      "line": 188,
+      "line_now": 189,
+      "heading": "§3.5 The Losee building's physical access",
+      "current_sentence_fragment": "at page 5 of the 10-page Information filed 2025-09-16",
+      "why": "C-61 concerns the Exhibit F letter (eleven pages, not ten) in CR-E19. This clause counts a different document, the 2025-09-16 Information; checked against the banked artifact 2025-09-16_information-charging-document_dc27880532.pdf (mdls kMDItemNumberOfPages = 10) and CR-E08 §Scope ('10 pp.'). The same count recurs at line 301 ('Information, 2025-09-16 (10 pp.)'), also consistent."
+    },
+    {
+      "claim": "C-17 (term 'three sources')",
+      "line": 194,
+      "line_now": 195,
+      "heading": "§3.6 heading (D-73)",
+      "current_sentence_fragment": "### 3.6 🚨 D-73 — THE BARRIER IS DESCRIBED THREE DIFFERENT WAYS BY THREE SOURCES, TWO OF THEM THE STATE'S OWN",
+      "why": "C-17 concerns CR-E19's 'only three sources were read' (Exhibit F/G/Addendum 2). Here 'three sources' are the Information, the PC affidavit and Officer Bagley describing the barrier — a different proposition entirely."
+    },
+    {
+      "claim": "C-72 (term 'not one')",
+      "line": 335,
+      "line_now": 336,
+      "heading": "§6.5 ✅ N-3 — the defence brief never mentions the Hall of Flags",
+      "current_sentence_fragment": "**not one quoted State position invokes the Hall of Flags**",
+      "why": "Lexical coincidence; about the defence brief's quotations of the State's brief."
+    },
+    {
+      "claim": "C-72 (term 'not one')",
+      "line": 352,
+      "line_now": 353,
+      "heading": "§7.1 🚨 UVU Police Chief Jeff Long, 2025-09-10",
+      "current_sentence_fragment": "🚨 **WHAT HE CONCEDED, PRECISELY — TWO THINGS, NOT ONE, AND THE FILE STATES BOTH.**",
+      "why": "Lexical coincidence; about the two components of Chief Long's concession."
+    },
+    {
+      "claim": "C-01 (term 'anything whatever')",
+      "line": 432,
+      "line_now": 433,
+      "heading": "§8.4 What else this file expressly does not establish",
+      "current_sentence_fragment": "- ❌ **Anything whatever about Mr. Robinson's guilt or innocence.** He is presumed innocent, and **has not been bound over.**",
+      "why": "C-01 concerns the elimination-sample donors' 'not accused of anything whatever' framing in CR-E19. This bullet is about the defendant's guilt or innocence; the file names no elimination-sample donor anywhere (grep: Amber / Matthew Robinson / Twiggs = 0). The trailing 'has not been bound over' is a dated posture clause retained as written under the owner's 2026-09-16 ruling, with the 🛠 posture note directly beneath (line 435); not flagged."
+    },
+    {
+      "claim": "C-17 (term 'three sources')",
+      "line": 450,
+      "line_now": 453,
+      "heading": "§9.1 Findings — D-73",
+      "current_sentence_fragment": "**D-73 — 🚨 THE BARRIER AT THE SHOOTING POSITION IS DESCRIBED THREE DIFFERENT WAYS BY THREE SOURCES, TWO OF THEM THE STATE'S OWN**",
+      "why": "As line 195: the barrier-description divergence, not CR-E19's source count."
+    },
+    {
+      "claim": "C-23 (term 'repo-wide')",
+      "line": 506,
+      "line_now": 510,
+      "heading": "Revision log — v1.1 row (RECORD location, never to be edited)",
+      "current_sentence_fragment": "Q-180 verified free repo-wide before assignment, by grep and by reading the hits.",
+      "why": "C-23 concerns CR-E19 F-7's scoped null stated as 'repo-wide' without its .md scope, and an unsourced 'one day before the report date'. This is a different null (a register-number availability check) and §9's preamble states its scope ('across all 81 repository .md files as of 2026-08-17'). In a revision-log row."
+    },
+    {
+      "claim": "C-28 (term 'decisive artifact')",
+      "line": 506,
+      "line_now": 510,
+      "heading": "Revision log — v1.1 row (RECORD location, never to be edited)",
+      "current_sentence_fragment": "Q-176 cross-referenced to Q-53, whose decisive artifact it shares",
+      "why": "C-28 concerns the UBFS latent print report being called 'the decisive artifact' for F-1 in CR-E19. Here the artifact is Officer Bagley's body-worn camera (Q-176/Q-53). In a revision-log row."
+    },
+    {
+      "claim": "C-17 (term 'three sources')",
+      "line": 507,
+      "line_now": 511,
+      "heading": "Revision log — v1.0 row (RECORD location, never to be edited)",
+      "current_sentence_fragment": "⚠️ **D-73 opened: the barrier at the shooting position is described three different ways by three sources, two of them the State's own.**",
+      "why": "As line 195; and in a revision-log row."
+    }
+  ],
+  "ambiguous": [],
+  "off_list": [
+    {
+      "marker": "OFF-LIST — STALE (status/log mismatch; not a C-claim)",
+      "line_now": 6,
+      "heading": "File header — Status line",
+      "current_sentence": "**Prepared:** 2026-08-17 · **Status:** **v1.1 · `[PROVISIONAL]`** — no independent verification cycle has run on this file.",
+      "replacement": "**Prepared:** 2026-08-17 · **Status:** **v1.2 · `[PROVISIONAL]`** — no independent verification cycle has run on this file.",
+      "why": "The revision log carries a **1.2 | 2026-09-16** row (posture note added) but the header still reads v1.1 — the same status/log mismatch class corrected in CR-E14 in batch 2. The [PROVISIONAL] flag and its reason are unaffected (see the C-25 CONSISTENT entries)."
+    },
+    {
+      "marker": "OFF-LIST — STALE by supersession (a claim about another file's status, asserted as current in a heading; not a C-claim)",
+      "line_now": "75 (heading) and 77 (body)",
+      "heading": "§1.7 ⚠️ The sibling file is PROVISIONAL and is NOT relied on here",
+      "current_sentence": "L75: ### 1.7 ⚠️ The sibling file is PROVISIONAL and is NOT relied on here  ||  L77: `files - Event security/SEC-E02_security-team-allegations-assessment.md` (v1.0, 2026-08-17) is marked **`[PROVISIONAL]`**. Under LOOP §2, **a provisional finding may not be cited by another file, propagated into a topic folder, or used to resolve a register entry.** **Nothing in SEC-E02 is cited, relied on, or assumed anywhere in SEC-E01.**",
+      "replacement": "Minimal: heading → '### 1.7 ⚠️ The sibling file was PROVISIONAL when this file was written and is NOT relied on here'; body → append after the first sentence: '🛠 SEC-E02 was VERIFIED at v1.1 (Q-164, 2026-08-20; now v1.2). This file still cites it for nothing.' Nothing else changes.",
+      "why": "Checked on disk 2026-09-16: SEC-E02's header reads 'v1.2 · VERIFIED (Q-164, 2026-08-20) — the independent cycle has run'. SEC-E01's body line is dated by its parenthetical '(v1.0, 2026-08-17)', but the heading asserts PROVISIONAL as a present-tense fact, and the LOOP §2 bar it invokes no longer applies to SEC-E02. The non-reliance decision itself (a scope choice) can stand; only the status claim is stale. The §11 bullet at line 500 ('It did not rely on SEC-E02 for anything (§1.7)') is a true residual-scope statement and needs no change."
+    },
+    {
+      "marker": "OFF-LIST — STALE (internal: contradicted by the file's own F-117 and v1.1 row; not a C-claim)",
+      "line_now": 460,
+      "heading": "§9.2 Open questions — row Q-172",
+      "current_sentence": "| **Q-172** | 🚨 **The five scope-flattening lines in `CR-E05` (F-117) are STILL UNCORRECTED**, plus the drones line in `kirk-shooting-official-timeline.md` | Rewrite to the witness-scoped form, add the 01:02:41 direct-examination assignment as the internal counterweight, add a correcting note to the v1.0 revision-log row **rather than editing it silently**, bump the version |",
+      "replacement": "Replace '**The five scope-flattening lines in `CR-E05` (F-117) are STILL UNCORRECTED**, plus the drones line in `kirk-shooting-official-timeline.md`' with '**The five scope-flattening lines in `CR-E05` (F-117) — CORRECTED 2026-08-20 (Q-172 executed; CR-E05 v1.4)**, plus the drones line in `kirk-shooting-official-timeline.md` (rescoped the same day)'. Nothing else changes; the 'what would answer it' cell stands as the record of what was done.",
+      "why": "F-117 at line 446 reads 'THE CORRECTION WAS APPLIED 2026-08-20 — Q-172 executed: CR-E05 v1.4 rescopes all five sites', the v1.1 revision row says 'Later the same session, Q-172 was executed', and QUEUE.md marks Q-172 DONE 2026-08-20 (per the TJR cycle-1 p5 note). The v1.1 pass updated F-117 but not this §9.2 row — a table cell asserting as current a proposition the same file says is closed. The §11 bullet at line 497 ('It did not apply the F-117 corrections to CR-E05 (Q-172)') is true of this file's own actions and needs no change."
+    }
+  ],
+  "notes": "RULES CHECKED ACROSS THE WHOLE FILE, NOT ONLY AT THE HITS. C-51: all five exhibit designators carry their owner ('State's Exhibit(s)' at lines 70, 223, 319, 323, 425); no bare 'Exhibit N' and no Exhibit F/G references in this file. C-32: 'ATF report' / 'laboratory report' / 'firearms report' = 0 occurrences. C-05: the living-persons paragraph (line 11) names no individual; its subjects (Mr. Kirk's team by role, UVU PD, its chief, its officers) are all touched by the body; no elimination-sample donor is named anywhere. C-72: the file never says a laboratory report is unread. Checked and cleared, recorded so no one re-derives it: §1.6 row 2 (line 70) is headed 'Every exhibit' with an enumerated list (State's 1, 2, 7, 8, 9, 11, 12.1–12.4, video) that omits State's Exhibit 32; the library's own position is that the held 2025-09-17 ATF firearms report (2025-W-000401) is Exhibit 32 only by Medium-high inference (CR-E15 F-139) and that 'State's Exhibit 32 as admitted is not held' (CR-E15 line 266), so the row is not contradicted and is not a C-72 carrier; §11's 'It did not view or read a single exhibit' is a true statement about this file's own process. POSTURE: the banner's 'HAS NOT BEEN BOUND OVER' / 'UNFINISHED' (line 8), the §8.4 'has not been bound over' (line 433), and the future-tense 2026-09-01 references at lines 37 and 483 are dated statements retained as written under the owner's 2026-09-16 ruling with 🛠 notes at lines 9 and 435; not flagged. Only the C-57 clause on line 8 is flagged, because it is a withdrawn inference rather than a dated fact. ISOLATION: classifications were made from the file's text and from disk checks (verification/ banks, SEC-E02 header, CR-E15/CR-E20, CR-E08, the Information PDF page count); the worklist excerpts were used only to locate hits. No file was edited; no withheld name was written."
+}

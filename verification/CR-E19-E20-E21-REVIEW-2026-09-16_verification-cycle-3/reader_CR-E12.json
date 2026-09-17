@@ -1,0 +1,185 @@
+{
+  "file": "files - Court record/CR-E12_closure-classification-and-sealing-map.md",
+  "reader": "cycle 3 propagation sweep, 2026-09-16",
+  "hits_reviewed": 12,
+  "distinct_sites": 11,
+  "line_reanchoring": "Worklist lines were computed before two posture notes (now lines 24-25 and 216-217) and one revision row (now line 227) were inserted on 2026-09-16 (commit 8910af3). Offset: +0 for line 5; +2 for every hit between the first posture note and the second (worklist 45->47, 71->73, 86->88, 94->96, 102->104, 120->122, 155->157, 170->172, 182->184); +4 for the revision-log hit (220->224). Every hit re-anchored by its excerpt phrase; all found.",
+  "counts": {
+    "STALE": 0,
+    "CONSISTENT": 1,
+    "RECORD": 1,
+    "UNRELATED": 10,
+    "AMBIGUOUS": 0
+  },
+  "counts_by_claim": {
+    "C-10": {
+      "hits": 4,
+      "UNRELATED": 4
+    },
+    "C-13": {
+      "hits": 1,
+      "CONSISTENT": 1
+    },
+    "C-25": {
+      "hits": 1,
+      "UNRELATED": 1
+    },
+    "C-62": {
+      "hits": 1,
+      "UNRELATED": 1
+    },
+    "C-72": {
+      "hits": 5,
+      "UNRELATED": 4,
+      "RECORD": 1
+    }
+  },
+  "stale": [],
+  "ambiguous": [],
+  "hits": [
+    {
+      "claim": "C-25",
+      "line": 5,
+      "line_now": 5,
+      "heading": "file header (below the title/ID line, above §0.1 PROVISIONAL DEPENDENCIES)",
+      "current_sentence": "⚠️ **Findings `[PROVISIONAL]`.** Sourced from the 2026-08-16 reader pass; raw report banked at `CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q70-completion-six-reader-reports_RAW.md`. **No independent verification cycle has run** → **Q-91**.",
+      "classification": "UNRELATED",
+      "why": "The sentence is about CR-E12 itself, not CR-E19/E20/E21. C-25 is withdrawn only for those three files (two cycles ran 2026-08-30). For CR-E12 the statement is still true as checked today: Q-91 ('Verification cycle on CR-E12') sits at status 'ready' in QUEUE.md line 231; §0.1 of this file still names Q-91 as its clearing item; no bank under verification/ targets CR-E12 (the CR-E12 mentions in the TJR cycle-1 bank are TJR-P01 citing CR-E12 as a source, not a cycle run on it). A cycle-3 propagation reading is not the independent cycle Q-91 asks for (Q-91 is aimed at the [X] rows and N-3)."
+    },
+    {
+      "claim": "C-10",
+      "line": 71,
+      "line_now": 73,
+      "heading": "§2 · THE CLOSURE MAP (table row 2026-01-16, Oral argument, disqualification)",
+      "current_sentence": "| **2026-01-16** | **Oral argument, disqualification** | **Close the hearing** | **State moved; defence \"not opposed\"; media counsel heard** | 🚨 **COURT DENIED** blanket closure; will proceed **\"on a witness by witness basis as to closure.\"** State sought reconsideration; **court refused** | 🚨 **Origin of witness-level granularity** | [X] | High |",
+      "classification": "UNRELATED",
+      "why": "Term collision on 'media counsel'. The cell names no one; it records, from the XChange docket [X], that counsel for the media was heard at the 2026-01-16 disqualification argument. C-10 concerns the Rev 'Richard Novak' label in day1.txt (the July preliminary hearing) and the misattribution of the news-media attorney's turns to Mr. Novak. Different hearing, different source, no person named. 'Novak' appears nowhere in this file (grep)."
+    },
+    {
+      "claim": "C-10",
+      "line": 94,
+      "line_now": 96,
+      "heading": "§4 · F-63 — The witness-by-witness rule originates 2026-01-16, not 2026-02-03",
+      "current_sentence": "At the 2026-01-16 hearing the **State moved to close**; the **defence stated it was not opposed**; media counsel was heard; and the **court denied the request**, stating it would take the matter *\"on a witness by witness basis as to closure.\"* The State sought reconsideration and the court's position was unchanged.",
+      "classification": "UNRELATED",
+      "why": "Same passage as line 73 in prose form: unnamed media counsel at the 2026-01-16 hearing, sourced to the docket. Carries no identification of who media counsel was and nothing about Mr. Novak."
+    },
+    {
+      "claim": "C-10",
+      "line": 120,
+      "line_now": 122,
+      "heading": "§6.3 F-66 — The media hold a real access tier short of intervention",
+      "current_sentence": "**Closure motions are therefore visible to media counsel and to no one else** — a tier between public and sealed.",
+      "classification": "UNRELATED",
+      "why": "'Media counsel' here is the generic beneficiary class of the 2026-02-23 attorneys'-eyes-only order (the news media's lawyers). No person is named or identified; nothing touches the Rev-label question."
+    },
+    {
+      "claim": "C-10",
+      "line": 182,
+      "line_now": 184,
+      "heading": "§10 · Living-persons and PII",
+      "current_sentence": "- **Media counsel's email addresses** appear in a certificate of service and are not reproduced.",
+      "classification": "UNRELATED",
+      "why": "A PII-withholding note about a certificate of service on a filed document. Generic 'media counsel'; names no one; unrelated to the day1.txt speaker-label misattribution."
+    },
+    {
+      "claim": "C-13",
+      "line": 102,
+      "line_now": 104,
+      "heading": "§5 · F-64 — OPEN ≠ OBSERVABLE, and no closure order is responsible for it",
+      "current_sentence": "It bears directly on **Q-51 / State's Exhibit 11 (the ME report)**, on **Q-67**'s fifteen exhibit designators, and on **Exhibit 12.1**, which CR-ACQ §8 already records as admitted but withheld from publication.",
+      "classification": "CONSISTENT",
+      "why": "Carries the corrected identification: State's Exhibit 11 = the medical examiner's report, with the owner designator (C-51-compliant). It does not state the laboratory-report set, the 30–34 five-row map, or a census absent forensic pathology — the withdrawn C-13 form is absent. 'Fifteen exhibit designators' is a Q-67 count of designators in the transcripts, not the C-62 forensic-item census (coincident number, different referent). NOTE the bare 'Exhibit 12.1' in the same sentence — see off_list (C-51 rule)."
+    },
+    {
+      "claim": "C-62",
+      "line": 155,
+      "line_now": 157,
+      "heading": "§8.2 The \"2-13-2026\" minute order — RESOLVED",
+      "current_sentence": "🛠 **CORRECTED 2026-08-16 (R2): February 2026 actually runs 02-02 → 02-26, fourteen distinct dates. The true fact is a GAP between 02-12 and 02-19. The conclusion (no 02-13 entry) survives; the stated basis did not — and 12 of the 14 February dates fall outside the range as written, including 02-23/02-24 which carry the disqualification denial.**",
+      "classification": "UNRELATED",
+      "why": "Term collision named in the brief: 'fourteen' here counts distinct February 2026 docket DATES. C-62 is about the forensic-item census in the discovery letter (fourteen reports vs fifteen items). Also sits inside a 🛠 CORRECTED note (record-type text), which would bar editing in any case."
+    },
+    {
+      "claim": "C-72",
+      "line": 45,
+      "line_now": 47,
+      "heading": "§1 · Access-path caveats, first (table row 'Not held')",
+      "current_sentence": "| **Not held** | ⚠️ **NOT ONE ruling on ANY closure or classification motion is held by this project** (§8 N-4). The rulings exist and are named on the docket. This map records what was *sought* and, where the docket says so, what was *ordered* — but it reads no order's terms. |",
+      "classification": "UNRELATED",
+      "why": "Term collision named in the brief: 'not one' about closure/classification RULINGS, not laboratory reports. C-72 (the ATF firearms report is held and read) has no bearing. No 'laboratory' string occurs anywhere in this file (grep). HOWEVER this sentence is stale on the file's OWN terms — it is the absolute form of N-4 that v1.1 narrowed at §9 — see off_list item OL-1."
+    },
+    {
+      "claim": "C-72",
+      "line": 86,
+      "line_now": 88,
+      "heading": "§3 · F-62 (section heading)",
+      "duplicate_hits_grouped": 2,
+      "terms": [
+        "Not one.",
+        "not one"
+      ],
+      "current_sentence": "## §3 · F-62 — Closure here operates at FIVE granularities, not one. Confidence: High.",
+      "classification": "UNRELATED",
+      "why": "Two worklist hits ('Not one.' and 'not one') land on the same heading. 'Not one' counts granularity LEVELS — the term collision the brief names. Nothing about laboratory reports."
+    },
+    {
+      "claim": "C-72",
+      "line": 170,
+      "line_now": 172,
+      "heading": "§9 · Scoped nulls (N-4, NARROWED 2026-08-16)",
+      "current_sentence": "*(Original:)* **NOT ONE ruling on ANY closure or classification motion is held.**",
+      "classification": "UNRELATED",
+      "why": "Term collision ('not one' about closure rulings). Additionally this is the retained ORIGINAL text inside a 🛠 NARROWED note that itself records the withdrawal of the absolute form — record-type text, never to be edited."
+    },
+    {
+      "claim": "C-72",
+      "line": 220,
+      "line_now": 224,
+      "heading": "Revision log (v1.0 row)",
+      "current_sentence": "**Corrects two of this library's own findings:** CR-E10 F-36 is under-scoped (closure runs at five granularities, not one) and mis-dates the witness-by-witness rule's origin (2026-01-16, not 02-03 — and the court imposed it *against* unanimous party stipulation).",
+      "classification": "RECORD",
+      "why": "A revision-log row (never edited); and the phrase is the granularity term collision, not a laboratory-report statement."
+    }
+  ],
+  "off_list": [
+    {
+      "id": "OL-1",
+      "kind": "OFF-LIST — stale carrier of the FILE'S OWN narrowed null (N-4), not a C-list claim",
+      "line_now": 47,
+      "heading": "§1 · Access-path caveats, first (table row 'Not held')",
+      "current_sentence": "⚠️ **NOT ONE ruling on ANY closure or classification motion is held by this project** (§8 N-4). The rulings exist and are named on the docket. This map records what was *sought* and, where the docket says so, what was *ordered* — but it reads no order's terms.",
+      "replacement": "⚠️ **No ruling on any WRITTEN closure or classification motion is held by this project, and no closure ruling's TERMS are held anywhere** (§9 N-4 — the 2026-02-03 minute order `dkt413` is held and records two dispositions on ORAL requests, without terms). The rulings exist and are named on the docket. This map records what was *sought* and, where the docket or `dkt413` says so, what was *ordered* — but it reads no order's terms.",
+      "why": "v1.1 narrowed N-4 at §9 line 172 ('The absolute form was wrong: the 2026-02-03 minute order (dkt413) IS held … DOES record two closure dispositions') and expressly says '§1's gloss — where the docket says so, what was ordered — is also inaccurate for the 02-03 rows'. §1 was annotated as wrong but never edited (annotating is not editing). The pointer '(§8 N-4)' is also wrong: N-4 lives in §9 Scoped nulls; §8 is the contradictions section (line 110 cites '§9 N-4' correctly)."
+    },
+    {
+      "id": "OL-2",
+      "kind": "OFF-LIST — same N-4 absolute form, file's own",
+      "line_now": 191,
+      "heading": "§11 · Findings, resolutions and open items",
+      "current_sentence": "**What it cannot do is state outcomes**, because no closure ruling is held (N-4).",
+      "replacement": "**What it cannot do is state the terms of any outcome**, because no ruling on a written closure motion is held and no closure ruling's terms are held (N-4).",
+      "why": "§2 itself states two 2026-02-03 outcomes at [D] High from the held `dkt413`; 'no closure ruling is held' is the absolute form N-4 withdrew."
+    },
+    {
+      "id": "OL-3",
+      "kind": "OFF-LIST — same N-4 absolute form, file's own",
+      "line_now": 212,
+      "heading": "§12 · Residual scope",
+      "current_sentence": "This file did not read: any closure or classification ruling (none is held); docket #23; …",
+      "replacement": "This file did not read: any ruling on a written closure or classification motion (none is held — the one held closure ruling, the 2026-02-03 minute order `dkt413`, was read at §8.2/N-4 and records dispositions without terms); docket #23; …",
+      "why": "Contradicted by the file's own §8.2 ('Read off the document face') and N-4, which read `dkt413`."
+    },
+    {
+      "id": "OL-4",
+      "kind": "OFF-LIST — C-51 rule (exhibit designators carry their owner), low severity",
+      "line_now": 104,
+      "heading": "§5 · F-64",
+      "current_sentence": "… and on **Exhibit 12.1**, which CR-ACQ §8 already records as admitted but withheld from publication.",
+      "replacement": "… and on **State's Exhibit 12.1**, which CR-ACQ-2026-07-27 §8 already records as admitted but withheld from publication.",
+      "why": "Bare designator; the owner is the State (CR-ACQ-2026-07-27 line 364: 'State's Exhibit 12.1'). The citation 'CR-ACQ §8' is also unversioned — three CR-ACQ files exist (07-27, 08-14, 08-16); the referent is CR-ACQ-2026-07-27 §8 item 12. Not a propagation of CR-E20's withdrawn sentence; flagged only because the brief lists C-51 as a rule bearing on this file."
+    }
+  ],
+  "aside_outside_cycle3_scope": "Line 104's F-64 example: CR-ACQ-2026-07-27 v1.8 (2026-08-01) closed §8 item 12 — State's Exhibit 12.1 WAS played in full on Day 5, courtroom-only, livestream cut to audio. 'Admitted but withheld from publication' remains literally true (publication = transmission outside the courtroom) but the exhibit was displayed to those present, so it is a weak example of 'admitted and never shown'. Not a C-list claim; noted for the lead, no replacement proposed.",
+  "notes": "No STALE hit against any cycle-3 claim. C-57 ('closed evidentiary record'/'argument only'): zero occurrences in the file (grep); the two posture banners (lines 22 and 214) carry the owner's 2026-09-16 ruling note beneath them. C-05: §10 names no person; the garble-normalisation list ('Bury'→Burt, 'Erica'→Erika, 'Dyer/Nyman'→Neiman) is a transcription aid, not a living-persons statement asserting facts about anyone the body does not touch. C-72: the word 'laboratory' does not occur in the file; all five 'not one' hits are the closure-ruling / granularity term collisions the brief anticipated. C-10: 'Novak' does not occur; all four 'media counsel' hits are the generic, unnamed class. C-13: the only Exhibit 11 mention carries the corrected form. C-62: the only 'fourteen' is a docket-date count; the 'fifteen' at line 104 is Q-67's designator count. No file was edited. No withheld name was written."
+}
