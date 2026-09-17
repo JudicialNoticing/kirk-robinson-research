@@ -194,9 +194,21 @@ def find_unclassified(cfg, pub, hold, never):
     build names them."""
     named = {p['src'] for p in pub + hold + never}
     trees = [t['path'] for t in cfg.get('exclude_trees', [])] + ['.git/']
+
+    # Enumerate what GIT TRACKS, not what is on disk. A build environment (a venv, a pip
+    # cache) can sit inside the working tree and carry hundreds of dependency LICENSE.md
+    # files; on a clean clone with the venv inside it this listed 9 of them. Noise in this
+    # particular section is worse than no section, because this is the one that must never
+    # be skimmed. Falls back to a disk walk only if git is unavailable.
+    try:
+        listing = subprocess.run(['git', '-C', str(ROOT), 'ls-files', '-z', '*.md'],
+                                 capture_output=True, check=True, text=True).stdout
+        candidates = [c for c in listing.split('\0') if c]
+    except (subprocess.CalledProcessError, FileNotFoundError, OSError):
+        candidates = [f.relative_to(ROOT).as_posix() for f in ROOT.rglob('*.md')]
+
     out = []
-    for f in sorted(ROOT.rglob('*.md')):
-        rel = f.relative_to(ROOT).as_posix()
+    for rel in sorted(candidates):
         if rel in named or any(rel.startswith(t) for t in trees):
             continue
         # Bank subdirectories inside a topic folder are excluded wholesale by design.
