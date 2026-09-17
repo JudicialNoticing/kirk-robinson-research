@@ -1,0 +1,430 @@
+{
+ "file": "files - Court record/CR-E19_latent-print-record.md",
+ "file_header_version": "v2.3 (status line); revision log runs to 2.4",
+ "hits_reviewed": 132,
+ "counts": {
+  "STALE": 13,
+  "RECORD": 63,
+  "CONSISTENT": 24,
+  "UNRELATED": 30,
+  "AMBIGUOUS": 2
+ },
+ "per_line_classification": {
+  "5": [
+   "C-25:STALE"
+  ],
+  "7": [
+   "C-56:STALE",
+   "C-57:STALE"
+  ],
+  "10": [
+   "C-01:RECORD",
+   "C-02:CONSISTENT",
+   "C-03:RECORD",
+   "C-04:UNRELATED",
+   "C-05:UNRELATED"
+  ],
+  "18": [
+   "C-20:RECORD"
+  ],
+  "28": [
+   "C-10:RECORD"
+  ],
+  "30": [
+   "C-28:CONSISTENT"
+  ],
+  "31": [
+   "C-32:STALE",
+   "C-33:CONSISTENT",
+   "C-48:STALE"
+  ],
+  "32": [
+   "C-45:CONSISTENT"
+  ],
+  "62": [
+   "C-06:UNRELATED"
+  ],
+  "68": [
+   "C-13:UNRELATED"
+  ],
+  "70": [
+   "C-27:RECORD"
+  ],
+  "83": [
+   "C-22:CONSISTENT"
+  ],
+  "90": [
+   "C-37:UNRELATED",
+   "C-46:RECORD"
+  ],
+  "94": [
+   "C-28:CONSISTENT"
+  ],
+  "103": [
+   "C-40:UNRELATED"
+  ],
+  "117": [
+   "C-52:UNRELATED",
+   "C-69:UNRELATED"
+  ],
+  "119": [
+   "C-06:CONSISTENT",
+   "C-30:RECORD",
+   "C-31:CONSISTENT"
+  ],
+  "125": [
+   "C-72:UNRELATED"
+  ],
+  "129": [
+   "C-14:STALE",
+   "C-17:UNRELATED",
+   "C-45:CONSISTENT"
+  ],
+  "133": [
+   "C-47:CONSISTENT"
+  ],
+  "138": [
+   "C-40:UNRELATED"
+  ],
+  "150": [
+   "C-37:UNRELATED"
+  ],
+  "154": [
+   "C-22:UNRELATED"
+  ],
+  "155": [
+   "C-09:CONSISTENT",
+   "C-28:UNRELATED",
+   "C-47:CONSISTENT"
+  ],
+  "156": [
+   "C-43:RECORD",
+   "C-44:RECORD"
+  ],
+  "157": [
+   "C-06:RECORD",
+   "C-08:STALE",
+   "C-17:UNRELATED"
+  ],
+  "158": [
+   "C-37:UNRELATED"
+  ],
+  "168": [
+   "C-06:CONSISTENT"
+  ],
+  "172": [
+   "C-06:CONSISTENT"
+  ],
+  "173": [
+   "C-48:CONSISTENT"
+  ],
+  "174": [
+   "C-43:CONSISTENT",
+   "C-47:CONSISTENT"
+  ],
+  "176": [
+   "C-06:CONSISTENT",
+   "C-31:CONSISTENT",
+   "C-40:UNRELATED"
+  ],
+  "178": [
+   "C-06:CONSISTENT"
+  ],
+  "180": [
+   "C-30:AMBIGUOUS"
+  ],
+  "182": [
+   "C-37:UNRELATED"
+  ],
+  "188": [
+   "C-06:CONSISTENT",
+   "C-08:RECORD",
+   "C-43:RECORD"
+  ],
+  "193": [
+   "C-28:RECORD"
+  ],
+  "199": [
+   "C-09:AMBIGUOUS",
+   "C-47:STALE"
+  ],
+  "200": [
+   "C-29:RECORD"
+  ],
+  "207": [
+   "C-26:RECORD"
+  ],
+  "222": [
+   "C-27:RECORD",
+   "C-37:UNRELATED"
+  ],
+  "226": [
+   "C-05:UNRELATED"
+  ],
+  "236": [
+   "C-28:CONSISTENT"
+  ],
+  "238": [
+   "C-49:STALE"
+  ],
+  "244": [
+   "C-25:STALE"
+  ],
+  "246": [
+   "C-40:UNRELATED"
+  ],
+  "247": [
+   "C-28:STALE"
+  ],
+  "249": [
+   "C-26:RECORD",
+   "C-40:UNRELATED",
+   "C-52:UNRELATED"
+  ],
+  "252": [
+   "C-27:STALE",
+   "C-37:UNRELATED",
+   "C-52:UNRELATED"
+  ],
+  "255": [
+   "C-40:UNRELATED"
+  ],
+  "258": [
+   "C-09:CONSISTENT",
+   "C-37:UNRELATED",
+   "C-40:UNRELATED",
+   "C-47:CONSISTENT"
+  ],
+  "261": [
+   "C-28:RECORD",
+   "C-40:UNRELATED"
+  ],
+  "268": [
+   "C-29:RECORD"
+  ],
+  "274": [
+   "C-52:UNRELATED"
+  ],
+  "299": [
+   "C-49:RECORD"
+  ],
+  "300": [
+   "C-25:STALE"
+  ],
+  "308": [
+   "C-10:RECORD",
+   "C-22:RECORD",
+   "C-25:RECORD",
+   "C-26:RECORD",
+   "C-27:RECORD",
+   "C-28:RECORD",
+   "C-30:RECORD",
+   "C-49:RECORD"
+  ],
+  "309": [
+   "C-10:RECORD",
+   "C-22:RECORD",
+   "C-49:RECORD"
+  ],
+  "310": [
+   "C-09:RECORD",
+   "C-12:RECORD",
+   "C-18:RECORD",
+   "C-28:RECORD",
+   "C-37:RECORD",
+   "C-43:RECORD",
+   "C-44:RECORD",
+   "C-45:RECORD",
+   "C-47:RECORD",
+   "C-49:RECORD",
+   "C-72:RECORD"
+  ],
+  "312": [
+   "C-01:RECORD",
+   "C-02:RECORD",
+   "C-03:RECORD",
+   "C-04:RECORD",
+   "C-05:RECORD",
+   "C-06:RECORD",
+   "C-20:RECORD",
+   "C-26:RECORD",
+   "C-27:RECORD",
+   "C-28:RECORD",
+   "C-43:RECORD",
+   "C-46:RECORD"
+  ],
+  "314": [
+   "C-06:RECORD",
+   "C-08:RECORD",
+   "C-30:RECORD",
+   "C-31:RECORD",
+   "C-37:RECORD",
+   "C-43:RECORD"
+  ],
+  "315": [
+   "C-26:RECORD",
+   "C-27:RECORD",
+   "C-30:RECORD"
+  ]
+ },
+ "stale": [
+  {
+   "claim": "C-57",
+   "line": 7,
+   "heading": "CASE POSTURE box (blockquote below the status line, above 'Living persons')",
+   "current_sentence": "The preliminary hearing tests probable cause only; its last day, 2026-09-01, is argument on a closed evidentiary record.",
+   "replacement": "The preliminary hearing tests probable cause only; its last day, 2026-09-01, is set for argument.",
+   "why": "Confirmed STALE. 'closed evidentiary record' is the inference CR-E20 v1.4 withdrew on 2026-08-30 (the court said only that the matter was continued for argument). Line 8's retention note ('retained as written, true as of its date') ratifies the withdrawn inference together with the bound-over sentence; the inference was never a statement of the court, so it was not true as of its date either. The retention note should say what was retained and what was corrected."
+  },
+  {
+   "claim": "C-56",
+   "line": 7,
+   "heading": "CASE POSTURE box",
+   "current_sentence": "No court has found any fact below to be true, and the court made **no reliability ruling** on any forensic evidence.",
+   "replacement": "No court has found any fact below to be true, and no court has ruled on the **scientific reliability** of any forensic method or result (admissibility rulings under Rule 1102's reliable-hearsay standard are a different question, and were made).",
+   "why": "The flat 'no reliability ruling' is the form CR-E20 narrowed: Rule 1102 admissibility rulings were made over objection and the State told the court 'As a gatekeeper, the court has found it reliable'. Same date-stamp caveat as C-57 applies to line 8's retention note."
+  },
+  {
+   "claim": "C-25",
+   "line": 5,
+   "heading": "Header status line",
+   "current_sentence": "Findings below may not be cited by another file, propagated into another topic folder, or used to resolve a register entry until one has.",
+   "replacement": "Findings below may not be cited by another file, propagated into another topic folder, or used to resolve a register entry until this round's corrections have themselves been read (cycle 3).",
+   "why": "Residual fragment of the withdrawn sentence ('no verification cycle has run ... until one has'). Its antecedent was replaced by 'TWO independent verification cycles have run', so 'until one has' now reads as already satisfied and contradicts the flag standing. The 🛠 CORRECTED note earlier in the same line is RECORD and the corrected form."
+  },
+  {
+   "claim": "C-25",
+   "line": 244,
+   "heading": "§9 · FINDINGS (lead sentence)",
+   "current_sentence": "**`[PROVISIONAL]` — no independent adversarial pass has run on this file.**",
+   "replacement": "**`[PROVISIONAL]` — two independent verification cycles have run (`CR-REVIEW-2026-08-30`); the flag stands because this round's corrections are themselves unread.**",
+   "why": "Withdrawn form asserted as current in the findings-section lead; contradicts the header's CORRECTED note on line 5."
+  },
+  {
+   "claim": "C-25",
+   "line": 300,
+   "heading": "§12 · RESIDUAL, item 7",
+   "current_sentence": "⚠ **`[PROVISIONAL]`. No independent verification cycle has run.** Findings may not be cited by another file, propagated, or used to resolve a register entry until one has.",
+   "replacement": "⚠ **`[PROVISIONAL]`. Two independent verification cycles have run (`CR-REVIEW-2026-08-30`); this round's corrections are themselves unread.** Findings may not be cited by another file, propagated, or used to resolve a register entry until the flag is cleared.",
+   "why": "Withdrawn form asserted as current in the residual-scope section."
+  },
+  {
+   "claim": "C-32",
+   "line": 31,
+   "heading": "§1 · Access-path caveats — EXHIBIT NAMES bullet",
+   "current_sentence": "Four ATF reports exist and they split two-and-two:",
+   "replacement": "Four ATF reports were entered at this hearing and they split two-and-two:",
+   "why": "The unscoped 'four ATF reports exist' is the form CR-E20 v1.5 scoped to 'entered at this hearing' (at least nine ATF reports exist in the case, CR-E21 §2). It is also contradicted inside THIS file: §6A establishes two further ATF reports (latent print, 2025-09-15 sub. 1 and 2025-12-22 subs. 4/10/11/12) under the same case number 2025-W-000401. 'split two-and-two' itself survives in the corrected form (C-33 CONSISTENT)."
+  },
+  {
+   "claim": "C-48",
+   "line": 31,
+   "heading": "§1 · Access-path caveats — EXHIBIT NAMES bullet",
+   "current_sentence": "**State's Exhibit 31 is the FBI DNA report** carrying the towel and the screwdriver.",
+   "replacement": "**State's Exhibit 31 is an FBI DNA report** — the one read at the hearing carrying the towel and the screwdriver; two FBI DNA reports exist (Lab Nos. 2025-01779-2 and -12, distinguished by caption), and which is Exhibit 31 is a question `CR-E20` leaves open (§6A.2a).",
+   "why": "The singular definite 'the FBI DNA report' is the undistinguished form. This file's own §6A.2a (line 189) records the two reports as distinguished by caption and the Exhibit 31 identity as open — an intra-file contradiction. The enumeration's C-48 notes already flagged this line as the singular form."
+  },
+  {
+   "claim": "C-14",
+   "line": 129,
+   "heading": "§6A · THE SOURCE paragraph",
+   "current_sentence": "It is a **census of every forensic report produced in this case**, and it has been on disk in a cleanly-extracting text layer since 2026-08.",
+   "replacement": "It is a **census of the forensic reports the letter names** — not of every forensic report in the case: forensic pathology (State's Exhibit 11) and digital forensics (RCFL/Cellebrite) sit outside it (`CR-E21` §§6A–6B) — and it has been on disk in a cleanly-extracting text layer since 2026-08.",
+   "why": "C-14's withdrawn proposition (one letter censuses every laboratory report in the case) stated here about the letter itself. CR-E21 v1.3 withdrew it after two disciplines were found outside the letter; nothing in this file supports the completeness claim (its own §1 says the letter 'names reports; it does not summarise them' and says nothing about completeness)."
+  },
+  {
+   "claim": "C-08",
+   "line": 157,
+   "heading": "§6A.2 · Latent print personnel bullet",
+   "current_sentence": "and **a third person** is named in a request for proficiency tests — i.e. **potential impeachment material about a non-testifying professional**, which is the clearest case for role-only treatment.",
+   "replacement": "and **a third person** — the VERIFIER of the FBI latent analysis (§6A.2a) — is named in a request for proficiency tests, which is the clearest case for role-only treatment.",
+   "why": "Line 188 (v2.2) says '§6A.2 had the role wrong' and identifies the person as the verifier; §6A.2 was annotated, not edited, and still carries the withdrawn characterisation with its 'impeachment material' gloss. The fact of the proficiency-test request survives (it is what the letter says — the enumeration treats it as surviving); the role-less characterisation does not. Role only; no name is to be added."
+  },
+  {
+   "claim": "C-47",
+   "line": 199,
+   "heading": "§6A.3 · acquisition table, FBI P1 row",
+   "current_sentence": "| **P1** | **FBI, 2025-09-15, Lab. No. 2025-01779-5** | The report the defence describes as involving an identification |",
+   "replacement": "| **P1** | **FBI, 2025-09-15, Lab. No. 2025-01779-5 · Case ID No. SU-4130859** | The report the defence describes as involving an identification (the §6A.2 guard travels with it) |",
+   "why": "Line 187 says the second identifier is one 'which §6A.3's acquisition table did not have' — the table still does not have it (SU-4130859 occurs only at lines 173, 174, 187, 314). The correction was announced at the exact site the enumeration's layer_hint names and not applied. The added guard pointer addresses the C-09 ambiguity in the same cell."
+  },
+  {
+   "claim": "C-49",
+   "line": 238,
+   "heading": "§8 · Register — ceiling paragraph",
+   "current_sentence": "D-76 was taken from it as the next free number on 2026-08-30 and that line must be advanced to reflect this assignment.",
+   "replacement": "D-76 was taken from it as the next free number on 2026-08-30 and that line has been advanced to reflect this assignment (updated 2026-08-30, citing this file — §12 item 6).",
+   "why": "C-49(i), the stale owed-action. This file's own §12 item 6 (line 299) says the earlier 'must be advanced' form is stale, while §8 still carries it as current."
+  },
+  {
+   "claim": "C-27",
+   "line": 252,
+   "heading": "§9 · F-3 (tail of the entry)",
+   "current_sentence": "⚠ **Medium-high, not High, because no witness was asked to explain the routing at either scene** — the pattern is an analyst-layer observation across two witnesses' item lists, not a described methodology.",
+   "replacement": "⚠ **Medium, not High, because no witness was asked to explain the routing at either scene** — the observation is an analyst-layer reading across two witnesses' item lists, not a described methodology.",
+   "why": "F-3's head re-grades to 'Medium on the observation' and withdraws the 'pattern'; the tail retains the withdrawn grade (Medium-high) and the word 'pattern' as current — two grades in one entry (the enumeration's C-27 note flagged the double grade)."
+  },
+  {
+   "claim": "C-28",
+   "line": 247,
+   "heading": "§9 · F-1 'What would change it'",
+   "current_sentence": "*What would change it:* **the state crime lab's latent print report** (§5), whose scope is undetermined; the FBI and ATF laboratory submission and examination-request forms for the rifle, the towel and the screwdriver; the 229-page compilation report.",
+   "replacement": "*What would change it:* **the four latent print reports identified at §6A** — the two ATF reports and the FBI report at P1, the state crime lab's (§5, scope undetermined) at P2; the FBI and ATF laboratory submission and examination-request forms for the rifle, the towel and the screwdriver; the 229-page compilation report.",
+   "why": "Omission variant, moderate confidence — the coordinator may prefer AMBIGUOUS. F-1's what-would-change-it still leads with the UBFS report alone and omits the three P1 reports §6A/§6A.3 identify, so the pre-§6A ranking survives by omission; F-5 (line 261) says of the same report 'it is not the answer to F-1'. The passage does not use the word 'decisive'."
+  }
+ ],
+ "missing_corrected_forms": [
+  {
+   "claim": "C-31",
+   "looked_in": "§9 · FINDINGS, lines 242–262 (entries present: F-1, F-2, F-3, F-4, F-6, F-5)",
+   "note": "MISSING. F-7 has no §9 entry; it lives only in the §6A.2a block (lines 176–184). Revision-log row 2.3 (line 315, written 2026-09-16 'from the in-body stamps') asserts 'F-7 carried into §9' — the body does not carry it and no in-body stamp records it. The grade ('High that the request was made') and the 'what would change it' already exist in the §6A.2a block and can be transposed."
+  },
+  {
+   "claim": "C-47",
+   "looked_in": "§6A.3 acquisition table (line 199) — the site the layer_hint names",
+   "note": "PARTIAL. The second identifier SU-4130859 is present at the §6A.2a table (line 174) and the correction note (line 187) but absent from the §6A.3 acquisition table and from F-6 (line 258, which cites identifiers 'AS THE DEFENCE STATES THEM' — compatible). Also listed under stale (line 199)."
+  },
+  {
+   "claim": "C-08",
+   "looked_in": "§6A.2 personnel bullet (line 157)",
+   "note": "PARTIAL. The verifier role is stated at §6A.2a (line 188) but not at the §6A.2 bullet, which still carries the withdrawn characterisation. Also listed under stale (line 157)."
+  },
+  {
+   "claim": "C-20",
+   "looked_in": "§0 (lines 14–22) and §1 (lines 24–34)",
+   "note": "PARTIAL. The corrected two-class form is present at §0 (lines 18–20). But row 2.3 (line 315) asserts 'Source classes at §0/§1 updated for v2.2's two new sources', and §0/§1 contain no mention of Exhibit A (the Touhy letters, pp. 39–43) or the Novak declaration — both used at §6 (line 119) and §6A.2a (lines 162–184). Line 32 still says 'this file reads one section of it' (true of the letter; silent on the two other sources). CR-REVIEW:180 recorded this as owed; it remains open, and the log row claims it closed."
+  }
+ ],
+ "ambiguous": [
+  {
+   "claim": "C-09",
+   "line": 199,
+   "heading": "§6A.3 acquisition table, FBI P1 row",
+   "passage": "The report the defence describes as involving an identification",
+   "what_would_settle_it": "Whether the coordinator treats an intra-file table cell as a carrier that needs the guard inline. The cell is attributed ('the defence describes') and the guard sits in the same file at §6A.2 (line 155) and F-6 (line 258). The C-47 replacement for the same row adds a pointer, which would close it either way."
+  },
+  {
+   "claim": "C-30",
+   "line": 180,
+   "heading": "§6A.2a · F-7 block",
+   "passage": "§6 asserts that a negative latent result \"is exactly the kind of finding neither party had reason to elicit.\" ⚠ That is now only half true.",
+   "what_would_settle_it": "Substance is the corrected half-true form (CONSISTENT). The cross-reference is stale: §6 (line 119) was qualified in place at v2.3 and now quotes that sentence as an earlier form, so '§6 asserts' (present tense) no longer describes §6. Cosmetic: 'asserted, before v2.3's qualification'."
+  },
+  {
+   "claim": "C-28",
+   "line": 30,
+   "heading": "§1 · NO EXHIBIT HAS BEEN VIEWED bullet",
+   "passage": "The state crime lab's latent print report is established to exist (§5) and is **unheld**.",
+   "what_would_settle_it": "Classified CONSISTENT (no 'decisive' claim), noted here because it is pre-§6A and under-inclusive: four latent print reports are now established (F-6). A pointer to §6A would remove the under-inclusion. Whether under-inclusion counts as a carrier is the coordinator's call."
+  }
+ ],
+ "off_list": [
+  "OFF-LIST 1 — status/log mismatch: the header status line (line 5) reads v2.3; the revision log carries a 2.4 row (line 316, dated 2026-09-16, posture update).",
+  "OFF-LIST 2 — row 2.3 (line 315) asserts two changes the body does not carry: 'F-7 carried into §9' (C-31 MISSING) and 'Source classes at §0/§1 updated for v2.2's two new sources' (C-20 PARTIAL). The row was reconstructed on 2026-09-16 'from the in-body stamps'; no in-body stamp records either change. A record row is not edited — the fix is to make the two changes (which makes the row true) and log them, or to add a row correcting the row.",
+  "OFF-LIST 3 — P8: row 2.2 (line 314) says '68-PAGE SOURCE'; the body says 69-page at lines 157 and 162, row 2.1 (line 312) says 69-page, and C-17's corrected form says 69 pages total. Numeric discrepancy inside a record row.",
+  "OFF-LIST 4 — line 8's retention note ('The sentence above is retained as written, true as of its date') certifies the whole of line 7, including the C-57 inference and the C-56 flat form; a caveat is a claim, and this one is false as to those two clauses (see the two line-7 stale entries).",
+  "OFF-LIST 5 — cosmetic: line 5 ends its CORRECTED note with '****' (unbalanced bold); line 299 (§12 item 6) has '🛠 **v2.1: … citing this file) 🛠 **— and v2.3 REMOVES … consumed.**.' (unbalanced bold, stray period). Not claims.",
+  "OFF-LIST 6 — no withdrawn-form variant (hyphenation/re-ordering) of C-26/C-27 was found outside the record sites: every 'rather than'/'instead of'/'routed'/'over latents' occurrence in the body sits inside a 🛠 note or the withdrawn-paragraph block at line 222. 'AFIS/IAFIS = 0 across all five days' (line 154) is a different null from the C-22 chemistry set and is true of the §2 table."
+ ],
+ "notes": "SELF-CONSISTENCY PASS on CR-E19 (header v2.3; log to 2.4). Method: every hit read in the file with ±8 lines and the nearest heading; judged from the file, not the excerpt; no file edited. RECORD sites (never to be edited): all revision-log rows 308–316; the 🛠 notes at lines 10, 18, 28, 70, 83, 90, 119, 156, 157, 188, 193, 200, 207, 222, 249, 252, 261, 268, 299. Corrected forms found present where the layer_hint says: C-01/C-02/C-03 (line 10), C-06 (lines 157, 166–174, 310 role-only), C-09 (F-6 line 258 with guard fused; §6A.2 line 155), C-10 (27–28), C-20 (18–20, with the v2.2-sources residual), C-22 (§2 line 51 powder row; §4 line 83), C-25 (header line 5 only), C-26 (207, 249), C-27 (70, 222, 252 head), C-28 (193, 261), C-29 (200, 268), C-30 (119), C-43 (156, 174, 188), C-44 (156), C-45 (32), C-46 (90 'latent lists'), C-48 (189), C-49 (299). C-06 names-absent check: capitalised tokens were extracted from the marker-anchored personnel region of the banked filing text (519 lines, anchored on 'proficiency'/'blind verification'/'latent print'/'Touhy' etc.), filtered against the system dictionary and a public-name/acronym allowlist, and searched in CR-E19; six non-dictionary tokens occurred, each resolved by its CR-E19 line context to a non-name string (a testifying witness's first name at line 209; the 'Asset Details-Blind Verification' title; 'Nos'; 'Services'; 'States' — from 'United States') and confirmed by equality test — no withheld latent-print personnel name occurs anywhere in CR-E19, revision log included. The enumeration's stated txt line ranges (1337–1375, 1756–1762) do not contain the personnel paragraph in the dc27998184 copy (all markers 0 there); the marker-anchored region does. Enumeration gap 'CR-E19 has NO v2.3 revision-log row' has since closed (row 2.3 at line 315, written 2026-09-16) — and that row is the OFF-LIST 2 problem. Line 7 as a whole: STALE on both C-57 and C-56, confirmed; minimal replacements given. Classification of hits on lines 308–316 (43 pairs) is RECORD without exception; row 2.0 (line 310) prints the withdrawn C-43 fact (c) and C-09/C-47 forms as a log row, which is a record site per the enumeration."
+}
