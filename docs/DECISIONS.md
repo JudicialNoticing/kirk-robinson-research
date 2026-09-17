@@ -62,6 +62,8 @@
 
 **R5 · The docket watch writes a row even when it finds nothing.** `CR-WATCH-log.md` header. A watch with gaps is indistinguishable from one that stopped. Three September firings ran dark and were transcribed on 2026-09-14; the root cause (the routine's account cannot see the private repo) is recorded in `CR-WATCH-log.md` v2.4 and is owner-gated.
 
+**R8 · At the protocol's three-iteration cap, `[PROVISIONAL]` is restated, not cleared, and not re-swept.** Decided 2026-09-16 under R1 at the close of cycle 3 (`CR-REVIEW-2026-09-16` §4): the three origin files are published as labeled, may be cited only with their labels, and the flag is cleared by the owner's reading of the cycle-3 rows — a fourth cycle would violate `VERIFICATION-PROTOCOL.md` §3's cap. Corollary from the same cycle: a correction's footprint includes the corrected file's own summaries, residual lists and status lines, and an appended note beneath a sentence does not check the sentence (R2 extended).
+
 ## Open
 
 - **O1** `START-HERE.md` and `QUEUE.md` have no row for the 2026-09-14 session (TJR-P01, kit adoption, bindover order). The reorganisation added dated relocation notes only; the session write-back is still owed. 🛠 **2026-09-16: the session's own transcript survives locally** (`4ad2341e…jsonl`); a draft block written from it failed isolated verification on wording (79 must-fix edits) and is banked unapplied in `verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/`. Still owed: a condensed block from the SUPPORTED items.
