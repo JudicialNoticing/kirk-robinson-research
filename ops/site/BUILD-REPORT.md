@@ -5,12 +5,12 @@
 This report exists because an exclusion nobody can see is an exclusion nobody can audit.
 Every markdown file named in `ops/site/site.yml` appears below in exactly one state.
 
-- **Published:** 53 pages
+- **Published:** 54 pages
 - **Held** (owner decision pending, Phase 2): 42
 - **Hard-blocked:** 3
-- Pages carrying `[PROVISIONAL]`: **29**
-- Pages carrying the case-posture banner: **52**
-- Internal links rewritten to site URLs: 12
+- Pages whose source carries `[PROVISIONAL]`, banner rendered: **28** of 54
+- Pages carrying the case-posture banner: **51**  *(2 pages — home and licence — render no banners by design)*
+- Internal links rewritten to site URLs: 14
 - Links to unpublished files neutralised (text kept, link removed): 22
 - Search-engine indexing: **BLOCKED (robots.txt Disallow /)**
 
@@ -18,7 +18,6 @@ Every markdown file named in `ops/site/site.yml` appears below in exactly one st
 
 The banner on these pages says so rather than guessing one.
 
-- `README.md`
 - `CLAUDE.md`
 - `docs/GLOSSARY.md`
 - `docs/ARCHITECTURE.md`
@@ -45,6 +44,7 @@ The banner on these pages says so rather than guessing one.
 | `docs/GLOSSARY.md` | `/method/glossary` | — | `[PROVISIONAL]` |
 | `docs/ARCHITECTURE.md` | `/method/architecture` | — | `[PROVISIONAL]` |
 | `docs/DECISIONS.md` | `/method/decisions` | — | `[PROVISIONAL]` |
+| `LICENSE` | `/licence` | — | `[PROVISIONAL]` |
 | `files - Arrest chronology/robinson-surrender-timeline.md` | `/arrest-chronology/robinson-surrender-timeline` | — | — |
 | `files - Arrest chronology/tier1-acquisition-roadmap.md` | `/arrest-chronology/tier1-acquisition-roadmap` | — | — |
 | `files - Bride of Charlie series/BOC-E01_Wrinkle-in-Time_claim-inventory.md` | `/bride-of-charlie/boc-e01_wrinkle-in-time_claim-inventory` | v1.5 | — |

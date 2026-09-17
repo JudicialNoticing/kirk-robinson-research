@@ -6,7 +6,9 @@ Open-source research library on the September 10, 2025 assassination of Charlie 
 
 Two documents govern everything here. **[CLAUDE.md](CLAUDE.md)** says what the library is and how files are written (tiers, registers, the two-layer rule, living-persons care). **[VERIFICATION-PROTOCOL.md](VERIFICATION-PROTOCOL.md)** says how a claim earns the right to be written (the adopted Research Verification Kit: labels, the isolation rule, taint, the three-iteration cap, the sink). Read both before editing any file.
 
-The folder is a git repository (`main`, remote `JudicialNoticing/kirk-robinson-research`, private) and an Obsidian vault.
+The folder is a git repository (`main`, remote [`JudicialNoticing/kirk-robinson-research`](https://github.com/JudicialNoticing/kirk-robinson-research), **public**) and an Obsidian vault. 🛠 **Corrected 2026-09-17:** this line read *"private"* until that date and had been wrong for an unknown period — verified by anonymous retrieval (no credentials, HTTP 200). Anyone can read every tracked file and the full commit history. Two drafts here are marked `DO-NOT-PUBLISH` in their filenames and are readable all the same; treat the filename as a statement about the draft's status, not as an access control.
+
+**Licence:** the library's own writing is [CC BY 4.0](LICENSE); `scripts/` is MIT; **the artifact banks are third-party material this project does not own and cannot licence.** Read [`LICENSE`](LICENSE) before reusing anything, and carry a finding's grade and caveats with it.
 
 ## Where to start reading
 

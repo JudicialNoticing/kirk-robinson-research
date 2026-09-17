@@ -219,17 +219,19 @@ def main():
                 continue
             text = (ROOT / src_rel).read_text(encoding='utf-8')
             facts = read_facts(text)
-            if not facts['version']:
+            banners_on = it.get('banner', True)
+            if banners_on and not facts['version']:
                 stats['no_version'].append(it['src'])
-            if facts['provisional']:
+            if banners_on and facts['provisional']:
                 stats['provisional'] += 1
-            add_posture = bool(CASE_RE.search(text))
+            add_posture = banners_on and bool(CASE_RE.search(text))
             if add_posture:
                 stats['posture'] += 1
 
             body = rewrite_links(text, src_rel, urlmap, stats)
-            body = inject(body, banner(src_rel.as_posix(), facts,
-                                       cfg.get('posture_banner', ''), add_posture))
+            if banners_on:
+                body = inject(body, banner(src_rel.as_posix(), facts,
+                                           cfg.get('posture_banner', ''), add_posture))
 
             url = it['url'].strip('/')
             dest = SRC / (('index.md' if url == 'index' else url + '/index.md'))
@@ -272,6 +274,8 @@ def main():
             {'pymdownx.superfences': {}},
         ],
         'plugins': ['search'],
+        'copyright': ('Library prose CC BY 4.0 · scripts MIT · '
+                      'the artifact banks are third-party material and are not licensed here'),
         'extra_css': ['assets/library.css'],
         'nav': nav,
     }
@@ -317,8 +321,8 @@ def write_report(cfg, pub, hold, never, missing, stats, staged, noindex):
     A(f"- **Published:** {stats['pages']} pages")
     A(f"- **Held** (owner decision pending, Phase 2): {len(hold)}")
     A(f"- **Hard-blocked:** {len(never)}")
-    A(f"- Pages carrying `[PROVISIONAL]`: **{stats['provisional']}**")
-    A(f"- Pages carrying the case-posture banner: **{stats['posture']}**")
+    A(f"- Pages whose source carries `[PROVISIONAL]`, banner rendered: **{stats['provisional']}** of {stats['pages']}")
+    A(f"- Pages carrying the case-posture banner: **{stats['posture']}**  *(2 pages — home and licence — render no banners by design)*")
     A(f"- Internal links rewritten to site URLs: {stats['internal']}")
     A(f"- Links to unpublished files neutralised (text kept, link removed): {stats['unlinked']}")
     A(f"- Search-engine indexing: **{'BLOCKED (robots.txt Disallow /)' if noindex else 'ALLOWED'}**")

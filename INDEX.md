@@ -10,7 +10,8 @@
 
 | File | What it is | Use when |
 |---|---|---|
-| `README.md` | What the library is, the layout, how to run the tools, where to start | First visit; after a break |
+| `README.md` | What the library is, the layout, how to run the tools, where to start |
+| `LICENSE` · `scripts/LICENSE` | **Added 2026-09-17 (Q-192).** CC BY 4.0 for the library's own writing, MIT for `scripts/`, and **no licence for the artifact banks** — news bodies, court filings, transcripts and exhibits this project retrieved but does not own. Also states that a withdrawn name is not restored by any licence | First visit; after a break |
 | `START-HERE.md` | The dated session snapshot: what is time-critical, what waits on the owner, traps. Sections are stacked newest-first (§0AF = 2026-09-02). ⚠ No row yet for 2026-09-14 | Beginning any session |
 | `QUEUE.md` | The work graph: every open item (`Q-nnn`) with status, blocker, decisive artifact, cost and gate; the **canonical D-register ceiling** in its header; the standing hazards | Choosing what to do next; assigning a D-number; before dispatching anything |
 | `LOOP.md` | The autonomous execution protocol: the cycle, provisional-findings rule, the three gates and the always-human list, hard stops | Before running any cycle unattended |

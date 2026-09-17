@@ -12,6 +12,16 @@
 # ⚠ `url` values are the CITATION NAMESPACE once published. Treat them as frozen.
 #
 # Created 2026-09-17 (Phase 1). NOT DEPLOYED — local build only.
+#
+# OWNER RULINGS, 2026-09-17 (Q-190). The states below are no longer defaults:
+#   * `[PROVISIONAL]` material PUBLISHES, with its banner. 29 of the 53 staged pages carry
+#     the token; each says on its face that it has not completed a verification cycle and
+#     is not citable. Do not quietly widen this to mean provisional findings are settled.
+#   * Process records STAY HELD — the ACQ acquisition logs, the AUDIT/REVIEW passes,
+#     `CR-WATCH-log`, and the session-state files. The site is evidence files and roadmaps.
+#   * Licence: CC BY 4.0 for the library's prose, MIT for `scripts/`, and NOTHING for the
+#     artifact banks, which are third-party material (see /LICENSE). This is why the banks
+#     are excluded wholesale below and not merely deprioritised.
 
 site:
   name: "Kirk Robinson Research"
@@ -68,6 +78,7 @@ pages:
     items:
       - src: "README.md"
         url: "index"
+        banner: false
         title: "Home"
         state: publish
         reason: "the library's own front page"
@@ -96,6 +107,12 @@ pages:
         title: "Decisions"
         state: publish
         reason: "why things are the way they are"
+      - src: "LICENSE"
+        url: "licence"
+        banner: false
+        title: "Licence"
+        state: publish
+        reason: "the terms the site itself publishes under; names what this project cannot licence"
       - src: "INDEX.md"
         url: "index-of-files"
         title: "Index of files"

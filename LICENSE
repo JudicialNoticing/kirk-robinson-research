@@ -1,0 +1,61 @@
+# Licence
+
+This repository contains three kinds of material with three different licences. The split
+matters: most of what is here was written by this project, some of it was written by other
+people, and this project cannot licence what it does not own.
+
+Adopted 2026-09-17 (owner's decision; QUEUE.md Q-192). Before that date the repository
+carried no licence, which means all rights were reserved by default.
+
+---
+
+## 1. The library's own writing — CC BY 4.0
+
+**Copyright © 2026 William Whitehead.** Licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt this material, including commercially, provided you give
+appropriate credit, link to the licence, and indicate if changes were made.
+
+This covers the evidence files, claim inventories, roadmaps, audits, reviews, the
+methodology documents, and the analysis and prose written for this project.
+
+**If you quote or reuse a finding, please carry its grade and its caveats with it.** This is
+a request, not a licence term. Every file here states a source tier, a confidence grade and
+what it did not verify; a finding reproduced without them says something the file does not.
+Files marked `[PROVISIONAL]` have not completed a verification cycle and are not citable.
+
+## 2. The tooling — MIT
+
+**Copyright © 2026 William Whitehead.** Everything in `scripts/` is licensed under the MIT
+Licence (full text in `scripts/LICENSE`).
+
+## 3. Third-party material — NOT licensed by this project
+
+**The artifact banks are not covered by either licence above.** They hold material this
+project retrieved but does not own, archived for verification:
+
+- news articles and their raw retrieved page bodies, which remain the copyright of their
+  publishers;
+- court filings, orders, transcripts and exhibits, whose status is governed by the Fourth
+  Judicial District Court of Utah and applicable law, not by this repository;
+- transcripts, recordings and documents produced by third parties.
+
+These are held for research, citation and verification. **No licence to reuse them is
+granted here, because none can be.** Their sources, URLs, retrieval dates and hashes are
+recorded in `SOURCE-MANIFEST.md` — go to the source.
+
+Affected paths: every subdirectory inside a `files - <Topic>/` folder, and
+`docs/research-verification-kit/` and `docs/discussion-framework/`, which are third-party
+drops carrying their own terms.
+
+---
+
+## A note on the people named here
+
+Criminal allegations in this library are **attributed, never adopted**, and every person
+charged is presumed innocent unless and until proven guilty. Some names have been
+deliberately withdrawn from these files, and a withdrawn name is not restored by any
+licence. Attribution under CC BY 4.0 does not license you to re-identify anyone this
+project chose not to name.
