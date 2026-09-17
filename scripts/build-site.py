@@ -338,10 +338,21 @@ def main():
     if args.report:
         return 0
 
-    exe = ROOT / '.venv-site' / 'bin' / 'mkdocs'
-    mkdocs = str(exe) if exe.exists() else 'mkdocs'
-    cmd = [mkdocs, 'serve', '-f', str(CFG), '-a', f'127.0.0.1:{args.port}'] if args.serve \
-        else [mkdocs, 'build', '-f', str(CFG)]
+    # 🚨 INVOKE MKDOCS THROUGH THE RUNNING INTERPRETER, NOT THROUGH PATH (fixed 2026-09-17).
+    # This used to be: the in-tree `.venv-site/bin/mkdocs` if it existed, else bare `'mkdocs'`.
+    # Both halves fail where it matters most — on Netlify. `.venv-site/` is gitignored, so it is
+    # never in a clean clone; and the fallback needs `mkdocs` on PATH, which is true only if the
+    # installing venv happens to be ACTIVATED. Netlify runs
+    #     pip install -r ops/site/requirements.txt && python3 scripts/build-site.py
+    # with no activation step, so the old code took the fallback and died with
+    #     FileNotFoundError: [Errno 2] No such file or directory: 'mkdocs'
+    # — which is exactly what a clean-clone pre-flight produced on 2026-09-17, the first time the
+    # build was run with the venv genuinely outside the tree AND unactivated. **The deploy would
+    # have failed at build time.** `sys.executable -m mkdocs` always resolves to the mkdocs
+    # installed for the interpreter actually running this file: venv or system, activated or not.
+    cmd = [sys.executable, '-m', 'mkdocs']
+    cmd += ['serve', '-f', str(CFG), '-a', f'127.0.0.1:{args.port}'] if args.serve \
+        else ['build', '-f', str(CFG)]
     return subprocess.call(cmd)
 
 
