@@ -1,0 +1,326 @@
+{
+ "file": "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
+ "reader": "cycle 3 propagation reader (CR-E01)",
+ "date": "2026-09-16",
+ "line_offset_note": "Worklist lines were computed before the 2026-09-16 posture note (now line 7, with its blank line 6) and the v1.4 revision row (now line 215) were inserted. Re-anchored by excerpt phrase: worklist 7->9, 48->50, 52->54, 58->60, 62->64, 149->151, 178->180, 181->183, 192->194, 202->204 (offset +2); worklist 213->216 (offset +3, the v1.3 log row).",
+ "hits_reviewed": 24,
+ "counts": {
+  "STALE": 4,
+  "CONSISTENT": 4,
+  "RECORD": 9,
+  "UNRELATED": 6,
+  "AMBIGUOUS": 1,
+  "stale_sites_on_list": 3,
+  "off_list_stale_sites": 3,
+  "off_list_ambiguous_sites": 3
+ },
+ "hits": [
+  {
+   "claim": "C-01",
+   "term": "elimination-sample donors",
+   "line": 213,
+   "line_now": 216,
+   "heading": "REVISION LOG (v1.3 row, 2026-08-30)",
+   "class": "RECORD",
+   "why": "Revision-log row; the closing living-persons sentence carries the withdrawn 'elimination-sample donors only' form as what v1.3 wrote on 2026-08-30. Never to be edited. No body carrier exists: Amber and Matthew Robinson appear nowhere in this file outside this row, and the file has no living-persons banner."
+  },
+  {
+   "claim": "C-02",
+   "term": "elimination-sample donors",
+   "line": 213,
+   "line_now": 216,
+   "heading": "REVISION LOG (v1.3 row)",
+   "class": "RECORD",
+   "why": "Same log row. The C-02 absence-form is not even present: the row states no Matthew Robinson 1.4/1.6 result, so no asymmetric disclosure arises. Log row regardless."
+  },
+  {
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 213,
+   "line_now": 216,
+   "heading": "REVISION LOG (v1.3 row)",
+   "class": "RECORD",
+   "why": "Log row reproducing the three-name boilerplate ('neither appears in this file'). It is the record of the v1.3 pass; the body carries no banner at all, which is the corrected C-05 state for a file that touches none of these people."
+  },
+  {
+   "claim": "C-05",
+   "term": "elimination-sample donors",
+   "line": 213,
+   "line_now": 216,
+   "heading": "REVISION LOG (v1.3 row)",
+   "class": "RECORD",
+   "why": "Duplicate hit on the same row sentence; grouped with the C-05 'Matthew Robinson' hit."
+  },
+  {
+   "claim": "C-08",
+   "term": "proficiency tests",
+   "line": 149,
+   "line_now": 151,
+   "heading": "§3.6 THE STATE'S CROSS-EXAMINATION — 'Accreditation and proficiency'",
+   "class": "UNRELATED",
+   "why": "'She is required to take proficiency tests in every discipline within her scope' is Karner's own sworn testimony about ANAB proficiency testing. C-08 concerns an FBI person described as 'named for proficiency tests'; different person, different proposition."
+  },
+  {
+   "claim": "C-13",
+   "term": "medical examiner's report",
+   "line": 192,
+   "line_now": 194,
+   "heading": "§6 NEW REGISTER ENTRY — D-49 (table cell, Status)",
+   "class": "CONSISTENT",
+   "why": "The D-49 row names the medical examiner's report and photograph as decisive artifacts; the corrected C-13 form says exactly that (State's Exhibit 11 'decisive for D-49'). Narrower: it does not yet identify the report as State's Exhibit 11, admitted Day 1, publication denied, acquisition open at Q-51 (CR-E05 §4.3). Not the withdrawn census-omission proposition. Optional pointer, not a correction."
+  },
+  {
+   "claim": "C-13",
+   "term": "medical examiner's report",
+   "line": 202,
+   "line_now": 204,
+   "heading": "§7 OPEN ITEMS, item 5",
+   "class": "CONSISTENT",
+   "why": "Same as the D-49 row: 'D-49 artifacts — the medical examiner's report and photograph' is compatible with the corrected form; could point at State's Exhibit 11 / Q-51 but carries no withdrawn proposition."
+  },
+  {
+   "claim": "C-28",
+   "term": "decisive artifact",
+   "line": 48,
+   "line_now": 50,
+   "heading": "§2 THE WITNESS — 'What this does and does not establish' blockquote",
+   "class": "UNRELATED",
+   "why": "'the decisive artifact (State's Exhibit 32 as admitted) is not held' is CR-E15 F-139's reason for holding identity at Medium-high. C-28 is about the UBFS latent print report being 'the decisive artifact' for F-1; different artifact, different finding."
+  },
+  {
+   "claim": "C-28",
+   "term": "decisive artifact",
+   "line": 48,
+   "line_now": 50,
+   "heading": "§2 — same blockquote",
+   "class": "UNRELATED",
+   "why": "Second hit on the same line ('say the decisive artifact is unheld'); same referent (State's Exhibit 32 as admitted), grouped with the first."
+  },
+  {
+   "claim": "C-28",
+   "term": "decisive artifact",
+   "line": 192,
+   "line_now": 194,
+   "heading": "§6 D-49 row",
+   "class": "UNRELATED",
+   "why": "'Decisive artifacts: the medical examiner's report and the referenced photograph' — D-49's artifacts, not the latent-print report of C-28."
+  },
+  {
+   "claim": "C-33",
+   "term": "split two-and-two",
+   "line": 58,
+   "line_now": 60,
+   "heading": "§2 — 🗺 EXHIBIT DESIGNATIONS — CR-E20 IS THE CANONICAL MAP AND GOVERNS",
+   "class": "AMBIGUOUS",
+   "why": "See ambiguous[0]."
+  },
+  {
+   "claim": "C-38",
+   "term": "is State's Exhibit 32",
+   "line": 178,
+   "line_now": 180,
+   "heading": "§5 WHAT THIS DOES AND DOES NOT DO TO THE LIBRARY'S EXISTING FILES (bullet 2)",
+   "class": "STALE",
+   "why": "See stale[2]."
+  },
+  {
+   "claim": "C-49",
+   "term": "register ceiling",
+   "line": 181,
+   "line_now": 183,
+   "heading": "§5 — 🛠 RESIDUAL SCOPE OF v1.3",
+   "class": "CONSISTENT",
+   "why": "'the register ceiling is QUEUE.md's and is not restated here' — the corrected form (pointed at, never restated; no values printed; no 'must be advanced' owed-action)."
+  },
+  {
+   "claim": "C-50",
+   "term": "the seven",
+   "line": 58,
+   "line_now": 60,
+   "heading": "§2 — 🗺 EXHIBIT DESIGNATIONS pointer",
+   "class": "UNRELATED",
+   "why": "'the seven statistical calculations' describes State's Exhibit 30's contents; C-50 is the 'seven owed items' count in the review. Term collision only."
+  },
+  {
+   "claim": "C-51",
+   "term": "of Exhibit 30",
+   "line": 62,
+   "line_now": 64,
+   "heading": "§2 — 'ATF item numbering used by this witness' paragraph",
+   "class": "STALE",
+   "why": "See stale[1]."
+  },
+  {
+   "claim": "C-51",
+   "term": "of Exhibit 30",
+   "line": 213,
+   "line_now": 216,
+   "heading": "REVISION LOG (v1.3 row, item (d))",
+   "class": "RECORD",
+   "why": "Log row carrying the same sentence as line 64 ('neither of Exhibit 30's consumption lists'); never edited."
+  },
+  {
+   "claim": "C-51",
+   "term": "Exhibit 30's",
+   "line": 62,
+   "line_now": 64,
+   "heading": "§2 — same paragraph",
+   "class": "STALE",
+   "why": "Duplicate hit on the same sentence; grouped into stale[1]."
+  },
+  {
+   "claim": "C-51",
+   "term": "Exhibit 30's",
+   "line": 213,
+   "line_now": 216,
+   "heading": "REVISION LOG (v1.3 row)",
+   "class": "RECORD",
+   "why": "Duplicate hit on the log row; grouped."
+  },
+  {
+   "claim": "C-53",
+   "term": "submission-1 report",
+   "line": 48,
+   "line_now": 50,
+   "heading": "§2 — 'What this does and does not establish' blockquote",
+   "class": "STALE",
+   "why": "See stale[0]."
+  },
+  {
+   "claim": "C-53",
+   "term": "submission-1 report",
+   "line": 213,
+   "line_now": 216,
+   "heading": "REVISION LOG (v1.3 row, item (a))",
+   "class": "RECORD",
+   "why": "'It is bounded to ATF's submission-1 report' inside the v1.3 log row — the record of what v1.3 wrote; never edited."
+  },
+  {
+   "claim": "C-53",
+   "term": "the submission one report",
+   "line": 7,
+   "line_now": 9,
+   "heading": "Header — Status line (v1.3 summary)",
+   "class": "RECORD",
+   "why": "A 🛠 correction note ('A truncated quotation is corrected in place') quoting the witness's own five words 'For the submission one report,'. The phrase is Karner's testimony (recording layer), not the library's withdrawn designator; the note's gloss ('tying the witness to ATF submission 1 and to the Submission(s): 1 footer') is the corrected sense — submission as evidence-submission number."
+  },
+  {
+   "claim": "C-53",
+   "term": "the submission one report",
+   "line": 52,
+   "line_now": 54,
+   "heading": "§2 — 'Her assigned scope, in her words' blockquote",
+   "class": "UNRELATED",
+   "why": "Verbatim transcript quotation (day4.txt 06:25:53). The witness said 'the submission one report'; the file records it faithfully. The withdrawn C-53 form is the library's own 'bounded to the submission-1 report' designator, which this quotation is not. Never to be edited."
+  },
+  {
+   "claim": "C-53",
+   "term": "the submission one report",
+   "line": 213,
+   "line_now": 216,
+   "heading": "REVISION LOG (v1.3 row, item (b))",
+   "class": "RECORD",
+   "why": "Log row quoting the transcript phrase; never edited."
+  },
+  {
+   "claim": "C-55",
+   "term": "cross-examination of Karner",
+   "line": 7,
+   "line_now": 9,
+   "heading": "Header — Status line (v1.1 note)",
+   "class": "CONSISTENT",
+   "why": "'the State's cross-examination of Karner has now been read' — correct: Burt (defence) called Karner and took direct; McBride (State) cross-examined. §1 line 33, line 40, §3.6's heading and line 128/130 all carry the same correct posture. The withdrawn C-55 form ('during Karner's cross' for the 06:36:35 ruling) does not occur in this file: line 64 and line 183 call it 'the court's Karner 6 ruling' with no phase label."
+  }
+ ],
+ "stale": [
+  {
+   "claim": "C-53",
+   "line": 48,
+   "line_now": 50,
+   "heading": "§2 THE WITNESS — '⚠ What this does and does not establish' blockquote (last sentence)",
+   "current_sentence": "⚠ **The finding is bounded to ATF's submission-1 report, and nothing is graded, promoted or resolved in this file.**",
+   "replacement": "⚠ **The finding is bounded to ATF's 2025-09-17 firearms report (case 2025-W-000401), and nothing is graded, promoted or resolved in this file.**",
+   "why": "Body prose in the analyst layer asserting the withdrawn C-53 bound. There is no 'submission-1 report': ATF numbers by evidence submission and submission 1 carries at least four reports (CR-E21 F-2; CR-E15 F-139(b)(4) and CR-E20 F-4 v1.3 both now say 'bounded to the 2025-09-17 firearms report'). The same file's line 56 already derives the report's identity from the 2025-W-000401 footer, so the corrected designator is available in place."
+  },
+  {
+   "claim": "C-51 (two hits: 'of Exhibit 30' and 'Exhibit 30's', grouped; plus the bare 'EXHIBIT 32 ITEMS' in the same sentence)",
+   "line": 62,
+   "line_now": 64,
+   "heading": "§2 — 'ATF item numbering used by this witness — and the one designator most likely to be misfiled'",
+   "current_sentence": "🚨 **1.11 and 1.11B are EXHIBIT 32 ITEMS. Neither is a DNA sub-item, and neither belongs to State's Exhibit 30** — which is precisely why 1.11 appears on neither of Exhibit 30's consumption lists (`CR-E20` writing rule 4).",
+   "replacement": "🚨 **1.11 and 1.11B are STATE'S EXHIBIT 32 ITEMS. Neither is a DNA sub-item, and neither belongs to State's Exhibit 30** — which is precisely why 1.11 appears on neither of State's Exhibit 30's consumption lists (`CR-E20` writing rule 4).",
+   "why": "'neither of Exhibit 30's consumption lists' is the exact phrase the C-51 register entry cites as the withdrawn form (CR-E20 old Rule 4), carried here as a paraphrase of that rule; 'EXHIBIT 32 ITEMS' is a second bare designator in the same sentence. Corrected form: number and owner every time."
+  },
+  {
+   "claim": "C-38",
+   "line": 178,
+   "line_now": 180,
+   "heading": "§5 WHAT THIS DOES AND DOES NOT DO TO THE LIBRARY'S EXISTING FILES (bullet 2)",
+   "current_sentence": "- **The report CR-ACQ §3.1 reads is State's Exhibit 32, the ATF firearms/toolmark report — not State's Exhibit 30, the ATF DNA report** (`CR-E20` §2; §2 above). ⚠ **This file does NOT resolve `CR-E20 F-4`** and does not promote `CR-E15`'s findings to hearing exhibits.",
+   "replacement": "- **The report CR-ACQ §3.1 reads corresponds to State's Exhibit 32, the ATF firearms/toolmark report — not State's Exhibit 30, the ATF DNA report — on the inference graded at §2 above (`CR-E20 F-4` High · `CR-E15 F-139` Medium-high; neither adopted here)** (`CR-E20` §2; §2 above). ⚠ **This file does NOT resolve `CR-E20 F-4`** and does not promote `CR-E15`'s findings to hearing exhibits.",
+   "why": "A flat 'is State's Exhibit 32' in a §5 finding bullet, outside the graded finding — the C-38 withdrawn shape (cf. CR-E21 row 7 v1.0 'CR-E15 = State's Exhibit 32'). The bullet then says the file does not resolve F-4, which is the very identity it has just asserted. The replacement names both grades; it keeps this file's stated position (the split carried unadopted — line 50). If the library's 'says which it follows' rule requires an election, that is a separate owner decision for this file and is not made here."
+  },
+  {
+   "claim": "OFF-LIST — C-38",
+   "line": null,
+   "line_now": 44,
+   "heading": "§2 THE WITNESS (opening paragraph)",
+   "current_sentence": "**Author of State's Exhibit 32 — the ATF firearms/toolmark report — which is the report read at CR-ACQ §3.1.**",
+   "replacement": "**Author of State's Exhibit 32 — the ATF firearms/toolmark report — which, on the inference graded below (`CR-E20 F-4` High · `CR-E15 F-139` Medium-high; neither adopted here), is the report read at CR-ACQ §3.1.**",
+   "why": "Flat identity between State's Exhibit 32 and the CR-ACQ §3.1 document (the 2025-09-17 report held at CR-E15), asserted in body prose two lines above the blockquote (line 50) that says the same identity is an inference with a split grade. Karner's authorship of State's Exhibit 32 is sworn (Tier 1); the document identity is the graded inference. Missed by the script because the phrase is 'which is the report read at', not 'is State's Exhibit 32'."
+  },
+  {
+   "claim": "OFF-LIST — C-53",
+   "line": null,
+   "line_now": 56,
+   "heading": "§2 — 'Why the dropped words matter' paragraph (last sentence)",
+   "current_sentence": "⚠ **This file covers the submission-one report only.**",
+   "replacement": "⚠ **This file covers the 2025-09-17 firearms report only.**",
+   "why": "The library's own designator 'the submission-one report' (hyphenated, so the script's terms 'submission-1 report' / 'the submission one report' missed it), asserted as a scope statement in analyst prose. Same defect as line 50. The preceding sentences in the paragraph ('organised into numbered submissions, of which she is describing one'; the 2025-W-000401-submission 1 listing at CR-E14 §8) are compatible with the corrected sense and need no change."
+  },
+  {
+   "claim": "OFF-LIST — C-51 (two bare designators)",
+   "line": null,
+   "line_now": 62,
+   "heading": "§2 — 🚨 'A LIVE COLLISION SITS INSIDE THIS FILE'S OWN TRANSCRIPT REGION' blockquote",
+   "current_sentence": "Exhibit 30 is the ATF **DNA** report, authored by forensic biologist **Caitlin Oliver** (CR-E03 §3; CR-E06); **nothing in Karner's testimony concerns DNA**, and her own sworn answer eleven minutes earlier names **Exhibit 32** as her report.",
+   "replacement": "State's Exhibit 30 is the ATF **DNA** report, authored by forensic biologist **Caitlin Oliver** (CR-E03 §3; CR-E06); **nothing in Karner's testimony concerns DNA**, and her own sworn answer eleven minutes earlier names **State's Exhibit 32** as her report.",
+   "why": "Two bare State's designators in body prose, in the very passage whose purpose is to keep the 30/32 designators from colliding. The script's terms ('of Exhibit 30', 'Exhibit 30's') did not match this shape."
+  }
+ ],
+ "ambiguous": [
+  {
+   "claim": "C-33",
+   "line": 58,
+   "line_now": 60,
+   "heading": "§2 — 🗺 EXHIBIT DESIGNATIONS — CR-E20 IS THE CANONICAL MAP AND GOVERNS",
+   "current_sentence": "**Four ATF laboratory reports were admitted at this hearing and they split two-and-two across disciplines** (`CR-E20` §2, from five verbatim on-record identifications): **State's Exhibit 30** = ATF **DNA** (the rifle and its ammunition — items 1.x/2.1/3.1/4.1/5.1, the seven statistical calculations, p. 8 the consumption page) · **State's Exhibit 31** = **FBI** DNA · **State's Exhibit 32** = ATF **firearms/toolmark** — ***this witness's report*** · **State's Exhibit 33** = ATF **biology** (the Dremel, and the case from atop the safe) · **State's Exhibit 34** = ATF **toolmark comparison** (the Exhibit 15A engraving cutter).",
+   "what_would_settle_it": "Whether the per-exhibit parentheticals are meant as descriptions of each report's principal subject (then the discipline split is the corrected mnemonic and the passage is CONSISTENT) or as a map of what each exhibit reaches (then the Exhibit 34 blurb omits that it reaches the rifle — cases 'fired in the Exhibit 1 rifle' — and the Exhibit 32 blurb omits the autopsy fragments, which this file's own §2/§4 describe as Exhibit 32 items; that is the withdrawn C-33 reading). The passage is not the 2×2 grid and carries no row labels, but it also lacks the corrected caveat. Minimal caveat if wanted, appended after the exhibit list: '⚠ **The two-and-two split is a discipline mnemonic, not a map of what each exhibit reaches** (`CR-E20` §2: State's Exhibit 34 reaches the rifle; State's Exhibit 32 reaches the fragments recovered at autopsy).'"
+  },
+  {
+   "claim": "OFF-LIST — C-13",
+   "line": null,
+   "line_now": 60,
+   "heading": "§2 — 🗺 EXHIBIT DESIGNATIONS pointer (same sentence)",
+   "current_sentence": "(`CR-E20` §2, from five verbatim on-record identifications): [State's Exhibits 30–34 listed]",
+   "what_would_settle_it": "Whether the pointer reproduces CR-E20's laboratory-report map (then it is a five-row snapshot of CR-E20 v1.1 and omits row 11 — State's Exhibit 11, the medical examiner's report, added at CR-E20 v1.6, 'from six' identifications now — and the omission bears on this file because Exhibit 11 is D-49's decisive artifact) or only the ATF/FBI forensic-laboratory subset, which its own count ('Four ATF laboratory reports … State's Exhibit 31 = FBI') suggests. Not the withdrawn census proposition as such; a snapshot that has aged. Minimal fix if the former: add '· **State's Exhibit 11** = the Utah Medical Examiner's report of examination (admitted Day 1, publication denied; `CR-E05` §4.3; D-49's decisive artifact, unheld — Q-51)' and change 'five' to 'six'."
+  },
+  {
+   "claim": "OFF-LIST — C-51 / C-38 (header)",
+   "line": 7,
+   "line_now": 9,
+   "heading": "Header — Status line",
+   "current_sentence": "(three bare designators) '…THE EXHIBIT-32 ATTRIBUTION…'; '**Karner's sworn authorship of Exhibit 32 is now recorded**'; '*(v1.3 introduces Exhibit 30 only inside the new map pointer…)*'; 'ATF item `1.11` / photo designator `1.11B` are marked as EXHIBIT 32 items'; and (C-38) 'this file's single exhibit-report reference — \"admitted as State's Exhibit 32\" at §2 — is CORRECT'",
+   "what_would_settle_it": "Whether the Status line is treated as the file's living header (the task lists header paragraphs as STALE-capable: then C-51 applies to the four bare designators, and the 'is CORRECT' verdict flat-asserts the C-38 identity — note the quoted §2 phrase '(admitted as State's Exhibit 32)' no longer exists at §2, which now reads as line 44) or as a dated record of the v1.3 audit of 2026-08-30 (then RECORD). Also: the Status line still reads '**v1.3 —**' while the revision log carries a **1.4** row dated 2026-09-16 — the version in the header was not bumped."
+  },
+  {
+   "claim": "OFF-LIST — C-55 class (examination-phase label)",
+   "line": null,
+   "line_now": 153,
+   "heading": "§3.6 — 'On PCAST' paragraph",
+   "current_sentence": "Judge Graf permitted limited recross on the point, finding the State had opened the door.",
+   "what_would_settle_it": "Not the withdrawn C-55 sentence (which does not occur in this file), but the same class: given the file's own posture (defence direct → State cross), the defence's follow-up is redirect, not recross. The transcript settles what the court said: day4.txt line 8812 — 'On cross-examination, that door was opened by the state, and so I will allow limited questioning on recross or redirect, however we want to label this.' The court declined to label it; the file picked one label. Minimal replacement if the owner extends C-55's rule here: 'Judge Graf permitted limited further questioning on the point (\"recross or redirect, however we want to label this\"), finding the State had opened the door.'"
+  }
+ ],
+ "notes": "ISOLATION: classifications were made from the file and the sources (day4.txt, CR-E05, CR-E15, CR-E20, QUEUE.md), not from the worklist excerpts. NO FILE WAS EDITED. (1) C-01/C-02/C-05 have no body carrier: the names Amber and Matthew Robinson occur only in the v1.3 log row (line 216); there is no living-persons banner in the header; 'Twiggs' at lines 37 and 202 is 'the Twiggs recorded statement' (a Day 4 exhibit reference), unrelated. (2) C-32: 'the ATF report' as a bare designation does not occur; line 60 carries the rule; line 206's 'The ATF report on the rifle's manufacture (reportedly Germany, 1938)' designates a different, described document. C-52: 'no witness' does not occur. C-55: every examination-phase statement (lines 33, 40, 126, 128, 130) carries the corrected posture; the 06:36:35 ruling is labelled 'the court's Karner 6 ruling' at lines 64 and 183 with no phase word. (3) The 🛠 residual-scope block at line 183 carries two bare 'Exhibit 32' ('the Exhibit 32 recognition', 'as read from Exhibit 32'); treated as a 🛠 note (RECORD) here — the owner may sweep them with C-51 if the block is treated as living prose. (4) D-49 (line 194) and open item 5 (line 204): the decisive artifact is now identified as State's Exhibit 11 (CR-E05 §4.3, 'decisive for Q-15 / D-49'; QUEUE.md Q-51 — admitted 2026-07-06, publication denied, UNHELD). The row is CONSISTENT as written; a pointer to Exhibit 11 / Q-51 would be an update, not a correction. (5) P8 observation on a RECORD row, not for editing: the v1.3 log row (line 216, item (c)) says the 06:36:35 ruling came 'sixty seconds after the passages this file quotes at §4'; day4.txt puts the §4 exchange at 06:37:30–06:37:48 (lines 6628–6638), so the ruling is about sixty seconds BEFORE it; the D-49 row's '≈06:37–06:38' is right. (6) Overtaken open items, not withdrawn-claim carriers: §7 items 2 (State's examination — closed at v1.1 §3.6), 3 (Faumuina/Davis — CR-E02), 4 ('Days 2, 3, 5 — banked, unread. Day 1 — never located' — Day 1 located 2026-08-16 per the 🛠 correction at line 38; Days 2/3/5 read at CR-E03/E04/E06); line 203 still prints the v1.0 form. (7) Header version: Status line says v1.3, log has a 1.4 row (2026-09-16). (8) Grades used in replacements verified against the current files: CR-E20 F-4 'ANCHOR: High · IDENTITY: High … Bounded to the 2025-09-17 firearms report (re-expressed v1.3)' (CR-E20 line 174); CR-E15 F-139 'ANCHOR: High · IDENTITY: Medium-high, AND IT IS AN INFERENCE, NOT A FINDING OF IDENTITY' (CR-E15 line 123), with 'there is no \"submission-1 report\" as such' at CR-E15 line 173."
+}

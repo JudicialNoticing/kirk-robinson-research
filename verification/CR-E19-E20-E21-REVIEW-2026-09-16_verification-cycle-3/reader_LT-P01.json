@@ -1,0 +1,289 @@
+{
+ "file": "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+ "reader": "LT-P01 (cycle 3 propagation sweep, 2026-09-16)",
+ "line_shift": "+2 for every hit: the 2026-09-16 posture note occupies lines 11–12; the revision row at 476–477 sits after all hits. Each excerpt re-anchored at worklist+2.",
+ "hits_reviewed": 22,
+ "counts": {
+  "STALE": 4,
+  "CONSISTENT": 3,
+  "RECORD": 5,
+  "UNRELATED": 9,
+  "AMBIGUOUS": 1,
+  "stale_lines_on_list": 3,
+  "stale_lines_off_list": 2
+ },
+ "stale": [
+  {
+   "claim": "C-57",
+   "line": 153,
+   "line_now": 155,
+   "off_list": false,
+   "heading": "## 4. Legal Status: Immunity, Non-Suspect, Uncharged — closing 'Analytical note' paragraph",
+   "current_sentence": "🚨 **The avenue is unexercised, and this file must not write *\"not yet\"*: Mr. Twiggs did not testify and was not cross-examined on any of the five evidence days; the evidentiary record is closed and 2026-09-01 is argument only, so cross-examination is NOT available in this proceeding.** *(As of 2026-08-17.)*",
+   "replacement": "🚨 **The avenue is unexercised, and this file must not write *\"not yet\"*: Mr. Twiggs did not testify and was not cross-examined on any of the five evidence days; 2026-09-01 is set for argument and no evidentiary vehicle is scheduled, so cross-examination is NOT scheduled in this proceeding.** *(As of 2026-08-17.)*",
+   "why": "Body prose (analyst layer) asserts the withdrawn inference 'the evidentiary record is closed' as a fact and derives a consequence ('NOT available') from it. C-57's corrected form: the court said only that the matter was continued for argument; 'closed evidentiary record' is withdrawn as an inference. The replacement keeps the dated scope and the record facts (five evidence days, 09-01 set for argument) and drops the inference."
+  },
+  {
+   "claim": "C-57",
+   "line": 204,
+   "line_now": 206,
+   "off_list": false,
+   "heading": "### 6.2 Judge Graf's June 22, 2026 ruling — Utah Supreme Court bullet",
+   "current_sentence": "⚠️ **The hearing is UNFINISHED: 2026-09-01 is its last day, argument only, on a closed evidentiary record. Cross-examination of Mr. Twiggs, if it occurs, awaits trial — subject to the court's renewal condition above, which the defence did not invoke during the evidence days.**",
+   "replacement": "⚠️ **The hearing is UNFINISHED: 2026-09-01 is its last day, set for argument. Cross-examination of Mr. Twiggs, if it occurs, awaits trial — subject to the court's renewal condition above, which the defence did not invoke during the evidence days.**",
+   "why": "This is the withdrawn C-57 form almost verbatim ('last day, argument only, on a closed evidentiary record'), in body prose. The corrected form is 'its last day, set for argument'. Nothing else in the sentence changes; the posture wording ('UNFINISHED') is the owner-retained dated sentence and is not touched."
+  },
+  {
+   "claim": "C-57",
+   "line": 308,
+   "line_now": 310,
+   "off_list": false,
+   "worklist_hits_grouped": 2,
+   "heading": "## 11. Key Open Questions — item 5 (redacted portions)",
+   "current_sentence": [
+    "⚠️ **The evidentiary record CLOSED on Day 5.**",
+    "✅ **So 09-01 is ARGUMENT ONLY, on a closed EVIDENTIARY record, with no evidentiary vehicle scheduled: it can produce no new FACT, and cannot answer question 1 (who burned the note), question 2 (the tense discrepancy) or question 3 (the screwdriver).**",
+    "The evidentiary record is closed; the publication record is a sealing question and is not governed by that closure.**"
+   ],
+   "replacement": [
+    "⚠️ **No further evidence was proposed on Day 5.**",
+    "✅ **So 09-01 is set for ARGUMENT, with no evidentiary vehicle scheduled: it can produce no new FACT, and cannot answer question 1 (who burned the note), question 2 (the tense discrepancy) or question 3 (the screwdriver).**",
+    "The evidence days have ended; the publication record is a sealing question and is not governed by the continuance to argument.**"
+   ],
+   "why": "Three bolded assertions on the same line state the withdrawn inference as fact ('CLOSED on Day 5', 'on a closed EVIDENTIARY record', 'The evidentiary record is closed'). The same line already carries the corrected substance as a trailing caveat — \"\\u26a0\\ufe0f ***\\\"Closed\\\" is this file's word:*** no one on Day 5 said *rests* or *closed*. What is established is that neither party proposed further evidence and the court allocated 09-01 to argument.\" — so the file both asserts the withdrawn form and disclaims it. The replacements keep the record facts the line quotes (no further witnesses; State waived rebuttal; continued to 09-01 for argument) and the derived scoping of question 5. After the edit the trailing caveat should read as a record of the withdrawal (e.g. '\"Closed\" was this file's word, withdrawn as an inference:'), and 'The defence rested' remains the file's own word by the caveat's own terms."
+  },
+  {
+   "claim": "C-57",
+   "line": null,
+   "line_now": 202,
+   "off_list": true,
+   "heading": "### 6.2 Judge Graf's June 22, 2026 ruling — 'THE DENIAL WAS RENEWABLE' bullet",
+   "current_sentence": "On the five banked days of evidence the defence did not renew, and the evidentiary record then closed.**",
+   "replacement": "On the five banked days of evidence the defence did not renew, and the court then continued the matter to 2026-09-01 for argument.**",
+   "why": "OFF-LIST: the script's C-57 terms were 'closed evidentiary record' and 'evidentiary record is closed'; this carrier reads 'evidentiary record then closed' and was missed. Same withdrawn inference asserted in body prose, inside a scoped-null sentence about renewal."
+  },
+  {
+   "claim": "C-03",
+   "line": null,
+   "line_now": 173,
+   "off_list": true,
+   "heading": "### 5.1 The DNA findings — 'THE EXCULPATORY FRAME IS IN THE ADJACENT TURN' bullet",
+   "current_sentence": "Mr. Twiggs was one of **three elimination donors** — *\"Amber Robinson, Matthew Robinson, and Lance Twiggs\"* — sampled *\"because you had information that those people were associated with the house.\"*",
+   "replacement": "Mr. Twiggs was one of **three elimination donors** — *\"Amber Robinson, Matthew Robinson, and Lance Twiggs\"* — sampled, in defence counsel's words put in a leading question and assented to by the witness, *\"because you had information that those people were associated with the house.\"*",
+   "why": "OFF-LIST (the hit list reached this line only under C-05 name terms). The associated-with-the-premises framing is printed with no speaker, as the record's reason for sampling. On day5.txt it is Mr. Burt's leading question at 01:48:25, answered 'Correct.' at 01:48:29 — the same passage and the same attribution defect C-03 corrected ('never the record's own framing'); DNA-E01 §2.2 carries this exact quotation as 'in counsel's words confirmed by the witness'. The sibling quotation at line 183 ('not because he's a suspect…') IS attributed to defence counsel and is consistent."
+  }
+ ],
+ "ambiguous": [
+  {
+   "claim": "C-05 hit; bears on C-02 ('same guards', vice versa) and P8",
+   "line": 171,
+   "line_now": 173,
+   "heading": "### 5.1 The DNA findings — same bullet as above, final sentence",
+   "current_sentence": "✅ **The same elimination logic returned \"support for inclusion\" for Matthew Robinson on another item — it swept in household members generally, not Mr. Twiggs particularly.**",
+   "what_would_settle_it": "Whether the cycle reads C-02's 'same guards' as owed in THIS direction. The Twiggs/Dremel disclosure and its guards ARE alongside (lines 172–173: recovered from the residence; the witness's household sentence; 'no witness tied it to any activity'), so the C-02 withdrawn ABSENCE is not present. But the Matthew Robinson result is stated (i) as 'another item', singular — the record carries two ATF items, 1.4 (rifle bolt swabs) and 1.6 (per the C-01 corrected form, the barrel), i.e. the rifle, an object not recovered from the residence; (ii) under a household-transfer gloss ('swept in household members generally') that the witness gave for the Dremel (day5 01:51:25), not for the rifle swabs — extending it to the rifle is the profile's inference; (iii) without the guards the corrected forms attach to him where his result is stated (accused of nothing; a 'support for inclusion' statement is not a source attribution; counsel's non-suspect framing attributed to its speaker). If the cycle requires item identity/recovery site and the guards at every statement of his result, this is STALE; if it accepts an adjacent, unnamed, guard-by-implication mention, CONSISTENT.",
+   "candidate_replacement": "✅ **The same elimination logic returned \"support for inclusion\" for Matthew Robinson on two rifle swabs (ATF items 1.4 and 1.6 — an object not recovered from the residence), put to the witness by defence counsel, in leading questions she assented to, as arising not because he was a suspect but because he was associated with the premises: it swept in the elimination donors generally, not Mr. Twiggs particularly. He is accused of nothing, and a \"support for inclusion\" statement is not a source attribution.**"
+  }
+ ],
+ "hits": [
+  {
+   "claim": "C-03",
+   "term": "the record's own",
+   "line": 137,
+   "line_now": 139,
+   "heading": "### 3.6",
+   "class": "UNRELATED",
+   "note": "'softened to the record's own wording' concerns the Information's rendering of the mother's identification ('thought the shooter looked like her son'), not the non-suspect framing."
+  },
+  {
+   "claim": "C-05",
+   "term": "Living persons",
+   "line": 190,
+   "line_now": 192,
+   "heading": "### 6.1",
+   "class": "UNRELATED",
+   "note": "A living-persons note withholding counsel's name; not a banner, names nobody the body does not touch. Consistent with the living-persons rules; the name is not reproduced in this report."
+  },
+  {
+   "claim": "C-05",
+   "term": "Amber Robinson",
+   "line": 171,
+   "line_now": 173,
+   "heading": "### 5.1",
+   "class": "CONSISTENT",
+   "note": "Body quotation of the witness's list of the three elimination donors, not a banner; the file states the Twiggs inclusion result at length, so the withdrawn 'only as elimination-sample donors' proposition (C-01 variant b) is not carried. But see OFF-LIST C-03 stale entry on the same sentence's unattributed 'associated with the house' clause."
+  },
+  {
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 171,
+   "line_now": 173,
+   "heading": "### 5.1",
+   "class": "CONSISTENT",
+   "note": "Same quotation as above (duplicate hit on the same line)."
+  },
+  {
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 171,
+   "line_now": 173,
+   "heading": "### 5.1",
+   "class": "AMBIGUOUS",
+   "note": "The 'support for inclusion for Matthew Robinson on another item' sentence — see ambiguous[0]."
+  },
+  {
+   "claim": "C-05",
+   "term": "elimination sample",
+   "line": 174,
+   "line_now": 176,
+   "heading": "### 5.1",
+   "class": "CONSISTENT",
+   "note": "States the provenance of his reference profile (buccal swab used as an elimination sample); a compatible narrower form, not the 'only as' formulation, since the Dremel inclusion result is carried two bullets above."
+  },
+  {
+   "claim": "C-15",
+   "term": "Cellebrite",
+   "line": 78,
+   "line_now": 80,
+   "heading": "### 3.1",
+   "class": "UNRELATED",
+   "note": "'corroborated by Davis's Cellebrite testimony at 02:40:06' — the investigator's testimony about the extraction. C-15's withdrawn form is an OMISSION in CR-E19/E20/E21, which this file is not; compatible with C-69 (an investigator, not an examiner, described the chain)."
+  },
+  {
+   "claim": "C-15",
+   "term": "Cellebrite",
+   "line": 142,
+   "line_now": 144,
+   "heading": "### 3.7",
+   "class": "UNRELATED",
+   "note": "'an analyst found it inside the Cellebrite extraction (T1)', cited to Agent Davis day4 02:58:07 — the investigator describing what an analyst found; consistent with C-69's corrected form."
+  },
+  {
+   "claim": "C-15",
+   "term": "Cellebrite",
+   "line": 425,
+   "line_now": 427,
+   "heading": "## 13 Revision Log — v1.4 E",
+   "class": "RECORD",
+   "note": "Revision-log row."
+  },
+  {
+   "claim": "C-15",
+   "term": "Cellebrite",
+   "line": 462,
+   "line_now": 464,
+   "heading": "## 13 Revision Log — v1.5 B",
+   "class": "RECORD",
+   "note": "Revision-log row."
+  },
+  {
+   "claim": "C-49",
+   "term": "register ceiling",
+   "line": 431,
+   "line_now": 433,
+   "heading": "## 13 Revision Log — v1.4 H (residual scope)",
+   "class": "RECORD",
+   "note": "Revision-log row about THIS file's parked D-number; not CR-E19's QUEUE.md ceiling line. No ceiling values are restated."
+  },
+  {
+   "claim": "C-50",
+   "term": "the seven",
+   "line": 208,
+   "line_now": 210,
+   "heading": "### 6.3 (heading)",
+   "class": "UNRELATED",
+   "note": "Burt's 'seven forensic witnesses' of 2026-06-22 — a different seven from the review's 'seven owed items'."
+  },
+  {
+   "claim": "C-50",
+   "term": "the seven",
+   "line": 213,
+   "line_now": 215,
+   "heading": "### 6.3",
+   "class": "UNRELATED",
+   "note": "Same seven forensic witnesses."
+  },
+  {
+   "claim": "C-50",
+   "term": "the seven",
+   "line": 444,
+   "line_now": 446,
+   "heading": "## 13 Revision Log — v1.3 C",
+   "class": "RECORD",
+   "note": "Revision-log row; 'the seven removals' of CR-REVIEW-16G §6, a third unrelated seven."
+  },
+  {
+   "claim": "C-52",
+   "term": "no witness was asked",
+   "line": 88,
+   "line_now": 90,
+   "heading": "### 3.2",
+   "class": "UNRELATED",
+   "note": "'No witness was asked where, when or by whom it was burned' — the burnt paper, a different proposition from C-52's Exhibit 32 identity/authorship hedge; scoped to the `burn` stem at line 306."
+  },
+  {
+   "claim": "C-52",
+   "term": "no witness was asked",
+   "line": 304,
+   "line_now": 306,
+   "heading": "## 11 item 1",
+   "class": "UNRELATED",
+   "note": "Same burnt-note null, with its search scope stated."
+  },
+  {
+   "claim": "C-57",
+   "term": "closed evidentiary record",
+   "line": 204,
+   "line_now": 206,
+   "heading": "### 6.2",
+   "class": "STALE",
+   "note": "See stale[1]."
+  },
+  {
+   "claim": "C-57",
+   "term": "closed evidentiary record",
+   "line": 308,
+   "line_now": 310,
+   "heading": "## 11 item 5",
+   "class": "STALE",
+   "note": "See stale[2] (grouped with the next hit, same line)."
+  },
+  {
+   "claim": "C-57",
+   "term": "evidentiary record is closed",
+   "line": 153,
+   "line_now": 155,
+   "heading": "## 4 analytical note",
+   "class": "STALE",
+   "note": "See stale[0]."
+  },
+  {
+   "claim": "C-57",
+   "term": "evidentiary record is closed",
+   "line": 308,
+   "line_now": 310,
+   "heading": "## 11 item 5",
+   "class": "STALE",
+   "note": "Grouped with the previous hit on line 310 — stale[2] lists all three sentences."
+  },
+  {
+   "claim": "C-69",
+   "term": "examiner testified",
+   "line": 164,
+   "line_now": 166,
+   "heading": "### 5.1",
+   "class": "UNRELATED",
+   "note": "'The FBI examiner testified' — the FBI DNA examiner (Day 2), who did testify; C-69 concerns a digital-forensic examiner who did not."
+  },
+  {
+   "claim": "C-69",
+   "term": "examiner testified",
+   "line": 408,
+   "line_now": 410,
+   "heading": "## 13 Revision Log — v1.2 item 1",
+   "class": "RECORD",
+   "note": "Revision-log row; same FBI examiner."
+  }
+ ],
+ "living_persons_check": "No private address or contact detail found anywhere in the file; the file withholds counsel's name (line 192) and this report does not reproduce it. Amber Robinson and Matthew Robinson appear only inside the record quotation at line 173 and the adjacent result sentence; the file's own protective statements (lines 9, 474) name only Lance Twiggs.",
+ "notes": "C-57 is the only cycle claim whose withdrawn form still stands in this file, at three body lines (155, 206, 310 — the last carrying it three times beside a caveat that already states the corrected substance) plus one off-list variant (202). Revision-log carriers of the same inference (lines 413, 421, 444) are RECORD and untouched. The header (line 9) already carries the corrected form ('given over to argument'). C-01/C-02 substance is carried: the Twiggs Dremel result is stated with the recovery-from-residence fact (172) and the witness's household sentence (173), and the Matthew Robinson result is stated alongside — the open question is only the guards/precision of that sentence (ambiguous[0]). C-03: line 183 attributes the 'not because he's a suspect' framing to defence counsel (consistent), but note its 'he' at day5 01:50:02 was Matthew Robinson (item 1.4); the plural form covering all three donors is Burt's earlier leading question at day5 01:48:43 ('not because they were suspects, but because they were associated with the premises'), answered 'There was support for inclusion of some of these individuals. Yes.' at 01:49:03 (DNA-E01 §2.2 carries both). C-51: designators carry their owner at first mention ('State's Ex. 16.3', 'State's Exhibit 24', 'defence exhibit \"Baker 38\"', 'the ATF report counsel called \"Oliver 157\"'); bare 'Ex. 16.1/16.2' (114), 'Exhibit 16.1' (237) and 'Exhibits 24 and 16.3' (306) are second mentions in the same sections — low priority, not counted. No 'belonged to Twiggs' claim exists; 'shared household tool' (249) rests on his own sworn 'we had a Dremel' / 'our random tools'. OBSERVATIONS OUTSIDE THE CYCLE'S CLAIMS, for the owner, not counted: (a) line 166 still prints 'the only likelihood ratio ever calculated on Mr. Twiggs alone was 1' although line 168 records the unscoped 'ever calculated' as deleted/refuted — annotating is not editing; (b) line 249's direction note ('a positive inclusion result on a shared household tool a cohabitant already had access to') presupposes the seized Dremel of §5.1 is the household Dremel of §7.3, an identification line 172 expressly withdrew as unestablished; (c) line 310's 'The defence rested' is also the file's own word by its own caveat. No file was edited."
+}
