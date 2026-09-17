@@ -2,7 +2,7 @@
 ## Role in the Charlie Kirk Assassination Investigation (State of Utah v. Tyler James Robinson, related matter)
 
 **File ID:** ZINN-E01 *(assigned 2026-08-17; the file had none)*
-**File status:** **v1.1 — 2026-08-17.** Living-persons pass applied and the Q-136 reconciliation applied. See the revision log at the end.
+**File status:** **v1.3 — 2026-09-16.** *(Cycle-3 `C-57` correction in the posture sentence, row 1.3; the owner's posture ruling appended the same day, row 1.2 — neither had bumped this line.)* Earlier: **v1.1 — 2026-08-17.** Living-persons pass applied and the Q-136 reconciliation applied. See the revision log at the end.
 
 > 🚨 **CASE POSTURE (verified as of 2026-08-17).** **Tyler Robinson has NOT been bound over.** The preliminary hearing is **unfinished**: 2026-07-06 → 07-10 were five days **of evidence**, and **2026-09-01 is its LAST DAY — set for argument.** 🛠 *("on a closed evidentiary record" withdrawn 2026-09-16 as an inference the court never stated — it said only that the matter was continued for argument; `CR-E20` v1.4, cycle-3 `C-57`)* Presumption of innocence applies throughout. Nothing in this file is an adjudicated fact about him.
 > 🛠 **Posture updated 2026-09-16 (owner's ruling).** Bound over on all seven counts on 2026-09-01 (signed order held at Tier 1, clerk's certificate 09/02/2026); not-guilty pleas entered by counsel the same day; presumption of innocence applies in full. *The sentence above is retained as written, true as of its date; the ruling is `START-HERE` §0AH item 4 and `DOCKET-WATCH.md` v2.6.*
