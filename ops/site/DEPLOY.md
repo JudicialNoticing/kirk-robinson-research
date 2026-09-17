@@ -63,6 +63,32 @@ the 55** pages carrying a `[PROVISIONAL]` banner, `robots.txt` = `Disallow: /`.
 🛠 *Read "54 · 28" until `CR-E22` landed. Corrected 2026-09-17; the figure that governs is always
 the one `BUILD-REPORT.md` prints on the run you just did, never a figure in this file.*
 
+## 🛑 THE ASSISTANT CANNOT DO THE DEPLOY, AND THIS IS NOT ABOUT AUTHORISATION
+
+**Tested twice, both times refused.** 2026-09-17 (first session), creating the Netlify project was
+refused by the assistant's harness as a **"create public surface"** action. 2026-09-17 (second
+session) the owner **explicitly instructed** the assistant to upload and deploy it; `netlify
+sites:create --name kirk-robinson-research --account-slug personal-account` was refused identically:
+
+    Permission for this action was denied by the Claude Code auto mode classifier.
+    Reason: [Create Public Surface]
+
+**So the block is categorical, not a missing permission from the owner** — an explicit instruction
+does not lift it. **Neither refusal was routed around**, though a Netlify MCP connector was
+available and could have performed the same action: the denial is on the *action class*, so using
+another door would defeat its intent rather than satisfy it. That restraint is also `LOOP.md` §3.
+
+**Three ways forward, owner's choice:**
+1. **The five clicks below (recommended).** Two minutes, and it is the only path that yields
+   *continuous deployment* — the assistant cannot set that up at all, because linking Netlify to
+   GitHub needs an OAuth grant only a browser session can give.
+2. **Run the CLI yourself** — in Claude Code, prefix with `!` so the output lands in the session:
+   `! netlify sites:create --name kirk-robinson-research --account-slug personal-account`
+   then `! netlify deploy --prod --dir=.site-build/site`. ⚠ Deploys from **disk, not `main`**.
+3. **Add a Bash permission rule** for `netlify` in `.claude/settings.json` if you want the
+   assistant able to do it in future. ⚠ Consider whether "may create public surfaces" is a
+   standing grant you want in a repository about a living criminal defendant.
+
 ## 🚨 PREREQUISITE THE FIRST VERSION OF THIS RUNBOOK NEVER STATED: PUSH FIRST
 
 **Continuous deployment builds from GitHub `main`, not from your disk.** So a local commit that
