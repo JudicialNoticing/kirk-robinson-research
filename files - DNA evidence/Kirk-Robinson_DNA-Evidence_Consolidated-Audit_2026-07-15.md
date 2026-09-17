@@ -3,7 +3,7 @@
 
 **Scope:** DNA and directly-adjacent forensic evidence introduced at the preliminary hearing (July 6–10, 2026), plus the surrounding investigation. Consolidates three prior work products: (v1) original explainer, (v2) first audit, (v3) recursive audit.
 **Compiled:** July 15, 2026
-**Status of case at compilation:** ~~Preliminary hearing concluded July 10, 2026.~~ 🚨 **CORRECTED 2026-08-17 (Q-136 sweep): THE HEARING WAS NOT CONCLUDED — IT WAS CONTINUED.** July 6–10, 2026 were **five days of EVIDENCE**; **2026-09-01 is the hearing's LAST DAY, argument only, on a closed evidentiary record**, and that is why no bindover has issued. Established Tier 1 against the Day 5 transcript 2026-08-16. ⚠️ **This file was written 2026-07-15 and the 08-16 correction did not reach this folder** — see standing hazard 18. Written briefs ordered (State opening July 28; defense response Aug. 11; State reply Aug. 18). Oral arguments Sept. 1, 2026. Bindover ruling pending thereafter. No plea entered. State intends to seek the death penalty.
+**Status of case at compilation:** ~~Preliminary hearing concluded July 10, 2026.~~ 🚨 **CORRECTED 2026-08-17 (Q-136 sweep): THE HEARING WAS NOT CONCLUDED — IT WAS CONTINUED.** July 6–10, 2026 were **five days of EVIDENCE**; **2026-09-01 is the hearing's LAST DAY, set for argument** 🛠 *("on a closed evidentiary record" withdrawn 2026-09-16 as an inference the court never stated — it said only that the matter was continued for argument; `CR-E20` v1.4, cycle-3 `C-57`)*, and that is why no bindover has issued. Established Tier 1 against the Day 5 transcript 2026-08-16. ⚠️ **This file was written 2026-07-15 and the 08-16 correction did not reach this folder** — see standing hazard 18. Written briefs ordered (State opening July 28; defense response Aug. 11; State reply Aug. 18). Oral arguments Sept. 1, 2026. Bindover ruling pending thereafter. No plea entered. State intends to seek the death penalty.
 
 ---
 
@@ -294,3 +294,6 @@ Primary-relay reporting used above (named, Tier 3 unless noted):
 ---
 
 *End of file. All "Tier 1" content herein is Tier 1 reached through Tier 3 relay pending primary-document verification (see §0 and §8).*
+
+
+- **2026-09-16 (post-supersession housekeeping) —** **Cycle 3 (propagation sweep of the 2026-08-30 corrections), `C-57`: the case-posture sentence's *"argument only, on a closed evidentiary record"* corrected in place to *"set for argument"* with an inline 🛠 note.** The clause was an inference `CR-E20` v1.4 withdrew on 2026-08-30 (the court said only that the matter was continued for argument); the posture note beneath the sentence, which says the sentence is retained as true as of its date, did not cure it. The remaining hits the cycle-3 script listed for this file were term collisions or true statements about this file (classified by the coordinator from the file; see the cycle bank's README). No finding, grade or citation changed.

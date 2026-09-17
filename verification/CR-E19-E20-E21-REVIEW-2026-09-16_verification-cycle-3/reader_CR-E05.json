@@ -1,0 +1,197 @@
+{
+ "file": "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md",
+ "reader": "cycle 3 propagation reader, 2026-09-16",
+ "hits_reviewed": 22,
+ "line_shift": "Worklist lines were computed before the 2026-09-16 posture note (now lines 6-7) and revision row 1.5 (now line 430) were inserted; every worklist line >= 6 re-anchors at +2 (verified by excerpt phrase at each site). Current file: 430 lines, v1.4 + v1.5 log row.",
+ "counts": {
+  "STALE": 0,
+  "CONSISTENT": 11,
+  "RECORD": 6,
+  "UNRELATED": 5,
+  "AMBIGUOUS": 0,
+  "OFF_LIST_flagged_sites": 4
+ },
+ "stale": [],
+ "ambiguous": [],
+ "hits_by_line": [
+  {
+   "line": 6,
+   "line_now": 8,
+   "heading": "file header (Living persons field)",
+   "hits": [
+    "#1 C-05 'Living persons'"
+   ],
+   "classification": "CONSISTENT",
+   "current_sentence": "**Living persons:** Day 1's record contains **personal identifying information spoken in open court and, in one instance, displayed in an unredacted exhibit before the court caught it.** None of it is reproduced here — see §1.4. Witnesses who are private individuals are named only where their names are load-bearing to a public question, and no address, telephone number, or other contact detail appears in this file.",
+   "why": "The banner names nobody and describes only what this file's body actually touches (the two §1.4 PII incidents; private witnesses named only where load-bearing). That is the corrected C-05 form (banner cut to what the file touches); the withdrawn form (three named people the body never mentions; the 'only as elimination-sample donors' formulation) is absent. No 'elimination' string anywhere in the file."
+  },
+  {
+   "line": 16,
+   "line_now": 18,
+   "heading": "Headline results — four, in order of consequence (item 3)",
+   "hits": [
+    "#2 C-13 'Exhibit 11'",
+    "#10 C-13 \"medical examiner's report\"",
+    "#15 C-28 'decisive artifact'",
+    "#18 C-28 'the decisive artifact for'"
+   ],
+   "classification": "CONSISTENT (C-13); UNRELATED (C-28); see OFF-LIST item 1 for the bare designator",
+   "current_sentence": "**Exhibit 11 is the nine-page Utah Medical Examiner's report of examination (Dr. Guajardo), and it was ADMITTED on Day 1** over a hearsay/confrontation objection, publication denied on victim-dignity grounds. **This is the decisive artifact for Q-15 / D-49** — the fragment-count question — and the library did not know it was in evidence.",
+   "why": "C-13: this file is the source the corrected form cites ('held in full at CR-E05 §4.3, decisive for D-49'); it asserts Exhibit 11 = the ME report, admitted Day 1 — the corrected proposition, never the withdrawn five-report set. C-28: 'decisive artifact' here is the ME report for the fragment count (Q-15/D-49), not the UBFS latent print report for F-1; the term matched, the proposition is a different artifact and a different register item, and the 'decisive for D-49' language is itself carried by the C-13 corrected form."
+  },
+  {
+   "line": 17,
+   "line_now": 19,
+   "heading": "Headline results (item 4)",
+   "hits": [
+    "#20 C-72 'not one'"
+   ],
+   "classification": "UNRELATED",
+   "current_sentence": "**every civilian video came in as Rule 1102 written hearsay through Hull, with not one of the five source witnesses present.**",
+   "why": "'not one' here counts absent civilian source witnesses; C-72's withdrawn form is 'No laboratory report has been read. Not one.' No laboratory-report-read proposition exists in this file (strings 'laboratory report', 'has been read' return zero hits)."
+  },
+  {
+   "line": 240,
+   "line_now": 242,
+   "heading": "### 4.3 The autopsy and State's Exhibit 11 — the medical examiner's report",
+   "hits": [
+    "#3 C-13 'Exhibit 11'",
+    "#11 C-13 \"medical examiner's report\""
+   ],
+   "classification": "CONSISTENT",
+   "current_sentence": "### 4.3 The autopsy and State's Exhibit 11 — the medical examiner's report",
+   "why": "Owner-carrying heading; this is the §4.3 the C-13 corrected form points to as the library's full holding of the exhibit's admission."
+  },
+  {
+   "line": 246,
+   "line_now": 248,
+   "heading": "§4.3 (third bullet)",
+   "hits": [
+    "#4 C-13 'Exhibit 11'"
+   ],
+   "classification": "CONSISTENT",
+   "current_sentence": "**State's Exhibit 11 is the nine-page report of examination.** Offered 06:05:31; **ADMITTED over defence hearsay and confrontation objection**, under **URE 1102(b)(5)** (\"medical and autopsy reports and records\") and Utah Const. Art. I §12. **Publication DENIED** — not shown in the courtroom, not viewable by the media camera — on Art. I §28 victim-dignity grounds, both parties effectively agreeing.",
+   "why": "Matches the corrected CR-E20 row 11 content point for point (nine pages; URE 1102(b)(5); hearsay/confrontation objection; publication denied under Art. I §28). 'Offered 06:05:31' is compatible with the corrected form's 'admitted 06:08:50→06:09:27' (offer vs ruling) and CR-E21's 06:03:16→06:11:18 span."
+  },
+  {
+   "line": 251,
+   "line_now": 253,
+   "heading": "§4.3 > Analyst layer — why this matters beyond Day 1 (a)",
+   "hits": [
+    "#5 C-13 'Exhibit 11'",
+    "#12 C-13 \"medical examiner's report\"",
+    "#16 C-28 'decisive artifact'"
+   ],
+   "classification": "CONSISTENT (C-13); UNRELATED (C-28); see OFF-LIST item 2 for the bare designator",
+   "current_sentence": "> **(a) Q-15 / D-49 now has a located decisive artifact.** D-49 concerns the **fragment count** — a medical examiner's photograph reportedly showing seven fragments where ATF received five. Q-15 names \"the medical examiner's report + photograph\" as decisive. **That report is Exhibit 11, it is nine pages, its author is named, and it has been in evidence since 2026-07-06.** The library did not know this. It does **not** resolve D-49 — the fragment count is not established by anything read here — but the target is now concrete.",
+   "why": "C-13 corrected proposition (Exhibit 11 is the ME report, admitted). C-28: different artifact (ME report for D-49, not the UBFS print report for F-1); the passage also expressly declines to resolve D-49, so it is not the overclaim C-28 withdrew."
+  },
+  {
+   "line": 256,
+   "line_now": 258,
+   "heading": "### 4.4 The video-foundation marathon — and the Rule 1102 architecture",
+   "hits": [
+    "#21 C-72 'not one'"
+   ],
+   "classification": "UNRELATED",
+   "current_sentence": "**Most of Hull's Day 1 direct is foundation.** Every civilian video came in through a **Rule 1102 written statement** — Utah's mechanism for reliable hearsay at a preliminary hearing — **and not one of the five source witnesses testified.**",
+   "why": "Absent source witnesses, not laboratory reports read; see line 19."
+  },
+  {
+   "line": 347,
+   "line_now": 349,
+   "heading": "## 6. WHAT DAY 1 CONFIRMS, CORRECTS AND ADDS — 'Adds, new to the library'",
+   "hits": [
+    "#6 C-13 'Exhibit 11'"
+   ],
+   "classification": "CONSISTENT; see OFF-LIST item 3 for the bare designator",
+   "current_sentence": "- **Exhibit 11 — the ME report, admitted, nine pages, Dr. Guajardo** (§4.3). **Feeds Q-15 / D-49.**",
+   "why": "Corrected C-13 proposition."
+  },
+  {
+   "line": 369,
+   "line_now": 371,
+   "heading": "## 6A. SCOPED NULLS — WHAT IS NOT IN DAY 1 — 'Also absent from Day 1'",
+   "hits": [
+    "#7 C-13 'Exhibit 11'"
+   ],
+   "classification": "CONSISTENT; see OFF-LIST item 4 for the bare designator",
+   "current_sentence": "- **No autopsy content beyond page 1's manner and cause** — Exhibit 11 was admitted but **not published**, so its contents are known only through Hull's description (§4.3).",
+   "why": "A scoped null about Day 1's transcript that presupposes the corrected proposition (Exhibit 11 admitted). Still true: QUEUE.md Q-51 is `ready` (the exhibit is unheld), so the report's contents remain known only through Hull."
+  },
+  {
+   "line": 391,
+   "line_now": 393,
+   "heading": "## 8. OPEN ITEMS AND ACQUISITION TARGETS (item 1)",
+   "hits": [
+    "#8 C-13 'Exhibit 11'"
+   ],
+   "classification": "CONSISTENT",
+   "current_sentence": "1. **State's Exhibit 11 — the ME report** (9 pp., Dr. Guajardo). **In evidence since 2026-07-06.** Decisive for **Q-15 / D-49**. → **Q-51**.",
+   "why": "Owner-carrying; corrected proposition; the open item is current (Q-51 `ready` in QUEUE.md line 71; Q-166 merges with it)."
+  },
+  {
+   "line": 423,
+   "line_now": 425,
+   "heading": "## REVISION LOG — row 1.0 (2026-07-28)",
+   "hits": [
+    "#9 C-13 'Exhibit 11'",
+    "#13 C-25 'No independent verification cycle has run'",
+    "#14 C-25 'verification cycle has run on this file'",
+    "#17 C-28 'decisive artifact'",
+    "#19 C-28 'the decisive artifact for'",
+    "#22 C-72 'not one'"
+   ],
+   "classification": "RECORD (all six)",
+   "current_sentence": "[revision row 1.0 — not quoted in full; the C-25 phrase is: **Findings `[PROVISIONAL]`; no independent verification cycle has run on this file** (§9.4 → Q-54).]",
+   "why": "A revision-log row recording v1.0's state as it was; never to be edited. The live text carries the later state: line 10 '**The `[PROVISIONAL]` marking is accordingly cleared.**' and §9.4 (line 411) '**The verification cycle HAS now run — and this is what it did and did not cover.** **Q-54, 2026-08-01.**' The C-28 and C-72 terms in this row are, additionally, unrelated propositions (the ME report; absent source witnesses)."
+  }
+ ],
+ "off_list": [
+  {
+   "class": "C-51 candidate (bare exhibit designator) — OFF-LIST",
+   "claim": "C-51",
+   "line": 16,
+   "line_now": 18,
+   "heading": "Headline results (item 3) — a finding",
+   "classification": "STALE-CANDIDATE",
+   "current_sentence": "**Exhibit 11 is the nine-page Utah Medical Examiner's report of examination (Dr. Guajardo), and it was ADMITTED on Day 1** over a hearsay/confrontation objection, publication denied on victim-dignity grounds.",
+   "replacement": "**State's Exhibit 11 is the nine-page Utah Medical Examiner's report of examination (Dr. Guajardo), and it was ADMITTED on Day 1** over a hearsay/confrontation objection, publication denied on victim-dignity grounds.",
+   "why": "A bare 'Exhibit 11' in the file's headline finding. The number is one CR-E20 F-3 (v1.6) records as COLLIDING on this record — State's Exhibit 11 (the ME report) vs Karner 11 (the DOJ ULTR policy document, day4 06:27:10) — so the ambiguity is real, not notional. Condition: C-51's withdrawn form is scoped to CR-E20's own prose ('against its own Rule 2'); whether the owner-carrying rule propagates to sibling files is the coordinator's call. If it does, this and the three sites below are the carriers."
+  },
+  {
+   "class": "C-51 candidate (bare exhibit designator) — OFF-LIST",
+   "claim": "C-51",
+   "line": 251,
+   "line_now": 253,
+   "heading": "§4.3 > Analyst layer (a)",
+   "classification": "STALE-CANDIDATE",
+   "current_sentence": "**That report is Exhibit 11, it is nine pages, its author is named, and it has been in evidence since 2026-07-06.**",
+   "replacement": "**That report is State's Exhibit 11, it is nine pages, its author is named, and it has been in evidence since 2026-07-06.**",
+   "why": "Same as above; weaker as a carrier because the §4.3 heading and the bullet three lines above both carry the owner, so this reads as shorthand inside an owner-anchored section."
+  },
+  {
+   "class": "C-51 candidate (bare exhibit designator) — OFF-LIST",
+   "claim": "C-51",
+   "line": 347,
+   "line_now": 349,
+   "heading": "§6 'Adds, new to the library'",
+   "classification": "STALE-CANDIDATE",
+   "current_sentence": "- **Exhibit 11 — the ME report, admitted, nine pages, Dr. Guajardo** (§4.3). **Feeds Q-15 / D-49.**",
+   "replacement": "- **State's Exhibit 11 — the ME report, admitted, nine pages, Dr. Guajardo** (§4.3). **Feeds Q-15 / D-49.**",
+   "why": "Findings list; bare designator on a colliding number."
+  },
+  {
+   "class": "C-51 candidate (bare exhibit designator) — OFF-LIST",
+   "claim": "C-51",
+   "line": 369,
+   "line_now": 371,
+   "heading": "§6A scoped nulls",
+   "classification": "STALE-CANDIDATE",
+   "current_sentence": "- **No autopsy content beyond page 1's manner and cause** — Exhibit 11 was admitted but **not published**, so its contents are known only through Hull's description (§4.3).",
+   "replacement": "- **No autopsy content beyond page 1's manner and cause** — State's Exhibit 11 was admitted but **not published**, so its contents are known only through Hull's description (§4.3).",
+   "why": "Scoped-null finding; bare designator on a colliding number."
+  }
+ ],
+ "notes": "ZERO STALE hits on the list. Every C-13 site carries the corrected proposition (this file is the origin the correction points back to: CR-E20 v1.4/v1.6 and CR-E21 v1.2 both cite CR-E05 §4.3), the C-25 and C-28/C-72 log-row hits are RECORD, and the C-28 and C-72 body hits are term collisions with unrelated propositions (the ME report as decisive for D-49 — a different artifact from C-28's UBFS latent print report and endorsed by the C-13 corrected form; 'not one of the five source witnesses' — not a laboratory-report-read claim). Off-list scan of the whole file for the other rules the task names: 'ATF' appears twice (an agency list at line 234; 'where ATF received five' fragments at line 253) — no 'the ATF report' designation, so C-32 has no carrier; no 'Exhibit 30–34' or 'State's Exhibit 32' string anywhere (C-38 none); no 'swab'/'print-exam' (C-26 none); no 'laboratory report'/'has been read' (C-72 none); no 'elimination' (C-01/C-05 none); 'Twiggs' appears once, at line 366, as a transcript search term inside a scoped null ('Terms with ZERO occurrences anywhere in Day 1'), which is not a living-persons assertion. §9 item 1 ('No exhibit was obtained. Every exhibit above is known only through witnesses') is scoped to Day 1's exhibits and is still true — QUEUE.md Q-51 is `ready` and Q-67 lists StEx 1, 3, 3.2, 4, 5, 7, 8, 9 as unheld; the ATF firearms report C-72 concerns is not a Day 1 exhibit, so C-72's corrected form does not reach this sentence. §9.4's 'await a second cycle' (line 411) remains accurate for THIS file: v1.2–v1.4 were driven by cycles auditing other files (Q-07, SEC-E01), not a second Q-54-style cycle. The only OFF-LIST material is the C-51 class: four bare 'Exhibit 11' designators in finding-class prose (lines 18, 253, 349, 371) on a number CR-E20 F-3 records as colliding (State's 11 vs Karner 11). The file also uses bare/abbreviated designators at ~35 other sites (Exhibit 12.1 at 44, 77, 300, 328, 345, 377, 385, 394; Exhibit 6.1 at 58, 64; Exhibit 9 at 240; Ex. 6/6.1/7/7.1/8/8.1/9/12.3 in the §4.4 table at 266–269 and 273–276; Ex. 12.2/13 at 287; Ex. 12.3 at 302; Exhibit 13 at 381; Exhibit 35 and Exhibits 1, 2 and 3 at 208; Exhibits 4 and 5 at 209; Exhibits 3.2 and 4 at 397; Exhibits 7, 8 and 9 at 86; Exhibit 5 at 92; Exhibit 1 at 95) — each follows an owner-carrying first mention (e.g. 'State's Exhibit 12.1' at 16/294/298) and none is on a number I saw recorded as colliding, so they are NOT flagged; whether shorthand after an owner-carrying first mention falls under C-51 at all is for the coordinator (CR-E20 F-3's collision list — 11, 19, 30 and one further — is what would decide any particular number). No file was edited; no withheld name is written here."
+}

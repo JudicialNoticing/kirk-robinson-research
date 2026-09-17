@@ -1,0 +1,355 @@
+{
+ "file": "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md",
+ "reader": "cycle-3 propagation reader, CR-E07, 2026-09-16",
+ "hits_reviewed": 29,
+ "counts": {
+  "STALE": 0,
+  "CONSISTENT": 5,
+  "RECORD": 7,
+  "UNRELATED": 17,
+  "AMBIGUOUS": 0
+ },
+ "line_offset_note": "Worklist lines were computed before two 2026-09-16 inserts. Current = worklist line +0 up to line 111; +2 from the §3 posture note (now lines 120-121) onward; +3 after the inserted log row (now line 284). Every hit was re-anchored by its excerpt phrase; the mapping held for all 29.",
+ "stale": [],
+ "ambiguous": [],
+ "hits": [
+  {
+   "hit": 1,
+   "claim": "C-09",
+   "term": "an identification",
+   "line": 50,
+   "line_now": 50,
+   "heading": "§2 · 2.0 Threshold argument — hearsay under Rule 1102",
+   "class": "UNRELATED",
+   "why": "Recording layer: the brief's own characterisation of the State's identity evidence — 'an identification from UVU surveillance footage'. Not the FBI latent-print letter, not a print identification, attributed to the filing. C-09's withdrawn proposition (the FBI report read as 'an identification' without its guard) is not carried here."
+  },
+  {
+   "hit": 2,
+   "claim": "C-13",
+   "term": "Exhibit 11",
+   "line": 201,
+   "line_now": 203,
+   "heading": "§4 · Added at v1.3 — F-20",
+   "class": "CONSISTENT",
+   "why": "Carries the corrected form: State's Exhibit 11 = the medical examiner's report, admitted 2026-07-06 (= Day 1 per CR-E05 header) with publication denied, decisive for D-49. The withdrawn proposition (a laboratory-report set stated without Exhibit 11) is not asserted anywhere in this file; F-20 is the finding that surfaced the omission."
+  },
+  {
+   "hit": 3,
+   "claim": "C-13",
+   "term": "Exhibit 11",
+   "line": 203,
+   "line_now": 205,
+   "heading": "§4 · Added at v1.3 — F-20 (second-order finding)",
+   "class": "CONSISTENT",
+   "why": "A recording-layer quotation of the brief's footnote 5 naming 'the medical examiner's report admitted as State's Exhibit 11' — compatible with the corrected form; recorded as the defence's claim and adopted nowhere."
+  },
+  {
+   "hit": 4,
+   "claim": "C-13",
+   "term": "Exhibit 11",
+   "line": 280,
+   "line_now": 282,
+   "heading": "REVISION LOG — row 1.3 (2026-08-14)",
+   "class": "RECORD",
+   "why": "Revision-log row."
+  },
+  {
+   "hit": 5,
+   "claim": "C-13",
+   "term": "medical examiner's report",
+   "line": 201,
+   "line_now": 203,
+   "heading": "§4 · F-20",
+   "class": "CONSISTENT",
+   "why": "Same line as hit 2 (duplicate term match)."
+  },
+  {
+   "hit": 6,
+   "claim": "C-13",
+   "term": "medical examiner's report",
+   "line": 203,
+   "line_now": 205,
+   "heading": "§4 · F-20 (second-order finding)",
+   "class": "CONSISTENT",
+   "why": "Same line as hit 3 (duplicate term match)."
+  },
+  {
+   "hit": 7,
+   "claim": "C-13",
+   "term": "medical examiner's report",
+   "line": 242,
+   "line_now": 244,
+   "heading": "§5 · Open items — exhibits row (CORRECTED 2026-08-14 v1.3)",
+   "class": "CONSISTENT",
+   "why": "Table cell: 'StEx 11 is the medical examiner's report — the library's own Q-51, human-gated, and the decisive artifact for D-49'. Compatible with C-13's corrected form ('decisive for D-49')."
+  },
+  {
+   "hit": 8,
+   "claim": "C-13",
+   "term": "medical examiner's report",
+   "line": 280,
+   "line_now": 282,
+   "heading": "REVISION LOG — row 1.3",
+   "class": "RECORD",
+   "why": "Same row as hit 4."
+  },
+  {
+   "hit": 9,
+   "claim": "C-28",
+   "term": "decisive artifact",
+   "line": 196,
+   "line_now": 198,
+   "heading": "§4 · F-20 heading sentence",
+   "class": "UNRELATED",
+   "why": "Term collision only. Here 'decisive artifact' = State's Exhibit 11 (ME report) for D-49. C-28's withdrawn proposition concerns the UBFS latent print report as 'the decisive artifact for F-1'; neither UBFS nor F-1 nor any latent-print report appears in this file."
+  },
+  {
+   "hit": 10,
+   "claim": "C-28",
+   "term": "decisive artifact",
+   "line": 201,
+   "line_now": 203,
+   "heading": "§4 · F-20",
+   "class": "UNRELATED",
+   "why": "As hit 9 — Exhibit 11 / D-49, not UBFS / F-1."
+  },
+  {
+   "hit": 11,
+   "claim": "C-28",
+   "term": "decisive artifact",
+   "line": 242,
+   "line_now": 244,
+   "heading": "§5 · exhibits row",
+   "class": "UNRELATED",
+   "why": "As hit 9."
+  },
+  {
+   "hit": 12,
+   "claim": "C-28",
+   "term": "decisive artifact",
+   "line": 280,
+   "line_now": 282,
+   "heading": "REVISION LOG — row 1.3",
+   "class": "RECORD",
+   "why": "Log row; referent is Exhibit 11 / D-49 in any case."
+  },
+  {
+   "hit": 13,
+   "claim": "C-28",
+   "term": "the decisive artifact for",
+   "line": 201,
+   "line_now": 203,
+   "heading": "§4 · F-20",
+   "class": "UNRELATED",
+   "why": "Same line as hit 10 (duplicate term match)."
+  },
+  {
+   "hit": 14,
+   "claim": "C-28",
+   "term": "the decisive artifact for",
+   "line": 242,
+   "line_now": 244,
+   "heading": "§5 · exhibits row",
+   "class": "UNRELATED",
+   "why": "Same line as hit 11."
+  },
+  {
+   "hit": 15,
+   "claim": "C-28",
+   "term": "the decisive artifact for",
+   "line": 280,
+   "line_now": 282,
+   "heading": "REVISION LOG — row 1.3",
+   "class": "RECORD",
+   "why": "Same row as hit 12."
+  },
+  {
+   "hit": 16,
+   "claim": "C-49",
+   "term": "register ceiling",
+   "line": 281,
+   "line_now": 283,
+   "heading": "REVISION LOG — row 1.2 (2026-08-14)",
+   "class": "RECORD",
+   "why": "Log row recording the D-60→D-59 renumbering; states the ceiling as it stood on 2026-08-13 as history ('was D-58'), not a current restatement, and no owed 'that line must be advanced' action exists in this file. C-49's proposition (CR-REVIEW's stale owed-action / printed ceiling values) is not carried."
+  },
+  {
+   "hit": 17,
+   "claim": "C-50",
+   "term": "the seven",
+   "line": 229,
+   "line_now": 231,
+   "heading": "§4 · Added at v1.4 — 'Residual on the residual'",
+   "class": "UNRELATED",
+   "why": "'the seven articles' = F-18's seven outlet articles. C-50's 'seven owed items' (CR-REVIEW / CR-E20) is a different seven; no owed-items list exists in this file."
+  },
+  {
+   "hit": 18,
+   "claim": "C-50",
+   "term": "the seven",
+   "line": 257,
+   "line_now": 259,
+   "heading": "§6 · Residual scope",
+   "class": "UNRELATED",
+   "why": "'outlets beyond the seven read' — outlets, not owed items."
+  },
+  {
+   "hit": 19,
+   "claim": "C-50",
+   "term": "the seven",
+   "line": 291,
+   "line_now": 294,
+   "heading": "REVISION LOG — row 1.5 (2026-08-16), sits below ## Related",
+   "class": "RECORD",
+   "why": "'the seven StBr pin-cites' in a log row — pin-cites, not owed items."
+  },
+  {
+   "hit": 20,
+   "claim": "C-60",
+   "term": "corrected v1.4",
+   "line": 111,
+   "line_now": 111,
+   "heading": "§3 · Analyst layer — A-5",
+   "class": "UNRELATED",
+   "why": "Stamp refers to THIS file's own v1.4 (2026-08-14 adversarial pass); the 1.4 log row (line 281) records the A-5 rationale correction, so the stamp verifies. C-60 concerns mis-stamps in a different file (CR-E20 v1.5 items stamped v1.4)."
+  },
+  {
+   "hit": 21,
+   "claim": "C-60",
+   "term": "corrected v1.4",
+   "line": 149,
+   "line_now": 151,
+   "heading": "§4 · F-17 Proposition 1",
+   "class": "UNRELATED",
+   "why": "Murphy ¶8 at printed p. 3 — listed in this file's 1.4 row (F-22). Stamp verifies."
+  },
+  {
+   "hit": 22,
+   "claim": "C-60",
+   "term": "corrected v1.4",
+   "line": 165,
+   "line_now": 167,
+   "heading": "§4 · F-18 Steelman",
+   "class": "UNRELATED",
+   "why": "Argument opens on printed p. 2 — listed in this file's 1.4 row (F-22). Stamp verifies."
+  },
+  {
+   "hit": 23,
+   "claim": "C-60",
+   "term": "corrected v1.4",
+   "line": 243,
+   "line_now": 245,
+   "heading": "§5 · Doc. 625 row",
+   "class": "UNRELATED",
+   "why": "'seek to' wording — listed in this file's 1.4 row. Stamp verifies."
+  },
+  {
+   "hit": 24,
+   "claim": "C-71",
+   "term": "16.1, 16.2",
+   "line": 35,
+   "line_now": 35,
+   "heading": "§1 · Access-path caveats — Exhibits row",
+   "class": "UNRELATED",
+   "why": "Inventory of designators the BRIEF CITES (struck v1.0 list + corrected v1.3 list). Says nothing about the RCFL/Cellebrite chain or which exhibits it produced; 'RCFL'/'Cellebrite' occur nowhere in this file. C-71's withdrawn proposition is not carried."
+  },
+  {
+   "hit": 25,
+   "claim": "C-71",
+   "term": "16.1, 16.2",
+   "line": 35,
+   "line_now": 35,
+   "heading": "§1 · Exhibits row",
+   "class": "UNRELATED",
+   "why": "Same line as hit 24 (second occurrence in the corrected list)."
+  },
+  {
+   "hit": 26,
+   "claim": "C-71",
+   "term": "16.1, 16.2",
+   "line": 199,
+   "line_now": 201,
+   "heading": "§4 · F-20",
+   "class": "UNRELATED",
+   "why": "Designator count list; as hit 24."
+  },
+  {
+   "hit": 27,
+   "claim": "C-71",
+   "term": "16.1, 16.2",
+   "line": 242,
+   "line_now": 244,
+   "heading": "§5 · exhibits row",
+   "class": "UNRELATED",
+   "why": "Struck v1.0 list; as hit 24."
+  },
+  {
+   "hit": 28,
+   "claim": "C-71",
+   "term": "16.1, 16.2",
+   "line": 242,
+   "line_now": 244,
+   "heading": "§5 · exhibits row",
+   "class": "UNRELATED",
+   "why": "Same line as hit 27 (corrected list)."
+  },
+  {
+   "hit": 29,
+   "claim": "C-71",
+   "term": "16.1, 16.2",
+   "line": 280,
+   "line_now": 282,
+   "heading": "REVISION LOG — row 1.3",
+   "class": "RECORD",
+   "why": "Log row."
+  }
+ ],
+ "off_list": [
+  {
+   "id": "OFF-LIST-1",
+   "class": "C-51-class bare designator (STALE on the rule as stated)",
+   "line_now": 90,
+   "heading": "§2 · 2.4 Argument IV — the victim-targeting enhancement",
+   "current_sentence": "1. **Exhibit 5.1**, a Rule 1102 witness statement of **David Englehardt**, a pastor — argued to contain nothing about Mr. Robinson's state of mind, and to identify no specific pre-2025-09-10 statement by Mr. Kirk, only general categories of belief and topics of debate.",
+   "replacement": "1. **State's Exhibit 5.1**, a Rule 1102 witness statement of **David Englehardt**, …  (change 'Exhibit 5.1' → 'State's Exhibit 5.1' only)",
+   "why": "The only owner-less designator in the file. Mitigation for the orchestrator: it sits in the recording layer, the owner is implied by the preceding 'the two evidentiary sets it says the State proffers', and the same exhibit is 'StEx 5.1' at lines 35/244. Not a propagation from CR-E20's own Rule-2 prose, but it violates the rule as the task states it."
+  },
+  {
+   "id": "OFF-LIST-2",
+   "class": "CONTRADICTED gloss on State's Exhibit 32 (C-38-adjacent; a flat exhibit identity in a table cell, and a wrong one)",
+   "line_now": 244,
+   "heading": "§5 · Open items — exhibits row",
+   "current_sentence": "New acquisition targets surfaced by the corrected list: **StEx 32** (the rifle), **StEx 25** (the shooting targets), **StExs 19-22** (the cartridges), **StEx 10.3**, **StEx 16.3** |",
+   "replacement": "New acquisition targets surfaced by the corrected list: **StEx 32** (per CR-E20 row 32, an ATF report received \"in relation to the gun as well as cartridge case and cartridges\" — not the rifle itself; the brief cites it for the rifle's recovery and caliber), **StEx 25** (the shooting targets), **StExs 19-22** (the cartridges), **StEx 10.3**, **StEx 16.3** |",
+   "why": "'(the rifle)' is this file's own inference from citation context, not the defence's statement: the banked brief cites 'PH2:126; PH4:96-97; StEx 32' for where the rifle was found and 'StExs 10.3, 32; PH2:126' for its caliber, and never says StEx 32 IS the rifle. The library's canonical map, CR-E20 row 32, identifies State's Exhibit 32 from the Day 4 transcript verbatim (Sgt. Faumuina, day4 05:26:25) as an ATF firearms/toolmark report. The cell is a live acquisition-target description, so the gloss would send Q-work after the wrong artifact. Do NOT write '= 2025-W-000401 / CR-E15' here: that identity is the graded inference (CR-E20 F-4 High / CR-E15 F-139 Medium-high) and this file has no occasion to carry it. The 25 and 19-22 glosses match the brief's citation context (PH4:113; StExs 19-22) but CR-E20 maps neither row, so they stand as unverified glosses — '(checkable)', not contradicted."
+  },
+  {
+   "id": "OFF-LIST-3",
+   "class": "internal P8 count, body not updated after its own log row (annotating-is-not-editing)",
+   "line_now": 203,
+   "heading": "§4 · F-20",
+   "current_sentence": "The brief cites it twice, for the projectile striking *\"the left side of his neck\"* and for the downward angle of travel.",
+   "replacement": "The brief cites it at three sites — for the projectile striking *\"the left side of his neck\"*, for the downward angle of travel, and in footnote 5 (quoted below).",
+   "why": "The 1.5 (2026-08-16) log row at line 294 records 'StEx 11 is cited at THREE sites, not two (the third is footnote 5)'; the body was never changed. Re-counted on the whitespace-normalised banked brief: 'StEx 11' ×2 + 'State’s Exhibit 11' ×1 (curly apostrophe, footnote 5) = three."
+  },
+  {
+   "id": "OFF-LIST-4",
+   "class": "internal P8 count (six vs seven outlets)",
+   "line_now": 240,
+   "heading": "§5 · D-59 row",
+   "current_sentence": "… and whether any outlet outside the six read carries the same wording |",
+   "replacement": "… and whether any outlet outside the seven read carries the same wording |",
+   "why": "§6 (line 259) and the 1.1 log row bound the survey to SEVEN outlets (Townhall + the six cleared). Minor; not a C-claim carrier."
+  },
+  {
+   "id": "OFF-LIST-5",
+   "class": "structure / version stamp of the 2026-09-16 insert (housekeeping, not a claim)",
+   "line_now": 284,
+   "heading": "REVISION LOG",
+   "current_sentence": "| **1.5** | **2026-09-16** | **Posture line updated to the owner's ruling of 2026-09-16.** …",
+   "replacement": "Stamp the new row **1.7** and bump the header Status line (line 7, still 'v1.6') to match.",
+   "why": "The log already carries a 1.5 (2026-08-16, line 294) and a 1.6 (2026-08-20, line 293); the new row reuses 1.5 and the header was not bumped. Pre-existing and unrelated to the insert: rows 1.6 and 1.5 sit BELOW '## Related' (line 288), orphaned from the log table, so the log is now in two pieces. Also observed: the header banner at line 10 ('AS OF 2026-08-13 … NOT BEEN BOUND OVER') is date-stamped and true as of its date but carries no pointer to the 2026-09-16 posture note, which sits under §3 (line 121)."
+  }
+ ],
+ "notes": "No hit on the list is STALE. All 29 hits are term collisions with a different referent (UNRELATED: 17), the corrected C-13 form already carried (CONSISTENT: 5), or revision-log rows (RECORD: 7). Isolation kept: each hit judged from the file text with ±8 lines and the nearest heading; the worklist's diagnosis was not consulted for the classification. Source checks made for the off-list flags only: the banked brief text (whitespace-normalised) for how St.Ex. 32/25/19-22/11 are cited; CR-E20 rows 11 and 32; CR-E05's Day 1 date (Monday 2026-07-06, so this file's 'admitted 2026-07-06' matches C-13's 'admitted Day 1'). Swept for the other withdrawn carriers the task names — 'the ATF report' (0 occurrences of 'ATF'), a flat 'is State's Exhibit 32' (none; but see OFF-LIST-2), 'elimination-sample' / Dremel / Matthew or Amber Robinson (none — the only 'Matthew' is AP's Matthew Brown), 'the record's own framing' (none), RCFL/Cellebrite (none): the file is clean of all of them. Living-persons handling names only Mr. Twiggs, whom the body touches (C-05 satisfied). No file was edited; no withheld name written."
+}

@@ -2,7 +2,7 @@
 
 **File ID:** CR-AUDIT-2026-08-20 · **Scope:** one row per cycle executed this session, per LOOP §1.7, with every file → version change listed. Two sessions ran this date: the morning docket catch-up (committed at `5f27400`, logged in CR-WATCH-log v1.7 — not re-audited here) and this research session. · **Prepared:** 2026-08-20 · **Status:** v1.0
 
-> 🚨 **CASE POSTURE, VERIFIED 2026-08-20. TYLER ROBINSON HAS NOT BEEN BOUND OVER.** The preliminary hearing is unfinished; 2026-09-01 is its last day, argument only, on a closed evidentiary record. Presumption of innocence applies throughout. **No cycle below altered any case-posture statement or resolved any register entry against a named person.**
+> 🚨 **CASE POSTURE, VERIFIED 2026-08-20. TYLER ROBINSON HAS NOT BEEN BOUND OVER.** The preliminary hearing is unfinished; 2026-09-01 is its last day, set for argument 🛠 *("on a closed evidentiary record" withdrawn 2026-09-16 as an inference the court never stated — it said only that the matter was continued for argument; `CR-E20` v1.4, cycle-3 `C-57`)*. Presumption of innocence applies throughout. **No cycle below altered any case-posture statement or resolved any register entry against a named person.**
 
 ## Cycles executed, in order
 
@@ -37,3 +37,4 @@
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-08-20 | Created at session close; five cycles logged with outcomes, register movement and residue. |
+| 1.1 | 2026-09-16 | **Cycle 3 (propagation sweep of the 2026-08-30 corrections), `C-57`: the case-posture sentence's *"argument only, on a closed evidentiary record"* corrected in place to *"set for argument"* with an inline 🛠 note.** The clause was an inference `CR-E20` v1.4 withdrew on 2026-08-30 (the court said only that the matter was continued for argument); the posture note beneath the sentence, which says the sentence is retained as true as of its date, did not cure it. The remaining hits the cycle-3 script listed for this file were term collisions or true statements about this file (classified by the coordinator from the file; see the cycle bank's README). No finding, grade or citation changed. |
