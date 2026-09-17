@@ -1,0 +1,395 @@
+{
+ "file": "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+ "reader": "cycle 3 propagation sweep, 2026-09-16; file read in full (291 lines, v1.4 header-state) before classifying; no file edited",
+ "line_shift": "worklist lines were computed before the 2026-09-16 inserts. Current = worklist line +0 (L<=22), +2 (L23..276: posture note at 23-24), +4 (L277..282: second posture note at 279-280), +5 (L>=283: new 1.4 revision row at 287). Every hit re-anchored by phrase; the mapping held for all 47.",
+ "hits_reviewed": 47,
+ "counts": {
+  "STALE": 5,
+  "CONSISTENT": 8,
+  "RECORD": 15,
+  "UNRELATED": 7,
+  "AMBIGUOUS": 12
+ },
+ "stale_lines": 4,
+ "stale": [
+  {
+   "claim": "C-53",
+   "hit_indices": [
+    28
+   ],
+   "line": 89,
+   "line_now": 91,
+   "heading": "§4 · RECORDING LAYER — R-5 sub-bullet (added v1.3)",
+   "current_sentence": "⚠️ **The 2025-09-17 report is, on `CR-E20 F-4` / `CR-E15 F-139` — bounded to ATF's submission-1 report and ⚠️ SPLIT-GRADED between those two files (`CR-E20` v1.1: identity High; `CR-E15` v1.1: identity Medium-high, expressly held) — the report admitted at the preliminary hearing as State's Exhibit 32.**",
+   "replacement": "⚠️ **The 2025-09-17 report is, on `CR-E20 F-4` / `CR-E15 F-139` — bounded to this one report (not to 'ATF submission 1', which the same filing shows carrying more than one report — §8.1) and ⚠️ SPLIT-GRADED between those two files (`CR-E20` v1.1: identity High; `CR-E15` v1.1: identity Medium-high, expressly held) — the report admitted at the preliminary hearing as State's Exhibit 32.**",
+   "why": "'bounded to ATF's submission-1 report' is the withdrawn C-53 form asserted in body prose. The file's own §8.1 quotation (line 162) designates BOTH the 2025-09-17 and the 2025-10-06 bullet/toolmark reports 'submission 1', so 'the submission-1 report' names no single report. The split-grade clause is C-37-consistent and is left as is."
+  },
+  {
+   "claim": "C-53",
+   "hit_indices": [
+    29
+   ],
+   "line": 180,
+   "line_now": 182,
+   "heading": "§8.1 · RESULT (1) — the graded-honestly paragraph",
+   "current_sentence": "⚠️ **`F-4` is expressly BOUNDED to ATF's submission-1 report** — which is exactly why the rest of this section matters: **it is about the reports that are NOT submission 1.**",
+   "replacement": "⚠️ **`F-4` is expressly BOUNDED to the 2025-09-17 firearms report** — which is exactly why the rest of this section matters: **it is about the reports that are NOT the 2025-09-17 report.**",
+   "why": "Verbatim withdrawn form ('F-4 is bounded to the submission-1 report'). The trailing clause rests on the same conflation and is wrong on the file's own face: the 2025-10-06 report IS designated 'submission 1' (lines 162, 190), so 'the reports that are NOT submission 1' excludes one of the two reports the section is about. Both clauses change together; nothing else in the paragraph is touched."
+  },
+  {
+   "claim": "C-53",
+   "hit_indices": [
+    30
+   ],
+   "line": 188,
+   "line_now": 190,
+   "heading": "§8.1 · RESULT (2) — the candidate mapping, expressly NOT adopted",
+   "current_sentence": "Of the filing's three reports, **only the 2026-02-25 report spans more than one submission** (`submission 1, 4, 6`); the 2025-10-06 report is designated `submission 1` alone, and the held submission-1 report's own EXHIBITS table runs **items 1 through 6 only** — no item 15, 16 or 18.",
+   "replacement": "Of the filing's three reports, **only the 2026-02-25 report spans more than one submission** (`submission 1, 4, 6`); the 2025-10-06 report is designated `submission 1` alone, and the held 2025-09-17 report's own EXHIBITS table runs **items 1 through 6 only** — no item 15, 16 or 18.",
+   "why": "Naming-form instance of C-53: the same sentence has just said the 2025-10-06 report is also 'submission 1', so 'the held submission-1 report' identifies the held document only by an inference the reader must make from §8.1(1). The corrected designator is the date. Lesser than the other three (the sentence's reasoning survives), but it is the withdrawn designator standing in body prose."
+  },
+  {
+   "claim": "C-53",
+   "hit_indices": [
+    31,
+    34
+   ],
+   "line": 199,
+   "line_now": 201,
+   "heading": "§8.1 · ⚠️ A DESCRIPTION OF THIS FILE, IN ANOTHER FILE, THAT THIS SECTION CORRECTS — the ✅ closing sentence",
+   "current_sentence": "✅ **The substantive point `CR-E20` was making survives intact and is strengthened, not weakened**: further ATF firearms/toolmark output beyond submission 1 exists on the face of a court filing, it bears on how far `F-4` reaches, and **`F-4`'s own bounding to the submission-1 report is exactly right.** *(Recorded per corrections-in-place: a claim about this file, made in another file, checked against the source and answered here.)*",
+   "replacement": "✅ **The substantive point `CR-E20` was making survives intact and is strengthened, not weakened**: further ATF firearms/toolmark output beyond submission 1 exists on the face of a court filing, it bears on how far `F-4` reaches, and **`F-4`'s own bounding to the 2025-09-17 firearms report is exactly right.** *(Recorded per corrections-in-place: a claim about this file, made in another file, checked against the source and answered here.)*",
+   "why": "Verbatim withdrawn form, asserted as a ✅ conclusion in body prose (two hits, one sentence). Minimal change is the bounding clause only. Optional, same conflation: 'output beyond submission 1' is true only of the 2026-02-25 report (submissions 1, 4, 6); the 2025-10-06 report is submission 1 alone yet is also further output — 'beyond the 2025-09-17 report' would be exact. Not required to carry the corrected form."
+  }
+ ],
+ "ambiguous": [
+  {
+   "claims": [
+    "C-01",
+    "C-02",
+    "C-05"
+   ],
+   "hit_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "line": 283,
+   "line_now": 288,
+   "heading": "Revision log — v1.3 row (2026-08-30), closing sentence",
+   "current_sentence": "**Living persons: Lance Twiggs holds use immunity from two offices, did not testify live, and is accused of nothing; Amber and Matthew Robinson appear in this case's material only as elimination-sample donors and are accused of nothing; federal examiners are recorded by role and report date only.**",
+   "why_ambiguous": "Two of the sweep's own rules collide here. It is a revision-log row (RECORD, never edited) — but the sentence is not a description of a change; it is a standalone living-persons assertion in the exact C-01 form withdrawn 2026-08-30 ('appear ... only as elimination-sample donors'), and C-05's withdrawn form expressly includes a revision note that reproduced the names. This row is the ONLY place in CR-E14 the names Amber/Matthew appear (body, §6, §9 N-7 and §11 name none of the three in a banner; the file's living-persons section at §11 is scoped to what the file touches and is clean). C-02 does not bite: the sentence names no Matthew Robinson 1.4/1.6 result, so no Twiggs/Dremel disclosure is owed by C-02's own terms.",
+   "what_would_settle_it": "The owner's ruling on whether the never-edit rule covers a living-persons ASSERTION embedded in a row, as distinct from the row's account of changes. If it does: remedy is a new v1.5 row recording that the v1.3 row's closing sentence carries the formulation withdrawn 2026-08-30 and that the corrected handling lives at CR-E19's header and DNA-E01 §§1.5/2.2 (this file states no DNA result and owes no disclosure). If it does not: minimal in-row replacement = 'Amber and Matthew Robinson appear in this file nowhere and are accused of nothing; their handling is governed at CR-E19's header and DNA-E01 §§1.5 and 2.2' — which also removes the withdrawn 'only as elimination-sample donors' clause without adopting any result into a file that states none."
+  }
+ ],
+ "hits": [
+  {
+   "claims": [
+    "C-33",
+    "C-37",
+    "C-45",
+    "C-49",
+    "C-53",
+    "C-58",
+    "C-72"
+   ],
+   "hit_indices": [
+    21,
+    23,
+    25,
+    27,
+    32,
+    33,
+    35,
+    36,
+    38,
+    39,
+    43,
+    46
+   ],
+   "line": 283,
+   "line_now": 288,
+   "heading": "Revision log — v1.3 row",
+   "class": "RECORD",
+   "note": "Twelve string hits in the same v1.3 row. Substance: C-53 (hits 32/33/35) carries 'the held submission-1 report' and 'F-4's bounding to the submission-1 report is exactly right' as of 2026-08-30 — the RECORD twins of the four STALE body sentences; C-58 (36/38/39/43) quotes CR-E20's wrong sentence and records its correction; C-37 (23) records the F-4 v1.0→v1.1 re-grade and the CR-E15 split; C-33 (21) 'two evidence groups' describes Exhibit 34's items, not the grid; C-45 (25) cites Exhibit F as the source of a verbatim quotation; C-49 (27) says the ceiling is NOT restated and prints no value; C-72 (46) 'not one ATF laboratory-report date' is a transcript-null phrase, unrelated to whether a report has been read."
+  },
+  {
+   "claims": [
+    "C-58"
+   ],
+   "hit_indices": [
+    40
+   ],
+   "line": 285,
+   "line_now": 290,
+   "heading": "Revision log — v1.1 row (2026-08-16)",
+   "class": "RECORD",
+   "note": "Historic row using the library's 'firearms reports' paraphrase; the v1.3 row records its correction to the filing's 'bullet/toolmark examination reports'."
+  },
+  {
+   "claims": [
+    "C-58"
+   ],
+   "hit_indices": [
+    37
+   ],
+   "line": 3,
+   "line_now": 3,
+   "heading": "Header — Status line",
+   "class": "RECORD",
+   "note": "The superseded wording ('only one of three ATF firearms reports') appears in quotation marks inside the note that records its correction to the filing's own phrase; the rest of the Status line carries the corrected form (Touhy names one; Exhibit F lists three; the 2025-09-17 report is held and tied to Exhibit 32). See notes: the Status line still reads v1.3 while the log's top row is 1.4."
+  },
+  {
+   "claims": [
+    "C-58"
+   ],
+   "hit_indices": [
+    41
+   ],
+   "line": 194,
+   "line_now": 196,
+   "heading": "§8.1 · ⚠️ A DESCRIPTION OF THIS FILE, IN ANOTHER FILE, THAT THIS SECTION CORRECTS",
+   "class": "RECORD",
+   "note": "Versioned quotation of CR-E20 v1.1 §4's wrong sentence, followed by 'that sentence is wrong twice'. Present-tense 'says' is pinned to v1.1; CR-E20 has since been corrected at its own sites, so a 🛠 pointer would be tidy but is not owed."
+  },
+  {
+   "claims": [
+    "C-58"
+   ],
+   "hit_indices": [
+    42
+   ],
+   "line": 197,
+   "line_now": 199,
+   "heading": "§8.1 · same sub-section, item 2",
+   "class": "CONSISTENT",
+   "note": "Carries corrected form (b): the library DOES hold the 2025-09-17 report, read at CR-E15; what it lacks is 2025-10-06 and 2026-02-25. Item 1 (line 198) carries corrected form (a)."
+  },
+  {
+   "claims": [
+    "C-05"
+   ],
+   "hit_indices": [
+    7
+   ],
+   "line": 239,
+   "line_now": 241,
+   "heading": "§11 · Living persons and PII (heading)",
+   "class": "CONSISTENT",
+   "note": "§11's body (lines 243-248) names counsel's phone (not reproduced), the parents/roommate by role, federal examiners by role and date, counsel's anonymised team, Erika Kirk, and identifiers. No banner names Twiggs/Amber/Matthew; the section is cut to what this file touches — the corrected C-05 form. (Twiggs is named at §6 line 115 as the subject of DNA-E01's likelihood-ratio finding and at §9 N-7 as a null search term — uses the file has occasion for.)"
+  },
+  {
+   "claims": [
+    "C-08"
+   ],
+   "hit_indices": [
+    13
+   ],
+   "line": 160,
+   "line_now": 162,
+   "heading": "§8.1 · The two lists, side by side — Exhibit F ¶1.3 block quote",
+   "class": "UNRELATED",
+   "note": "'proficiency tests of analysts or reviewers' is the filing's own discovery-category wording inside a verbatim quotation; no person is described as named for proficiency tests anywhere in CR-E14 (personnel are by role and date per §11)."
+  },
+  {
+   "claims": [
+    "C-13"
+   ],
+   "hit_indices": [
+    14
+   ],
+   "line": 266,
+   "line_now": 268,
+   "heading": "§12 · Acquisition roadmap — D-7 row",
+   "class": "CONSISTENT",
+   "note": "Identifies State's Exhibit 11 with the autopsy report (compatible lay form of 'the medical examiner's report of examination'). CR-E14 states no laboratory-report census; §8.1's 'FOUR ATF laboratory reports' is ATF-scoped and not the withdrawn set."
+  },
+  {
+   "claims": [
+    "C-13"
+   ],
+   "hit_indices": [
+    15
+   ],
+   "line": 85,
+   "line_now": 87,
+   "heading": "§4 · R-2 — Latency, asserted",
+   "class": "UNRELATED",
+   "note": "Recording-layer production dates for the autopsy report and photographs (the defence's assertion); nothing about the laboratory-report set."
+  },
+  {
+   "claims": [
+    "C-15"
+   ],
+   "hit_indices": [
+    16
+   ],
+   "line": 84,
+   "line_now": 86,
+   "heading": "§4 · R-1 — Volume",
+   "class": "CONSISTENT",
+   "note": "This is the source the corrected C-15 form points to ('held at CR-E14 §4 R-1/R-2'): ~12 TB, 6,425 folders, 613,023 files."
+  },
+  {
+   "claims": [
+    "C-25"
+   ],
+   "hit_indices": [
+    17
+   ],
+   "line": 5,
+   "line_now": 5,
+   "heading": "Header — [PROVISIONAL] line",
+   "class": "UNRELATED",
+   "note": "'No independent verification cycle has run → Q-99' is TRUE of this file: CR-REVIEW-2026-08-30 §residual (line 144) states it did not audit CR-E14, and QUEUE.md Q-99 ('Verification cycle on CR-E14') is still 'ready'. The withdrawn C-25 form was about CR-E19/E20/E21, where two cycles had run. This sweep is a propagation read, not that cycle."
+  },
+  {
+   "claims": [
+    "C-28"
+   ],
+   "hit_indices": [
+    18,
+    19
+   ],
+   "line": 180,
+   "line_now": 182,
+   "heading": "§8.1 · RESULT (1) — graded-honestly paragraph",
+   "class": "UNRELATED",
+   "note": "'the decisive artifact' here is State's Exhibit 32 as admitted, for the F-4/F-139 identity question — not the UBFS latent-print report and not F-1."
+  },
+  {
+   "claims": [
+    "C-33"
+   ],
+   "hit_indices": [
+    20
+   ],
+   "line": 188,
+   "line_now": 190,
+   "heading": "§8.1 · RESULT (2)",
+   "class": "CONSISTENT",
+   "note": "States that Exhibit 34 compares the Dremel-side items (15A, 16, 18A-18E) against the rifle-side cartridge case and cartridges — i.e. that Exhibit 34 spans both evidence groups, which is the corrected C-33 point. No grid is presented in CR-E14."
+  },
+  {
+   "claims": [
+    "C-37"
+   ],
+   "hit_indices": [
+    22
+   ],
+   "line": 89,
+   "line_now": 91,
+   "heading": "§4 · R-5 sub-bullet",
+   "class": "CONSISTENT",
+   "note": "Records F-4 (CR-E20 v1.1) at identity High and F-139 (CR-E15 v1.1) at Medium-high, as a split between two files — the corrected form plus its travelling caveat. It does not say F-4 itself is split anchor-High/identity-Medium-high. Same sentence is STALE on C-53 (see stale[0])."
+  },
+  {
+   "claims": [
+    "C-45"
+   ],
+   "hit_indices": [
+    24
+   ],
+   "line": 158,
+   "line_now": 160,
+   "heading": "§8.1 · The two lists, side by side",
+   "class": "CONSISTENT",
+   "note": "Exhibit F is introduced as 'What the filing says' and quoted verbatim, under §0's file-wide tier warning (the filing establishes what the defence asserted, not the truth of it) and §1's extraction caveats. The 'we have no case files...' statement is not read as fact anywhere in CR-E14."
+  },
+  {
+   "claims": [
+    "C-49"
+   ],
+   "hit_indices": [
+    26
+   ],
+   "line": 210,
+   "line_now": 212,
+   "heading": "§8.1 · What would settle it — closing ⚠️ line",
+   "class": "CONSISTENT",
+   "note": "'the register ceiling is not restated — QUEUE.md is the single source of truth'; no ceiling value is printed and no owed action is stated."
+  },
+  {
+   "claims": [
+    "C-66"
+   ],
+   "hit_indices": [
+    44
+   ],
+   "line": 127,
+   "line_now": 129,
+   "heading": "§7 · D-72",
+   "class": "UNRELATED",
+   "note": "'four months' is the Invocation's certificate date (2025-09-16) against its document date (2026-01-16) — a different interval. CR-E14's letter-to-hearing interval reads 'three and a half months' (lines 192, 288), compatible with the corrected 'three months and eleven days'."
+  },
+  {
+   "claims": [
+    "C-69"
+   ],
+   "hit_indices": [
+    45
+   ],
+   "line": 177,
+   "line_now": 179,
+   "heading": "§8.1 · RESULT (1), hook 2",
+   "class": "UNRELATED",
+   "note": "'The examiner testified she authored State's Exhibit 32' is the ATF firearm/toolmark examiner (day4 06:25:38-44); no digital-forensic examiner is said to have testified anywhere in CR-E14."
+  }
+ ],
+ "off_list_observations": [
+  {
+   "claim": "C-53 (off-list, same line as hit 29)",
+   "line_now": 182,
+   "heading": "§8.1 · RESULT (1) — graded-honestly paragraph",
+   "class": "AMBIGUOUS",
+   "current_sentence": "Their limbs include the submission match and the sworn authorship recited above.",
+   "why": "C-53's withdrawn form includes 'a submission-number match' listed as a ground for the F-4 re-grade. This sentence describes CR-E20/CR-E15's grounds as including it (RECORD twin at line 288: 'Their limbs overlap the submission match...').",
+   "what_would_settle_it": "Whether CR-E20's current F-4 still lists a submission match among its grounds. C-53's corrected form drops it; C-37's corrected form still lists 'the examiner's sworn submission one against Submission(s): 1'. If dropped: replacement 'Their limbs include the sworn authorship recited above.'"
+  },
+  {
+   "claim": "C-53 (off-list, §8.1(1) hooks)",
+   "line_now": "178-180",
+   "heading": "§8.1 · RESULT (1) — 'three hooks hold it'",
+   "class": "AMBIGUOUS",
+   "why": "Hook 1 (the filing designates the 2025-09-17 report 'submission 1') and hook 3 (the held footer 'Submission(s): 1') are both submission-designator matches. Under C-53 (ATF submission 1 carries at least four reports, including the 2025-10-06 firearms/toolmark report the filing also labels 'submission 1') neither hook distinguishes the 2025-09-17 report from the 2025-10-06 report on its own; hook 3 does so only through its printed date, and hook 2 (sworn authorship of Exhibit 32 plus the recited item list) is the discriminating one. 'Three hooks' is not a withdrawn phrase and the tie itself is not disputed, so this is flagged, not called stale.",
+   "what_would_settle_it": "The owner's ruling on whether a submission-designator match may still be counted as a hook post-C-53; if not, hook 1 should be folded into hook 3 as 'date + designator on the held document's face' and the count read 'two hooks'."
+  },
+  {
+   "claim": "C-72 family (off-list)",
+   "line_now": 43,
+   "heading": "§1 · Access-path caveats — 'Not held' row",
+   "class": "STALE (off-list)",
+   "current_sentence": "| **Not held** | The State's opposition, if any; **any order disposing of the motion**; the 2026-04-17 minute entry; and every laboratory report the motion describes. |",
+   "replacement": "| **Not held** | The State's opposition, if any; **any order disposing of the motion**; the 2026-04-17 minute entry; and every laboratory report the motion describes except the ATF firearms report of 2025-09-17 (held and read at CR-E15 — §5 🛠). |",
+   "why": "The proposition that no laboratory report the motion describes is held is the C-72 withdrawn proposition in CR-E14's own terms, and it is contradicted by this file's §5 🛠 note (line 107: 'THE REPORT WAS ALREADY ON DISK ... Read by rendering the pages')."
+  },
+  {
+   "claim": "C-72 family (off-list)",
+   "line_now": 262,
+   "heading": "§12 · Acquisition roadmap — D-1 row",
+   "class": "STALE (off-list)",
+   "current_sentence": "| **D-1** 🚨 | **The ATF summary report on the autopsy bullet** | **The highest-value target surfaced today.** Until it is held, no file may say the bullet was not matched to the rifle (**F-87**). |",
+   "replacement": "| **D-1** 🚨 | **The ATF summary report on the autopsy bullet** | **The highest-value target surfaced today — and HELD the same day (§5 🛠, CR-E15).** The operative rule is now CR-E15 F-100: no file may say the bullet was not matched to the rifle without saying the result was INCONCLUSIVE and that the cartridge case WAS identified (**F-87**). |",
+   "why": "Row still presents the report as unheld and an open acquisition target; §5's 🛠 note in the same file resolves it and states the replacement rule (F-100)."
+  },
+  {
+   "claim": "C-72 family (off-list)",
+   "line_now": 275,
+   "heading": "§13 · Residual scope",
+   "class": "STALE (off-list)",
+   "current_sentence": "**F-87 in particular is the defence's characterisation of a report nobody here has read, and it is the single most consequential claim in the document.**",
+   "replacement": "**F-87 in particular is the defence's characterisation of a report that was read the same day at CR-E15 (§5 🛠) — F-87 itself stays recording-layer — and it is the single most consequential claim in the document.**",
+   "why": "'nobody here has read' is asserted as current residual scope and is contradicted by line 107. (§5's four numbered reasons at lines 99-103 are retained beneath a 🛠 note and are fine as corrections-in-place; §0 line 31 'laboratory reports this library does not hold' is a general statement with one exception and is left to the caller.)"
+  }
+ ],
+ "notes": "All five STALE hits are C-53 and all four stale sentences say the same thing in the same file: 'F-4 is bounded to ATF's submission-1 report' / 'the held submission-1 report' (lines 91, 182, 190, 201), while the file's own §8.1 quotation shows two ATF bullet/toolmark reports both designated 'submission 1'. The v1.3 revision row (line 288) carries the RECORD twins of the same sentences. No STALE hit on C-01/C-02/C-05/C-08/C-13/C-15/C-25/C-28/C-33/C-37/C-45/C-49/C-58/C-66/C-69/C-72. C-58 is clean in the body: the Status line and §8.1 carry the corrected form (Touhy names ONE; Exhibit F ¶1.3 lists three; the 2025-09-17 report is held at CR-E15) and every 'three ATF firearms reports' string is a quotation recording the correction or a historic row. The 12 C-01/C-02/C-05 hits at line 288 are classed AMBIGUOUS rather than RECORD because the sentence is a living-persons assertion in the withdrawn form, not a description of a change, and C-05's own withdrawn form includes a revision note reproducing the names; the remedy options are stated. C-25 at line 5 was checked against the record, not assumed: CR-REVIEW-2026-08-30 line 144 says it did not audit CR-E14, and Q-99 is still 'ready'. Out of scope but observed: the Status line (line 3) reads 'v1.3' while the revision log's top row is '1.4 | 2026-09-16' — the header/log mismatch class the v1.3 row itself named; and the 1.4 row's version cell is formatted '1.4' where every other row reads 'v1.x'. No personnel name was written in this report; the three living persons named in the line-288 sentence are quoted only because the sentence under review is that sentence."
+}

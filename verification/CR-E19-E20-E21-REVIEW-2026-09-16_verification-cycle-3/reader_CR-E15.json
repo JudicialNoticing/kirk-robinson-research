@@ -1,0 +1,604 @@
+{
+ "file": "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+ "file_sha256": "4f9326a41d2a33286f597993779c1af32766a9e532c022273a18ffff51583a44",
+ "file_lines": 314,
+ "file_mtime": "2026-09-16T19:40:54",
+ "read_at": "2026-09-16",
+ "line_shift": "worklist line -> current line: unchanged for lines < 9; +2 for lines >= 9 (the owner's posture note and a blank line were inserted at lines 9–10 on 2026-09-16; the v1.3 log row is at 314, after every hit). Verified by re-anchoring every hit's phrase.",
+ "hits_reviewed": 50,
+ "counts": {
+  "CONSISTENT": 15,
+  "UNRELATED": 13,
+  "RECORD": 12,
+  "STALE": 10,
+  "STALE_off_list_sites": 7
+ },
+ "stale": [
+  {
+   "claim": "C-25",
+   "line": 22,
+   "line_now": 24,
+   "hit_indices": [
+    13,
+    17
+   ],
+   "on_hit_list": true,
+   "heading": "§0.1 · PROVISIONAL DEPENDENCIES — LOOP §2 discipline",
+   "current_sentence": "**`CR-E20` is `[PROVISIONAL]`** (v1.0, 2026-08-30; no verification cycle has run on it).",
+   "replacement": "**`CR-E20` is `[PROVISIONAL]`** (v1.0 at 2026-08-30, when no verification cycle had run on it; two have since — `CR-REVIEW-2026-08-30` — and the flag stands because cycle 2 found defects introduced by cycle 1's corrections).",
+   "why": "Present-perfect 'no verification cycle has run on it' in the file's live dependency block is C-25's withdrawn reason-for-the-flag, stated of CR-E20. CR-REVIEW-2026-08-30 ran cycles 1 and 2 on CR-E19/E20/E21; the dating parenthetical does not rescue it because the block is read as current state. (Contrast lines 5 and 272, which say the same of THIS file and are true: CR-REVIEW-2026-08-30 line 144 states it did not audit CR-E15.)"
+  },
+  {
+   "claim": "C-32",
+   "line": 12,
+   "line_now": 14,
+   "hit_indices": [
+    23
+   ],
+   "on_hit_list": true,
+   "heading": "§0.0 · NAMING DISCIPLINE (rules block)",
+   "current_sentence": "There are **four ATF reports on this record and they split two-and-two across disciplines** (`CR-E20 F-1`)",
+   "replacement": "There are **four ATF reports entered at the preliminary hearing and they split two-and-two across disciplines** (`CR-E20 F-1`; at least nine ATF reports exist in the case — `CR-E21` §2)",
+   "why": "'On this record' is not the corrected scope 'entered at this hearing'; read as the case record it is the unscoped count found false (at least nine ATF reports exist). The rules block says it 'reproduces' CR-E20's rules, so it must carry F-1's v1.5 scope. The file itself knows more reports exist (line 173 counts three ATF firearms reports plus State's 30 and 33 for DNA)."
+  },
+  {
+   "claim": "C-33",
+   "line": 12,
+   "line_now": 14,
+   "hit_indices": [
+    24,
+    25
+   ],
+   "on_hit_list": true,
+   "heading": "§0.0 · NAMING DISCIPLINE (rules block)",
+   "current_sentence": "DNA/biology on one side, firearms/toolmark on the other, across two evidence groups.",
+   "replacement": "DNA/biology on one side, firearms/toolmark on the other. ⚠ The split is a mnemonic for the disciplines, not a map of what each exhibit reaches (`CR-E20 F-1`): this report's own Exhibit 6 fragments belong to neither the rifle-and-ammunition group nor the Dremel group — a third evidence group, described by the defence (not by the report — N-3) as recovered at autopsy.",
+   "why": "'Across two evidence groups' is the withdrawn 2x2-grid form presented without caveat. Ironically this file's own report is the counter-example CR-E20 F-1 now names (Exhibit 32 reaches the fragments). Replacement is worded to honour this file's N-3 (the report does not state the fragment's provenance). Same sentence as the C-32 entry; the two edits do not overlap."
+  },
+  {
+   "claim": "C-38",
+   "line": 115,
+   "line_now": 117,
+   "hit_indices": [
+    33
+   ],
+   "on_hit_list": true,
+   "heading": "§4A heading",
+   "current_sentence": "## §4A · 🚨 THE JOIN: this report is State's Exhibit 32 at the preliminary hearing",
+   "replacement": "## §4A · 🚨 THE JOIN: this report is, on the best available reading, State's Exhibit 32 at the preliminary hearing — an inference, split-graded (anchor High / identity Medium-high)",
+   "why": "Flat 'is State's Exhibit 32' in a heading, outside the graded finding; a heading travels as a citation. F-139 two lines below and §6 'Resolved' both carry the grade; the heading does not."
+  },
+  {
+   "claim": "C-37",
+   "line": 121,
+   "line_now": 123,
+   "hit_indices": [
+    30
+   ],
+   "on_hit_list": true,
+   "heading": "§4A · F-139 headline",
+   "current_sentence": "*(Grade held at `CR-E20 F-4`'s level — see `F-139(c)` for why it is not raised here even though this pass strengthened it.)*",
+   "replacement": "*(Grade deliberately held at Medium-high although `CR-E20 F-4` has since re-graded identity to High on this evidence — see `F-139(c)`; neither file may be cited as having settled it alone.)*",
+   "why": "The split grade itself (ANCHOR High · IDENTITY Medium-high, an inference) is CONSISTENT — CR-E15 F-139 deliberately holds Medium-high. The parenthetical asserts CR-E20 F-4's level IS Medium-high, which is C-37's withdrawn grade; F-4 is now ANCHOR High · IDENTITY High. Only the parenthetical changes."
+  },
+  {
+   "claim": "C-53",
+   "line": 171,
+   "line_now": 173,
+   "hit_indices": [
+    46
+   ],
+   "on_hit_list": true,
+   "heading": "§4A · F-139(b)(4)",
+   "current_sentence": "⚠️ **This also bounds the finding: `F-139` is about the SUBMISSION-1 firearms report.**",
+   "replacement": "⚠️ **This also bounds the finding: `F-139` is about the 2025-09-17 firearms report — there is no 'submission-1 report' as such: both laboratories number by evidence submission, and ATF submission 1 carries at least four reports across three disciplines (`CR-E21 F-2`), so the submission match is consistent with the join but does not by itself discriminate among them.**",
+   "why": "'The SUBMISSION-1 firearms report' is C-53's withdrawn bounding; submission 1 carries two firearms reports alone (2025-09-17 and 2025-10-06), so the phrase does not identify a document. Act (4) 'the submission number matches' is a true fact and may stand as an observation, but not as a bound."
+  },
+  {
+   "claim": "C-58",
+   "line": null,
+   "line_now": 173,
+   "hit_indices": [
+    46
+   ],
+   "on_hit_list": false,
+   "heading": "§4A · F-139(b)(4)",
+   "current_sentence": "The witness's phrasing implies at least one further submission exists, and the *Touhy* request records **three** ATF firearms reports (`CR-E14`; `CR-E20` §6.5).",
+   "replacement": "The witness's phrasing implies at least one further submission exists, and defence counsel's letter of 2026-03-25 (Exhibit F to the *Touhy* filing, ¶ 1.3) lists **three** ATF bullet/toolmark examination reports — 2025-09-17, 2025-10-06 and 2026-02-25 (`CR-E14`; `CR-E20` §6.5).",
+   "why": "OFF-LIST (same line as hit 46; the script's C-58 term only matched the log row). 'The Touhy request records three ATF firearms reports' is C-58's withdrawn form: the request names one report (the 2025-09-17); the three are listed in Exhibit F, counsel's letter of 2026-03-25 ¶ 1.3, and 'firearms reports' was the library's paraphrase. The following sentence ('No later ATF firearms report is held') is consistent with C-58(b)."
+  },
+  {
+   "claim": "C-37",
+   "line": 175,
+   "line_now": 177,
+   "hit_indices": [
+    31,
+    38
+   ],
+   "on_hit_list": true,
+   "heading": "§4A · F-139(c) lead sentence",
+   "current_sentence": "`CR-E20 F-4` states three things as unestablished — complete, unredacted, paginated identically — and adds that no witness was asked.",
+   "replacement": "`CR-E20 F-4`, as it stood on 2026-08-30, stated three things as unestablished — complete, unredacted, paginated identically — and added that no witness was asked *(it has since been re-graded on this pass's evidence — identity High at `CR-E20`, Medium-high here)*.",
+   "why": "Present-tense description of CR-E20 F-4 in its withdrawn form (pagination unestablished; 'no witness was asked' unqualified) — covers hit 31 (C-37) and hit 38 (C-52). The passage's own next clause and the limbs table at line 181 carry the corrected forms, so only the tense/dating of the description is stale."
+  },
+  {
+   "claim": "C-38",
+   "line": null,
+   "line_now": 3,
+   "hit_indices": [
+    28
+   ],
+   "on_hit_list": false,
+   "heading": "File header (Status field)",
+   "current_sentence": "all four pages of State's Exhibit 32 RENDERED AND RE-READ from scratch.",
+   "replacement": "all four pages of the report (State's Exhibit 32 on the best available reading — `F-139`) RENDERED AND RE-READ from scratch.",
+   "why": "OFF-LIST (same line as hit 28, whose graded clause is CONSISTENT). The v1.2 status note calls the rendered motion attachment 'State's Exhibit 32' flatly; the graded form appears only later in the same line. Low severity, but it is the header a citing file reads first."
+  },
+  {
+   "claim": "C-51",
+   "line": null,
+   "line_now": 16,
+   "hit_indices": [
+    36
+   ],
+   "on_hit_list": false,
+   "heading": "§0.0 · NAMING DISCIPLINE (rules block)",
+   "current_sentence": "belong to **Exhibit 30** and appear nowhere in this file.",
+   "replacement": "belong to **State's Exhibit 30 (the ATF DNA report)** and appear nowhere in this file.",
+   "why": "OFF-LIST (same line as hit 36, which is UNRELATED for C-50). This is the exact phrase C-51 named ('old Rule 3: belong to Exhibit 30') — a bare designator two lines above the block's own rule 'never write a bare Exhibit 30'. The script dropped the State's-Exhibit terms as too frequent, so no C-51 body hit reached the worklist."
+  },
+  {
+   "claim": "C-37",
+   "line": null,
+   "line_now": 186,
+   "hit_indices": [
+    18
+   ],
+   "on_hit_list": false,
+   "heading": "§4A · F-139(c) grade paragraph",
+   "current_sentence": "✅ **A re-grade is now available on this evidence and is `CR-E20`'s to make, not this file's.**",
+   "replacement": "✅ **A re-grade was available on this evidence and was `CR-E20`'s to make — `CR-E20 F-4` made it on 2026-08-30 (identity High); this file holds Medium-high on (a) and (b), and neither file may be cited as having settled it alone.**",
+   "why": "OFF-LIST (same line as hit 18, UNRELATED for C-28). An owed action stated as still open after it was done; reason (c) ('a [PROVISIONAL] file does not out-grade the map') is now moot since the map grades higher, leaving (a) and (b) as the live grounds. Same shape as C-49's 'that line must be advanced'."
+  },
+  {
+   "claim": "C-38",
+   "line": null,
+   "line_now": 213,
+   "hit_indices": [
+    7,
+    9
+   ],
+   "on_hit_list": false,
+   "heading": "§4A · F-140, second instance",
+   "current_sentence": "the **hearing designator for the same document** sat in `day4.txt`",
+   "replacement": "the **hearing designator for — on the best available reading (`F-139`, identity Medium-high) — the same document** sat in `day4.txt`",
+   "why": "OFF-LIST (same line as hits 7 and 9). F-140 is graded High and its premise is the identity F-139 holds only at Medium-high as an inference; 'the same document' states it flat, outside F-139."
+  },
+  {
+   "claim": "C-38",
+   "line": null,
+   "line_now": 212,
+   "hit_indices": [],
+   "on_hit_list": false,
+   "heading": "§4A · F-140, first instance",
+   "current_sentence": "**The answer was the test-fire sentence of State's Exhibit 32** — banked in `files - Court record/` since the founding acquisition pass and read at Tier 1 **in this file**",
+   "replacement": "**The answer was the test-fire sentence of the ATF firearms report of 2025-09-17 (State's Exhibit 32 on the best available reading, `F-139`)** — banked in `files - Court record/` since the founding acquisition pass and read at Tier 1 **in this file**",
+   "why": "OFF-LIST (adjacent to hit 9's line). Says State's Exhibit 32 was banked and read at Tier 1 in this file — the flat identity. (The test-fire sentence was also read aloud from the hearing exhibit at day4 05:28:32, so DNA-E01 F-14's documentary confirmation does not depend on the join; the wording just should not assert it.)"
+  },
+  {
+   "claim": "C-38",
+   "line": null,
+   "line_now": 302,
+   "hit_indices": [],
+   "on_hit_list": false,
+   "heading": "§4B · F-142 boxed note",
+   "current_sentence": "This is Exhibit 32's signature block, and **nothing establishes that Exhibit 34 shares it.**",
+   "replacement": "This is the 2025-09-17 firearms report's signature block (State's Exhibit 32 on the best available reading, `F-139`), and **nothing establishes that State's Exhibit 34 shares it.**",
+   "why": "OFF-LIST. Flat identity between the rendered signature block and the hearing exhibit, outside F-139. The same sentence carries bare 'Exhibit 34' twice — a designator CR-E20 F-3 (v1.6, C-34) lists as colliding with the defence's Baker 34; the replacement adds 'State's' as a by-product."
+  }
+ ],
+ "ambiguous": [],
+ "hit_table": [
+  {
+   "hit": 0,
+   "claim": "C-05",
+   "line": 252,
+   "line_now": 254,
+   "class": "CONSISTENT",
+   "note": "§7 names only the report's authors/addressee in official capacity; it does not carry the withdrawn three-name banner. Scoped to what this file touches."
+  },
+  {
+   "hit": 1,
+   "claim": "C-09",
+   "line": 88,
+   "line_now": 90,
+   "class": "UNRELATED",
+   "note": "'Not an identification' here is about F-98's toolmark class-level statement, not CR-E19 F-6's FBI latent-print letter."
+  },
+  {
+   "hit": 2,
+   "claim": "C-13",
+   "line": 228,
+   "line_now": 230,
+   "class": "UNRELATED",
+   "note": "N-6 records that Exhibit 11 (called 'the autopsy report') was the only State's-Exhibit string at v1.0. Does not assert the five-row lab-report set. Naming variance vs CR-E20's 'medical examiner's report of examination' only."
+  },
+  {
+   "hit": 3,
+   "claim": "C-13",
+   "line": 246,
+   "line_now": 248,
+   "class": "UNRELATED",
+   "note": "E-4 lists State's Exhibit 11 as an acquisition target. Checked against CR-E05 §4.3: Exhibit 11 was admitted but not published and its contents are known only through Hull's description — not held, so the target stands. Not the C-13 proposition."
+  },
+  {
+   "hit": 4,
+   "claim": "C-18",
+   "line": 139,
+   "line_now": 141,
+   "class": "UNRELATED",
+   "note": "'Never read aloud' — the two bracketed designators at the hearing; nothing to do with the Touhy letter's provenance claim."
+  },
+  {
+   "hit": 5,
+   "claim": "C-18",
+   "line": 164,
+   "line_now": 166,
+   "class": "UNRELATED",
+   "note": "'Numerous makes and models' paragraph never read aloud — hearing navigation, not C-18."
+  },
+  {
+   "hit": 6,
+   "claim": "C-18",
+   "line": 204,
+   "line_now": 206,
+   "class": "UNRELATED",
+   "note": "Same paragraph, F-139(e) item 3, conditional on identity — not C-18."
+  },
+  {
+   "hit": 7,
+   "claim": "C-18",
+   "line": 211,
+   "line_now": 213,
+   "class": "UNRELATED",
+   "note": "'day4.txt was never read against this file' — join-failure narrative, not C-18. (Line carries an off-list C-38 flat identity — see stale.)"
+  },
+  {
+   "hit": 8,
+   "claim": "C-21",
+   "line": 119,
+   "line_now": 121,
+   "class": "CONSISTENT",
+   "note": "Past tense, dated 2026-08-16, and the null is expressly scoped 'over this file at v1.0' with a pointer to N-5 — the corrected form."
+  },
+  {
+   "hit": 9,
+   "claim": "C-21",
+   "line": 211,
+   "line_now": 213,
+   "class": "CONSISTENT",
+   "note": "'This file named Exhibit 32 nowhere' is past tense inside a dated narrative of the 2026-08-16 state; lacks the explicit 'at v1.0' but cannot be read as timeless. (Adding 'at v1.0' would be tighter.)"
+  },
+  {
+   "hit": 10,
+   "claim": "C-21",
+   "line": 227,
+   "line_now": 229,
+   "class": "CONSISTENT",
+   "note": "N-5 is the corrected form verbatim: 'AT v1.0 … NAMED … NOWHERE', scope stated."
+  },
+  {
+   "hit": 11,
+   "claim": "C-23",
+   "line": 269,
+   "line_now": 271,
+   "class": "UNRELATED",
+   "note": "'0 hits repo-wide across all file types' is about F-number assignment, with its scope stated; C-23 is CR-E19 F-7's latent-print null."
+  },
+  {
+   "hit": 12,
+   "claim": "C-23",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "v1.1 revision-log row."
+  },
+  {
+   "hit": 13,
+   "claim": "C-25",
+   "line": 22,
+   "line_now": 24,
+   "class": "STALE",
+   "note": "See stale entry (C-25, line 24)."
+  },
+  {
+   "hit": 14,
+   "claim": "C-25",
+   "line": 5,
+   "line_now": 5,
+   "class": "CONSISTENT",
+   "note": "True of THIS file: CR-REVIEW-2026-08-30 (line 144) states it did not audit CR-E15 except where the three files cite it; cycle 3 is a propagation sweep, not a verification of CR-E15's findings. The withdrawn C-25 form was CR-E19/E20/E21 saying it of themselves."
+  },
+  {
+   "hit": 15,
+   "claim": "C-25",
+   "line": 270,
+   "line_now": 272,
+   "class": "CONSISTENT",
+   "note": "As hit 14 — §8 item 7 is true of this file."
+  },
+  {
+   "hit": 16,
+   "claim": "C-25",
+   "line": 270,
+   "line_now": 272,
+   "class": "CONSISTENT",
+   "note": "Duplicate term on the same line as hit 15."
+  },
+  {
+   "hit": 17,
+   "claim": "C-25",
+   "line": 22,
+   "line_now": 24,
+   "class": "STALE",
+   "note": "Duplicate term on the same line as hit 13."
+  },
+  {
+   "hit": 18,
+   "claim": "C-28",
+   "line": 184,
+   "line_now": 186,
+   "class": "UNRELATED",
+   "note": "'The decisive artifact' here is State's Exhibit 32 as admitted, for F-139; C-28 is CR-E19's UBFS latent-print report for F-1. (Line carries an off-list C-37 stale — see stale.)"
+  },
+  {
+   "hit": 19,
+   "claim": "C-28",
+   "line": 206,
+   "line_now": 208,
+   "class": "UNRELATED",
+   "note": "Same artifact (Exhibit 32 as admitted), not C-28."
+  },
+  {
+   "hit": 20,
+   "claim": "C-28",
+   "line": 264,
+   "line_now": 266,
+   "class": "UNRELATED",
+   "note": "§8 item 1 — same artifact, not C-28."
+  },
+  {
+   "hit": 21,
+   "claim": "C-28",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "v1.1 revision-log row."
+  },
+  {
+   "hit": 22,
+   "claim": "C-28",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "Duplicate term, same log row."
+  },
+  {
+   "hit": 23,
+   "claim": "C-32",
+   "line": 12,
+   "line_now": 14,
+   "class": "STALE",
+   "note": "See stale entry (C-32, line 14)."
+  },
+  {
+   "hit": 24,
+   "claim": "C-33",
+   "line": 12,
+   "line_now": 14,
+   "class": "STALE",
+   "note": "See stale entry (C-33, line 14)."
+  },
+  {
+   "hit": 25,
+   "claim": "C-33",
+   "line": 12,
+   "line_now": 14,
+   "class": "STALE",
+   "note": "Duplicate term ('split two-and-two'), same sentence as hits 23–24."
+  },
+  {
+   "hit": 26,
+   "claim": "C-34",
+   "line": 16,
+   "line_now": 18,
+   "class": "CONSISTENT",
+   "note": "'Never write a bare Exhibit 30 — it has three referents' is still true and is a compatible narrower form of the broadened F-3 ('bare designators are unsafe; Exhibit 30 is only the clearest case'). Not contradicted. Recommend (not required) adding the general rule, since this file's own 06:26:34–06:27:10 passage sits beside the Exhibit 11 / Karner 11 collision F-3 v1.6 names."
+  },
+  {
+   "hit": 27,
+   "claim": "C-34",
+   "line": 16,
+   "line_now": 18,
+   "class": "CONSISTENT",
+   "note": "Duplicate term, same sentence as hit 26."
+  },
+  {
+   "hit": 28,
+   "claim": "C-37",
+   "line": 3,
+   "line_now": 3,
+   "class": "CONSISTENT",
+   "note": "Header clause 'on the best available reading … split-graded, anchor High / identity Medium-high' is the graded CR-E15 F-139 statement the library rule allows. (Same line carries an off-list C-38 flat use — see stale.)"
+  },
+  {
+   "hit": 29,
+   "claim": "C-37",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "v1.1 revision-log row."
+  },
+  {
+   "hit": 30,
+   "claim": "C-37",
+   "line": 121,
+   "line_now": 123,
+   "class": "STALE",
+   "note": "Split grade CONSISTENT; the trailing parenthetical asserts CR-E20 F-4's level is Medium-high — see stale entry (C-37, line 123)."
+  },
+  {
+   "hit": 31,
+   "claim": "C-37",
+   "line": 175,
+   "line_now": 177,
+   "class": "STALE",
+   "note": "See stale entry (C-37/C-52, line 177)."
+  },
+  {
+   "hit": 32,
+   "claim": "C-37",
+   "line": 179,
+   "line_now": 181,
+   "class": "CONSISTENT",
+   "note": "Limbs table: 'Paginated identically — NO LONGER OPEN, supported directly at High' is the corrected form."
+  },
+  {
+   "hit": 33,
+   "claim": "C-38",
+   "line": 115,
+   "line_now": 117,
+   "class": "STALE",
+   "note": "See stale entry (C-38, line 117 heading)."
+  },
+  {
+   "hit": 34,
+   "claim": "C-38",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "v1.1 revision-log row; the flat 'IS STATE'S EXHIBIT 32' is followed in the same row by 'SPLIT-GRADED … Medium-high, AN INFERENCE'."
+  },
+  {
+   "hit": 35,
+   "claim": "C-49",
+   "line": 311,
+   "line_now": 313,
+   "class": "RECORD",
+   "note": "v1.2 revision-log row ('the ceiling is pointed at, never restated')."
+  },
+  {
+   "hit": 36,
+   "claim": "C-50",
+   "line": 14,
+   "line_now": 16,
+   "class": "UNRELATED",
+   "note": "'The seven likelihood-ratio calculations' — Exhibit 30 content, not the seven owed items. (Line carries an off-list C-51 bare designator — see stale.)"
+  },
+  {
+   "hit": 37,
+   "claim": "C-51",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "v1.1 revision-log row."
+  },
+  {
+   "hit": 38,
+   "claim": "C-52",
+   "line": 175,
+   "line_now": 177,
+   "class": "STALE",
+   "note": "See stale entry (C-37/C-52, line 177): 'adds that no witness was asked' describes CR-E20 F-4's withdrawn unqualified form in the present tense."
+  },
+  {
+   "hit": 39,
+   "claim": "C-52",
+   "line": 179,
+   "line_now": 181,
+   "class": "CONSISTENT",
+   "note": "Limbs table row: 'TRUE OF THE IDENTITY QUESTION, and only of it … a witness WAS asked whether she authored the exhibit' — the corrected form verbatim in substance."
+  },
+  {
+   "hit": 40,
+   "claim": "C-52",
+   "line": 179,
+   "line_now": 181,
+   "class": "CONSISTENT",
+   "note": "Same row: 'No witness was asked whether State's Exhibit 32 is the document attached to the 9 January 2026 defence motion' — qualified to the identity question, scoped null stated."
+  },
+  {
+   "hit": 41,
+   "claim": "C-52",
+   "line": 229,
+   "line_now": 231,
+   "class": "CONSISTENT",
+   "note": "N-7 is the qualified, scoped form (identity question only; three Exhibit-32 blocks; Days 1–3 and 5 not searched)."
+  },
+  {
+   "hit": 42,
+   "claim": "C-52",
+   "line": 298,
+   "line_now": 300,
+   "class": "UNRELATED",
+   "note": "'No witness was asked about that review' concerns the technical review, a different question, with its own scoped null (/Tokay/ over day1–day5 = 0)."
+  },
+  {
+   "hit": 43,
+   "claim": "C-52",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "v1.1 revision-log row (and it carries the corrected 'identity question only' form)."
+  },
+  {
+   "hit": 44,
+   "claim": "C-52",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "Duplicate term ('no witness asked'), same log row."
+  },
+  {
+   "hit": 45,
+   "claim": "C-53",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "v1.1 revision-log row — carries the withdrawn 'submission-1 report' form, but a log row is never edited."
+  },
+  {
+   "hit": 46,
+   "claim": "C-53",
+   "line": 171,
+   "line_now": 173,
+   "class": "STALE",
+   "note": "See stale entry (C-53, line 173)."
+  },
+  {
+   "hit": 47,
+   "claim": "C-53",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "Duplicate term, same log row as hit 45."
+  },
+  {
+   "hit": 48,
+   "claim": "C-58",
+   "line": 310,
+   "line_now": 312,
+   "class": "RECORD",
+   "note": "v1.1 revision-log row — carries the withdrawn 'Touhy request records three' form; never edited. The same form stands in BODY at line 173 (off-list stale entry)."
+  },
+  {
+   "hit": 49,
+   "claim": "C-72",
+   "line": 202,
+   "line_now": 204,
+   "class": "CONSISTENT",
+   "note": "'CR-E20 §1 records that not one … has been read' is attributed to CR-E20 and immediately qualified by 'this file is its sole candidate exception', under 'IF the identity holds' — the corrected form's substance (one report read: this one)."
+  }
+ ],
+ "notes": "STALE on the hit list: 10 of 50 hits on 6 distinct lines (24, 14, 117, 123, 173, 177). The v1.1 revision row (line 312) absorbs 11 hits and the v1.2 row (313) one — all RECORD, never to be edited. OFF-LIST STALE (7 sites, found on the full read because the script dropped the high-frequency terms 'State's Exhibit 30/32' and the C-58 term matched only the log row): line 3 header (C-38 flat identity in the Status field), line 16 (C-51 'belong to Exhibit 30' — the exact phrase C-51 named), line 173 (C-58 'the Touhy request records three'), line 186 (C-37 re-grade stated as still owed), lines 212/213 (C-38 flat identity inside F-140), line 302 (C-38 flat identity in F-142's boxed note). THE PATTERN: every C-38 site is the same shape — the motion attachment called 'State's Exhibit 32' flat outside F-139 while F-139, §6 'Resolved' and the header's own graded clause hold the identity at Medium-high as an inference. The library rule (neither file may be cited as having settled it alone) is honoured wherever the file states the grade and broken wherever it uses the designator as a name. NOT FLAGGED, for the record: (i) line 20's two bare 'Exhibit 30' uses sit inside the N-6 restatement about the string '/Exhibit 30/' and name the designator on purpose; (ii) line 218's bare 'Exhibit 32' and line 302's bare 'Exhibit 34' ×2 are bare-designator sites under the broadened CR-E20 F-3 (C-34/C-51) but not the withdrawn propositions themselves; (iii) §8 item 5 (line 270) says CR-E20 is 'owed' the locator repair and the re-grade — a dated residual of the v1.1 pass, read as RECORD, though the re-grade has since been made; (iv) §8 item 6 prints the F-series ceiling as of 2026-08-30 ('highest assigned was F-138') beside 'no ceiling is restated' — dated and about F- not D-numbers, so not C-49, but the same shape; (v) §2 Authors row dates the Touhy letters 2026-03-27 while C-58's corrected form dates counsel's Exhibit-F letter 2026-03-25 — possibly two different documents; not checked here. ISOLATION: classifications were made from the file text; the worklist excerpts were used only to re-anchor lines. No file was edited. No withheld person's name is written in this JSON. INTEGRITY: every quoted STALE 'current_sentence' was asserted present on its stated current line at the SHA above immediately before this JSON was written."
+}

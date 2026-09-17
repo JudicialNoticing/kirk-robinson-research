@@ -1,0 +1,478 @@
+{
+ "file": "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+ "cycle": "CR-E19-E20-E21-REVIEW-2026-09-16 verification cycle 3 (propagation sweep)",
+ "reader_date": "2026-09-16",
+ "line_offset_rule": "+2 before the revision log, +3 inside it (2026-09-16 posture note at lines 6-7 and v1.6 row at line 340)",
+ "hits_reviewed": 42,
+ "counts": {
+  "RECORD": 21,
+  "CONSISTENT": 12,
+  "UNRELATED": 7,
+  "STALE": 2,
+  "AMBIGUOUS": 0
+ },
+ "found_in_passing_not_counted": 1,
+ "stale": [
+  {
+   "claim": "C-51",
+   "hits": [
+    39,
+    40
+   ],
+   "in_hit_list": true,
+   "line": 66,
+   "line_now": 68,
+   "heading": "## 3. DAY 5 — CAITLIN OLIVER > ### 🚨 \"EXHIBIT 30\" MEANS TWO DIFFERENT THINGS INSIDE THIS WITNESS'S TESTIMONY (disambiguation box added v1.5)",
+   "current_sentence": "⚠ **the FBI's item series and ATF's item series are different series** — Exhibit 31's item 7 is the towel; Exhibit 30's item 7.1 is, on the best reading, Tyler Robinson's known sample. **Name the laboratory every time.**",
+   "replacement": "⚠ **the FBI's item series and ATF's item series are different series** — State's Exhibit 31's item 7 is the towel; State's Exhibit 30's item 7.1 is, on the best reading, Tyler Robinson's known sample. **Name the laboratory every time.**",
+   "why": "Two owner-less designators in this file's own body prose (the disambiguation box added v1.5 at the head of §3), in a sentence that reproduces CR-E20's old Rule 5 wording — the exact form C-51 withdrew ('Exhibit 31's item 7 … Exhibit 30's item 7.1'). It is the file's only owner-less use of '30' as a working designator inside the very box whose next sentence says a bare 'Exhibit 30' must be resolved from context; the same line writes 'State's Exhibit 30' and 'State's Exhibit 31' with owners a few words earlier, so the fix is internal to the line. Minimal change: prepend the owner to both; the discipline is already stated in the same line ('State's Exhibit 30 = ATF DNA', 'State's Exhibit 31 = FBI DNA'), so Rule 1's number-and-discipline is satisfied by the surrounding text."
+  },
+  {
+   "claim": "C-51 (and C-34: '30' and '34' are both collision numbers)",
+   "hits": [],
+   "in_hit_list": false,
+   "line": null,
+   "line_now": 332,
+   "heading": "## 8. OPEN ITEMS",
+   "current_sentence": "8. **Exhibits 14, 30, 31, 33, 34** and the surveillance video — all known only through description.",
+   "replacement": "8. **State's Exhibits 14, 30, 31, 33, 34** and the surveillance video — all known only through description.",
+   "why": "Found in passing while reading the file (not on the script's hit list — the script matched phrases, not owner-less numerals). Body prose (an open-items list) using bare '30' and bare '34', both of which are collision numbers on this record under the broadened F-3 (Baker Exhibit 30 is put to this very witness twenty minutes after State's Exhibit 30; Baker 34 vs State's 34 per C-34). All five are State's exhibits on this file's own account (14 = Mitchell's Rule 1102 statement, 'Admitted as State's Exhibit 14', §4.2; 30/33 State's per §3; 31 State's per §5 and §5A.2; 34 = 'State's Exhibit 34 = ATF toolmark comparison', §3 box). Offered for the parent's ruling since it is outside the hit list; excluded from hits_reviewed and counts."
+  }
+ ],
+ "ambiguous": [
+  {
+   "claim": "C-05 (converse of the corrected form)",
+   "hit": 11,
+   "hit_classified_as": "CONSISTENT",
+   "line": 6,
+   "line_now": 8,
+   "heading": "(file header, before §0 — Case context / Living persons / Status / headline paragraphs)",
+   "current_sentence": "**Living persons:** Lance Twiggs gave both his statements under **use immunity** from the Utah County Attorney's Office and the **United States Attorney's Office**, with counsel present at the second. He is not accused of any offence in this record. Mike Mitchell is a family friend who assisted a surrender; he is likewise not accused of anything.",
+   "question": "The hit itself is not the withdrawn form (the banner names only people the body touches). The open question is the converse: this file's §3.3 names two private individuals with forensic results — Matthew Robinson with support-for-inclusion results on rifle items 1.4 and 1.6, and Amber Robinson as an elimination-sample donor — yet the banner does not mention them; their guards live in §3.3's analyst-layer paragraph ('not accusations'; the household framing) and §3.1 ('no source attribution'), not in the header. C-05's corrected form ('banner cut to what this file actually touches') settles over-inclusion, and says the results' handling 'governs at DNA-E01 ... and at CR-E19's header, where the results actually live' — but CR-E03 §3.3 is itself a primary carrier of those results (Oliver's testimony).",
+   "what_would_settle_it": "An owner's ruling on whether a living-persons banner must name every private individual the body names with a forensic result (the C-05 principle run the other way), and if so the CR-E19 v2.1 header wording as the model. No edit proposed by this reader; not counted as STALE."
+  }
+ ],
+ "hits": [
+  {
+   "hit": 0,
+   "claim": "C-01",
+   "term": "only as elimination-sample donors",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (2026-08-30), closing living-persons sentence. Never to be edited — but see notes: this row is the ONLY carrier of the C-01 withdrawn form in this file."
+  },
+  {
+   "hit": 1,
+   "claim": "C-01",
+   "term": "appear only as elimination-sample donors",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Same sentence as hit 0 (grouped)."
+  },
+  {
+   "hit": 2,
+   "claim": "C-01",
+   "term": "only as elimination",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Same sentence as hit 0 (grouped)."
+  },
+  {
+   "hit": 3,
+   "claim": "C-01",
+   "term": "elimination-sample donors",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Same sentence as hit 0 (grouped)."
+  },
+  {
+   "hit": 4,
+   "claim": "C-01",
+   "term": "appear only as",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Same sentence as hit 0 (grouped)."
+  },
+  {
+   "hit": 5,
+   "claim": "C-01",
+   "term": "No source attribution follows for anyone",
+   "line": 203,
+   "line_now": 205,
+   "heading": "### 5A.1 > ### 🛠 5A.1a — THE ITEM 7-1 NULL IS WITHDRAWN (2026-08-30)",
+   "classification": "CONSISTENT",
+   "note": "Body prose in the 5A.1a box, about the FBI likelihood ratios for the towel and screwdriver in which Twiggs stands in both propositions: 'the statistic never tests his presence and no source attribution follows for anyone, and none is drawn here'. This is the guard the corrected form itself carries (a likelihood ratio / support-for-inclusion is NOT a source attribution); it does not assert the 'only as elimination-sample donors' proposition and does not concern Amber or Matthew Robinson."
+  },
+  {
+   "hit": 6,
+   "claim": "C-01",
+   "term": "No source attribution follows for anyone",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (grouped with hit 0)."
+  },
+  {
+   "hit": 7,
+   "claim": "C-01",
+   "term": "No source attribution follows for anyone",
+   "line": 339,
+   "line_now": 342,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.4 (2026-08-30), closing sentence."
+  },
+  {
+   "hit": 8,
+   "claim": "C-01",
+   "term": "stands in BOTH propositions",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (grouped with hit 0)."
+  },
+  {
+   "hit": 9,
+   "claim": "C-01",
+   "term": "stands in BOTH propositions",
+   "line": 339,
+   "line_now": 342,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.4 (grouped with hit 7)."
+  },
+  {
+   "hit": 10,
+   "claim": "C-02",
+   "term": "elimination-sample donors",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (grouped with hit 0). On substance the C-02 absence is not present here either: the row does not state the Matthew Robinson 1.4/1.6 results at all, and it carries the Twiggs guards."
+  },
+  {
+   "hit": 11,
+   "claim": "C-05",
+   "term": "Living persons",
+   "line": 6,
+   "line_now": 8,
+   "heading": "(file header, before §0 — Case context / Living persons / Status / headline paragraphs)",
+   "classification": "CONSISTENT",
+   "note": "The banner names Lance Twiggs (use immunity from two offices, counsel present at the second, accused of nothing) and Mike Mitchell — both of whom this file's body actually touches (§§3.3, 4.2, 4.3, 5A). It does not name Amber or Matthew Robinson. This is the corrected form ('cut to what this file actually touches'), not sibling boilerplate. See the ambiguous entry for the converse question."
+  },
+  {
+   "hit": 12,
+   "claim": "C-05",
+   "term": "Amber Robinson",
+   "line": 92,
+   "line_now": 94,
+   "heading": "### 3.3 Other people's DNA on the key items",
+   "classification": "CONSISTENT",
+   "note": "Body recording layer: 'Elimination samples were obtained from Amber Robinson, Matthew Robinson and Lance Twiggs as household associates. Oliver confirmed:' followed by the support-for-inclusion table. This passage IS the corrected C-01 form (elimination-sample donors AND the record's support-for-inclusion results, side by side, with the analyst-layer guards 'not accusations' and the household framing). Not a banner; not the withdrawn proposition."
+  },
+  {
+   "hit": 13,
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 12,
+   "line_now": 14,
+   "heading": "(file header, before §0 — Case context / Living persons / Status / headline paragraphs)",
+   "classification": "CONSISTENT",
+   "note": "Headline 'Second:' paragraph: 'She also confirmed support for inclusion of Lance Twiggs on the Dremel's buttons and of Matthew Robinson on the rifle's bolt and barrel.' Symmetric disclosure (C-02 corrected form); not a banner."
+  },
+  {
+   "hit": 14,
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 92,
+   "line_now": 94,
+   "heading": "### 3.3 Other people's DNA on the key items",
+   "classification": "CONSISTENT",
+   "note": "Same sentence as hit 12 (grouped)."
+  },
+  {
+   "hit": 15,
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 96,
+   "line_now": 98,
+   "heading": "### 3.3 Other people's DNA on the key items",
+   "classification": "CONSISTENT",
+   "note": "Table row '1.4 — swabs of the rifle's BOLT | \"support for inclusion of Matthew Robinson\" (Tyler's father)'. Recording layer; corrected form."
+  },
+  {
+   "hit": 16,
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 97,
+   "line_now": 99,
+   "heading": "### 3.3 Other people's DNA on the key items",
+   "classification": "CONSISTENT",
+   "note": "Table row '1.6 — swabs of the rifle's BARREL | \"support for inclusion of Matthew Robinson\"'. Recording layer; corrected form; Twiggs/Dremel rows follow in the same table."
+  },
+  {
+   "hit": 17,
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 292,
+   "line_now": 294,
+   "heading": "## 6. CORRECTION TO CR-E02 §5.4b",
+   "classification": "CONSISTENT",
+   "note": "§6: 'Lance Twiggs is also supported for inclusion on the Dremel's buttons and elsewhere on the tool, and the rifle's bolt and barrel support inclusion of Matthew Robinson. Neither is surprising in a shared household, and neither is exculpatory in itself'. Symmetric, with the household guard."
+  },
+  {
+   "hit": 18,
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (grouped with hit 0)."
+  },
+  {
+   "hit": 19,
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 342,
+   "line_now": 345,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.1 (2026-07-28). Never to be edited. Observation only (P8): the row reads 'her Matthew Robinson (bolt, 1.6) ... inclusions' — the file's §3.2/§3.3 give the bolt as item 1.4 and the barrel as 1.6; a numbering slip inside a log row, not a C-claim."
+  },
+  {
+   "hit": 20,
+   "claim": "C-05",
+   "term": "Matthew Robinson",
+   "line": 343,
+   "line_now": 346,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.0 (2026-07-27): symmetric Twiggs/Matthew Robinson disclosure."
+  },
+  {
+   "hit": 21,
+   "claim": "C-05",
+   "term": "use immunity from two",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (grouped with hit 0)."
+  },
+  {
+   "hit": 22,
+   "claim": "C-05",
+   "term": "use immunity from two",
+   "line": 339,
+   "line_now": 342,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.4 (grouped with hit 7)."
+  },
+  {
+   "hit": 23,
+   "claim": "C-05",
+   "term": "only as elimination-sample donors",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (grouped with hit 0)."
+  },
+  {
+   "hit": 24,
+   "claim": "C-05",
+   "term": "elimination-sample donors",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (grouped with hit 0)."
+  },
+  {
+   "hit": 25,
+   "claim": "C-05",
+   "term": "elimination sample",
+   "line": 12,
+   "line_now": 14,
+   "heading": "(file header, before §0 — Case context / Living persons / Status / headline paragraphs)",
+   "classification": "UNRELATED",
+   "note": "'elimination samples requested from investigating agents were never received' — a different proposition (Oliver's testimony that investigator elimination samples were requested and not received), not the living-persons banner."
+  },
+  {
+   "hit": 26,
+   "claim": "C-05",
+   "term": "elimination sample",
+   "line": 88,
+   "line_now": 90,
+   "heading": "### 3.2 Consumption and elimination — two documented gaps",
+   "classification": "UNRELATED",
+   "note": "§3.2: 'Elimination samples were requested from the investigating agents and never received.' — investigator elimination samples; not the banner. Grouped with hit 27 (same line)."
+  },
+  {
+   "hit": 27,
+   "claim": "C-05",
+   "term": "elimination sample",
+   "line": 88,
+   "line_now": 90,
+   "heading": "### 3.2 Consumption and elimination — two documented gaps",
+   "classification": "UNRELATED",
+   "note": "Same line as hit 26: Oliver's quoted sentence 'we request elimination samples from any of the investigators involved'. Quotation; unrelated proposition."
+  },
+  {
+   "hit": 28,
+   "claim": "C-05",
+   "term": "elimination sample",
+   "line": 92,
+   "line_now": 94,
+   "heading": "### 3.3 Other people's DNA on the key items",
+   "classification": "CONSISTENT",
+   "note": "Same sentence as hit 12 (grouped)."
+  },
+  {
+   "hit": 29,
+   "claim": "C-05",
+   "term": "elimination sample",
+   "line": 247,
+   "line_now": 249,
+   "heading": "### 5A.3 Smaller Tier 1 facts added",
+   "classification": "UNRELATED",
+   "note": "§5A.3: 'Elimination/comparison swabs: buccal swabs were obtained from both Lance Twiggs and Tyler Robinson ... the collection-side counterpart to Oliver's §3.3 elimination samples.' Faumuina's testimony on buccal-swab collection; not the banner proposition."
+  },
+  {
+   "hit": 30,
+   "claim": "C-05",
+   "term": "elimination sample",
+   "line": 343,
+   "line_now": 346,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.0."
+  },
+  {
+   "hit": 31,
+   "claim": "C-18",
+   "term": "never read",
+   "line": 176,
+   "line_now": 178,
+   "heading": "### 5A.1 The likelihood ratios §5 recorded as unknown — now on the record (recording-layer table)",
+   "classification": "UNRELATED",
+   "note": "'the exhibit's own definition of sub-item 7.1 was never read aloud; every description in the record is counsel's' — 'read aloud' in court, about State's Exhibit 31; nothing to do with the C-18 provenance claim about whether the library had read the Touhy letter."
+  },
+  {
+   "hit": 32,
+   "claim": "C-18",
+   "term": "never read",
+   "line": 224,
+   "line_now": 226,
+   "heading": "### 5A.2 State's Exhibit 31 — admitted, published, and partly described",
+   "classification": "UNRELATED",
+   "note": "'The item-number link was never read.' — McBride did not read the identification numbers on the Item 7 line in court. Unrelated to C-18."
+  },
+  {
+   "hit": 33,
+   "claim": "C-32",
+   "term": "four ATF reports",
+   "line": 66,
+   "line_now": 68,
+   "heading": "## 3. DAY 5 — CAITLIN OLIVER > ### 🚨 \"EXHIBIT 30\" MEANS TWO DIFFERENT THINGS INSIDE THIS WITNESS'S TESTIMONY (disambiguation box added v1.5)",
+   "classification": "CONSISTENT",
+   "note": "'Four ATF reports were admitted and they split two-and-two: ... ⚠ \"The ATF report\" is never a sufficient designation (CR-E20 F-1)'. 'Admitted' scopes the count to this hearing (the corrected F-1 form); the sentence does not assert that only four exist. Compatible narrower form. (The file also records at line 70 that the ATF DNA-report count is contested, pointing at CR-E14 §8.) Optional tightening, not required: 'were admitted at this hearing'."
+  },
+  {
+   "hit": 34,
+   "claim": "C-33",
+   "term": "split two-and-two",
+   "line": 66,
+   "line_now": 68,
+   "heading": "## 3. DAY 5 — CAITLIN OLIVER > ### 🚨 \"EXHIBIT 30\" MEANS TWO DIFFERENT THINGS INSIDE THIS WITNESS'S TESTIMONY (disambiguation box added v1.5)",
+   "classification": "CONSISTENT",
+   "note": "The line gives evidence-group parentheticals only for State's Exhibit 30 (rifle and ammunition) and State's Exhibit 33 (the Dremel and the case from atop the safe) — the two labels the C-33 correction does not refute — and leaves State's Exhibits 32 and 34 as discipline-only, so no 2×2 evidence-group map is asserted; it closes with 'CR-E20 is [PROVISIONAL] and verifies no exhibit's contents'. Not the withdrawn grid."
+  },
+  {
+   "hit": 35,
+   "claim": "C-34",
+   "term": "three referents",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5: '\"Exhibit 30\" has three referents on this record (CR-E20 F-3)'. Log row; never edited. The body's own form (§3 box, lines 57–66) is the narrower Day-5-scoped 'two different things inside this witness's testimony' plus 'a bare \"Exhibit 30\" ... must be resolved from context', which is compatible with the broadened F-3."
+  },
+  {
+   "hit": 36,
+   "claim": "C-51",
+   "term": "bare \"Exhibit 30\"",
+   "line": 8,
+   "line_now": 10,
+   "heading": "(file header, before §0 — Case context / Living persons / Status / headline paragraphs)",
+   "classification": "RECORD",
+   "note": "Status-line v1.5 correction narrative ('What was wrong was that both were bare — and this is the file where a bare \"Exhibit 30\" is most dangerous'). A note recording the correction; the phrase is a mention of bareness, not a designator in use."
+  },
+  {
+   "hit": 37,
+   "claim": "C-51",
+   "term": "bare \"Exhibit 30\"",
+   "line": 64,
+   "line_now": 66,
+   "heading": "## 3. DAY 5 — CAITLIN OLIVER > ### 🚨 \"EXHIBIT 30\" MEANS TWO DIFFERENT THINGS INSIDE THIS WITNESS'S TESTIMONY (disambiguation box added v1.5)",
+   "classification": "CONSISTENT",
+   "note": "'A bare \"Exhibit 30\" anywhere in a Day-5 passage must be resolved from context before use (CR-E20 F-3). This file's §3 and §3.1 use it only in the first sense, and now say so explicitly.' States the corrected rule; §3 and §3.1 do carry 'State's Exhibit 30' / 'State's Exhibit 33' with owner and discipline."
+  },
+  {
+   "hit": 38,
+   "claim": "C-51",
+   "term": "bare \"Exhibit 30\"",
+   "line": 338,
+   "line_now": 341,
+   "heading": "## REVISION LOG",
+   "classification": "RECORD",
+   "note": "Revision-log row v1.5 (grouped with hit 0)."
+  },
+  {
+   "hit": 39,
+   "claim": "C-51",
+   "term": "Exhibit 30's",
+   "line": 66,
+   "line_now": 68,
+   "heading": "## 3. DAY 5 — CAITLIN OLIVER > ### 🚨 \"EXHIBIT 30\" MEANS TWO DIFFERENT THINGS INSIDE THIS WITNESS'S TESTIMONY (disambiguation box added v1.5)",
+   "classification": "STALE",
+   "note": "Owner-less designators in the file's own body prose (the v1.5 disambiguation box), in a sentence that is the old CR-E20 Rule 5 wording verbatim; the same line writes 'State's Exhibit 30 = ... State's Exhibit 31 = ...' with owners a few words earlier. See stale[0]."
+  },
+  {
+   "hit": 40,
+   "claim": "C-51",
+   "term": "Exhibit 31's item 7",
+   "line": 66,
+   "line_now": 68,
+   "heading": "## 3. DAY 5 — CAITLIN OLIVER > ### 🚨 \"EXHIBIT 30\" MEANS TWO DIFFERENT THINGS INSIDE THIS WITNESS'S TESTIMONY (disambiguation box added v1.5)",
+   "classification": "STALE",
+   "note": "Same sentence as hit 39 (grouped). See stale[0]."
+  },
+  {
+   "hit": 41,
+   "claim": "C-62",
+   "term": "FOURTEEN",
+   "line": 158,
+   "line_now": 160,
+   "heading": "## 5A. DAY 2 — SGT. JENNIFER FAUMUINA'S LIMITED-PURPOSE TURNS (Q-14) > VERIFICATION STATUS block",
+   "classification": "UNRELATED",
+   "note": "'It found fourteen items the first draft had missed, three of them material' — the count of omissions a completeness sweep found in §5A's first draft; nothing to do with the Touhy letter's laboratory-report count."
+  }
+ ],
+ "notes": "LINE RE-ANCHORING: every worklist line maps to current line +2 for lines before the revision log (the two-line posture note inserted after the Case-context line on 2026-09-16, commit 8910af3) and +3 inside the revision log (the v1.6 row inserted at the head of the table). All 42 hits re-anchored by excerpt phrase; the mapping held for every hit (338→341, 339→342, 342→345, 343→346; 6→8, 8→10, 12→14, 64→66, 66→68, 88→90, 92→94, 96→98, 97→99, 158→160, 176→178, 203→205, 224→226, 247→249, 292→294). GROUPING: 17 of the 42 hits fall on one revision-log row (v1.5, now line 341) and 3 on the v1.4 row (line 342); §3.3 line 94 carries 3 hits; §3 box line 68 carries 4. THE ONE STALE HIT is the owner-less 'Exhibit 31's item 7 … Exhibit 30's item 7.1' sentence at line 68 (C-51), inside the v1.5 disambiguation box — the old CR-E20 Rule 5 wording carried into this file on 2026-08-30 before CR-E20 corrected it. RECORD ROWS WORTH THE PARENT'S ATTENTION (never to be edited, but the library's 'corrections in place, never silent' rule means the remedy, if any, is a new v1.7 row): (a) the v1.5 row (line 341) closes with the C-01 withdrawn form verbatim — 'Amber and Matthew Robinson appear only as elimination-sample donors and are accused of nothing. No source attribution follows for anyone.' — and it is the only carrier of that form anywhere in this file, in a file whose own §3.3 table is the primary record of the Matthew Robinson 1.4/1.6 support-for-inclusion results; dated the same day the correction was applied elsewhere. (b) The v1.1 row (line 345) reads 'Matthew Robinson (bolt, 1.6)' where the file's §3.2/§3.3 give bolt = 1.4, barrel = 1.6 (P8 slip inside a log row; not a C-claim). C-02 CHECK BEYOND THE HITS: every body passage that states the Matthew Robinson 1.4/1.6 results (line 14 headline, §3.3 table lines 98–101, §6 line 294) states the Twiggs/Dremel result in the same breath; no asymmetric carrier found in this file. C-32/C-33/C-34 BODY FORMS: the §3 box is scoped to what was admitted and to this witness's Day-5 testimony, assigns evidence groups only to State's Exhibits 30 and 33, and carries the 'verifies no exhibit's contents' caveat; the 'three referents' count appears only in the v1.5 log row. OWNER-LESS DESIGNATORS OUTSIDE THE HIT LIST (listed for the parent; not classified, not counted): body-prose uses of 'Exhibit 31' without owner at lines 79 (§3.1 'Exhibit 31's figures'), 147, 149, 224, 225, 226, 227, 238, 241, 261, 326, 329; 'the Exhibit 16 playback/recording' at lines 53 and 137; 'Exhibit 12.1' at line 325 (owner not stated anywhere in this file; CR-E04 would settle); and 'Exhibits 14, 30, 31, 33, 34' at line 332 (entered as stale[1] because 30 and 34 are collision numbers). Exhibit 31 and 16 have no collision recorded under the broadened F-3; whether 'owner every time' is to be applied file-wide or only where a collision exists is the parent's call. Quotations of counsel's words ('re-display Exhibit 30', 'Exhibit 30, page eight', 'not as much as Exhibit 8' at lines 63 and 193) and mentions of the bare phrase in correction notes (lines 10, 59, 66, 70) are recording layer / RECORD and were not treated as designators in use. SCOPE: this reader classified the 42 listed hits from the file's own text with ±8 lines of context and the nearest heading; it read the whole file once end to end for the owner-less-designator sweep. It did not verify any transcript locator, likelihood ratio, item number or exhibit description against day2.txt/day5.txt, and made no edit to any file. No name described as withheld appears in the hit list for this file; the names written here are those the file and the hit list already carry."
+}
