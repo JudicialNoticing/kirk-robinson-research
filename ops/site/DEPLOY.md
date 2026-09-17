@@ -9,26 +9,36 @@ refused it as a "create public surface" action. That refusal was not routed arou
 ## What is already true
 
 - `netlify.toml` carries the build command and publish directory.
-> 🛠 **The numbers in this table are from the `c672f06` pre-flight and are now STALE: the site is **55 pages**, not 54,
-> since `CR-E22` was added on 2026-09-17 (28 of 54 provisional → **29 of 55**; held stays 43).
-> **This is exactly why the three-command check below exists — run it and read the report, do not deploy from this table.**
-> The table is left as the record of what was tested at that commit.
+> 🚨 **THE `c672f06` PRE-FLIGHT PASSED FOR THE WRONG REASON, AND THE BUILD WOULD HAVE FAILED ON NETLIFY.**
+> It was recorded as run "with the venv outside the tree." When that was actually reproduced on
+> **2026-09-17 (second session)** — clean clone, venv outside the tree, **and not activated**, which is
+> Netlify's shape — the build died: `FileNotFoundError: [Errno 2] No such file or directory: 'mkdocs'`.
+> `build-site.py` resolved mkdocs as the **in-tree** `.venv-site/bin/mkdocs` (gitignored, so never in a
+> clean clone) and otherwise fell back to bare `mkdocs` on **PATH**, which holds only if the installing
+> venv is activated. **Fixed at `738b353`: `sys.executable -m mkdocs`.** §0AI had flagged exactly this gap
+> in terms — *"Still not verified: that Netlify's own build image behaves as the local clean clone did."*
+> **Lesson: a pre-flight that shares one assumption with the thing it is testing has not tested it.**
 
-- **The build was tested from a clean checkout on 2026-09-17, at commit `c672f06`** — a fresh
-  `git clone` with **no `.venv-site`** and the virtualenv **outside** the working tree, which is
-  what Netlify does: `pip install -r ops/site/requirements.txt && python3 scripts/build-site.py`.
-  Checked against the built artifact, not against the config meant to produce it:
+- **Pre-flight RE-RUN 2026-09-17 (second session) at `738b353`, and this one exercised the real path:**
+  `git clone` of the **public remote**, **no `.venv-site` in the tree**, venv outside it and **not
+  activated**, `pip install -r ops/site/requirements.txt && python3 scripts/build-site.py`.
+  Checked against the **built artifact**, not the config meant to produce it:
 
   | Check | Result |
   |---|---|
-  | pages built | **54** |
+  | build exit code | **0** |
+  | pages built | **55** |
   | publish directory `.site-build/site` | present, 12 MB |
   | `robots.txt` | `User-agent: *` / `Disallow: /` |
-  | `QUEUE` published | no |
-  | `START-HERE` published | no |
+  | `QUEUE` published | **0 files** |
+  | `START-HERE` published | **0 files** |
   | artifact-bank files published | **0** |
-  | unclassified markdown files | none |
+  | `DO-NOT-PUBLISH` drafts published | **0** |
   | licence page | built |
+  | `CR-E22` page | built |
+  | unclassified markdown files | none |
+  | report counts | **55 published · 43 held · 3 hard-blocked · 29 of 55 provisional** |
+
 - Indexing is blocked two ways until deliberately flipped: `noindex: true` in
   `ops/site/site.yml`, which emits the `robots.txt`.
 
