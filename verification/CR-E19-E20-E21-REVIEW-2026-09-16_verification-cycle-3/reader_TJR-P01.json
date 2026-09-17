@@ -1,0 +1,775 @@
+{
+ "file": "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+ "file_state": {
+  "classified_against": "HEAD 8910af3 content (v2.6), mtime 2026-09-16 19:41:07, 280115 bytes; worklist numbering is pre-commit (873 lines)",
+  "line_mapping": "line_now = line (<=53) | line+1 (54–857) | line+2 (>=858)"
+ },
+ "hits_reviewed": 95,
+ "counts": {
+  "STALE": 9,
+  "CONSISTENT": 40,
+  "RECORD": 15,
+  "UNRELATED": 29,
+  "AMBIGUOUS": 2
+ },
+ "counts_by_claim_line_group": {
+  "STALE": 3,
+  "CONSISTENT": 22,
+  "RECORD": 14,
+  "UNRELATED": 22,
+  "AMBIGUOUS": 2
+ },
+ "stale": [
+  {
+   "claim": "C-04",
+   "line": 63,
+   "line_now": 64,
+   "heading": "## ⚠ READ THIS BEFORE USING ANY SENTENCE BELOW › > **LIVING PERSONS.** (the Amber Robinson / Matthew Robinson paragraph)",
+   "current_sentence": "…(the handling rule, and its footprint across this library, are `DNA-E01` §2.2).** **Neither is accused of anything.**spects, but because they were associated with the premises. Right?\"* — *\"There was support for inclusion of some of these individuals. Yes.\"* (`day5.txt` 01:48:43–01:49:03, **T1**; put again as to ATF item 1.4 at 01:50:02–01:50:08) — and it may not be dropped, summarised away, or separated from these lines (rule as written at `DNA-E01` §2.2, which is `[PROVISIONAL]` and is cited here for the rule, not for a finding).** **Neither is accused of anything.**",
+   "replacement": "Delete the orphan span that begins immediately after the first '**Neither is accused of anything.**' — i.e. everything from 'spects, but because they were associated with the premises. Right?' to the line's final '**Neither is accused of anything.**' inclusive — so the paragraph ends once, at the first '**Neither is accused of anything.**'. Nothing else changes. (Optional, if the owner wants to keep the two items only the orphan carried: append ', **T1**' inside the first tail's '(`day5.txt` 01:48:43–01:49:03)' and extend its closing parenthetical to '(the handling rule, and its footprint across this library, are `DNA-E01` §2.2, which is `[PROVISIONAL]` and is cited here for the rule, not for a finding)'.)",
+   "why": "The corrected form is a single tail citing DNA-E01 §2.2 once. The paragraph still carries two tails: the intact one, then a mid-word fragment ('…anything.**spects, but because…') that re-quotes the same day5 passage, cites DNA-E01 §2.2 a second time and repeats 'Neither is accused of anything.' v2.5 (log row) repaired three splice defects of this class in §ES and did not reach this one. Judged from the current file: the fragment is still present at L64 in HEAD 8910af3."
+  },
+  {
+   "claim": "C-03",
+   "line": 63,
+   "line_now": 64,
+   "heading": "## ⚠ READ THIS BEFORE USING ANY SENTENCE BELOW › > **LIVING PERSONS.** (same paragraph)",
+   "current_sentence": "What stands in that gap is the record's own non-suspect framing above — put by defence counsel and assented to by the analyst, twice, in the transcript itself:",
+   "replacement": "What stands in that gap is defence counsel's non-suspect framing above — put in a leading question and assented to by the analyst, twice, in the transcript itself:",
+   "why": "The withdrawn label 'the record's own non-suspect framing' survives verbatim in the living-persons paragraph. Low severity: the same clause already attributes it ('put by defence counsel and assented to by the analyst'), so the speaker is not missing — the residue is the possessive that assigns counsel's leading question to 'the record', which is the attribution error C-03 withdrew. The replacement keeps the role the file already asserts; naming Mr. Burt is available on CR-E19 v2.3's authority but was not verified against day5.txt by this reader and is not required to carry the corrected form."
+  },
+  {
+   "claim": "C-38",
+   "line": 328,
+   "line_now": 329,
+   "heading": "### 8.6 Firearms, toolmark and the inscription convergence (first bullet)",
+   "current_sentence": "- The **ATF firearms report, case 2025-W-000401, dated 2025-09-17** (= State's Exhibit 32 on the best available reading, graded **Medium-high as an inference**) is **the one laboratory report this library holds and has read directly.**",
+   "replacement": "- The **ATF firearms report, case 2025-W-000401, dated 2025-09-17** (= State's Exhibit 32 as an inference, not a finding — identity **High** on `CR-E20 F-4`, the grade this file follows, and deliberately held at **Medium-high** by `CR-E15 F-139`) is **the one laboratory report this library holds and has read directly.**",
+   "why": "Not the flat form, but a one-grade form: it carries only 'Medium-high as an inference' (C-37's withdrawn identity grade) and names no file, against the rule that a citing file carries BOTH grades and says which it follows. It also contradicts the same section seven lines later (L336: 'State's Exhibit 32 on CR-E20 F-4's High identity inference … which CR-E15 F-139 deliberately holds at Medium-high; CR-E20 is the finding's home and is the grade followed here'). Scan of all three 'Exhibit 32' occurrences in the file: L329 (this), L336 (both grades, consistent), L361 (recording layer — Faumuina describing what State's Exhibit 32 analysed; no identity join asserted). No flat 'is State's Exhibit 32' exists in the file."
+  }
+ ],
+ "ambiguous": [
+  {
+   "claim": "C-57",
+   "line": 86,
+   "line_now": 87,
+   "current_sentence": "…⚠ **no testimony was taken on 2026-09-01** — that day was argument, the court's oral ruling and arraignment on a **closed evidentiary record** (§7, §11) — and it is used here only as set out at item 2.",
+   "what_would_settle_it": "C-57 withdrew 'closed evidentiary record' as an inference from the court's pre-hearing continuance language. This file asserts the same phrase but on its own, post-hearing basis: §7 (L250) records that on Day 5 the defence rested, the State expressly waived rebuttal and Robinson declined to testify ('the evidentiary record closed'), and §1 item 1 says no testimony was taken on 2026-09-01 per the held transcript — which §1 item 2 says has not been through a verification cycle. Settle by an owner ruling on whether Day-5 rest + waiver of rebuttal + no evidence taken on 09-01 (transcript) establishes closure at T1 for this file (then keep the phrase and cite day5.txt / the 09-01 transcript for it), or whether 'closed record' is treated as the withdrawn inference (then narrow to what is already stated: '…the court's oral ruling and arraignment; no testimony was taken (§7, §11)')."
+  },
+  {
+   "claim": "C-57",
+   "line": 253,
+   "line_now": 254,
+   "current_sentence": "- **2026-09-01** — the final day: **argument only**, on a closed record. **Bindover, arraignment and plea** — see §11.",
+   "what_would_settle_it": "Same as L87. If narrowed: '- **2026-09-01** — the final day: **argument only**; no testimony was taken (§1 item 1). **Bindover, arraignment and plea** — see §11.'"
+  }
+ ],
+ "classified": [
+  {
+   "claim": "C-50",
+   "line": 17,
+   "line_now": 17,
+   "hits": 1,
+   "terms": [
+    "the seven"
+   ],
+   "class": "UNRELATED",
+   "why": "'The seven findings that matter most' — a different seven."
+  },
+  {
+   "claim": "C-18",
+   "line": 25,
+   "line_now": 25,
+   "hits": 1,
+   "terms": [
+    "never read"
+   ],
+   "class": "UNRELATED",
+   "why": "'an exhibit this library has never read' = State's Exhibit 30, not the discovery letter."
+  },
+  {
+   "claim": "C-50",
+   "line": 25,
+   "line_now": 25,
+   "hits": 1,
+   "terms": [
+    "the seven"
+   ],
+   "class": "UNRELATED",
+   "why": "'five of the seven number-to-location mappings' — a different seven."
+  },
+  {
+   "claim": "C-09",
+   "line": 27,
+   "line_now": 27,
+   "hits": 1,
+   "terms": [
+    "an identification"
+   ],
+   "class": "CONSISTENT",
+   "why": "Carries the guard: an inconclusive is neither an identification nor an exclusion; exculpatory reading does not travel across it."
+  },
+  {
+   "claim": "C-72",
+   "line": 27,
+   "line_now": 27,
+   "hits": 1,
+   "terms": [
+    "not one"
+   ],
+   "class": "UNRELATED",
+   "why": "'not one of the REPORTS reached the hearing' — the four latent reports, not 'no laboratory report has been read'."
+  },
+  {
+   "claim": "C-05",
+   "line": 31,
+   "line_now": 31,
+   "hits": 1,
+   "terms": [
+    "elimination sample"
+   ],
+   "class": "UNRELATED",
+   "why": "'Elimination samples from the investigators' (ATF, requested and not received) — a different subject from the banner claim."
+  },
+  {
+   "claim": "C-45",
+   "line": 31,
+   "line_now": 31,
+   "hits": 1,
+   "terms": [
+    "not received"
+   ],
+   "class": "UNRELATED",
+   "why": "'requested and not received' is Oliver's sworn answer about investigator elimination samples, not the discovery letter's 'we have not received'."
+  },
+  {
+   "claim": "C-62",
+   "line": 41,
+   "line_now": 41,
+   "hits": 1,
+   "terms": [
+    "FOURTEEN"
+   ],
+   "class": "CONSISTENT",
+   "why": "'fourteen of the fifteen … twelve laboratory reports plus the two FBI DNA case files', row count not graded, D-70 open — compatible with the corrected 15 = 13 + 2."
+  },
+  {
+   "claim": "C-05",
+   "line": 61,
+   "line_now": 62,
+   "hits": 2,
+   "terms": [
+    "Living persons",
+    "Living persons."
+   ],
+   "class": "CONSISTENT",
+   "why": "This file's LIVING PERSONS banner names only persons its body actually touches (Twiggs §§8.3–8.6; the Robinsons §2.1, §8.6) — the scoping C-05's corrected form requires."
+  },
+  {
+   "claim": "C-01",
+   "line": 63,
+   "line_now": 64,
+   "hits": 4,
+   "terms": [
+    "associated with the premises, not as suspects",
+    "elimination-sample donors",
+    "identified and set aside",
+    "not as suspects"
+   ],
+   "class": "CONSISTENT",
+   "why": "Living-persons paragraph carries the corrected conjunction: donors sought as premises-associated non-suspects AND the support-for-inclusion results on ATF 1.4/1.6 and on the Dremel, with 'not a source attribution' and the analyst's three corrections of counsel. The retained gloss 'identified and set aside' is immediately qualified ('must not be over-cleaned')."
+  },
+  {
+   "claim": "C-02",
+   "line": 63,
+   "line_now": 64,
+   "hits": 1,
+   "terms": [
+    "elimination-sample donors"
+   ],
+   "class": "CONSISTENT",
+   "why": "Both disclosures present in the same passage (Matthew Robinson 1.4/1.6; Lance Twiggs on the Dremel) with the guards; no asymmetry."
+  },
+  {
+   "claim": "C-03",
+   "line": 63,
+   "line_now": 64,
+   "hits": 2,
+   "terms": [
+    "record's own non-suspect framing",
+    "the record's own"
+   ],
+   "class": "STALE"
+  },
+  {
+   "claim": "C-04",
+   "line": 63,
+   "line_now": 64,
+   "hits": 6,
+   "terms": [
+    "anything.**spects",
+    "its footprint across this library, are",
+    "not as suspects",
+    "record's own non-suspect framing",
+    "spects, but because they were associated"
+   ],
+   "class": "STALE"
+  },
+  {
+   "claim": "C-05",
+   "line": 63,
+   "line_now": 64,
+   "hits": 5,
+   "terms": [
+    "Amber Robinson",
+    "Matthew Robinson",
+    "elimination sample",
+    "elimination-sample donors"
+   ],
+   "class": "CONSISTENT",
+   "why": "Banner content is warranted by the body (§2.1 row, §8.6 counterweight); not boilerplate about untouched persons."
+  },
+  {
+   "claim": "C-57",
+   "line": 86,
+   "line_now": 87,
+   "hits": 1,
+   "terms": [
+    "closed evidentiary record"
+   ],
+   "class": "AMBIGUOUS"
+  },
+  {
+   "claim": "C-17",
+   "line": 89,
+   "line_now": 90,
+   "hits": 1,
+   "terms": [
+    "pp. 53–63"
+   ],
+   "class": "CONSISTENT",
+   "why": "'pp. 53–63' is the corrected page span for Exhibit F; the file makes no claim about how many sources CR-E21 read."
+  },
+  {
+   "claim": "C-48",
+   "line": 89,
+   "line_now": 90,
+   "hits": 1,
+   "terms": [
+    "2025-01779-2"
+   ],
+   "class": "CONSISTENT",
+   "why": "Distinguishes the two FBI DNA case files by Lab No. (2025-01779-2 and -12); does not say which is State's Exhibit 31."
+  },
+  {
+   "claim": "C-62",
+   "line": 89,
+   "line_now": 90,
+   "hits": 2,
+   "terms": [
+    "14 reports"
+   ],
+   "class": "CONSISTENT",
+   "why": "The line's own count is 15 = 13 + 2 with the total sunk; the '14 reports' strings are the P8 rebuild's figure and the withdrawn v1.0 row, each labelled as such."
+  },
+  {
+   "claim": "C-01",
+   "line": 108,
+   "line_now": 109,
+   "hits": 1,
+   "terms": [
+    "elimination-sample donors"
+   ],
+   "class": "CONSISTENT",
+   "why": "§2.1 Parents row states the elimination-donor role only (no 'only', no 'no inference may be drawn'); a compatible narrower form. The governing living-persons block (now L64), which the file requires be read first, carries the inclusion results."
+  },
+  {
+   "claim": "C-02",
+   "line": 108,
+   "line_now": 109,
+   "hits": 1,
+   "terms": [
+    "elimination-sample donors"
+   ],
+   "class": "UNRELATED",
+   "why": "Row names no 1.4/1.6 result, so the asymmetric-disclosure defect cannot arise here."
+  },
+  {
+   "claim": "C-05",
+   "line": 108,
+   "line_now": 109,
+   "hits": 3,
+   "terms": [
+    "Amber Robinson",
+    "Matthew Robinson",
+    "elimination-sample donors"
+   ],
+   "class": "CONSISTENT",
+   "why": "Body prose that touches the persons the banner names — the condition under which a banner is not boilerplate."
+  },
+  {
+   "claim": "C-17",
+   "line": 113,
+   "line_now": 114,
+   "hits": 2,
+   "terms": [
+    "three sources"
+   ],
+   "class": "UNRELATED",
+   "why": "'not three sources' is about the arrest-time corroboration (one officer, three roles), unrelated to CR-E21's sources."
+  },
+  {
+   "claim": "C-28",
+   "line": 188,
+   "line_now": 189,
+   "hits": 1,
+   "terms": [
+    "decisive artifact"
+   ],
+   "class": "UNRELATED",
+   "why": "'The decisive artifact is the physical cartridge or its photograph' — inscriptions, not the UBFS latent report."
+  },
+  {
+   "claim": "C-09",
+   "line": 204,
+   "line_now": 205,
+   "hits": 1,
+   "terms": [
+    "an identification"
+   ],
+   "class": "UNRELATED",
+   "why": "'an identification from UVU surveillance footage' — the defence brief's identity argument, not the FBI print report."
+  },
+  {
+   "claim": "C-57",
+   "line": 253,
+   "line_now": 254,
+   "hits": 1,
+   "terms": [
+    "on a closed record"
+   ],
+   "class": "AMBIGUOUS"
+  },
+  {
+   "claim": "C-33",
+   "line": 268,
+   "line_now": 269,
+   "hits": 1,
+   "terms": [
+    "The Dremel and the home cartridge cases"
+   ],
+   "class": "CONSISTENT",
+   "why": "Describes State's Exhibit 33's subject in the receiving witness's own words (cf. day4 05:32:33 quoted at L336); no 2x2 grid is asserted, and L335 item 3 states 'Exhibit 33's read results are not its scope'."
+  },
+  {
+   "claim": "C-18",
+   "line": 288,
+   "line_now": 289,
+   "hits": 1,
+   "terms": [
+    "never read"
+   ],
+   "class": "UNRELATED",
+   "why": "State's Exhibit 30, not the discovery letter."
+  },
+  {
+   "claim": "C-05",
+   "line": 303,
+   "line_now": 304,
+   "hits": 3,
+   "terms": [
+    "elimination sample"
+   ],
+   "class": "UNRELATED",
+   "why": "Twiggs as the FBI's elimination sample in the conditioning problem — substantive body prose, not the banner."
+  },
+  {
+   "claim": "C-72",
+   "line": 303,
+   "line_now": 304,
+   "hits": 1,
+   "terms": [
+    "not one"
+   ],
+   "class": "UNRELATED",
+   "why": "'not one of them on this subject' — search hits, unrelated."
+  },
+  {
+   "claim": "C-05",
+   "line": 306,
+   "line_now": 307,
+   "hits": 2,
+   "terms": [
+    "elimination sample"
+   ],
+   "class": "UNRELATED",
+   "why": "Investigators' elimination samples requested and not received — different subject."
+  },
+  {
+   "claim": "C-18",
+   "line": 306,
+   "line_now": 307,
+   "hits": 1,
+   "terms": [
+    "never read"
+   ],
+   "class": "UNRELATED",
+   "why": "State's Exhibit 30 (p. 8), not the discovery letter."
+  },
+  {
+   "claim": "C-33",
+   "line": 306,
+   "line_now": 307,
+   "hits": 1,
+   "terms": [
+    "The Dremel and the home cartridge cases"
+   ],
+   "class": "CONSISTENT",
+   "why": "Same description of Exhibit 33; no grid asserted; scope limits stated at §8.4 item 4 and §8.6."
+  },
+  {
+   "claim": "C-45",
+   "line": 306,
+   "line_now": 307,
+   "hits": 1,
+   "terms": [
+    "not received"
+   ],
+   "class": "UNRELATED",
+   "why": "Same; cited to day5 01:47:23 and marked recording layer only."
+  },
+  {
+   "claim": "C-31",
+   "line": 314,
+   "line_now": 315,
+   "hits": 1,
+   "terms": [
+    "FINGERPRINT SPECIALIST'S LIVE TESTIMONY"
+   ],
+   "class": "CONSISTENT",
+   "why": "Carries F-7's substance (defence held all four reports and sought the ATF fingerprint specialist's live testimony); says nothing about CR-E19's §9 structure."
+  },
+  {
+   "claim": "C-72",
+   "line": 316,
+   "line_now": 317,
+   "hits": 1,
+   "terms": [
+    "not one"
+   ],
+   "class": "UNRELATED",
+   "why": "'not one reached the hearing' — latent reports, unrelated; the file states elsewhere that one laboratory report IS held and read."
+  },
+  {
+   "claim": "C-15",
+   "line": 319,
+   "line_now": 320,
+   "hits": 1,
+   "terms": [
+    "Cellebrite"
+   ],
+   "class": "UNRELATED",
+   "why": "'Cellebrite' names State's Exhibit 16.1 (phone extraction); no claim about the discovery census's laboratory count."
+  },
+  {
+   "claim": "C-38",
+   "line": 328,
+   "line_now": 329,
+   "hits": 1,
+   "terms": [
+    "= State's Exhibit 32"
+   ],
+   "class": "STALE"
+  },
+  {
+   "claim": "C-18",
+   "line": 334,
+   "line_now": 335,
+   "hits": 3,
+   "terms": [
+    "never read"
+   ],
+   "class": "UNRELATED",
+   "why": "State's Exhibit 33, not the discovery letter."
+  },
+  {
+   "claim": "C-37",
+   "line": 334,
+   "line_now": 335,
+   "hits": 2,
+   "terms": [
+    "anchor High, identity Medium-high",
+    "identity Medium-high"
+   ],
+   "class": "UNRELATED",
+   "why": "'anchor High, identity Medium-high' grades the 15A<->15.5 join (DNA-E01 F-24), a different join from CR-E20 F-4."
+  },
+  {
+   "claim": "C-51",
+   "line": 334,
+   "line_now": 335,
+   "hits": 1,
+   "terms": [
+    "Exhibit 30's"
+   ],
+   "class": "UNRELATED",
+   "why": "Bare 'Exhibit 30's' is CR-E20's own house-rule defect; in this file the passage sits under the heading 'State's Exhibit 30' and the referent is unambiguous. Optional tidy: 'State's Exhibit 30's items'."
+  },
+  {
+   "claim": "C-01",
+   "line": 335,
+   "line_now": 336,
+   "hits": 2,
+   "terms": [
+    "elimination-sample donors"
+   ],
+   "class": "CONSISTENT",
+   "why": "§8.6 counterweight carries both inclusion results with the guards (donors, accused of nothing, not a source attribution, household answer scoped to the Dremel)."
+  },
+  {
+   "claim": "C-02",
+   "line": 335,
+   "line_now": 336,
+   "hits": 2,
+   "terms": [
+    "elimination-sample donors"
+   ],
+   "class": "CONSISTENT",
+   "why": "Twiggs/Dremel (ATF 15.1) and Matthew Robinson (1.4/1.6) stated together, each with its guard."
+  },
+  {
+   "claim": "C-05",
+   "line": 335,
+   "line_now": 336,
+   "hits": 5,
+   "terms": [
+    "Matthew Robinson",
+    "elimination-sample donors"
+   ],
+   "class": "CONSISTENT",
+   "why": "Body prose touching the named persons, with guards — the banner is warranted."
+  },
+  {
+   "claim": "C-09",
+   "line": 355,
+   "line_now": 356,
+   "hits": 1,
+   "terms": [
+    "an identification"
+   ],
+   "class": "CONSISTENT",
+   "why": "Carries the guard and states 'identification' appears nowhere in the hearing's print record."
+  },
+  {
+   "claim": "C-62",
+   "line": 400,
+   "line_now": 401,
+   "hits": 2,
+   "terms": [
+    "FOURTEEN"
+   ],
+   "class": "CONSISTENT",
+   "why": "'fourteen of the fifteen items' with D-70 open — compatible; (the sentence is printed twice, see notes)."
+  },
+  {
+   "claim": "C-28",
+   "line": 455,
+   "line_now": 456,
+   "hits": 1,
+   "terms": [
+    "decisive artifact"
+   ],
+   "class": "UNRELATED",
+   "why": "'Decisive artifact for several open items' said of State's Exhibit 30, not the UBFS latent report."
+  },
+  {
+   "claim": "C-47",
+   "line": 458,
+   "line_now": 459,
+   "hits": 1,
+   "terms": [
+    "2025-01779-5"
+   ],
+   "class": "CONSISTENT",
+   "why": "Carries both identifiers (Lab No. 2025-01779-5; Case ID No. SU-4130859)."
+  },
+  {
+   "claim": "C-62",
+   "line": 458,
+   "line_now": 459,
+   "hits": 1,
+   "terms": [
+    "FOURTEEN"
+   ],
+   "class": "CONSISTENT",
+   "why": "'twelve unread … of the thirteen the letter names + two FBI DNA case files … fourteen unread items of the fifteen' — compatible."
+  },
+  {
+   "claim": "C-49",
+   "line": 513,
+   "line_now": 514,
+   "hits": 1,
+   "terms": [
+    "register ceiling"
+   ],
+   "class": "CONSISTENT",
+   "why": "States the ceiling lives in QUEUE.md and is pointed at, not restated; no value printed."
+  },
+  {
+   "claim": "C-62",
+   "line": 543,
+   "line_now": 544,
+   "hits": 1,
+   "terms": [
+    "14 reports"
+   ],
+   "class": "RECORD",
+   "why": "§15 P8 register row 16 recording CONTRADICTED -> UNVERIFIED."
+  },
+  {
+   "claim": "C-47",
+   "line": 556,
+   "line_now": 557,
+   "hits": 1,
+   "terms": [
+    "2025-01779-5"
+   ],
+   "class": "RECORD",
+   "why": "§15 P8 register row 29 recording SUPPORTED; carries both identifiers."
+  },
+  {
+   "claim": "C-28",
+   "line": 615,
+   "line_now": 616,
+   "hits": 1,
+   "terms": [
+    "decisive artifact"
+   ],
+   "class": "RECORD",
+   "why": "§16 SINK row (census total UNVERIFIED); 'decisive artifact' there is Exhibit F vs the Touhy letter, not the UBFS report."
+  },
+  {
+   "claim": "C-72",
+   "line": 659,
+   "line_now": 660,
+   "hits": 1,
+   "terms": [
+    "not one"
+   ],
+   "class": "RECORD",
+   "why": "§17 P9 register prose recording verdict counts."
+  },
+  {
+   "claim": "C-15",
+   "line": 702,
+   "line_now": 703,
+   "hits": 1,
+   "terms": [
+    "Cellebrite"
+   ],
+   "class": "RECORD",
+   "why": "§18 P7 register table row recording a KILLED verdict."
+  },
+  {
+   "claim": "C-15",
+   "line": 866,
+   "line_now": 868,
+   "hits": 1,
+   "terms": [
+    "Cellebrite"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.7."
+  },
+  {
+   "claim": "C-50",
+   "line": 868,
+   "line_now": 870,
+   "hits": 1,
+   "terms": [
+    "the seven"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.5."
+  },
+  {
+   "claim": "C-62",
+   "line": 868,
+   "line_now": 870,
+   "hits": 1,
+   "terms": [
+    "14 reports"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.5."
+  },
+  {
+   "claim": "C-49",
+   "line": 870,
+   "line_now": 872,
+   "hits": 1,
+   "terms": [
+    "never restated"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.3."
+  },
+  {
+   "claim": "C-49",
+   "line": 871,
+   "line_now": 873,
+   "hits": 1,
+   "terms": [
+    "never restated"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.2."
+  },
+  {
+   "claim": "C-69",
+   "line": 871,
+   "line_now": 873,
+   "hits": 1,
+   "terms": [
+    "examiner testified"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.2 ('before the examiner testified' refers to the FBI DNA examiner, not the digital-forensics heading)."
+  },
+  {
+   "claim": "C-49",
+   "line": 872,
+   "line_now": 874,
+   "hits": 1,
+   "terms": [
+    "never restated"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.1."
+  },
+  {
+   "claim": "C-62",
+   "line": 872,
+   "line_now": 874,
+   "hits": 1,
+   "terms": [
+    "FOURTEEN"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.1."
+  },
+  {
+   "claim": "C-25",
+   "line": 873,
+   "line_now": 875,
+   "hits": 2,
+   "terms": [
+    "no verification cycle",
+    "no verification cycle has run"
+   ],
+   "class": "RECORD",
+   "why": "Revision-log row v1.0 ('no verification cycle has run' as of file creation) — a dated record."
+  }
+ ],
+ "notes": "FILE STATE. The worklist's line numbers were computed against the pre-commit file (873 lines, 279,382 bytes). During this sweep the file was changed and committed (8910af3, 2026-09-16 19:42:33: v2.6 — a posture note inserted as a new line 54 and a v2.6 revision-log row inserted as line 859; header line 7 rewritten; nothing else). Classification was made against the committed content (876 lines by split, 280,115 bytes; identical to HEAD; unchanged through the later commit fd8c613). Mapping: line_now = line for worklist lines <=53; +1 for 54–857; +2 for >=858. Every hit's passage was verified textually unchanged by the commit. COUNTS are over the 95 raw hits; by (claim, line) group there are 63 groups: {'CONSISTENT': 22, 'UNRELATED': 22, 'STALE': 3, 'RECORD': 14, 'AMBIGUOUS': 2}. C-05 in this file: the LIVING PERSONS banner (L62–65) is not boilerplate — the body touches every person it names (§2.1 Parents row, §8.3/§8.4 Twiggs, §8.6 counterweight), so C-05's corrected scoping is met; hits there are CONSISTENT or UNRELATED. C-01 at the §2.1 Parents row (L109) is a narrower, compatible statement (role only); an optional pointer to the living-persons block would make the row self-contained but is not required. OUT-OF-SCOPE OBSERVATIONS (not among the 74 claims; reported, not classified): (1) L90 (§1 item 4) contains a headless fragment '— and that **exactly one item is held and read by this library**: …' spliced after '…v1.0 row of **14 reports**.', i.e. two overlapping replacements, and the paragraph restates the 'exactly one is held' and 'D-70 OPEN' points three times; (2) the same L90 opens 'Fifteen forensic items across three laboratories are named' and §ES L41, §12 L401 and §14 B L459 write 'fourteen of the fifteen', while L90 itself and §16 SINK say the TOTAL is UNVERIFIED and 'No number may be written for the set' — an internal tension of this file, not a C-62 stale form (C-62's corrected form is itself 'fifteen'); (3) L114 (§2.1 concordance warning) prints its opening sentence twice and its closing two sentences twice; (4) L336 (§8.6 counterweight) prints the pair 'A chain described without them overstates (CR-E02 §5.4b). ⚠ Both men are elimination-sample donors, accused of nothing; a support-for-inclusion statement is not a source attribution.' twice back to back, and ends with two variant 'Confidence: High that these paragraphs were read into the record…' sentences plus a third 'Confidence: High that the markings were described…'; (5) L401 (§12 item 2) prints 'With the letter's two undated FBI DNA case files, fourteen of the fifteen items … (§1 item 4). ⚠ The total is not graded: D-70 is OPEN.' and the 'Priority: the two ATF latent print reports…' sentence twice; (6) the banked-artifact count is given three ways (L85 '287 banked artifacts', L90 '144-entry source-manifest.json', L336 'source-manifest.json, 294 entries'). PROTECTED NAMES: none of the names the commit describes as withheld (FBI latent-print personnel) appear in this file's hits or in this report. No file was edited."
+}

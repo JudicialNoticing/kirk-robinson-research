@@ -1,0 +1,150 @@
+{
+  "file": "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
+  "file_sha256": "fd19c6627880869271d89e6bde9134e9473e71228b1e51eaa3d835fae79a943f",
+  "file_lines": 1015,
+  "hits_reviewed": 180,
+  "counts": {
+    "STALE": 28,
+    "CONSISTENT": 27,
+    "RECORD": 43,
+    "UNRELATED": 79,
+    "AMBIGUOUS": 3
+  },
+  "stale": [
+    {
+      "claim": "C-56",
+      "line": 16,
+      "worklist_line": 16,
+      "hits": 2,
+      "heading": "## ⚠ READ THIS BEFORE USING ANY SENTENCE BELOW (header)",
+      "current_sentence": "**No court has found any fact below to be true**, and **the court made no reliability ruling on any DNA evidence** — it expressly declined to weigh it at this stage.",
+      "replacement": "**No court has found any fact below to be true**, and **no court has ruled on the scientific reliability of any DNA method or result** (the Rule 702 sense) — it expressly declined to weigh it at this stage; admissibility rulings under Rule 1102's reliable-hearsay standard are a different question and were made (§8.3).",
+      "why": "Flat 'made no reliability ruling' is C-56's withdrawn form, narrowed only to DNA. This file's own §8.3 (line 778) carries the State's on-record 'As a gatekeeper, the court has found it reliable' characterisation, i.e. the Rule 1102 admissibility rulings the corrected form distinguishes. NOTE: the owner's 2026-09-16 posture ruling (line 18) retained the adjacent bound-over sentence 'as written' with a dated 🛠 note beneath; the same retain-plus-note convention may be preferred here over in-place replacement — owner's call."
+    },
+    {
+      "claim": "C-01",
+      "line": 24,
+      "worklist_line": 22,
+      "hits": 9,
+      "heading": "## ⚠ READ THIS BEFORE USING ANY SENTENCE BELOW › Living persons blockquote",
+      "current_sentence": "> **In the DNA evidence this file covers, Matthew Robinson and Amber Robinson appear only as elimination-sample donors** — persons whose profiles are obtained precisely so they can be accounted for and set aside — **and neither is accused of anything whatever.** ⚠ *(Scoped deliberately: that is a statement about the DNA material at §§2–8, **not** about the whole five-day record, in which at least one of them is mentioned once on an unrelated, non-DNA matter this file does not reproduce because it bears on no question here.)*",
+      "replacement": "> **In the DNA evidence this file covers, Matthew Robinson and Amber Robinson appear as elimination-sample donors** — persons whose profiles are obtained precisely so they can be accounted for and set aside, sought because they were associated with the premises and not as suspects (defence counsel's framing, put in a leading question and assented to by the witness — §2.2) — ⚠ **and that framing must not be over-cleaned: the record carries support-for-inclusion results naming Matthew Robinson on rifle swabs ATF items 1.4 (the bolt) and 1.6 (the barrel), and Lance Twiggs on swabs of the buttons and other areas of the Dremel tool (§2.2, §3.4(a), §7.3); a \"support for inclusion\" statement is not a source attribution** — **and neither is accused of anything whatever.** ⚠ *(Scoped deliberately: that is a statement about the DNA material at §§2–8, **not** about the whole five-day record, in which at least one of them is mentioned once on an unrelated, non-DNA matter this file does not reproduce because it bears on no question here.)*",
+      "why": "This is C-01's named carrier variant (d) ('DNA-E01:22 (live, expressly scoped to §§2–8)'). Even within §§2–8 the 'only as' is over-clean: the file's own §2.2 (273), §6.2 (630) and §7.3 (707–709) carry support-for-inclusion results naming Matthew Robinson on ATF items 1.4 and 1.6, and §2.2 (267) and §3.4(a) (388) carry Lance Twiggs on the Dremel swabs. The replacement carries both disclosures together because C-02 makes the Twiggs/Dremel disclosure owed wherever the Matthew Robinson results are stated. The 'Scoped deliberately' parenthetical is unchanged. The framing attribution ('defence counsel … leading question') is carried from the corrected form (C-03), not independently verified here."
+    },
+    {
+      "claim": "C-03",
+      "line": 182,
+      "worklist_line": 178,
+      "hits": 2,
+      "heading": "### 1.8 The verification searches this file ran (table cell)",
+      "current_sentence": "| `/Matthew Robinson/` | 5 | 4 | the record's own non-suspect framing (§2.2) |",
+      "replacement": "| `/Matthew Robinson/` | 5 | 4 | the non-suspect framing put by defence counsel in a leading question and assented to by the witness (§2.2) |",
+      "why": "Table cell labels the framing 'the record's own' with no speaker — C-03's withdrawn form verbatim (C-03's notes list this row, as :178, among known sites). The C-04 and C-05 hits on the same line are UNRELATED (search-log row; C-04 is the profile's concatenation defect)."
+    },
+    {
+      "claim": "C-51",
+      "line": 215,
+      "worklist_line": 211,
+      "hits": 1,
+      "heading": "### 2.2 ATF Laboratory — DNA Section Chief Caitlin Oliver (Day 5) … (opening paragraph, inside the v4.8 🛠 note)",
+      "current_sentence": "verified directly 2026-08-30, and the examination of Exhibit 30 opens on *\"the DNA Analysis section\"* of its first page at **05:20:17**, which is a third on-record confirmation of the discipline.",
+      "replacement": "verified directly 2026-08-30, and the examination of State's Exhibit 30 opens on *\"the DNA Analysis section\"* of its first page at **05:20:17**, which is a third on-record confirmation of the discipline.",
+      "why": "A bare 'Exhibit 30' in the file's own prose against its own §1.5 rule (1) and CR-E20 rule 2 — inside the very v4.8 note that de-bared designators. Referent is unambiguous from context (State's Exhibit 30), so minor. The C-18 ('never read exhaustively', about the item table) and C-50 ('the SEVEN CALCULATIONS') hits on this line are UNRELATED."
+    },
+    {
+      "claim": "C-03",
+      "line": 275,
+      "worklist_line": 271,
+      "hits": 2,
+      "heading": "### 2.2 › 'Elimination-sample donors' framing blockquote",
+      "current_sentence": "> ⚠ **THE RECORD'S OWN FRAMING, AND IT MUST TRAVEL WITH EVERY ONE OF THESE LINES.** *(Verified directly against `day5.txt` 01:48–01:51, 2026-08-01; `/Matthew Robinson/` over `day5.txt` = 4 hits, every one opened.)* Counsel put the results to the witness twice as arising **\"not because they were suspects, but because they were associated with the premises\"**",
+      "replacement": "> ⚠ **DEFENCE COUNSEL'S NON-SUSPECT FRAMING, PUT IN LEADING QUESTIONS AND ASSENTED TO BY THE WITNESS — AND IT MUST TRAVEL WITH EVERY ONE OF THESE LINES.** *(Verified directly against `day5.txt` 01:48–01:51, 2026-08-01; `/Matthew Robinson/` over `day5.txt` = 4 hits, every one opened.)* Defence counsel (Mr. Burt) put the results to the witness twice, in leading questions, as arising **\"not because they were suspects, but because they were associated with the premises\"**",
+      "why": "The bold lead sentence carries the withdrawn label; the body attributes to 'Counsel' with no side and without the leading-question character the corrected form requires (C-03's notes: ':271 (§2.2 attributes to Counsel, not to defence counsel in a leading question)'). Rest of the blockquote (the quoted answers) unchanged. Off-list follow-on in the same block, line 277: 'the record's non-suspect framing above is what stands in it' — should read 'the non-suspect framing above (defence counsel's, assented to)' for the same reason; the script's term did not match that variant. C-04 hit here ('spects, but because they were associated') is the intact quotation — UNRELATED; C-05 'Matthew Robinson' here is the search-count parenthetical — CONSISTENT."
+    },
+    {
+      "claim": "C-03",
+      "line": 388,
+      "worklist_line": 384,
+      "hits": 3,
+      "heading": "### 3.4 ⚠ THREE SCOPES ON THE RATIO OF ONE › (a)",
+      "current_sentence": "⚠ **AND THE RECORD'S OWN FRAMING TRAVELS WITH THAT LINE, HERE AS AT §2.2:** the Dremel is a **household item** recovered from the home, on which he appears as an **ELIMINATION-SAMPLE DONOR** sought because he was **associated with the premises — \"not because they were suspects\"** — and **he is accused of nothing** (§2.2; living-persons header).",
+      "replacement": "⚠ **AND THE NON-SUSPECT FRAMING TRAVELS WITH THAT LINE, HERE AS AT §2.2:** the Dremel is a **household item** recovered from the home, on which he appears as an **ELIMINATION-SAMPLE DONOR** sought because he was **associated with the premises — \"not because they were suspects,\" defence counsel's words in a leading question, assented to by the witness** — and **he is accused of nothing** (§2.2; living-persons header).",
+      "why": "Withdrawn label plus a quoted framing with no speaker at all (C-03's notes list this site, as :384, 'no speaker'). This is the Twiggs/Dremel disclosure site, so the attribution matters for a living person accused of nothing."
+    },
+    {
+      "claim": "C-03",
+      "line": 709,
+      "worklist_line": 705,
+      "hits": 2,
+      "heading": "### 7.3 The restatement that both authors refused",
+      "current_sentence": "⚠ **AND THE SAME PASSAGE CARRIES THE RECORD'S OWN FRAMING, WHICH TRAVELS WITH THESE LINES BY THE RULE THIS FILE SET FOR ITSELF AT §2.2.** Counsel put the result as arising **\"not because he's a suspect, but because he's associated with that premise\"** — \"**Correct.**\"",
+      "replacement": "⚠ **AND THE SAME PASSAGE CARRIES THE NON-SUSPECT FRAMING, WHICH TRAVELS WITH THESE LINES BY THE RULE THIS FILE SET FOR ITSELF AT §2.2.** Defence counsel put the result to the witness, in a leading question she assented to, as arising **\"not because he's a suspect, but because he's associated with that premise\"** — \"**Correct.**\"",
+      "why": "Same withdrawn label and side-less 'Counsel' attribution as §2.2; this is the Matthew Robinson disclosure site. C-05 'Matthew Robinson' hits at 707/709 are CONSISTENT (governing handling passage)."
+    },
+    {
+      "claim": "C-26",
+      "line": 911,
+      "worklist_line": 907,
+      "hits": 3,
+      "heading": "## 11. WHERE THE ADJACENT EVIDENCE LIVES › 'THE COMPLETE FRICTION-RIDGE RECORD' row (CR-E19)",
+      "current_sentence": "**the four \"possible ridge detail and/or smudging\" rifle sub-items were DNA-swabbed rather than print-examined, and three of the four were entirely consumed.**",
+      "replacement": "**the four \"possible ridge detail and/or smudging\" rifle sub-items were swabbed for DNA — ridge detail was observed, and it was DNA-swabbed — and three of the four were entirely consumed; nothing on the record establishes that those surfaces were NOT also print-examined (CR-E19 §6A).**",
+      "why": "Verbatim withdrawn F-2 form ('DNA-swabbed rather than print-examined'), presented as 'the finding that matters to §2.2 of THIS file'. This file's own §2.2 ridge-detail box (line 234) already carries the compatible scoped form ('NOT no examination occurred'), so the §11 cell contradicts the body."
+    },
+    {
+      "claim": "C-72",
+      "line": 981,
+      "worklist_line": 977,
+      "hits": 2,
+      "heading": "## 14. RESIDUAL › item 1",
+      "current_sentence": "1. ⚠ **NO EXHIBIT WAS OBTAINED. Not one.** Every laboratory report in this file is known only through a witness describing or reading it aloud.",
+      "replacement": "1. ⚠ **NO HEARING EXHIBIT WAS OBTAINED. Not one.** Every DNA laboratory report in this file is known only through a witness describing or reading it aloud; the one laboratory report this library has read directly — the ATF firearms/toolmark report of 2025-09-17 (`CR-E15`, held from a court filing; its identity with State's Exhibit 32 as admitted is `CR-E20 F-4`) — is the source of no DNA figure here.",
+      "why": "C-72's withdrawn shape ('Not one' / every report known only through a witness). Contradicted inside this file, which cites CR-E15's Tier-1 read of the ATF firearms report at §2.2 (F-14: 'read at Tier 1 in CR-E15'), §7.4 #4 and §11 ('the report read at Tier 1 from a court filing'). The rest of item 1 (F-12/F-13 grades) is unchanged. Related off-list carrier at line 958 (§13 lead: 'On the laboratory REPORTS the two files are in the same position: neither has read one') — see notes."
+    },
+    {
+      "claim": "C-55 (OFF-LIST — not in the worklist; found on read)",
+      "line": 878,
+      "worklist_line": 874,
+      "hits": 0,
+      "heading": "## 9. FINDINGS › DNA-E01 F-23 'What would change it' tail",
+      "current_sentence": "at `day4.txt` **06:36:35** the court, overruling a relevance objection during the firearms examiner's cross, ruled the material relevant",
+      "replacement": "at `day4.txt` **06:36:35** the court, overruling a relevance objection during the firearms examiner's direct examination (the defence called her; the State cross-examined), ruled the material relevant",
+      "why": "C-55's withdrawn form in substance ('ruling on a relevance objection during Karner's cross' at day4 06:36:35). The script's C-55 term 'on cross —' did not match 'examiner's cross,'. The worklist hits on this line (C-37, C-49, C-72) are classified separately (AMBIGUOUS / UNRELATED / UNRELATED)."
+    },
+    {
+      "claim": "C-56 (OFF-LIST — not in the worklist; found on read)",
+      "line": 778,
+      "worklist_line": 774,
+      "hits": 0,
+      "heading": "### 8.3 The court's posture, and the absence of any reliability ruling (heading at line 774; sentence at 778)",
+      "current_sentence": "⚠ **NO RULING WAS MADE ON THE RELIABILITY OF THE DNA EVIDENCE AT ANY POINT**, and the court expressly declined to weigh it as a magistrate.",
+      "replacement": "⚠ **NO RULING WAS MADE ON THE SCIENTIFIC RELIABILITY OF THE DNA EVIDENCE AT ANY POINT** (the Rule 702 sense), and the court expressly declined to weigh it as a magistrate; the DNA exhibits were admitted under Rule 1102's reliable-hearsay standard over objection, which is a different question.",
+      "why": "Same proposition as the header STALE at line 16, in capitals; the heading at 774 ('the absence of any reliability ruling') should likewise read 'any scientific-reliability ruling'. This is the least-stale C-56 carrier because the same paragraph already records the State's contrary characterisation ('As a gatekeeper, the court has found it reliable') and labels it a party's characterisation, not a ruling. Script terms did not match this wording."
+    }
+  ],
+  "ambiguous": [
+    {
+      "claim": "C-37",
+      "line": 722,
+      "worklist_line": 718,
+      "also_lines": [
+        878,
+        907
+      ],
+      "hits": 3,
+      "what_would_settle_it": "All three carriers (§7.4 #4 at 722, F-23 tail at 878, §11 CR-E20 row at 907) say CR-E20 F-4 is 'graded SPLIT' and then expressly decline to restate the grade ('it was RE-GRADED on 2026-08-30 after this sentence was written. Point at that finding; do not copy its grade'). They do NOT assert the withdrawn Medium-high, so not STALE on the letter. But the corrected form (and CR-E21 row 7 v1.1, cited in C-38) says any citing file must carry BOTH grades (CR-E20 F-4 ANCHOR High · IDENTITY High; CR-E15 F-139 IDENTITY Medium-high) and say which it follows — these sites carry neither and 'SPLIT' now reads as if the two limbs still differ. Settled by a ruling on which convention governs: CR-E21's 'carry both grades and say which you follow' or DNA-E01's 'point at the canonical grade, never copy it'. If the former, each site owes: 'ANCHOR High · IDENTITY High per CR-E20 F-4; CR-E15 F-139 deliberately holds IDENTITY at Medium-high; this file follows CR-E20.'"
+    },
+    {
+      "claim": "C-02 (OFF-LIST — shape check; the C-02 term hits at 24, 273 and 1011 are classified UNRELATED / CONSISTENT / RECORD)",
+      "line": 630,
+      "worklist_line": 626,
+      "also_lines": [
+        707,
+        709
+      ],
+      "hits": 0,
+      "what_would_settle_it": "§6.2's bolt-swab box (630) and §7.3 (707–709) each state the Matthew Robinson support-for-inclusion results with the non-suspect guards but WITHOUT the Lance Twiggs/Dremel disclosure in the same passage; §2.2 (267 and 273) carries both together and each site cross-references §2.2. Settled by whether C-02's 'alongside' means the same passage or the same governing section. If the former, 630 and 709 each owe one clause: 'the same passage carries support for inclusion of Lance Twiggs on the Dremel swabs (§2.2), with the same guards.'"
+    }
+  ],
+  "notes": "LINE NUMBERS: the worklist was generated against the committed file; the working file gained two 🛠 posture-note insertions on 2026-09-16 (lines 18–19 and 150–151) plus a v4.10 log row (1013), so current line = worklist line for <18, +2 for 18–147, +4 for >=148. Every quoted STALE sentence was asserted present on its stated current line at SHA-256 fd19c66278808692… (1015 lines, mtime 2026-09-16 19:40:54) immediately before this JSON was written; the file was being edited concurrently during the read, so re-check before applying. Each stale entry carries both 'line' (current) and 'worklist_line'. CLASSIFICATION BASIS: RECORD = the revision-log rows 1003–1012 (43 hits) and the header status line's account of v4.8 (line 10). Per the brief, revision-log rows are never edited — but note the enumeration's own layer_hint names the v4.8 row (current 1011, 'LIVING PERSONS UNDISTURBED … appear only as **elimination-sample donors**') as an ASSERTING log row for C-01; if the parent treats asserting rows differently, that is the one. CONSISTENT = C-05 name hits at the header banner (20, 24) and the governing handling passages (§2.2 273/275, §6.2 630, §7.3 707/709) — C-05's own corrected form points at these as where the handling lives; C-51 rule statements (106, 829) and owner-carrying designators (285, 889, 909); C-38's hedged, non-flat forms (722, 907, 995); C-32's hearing-scoped F-9 (829); C-49 at 995. UNRELATED covers term collisions ('not one' = 'is not one'/'NOT one of them'/'NOT MERELY'; 'the seven' = calculations/sites; 'decisive artifact' = State's Exhibits 30/31, not the UBFS latent report; 'elimination sample' in Bakker's testimony; 'never read' about exhibits, not the discovery letter; 'neither party had reason' about the towel's origin; 'repo-wide' and 'not received' about this file's own nulls; C-04's profile-only concatenation defect wherever its terms overlap C-03; and C-25's self-null at 796/982, which C-25's own notes put out of scope). ISOLATION: judged from the file and the two forms; the 'defence counsel / Mr. Burt / leading question' attribution in replacements is carried from the corrected form (C-03), not re-verified against day5.txt here. No withheld name appeared in the hit list; the three names present (Lance Twiggs, Amber Robinson, Matthew Robinson) are public in this file per C-05's notes. OFF-LIST OBSERVATIONS (not counted; for the parent's judgment): (1) C-55 at 878 and C-56 at 774/778 — added to 'stale' clearly marked OFF-LIST. (2) Line 277 'the record's non-suspect framing above' — same family as C-03 (see the 275 entry). (3) C-72 shape at 958 ('neither has read one' — flat) and 985 (§14 item 5 'not … any laboratory report' — defensible as 'for this file'). (4) C-32 shape: 112 ('There are **four** ATF reports on this record'), 889 ('the all-discipline total is FOUR') and 995 ('CR-E20 F-1's four-report total') are scoped only implicitly by 'this record'; an explicit 'entered at this hearing' would match the corrected form. (5) C-23 shape: this file's own '/bits' container/ repo-wide = 0' at 265 and 804 is stated without its .md scope. (6) C-49(ii) shape: §14 item 8 (988) prints a register-ceiling value ('D-59 as the next free number'), stale since 2026-08-01. (7) C-25 shape about this file itself: §9 lead (796) 'no independent adversarial pass has run on this file' and §14 item 2 (982) 'NO INDEPENDENT VERIFICATION CYCLE HAS RUN ON THIS FILE' sit under a header that records Q-61 round 1 (v4.2) and a four-agent adversarial re-verification (v4.7) — out of C-25's scope, same falsified-null shape. No file was edited."
+}

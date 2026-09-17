@@ -1,0 +1,630 @@
+{
+  "file": "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md",
+  "file_state_at_write": {
+    "bytes": 192205,
+    "lines": 569,
+    "sha256": "1038aa5fdf31a08859acfba01634fcd289bfaa4afcc1fb5d22f31fed8c6059a6",
+    "mtime": "2026-09-16 19:40:54"
+  },
+  "hits_reviewed": 106,
+  "counts": {
+    "STALE": 16,
+    "CONSISTENT": 30,
+    "RECORD": 14,
+    "UNRELATED": 45,
+    "AMBIGUOUS": 1
+  },
+  "stale": [
+    {
+      "claim": "C-56",
+      "line": 5,
+      "hitlist_line": 5,
+      "anchor": "made no reliability ruling on any DNA evidence",
+      "heading": "File header — **Case context:** line (above §0)",
+      "current_sentence": "**No court has found any fact below to be true**, and **the court made no reliability ruling on any DNA evidence** — it expressly declined to weigh it at this stage.",
+      "replacement": "**No court has found any fact below to be true**, and **no court has ruled on the scientific reliability of any DNA method or result here (the Rule 702 sense)** — it expressly declined to weigh it at this stage; **admissibility rulings under Rule 1102's reliable-hearsay standard are a different question and were made — State's Exhibit 31 was admitted and published under that rule (§2), and the State later characterised those rulings to the court as reliability findings (§3.0; `CR-E20` header).**",
+      "why": "Flat 'made no reliability ruling' is the withdrawn C-56 shape, scoped to DNA. This file's own body shows the Rule 1102 dimension: §2 records State's Exhibit 31 admitted with publication; §2.9 records the defence calling the court's retained 1102-reliability determination 'the law of this case'; §3.0 records the State's 'As a gatekeeper, the court has found it reliable' and says what would settle it is the Days 1–4 admission rulings — which is exactly what cycle 2 settled (CR-E20 header, 2026-08-30). The 'declined to weigh' clause already gestures at the 702 sense; the fix names the sense and adds the 1102 clause."
+    },
+    {
+      "claim": "C-01",
+      "line": 8,
+      "hitlist_line": 6,
+      "anchor": "appear only as **elimination-sample donors**",
+      "heading": "File header — **Living persons — read this before using anything below.**",
+      "current_sentence": "**Matthew Robinson** and **Amber Robinson** appear only as **elimination-sample donors** — persons whose profiles are obtained precisely so they can be accounted for and set aside — and **neither is accused of anything whatever.**",
+      "replacement": "**Matthew Robinson** and **Amber Robinson** are **elimination-sample donors** — persons whose profiles are obtained precisely so they can be accounted for and set aside, sought **because they were associated with the residence and NOT as suspects** — and **neither is accused of anything whatever.** ⚠ **The record carries support-for-inclusion results naming Matthew Robinson on ATF rifle items 1.4 (the bolt swabs) and 1.6, and Lance Twiggs on swabs of the buttons and other areas of the Dremel tool (§3.4); the analyst's household-transfer framing and every guard below travel with both.**",
+      "why": "Exact withdrawn shape ('appear only as elimination-sample donors … accounted for and set aside … anything whatever'), the one CR-E19 v2.1 narrowed on 2026-08-30. It is contradicted by this file's own §3.4 (support for inclusion of Matthew Robinson on items 1.4 and 1.6; of Lance Twiggs on the Dremel). The following sentence ('A DNA \"support for inclusion\" statement is not a source attribution; both analysts said so…') already carries the corrected form's guard and is untouched. Replacement names both non-suspects' results together, which is what C-02 requires of any carrier. NOTE: CR-E19 v2.1 glosses 1.6 as 'the barrel'; this file identifies 1.6 by number only (§3.4), so the replacement does not add the gloss — add '(the barrel, per `CR-E19` v2.1)' only if the leader wants the cross-file gloss carried."
+    },
+    {
+      "claim": "C-51",
+      "line": 10,
+      "hitlist_line": 8,
+      "anchor": "attributed to Exhibit 30",
+      "heading": "File header — **Status:** line, inside the *(v1.6 — …)* summary",
+      "current_sentence": "**Bakker's material is cited to State's Exhibit 31 (the FBI DNA report) throughout — zero instances of Bakker content attributed to Exhibit 30**",
+      "replacement": "**Bakker's material is cited to State's Exhibit 31 (the FBI DNA report) throughout — zero instances of Bakker content attributed to State's Exhibit 30**",
+      "why": "MINOR. A bare 'Exhibit 30' in this file's own header prose, against its own hazard 3 (§1.4: 'Never write a bare \"Exhibit 30\"') and CR-E20 Rule 2 (number and owner every time). Meaning is unambiguous from the flanking owner-qualified uses; the fix is one word. The quoted-string counts in the same line ('All 18 references to \"Exhibit 30\"') are string censuses, not designator uses, and are fine. Leader may fold this into a v1.9 status rewrite rather than edit the v1.6 parenthetical in place."
+    },
+    {
+      "claim": "C-32",
+      "line": 81,
+      "hitlist_line": 79,
+      "anchor": "there are FOUR of them",
+      "heading": "### 1.4 Garbles identified, with the basis for each — the 🗺 `CR-E20` pointer blockquote (added v1.6)",
+      "current_sentence": "⚠ **And \"the ATF report\" is never sufficient — there are FOUR of them, splitting two-and-two across DNA/biology and firearms/toolmark** (`CR-E20 F-1`).",
+      "replacement": "⚠ **And \"the ATF report\" is never sufficient — FOUR were entered at this hearing, splitting two-and-two across DNA/biology and firearms/toolmark, and at least nine ATF reports exist in the case** (`CR-E20 F-1` as scoped v1.5; `CR-E21` §2).",
+      "why": "Verbatim unscoped withdrawn form ('there are FOUR of them'), carried from CR-E20 F-1 v1.0 before F-1 was scoped at v1.5 (2026-08-30). False of the case: CR-E21 §2 lists at least nine ATF reports (four DNA, three firearms/toolmark, two latent print, plus shoe impression). Body prose in a rules/pointer block that other readers are told governs the hazard."
+    },
+    {
+      "claim": "C-36",
+      "line": 528,
+      "hitlist_line": 526,
+      "anchor": "THE HEDGE LOOKS WRONG",
+      "heading": "## 8. OPEN ITEMS AND ACQUISITION TARGETS — item 2",
+      "current_sentence": "⚠ **THE HEDGE LOOKS WRONG ON `CR-E20`'s MAP, and is flagged rather than corrected** *(added v1.6, 2026-08-30)*. […] She was never asked;",
+      "replacement": "⚠ **THE HEDGE IS RIGHT ABOUT 30 — State's Exhibit 30 is Oliver's ATF DNA report, displayed to her, read from by her and identified as hers on the record (§1.3, §3.4; `day5.txt` 711, 1015) — AND LOOKS WRONG ONLY AS TO \"34\" ON `CR-E20`'s MAP; the \"34\" is flagged rather than corrected** *(added v1.6, 2026-08-30; both directions logged, per `CR-E20` §3a as corrected)*. […] She was never asked about 33 or 34;",
+      "why": "MILD. The passage records only the failing half — the withdrawn C-36 shape: 'the hedge looks wrong', 'she was never asked', with no logged confirmation that the statement is right about Exhibit 30. This file elsewhere treats State's Exhibit 30 as Oliver's report throughout (§1.3 display of 'State's Exhibit 30, which is in evidence' with 'you state in F'; §3.4 'go back to Exhibit 30, page eight? Were certain DNA samples consumed in your analysis?'), so the confirming half is available from the file's own record and just needs logging (both-directions rule). The passage already refuses to resolve 34→33 and already says nothing establishes Oliver authored Exhibit 33 — consistent with the corrected form's 'Medium inference'. 'She was never asked' is overbroad as to 30 (the corrected form cites Burt to Oliver, day5 02:20:55: 'It's Exhibit 30. Plaintiff's 30. Right?'); narrowing it to 33/34 is the second minimal change."
+    },
+    {
+      "claim": "C-56",
+      "line": 549,
+      "hitlist_line": 547,
+      "anchor": "made no reliability ruling on any of this",
+      "heading": "## 9. RESIDUAL — WHAT THIS FILE DID NOT DO — item 6",
+      "current_sentence": "**The court made no reliability ruling on any of this**, and expressly declined to weigh it as a magistrate.",
+      "replacement": "**No court has ruled on the scientific reliability of any of this (the Rule 702 sense)**, and expressly declined to weigh it as a magistrate; **the Rule 1102 admissibility rulings under which the reports came in are a different question and were made (§2, §3.0; `CR-E20` header).**",
+      "why": "Same flat withdrawn shape as the header, restated in the residual section as a current scope statement. Same fix."
+    },
+    {
+      "claim": "C-01",
+      "line": 553,
+      "hitlist_line": 551,
+      "anchor": "elimination-sample donors only",
+      "heading": "## 9. RESIDUAL — WHAT THIS FILE DID NOT DO — item 9 (the v1.6 exhibit-citation audit residual)",
+      "current_sentence": "Amber and Matthew Robinson are elimination-sample donors only;",
+      "replacement": "Amber and Matthew Robinson are elimination-sample donors, sought as members of the household and not as suspects — the support-for-inclusion results naming Matthew Robinson (ATF items 1.4 and 1.6) and Lance Twiggs (the Dremel) stand at §3.4 and are not source attributions;",
+      "why": "'Elimination-sample donors only' is the withdrawn C-01 'only' shape, asserted as current in a residual-scope paragraph ('the living-persons header governs unchanged: …'). If the header is corrected this restatement must move with it or it re-asserts the withdrawn form. Replacement names both non-suspects' results together (C-02)."
+    }
+  ],
+  "ambiguous": [
+    {
+      "claim": "C-48",
+      "line": 10,
+      "hitlist_line": 8,
+      "heading": "File header — **Status:** line",
+      "passage": "State's Exhibit 31 (the FBI DNA report)",
+      "what_would_settle_it": "Whether the sweep treats the parenthetical '(the FBI DNA report)' as a designator gloss inherited from CR-E20's map (this file's §1.4 pointer reproduces CR-E20's row as 'State's Exhibit 31 = the FBI DNA report — items 1–6, 7 the towel…', current line 81, outside the hit list) or as an assertion that only one FBI DNA report exists. The library now knows there are two (FBI Lab Nos. 2025-01779-2 and -12, CR-E21 §2) and CR-E20 leaves open which is Exhibit 31. This file's identification is NARROWER and record-based, not the withdrawn 'one document' claim: Exhibit 31 is the report Faumuina read the item 7-1/8-1 results from (§2.1) and whose conclusions Bakker adopted under oath ('did you in fact come to the conclusions described in [State's] Exhibit 31?' — 'Yes, I did', day2 9375–9387), dated 2025-09-15 per counsel (§2.3). If treated as a gloss, a one-clause precision suffices at both places: '(the FBI DNA report Bakker adopted as hers on the record — one of two FBI DNA reports in the case, `CR-E21` §2; which lab number it carries is open, `CR-E20`)'. Side note for the leader: this file's on-record facts bear on CR-E20's open question and could be fed back to it."
+    }
+  ],
+  "classifications": [
+    {
+      "hitlist_line": 4,
+      "current_line": 4,
+      "claim": "C-18",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'had never read' refers to the day2 transcript body, not the CR-E19/E21 discovery-letter provenance claim."
+    },
+    {
+      "hitlist_line": 5,
+      "current_line": 5,
+      "claim": "C-56",
+      "n_hits": 2,
+      "class": "STALE",
+      "note": "see stale[0]"
+    },
+    {
+      "hitlist_line": 6,
+      "current_line": 8,
+      "claim": "C-01",
+      "n_hits": 6,
+      "class": "STALE",
+      "note": "see stale[1]"
+    },
+    {
+      "hitlist_line": 6,
+      "current_line": 8,
+      "claim": "C-02",
+      "n_hits": 1,
+      "class": "CONSISTENT",
+      "note": "The header names no Matthew Robinson 1.4/1.6 result, so it is not an asymmetric carrier; the C-01 replacement discloses both non-suspects' results together, as C-02 requires."
+    },
+    {
+      "hitlist_line": 6,
+      "current_line": 8,
+      "claim": "C-05",
+      "n_hits": 4,
+      "class": "CONSISTENT",
+      "note": "All three named people appear in this file's body (§3.4, §2, §5, D-53/D-57), so the banner is not sibling-file boilerplate here; the 'only' formulation is C-01's problem and is handled there."
+    },
+    {
+      "hitlist_line": 8,
+      "current_line": 10,
+      "claim": "C-36",
+      "n_hits": 2,
+      "class": "RECORD",
+      "note": "Status-line *(v1.6 — …)* parenthetical describing what §8 item 2 did; a stacked version summary. If §8 item 2 is amended, a v1.9 status entry supersedes it rather than editing the v1.6 text."
+    },
+    {
+      "hitlist_line": 8,
+      "current_line": 10,
+      "claim": "C-48",
+      "n_hits": 1,
+      "class": "AMBIGUOUS",
+      "note": "see ambiguous[0]"
+    },
+    {
+      "hitlist_line": 8,
+      "current_line": 10,
+      "claim": "C-51",
+      "n_hits": 1,
+      "class": "STALE",
+      "note": "see stale[2] (minor)"
+    },
+    {
+      "hitlist_line": 8,
+      "current_line": 10,
+      "claim": "C-72",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'NOT ONE WAS MIS-CITED' — term collision with C-72's 'No laboratory report has been read. Not one.'"
+    },
+    {
+      "hitlist_line": 12,
+      "current_line": 14,
+      "claim": "C-72",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'Not one confirmation defeated…' — term collision."
+    },
+    {
+      "hitlist_line": 46,
+      "current_line": 48,
+      "claim": "C-10",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Day 5 'Mr. McBride' label covering the media coalition's counsel; C-10 is the Day 1 Rev 'Richard Novak' label. 'Novak' appears nowhere in this file."
+    },
+    {
+      "hitlist_line": 65,
+      "current_line": 67,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Name inside a scoped-null hit list (§1.3); a body mention, not the banner."
+    },
+    {
+      "hitlist_line": 75,
+      "current_line": 77,
+      "claim": "C-36",
+      "n_hits": 2,
+      "class": "CONSISTENT",
+      "note": "§1.4 records the State's 'exhibits 30 and, I believe, 34' as spoken, with no evaluation — recording layer only."
+    },
+    {
+      "hitlist_line": 77,
+      "current_line": 79,
+      "claim": "C-51",
+      "n_hits": 1,
+      "class": "CONSISTENT",
+      "note": "This is the rule itself (hazard 3: never write a bare 'Exhibit 30'/'Exhibit 31')."
+    },
+    {
+      "hitlist_line": 79,
+      "current_line": 81,
+      "claim": "C-32",
+      "n_hits": 2,
+      "class": "STALE",
+      "note": "see stale[3]"
+    },
+    {
+      "hitlist_line": 79,
+      "current_line": 81,
+      "claim": "C-34",
+      "n_hits": 2,
+      "class": "CONSISTENT",
+      "note": "'The number 30 has THREE referents' remains true and is narrower than the broadened F-3; this file does not record the 30 collision ALONE (hazard 3 also carries 31; §2.10 and D-55 carry Baker 34/35). Optional gloss: '(F-3, broadened v1.6 to all bare designators)'."
+    },
+    {
+      "hitlist_line": 79,
+      "current_line": 81,
+      "claim": "C-51",
+      "n_hits": 1,
+      "class": "CONSISTENT",
+      "note": "Rule text ('any bare \"Exhibit 30\" in a transcript passage … must be resolved from context before use')."
+    },
+    {
+      "hitlist_line": 79,
+      "current_line": 81,
+      "claim": "C-72",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'a locator this file adds, not one CR-E20 states' — term collision."
+    },
+    {
+      "hitlist_line": 95,
+      "current_line": 97,
+      "claim": "C-55",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Bakker was a defence witness, so the State's examination IS cross; C-55 concerns Karner's direct on Day 4. Direction here is right."
+    },
+    {
+      "hitlist_line": 111,
+      "current_line": 113,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Witness quotation ('known elimination sample')."
+    },
+    {
+      "hitlist_line": 126,
+      "current_line": 128,
+      "claim": "C-72",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'she said it was not one' (the blank HD field) — term collision."
+    },
+    {
+      "hitlist_line": 136,
+      "current_line": 138,
+      "claim": "C-72",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'TWO QUESTIONS HERE, NOT ONE' — term collision."
+    },
+    {
+      "hitlist_line": 143,
+      "current_line": 145,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Witness quotation."
+    },
+    {
+      "hitlist_line": 143,
+      "current_line": 145,
+      "claim": "C-72",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'not one on which the elimination donor's DNA would be expected' — term collision."
+    },
+    {
+      "hitlist_line": 145,
+      "current_line": 147,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Witness quotation."
+    },
+    {
+      "hitlist_line": 147,
+      "current_line": 149,
+      "claim": "C-05",
+      "n_hits": 3,
+      "class": "UNRELATED",
+      "note": "Witness's stolen-vehicle illustration; body mentions of 'elimination sample'."
+    },
+    {
+      "hitlist_line": 177,
+      "current_line": 179,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Witness quotation."
+    },
+    {
+      "hitlist_line": 185,
+      "current_line": 187,
+      "claim": "C-72",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'THREE conditions, not one' — term collision."
+    },
+    {
+      "hitlist_line": 254,
+      "current_line": 256,
+      "claim": "C-05",
+      "n_hits": 2,
+      "class": "UNRELATED",
+      "note": "Witness quotation; the paragraph's own living-persons reminder is consistent."
+    },
+    {
+      "hitlist_line": 337,
+      "current_line": 339,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Section heading '3.4 Consumption, and the elimination samples'."
+    },
+    {
+      "hitlist_line": 350,
+      "current_line": 352,
+      "claim": "C-05",
+      "n_hits": 4,
+      "class": "CONSISTENT",
+      "note": "§3.4 results paragraph: names both Matthew Robinson (items 1.4, 1.6) and Lance Twiggs (Dremel) in one continuous passage under a header pointer — this is the C-01/C-02 corrected substance the header must match."
+    },
+    {
+      "hitlist_line": 352,
+      "current_line": 354,
+      "claim": "C-05",
+      "n_hits": 2,
+      "class": "CONSISTENT",
+      "note": "Records the analyst correcting counsel's source-attribution phrasing three times and counsel accepting — the corrected form's guard."
+    },
+    {
+      "hitlist_line": 358,
+      "current_line": 360,
+      "claim": "C-05",
+      "n_hits": 2,
+      "class": "CONSISTENT",
+      "note": "Scoped null: no likelihood-ratio value for any elimination-sample donor on the record; guards intact."
+    },
+    {
+      "hitlist_line": 359,
+      "current_line": 361,
+      "claim": "C-05",
+      "n_hits": 2,
+      "class": "CONSISTENT",
+      "note": "'No inference about Matthew Robinson, Amber Robinson or Lance Twiggs is drawn here…; none of the three is accused of anything.'"
+    },
+    {
+      "hitlist_line": 363,
+      "current_line": 365,
+      "claim": "C-05",
+      "n_hits": 3,
+      "class": "UNRELATED",
+      "note": "Agent elimination samples requested and not received — testimony about routine practice."
+    },
+    {
+      "hitlist_line": 363,
+      "current_line": 365,
+      "claim": "C-45",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'NOT received' here is Oliver's testimony about agent elimination samples, not the discovery letter's 'we have not received' statements."
+    },
+    {
+      "hitlist_line": 409,
+      "current_line": 411,
+      "claim": "C-10",
+      "n_hits": 2,
+      "class": "UNRELATED",
+      "note": "Day 5 media counsel (unnamed) in the Exhibit 16 sanction narrative."
+    },
+    {
+      "hitlist_line": 423,
+      "current_line": 425,
+      "claim": "C-10",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Day 5 media counsel assenting to the sanction's scope."
+    },
+    {
+      "hitlist_line": 427,
+      "current_line": 429,
+      "claim": "C-10",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Day 5 media counsel and the broadcast-delay proposal."
+    },
+    {
+      "hitlist_line": 461,
+      "current_line": 463,
+      "claim": "C-52",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'She was NEVER asked about the FBI report…' is about Oliver and the FBI figures, not about Exhibit 32's identity with the motion attachment."
+    },
+    {
+      "hitlist_line": 469,
+      "current_line": 471,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'the Twiggs elimination sample' in §5.3."
+    },
+    {
+      "hitlist_line": 505,
+      "current_line": 507,
+      "claim": "C-28",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Register table column header 'Decisive artifact'."
+    },
+    {
+      "hitlist_line": 508,
+      "current_line": 510,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "D-54 cell, 'on receipt of Twiggs's elimination sample'."
+    },
+    {
+      "hitlist_line": 509,
+      "current_line": 511,
+      "claim": "C-36",
+      "n_hits": 2,
+      "class": "CONSISTENT",
+      "note": "D-55(d) records the utterance as spoken and the two-numbering-systems point; no failing-half evaluation."
+    },
+    {
+      "hitlist_line": 509,
+      "current_line": 511,
+      "claim": "C-51",
+      "n_hits": 1,
+      "class": "CONSISTENT",
+      "note": "D-55 status cell restates the rule ('No file may write a bare \"Exhibit 30\" or \"Exhibit 31\"')."
+    },
+    {
+      "hitlist_line": 511,
+      "current_line": 513,
+      "claim": "C-01",
+      "n_hits": 1,
+      "class": "CONSISTENT",
+      "note": "D-57 cell: 'no source attribution follows for anyone' is a correct statement about a likelihood ratio that assumes Twiggs in both propositions — not the 'only as elimination-sample donors' shape."
+    },
+    {
+      "hitlist_line": 511,
+      "current_line": 513,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "CONSISTENT",
+      "note": "'LIVING PERSONS — carried into this cell rather than left to the header' — the guard travels with the result, as the corrected form wants."
+    },
+    {
+      "hitlist_line": 519,
+      "current_line": 521,
+      "claim": "C-10",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "Library-wide caveat about the Day 5 'Mr. McBride' label."
+    },
+    {
+      "hitlist_line": 525,
+      "current_line": 527,
+      "claim": "C-28",
+      "n_hits": 2,
+      "class": "UNRELATED",
+      "note": "§8 item 1: State's Exhibit 31 as 'the decisive artifact for §5.1' — a different artifact and finding from CR-E19's F-1/UBFS latent print report."
+    },
+    {
+      "hitlist_line": 526,
+      "current_line": 528,
+      "claim": "C-36",
+      "n_hits": 2,
+      "class": "STALE",
+      "note": "see stale[4] (mild)"
+    },
+    {
+      "hitlist_line": 527,
+      "current_line": 529,
+      "claim": "C-28",
+      "n_hits": 2,
+      "class": "UNRELATED",
+      "note": "§8 item 3: the NIST publication as 'the decisive artifact' for the unanswered NIST proposition — unrelated to F-1."
+    },
+    {
+      "hitlist_line": 529,
+      "current_line": 531,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "§8 item 5 (bolt-swab identity) names Matthew Robinson's item 1.4 result — a body mention. See notes for a C-02 observation on this item, outside the hit list."
+    },
+    {
+      "hitlist_line": 547,
+      "current_line": 549,
+      "claim": "C-56",
+      "n_hits": 2,
+      "class": "STALE",
+      "note": "see stale[5]"
+    },
+    {
+      "hitlist_line": 551,
+      "current_line": 553,
+      "claim": "C-01",
+      "n_hits": 1,
+      "class": "STALE",
+      "note": "see stale[6]"
+    },
+    {
+      "hitlist_line": 551,
+      "current_line": 553,
+      "claim": "C-02",
+      "n_hits": 1,
+      "class": "CONSISTENT",
+      "note": "Names no Matthew Robinson result; the C-01 replacement discloses both together."
+    },
+    {
+      "hitlist_line": 551,
+      "current_line": 553,
+      "claim": "C-05",
+      "n_hits": 2,
+      "class": "CONSISTENT",
+      "note": "Restates the header's names; the 'only' shape is C-01's, handled there."
+    },
+    {
+      "hitlist_line": 551,
+      "current_line": 553,
+      "claim": "C-49",
+      "n_hits": 1,
+      "class": "CONSISTENT",
+      "note": "'the register ceiling is not restated here' — and no values are printed in the sentence; pointed at, never restated."
+    },
+    {
+      "hitlist_line": 559,
+      "current_line": 561,
+      "claim": "C-72",
+      "n_hits": 4,
+      "class": "UNRELATED",
+      "note": "v1.2 log row; 'not one confirmation defeated…' — term collision."
+    },
+    {
+      "hitlist_line": 561,
+      "current_line": 563,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "RECORD",
+      "note": "v1.0 log row ('Elimination-sample results involving Matthew Robinson and Lance Twiggs are recorded at the recording layer only, under an explicit living-persons header')."
+    },
+    {
+      "hitlist_line": 561,
+      "current_line": 563,
+      "claim": "C-25",
+      "n_hits": 3,
+      "class": "RECORD",
+      "note": "v1.0 log row: 'Findings [PROVISIONAL]; no verification cycle has run on this file' — true as of v1.0; a log row, never edited. (This file's flag was cleared at v1.5; C-25's proposition concerns CR-E19/E20/E21's flags.)"
+    },
+    {
+      "hitlist_line": 562,
+      "current_line": 564,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "v1.3 log row; 'whether \"elimination sample\" applies only to multi-contributor samples' — term collision."
+    },
+    {
+      "hitlist_line": 564,
+      "current_line": 566,
+      "claim": "C-01",
+      "n_hits": 1,
+      "class": "RECORD",
+      "note": "v1.5 log row carrying the D-57 living-persons sentence."
+    },
+    {
+      "hitlist_line": 564,
+      "current_line": 566,
+      "claim": "C-05",
+      "n_hits": 1,
+      "class": "RECORD",
+      "note": "v1.5 log row."
+    },
+    {
+      "hitlist_line": 565,
+      "current_line": 567,
+      "claim": "C-36",
+      "n_hits": 3,
+      "class": "RECORD",
+      "note": "v1.6 log row recording the §8 item 2 flag as written that day."
+    },
+    {
+      "hitlist_line": 565,
+      "current_line": 567,
+      "claim": "C-51",
+      "n_hits": 3,
+      "class": "RECORD",
+      "note": "v1.6 log row ('cited to Exhibit 30' inside the audit description)."
+    },
+    {
+      "hitlist_line": 565,
+      "current_line": 567,
+      "claim": "C-72",
+      "n_hits": 1,
+      "class": "UNRELATED",
+      "note": "'NOT ONE ATTRIBUTES CONTENT TO THE WRONG EXHIBIT' — term collision."
+    }
+  ],
+  "notes": "LINE NUMBERING. The script's hit list was generated before two insertions at the top of this file (the 🛠 'Posture updated 2026-09-16' note and, during this session, a blank line above it: the file went from 192204 to 192205 bytes and 568 to 569 newlines while I was reading it). Hit-list line N maps to current line N for N<6 and N+2 for N>=6; every STALE entry's 'line' was re-derived at write time from an exact anchor phrase asserted to occur once in the file (field 'anchor'), so re-anchor by phrase if the file moves again. FOOTPRINT OUTSIDE THE HIT LIST (not counted): (a) C-56 recurs at current line 238 (§2.9: 'NO ruling was made on the reliability of the DNA evidence at any point') and 276 (§3.0: 'no ruling on the reliability of the DNA evidence was made at any point' — this one already carries the State's contrary characterisation and a 'what would settle it' pointing at the Days 1–4 admission rulings, i.e. exactly what cycle 2 settled); both need the same 702/1102 narrowing as the header. (b) C-48's '(the FBI DNA report)' gloss recurs at current line 81 in the CR-E20 pointer row. (c) C-02: §8 item 5 (current line 531) names the Matthew Robinson item-1.4 result without the Twiggs/Dremel disclosure alongside; it is an item-identity open item rather than a results statement, and §3.4 carries both results together a page above — leader's call whether the 'wherever the Matthew Robinson results are stated' rule reaches it. That item also quotes a composite claim naming 'the defendant's father', a relationship this file nowhere establishes; flag for living-persons review. (d) Bare designators 'Exhibit 16' (§4.1 heading and body) and 'Exhibit 12.1' (several) sit outside hazard 3's collision set and outside CR-E20's forensic scope; not counted. (e) §7 preamble (current line 505) carries a DATED ceiling statement ('Next free number after this file is D-59', verified 2026-08-01) — not the C-49 shape, but the ceiling has since moved. ISOLATION. Classifications were made from the file text read end to end (all 569 lines), not from the script's excerpts; the hit list's withdrawn/corrected forms were used only as the definition of each claim, and CR-E19's v2.1 header, CR-E20's F-1/F-3/§3a/header and CR-E21 §2 were read to confirm the current canonical wording before drafting replacements. NAMES: the hit list withholds no name; the three names it uses openly are used here only as they already stand in the file. NO FILE WAS EDITED."
+}
