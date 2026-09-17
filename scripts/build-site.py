@@ -186,6 +186,27 @@ def collect(cfg):
     return pub, hold, never
 
 
+def find_unclassified(cfg, pub, hold, never):
+    """Markdown files on disk that site.yml does not mention in any state.
+
+    The allow-list denies by default, which is right — but it means a new evidence file is
+    silently absent rather than visibly excluded. Silence is the failure mode here, so the
+    build names them."""
+    named = {p['src'] for p in pub + hold + never}
+    trees = [t['path'] for t in cfg.get('exclude_trees', [])] + ['.git/']
+    out = []
+    for f in sorted(ROOT.rglob('*.md')):
+        rel = f.relative_to(ROOT).as_posix()
+        if rel in named or any(rel.startswith(t) for t in trees):
+            continue
+        # Bank subdirectories inside a topic folder are excluded wholesale by design.
+        parts = rel.split('/')
+        if parts[0].startswith('files - ') and len(parts) > 2:
+            continue
+        out.append(rel)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--serve', action='store_true')
@@ -197,6 +218,7 @@ def main():
     pub, hold, never = collect(cfg)
 
     missing = [p['src'] for p in pub + hold if not (ROOT / p['src']).exists()]
+    unclassified = find_unclassified(cfg, pub, hold, never)
     urlmap = {p['src']: p['url'] for p in pub if p.get('url')}
     noindex = bool(cfg['site'].get('noindex', True))
 
@@ -289,11 +311,14 @@ def main():
             (SRC / 'robots.txt').write_text("User-agent: *\nDisallow: /\n", encoding='utf-8')
         CFG.write_text(yaml.safe_dump(mk, sort_keys=False, allow_unicode=True), encoding='utf-8')
 
-    write_report(cfg, pub, hold, never, missing, stats, staged, noindex)
+    write_report(cfg, pub, hold, never, missing, stats, staged, noindex, unclassified)
 
     print(f"staged {stats['pages']} pages · {stats['internal']} internal links rewritten · "
           f"{stats['unlinked']} links to unpublished files neutralised")
     print(f"held: {len(hold)} · hard-blocked: {len(never)} · report: {REPORT.relative_to(ROOT)}")
+    if unclassified:
+        print(f"⚠ {len(unclassified)} markdown file(s) are in NO state in site.yml — "
+              f"silently absent from the site. See the report.")
     if missing:
         print(f"⚠ {len(missing)} allow-list entries name files that do not exist:")
         for m in missing:
@@ -308,7 +333,7 @@ def main():
     return subprocess.call(cmd)
 
 
-def write_report(cfg, pub, hold, never, missing, stats, staged, noindex):
+def write_report(cfg, pub, hold, never, missing, stats, staged, noindex, unclassified):
     L = []
     A = L.append
     A('# Site build report')
@@ -327,6 +352,16 @@ def write_report(cfg, pub, hold, never, missing, stats, staged, noindex):
     A(f"- Links to unpublished files neutralised (text kept, link removed): {stats['unlinked']}")
     A(f"- Search-engine indexing: **{'BLOCKED (robots.txt Disallow /)' if noindex else 'ALLOWED'}**")
     A('')
+    if unclassified:
+        A('## 🚨 Unclassified — on disk, in no state, silently absent from the site')
+        A('')
+        A('The allow-list denies by default, so these are not published — but nothing marked')
+        A('them as excluded either. **Any new evidence file lands here until `ops/site/site.yml`')
+        A('gives it a state.** Decide each one; do not let this list become normal.')
+        A('')
+        for m in unclassified:
+            A(f'- `{m}`')
+        A('')
     if missing:
         A('## ⚠ Allow-list entries with no file on disk')
         A('')

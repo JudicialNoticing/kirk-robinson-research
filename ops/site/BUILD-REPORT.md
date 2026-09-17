@@ -6,7 +6,7 @@ This report exists because an exclusion nobody can see is an exclusion nobody ca
 Every markdown file named in `ops/site/site.yml` appears below in exactly one state.
 
 - **Published:** 54 pages
-- **Held** (owner decision pending, Phase 2): 42
+- **Held** (owner decision pending, Phase 2): 43
 - **Hard-blocked:** 3
 - Pages whose source carries `[PROVISIONAL]`, banner rendered: **28** of 54
 - Pages carrying the case-posture banner: **51**  *(2 pages — home and licence — render no banners by design)*
@@ -104,6 +104,7 @@ The banner on these pages says so rather than guessing one.
 | `QUEUE.md` | internal session state: open items, owner gates, hazards |
 | `SOURCE-MANIFEST.md` | generated; lists every banked artifact incl. ones not published |
 | `START-HERE.md` | internal session state |
+| `docs/VERIFICATION-KIT-INDEX.md` | an index into docs/research-verification-kit/, which is excluded as a third-party drop; publishing it would be a page of dead references |
 | `files - Bride of Charlie series/BOC-ACQ-2026-07-19_phase0-pull-log.md` | acquisition log: access-path and retrieval detail, not a claim file |
 | `files - Bride of Charlie series/BOC-AUDIT-2026-07-18B_library-audit.md` | process record of a verification cycle, not a claim file |
 | `files - Bride of Charlie series/BOC-AUDIT-2026-07-18_library-audit.md` | process record of a verification cycle, not a claim file |

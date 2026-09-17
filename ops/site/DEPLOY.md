@@ -1,6 +1,7 @@
 # Deploying the site — the runbook
 
-**Status as of 2026-09-17: NOT DEPLOYED.** Everything below the owner's step is done and tested.
+**Status: NOT DEPLOYED. Deferred by the owner on 2026-09-17 to the next session.** Everything below
+the owner's step is done and tested.
 Creating the public surface is the owner's action — both by this library's own rule
 (`LOOP.md` §3: outward-facing actions are the owner's) and by the assistant's harness, which
 refused it as a "create public surface" action. That refusal was not routed around.
@@ -15,6 +16,25 @@ refused it as a "create public surface" action. That refusal was not routed arou
   and **no held file in the output** (checked: `QUEUE` is absent).
 - Indexing is blocked two ways until deliberately flipped: `noindex: true` in
   `ops/site/site.yml`, which emits the `robots.txt`.
+
+## Before you deploy next session — three commands, two minutes
+
+The build was tested against a specific commit. Between then and the deploy, `main` may have
+moved: **the docket-watch routine fires Sat 2026-09-19 13:00Z** and lands a `claude/` branch to
+review and merge. Re-establish the ground rather than trusting this file's numbers.
+
+    git pull                                              # and merge any claude/ branch first
+    ./.venv-site/bin/python scripts/build-site.py         # rebuild from the current tree
+    open ops/site/BUILD-REPORT.md                         # read the counts before deploying
+
+**Look for one thing in particular: the `🚨 Unclassified` section.** The allow-list denies by
+default, so a markdown file added since `site.yml` was written is **silently absent from the
+site** — not visibly excluded, just gone. The build names them; if that section exists, every
+file in it needs a state in `ops/site/site.yml` before you deploy. As of 2026-09-17 the section
+is absent, which is what "ready" looks like.
+
+Expected as of 2026-09-17: **54 published · 43 held · 3 hard-blocked**, 28 of the 54 pages
+carrying a `[PROVISIONAL]` banner, `robots.txt` = `Disallow: /`.
 
 ## The owner's step — continuous deployment (recommended)
 
@@ -54,6 +74,6 @@ immediately before every deploy and never deploy from a dirty working tree.
 
 ## What the site does NOT contain
 
-`ops/site/BUILD-REPORT.md`, regenerated on every build. As of 2026-09-17: **54 published · 42
+`ops/site/BUILD-REPORT.md`, regenerated on every build. As of 2026-09-17: **54 published · 43
 held · 3 hard-blocked**, every artifact bank excluded wholesale, and 28 of the 54 pages carrying
 a `[PROVISIONAL]` banner. Read it before the domain goes on anything.

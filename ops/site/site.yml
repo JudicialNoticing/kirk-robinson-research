@@ -102,6 +102,9 @@ pages:
         title: "Architecture"
         state: publish
         reason: "how the pieces fit together"
+      - src: "docs/VERIFICATION-KIT-INDEX.md"
+        state: hold
+        reason: "an index into docs/research-verification-kit/, which is excluded as a third-party drop; publishing it would be a page of dead references"
       - src: "docs/DECISIONS.md"
         url: "method/decisions"
         title: "Decisions"
