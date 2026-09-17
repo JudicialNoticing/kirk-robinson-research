@@ -41,10 +41,42 @@ if [ -n "$noart" ]; then bad "ready items with no decisive artifact: $(echo "$no
 
 say ""
 say "== Register integrity =="
-# docs/ and archive/ are not library prose (the imported discussion framework uses its own D-01 notation)
-DX=(--exclude-dir=docs --exclude-dir=archive)
-top=$(grep -rhoE 'D-[0-9]+' --include='*.md' "${DX[@]}" . | sed 's/D-//' | sort -n | tail -1)
-gaps=$(grep -rhoE 'D-[0-9]+' --include='*.md' "${DX[@]}" . | sed 's/D-//' | sort -n | uniq \
+# docs/ and archive/ are not library prose (the imported discussion framework uses its own D-01 notation).
+# That exclusion now lives in lib_md() below; the old DX=(--exclude-dir=…) array it used to live in
+# was removed 2026-09-17 with its last caller, rather than left behind to read as still in force.
+
+# 🚨 THE FILE LIST IS THE GIT INDEX, NOT THE DISK (fixed 2026-09-17).
+# Every scan below used to walk `.` recursively. That was correct until 2026-09-17, when
+# `scripts/build-site.py` began staging a rendered COPY of the library into `.site-build/`.
+# The copies are gitignored but they are still on disk and still full markdown, so a disk walk
+# read each published file TWICE: 30 of the 95 lines this check printed were build output, and
+# the "assignment sites" counts were inflated by up to four files per D-number. A validator that
+# reports phantom files is a validator nobody finishes reading.
+# This is the same cure commit c672f06 applied to the site build's own unclassified scan:
+# enumerate git-tracked files. A file that is not tracked is not library prose.
+# ⚠ The ceiling and the gap set were NOT affected (a copy carries the same numbers) — the damage
+# was noise and inflated counts, not a wrong number. Verified both ways before the change.
+tracked_md() {
+  if git rev-parse --git-dir >/dev/null 2>&1; then
+    git ls-files -z '*.md' | tr '\0' '\n'
+  else
+    # no git (a tarball, an export): fall back to the disk walk, but prune the build outputs
+    find . -name '*.md' -not -path './.*' | sed 's|^\./||'
+  fi
+}
+# the same exclusions the disk walk carried, applied to the tracked list
+lib_md() { tracked_md | grep -vE '^(docs|archive)/'; }
+
+# ⚠ NORMALISE BEFORE DEDUPING (fixed 2026-09-17). `uniq` compares STRINGS, so the zero-padded
+# `D-01` of the imported discussion framework and this library's own `D-1` survived as two
+# entries with the same numeric value, and the gap walker then reported a permanent phantom
+# `D-01->D-1`. The single occurrence outside docs/ is START-HERE.md line 76 — the sentence that
+# DOCUMENTS the collision. The validator was reading its own hazard note as an instance of the
+# hazard, and had been failing on it every run. `$1+0` collapses the two; the match itself is
+# left as noisy as it was, because a narrower pattern risks the false NEGATIVE (see line 21).
+dnums() { lib_md | tr '\n' '\0' | xargs -0 grep -hoE 'D-[0-9]+' 2>/dev/null | sed 's/D-//' | awk '{print $1+0}'; }
+top=$(dnums | sort -n | tail -1)
+gaps=$(dnums | sort -n | uniq \
        | awk 'NR>1 && $1!=prev+1 {printf "D-%s->D-%s ", prev, $1} {prev=$1}')
 if [ -n "$gaps" ]; then bad "register gaps: $gaps"; else ok "no register gaps (highest string D-$top)"; fi
 
@@ -56,13 +88,14 @@ declared=$(grep -ohE 'next (number )?is \*{0,2}D-[0-9]+' QUEUE.md 2>/dev/null | 
 say ""
 say "== Assignment sites (informational) =="
 for n in $(seq $((top-3)) "$top"); do
-  c=$(grep -rl "D-$n" --include='*.md' "${DX[@]}" . 2>/dev/null | wc -l | tr -d ' ')
+  c=$(lib_md | tr '\n' '\0' | xargs -0 grep -l "D-$n" 2>/dev/null | wc -l | tr -d ' ')
   say "  D-$n appears in $c file(s)"
 done
 
 say ""
 say "== Provisional findings outstanding =="
-prov=$(grep -rc '\[PROVISIONAL\]' --include='*.md' . 2>/dev/null | grep -v ':0' | grep -vE './(LOOP|QUEUE|AUDIT|INDEX)\.md|^./(docs|archive)/' || true)
+prov=$(lib_md | tr '\n' '\0' | xargs -0 grep -c '\[PROVISIONAL\]' 2>/dev/null | grep -v ':0' \
+       | grep -vE '^(LOOP|QUEUE|AUDIT|INDEX)\.md:' || true)
 if [ -n "$prov" ]; then say "$prov" | sed 's/^/  /'; say "  → these may NOT be cited elsewhere until a verification cycle clears them (LOOP.md §2)"; else ok "none outstanding"; fi
 
 say ""
