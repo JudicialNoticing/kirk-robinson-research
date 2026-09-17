@@ -1,0 +1,192 @@
+{
+  "file": "files - Court record/CR-E17_states-reply-2026-08-18.md",
+  "reader": "cycle-3 propagation reader, 2026-09-16; isolation kept (file + hit list only); no file edited",
+  "line_offset_rule": "Worklist lines were computed before the 2026-09-16 insertions (commit 8910af3): a posture note after old line 5 (now line 6) and a v1.2 revision row before old line 121 (now 122). Old <=5 unchanged; old 6-120 -> +1; old >=121 -> +2. Every hit re-anchored by its excerpt phrase; all land where the rule predicts.",
+  "hits_reviewed": 11,
+  "counts": {
+    "STALE": 2,
+    "CONSISTENT": 1,
+    "RECORD": 1,
+    "UNRELATED": 7,
+    "AMBIGUOUS": 0
+  },
+  "hits": [
+    {
+      "n": 1,
+      "claim": "C-05",
+      "term": "Living persons",
+      "line": 86,
+      "line_now": 87,
+      "heading": "§4 · Findings — F-126",
+      "class": "UNRELATED",
+      "why": "'Both are parties' allegations about living persons' professional conduct; both are recorded, attributed, and adopted nowhere' is a finding about the two counsel-conduct allegations the body itself inventories (§2.1, A-5). It is not a header/living-persons banner and names no one the body does not touch — the C-05 shape is absent. Term collision."
+    },
+    {
+      "n": 2,
+      "claim": "C-13",
+      "term": "Exhibit 11",
+      "line": 16,
+      "line_now": 17,
+      "heading": "§1 · Access-path caveats",
+      "class": "UNRELATED",
+      "why": "Describes an extraction artifact — a page footer interleaving into the reply's exhibit-citation string under whitespace normalisation 'manufacturing a false \"Exhibit 11\" hit'. Says nothing about which reports sit at which State's numbers; no set stated."
+    },
+    {
+      "n": 3,
+      "claim": "C-13",
+      "term": "Exhibit 11",
+      "line": 90,
+      "line_now": 91,
+      "heading": "§4 · Findings — F-130",
+      "class": "CONSISTENT",
+      "why": "'THE REPLY DOES NOT CITE THE ME REPORT (StEx 11) … Exhibit 11 is uncited' — identifies State's Exhibit 11 as the ME report (the corrected form's row-11 identity) and records a null about the reply's citations. No report-set statement; the withdrawn shape is absent."
+    },
+    {
+      "n": 4,
+      "claim": "C-13",
+      "term": "Exhibit 11",
+      "line": 122,
+      "line_now": 124,
+      "heading": "REVISION LOG — row 1.0",
+      "class": "RECORD",
+      "why": "Revision-log row; never edited."
+    },
+    {
+      "n": 5,
+      "claim": "C-28",
+      "term": "decisive artifact",
+      "line": 77,
+      "line_now": 78,
+      "heading": "§3 · Analyst layer — A-3",
+      "class": "UNRELATED",
+      "why": "'the exhibit remains the decisive artifact (Q-67 class)' refers to State's Exhibit 16.1 (the exhibit both briefs quote), not to the UBFS latent print report C-28 is about. Different referent — the same distinction the C-28 entry itself draws for CR-E19:154."
+    },
+    {
+      "n": 6,
+      "claim": "C-28",
+      "term": "decisive artifact",
+      "line": 100,
+      "line_now": 101,
+      "heading": "§5 · Open items — row 'Q-67-class (StEx 16.1)'",
+      "class": "UNRELATED",
+      "group": "with hit 7 (same line, second term)",
+      "why": "'the exhibit remains the decisive artifact for every quoted admission' — the row is labelled StEx 16.1. Different referent from C-28."
+    },
+    {
+      "n": 7,
+      "claim": "C-28",
+      "term": "the decisive artifact for",
+      "line": 100,
+      "line_now": 101,
+      "heading": "§5 · Open items",
+      "class": "UNRELATED",
+      "group": "duplicate of hit 6 (same line)",
+      "why": "See hit 6."
+    },
+    {
+      "n": 8,
+      "claim": "C-50",
+      "term": "the seven",
+      "line": 3,
+      "line_now": 3,
+      "heading": "header — Status",
+      "class": "UNRELATED",
+      "why": "'the seven-verifier cycle ran the same session' counts the seven verifier agents of this file's own Q-181 cycle (2026-08-20), not the review's seven owed items of 2026-08-30. Term collision."
+    },
+    {
+      "n": 9,
+      "claim": "C-57",
+      "term": "closed evidentiary record",
+      "line": 5,
+      "line_now": 5,
+      "heading": "header — CASE POSTURE banner",
+      "class": "STALE",
+      "why": "See stale[0]."
+    },
+    {
+      "n": 10,
+      "claim": "C-57",
+      "term": "on a closed record",
+      "line": 76,
+      "line_now": 77,
+      "heading": "§3 · Analyst layer — A-2",
+      "class": "STALE",
+      "why": "See stale[1]."
+    },
+    {
+      "n": 11,
+      "claim": "C-62",
+      "term": "FOURTEEN",
+      "line": 81,
+      "line_now": 82,
+      "heading": "§3 · Analyst layer — A-7",
+      "class": "UNRELATED",
+      "why": "'fourteen characterisations sampled by two independent verifiers against the banked defence brief' counts sampled characterisations of the defence brief, not the discovery letter's laboratory reports (C-62). Term collision. (The sample count itself was not re-derived — a P8 check outside this sweep.)"
+    }
+  ],
+  "stale": [
+    {
+      "claim": "C-57",
+      "line": 5,
+      "line_now": 5,
+      "heading": "header — 🚨 CASE POSTURE, VERIFIED 2026-08-20 (blockquote banner)",
+      "current_sentence": "**2026-09-01 is its last day — ARGUMENT ONLY, on a closed evidentiary record.**",
+      "replacement": "**2026-09-01 is its last day — SET FOR ARGUMENT.**",
+      "why": "The clause asserts as posture the inference CR-E20 v1.4 withdrew on 2026-08-30 (the court said only that the matter was continued for argument); the 🛠 note beneath it (line 6, 'retained as written, true as of its date') does not cure it because the clause was never an established fact at any date. 'ARGUMENT ONLY' is the same inference and goes with it. Note the banner's own 'VERIFIED 2026-08-20' label sits over the withdrawn clause; the minimal replacement leaves the label, but the new revision row should say the 08-20 verification confirmed the posture as then understood. The 1.1 and 1.0 revision rows (lines 123, 124) end '09-01 is argument only' — RECORD, leave; name them in the new row."
+    },
+    {
+      "claim": "C-57",
+      "line": 76,
+      "line_now": 77,
+      "heading": "§3 · Analyst layer — A-2 (a graded finding, Medium-high)",
+      "current_sentence": "- **A-2.** **The reply is argument on a closed record, consistent with the Day-5 posture** — it proffers no new witness or exhibit; its one citation to material outside the appellate record and exhibits is the gun-range-rules webpage (§2.2), offered as common-sense support rather than evidence. *(Graded Medium-high: rests on this file's own inventory being complete; the verification cycle should test it.)*",
+      "replacement": "- **A-2.** **The reply is argument on the record as it stood, consistent with 09-01 being set for argument** — it proffers no new witness or exhibit; its one citation to material outside the appellate record and exhibits is the gun-range-rules webpage (§2.2), offered as common-sense support rather than evidence. *(Graded Medium-high: rests on this file's own inventory being complete; the verification cycle should test it.)*",
+      "why": "Steelman first: the observable A-2 rests on is document-internal and survives — the reply proffers no new witness or exhibit. But the bolded conclusion states the withdrawn inference twice: 'on a closed record' asserts closure of the evidentiary record, and 'consistent with the Day-5 posture' names as its comparator exactly the posture this file's line 5 states in the withdrawn form. With the inference withdrawn the comparator is gone; the replacement keeps the observation, carries the corrected form ('set for argument'), and changes nothing else. Separately (not a claim carrier): 'outside the appellate record' is a slip — this is a preliminary-hearing bindover briefing, not an appeal; 'hearing record' is presumably meant. Left untouched by the minimal replacement; noted for the editor."
+    }
+  ],
+  "ambiguous": [],
+  "off_list": [
+    {
+      "tag": "OFF-LIST-1",
+      "claim_class": "C-51 (short-form designators without an owner word)",
+      "class": "AMBIGUOUS",
+      "lines_now": [
+        52,
+        56,
+        60,
+        64,
+        72,
+        91,
+        102
+      ],
+      "examples": "(Ex. 8) · (Ex. 7) · (Ex. 9) · Exs. 12.1, 12.4 · Exs. 3.1, 12.1, 12.4 · Exs. 23, 25 · (Exs. 12.1 & 12.4) · Ex. 16.1 at 3-8 · Exs. 1, 2, 3 · Ex. 20 · 'Exhibits 6, 11, 16.2, 16.3, 19, 22 are NOT cited' (§2.7) · 'Exhibit 11 is uncited' (F-130) · 'Ex. 20 (\"Hey fascist, catch\" engraving)' (§5 table)",
+      "what_would_settle_it": "Whether C-51's 'number and owner every time' reaches short-form parenthetical cites that follow a 'State's Ex.' in the same paragraph and reproduce the reply's own abbreviation, inside a file whose subject is one State filing and whose §2.7 heading says '19 distinct State's-Exhibit designators'. The batch-3 precedents (CR-E05 v1.6, CR-E07 v1.8) corrected bare designators in analyst prose, not citation strings. The one site where a bare number is genuinely ambiguous on this record is F-130's 'Exhibit 11 is uncited' (CR-E20 F-3 records the Karner-11 collision), though 'StEx 11' stands two clauses earlier in the same finding.",
+      "minimal_cure_if_applied": "Append to the §2 italic preamble (line 22): 'Every exhibit designator in §2 is a State's Exhibit, abbreviated as the reply abbreviates it.' — one clause cures all §2 sites without touching the recording layer; F-130's 'Exhibit 11 is uncited' → 'State's Exhibit 11 is uncited'."
+    },
+    {
+      "tag": "OFF-LIST-2",
+      "claim_class": "record integrity (status/log mismatch — the CR-E14 v1.5 precedent), not a claim carrier",
+      "class": "STALE",
+      "line_now": 3,
+      "heading": "header — Status",
+      "current_sentence": "**Status:** **v1.1 · VERIFIED (2026-08-20)**",
+      "replacement": "**Status:** **v1.2 · VERIFIED at v1.1 (2026-08-20)**",
+      "why": "The revision log's top row is 1.2 (2026-09-16) but the status line still reads v1.1. Batch 2 treated the same shape in CR-E14 as a defect. The C-57 corrections will add a 1.3 row; bump the status line in the same edit."
+    },
+    {
+      "tag": "OFF-LIST-3",
+      "claim_class": "not a C-25 carrier (no 'no verification cycle has run' reason is stated) — a heading/status inconsistency",
+      "class": "AMBIGUOUS",
+      "lines_now": [
+        85,
+        106
+      ],
+      "current_sentences": [
+        "## §4 · Findings — `[PROVISIONAL]`",
+        "… not a propagation of this file's `[PROVISIONAL]` findings"
+      ],
+      "what_would_settle_it": "The owner's reading of LOOP §2 for a same-session cycle: the header and §6 say the file is VERIFIED at v1.1 by a seven-verifier cycle from the primary artifacts, which under LOOP §2 would harden F-125–F-130; F-132/F-133/F-134 were ADDED from that cycle and are provisional by the rule (the SEC-E02 F-131 shape). If the rule is read as the file's own §6 reads it, the heading should carry the flag only on F-132–F-134; if 'same session' does not count as a separate cycle, the heading is right and the header's VERIFIED is the overclaim. Either way the two statements cannot both stand as written."
+    }
+  ],
+  "notes": "All 11 list hits re-anchored (+1 for old 6–120, +2 for old ≥121). Two list hits are STALE, both C-57: the header posture clause (line 5) and A-2's graded finding (line 77), which imports the withdrawn 'closed record' both directly and by reference to 'the Day-5 posture'. The remaining hits are term collisions (C-05 'living persons' in a counsel-conduct finding; C-28 'decisive artifact' about State's Exhibit 16.1; C-50 'the seven' verifiers; C-62 'fourteen' characterisations; C-13's footer-injection artifact) or consistent (F-130 identifies StEx 11 as the ME report) or record (row 1.0). No C-32/C-38/C-55 carrier exists in this file: 'ATF' does not appear, and '32' appears only inside the inventory of the reply's citations with no identity asserted. OFF-LIST: the §2 short-form 'Ex. N' cites (AMBIGUOUS under C-51 — one-clause cure offered), the v1.1/1.2 status-log mismatch (same defect as CR-E14 batch 2), the §4 '[PROVISIONAL]' heading against the VERIFIED header (AMBIGUOUS, not C-25), and A-2's 'appellate record' wording slip. Isolation kept; no name described as withheld is written. Not re-verified: the reply's quotations, page pins, counts and F-132's two-sided checks — outside a propagation reader's scope."
+}

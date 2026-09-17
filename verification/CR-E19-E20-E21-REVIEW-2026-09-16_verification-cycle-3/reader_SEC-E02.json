@@ -1,0 +1,200 @@
+{
+  "file": "files - Event security/SEC-E02_security-team-allegations-assessment.md",
+  "reader": "cycle-3 propagation reader, 2026-09-16; isolation kept (file + hit list only); no file edited",
+  "line_offset_rule": "Worklist lines were computed before the 2026-09-16 insertions (commit 8910af3): a posture note after old line 8 (now line 9) and a v1.2 revision row before old line 181 (now 182). Old <=8 unchanged; old 9-180 -> +1; old >=181 -> +2. Every hit re-anchored by its excerpt phrase; all land where the rule predicts.",
+  "hits_reviewed": 11,
+  "counts": {
+    "STALE": 1,
+    "CONSISTENT": 7,
+    "RECORD": 1,
+    "UNRELATED": 2,
+    "AMBIGUOUS": 0
+  },
+  "hits": [
+    {
+      "n": 1,
+      "claim": "C-13",
+      "term": "Exhibit 11",
+      "line": 29,
+      "line_now": 30,
+      "heading": "§1 · Access path — read this before §4",
+      "class": "CONSISTENT",
+      "group": "with hit 6 (same line, second term)",
+      "why": "The passage identifies State's Exhibit 11 as the Utah medical examiner's report of examination, 9 pp., admitted 2026-07-06 (Day 1) with publication denied — the row-11 facts of the corrected form (nine pages; admitted Day 1; publication denied). The withdrawn shape — a laboratory-report set stated WITHOUT Exhibit 11 — is absent: this file states no laboratory-report set at all."
+    },
+    {
+      "n": 2,
+      "claim": "C-13",
+      "term": "Exhibit 11",
+      "line": 127,
+      "line_now": 128,
+      "heading": "§4.4 Resolution (C-1 box)",
+      "class": "CONSISTENT",
+      "why": "'What would change it: State's Exhibit 11, read directly.' Owner-carrying designator whose identity with the ME report is fixed at §1; nothing about a report set."
+    },
+    {
+      "n": 3,
+      "claim": "C-13",
+      "term": "Exhibit 11",
+      "line": 149,
+      "line_now": 150,
+      "heading": "§6 · Findings — F-112",
+      "class": "CONSISTENT",
+      "why": "'State's Exhibit 11, the ME report, was admitted 2026-07-06 with publication denied.' Matches the corrected form's row-11 facts; no set is stated."
+    },
+    {
+      "n": 4,
+      "claim": "C-13",
+      "term": "Exhibit 11",
+      "line": 161,
+      "line_now": 162,
+      "heading": "§7 · Open questions and acquisition targets — A-2",
+      "class": "CONSISTENT",
+      "why": "Table cell 'State's Exhibit 11 — the ME report … Admitted with publication DENIED — a sealing question'. Compatible with the corrected form; no set stated."
+    },
+    {
+      "n": 5,
+      "claim": "C-13",
+      "term": "Exhibit 11",
+      "line": 170,
+      "line_now": 171,
+      "heading": "§8 · Residual scope",
+      "class": "CONSISTENT",
+      "why": "'It did not read State's Exhibit 11, State's Exhibits 7/8/9, or any exhibit directly.' True on the record (CR-E05 §6 line 371: State's Exhibit 11 admitted but not published, contents known only through Hull's description) and owner-carrying."
+    },
+    {
+      "n": 6,
+      "claim": "C-13",
+      "term": "medical examiner's report",
+      "line": 29,
+      "line_now": 30,
+      "heading": "§1 · Access path",
+      "class": "CONSISTENT",
+      "group": "duplicate of hit 1 (same line)",
+      "why": "See hit 1."
+    },
+    {
+      "n": 7,
+      "claim": "C-13",
+      "term": "medical examiner's report",
+      "line": 125,
+      "line_now": 126,
+      "heading": "§4.4 Resolution (C-1 box, 'Why not High')",
+      "class": "CONSISTENT",
+      "why": "'the medical examiner's report is admitted and unpublished, so this project holds no range-of-fire or wound-morphology evidence' — a compatible narrower statement of the row-11 facts (admitted; publication denied). Not a report-set statement."
+    },
+    {
+      "n": 8,
+      "claim": "C-13",
+      "term": "medical examiner's report",
+      "line": 182,
+      "line_now": 184,
+      "heading": "Revision log — row 1.0",
+      "class": "RECORD",
+      "why": "Revision-log row; never edited."
+    },
+    {
+      "n": 9,
+      "claim": "C-18",
+      "term": "never read",
+      "line": 29,
+      "line_now": 30,
+      "heading": "§1 · Access path",
+      "class": "UNRELATED",
+      "why": "'This project has never read it' refers to State's Exhibit 11 (the ME report, publication denied), not to the defence discovery letter that C-18 is about. Term collision. The statement is also true against disk (CR-E05 line 371)."
+    },
+    {
+      "n": 10,
+      "claim": "C-57",
+      "term": "closed evidentiary record",
+      "line": 8,
+      "line_now": 8,
+      "heading": "header — CASE POSTURE banner",
+      "class": "STALE",
+      "why": "See stale[0]."
+    },
+    {
+      "n": 11,
+      "claim": "C-72",
+      "term": "not one",
+      "line": 72,
+      "line_now": 73,
+      "heading": "§3 · The security chief's public account (quotation)",
+      "class": "UNRELATED",
+      "why": "'Not one radio comms came out.' is a verbatim quotation from the Shawn Ryan Show transcript in the recording layer, about radio communications. Term collision with C-72's 'No laboratory report has been read. Not one.' A quotation; never to be edited."
+    }
+  ],
+  "stale": [
+    {
+      "claim": "C-57",
+      "line": 8,
+      "line_now": 8,
+      "heading": "header — 🚨 CASE POSTURE, as of 2026-08-17 (blockquote banner)",
+      "current_sentence": "**2026-09-01 is its last day, argument only, on a closed evidentiary record.**",
+      "replacement": "**2026-09-01 is its last day, set for argument.**",
+      "why": "The clause asserts, as posture in a header banner, the inference CR-E20 v1.4 withdrew on 2026-08-30 (the court said only that the matter was continued for argument). The 🛠 posture note beneath it (line 9, 'retained as written, true as of its date') does not cure the clause: 'closed evidentiary record' was never an established fact at any date, so 'true as of its date' is itself wrong for this clause. Same shape as CR-E17 line 5 and the eleven files the cycle has already corrected. 'argument only' is the same inference in other words and goes with it; the corrected form drops both. The 1.1 and 1.0 revision rows (lines 183, 184) end '09-01 is argument only' — RECORD, leave; name them in the new row."
+    }
+  ],
+  "ambiguous": [],
+  "off_list": [
+    {
+      "tag": "OFF-LIST-1",
+      "claim_class": "C-51 (designator without its true owner) — owner MIS-ASSIGNED, not merely bare; adjacent to CR-E20 F-3 (collisions)",
+      "class": "STALE",
+      "lines_now": [
+        32,
+        124,
+        126,
+        150
+      ],
+      "sites": [
+        {
+          "line_now": 32,
+          "heading": "§1 · Access path — 'What IS held'",
+          "current_sentence": "**wound-derived projectile evidence is held too: State's Exhibit 6**, *\"one .30 caliber class deformed, damaged bullet jacket fragment and four lead fragments\"* recovered from Mr. Kirk at autopsy, comparison to the Exhibit 1 rifle **inconclusive** — class characteristics all agree, individual characteristics insufficient, items 6B–6E unsuitable (`day4.txt` 05:31:04–05:32:02, 06:38:40, 07:10:31).",
+          "replacement": "**wound-derived projectile evidence is held too: the ATF firearms report's item 6** (report 2025-W-000401 of 2025-09-17 — the laboratory's own item number, read from the report's exhibit list at `day4.txt` 05:30:32–05:31:04; not a State's designator), *\"one .30 caliber class deformed, damaged bullet jacket fragment and four lead fragments\"* recovered from Mr. Kirk at autopsy, comparison to the report's item 1 rifle **inconclusive** — class characteristics all agree, individual characteristics insufficient, items 6B–6E unsuitable (`day4.txt` 05:31:04–05:32:02, 06:38:40, 07:10:31)."
+        },
+        {
+          "line_now": 124,
+          "heading": "§4.4 Resolution (C-1 box, 'What carries it')",
+          "current_sentence": "**wound-derived projectile evidence of .30 caliber class** — State's Exhibit 6's fragments recovered from Mr. Kirk at autopsy, rifle comparison **inconclusive**",
+          "replacement": "**wound-derived projectile evidence of .30 caliber class** — the ATF firearms report's item-6 fragments recovered from Mr. Kirk at autopsy, rifle comparison **inconclusive**"
+        },
+        {
+          "line_now": 126,
+          "heading": "§4.4 Resolution (C-1 box, 'Why not High')",
+          "current_sentence": "*(v1.1 narrowing — the site/cause/manner accounts and Exhibit 6's fragments ARE held; §1)*",
+          "replacement": "*(v1.1 narrowing — the site/cause/manner accounts and the ATF firearms report's item-6 fragments ARE held; §1)*"
+        },
+        {
+          "line_now": 150,
+          "heading": "§6 · Findings — F-112",
+          "current_sentence": "**Exhibit 6's wound-recovered .30-caliber-class fragments** (`day4.txt`, rifle comparison inconclusive)",
+          "replacement": "**the ATF firearms report's item-6 wound-recovered .30-caliber-class fragments** (`day4.txt`, rifle comparison inconclusive)"
+        }
+      ],
+      "why": "The 'Exhibit 6' (6A–6E) and 'Exhibit 1 rifle' that Sgt. Faumuina read aloud on Day 4 are the ATF firearms report's OWN item numbers, not the court's State's-Exhibit numbers: at `day4.txt` 05:30:32 counsel asks to 'scroll back up to show the exhibit list. Number 6, what is Exhibit 6?' and the witness reads 'Exhibit 6 consists of…' from the report's p. 2; CR-E15 §2 transcribes the report's face — 'Exhibits examined, as listed: (1) one Mauser, model 98, 30-06 … rifle … (6) one bullet jacket fragment and four lead fragments, designated 6A through 6E'; CR-E20:24 states the State's map 'does not govern … ATF's or the FBI's internal item numbering'. On the hearing record the State's numbers 1 and 6 are other things: State's Exhibit 1 is a photograph of the UVU campus area offered through Officer Bagley on Day 1 (`day1.txt` 00:57:15–00:57:22, 'fair and accurate depiction of this area of UVU campus'), and State's Exhibit 6/6.1 is a Day-1 witness video/statement ruled on under Rule 1102 and UCJA 4-202.02 (`day1.txt` 04:46:57, 04:49:33, 05:01:39 'state's exhibit 6.1. Oh, I'm sorry, six'). So SEC-E02's 'State's Exhibit 6' names the wrong owner in a finding (F-112), the resolution (§4.4) and §1. Confidence High (three independent primary/library sources agree). The replacement deliberately does NOT write 'State's Exhibit 32's item 6': the report's identity with State's Exhibit 32 is an inference (CR-E20 F-4 High / CR-E15 F-139 Medium-high) and a flat identity would be a C-38 carrier; the discipline word 'firearms' satisfies CR-E20 Rule 1 (C-32). The v1.1 revision row (line 183, 'Exhibit 6's wound-recovered') is RECORD — leave it and name it in the new row."
+    },
+    {
+      "tag": "OFF-LIST-2",
+      "claim_class": "C-51 (bare designator) in a live collision namespace",
+      "class": "STALE",
+      "line_now": 165,
+      "heading": "§7 · Open questions and acquisition targets — A-5",
+      "current_sentence": "**The Exhibit 9 backpack's provenance record** — the lab communication log read at `day2.txt` 07:27:58–07:29:08, and whether that backpack is row f's",
+      "replacement": "**The lab's Exhibit 9 backpack's provenance record** — the lab communication log read at `day2.txt` 07:27:58–07:29:08, and whether that backpack is row f's",
+      "why": "'Exhibit 9' for the backpack is the laboratory's own label ('You got a backpack, which you labeled as Exhibit 9', `day2.txt` 07:27:58), while State's Exhibit 9 is a Day-1 photograph (`day1.txt` line 820 — Exhibits 7, 8, 9 ruled on under Utah Const. Art. I §28; CR-E17 §2.2 cites State's Ex. 9 for the staging area). F-131 at line 154 already writes 'the lab's Exhibit 9 backpack'; the A-5 cell drops the owner in exactly the namespace where it matters."
+    },
+    {
+      "tag": "OFF-LIST-3",
+      "claim_class": "record integrity (status/log mismatch — the CR-E14 v1.5 precedent), not a claim carrier",
+      "class": "STALE",
+      "line_now": 6,
+      "heading": "header — Status",
+      "current_sentence": "**Status:** **v1.1 · VERIFIED (Q-164, 2026-08-20)**",
+      "replacement": "**Status:** **v1.2 · VERIFIED at v1.1 (Q-164, 2026-08-20)**",
+      "why": "The revision log's top row is 1.2 (2026-09-16) but the status line still reads v1.1. Batch 2 treated the same shape in CR-E14 as a defect to fix. Any C-57 / C-51 correction applied here will add a 1.3 row, so the status line should be bumped in the same edit."
+    }
+  ],
+  "notes": "All 11 list hits re-anchored (+1 for old 9–180, +2 for old ≥181). Only one list hit is STALE (C-57, the header posture clause). The C-13 hits are all term hits on 'Exhibit 11'/'medical examiner's report' in a file that states no laboratory-report set; every one identifies State's Exhibit 11 as the ME report, admitted Day 1, publication denied — the corrected form's own facts. C-18 and C-72 are term collisions. The read found three OFF-LIST items the script could not see: (1) 'State's Exhibit 6' / 'the Exhibit 1 rifle' at four analyst-layer sites are the ATF firearms report's internal item numbers mis-owned to the State's series (verified against day4.txt, day1.txt, CR-E15 §2 and CR-E20:24 — High); (2) a bare 'Exhibit 9' in A-5 where State's 9 and the lab's 9 collide; (3) the v1.1/1.2 status-log mismatch created by the 2026-09-16 posture edit. Isolation kept: the corrections themselves were not consulted; the C-51 finding was checked against primary artifacts only. No name the hit list describes as withheld is written here; the C-1 subject is not named in this report. Not re-verified: SEC-E02's §3 quotations, §4.1 rows, F-114/F-115/F-116, the nulls — outside a propagation reader's scope."
+}
