@@ -1,6 +1,6 @@
 # CR-ACQ-2026-08-16B — Acquisition: four official-statement transcripts the surname filter was hiding
 
-**File ID:** CR-ACQ-2026-08-16B · **Scope:** acquisition only — execution of **Q-120**, the re-enumeration of Rev on terms other than the defendant's surname, and the banking of the four case-relevant transcripts it surfaced. **No content is characterised beyond speaker, length and facial subject.** · **Case context:** *State of Utah v. Tyler James Robinson*, No. **251403576**, **Fourth Judicial District Court, Provo — case type FS**, Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-16 · **Status:** v1.0
+**File ID:** CR-ACQ-2026-08-16B · **Scope:** acquisition only — execution of **Q-120**, the re-enumeration of Rev on terms other than the defendant's surname, and the banking of the four case-relevant transcripts it surfaced. **No content is characterised beyond speaker, length and facial subject.** · **Case context:** *State of Utah v. Tyler James Robinson*, No. **251403576**, **Fourth Judicial District Court, Provo — case type FS**, Hon. Tony F. Graf, Jr. · **Prepared:** 2026-08-16 · **Status:** v1.1 *(2026-09-16: the owner's posture ruling appended as a dated note beneath the case-posture sentence — the row was written without bumping this line; regularised in the cycle-3 close.)* Earlier: v1.0
 
 ⚠️ **Findings `[PROVISIONAL]`.** No independent cycle has run → **Q-122**.
 
