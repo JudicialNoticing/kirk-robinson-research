@@ -5,11 +5,11 @@
 This report exists because an exclusion nobody can see is an exclusion nobody can audit.
 Every markdown file named in `ops/site/site.yml` appears below in exactly one state.
 
-- **Published:** 54 pages
+- **Published:** 55 pages
 - **Held** (owner decision pending, Phase 2): 43
 - **Hard-blocked:** 3
-- Pages whose source carries `[PROVISIONAL]`, banner rendered: **28** of 54
-- Pages carrying the case-posture banner: **51**  *(2 pages — home and licence — render no banners by design)*
+- Pages whose source carries `[PROVISIONAL]`, banner rendered: **29** of 55
+- Pages carrying the case-posture banner: **52**  *(2 pages — home and licence — render no banners by design)*
 - Internal links rewritten to site URLs: 14
 - Links to unpublished files neutralised (text kept, link removed): 22
 - Search-engine indexing: **BLOCKED (robots.txt Disallow /)**
@@ -62,7 +62,7 @@ The banner on these pages says so rather than guessing one.
 | `files - Court record/CR-E04_prelim-hearing-Day2_Hull-UVU-surveillance.md` | `/court-record/cr-e04_prelim-hearing-day2_hull-uvu-surveillance` | v1.3 | — |
 | `files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md` | `/court-record/cr-e05_prelim-hearing-day1_bagley-hull-first-tranche` | v1.6 | `[PROVISIONAL]` |
 | `files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md` | `/court-record/cr-e06_bakker-day2_oliver-day5_full-read` | v1.9 | `[PROVISIONAL]` |
-| `files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md` | `/court-record/cr-e07_defence-prelim-briefing-2026-08-11` | v1.8 | `[PROVISIONAL]` |
+| `files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md` | `/court-record/cr-e07_defence-prelim-briefing-2026-08-11` | v1.9 | `[PROVISIONAL]` |
 | `files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md` | `/court-record/cr-e08_state-information-and-pc-affidavit-2025-09-16` | v1.3 | `[PROVISIONAL]` |
 | `files - Court record/CR-E09_evidence-preservation-order-and-pretrial-practice.md` | `/court-record/cr-e09_evidence-preservation-order-and-pretrial-practice` | v1.1 | `[PROVISIONAL]` |
 | `files - Court record/CR-E10_publicity-order-and-record-classification.md` | `/court-record/cr-e10_publicity-order-and-record-classification` | v1.4 | `[PROVISIONAL]` |
@@ -73,10 +73,11 @@ The banner on these pages says so rather than guessing one.
 | `files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md` | `/court-record/cr-e15_atf-firearms-report-2025-09-17` | v1.4 | `[PROVISIONAL]` |
 | `files - Court record/CR-E16_participant-roster-and-label-reconciliation.md` | `/court-record/cr-e16_participant-roster-and-label-reconciliation` | v1.3 | `[PROVISIONAL]` |
 | `files - Court record/CR-E17_states-reply-2026-08-18.md` | `/court-record/cr-e17_states-reply-2026-08-18` | v1.3 | `[PROVISIONAL]` |
-| `files - Court record/CR-E18_certified-transcript-crosswalk.md` | `/court-record/cr-e18_certified-transcript-crosswalk` | v1.3 | `[PROVISIONAL]` |
+| `files - Court record/CR-E18_certified-transcript-crosswalk.md` | `/court-record/cr-e18_certified-transcript-crosswalk` | v1.4 | `[PROVISIONAL]` |
 | `files - Court record/CR-E19_latent-print-record.md` | `/court-record/cr-e19_latent-print-record` | v2.5 | `[PROVISIONAL]` |
 | `files - Court record/CR-E20_forensic-exhibit-map.md` | `/court-record/cr-e20_forensic-exhibit-map` | v1.8 | `[PROVISIONAL]` |
 | `files - Court record/CR-E21_forensic-discovery-census.md` | `/court-record/cr-e21_forensic-discovery-census` | v1.5 | `[PROVISIONAL]` |
+| `files - Court record/CR-E22_states-opening-memorandum-2026-07-28.md` | `/court-record/cr-e22_states-opening-memorandum-2026-07-28` | v1.0 | `[PROVISIONAL]` |
 | `files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md` | `/dna-evidence/dna-e01_dna-evidence-what-it-can-bear` | v4.11 | `[PROVISIONAL]` |
 | `files - DNA evidence/Kirk-Robinson_DNA-Evidence_Acquisition-Roadmap_2026-07-15.md` | `/dna-evidence/kirk-robinson_dna-evidence_acquisition-roadmap_2026-07-15` | — | — |
 | `files - DNA evidence/Kirk-Robinson_DNA-Evidence_Consolidated-Audit_2026-07-15.md` | `/dna-evidence/kirk-robinson_dna-evidence_consolidated-audit_2026-07-15` | — | — |

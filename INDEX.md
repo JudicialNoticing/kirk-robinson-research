@@ -84,6 +84,7 @@
 | `CR-AUDIT-2026-07-28_independent-pass.md` | The first independent adversarial pass (Q-02): six defects, three material (v1.2) | Why LOOP.md is cautious |
 | `CR-AUDIT-2026-08-01_session-audit.md` | The 2026-08-01 session: Q-54, Q-52, Q-11, Q-06, Docket Watch run 2; the Q-08 DNA draft blocked (v1.4) | What that session did and did not verify |
 | `CR-AUDIT-2026-08-20_session-audit.md` | One row per cycle of the 2026-08-20 research session, every file → version change | Same, for 08-20 |
+| `CR-E22_states-opening-memorandum-2026-07-28.md` | The State's 2026-07-28 bindover memorandum read end to end — 48 transcript anchors, 32 exhibit designators, six findings (v1.0, `[PROVISIONAL]`) | What the State actually argued, and on what record |
 | `CR-REVIEW-2026-08-14_losee-draft-Q07.md` | Three-reviewer review of the unpublishable Losee draft (v1.1) | Before any Losee work |
 | `CR-REVIEW-2026-08-16_Q61-carried-nulls.md` | The five nulls carried from CR-E06 into DNA-E01 without re-running: 5/5 confirmed | Null hygiene |
 | `CR-REVIEW-2026-08-16B_xchange-null-audit.md` | 26 claims resting on the XChange printouts re-run after `grep` was found to fail silently on them | Hazard 13 |

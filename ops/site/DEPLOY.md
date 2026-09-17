@@ -9,6 +9,11 @@ refused it as a "create public surface" action. That refusal was not routed arou
 ## What is already true
 
 - `netlify.toml` carries the build command and publish directory.
+> 🛠 **The numbers in this table are from the `c672f06` pre-flight and are now STALE: the site is **55 pages**, not 54,
+> since `CR-E22` was added on 2026-09-17 (28 of 54 provisional → **29 of 55**; held stays 43).
+> **This is exactly why the three-command check below exists — run it and read the report, do not deploy from this table.**
+> The table is left as the record of what was tested at that commit.
+
 - **The build was tested from a clean checkout on 2026-09-17, at commit `c672f06`** — a fresh
   `git clone` with **no `.venv-site`** and the virtualenv **outside** the working tree, which is
   what Netlify does: `pip install -r ops/site/requirements.txt && python3 scripts/build-site.py`.

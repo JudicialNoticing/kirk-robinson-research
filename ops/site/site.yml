@@ -349,6 +349,10 @@ pages:
         url: "court-record/cr-e21_forensic-discovery-census"
         state: publish
         reason: "evidence / claim-inventory file"
+      - src: "files - Court record/CR-E22_states-opening-memorandum-2026-07-28.md"
+        url: "court-record/cr-e22_states-opening-memorandum-2026-07-28"
+        state: publish
+        reason: "evidence / claim-inventory file"
       - src: "files - Court record/CR-REVIEW-2026-08-14_losee-draft-Q07.md"
         state: hold
         reason: "process record of a verification cycle, not a claim file"
