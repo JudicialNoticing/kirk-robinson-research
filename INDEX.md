@@ -222,6 +222,7 @@ Added 2026-09-17. **Nothing here deploys anything by existing**; a site appears 
 | `ops/site/site.yml` | **The publish allow-list**, and the only thing that decides what a site contains. Each markdown file is `publish`, `hold` (owner decision pending) or `never` (named hard block, with a reason). Nothing publishes by being present on disk | Ruling on scope (Q-190); changing what the site carries |
 | `ops/site/BUILD-REPORT.md` | **Generated on every build, never hand-edited.** Every file in exactly one state, plus the counts, the trees excluded wholesale, and the unpublished files that published pages cite most | Auditing what a build would expose |
 | `ops/site/requirements.txt` | Build dependencies, used by `netlify.toml` and the local venv | — |
+| `ops/site/DEPLOY.md` | **The deploy runbook.** What is already tested, the owner's five clicks, the CLI fallback and why it is worse, and what to do after the first deploy | Phase 3; deciding the domain or flipping `noindex` |
 | `scripts/build-site.py` | Stages an allow-listed copy into `.site-build/` (gitignored), injects each page's source path, version and status token, rewrites internal links and neutralises links to unpublished files, then runs mkdocs. **The `files - <Topic>/` namespace is never touched** | `./.venv-site/bin/python scripts/build-site.py --serve` |
 | `netlify.toml` | Build command and publish directory. Inert until someone connects the repo | Phase 3 |
 
