@@ -9,11 +9,21 @@ refused it as a "create public surface" action. That refusal was not routed arou
 ## What is already true
 
 - `netlify.toml` carries the build command and publish directory.
-- **The build was tested from a clean checkout on 2026-09-17** — a fresh `git clone` of
-  `983c1a7` with **no `.venv-site`**, exactly as Netlify sees it: `pip install -r
-  ops/site/requirements.txt && python3 scripts/build-site.py` → **54 pages, 12 MB**, publish
-  directory `.site-build/site` present, `robots.txt` = `Disallow: /`, the licence page built,
-  and **no held file in the output** (checked: `QUEUE` is absent).
+- **The build was tested from a clean checkout on 2026-09-17, at commit `c672f06`** — a fresh
+  `git clone` with **no `.venv-site`** and the virtualenv **outside** the working tree, which is
+  what Netlify does: `pip install -r ops/site/requirements.txt && python3 scripts/build-site.py`.
+  Checked against the built artifact, not against the config meant to produce it:
+
+  | Check | Result |
+  |---|---|
+  | pages built | **54** |
+  | publish directory `.site-build/site` | present, 12 MB |
+  | `robots.txt` | `User-agent: *` / `Disallow: /` |
+  | `QUEUE` published | no |
+  | `START-HERE` published | no |
+  | artifact-bank files published | **0** |
+  | unclassified markdown files | none |
+  | licence page | built |
 - Indexing is blocked two ways until deliberately flipped: `noindex: true` in
   `ops/site/site.yml`, which emits the `robots.txt`.
 
