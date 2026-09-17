@@ -48,8 +48,26 @@ site** — not visibly excluded, just gone. The build names them; if that sectio
 file in it needs a state in `ops/site/site.yml` before you deploy. As of 2026-09-17 the section
 is absent, which is what "ready" looks like.
 
-Expected as of 2026-09-17: **54 published · 43 held · 3 hard-blocked**, 28 of the 54 pages
-carrying a `[PROVISIONAL]` banner, `robots.txt` = `Disallow: /`.
+Expected as of 2026-09-17 (second session): **55 published · 43 held · 3 hard-blocked**, **29 of
+the 55** pages carrying a `[PROVISIONAL]` banner, `robots.txt` = `Disallow: /`.
+🛠 *Read "54 · 28" until `CR-E22` landed. Corrected 2026-09-17; the figure that governs is always
+the one `BUILD-REPORT.md` prints on the run you just did, never a figure in this file.*
+
+## 🚨 PREREQUISITE THE FIRST VERSION OF THIS RUNBOOK NEVER STATED: PUSH FIRST
+
+**Continuous deployment builds from GitHub `main`, not from your disk.** So a local commit that
+has not been pushed **is not in the deployed site**, and the three-command check above will
+disagree with what Netlify builds — the check reads your working tree, Netlify reads the remote.
+
+    git status -sb        # expect "## main...origin/main" with no "ahead"
+    git push              # if it says ahead
+
+⚠ **Before any push, run the standing check** (`boc-state-current`): `git merge-base --is-ancestor
+8910af3 origin/main`. It must succeed — it confirms the surname-removal commit is already public,
+so the push exposes no withdrawn name that is not already exposed. *(Verified true on 2026-09-17.)*
+
+**As of 2026-09-17, second session, `main` is 3 commits ahead of `origin/main`** (`81bd640`,
+`0d186cd`, `ee4cf69`). **Deploying before pushing would publish the 54-page site without `CR-E22`.**
 
 ## The owner's step — continuous deployment (recommended)
 
@@ -89,6 +107,7 @@ immediately before every deploy and never deploy from a dirty working tree.
 
 ## What the site does NOT contain
 
-`ops/site/BUILD-REPORT.md`, regenerated on every build. As of 2026-09-17: **54 published · 43
-held · 3 hard-blocked**, every artifact bank excluded wholesale, and 28 of the 54 pages carrying
-a `[PROVISIONAL]` banner. Read it before the domain goes on anything.
+`ops/site/BUILD-REPORT.md`, regenerated on every build. As of 2026-09-17 (second session):
+**55 published · 43 held · 3 hard-blocked**, every artifact bank excluded wholesale, and **29 of
+the 55** pages carrying a `[PROVISIONAL]` banner. Read it before the domain goes on anything.
+🛠 *Corrected 2026-09-17 from "54 · 28".*
