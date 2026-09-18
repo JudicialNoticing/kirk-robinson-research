@@ -1,6 +1,8 @@
 # The 2026-09-18 history rewrite — what changed, and how to resolve an old hash
 
-**Prepared:** 2026-09-18 · **Status:** v1.0 · **Queue item:** Q-198
+**Prepared:** 2026-09-18 · **Status:** v1.1 · **Queue item:** Q-198
+
+🚨 **NOT PUSHED AS OF 2026-09-18. The rewrite exists only on this machine; `origin` still carries the pre-rewrite history.** See *Finishing this* at the foot of the file.
 
 ## What happened
 
@@ -35,7 +37,7 @@ a map that maps to nothing looks exactly like a map that works.
 
 ## What was repaired, and what was deliberately left alone
 
-**Repaired — 77 citations across 18 live documents.** `START-HERE.md` (32), `QUEUE.md` (9),
+**Repaired — 75 citations across 18 live documents** (77 on the first, wrong pass; see the v1.1 row). `START-HERE.md` (32), `QUEUE.md` (9),
 `CR-WATCH-log.md` (7), `ops/site/DEPLOY.md` (7), `CR-AUDIT-2026-08-20` (4), and fourteen others
 including four evidence files and one comment in `scripts/queue-check.sh`. These are documents
 someone acts on, so a dead hash in them is a broken instruction.
@@ -55,7 +57,7 @@ when reading them.
 | Author/committer names across all history | one name only, plus `Claude` / `Claude Code` on 4 tool commits |
 | Author/committer emails | two only, both no-reply; no personal address |
 | Identifier in any commit message | 0 |
-| Identifier in any blob of any commit (1,266 blobs scanned) | **0** |
+| Identifier in any blob of any commit (1,288 blobs scanned) | **0** |
 | Identifier in any path in history | **0** |
 | Binary artifacts byte-identical (82 PDFs, images, `.docx`) | **82 / 82 unchanged** |
 | `git fsck` | clean |
@@ -68,7 +70,7 @@ sweep would have reported success and been wrong; see [[render-dont-grep]] for t
 
 ## What this does NOT reach
 
-- **Objects GitHub already held.** The force-push leaves the pre-rewrite commits unreferenced but
+- **Objects GitHub already held** *(once the push happens)*. A force-push leaves the pre-rewrite commits unreferenced but
   present on GitHub's side until it garbage-collects them. They are unreachable to anyone who
   cannot already read the repository. 🚨 **The repository was made private on 2026-09-18, which is
   what makes that acceptable. Before it is ever made public again, ask GitHub Support to purge
@@ -77,6 +79,26 @@ sweep would have reported success and been wrong; see [[render-dont-grep]] for t
 - **Anything already copied** by a third party while the repository was public.
 - **Accounts named after the owner.** The Netlify team slug and one GitHub account still carry the
   name; those are platform settings, not repository content.
+
+## Finishing this — the push has NOT happened
+
+The rewrite is committed locally and verified. `origin` is configured again. **What remains:**
+
+    git push --force origin main
+    git push --force origin claude/docket-watch-run-10-2026-09-16
+
+Those were the only two branches on the remote when the rewrite was made. Before running them,
+re-check that nothing new has landed:
+
+    git ls-remote --heads origin
+
+🚨 **The docket-watch routine fires Sat 2026-09-19 13:00Z and writes a `claude/` branch.** If it
+runs before the force-push, that branch is built on the **pre-rewrite** history and will not merge
+cleanly afterwards. **Either push before it fires, or expect to rebase or re-run it.**
+
+✅ **Nothing public carries the name in the meantime.** The live site's `/licence/` page was
+deployed from the pen-name commit earlier the same day and was re-fetched to confirm it; the
+repository is private; and the site still serves `robots.txt: Disallow: /`.
 
 ## Reproducing or reverting
 
