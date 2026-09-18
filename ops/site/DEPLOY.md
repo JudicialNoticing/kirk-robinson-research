@@ -9,17 +9,17 @@ refused it as a "create public surface" action. That refusal was not routed arou
 ## What is already true
 
 - `netlify.toml` carries the build command and publish directory.
-> 🚨 **THE `dcf382f` PRE-FLIGHT PASSED FOR THE WRONG REASON, AND THE BUILD WOULD HAVE FAILED ON NETLIFY.**
+> 🚨 **THE `be78b8d` PRE-FLIGHT PASSED FOR THE WRONG REASON, AND THE BUILD WOULD HAVE FAILED ON NETLIFY.**
 > It was recorded as run "with the venv outside the tree." When that was actually reproduced on
 > **2026-09-17 (second session)** — clean clone, venv outside the tree, **and not activated**, which is
 > Netlify's shape — the build died: `FileNotFoundError: [Errno 2] No such file or directory: 'mkdocs'`.
 > `build-site.py` resolved mkdocs as the **in-tree** `.venv-site/bin/mkdocs` (gitignored, so never in a
 > clean clone) and otherwise fell back to bare `mkdocs` on **PATH**, which holds only if the installing
-> venv is activated. **Fixed at `38120bf`: `sys.executable -m mkdocs`.** §0AI had flagged exactly this gap
+> venv is activated. **Fixed at `f1ebe24`: `sys.executable -m mkdocs`.** §0AI had flagged exactly this gap
 > in terms — *"Still not verified: that Netlify's own build image behaves as the local clean clone did."*
 > **Lesson: a pre-flight that shares one assumption with the thing it is testing has not tested it.**
 
-- **Pre-flight RE-RUN 2026-09-17 (second session) at `38120bf`, and this one exercised the real path:**
+- **Pre-flight RE-RUN 2026-09-17 (second session) at `f1ebe24`, and this one exercised the real path:**
   `git clone` of the **public remote**, **no `.venv-site` in the tree**, venv outside it and **not
   activated**, `pip install -r ops/site/requirements.txt && python3 scripts/build-site.py`.
   Checked against the **built artifact**, not the config meant to produce it:
@@ -99,11 +99,11 @@ disagree with what Netlify builds — the check reads your working tree, Netlify
     git push              # if it says ahead
 
 ⚠ **Before any push, run the standing check** (`boc-state-current`): `git merge-base --is-ancestor
-de2bc04 origin/main`. It must succeed — it confirms the surname-removal commit is already public,
+20b34f1 origin/main`. It must succeed — it confirms the surname-removal commit is already public,
 so the push exposes no withdrawn name that is not already exposed. *(Verified true on 2026-09-17.)*
 
-**As of 2026-09-17, second session, `main` is 3 commits ahead of `origin/main`** (`454ef17`,
-`a8f8294`, `46b07ca`). **Deploying before pushing would publish the 54-page site without `CR-E22`.**
+**As of 2026-09-17, second session, `main` is 3 commits ahead of `origin/main`** (`80315b6`,
+`22357e9`, `3074c0b`). **Deploying before pushing would publish the 54-page site without `CR-E22`.**
 
 ## The owner's step — continuous deployment (recommended)
 

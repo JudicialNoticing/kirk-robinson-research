@@ -23,6 +23,14 @@ that cites `983c1a7` or `8910af3` is citing a commit that no longer exists.
 `commit-crosswalk.txt` in this folder maps **old → new** for all 212 commits, tab-separated, full
 40-character hashes. To resolve a short hash, match it as a prefix of the left column.
 
+🚨 **`git-filter-repo` composes its commit-map across runs.** Each pass writes a map keyed by the
+**original** hash that yields *that pass's* output — so **the final pass's map IS the old→new
+crosswalk.** Chaining the per-pass maps together double-applies them and produces hashes that
+never existed. This file was first written that wrong way on 2026-09-18 and corrected the same
+day, after a check found its targets were not objects in this repository. **When you build a
+crosswalk, verify the right-hand column with `git cat-file --batch-check` before trusting it** —
+a map that maps to nothing looks exactly like a map that works.
+
     grep '^983c1a7' ops/history-rewrite-2026-09-18/commit-crosswalk.txt
 
 ## What was repaired, and what was deliberately left alone
@@ -81,3 +89,4 @@ once you are satisfied.
 | Version | Date | Change |
 | --- | --- | --- |
 | 1.0 | 2026-09-18 | Written at the rewrite (Q-198). |
+| 1.1 | 2026-09-18 | 🛠 **Crosswalk corrected.** It had been built by chaining the three per-pass commit-maps, which double-applies a mapping `filter-repo` has already composed; all 212 targets were dead hashes, and the 77 citations repaired from it pointed at commits that never existed. Rebuilt from the final pass's map alone; 75 citations re-repaired; both columns verified to resolve. |

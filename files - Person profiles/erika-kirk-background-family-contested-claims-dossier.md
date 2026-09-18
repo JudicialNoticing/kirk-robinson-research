@@ -321,7 +321,7 @@ Each entry: her claim/public narrative → the challenge → best assessment.
 
 ⚠️ **A proposed removal was REFUTED by three of four independent reviews and is recorded as retained:** the street named in the birth announcement. It is a residential street for two private individuals **and** simultaneously the only bridge to a corporate cluster carrying two register entries, and the only datum discriminating between the Ohio and Arizona readings of the birth anchor. **Flagged, with both dependencies named, and deferred to a dedicated pass.**
 
-**Nothing removed is restated in this log by value, and no in-body stub marks any removal** *(governing precedent: commit `4cb1f1a` — removal notes must not restate what they removed).*
+**Nothing removed is restated in this log by value, and no in-body stub marks any removal** *(governing precedent: commit `1a654d8` — removal notes must not restate what they removed).*
 
 ⚠️ **NOT DONE in this pass, and named so scope is not mistaken for coverage:** the court-record spine (**Part 0**, Section B of the banked plan) and the register/roadmap corrections (Section C) — Claim 2's grade, the Bottom-line conformance, Part III's null scoping, Claim 8's missing Lombardi thread, and the Part VI re-scoping. **A binding 12-item do-not-write list travels with that work** and is banked with the plan.
 
