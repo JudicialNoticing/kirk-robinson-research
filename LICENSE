@@ -7,6 +7,11 @@ people, and this project cannot licence what it does not own.
 Adopted 2026-09-17 (owner's decision; QUEUE.md Q-192). Before that date the repository
 carried no licence, which means all rights were reserved by default.
 
+**The copyright holder is named above by the pen name under which this library is
+published.** That is the attribution name for CC BY 4.0 purposes: credit "William
+Whitehead". Set 2026-09-18 (owner's decision, Q-198); it replaces the name the file
+previously carried, which was taken from the repository's git identity rather than chosen.
+
 ---
 
 ## 1. The library's own writing — CC BY 4.0
@@ -59,3 +64,12 @@ charged is presumed innocent unless and until proven guilty. Some names have bee
 deliberately withdrawn from these files, and a withdrawn name is not restored by any
 licence. Attribution under CC BY 4.0 does not license you to re-identify anyone this
 project chose not to name.
+
+---
+
+## Revision log
+
+| Version | Date | Change |
+| --- | --- | --- |
+| 1.0 | 2026-09-17 | Licence adopted: CC BY 4.0 for the library's prose, MIT for `scripts/`, no licence granted for the third-party artifact banks (Q-192). |
+| 1.1 | 2026-09-18 | Attribution name set to the pen name "William Whitehead" for both the CC BY 4.0 and MIT grants, here and in `scripts/LICENSE`. The prior name was not chosen — it was inherited from the git identity — and is withdrawn, not struck through (Q-198). |

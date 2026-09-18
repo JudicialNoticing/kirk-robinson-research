@@ -1,6 +1,6 @@
 # Site build report
 
-**Generated** 2026-09-17 by `scripts/build-site.py` — **never hand-edited.**
+**Generated** 2026-09-18 by `scripts/build-site.py` — **never hand-edited.**
 
 This report exists because an exclusion nobody can see is an exclusion nobody can audit.
 Every markdown file named in `ops/site/site.yml` appears below in exactly one state.
@@ -44,7 +44,7 @@ The banner on these pages says so rather than guessing one.
 | `docs/GLOSSARY.md` | `/method/glossary` | — | `[PROVISIONAL]` |
 | `docs/ARCHITECTURE.md` | `/method/architecture` | — | `[PROVISIONAL]` |
 | `docs/DECISIONS.md` | `/method/decisions` | — | `[PROVISIONAL]` |
-| `LICENSE` | `/licence` | — | `[PROVISIONAL]` |
+| `LICENSE` | `/licence` | v1.1 | `[PROVISIONAL]` |
 | `files - Arrest chronology/robinson-surrender-timeline.md` | `/arrest-chronology/robinson-surrender-timeline` | — | — |
 | `files - Arrest chronology/tier1-acquisition-roadmap.md` | `/arrest-chronology/tier1-acquisition-roadmap` | — | — |
 | `files - Bride of Charlie series/BOC-E01_Wrinkle-in-Time_claim-inventory.md` | `/bride-of-charlie/boc-e01_wrinkle-in-time_claim-inventory` | v1.5 | — |
