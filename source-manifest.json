@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-09-16T20:37:49+00:00",
- "count": 361,
+ "generated_utc": "2026-09-18T05:36:07+00:00",
+ "count": 386,
  "entries": [
   {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
@@ -2723,9 +2723,11 @@
    "how_to_read": "plain search is reliable.",
    "cited_by": [
     "QUEUE.md",
+    "START-HERE.md",
     "files - Arrest chronology/robinson-surrender-timeline.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
     "files - Court record/CR-ACQ-2026-09-16B_states-opening-memorandum.md",
+    "files - Court record/CR-E22_states-opening-memorandum-2026-07-28.md",
     "files - Court record/CR-WATCH-log.md",
     "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
@@ -3230,8 +3232,8 @@
    "name": "2026-08-01_Q58-completion-60-verdicts.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 458204,
-   "sha256": "7e6d49e5e343b8fdd48c0703ff9e70d08d1415899b5bace4f9981f66791eb988",
+   "bytes": 457088,
+   "sha256": "efd853e785116445ace625e11c6957abca02d7092b5d73b09e888a4a1082030b",
    "banked": "2026-08-01",
    "provenance": {
     "filename_date": "2026-08-01"
@@ -3249,8 +3251,8 @@
    "name": "2026-08-01_q08-reviews-and-register-proposal.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 101162,
-   "sha256": "4b54c892b66664027d221c03cf076f2b2bec39aa525f85823853fd06fe38f52e",
+   "bytes": 101126,
+   "sha256": "10d174ae3aedd1e58a79e23c27e5c3bddbf650dd70ab1a7b56fbbe885ba97aab",
    "banked": "2026-08-01",
    "provenance": {
     "filename_date": "2026-08-01"
@@ -3265,8 +3267,8 @@
    "name": "2026-08-01_round2-Q58-raw-output.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 479715,
-   "sha256": "9ef343a643569bc37cdad6a1f651711ddb5bef3ac5215b8a9c74362515afd4e8",
+   "bytes": 479499,
+   "sha256": "503caa69c156e239e2f509780a5a8bc8e3283141468eef084273d76dfebfb7a3",
    "banked": "2026-08-01",
    "provenance": {
     "filename_date": "2026-08-01"
@@ -3284,8 +3286,8 @@
    "name": "2026-08-01_verification-cycle-raw-output.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 1054393,
-   "sha256": "ca416d08fec1f6f5f982d9bbdc30d95c7927271578a1a68c1f1fae90aa65b884",
+   "bytes": 1054249,
+   "sha256": "17bf16ee0a45e0fe19ab7878fdd990b7378f8474af9048fd25b91dd709eab879",
    "banked": "2026-08-01",
    "provenance": {
     "filename_date": "2026-08-01"
@@ -3302,8 +3304,8 @@
    "name": "2026-08-01_verification-cycle-workflow-result.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 1127446,
-   "sha256": "0bf42a9ebc8c216fccc7970fd5de3345058ac667678bf4de9e131eaf1c0170c9",
+   "bytes": 1125862,
+   "sha256": "3dd8e9bbb4080450a56c56c5ad6413561fed9e7da5c6a8b72231bd88a19231a1",
    "banked": "2026-08-01",
    "provenance": {
     "filename_date": "2026-08-01"
@@ -3405,8 +3407,8 @@
    "name": "2026-08-14_CRE07-completeness-inventory_RAW-CANDIDATES.jsonl",
    "ext": "jsonl",
    "artifact_class": "primary-source",
-   "bytes": 438629,
-   "sha256": "9c6fa10c4778bbfdaf7de7a85a4c50d79c156aa3c4444ee2adc9dede30728326",
+   "bytes": 438251,
+   "sha256": "8bc4b0006fe766cb29f4cd34d0466055067261bd910990bca23c2bf96fe400f6",
    "banked": "2026-08-14",
    "provenance": {
     "filename_date": "2026-08-14"
@@ -3423,8 +3425,8 @@
    "name": "2026-08-14_CRE08-completeness-state-filings_RAW-CANDIDATES.jsonl",
    "ext": "jsonl",
    "artifact_class": "primary-source",
-   "bytes": 277427,
-   "sha256": "e1e90cc921b683bbe60aaa2726ee643e0032c235bf593c81e3919cd105632121",
+   "bytes": 277139,
+   "sha256": "db028dab355658d9dac85e69b51924d6da966aa029b9347bf2dda80cca1c10dc",
    "banked": "2026-08-14",
    "provenance": {
     "filename_date": "2026-08-14"
@@ -3442,8 +3444,8 @@
    "name": "2026-08-14_Q61-completeness-day2-bakker_RAW-CANDIDATES.jsonl",
    "ext": "jsonl",
    "artifact_class": "primary-source",
-   "bytes": 643602,
-   "sha256": "f5b6793e5cbf55f968a71858147039b50c06c60d1d3d008bca5342e29e6c7fea",
+   "bytes": 642504,
+   "sha256": "ba9ad378a02e1aea89480f3dd8ba200b2c3bea000f1079a685f57fa1a1ae2fb3",
    "banked": "2026-08-14",
    "provenance": {
     "filename_date": "2026-08-14"
@@ -3460,8 +3462,8 @@
    "name": "2026-08-14_Q61-completeness-day5-oliver_RAW-CANDIDATES.jsonl",
    "ext": "jsonl",
    "artifact_class": "primary-source",
-   "bytes": 746135,
-   "sha256": "224a5a6a918ea1d4174a693ff020118d06bb84c39b49a5cce1264af6fd1557f4",
+   "bytes": 744065,
+   "sha256": "a671eb063970d5745a59678ee7beecefb0a3e11b6fac93628edbe525e0d63b05",
    "banked": "2026-08-14",
    "provenance": {
     "filename_date": "2026-08-14"
@@ -3479,8 +3481,8 @@
    "name": "2026-08-14_Q61-finder-DNAE01-sections6-14_RAW-CANDIDATES.jsonl",
    "ext": "jsonl",
    "artifact_class": "primary-source",
-   "bytes": 584581,
-   "sha256": "b8ceeaf81336b1b860b5e1caa6ce742841170c0d0396248ad077db845c76c27c",
+   "bytes": 583879,
+   "sha256": "56bb6eb91121c917b180ab220d94f54106080f6d285c25a2e038bd0675311c32",
    "banked": "2026-08-14",
    "provenance": {
     "filename_date": "2026-08-14"
@@ -3693,8 +3695,8 @@
    "name": "2026-08-17_Q136-zinn-reconciliation_RAW.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 405082,
-   "sha256": "2aaf393024dcdcc9f5d41fa98d661f020920960943e0e0da9624f65b4a3616a6",
+   "bytes": 403462,
+   "sha256": "754933b9e7dd367a5c3f89ea643cfb55f9c1f8235d25844fe400a1c93ab7028a",
    "banked": "2026-08-17",
    "provenance": {
     "filename_date": "2026-08-17"
@@ -3712,8 +3714,8 @@
    "name": "2026-08-17_Q137-Q138-person-files_RAW.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 1274151,
-   "sha256": "40b88eb778a6b12525a2a664036c8e3058954919605a0f48ce6f3ba470d82d1a",
+   "bytes": 1265769,
+   "sha256": "e41623fcf62c397b493d90cb06523993d72b62a0eeb9fc4df8a044e794a21ca7",
    "banked": "2026-08-17",
    "provenance": {
     "filename_date": "2026-08-17"
@@ -3731,8 +3733,8 @@
    "name": "2026-08-17_Q142-Q143-Q144-Q145-twiggs-programme_RAW.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 928825,
-   "sha256": "03ea83eb12ef1c5092ad85b2cb5ed0c0561c8324bcc3b549da68686e8a2e49e8",
+   "bytes": 926413,
+   "sha256": "5b9d692d300ad50d276a343aa6d42f7b40fbcee79c699df5ee95cb8d3c31c1aa",
    "banked": "2026-08-17",
    "provenance": {
     "filename_date": "2026-08-17"
@@ -3749,8 +3751,8 @@
    "name": "2026-08-17_SEC-E01-security-posture_RAW.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 846201,
-   "sha256": "4caab1cf30c155cf0f999f2222da60b60ed61c78eab8739015b352f2015d7a5b",
+   "bytes": 841181,
+   "sha256": "d1fcbf6e2e52893b6fb6d10b1e9ed28dc2019d523b911f04954c6180182c0acd",
    "banked": "2026-08-17",
    "provenance": {
     "filename_date": "2026-08-17"
@@ -3831,8 +3833,8 @@
    "name": "2026-08-20_Q182-crosswalk-locates_RAW.json",
    "ext": "json",
    "artifact_class": "primary-source",
-   "bytes": 58382,
-   "sha256": "de6156f223c656483e3eb9b5aa43757a4497e1803a1ce3fdaec4f919d72cf4cc",
+   "bytes": 58364,
+   "sha256": "f79b7a340797fdff062553f8190b67753ce9505c458a11bb0364184bbe0648c8",
    "banked": "2026-08-20",
    "provenance": {
     "filename_date": "2026-08-20"
@@ -3967,7 +3969,8 @@
     "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
     "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-Charging-Document-Quote.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md",
-    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md"
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md",
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-09-16.md"
    ],
    "unpaired": false
   },
@@ -4006,7 +4009,8 @@
     "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
     "files - Person profiles/PP-ACQ-2026-09-15_platform-imports/2026-08-22_Tyler-Robinson-Charging-Document-Quote.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md",
-    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md"
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md",
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-09-16.md"
    ],
    "unpaired": false
   },
@@ -4213,13 +4217,15 @@
     "files - Court record/CR-E19_latent-print-record.md",
     "files - Court record/CR-E20_forensic-exhibit-map.md",
     "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md",
+    "files - Court record/CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md",
     "files - Court record/CR-WATCH-log.md",
     "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
     "files - Event security/SEC-E01_security-posture-2025-09-10.md",
     "files - Event security/SEC-E02_security-team-allegations-assessment.md",
     "files - George Zinn/zinn-george-evidence.md",
     "files - Person profiles/lance-twiggs-comprehensive-profile.md",
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
    ],
    "unpaired": false
   },
@@ -4281,6 +4287,7 @@
     "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
     "files - Court record/CR-E18_certified-transcript-crosswalk.md",
     "files - Court record/CR-E19_latent-print-record.md",
+    "files - Court record/CR-E22_states-opening-memorandum-2026-07-28.md",
     "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md",
     "files - Court record/CR-REVIEW-2026-08-16F_Q89-losee-draft-vs-sworn-geometry.md",
     "files - Court record/CR-WATCH-log.md",
@@ -5843,6 +5850,7 @@
     "files - Court record/CR-E18_certified-transcript-crosswalk.md",
     "files - Court record/CR-E19_latent-print-record.md",
     "files - Court record/CR-E20_forensic-exhibit-map.md",
+    "files - Court record/CR-E22_states-opening-memorandum-2026-07-28.md",
     "files - Court record/CR-REVIEW-2026-08-14_losee-draft-Q07.md",
     "files - Court record/CR-REVIEW-2026-08-16C_Q61-tranche3.md",
     "files - Court record/CR-REVIEW-2026-08-16G_twiggs-profile-reconciliation.md",
@@ -5854,7 +5862,8 @@
     "files - Kirk assassination questions/t1 source acquisition roadmap - Kirk assassination questions.md",
     "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
     "files - Person profiles/lance-twiggs-comprehensive-profile.md",
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "ops/site/BUILD-REPORT.md"
    ],
    "unpaired": false
   },
@@ -5880,8 +5889,8 @@
    "name": "workflow-results_fetched-and-verdicts.json",
    "ext": "json",
    "artifact_class": "source-capture",
-   "bytes": 240647,
-   "sha256": "aaa28edcedd49adeb4df74e8a9bffe57553c185da9fea170f633194a2c7796c6",
+   "bytes": 240659,
+   "sha256": "326aab6f798662d3ac453d47ed39829cb17430318bbf083249975ccd6f2aa3e3",
    "banked": "2026-09-02",
    "provenance": {},
    "readability": "structured-data",
@@ -5955,9 +5964,11 @@
     "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
     "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
     "files - Court record/CR-E18_certified-transcript-crosswalk.md",
+    "files - Court record/CR-E19_latent-print-record.md",
     "files - Court record/CR-REVIEW-2026-08-16G_twiggs-profile-reconciliation.md",
     "files - Court record/CR-REVIEW-2026-08-17_Q146-Q148-Q131.md",
     "files - Court record/CR-REVIEW-2026-08-30_CR-E19-E20-E21-verification-cycle.md",
+    "files - Court record/CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md",
     "files - Court record/CR-WATCH-log.md",
     "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
     "files - DNA evidence/Kirk-Robinson_DNA-Evidence_Acquisition-Roadmap_2026-07-15.md",
@@ -5977,6 +5988,8 @@
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-DRAFT-2026-09-14.md",
     "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-08-29.md",
+    "ops/docket-watch/DOCKET-WATCH-routine-prompt-LIVE-2026-09-16.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md",
     "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md",
     "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/transcript-digest_4ad2341e.md"
    ],
@@ -6147,8 +6160,8 @@
    "name": "cycle1_adjudication-journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 146935,
-   "sha256": "7f0f1e925b9aee82ce21c844ee7bcbcd7274871562f462112d011dd3a1aa27cd",
+   "bytes": 146467,
+   "sha256": "5c236f79f12e148c91d78adbcd929a15dfa568f624dbe1bc0dfe5302f7bd6ccd",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6175,8 +6188,8 @@
    "name": "cycle1_panel-verdicts.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 54053,
-   "sha256": "2333b8312c376995498a11ddb6079ba1ded23a8aeb9f1dc9ea9e32df11a6a057",
+   "bytes": 53747,
+   "sha256": "0d1b7634b19a61040d363b240376b87cceecde6d60c4c89e7767f4d1b5d3bb7b",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6217,8 +6230,8 @@
    "name": "cycle3_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 282899,
-   "sha256": "9808098ec3baca87bd3ec01c111c6f3f851848ed99617a3de550ff9ba7912327",
+   "bytes": 282359,
+   "sha256": "48714a0c7c9ca305729b75aa9f44c43ffef82af8f8a207a962b995a24cb8665a",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6248,8 +6261,8 @@
    "name": "cycle3_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 167725,
-   "sha256": "c0b67e6fe4d84b30df670fe347386e2df71c35249148a4edfac717b0ceb097a0",
+   "bytes": 167203,
+   "sha256": "04a5a9ce00c657c61d03189089f24cb37d14d13bebe536a2bfc22f9a70607030",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6292,8 +6305,8 @@
    "name": "journal_wf_8951c2ef-e9c.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 277646,
-   "sha256": "6a2e2ffe1fb5cb93d0297842b36529bee826c82809cc4a7650e3bfe0bb0dfece",
+   "bytes": 277448,
+   "sha256": "70bf3e6922c3d95381710e6d9d526d65d74238a585d35b9584f991d8afa75d41",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6306,8 +6319,8 @@
    "name": "journal_wf_f2c380ea-788.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 634055,
-   "sha256": "3ddd387f106d5968dcd5e1033e6799882cc8f5abfeaed4362e041f882853ec59",
+   "bytes": 634780,
+   "sha256": "a83cac9855a67d0ddcbdd63b35b3a2695aecab6732ece0ebe179ac7cffa7f406",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6320,8 +6333,8 @@
    "name": "journal_wf_f79b4b05-205.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 107920,
-   "sha256": "3f2d229cd73c5e9be6b82015f91ea4ce49b4196eba9c38b1e6c23237266bd8c5",
+   "bytes": 107866,
+   "sha256": "7e5473cddd73ae65067c0c5f2480861318e4de2f9017051316d06279195dd243",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6334,8 +6347,8 @@
    "name": "p2_facts.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 112666,
-   "sha256": "edc7c96266556d55f54159389553838fc011c8623bf2f9a3264d357251a56650",
+   "bytes": 112612,
+   "sha256": "f1292d18805ea86714ea68d704011ab6c8020c4d13d7bf619807055973ca8e76",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6362,8 +6375,8 @@
    "name": "p2_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 636940,
-   "sha256": "a3a154fa22ba37de85025e6ca9bd5c24c13127cdc8c25a3cadf4e36342053348",
+   "bytes": 637665,
+   "sha256": "35df7155970aff8b2d4b14a21eb752890c3f4170b411b7cb193dbd3276f757f3",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6383,7 +6396,8 @@
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "ops/site/BUILD-REPORT.md"
    ],
    "unpaired": false
   },
@@ -6399,7 +6413,8 @@
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "ops/site/BUILD-REPORT.md"
    ],
    "unpaired": false
   },
@@ -6415,7 +6430,8 @@
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [
-    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "ops/site/BUILD-REPORT.md"
    ],
    "unpaired": false
   },
@@ -6452,8 +6468,8 @@
    "name": "p5-iteration2_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 281754,
-   "sha256": "8064ea4a5b97de9b99d145083f30d2ac176210e1d36e4b4f1695b19ccb777e32",
+   "bytes": 280890,
+   "sha256": "bbd89b5f12a9ebc1b0735a587e6483cb4e47bb17c27cc059ad14fd8d21ddb115",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6480,8 +6496,8 @@
    "name": "p5-iteration2_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 281801,
-   "sha256": "9e98bfb6e4e14d304592c34f9023599f78cb1d3096c7d101131db78b6e5a6e3f",
+   "bytes": 280937,
+   "sha256": "23d8a34a555f73b82b3ffff22779634b40897bd7605a421ef6d9d166528cec2c",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6510,8 +6526,8 @@
    "name": "p5-repair_blind-reread.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 172993,
-   "sha256": "39ce6a34fe14c41eb1d6850e349e8d47b211b46bb8c86f7c48c0f3e953c1708d",
+   "bytes": 172813,
+   "sha256": "d0a427b16360285147df532385e03d7535f944e0536cba2c090b4b6278aa9e9b",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6524,8 +6540,8 @@
    "name": "p5-repair_false-positives.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 4884,
-   "sha256": "19541668ae4f69323e017b037faecea2ae956f3dd0e0453dab7c71d04d76bb65",
+   "bytes": 4848,
+   "sha256": "f99b79227ac9329bb8726ff91e9e98bcf629cb793b3f8285f38955b03521b9ca",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6552,8 +6568,8 @@
    "name": "p5-secondhand_decisions.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 125610,
-   "sha256": "c72b8eadba83b2850c01e4b789a0cf6beecd37e0efc49b707791e1eaddbabfe5",
+   "bytes": 125538,
+   "sha256": "ff8a4cd4a3897cf63768b27c92d89015425dd33a3e6e0e35bf45772ca9209782",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6580,8 +6596,8 @@
    "name": "p5_results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 278100,
-   "sha256": "1635fe986bae517f5f830ef8f2687e901262726f2792ea17bbc6f37fef64dc70",
+   "bytes": 277902,
+   "sha256": "b28b6b878bbe18fcb489b97e28fd8f8c855b40774d0836aea154ce970bcc9f25",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6594,8 +6610,8 @@
    "name": "p7_attack-results.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 391778,
-   "sha256": "12caa5d5cf061af9e944e1b7b21f49be7cd181d070942d6b44384689e8521c28",
+   "bytes": 391617,
+   "sha256": "9c1dc5cb98b677902b2d1703076d1063a086de22d55ae22a2dea6ae7e1f82863",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6622,8 +6638,8 @@
    "name": "p7_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 385301,
-   "sha256": "38b885bdbbe40117812b97ee72c59e9837d84c86f12658d6061e0aa0ed785180",
+   "bytes": 385140,
+   "sha256": "e254c8c85d7ad1f6ecca2f2a4ebaafd05e04c7fd9b4503e447252b371ada3bfc",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6636,8 +6652,8 @@
    "name": "p8-iteration2_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 312090,
-   "sha256": "5e35a2c500c674d071bd210fdd69e8999923d02eaea1d11de259292e913b0d27",
+   "bytes": 311597,
+   "sha256": "dd06ae72a6b0c5572bb69aec55e0aba7e421ff8582ec3dacf9cc29e8d7b6ed51",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6664,8 +6680,8 @@
    "name": "p8-iteration2_source-rebuilds.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 312397,
-   "sha256": "2e21edf059cc13d83a847b291097dbd8f609ba80ac7af5ddb7ee077f6a53e7ec",
+   "bytes": 311904,
+   "sha256": "df4c81f869ab855c49ee846d5dc3e9d134d75f9d28cbdf5c1de27fea4d424b57",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6708,8 +6724,8 @@
    "name": "p8_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 444675,
-   "sha256": "60dfd733b9acf76cdc6f5d9fe39af20d323555bcf8f63559fbc499b43b0145ab",
+   "bytes": 445278,
+   "sha256": "630a97524abf799bb538e52964ecabd4ed7810df16eeda7b28b48b1cee8ff192",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6736,8 +6752,8 @@
    "name": "p8_source-rebuilds.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 443697,
-   "sha256": "0f8ff05276404e1829f78f11552efd1e48b42d0d90f223ea2366d5b93f9db83d",
+   "bytes": 444300,
+   "sha256": "5f1568d10e87f5883627ff95929de036c58ded805e01209565b8ac695915e6d2",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6764,8 +6780,8 @@
    "name": "p9_journal.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 419252,
-   "sha256": "d95b1ef13b09263123f408ab59cd72a54f32d2038f4e649850019c75d54ddfdb",
+   "bytes": 419000,
+   "sha256": "5b63316ad7cc827816f1d627b5d3477edde83beeb221a12ea4e1f8411eea4131",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6792,8 +6808,8 @@
    "name": "p9_source-locations.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 424116,
-   "sha256": "2b4a2299cf22e5cebd77a253ace91d6f819da4defe51c8a01465a4029dc733a4",
+   "bytes": 423864,
+   "sha256": "e4ebb039cfa4be3956c80fa004c88f2551bbba50925982602a5b392fc8ec2010",
    "banked": "2026-09-14",
    "provenance": {},
    "readability": "structured-data",
@@ -6806,8 +6822,8 @@
    "name": "journal_wf_447fd031-201.jsonl",
    "ext": "jsonl",
    "artifact_class": "process-evidence",
-   "bytes": 346908,
-   "sha256": "8506b62122877c30c69aecc6f44a1846e77dba272284e3b195ff2f022ee1cd09",
+   "bytes": 346984,
+   "sha256": "3382d64b6cd761b8cf2a9b33bd6b286eafca741e4468a2227b874d74100762ca",
    "banked": "2026-09-16",
    "provenance": {},
    "readability": "structured-data",
@@ -6822,8 +6838,8 @@
    "name": "result_draft-verdicts-reads.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 369686,
-   "sha256": "8625222991d3bb093199bdf6f4376c04bdba2f50949baafd6c636880f2f420f5",
+   "bytes": 369762,
+   "sha256": "3394f14166f91af66ff88b106f07cf531f7badb46731d5488135ad4df2b9f651",
    "banked": "2026-09-16",
    "provenance": {},
    "readability": "structured-data",
@@ -6834,12 +6850,48 @@
    "unpaired": false
   },
   {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/artifact-patch_2026-09-16.json",
+   "name": "artifact-patch_2026-09-16.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 9698,
+   "sha256": "5a1a62e283992003d4f0c60c91960c647e6518f9e13ed32bd3c5c6bf43f81f9c",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "QUEUE.md",
+    "START-HERE.md",
+    "files - Court record/CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
    "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/enumeration_merged-74-claims.json",
    "name": "enumeration_merged-74-claims.json",
    "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 199224,
-   "sha256": "33d76d841db60491675974d3de43290397a05453337b2d5416fc0ac1b7a509f7",
+   "bytes": 191886,
+   "sha256": "cd4c6d65af6f77e23405fa66ed11b5739459b08a3a32045a85298e18e6a973ea",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/journal_wf_49721daa-15d.jsonl",
+   "name": "journal_wf_49721daa-15d.jsonl",
+   "ext": "jsonl",
+   "artifact_class": "process-evidence",
+   "bytes": 388562,
+   "sha256": "0d4962e199734fd0eb68e72248f48f0d5b620d2cd16373df18ed35d316464709",
    "banked": "2026-09-16",
    "provenance": {},
    "readability": "structured-data",
@@ -6850,18 +6902,406 @@
    "unpaired": false
   },
   {
-   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/journal_wf_49721daa-15d.jsonl",
-   "name": "journal_wf_49721daa-15d.jsonl",
-   "ext": "jsonl",
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E01.json",
+   "name": "reader_CR-E01.json",
+   "ext": "json",
    "artifact_class": "process-evidence",
-   "bytes": 404718,
-   "sha256": "acc8c065c5a729d013f785a41e734fe10971e42678e80909e75a3077544bf7ea",
+   "bytes": 23212,
+   "sha256": "187dd39399817ed5a4a6cfc1ff75c3f46c234243b648973026479748459f3ec9",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E01_prelim-hearing-Day4_Karner-ATF-testimony.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E02.json",
+   "name": "reader_CR-E02.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 25319,
+   "sha256": "f7064db6fd144dfc23a9589d30662f4220a9a5af80f56ee2d94ab0637ca5b7e2",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E02_prelim-hearing-Day4_Faumuina-Davis-Twiggs.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E03.json",
+   "name": "reader_CR-E03.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 25564,
+   "sha256": "e4fcc68eebce537ba23d8d8b8d2114f8280a991649a68febcbdf28916acbd058",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E03_prelim-hearing-Days2-3-5.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E05.json",
+   "name": "reader_CR-E05.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 15348,
+   "sha256": "db8fca6389fb30335263f94e6a6d566c79362f4b851da19292a99f16b3e11eb9",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E05_prelim-hearing-Day1_Bagley-Hull-first-tranche.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E06.json",
+   "name": "reader_CR-E06.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 29609,
+   "sha256": "1fb3b5b9f55e92d6048ea448c415329e93da1f68c1c3db3cccc56560aafec080",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E06_Bakker-Day2_Oliver-Day5_full-read.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E07.json",
+   "name": "reader_CR-E07.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 15512,
+   "sha256": "4aa0c40fbc8de4ec6ee6cb67ced0f3ca9a456e738d195a17826a103fa47af70a",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E07_defence-prelim-briefing-2026-08-11.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E08.json",
+   "name": "reader_CR-E08.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 9293,
+   "sha256": "e06a0a2f9815f55495f6cf90b8915c6e1d7a890657d68e68710436201bf8547b",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E08_state-information-and-pc-affidavit-2025-09-16.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E12.json",
+   "name": "reader_CR-E12.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 14669,
+   "sha256": "95403ffe87a1e77e682b9549440891d410ec847ac8a1c31dd3042a8406bf5db5",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E12_closure-classification-and-sealing-map.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E14.json",
+   "name": "reader_CR-E14.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 22931,
+   "sha256": "85e4b9eb89f1c9240d11fc2cc1221ef9bbc5de971a6ee98aed2c9aeb019ec5a5",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E14_continuance-motion-and-the-discovery-record.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E15.json",
+   "name": "reader_CR-E15.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 26505,
+   "sha256": "0991893c46d144628444bb8edcdc2b09a811164a347675ae606c03fd18356487",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E16.json",
+   "name": "reader_CR-E16.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 11670,
+   "sha256": "63b25bc4d7122918ce6a98319d0eab94a5b3866d70ce18edd0a939532351d8bf",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E16_participant-roster-and-label-reconciliation.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_CR-E17.json",
+   "name": "reader_CR-E17.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 12457,
+   "sha256": "d8ef1fb5aeb9fab3316a9fa596da819b3584dd2c8c48224f4b4bafa537bc46a7",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E17_states-reply-2026-08-18.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_DELIVERABLES.json",
+   "name": "reader_DELIVERABLES.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 43825,
+   "sha256": "de05c4f6ab2b1a8c3ef5a5df330d76dc92cc3e548705061bb0440fb457b43cef",
    "banked": "2026-09-16",
    "provenance": {},
    "readability": "structured-data",
    "how_to_read": "machine-readable; parse it, do not prose-search it.",
    "cited_by": [
     "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_DNA-E01.json",
+   "name": "reader_DNA-E01.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 20300,
+   "sha256": "36fb6519146fd1d71b28e5fb9a9420ec399b5b616ac1385462a0f335f9a5d066",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - DNA evidence/DNA-E01_DNA-evidence-what-it-can-bear.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_LT-P01.json",
+   "name": "reader_LT-P01.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 18069,
+   "sha256": "7d5523fe088db5913f5fef2ad7d486bb2731a0a19a8c3c597fa8128cff36e5f0",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Person profiles/lance-twiggs-comprehensive-profile.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_ORIGIN_CR-E19.json",
+   "name": "reader_ORIGIN_CR-E19.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 21762,
+   "sha256": "52dc5921cf87d63c1929d408907552e1b5dcd1cea6173ba2cd75a8aee38cbadf",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E19_latent-print-record.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_ORIGIN_CR-E20.json",
+   "name": "reader_ORIGIN_CR-E20.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 34148,
+   "sha256": "2509f6eca0fc9e416ba980f05720b55392a59f68588bac9ad7e0164257647474",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E20_forensic-exhibit-map.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_ORIGIN_CR-E21.json",
+   "name": "reader_ORIGIN_CR-E21.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 42151,
+   "sha256": "86969cacd5a55dd5258cff2677b06b3056eadc054ef519188437446936576ec6",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-E21_forensic-discovery-census.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_SEC-E01.json",
+   "name": "reader_SEC-E01.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 17070,
+   "sha256": "595256d0d696e8fc9fa18289e43af81897a75c13c5f8069c2da5a3247a69acf4",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Event security/SEC-E01_security-posture-2025-09-10.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_SEC-E02.json",
+   "name": "reader_SEC-E02.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 13692,
+   "sha256": "6e5fbcc8b503b2498822fcc9f08e14e35d487ea78bc3f142927045ebf2557737",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Event security/SEC-E02_security-team-allegations-assessment.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/reader_TJR-P01.json",
+   "name": "reader_TJR-P01.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 26563,
+   "sha256": "966e19cc3b3078b7775c65ce4a28aacbbab602ff4ade66cb117625bd0f6b9240",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/script-sweep_hits.json",
+   "name": "script-sweep_hits.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 2459840,
+   "sha256": "d80cc1e65a068460738870a4e27845ef36d58cce8faad15da70dfa1e1d9abbfc",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/script-sweep_origins.json",
+   "name": "script-sweep_origins.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 114854,
+   "sha256": "93fae63632ea83b20dc2fb0472151878b35a604e7924b8740641520cc08aa006",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "files - Court record/CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md",
+    "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/README.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "verification/CR-E19-E20-E21-REVIEW-2026-09-16_verification-cycle-3/script-sweep_worklist.json",
+   "name": "script-sweep_worklist.json",
+   "ext": "json",
+   "artifact_class": "process-evidence",
+   "bytes": 1574112,
+   "sha256": "7fb8a59cea546a27e33dad1695609b1bcdb41c4b5368207226b09492d0bcb6cd",
+   "banked": "2026-09-16",
+   "provenance": {},
+   "readability": "structured-data",
+   "how_to_read": "machine-readable; parse it, do not prose-search it.",
+   "cited_by": [
+    "START-HERE.md",
+    "files - Court record/CR-REVIEW-2026-09-16_cycle-3-propagation-sweep.md"
    ],
    "unpaired": false
   },

@@ -18,7 +18,7 @@
 
 ## 2. 🚨 The finding that matters most: a route null outlived its own acquisition — in SEVEN places
 
-**`day1.txt` was located and banked on 2026-07-28** at Rev's divergent slug `ut-v-tyler-robinson---day-1` (commit `536e2cc`, *"Locate Day 1 (new slug); REVERSE D-51"*), 327,506 bytes, 2,600 turns, and **read end to end at CR-E05 the same day.**
+**`day1.txt` was located and banked on 2026-07-28** at Rev's divergent slug `ut-v-tyler-robinson---day-1` (commit `954404f`, *"Locate Day 1 (new slug); REVERSE D-51"*), 327,506 bytes, 2,600 turns, and **read end to end at CR-E05 the same day.**
 
 **Seven live sites across five files still said it had never been found:**
 

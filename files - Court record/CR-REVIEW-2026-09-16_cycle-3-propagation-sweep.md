@@ -17,7 +17,7 @@ The first design, a 79-agent workflow, was stopped by the owner on 2026-09-16 (*
 1. **Enumeration** (done before the stop): four enumerators and one merge produced **74 corrected claims** (`C-01`…`C-74`), each with its withdrawn form, withdrawn terms, corrected form and record sites (`enumeration_merged-74-claims.json`).
 2. **Script sweep:** the 74 claims' withdrawn terms were matched against every `.md` in the library's citation namespace plus the two published deliverables — **6,656 raw hits**, reduced by de-duplication and record-site exclusion to a **worklist of 912 hits across 34 files** (`script-sweep_hits.json`, `script-sweep_worklist.json`). A second sweep built the origin files' own hit lists (`script-sweep_origins.json`).
 3. **Readers, under the isolation rule:** one reader per file (two small files shared one), given **the file and its hit list — never the corrections and never a diagnosis** — asked to classify each hit STALE / CONSISTENT / RECORD / UNRELATED / AMBIGUOUS, to quote the exact sentence and a minimal replacement for every STALE hit, and to flag OFF-LIST carriers seen on the full read. Twenty-one reader reports were banked (`reader_*.json`). Fourteen tail files with six hits or fewer were classified by the coordinator from the files.
-4. **Application:** the coordinator applied every STALE and OFF-LIST fix in place with a revision-log row per file, and committed file by file (18 commits, `8910af3..2c5cdf3` and after).
+4. **Application:** the coordinator applied every STALE and OFF-LIST fix in place with a revision-log row per file, and committed file by file (18 commits, `de2bc04..44ab0eb` and after).
 
 ---
 

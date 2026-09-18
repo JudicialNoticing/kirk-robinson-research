@@ -52,7 +52,7 @@ say "== Register integrity =="
 # read each published file TWICE: 30 of the 95 lines this check printed were build output, and
 # the "assignment sites" counts were inflated by up to four files per D-number. A validator that
 # reports phantom files is a validator nobody finishes reading.
-# This is the same cure commit c672f06 applied to the site build's own unclassified scan:
+# This is the same cure commit dcf382f applied to the site build's own unclassified scan:
 # enumerate git-tracked files. A file that is not tracked is not library prose.
 # ⚠ The ceiling and the gap set were NOT affected (a copy carries the same numbers) — the damage
 # was noise and inflated counts, not a wrong number. Verified both ways before the change.
