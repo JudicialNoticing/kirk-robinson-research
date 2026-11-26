@@ -100,6 +100,19 @@ cleanly afterwards. **Either push before it fires, or expect to rebase or re-run
 deployed from the pen-name commit earlier the same day and was re-fetched to confirm it; the
 repository is private; and the site still serves `robots.txt: Disallow: /`.
 
+## 2026-11-26 — the routine kept writing to the OLD history, so the planned force-push became destructive
+
+🚨 **Between 2026-09-19 and 2026-11-25 the docket-watch routine (`trig_016faLfbQWCz72M463Dy8HsL`) fired 21 times onto `origin/main`, which still carried the pre-rewrite history, and committed and pushed its own rows each time (Runs 11–30, plus the Run 24 correction).** `origin/main` moved from `fa305ef` (old) to `787cf95`. **The `git push --force origin main` this file's *Finishing this* section prescribed would have deleted all 21 commits** — two months of docket record — and nobody had re-checked the remote before re-reading that instruction. *A prescribed command is a claim about the state it was written against; re-check the state before running it.*
+
+**What was done (2026-11-26, Claude Code, local only — nothing pushed):**
+1. **The 21 commits were replayed onto the rewritten `main` (`e23a526`) as 21 commits**, each with its original message, author date and committer date. They touch exactly two files, `DOCKET-WATCH.md` and `files - Court record/CR-WATCH-log.md`.
+2. **The rewrite's effect on those two files was measured, not assumed: it is exactly three string substitutions** — `d813dea`→`287c726`, `33bd7ec`→`51c6ee3`, and the account handle → `personal-account`. `sub(fa305ef:file) == e23a526:file` byte-for-byte for both files. Each replayed commit's files are therefore `sub(original)`; **verified for all 21 commits × 2 files, 0 mismatches.** One citation the routine added after the rewrite (Run 11 quoting Run 10's checkout `d813dea`) is carried to `287c726` by the same substitution — the same treatment that hash already had everywhere else in the file.
+3. **Two routine commits carried the owner's personal email as author/committer** (Run 14 `eb2598f`, Run 17 `c75c354`; Run 17's author name was the account handle). Both normalised to `noreply@anthropic.com` / `Claude`; **every other author and committer field is unchanged.** Both run rows state they were cloud firings.
+4. **Verified:** tree outside the two files identical to `e23a526`; 21/21 messages identical; 0 personal identifiers in the added content or metadata; all 21 new objects resolve (`git cat-file --batch-check`). **A clean clone of the result builds the site green** with a fresh venv outside iCloud: 55 published · 43 held · 3 hard-blocked · `robots.txt` = `Disallow: /` · 0 held files and 0 identifier hits in the output.
+5. **Old → new map for the 21 commits:** [`commit-crosswalk-transplant-2026-11-26.txt`](commit-crosswalk-transplant-2026-11-26.txt), same format as the main crosswalk. **The routine's own rows cite their old hashes; they were left as written** (frozen-record rule) — resolve them through this map.
+
+🚨 **A RESIDUE THE 09-18 VERIFICATION DID NOT SEE — truncated forms of the home path.** A full-history byte scan on 2026-11-26 (all 2,235 objects of the reconciled history) found **no full identifier**, but found **prefixes of the absolute home path cut off by an ellipsis** (`/Users/<first 5–11 characters of the username>…`) in agent-journal summaries inside three `*_RAW*.json` artifacts in `files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/` (2026-08-17 batch). **Two of the three are still in the current tree; one exists in history only.** `--replace-text` matched the full string and the truncation defeated it — **an identifier has forms, and a truncated form is one of them.** Not published (artifact banks are excluded wholesale from the site) and the repository is private. **Not fixed: whether to edit in place, add a filter pass, or fold it into the delete-and-recreate route is the owner's call — `QUEUE.md` Q-199.** ⚠ This also means the *"0 hits across all blobs"* row in the table above was true **of the forms searched**, not of every form.
+
 ## Reproducing or reverting
 
 The pre-rewrite repository is backed up in full at
@@ -111,4 +124,5 @@ once you are satisfied.
 | Version | Date | Change |
 | --- | --- | --- |
 | 1.0 | 2026-09-18 | Written at the rewrite (Q-198). |
+| 1.2 | 2026-11-26 | **The 21 routine commits written onto the old history were replayed onto the rewritten one, locally; push still pending (Q-199).** New section above; new file `commit-crosswalk-transplant-2026-11-26.txt`; a truncated-path residue found by a full-history byte scan and recorded, not fixed. The banner at the top still reads *not pushed*, and that remains true. |
 | 1.1 | 2026-09-18 | 🛠 **Crosswalk corrected.** It had been built by chaining the three per-pass commit-maps, which double-applies a mapping `filter-repo` has already composed; all 212 targets were dead hashes, and the 77 citations repaired from it pointed at commits that never existed. Rebuilt from the final pass's map alone; 75 citations re-repaired; both columns verified to resolve. |

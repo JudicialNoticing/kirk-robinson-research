@@ -1,11 +1,31 @@
 # START HERE — next session
 
-**Written:** 2026-08-01 at session close; **newest block §0AK (2026-09-18).** 🛠 *(This pointer read "§0AH" while §0AI existed — the same status-line drift `CR-WATCH-log` corrected at its v2.2 and again at v2.8. Check it when you add a block.)* **Read this first, then [QUEUE.md](QUEUE.md).**
+**Written:** 2026-08-01 at session close; **newest block §0AL (2026-11-26).** 🛠 *(This pointer read "§0AH" while §0AI existed — the same status-line drift `CR-WATCH-log` corrected at its v2.2 and again at v2.8. Check it when you add a block.)* **Read this first, then [QUEUE.md](QUEUE.md).**
 
 > 🗂 **2026-09-15 — REORGANISED (Phase 2 of `AUDIT.md`, owner-approved). Paths changed, content did not.** Tooling is in `scripts/` (`./scripts/queue-check.sh`, `./scripts/tsearch.py`, `./scripts/manifest.py`, `./scripts/artifact_search.py`, `./scripts/docket-watch-run.py`); the verification kit in `docs/research-verification-kit/`; the routine-prompt files in `ops/docket-watch/` (superseded drafts in `archive/docket-watch-prompts/`); the renders in `deliverables/`; the TJR review bank in `verification/`; the three person dossiers in `files - Person profiles/`. **No `files - <Topic>` folder was renamed and nothing inside a bank moved.** Map: `INDEX.md`. 📥 **Same day, platform imports:** the owner's Grok-workspace files (the *Epistemic Framework* + *Discussion Card*, the *Charlie Kirk on Israel* documented record, two Grok conversations of 2026-08-22) are staged in the vault at `_inbox/kirk-robinson-research-import-2026-09-15/` and banked here at `files - Person profiles/PP-ACQ-2026-09-15_platform-imports/` and `docs/discussion-framework/` — all **T4**, nothing citable; **Q-185** decides what travels. ⚠ *This file still carries no row for the 2026-09-14 session (TJR-P01, kit adoption, the bindover order acquired); that write-back is owed.*
 This is a snapshot with dates in it. **If you are reading this well after 2026-09-01 it is stale** — the docket section will have resolved one way or the other, and the work order should be re-derived from QUEUE.md.
 
 ---
+
+## 0AL. SESSION 2026-11-26 (READ FIRST — supersedes §0AK's item (0) and its push instructions; adds to everything else) · 69 days unattended, and the push that would have erased them
+
+> 🚨 **DO NOT RUN §0AK's `git push --force origin main`. It would delete 21 commits.** The docket-watch routine kept firing every Wed/Sat onto the **old** `origin/main` and pushed **Runs 11–30** there (`fa305ef`→`787cf95`, 2026-09-19 → 2026-11-25). **Replayed locally onto the rewritten history and verified** — two files, `sub(original)` byte-identical per commit, two personal-email authors normalised, site build green from a clean clone. Method and checks: `ops/history-rewrite-2026-09-18/README.md` § 2026-11-26. **The push is Q-199 (👤), with the exact commands.** ⚠ The iCloud working copy's `git status` hangs (evicted objects); the replay ran in a sparse clone in a scratch directory and was fetched back.
+>
+> 🔴 **THE CASE MOVED, AND THIS LIBRARY HOLDS NONE OF IT AT TIER 1.** Read `DOCKET-WATCH.md`'s calendar and `CR-WATCH-log` Runs 11–30. In one paragraph, **all index-grade, no order held**: the 10-23 pretrial conference was held with no trial date; at a **2026-11-09** hearing the court reportedly set **jury selection for 2028-06-21** (20 days + 85 trial days), conflict-and-progress reports due **2026-12-14**, monthly status conferences from January, the next appearance **2027-01-14**, venue argument **December 2027**, a readiness checkpoint **2028-04-11** and a final report **2028-05-19**; new tracks opened on **TPUSA/UVU discovery** (defence request 10-06, State's opposition reported 11-20) and on **VCM/metallurgy testing of the bullet fragments** (State's filing reported 11-16); EMC rulings dated 10-28 and 11-06. **The posture line has NOT been changed** — that is Q-201 (👤).
+>
+> ⚠ **The routine has been egress-blocked for 112 days.** Every row since 2026-08-05 is search-index-only; it cannot fetch a document. **This machine can — Q-200 is the acquisition backlog**, ordered by consequence (the 11-09 hearing first).
+>
+> 🆕 **Residue found by a full-history byte scan:** truncated home-path prefixes (`/Users/<partial>…`) in three 2026-08-17 `*_RAW*.json` agent journals survived the 09-18 rewrite. Not published, repository private. **Q-199(b), owner's call; must be settled before the repository is ever public.**
+>
+> ✅ `claude/docket-watch-run-10-2026-09-16` is **already merged** (an ancestor of `origin/main`); delete it with the push. §0AK's *"read the 09-19 firing and merge its branch"* is therefore done — by the routine itself.
+>
+> 📌 **Files changed:** `QUEUE.md` **1.11** (Q-199, Q-200, Q-201) · `ops/history-rewrite-2026-09-18/README.md` **v1.2** + `commit-crosswalk-transplant-2026-11-26.txt` · this block. **Not pushed.**
+>
+> 👤 **Owner, in order of consequence:** (1) **Q-199 push** — before Sat 2026-11-28 13:07Z, or the replay needs one more commit; (2) **Q-201** posture ruling (preferably after Q-200); (3) **Q-199(b)** residue route; (4) carried: Q-198 purge before any public flip, Q-195, Q-31, Q-186, Q-185, domain/`noindex`; (5) **the routine's egress** — the cloud environment's network settings block every host; allowing the court, Rev and news domains would restore its acquisition duties.
+>
+> 🤖 **Next, ordered:** (1) Q-200 acquisition, 11-09 hearing first; (2) Q-197; (3) the P2/P7 isolated cycle on `CR-E22`; (4) Q-196.
+>
+> 📝 **P10 (2026-11-26).** Ran: `RemoteTrigger list`/`list_runs`/`get_run_log` (Run 30); `git ls-remote` + fetch; a graph and identity audit of the 21 commits; a sparse-clone replay; per-commit byte comparison; a full-history object scan (2,235 objects); a clean-clone site build. **Verified:** as listed above. **Not verified:** any case-side claim in Runs 11–30 (read as the routine's record, not re-checked); that GitHub's copy is unchanged since the fetch (re-check at push time). **No case-posture statement touched. No register entry assigned, resolved or moved — D-76 assigned / D-77 next free, unchanged.**
 
 ## 0AK. SESSION 2026-09-18 (READ FIRST — adds to §0AJ; supersedes §0AJ and §0AI ONLY on the deploy) · the site went live, and the attribution name changed
 
