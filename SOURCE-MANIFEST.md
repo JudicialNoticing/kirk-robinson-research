@@ -3,12 +3,12 @@
 > 🚨 **GENERATED FILE — DO NOT EDIT. Re-run `./scripts/manifest.py`.**
 > Hand-maintained indexes in this project have drifted every time they were kept by hand.
 
-**Artifacts:** 386  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 96
+**Artifacts:** 389  ·  **Readability hazards:** 17  ·  **Cited by no library file:** 96
 
 **By class** — ⚠ *a null asserted about the case record is NOT satisfied by process evidence:*
 
 - `platform-import` — 5
-- `primary-source` — 199
+- `primary-source` — 202
 - `process-evidence` — 85
 - `source-capture` — 81
 - `transcript` — 16
@@ -219,6 +219,9 @@
 | `2026-08-20_Q182-crosswalk-anchors_RAW.json` | primary-source | json | 2026-08-20 | structured-data | 1 |
 | `2026-08-20_Q182-crosswalk-locates_RAW.json` | primary-source | json | 2026-08-20 | structured-data | 0 |
 | `2026-09-01_ruling-and-order-on-preliminary-hearing-bindover_` | primary-source | pdf | 2026-09-14 | NO-TEXT-LAYER | 3 |
+| `2026-11-10-pub_rev-trial-setting-hearing-2026-11-09.txt` | primary-source | txt | 2026-11-26 | text-native | 1 |
+| `2026-11-10-pub_rev-trial-setting-hearing-2026-11-09_raw.html` | primary-source | html | 2026-11-26 | raw-capture | 1 |
+| `2026-11-26_utah-county-attorney-case-updates-page_raw.html` | primary-source | html | 2026-11-26 | raw-capture | 1 |
 | `atf_page-26.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 5 |
 | `atf_page-27.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 0 |
 | `atf_page-28.png` | primary-source | png | 2026-07-27 | IMAGE-ONLY | 2 |
@@ -228,8 +231,8 @@
 | `dc_casenumber_bank_receipts.json` | primary-source | json | 2026-08-16 | structured-data | 2 |
 | `docket-artifacts_2026-08-16_NUL-repair_SUPERSESSION.json` | primary-source | json | 2026-08-16 | structured-data | 2 |
 | `docket-watch-baseline.json` | primary-source | json | 2026-08-29 | structured-data | 0 |
-| `oct24_clean.txt` | primary-source | txt | 2026-07-27 | text-native | 7 |
-| `2026-09-01_final-prelim-argument.txt` | transcript | txt | 2026-09-14 | text-native | 4 |
+| `oct24_clean.txt` | primary-source | txt | 2026-07-27 | text-native | 9 |
+| `2026-09-01_final-prelim-argument.txt` | transcript | txt | 2026-09-14 | text-native | 5 |
 | `2026-09-01_final-prelim-argument_raw.html` | transcript | html | 2026-09-14 | raw-capture | 0 |
 | `day1.txt` | transcript | txt | 2026-07-28 | text-native | 30 |
 | `day1_raw.html` | transcript | html | 2026-07-28 | raw-capture | 0 |
@@ -247,7 +250,7 @@
 | `faumuina_condensed.txt` | transcript | txt | 2026-07-27 | text-native | 3 |
 | `tyler-robinson-ballistics-motion.pdf` | primary-source | pdf | 2026-07-27 | text-native | 6 |
 | `tyler-robinson-ballistics-motion.txt` | primary-source | txt | 2026-07-27 | text-native | 6 |
-| `tyler-robinson-redacted-hearing-transcript.pdf` | primary-source | pdf | 2026-07-27 | text-native | 4 |
+| `tyler-robinson-redacted-hearing-transcript.pdf` | primary-source | pdf | 2026-07-27 | text-native | 5 |
 | `legacy.utcourts.gov_cal_.raw` | source-capture | raw | 2026-09-02 | raw-capture | 1 |
 | `legacy.utcourts.gov_cal_search.php_t_c_c_251403576_d_all_loc` | source-capture | raw | 2026-09-02 | raw-capture | 1 |
 | `legacy.utcourts.gov_cal_search.php_t_j_j_Graf_d_all_loc_all.` | source-capture | raw | 2026-09-02 | raw-capture | 1 |

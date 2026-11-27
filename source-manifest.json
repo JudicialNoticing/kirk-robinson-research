@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-09-18T05:36:07+00:00",
- "count": 386,
+ "generated_utc": "2026-11-27T01:39:48+00:00",
+ "count": 389,
  "entries": [
   {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2025-09-10_utah-county-attorney-press-release-uvu-shooting-investigation_dc27880543.pdf",
@@ -3867,6 +3867,64 @@
    "unpaired": true
   },
   {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-11-10-pub_rev-trial-setting-hearing-2026-11-09.txt",
+   "name": "2026-11-10-pub_rev-trial-setting-hearing-2026-11-09.txt",
+   "ext": "txt",
+   "artifact_class": "primary-source",
+   "bytes": 63624,
+   "sha256": "781faa78e6a0449941eb6e242f7e40cab8cedd3a040fd3587ae4ca5e42e8a216",
+   "banked": "2026-11-26",
+   "provenance": {
+    "filename_date": "2026-11-10",
+    "source_route": "Rev transcript"
+   },
+   "readability": "text-native",
+   "fffe_occurrences": 0,
+   "fffe_split_words": [],
+   "how_to_read": "plain search is reliable.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-11-26_trial-setting-hearing-transcript.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-11-10-pub_rev-trial-setting-hearing-2026-11-09_raw.html",
+   "name": "2026-11-10-pub_rev-trial-setting-hearing-2026-11-09_raw.html",
+   "ext": "html",
+   "artifact_class": "primary-source",
+   "bytes": 259550,
+   "sha256": "ce8435f73f9e4f45fb0fd038df6f8ecb64d3de53a2a837a33ec235056d5a9dcc",
+   "banked": "2026-11-26",
+   "provenance": {
+    "filename_date": "2026-11-10",
+    "source_route": "Rev transcript"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-11-26_trial-setting-hearing-transcript.md"
+   ],
+   "unpaired": false
+  },
+  {
+   "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-11-26_utah-county-attorney-case-updates-page_raw.html",
+   "name": "2026-11-26_utah-county-attorney-case-updates-page_raw.html",
+   "ext": "html",
+   "artifact_class": "primary-source",
+   "bytes": 51938,
+   "sha256": "5daa8bbd53913d13622473416a2399d876023cbaece411ed7ae5107cd324e5ac",
+   "banked": "2026-11-26",
+   "provenance": {
+    "filename_date": "2026-11-26"
+   },
+   "readability": "raw-capture",
+   "how_to_read": "source capture; prefer its extraction.",
+   "cited_by": [
+    "files - Court record/CR-ACQ-2026-11-26_trial-setting-hearing-transcript.md"
+   ],
+   "unpaired": false
+  },
+  {
    "path": "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/atf_page-26.png",
    "name": "atf_page-26.png",
    "ext": "png",
@@ -4076,12 +4134,14 @@
    "fffe_split_words": [],
    "how_to_read": "plain search is reliable.",
    "cited_by": [
+    "DOCKET-WATCH.md",
     "QUEUE.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-artifacts/2026-08-16_Q140-twiggs-analytic-pass_RAW.md",
     "files - Court record/CR-E12_closure-classification-and-sealing-map.md",
     "files - Court record/CR-E15_ATF-firearms-report-2025-09-17.md",
     "files - Court record/CR-REVIEW-2026-08-16D_Q105-null-re-runs.md",
+    "files - Court record/CR-WATCH-log.md",
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],
    "unpaired": false
@@ -4102,6 +4162,7 @@
    "fffe_split_words": [],
    "how_to_read": "plain search is reliable.",
    "cited_by": [
+    "DOCKET-WATCH.md",
     "files - Court record/CR-WATCH-log.md",
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md",
     "verification/SESSION-0914-RECONSTRUCTION_2026-09-16_workflow/draft-block_UNVERIFIED.md",
@@ -4555,6 +4616,7 @@
    "cited_by": [
     "QUEUE.md",
     "files - Court record/CR-ACQ-2026-07-27_court-record-acquisition.md",
+    "files - Court record/CR-WATCH-log.md",
     "files - Losee building/tier1 source acquisition roadmap - forensic evidence for Losee building shot.md",
     "files - Person profiles/robinson-tyler-james-comprehensive-profile.md"
    ],

@@ -74,6 +74,7 @@
 | `CR-ACQ-2026-08-20_states-reply.md` | Banking of the State's reply; facial verification only | Provenance of `CR-E17`'s source |
 | `CR-ACQ-2026-09-01_hearing-livestream-capture.md` | The capture record of the 2026-09-01 livestream: two recorders, the stall, the 9:45:10 VOD held | The bindover hearing audio/video |
 | `CR-ACQ-2026-09-16_prelim-hearing-audio-capture.md` | Audio of the five July evidence days from two independent pool-feed uploads (Court TV, KSL), held outside the repo; hashes, durations, and ten spot-checks against the Rev transcripts — Court TV's clock is Rev's clock | The evidence-day audio; testing Rev's speaker labels and garbles |
+| `CR-ACQ-2026-11-26_trial-setting-hearing-transcript.md` | The Rev transcript of the 2026-11-09 trial-setting hearing (Q-200): the court reads its scheduling order; settings tabled; six index-grade calendar statements checked (two contradicted, one not found). `[PROVISIONAL]` | The trial schedule |
 | `CR-ACQ-2026-09-16B_states-opening-memorandum.md` | Banking of the State's 07-28 opening memorandum from the Scribd mirror's page renderings (28/28, hashed); facial provenance two-of-three; contents not characterised | Provenance of the last bindover brief; feeds Q-187 |
 
 ### Audits and reviews (`CR-AUDIT-*`, `CR-REVIEW-*`)

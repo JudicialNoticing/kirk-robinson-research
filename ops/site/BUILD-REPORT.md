@@ -1,12 +1,12 @@
 # Site build report
 
-**Generated** 2026-09-18 by `scripts/build-site.py` — **never hand-edited.**
+**Generated** 2026-11-26 by `scripts/build-site.py` — **never hand-edited.**
 
 This report exists because an exclusion nobody can see is an exclusion nobody can audit.
 Every markdown file named in `ops/site/site.yml` appears below in exactly one state.
 
 - **Published:** 55 pages
-- **Held** (owner decision pending, Phase 2): 43
+- **Held** (owner decision pending, Phase 2): 44
 - **Hard-blocked:** 3
 - Pages whose source carries `[PROVISIONAL]`, banner rendered: **29** of 55
 - Pages carrying the case-posture banner: **52**  *(2 pages — home and licence — render no banners by design)*
@@ -123,6 +123,7 @@ The banner on these pages says so rather than guessing one.
 | `files - Court record/CR-ACQ-2026-09-01_hearing-livestream-capture.md` | acquisition log: access-path and retrieval detail, not a claim file |
 | `files - Court record/CR-ACQ-2026-09-16B_states-opening-memorandum.md` | acquisition log: access-path and retrieval detail, not a claim file |
 | `files - Court record/CR-ACQ-2026-09-16_prelim-hearing-audio-capture.md` | acquisition log: access-path and retrieval detail, not a claim file |
+| `files - Court record/CR-ACQ-2026-11-26_trial-setting-hearing-transcript.md` | acquisition log: access-path and retrieval detail, not a claim file |
 | `files - Court record/CR-AUDIT-2026-07-27_adversarial-pass.md` | process record of a verification cycle, not a claim file |
 | `files - Court record/CR-AUDIT-2026-07-28_independent-pass.md` | process record of a verification cycle, not a claim file |
 | `files - Court record/CR-AUDIT-2026-08-01_session-audit.md` | process record of a verification cycle, not a claim file |

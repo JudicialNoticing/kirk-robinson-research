@@ -253,6 +253,9 @@ pages:
       - src: "files - Court record/CR-ACQ-2026-09-16_prelim-hearing-audio-capture.md"
         state: hold
         reason: "acquisition log: access-path and retrieval detail, not a claim file"
+      - src: "files - Court record/CR-ACQ-2026-11-26_trial-setting-hearing-transcript.md"
+        state: hold
+        reason: "acquisition log: access-path and retrieval detail, not a claim file"
       - src: "files - Court record/CR-AUDIT-2026-07-27_adversarial-pass.md"
         state: hold
         reason: "process record of a verification cycle, not a claim file"
